@@ -1,0 +1,208 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import OfficialMaterialCard from "../../../components/OfficialMaterialCard.astro";
+import TestCard from "../../../components/TestCard.astro";
+import TestProgressScript from "../../../components/TestProgressScript.astro";
+import { topics, type Topic } from "../../../data/topics";
+import { withBase } from "../../../utils/paths";
+
+export async function getStaticPaths() {
+  return topics.map((topic) => ({
+    params: { slug: topic.slug },
+    props: { topic },
+  }));
+}
+
+const { topic } = Astro.props as { topic: Topic };
+---
+
+<BaseLayout title={`${topic.shortTitle} | AprobarApp`} description={topic.description}>
+  <section class:list={["topic-hero", `topic-hero--${topic.accent}`, "content-centered"]}>
+    <div class="topic-hero__main">
+      <p class="eyebrow">{topic.code}</p>
+      <h1>{topic.title}</h1>
+      <p>{topic.description}</p>
+
+      <div class="topic-hero__actions">
+        <a class="button button--primary" href={withBase(topic.pdfPath)}>
+          Abrir PDF
+        </a>
+        <a class="button button--secondary" href="#tests">
+          Ir a los tests
+        </a>
+      </div>
+    </div>
+
+    <div class="topic-hero__stats">
+      <article>
+        <span>Simulacros</span>
+        <strong>{topic.testCount}</strong>
+      </article>
+      <article>
+        <span>Oficiales</span>
+        <strong>{topic.officialCount}</strong>
+      </article>
+      <article>
+        <span>Preguntas base</span>
+        <strong>{topic.questionCount}</strong>
+      </article>
+    </div>
+  </section>
+
+  <section class="topic-columns">
+    <article class="info-panel content-centered">
+      <div class="info-panel__header">
+        <h2>Mapa del tema</h2>
+        <span>{topic.sections.length} bloques</span>
+      </div>
+      <ul class="summary-list">
+        {topic.sections.map((section) => <li>{section}</li>)}
+      </ul>
+    </article>
+
+    <article class="info-panel content-centered">
+      <div class="info-panel__header">
+        <h2>Puntos clave</h2>
+        <span>Resumen rápido</span>
+      </div>
+      <ul class="summary-list">
+        {topic.summary.map((item) => <li>{item}</li>)}
+      </ul>
+    </article>
+  </section>
+
+  <section class="section-block section-block--alt section-block--centered">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Fuente del estudio</p>
+        <h2>PDF del temario</h2>
+      </div>
+      <a class="text-link" href={withBase(topic.pdfPath)}>
+        Abrir en pestaña nueva
+      </a>
+    </div>
+
+    <div class="pdf-panel">
+      <iframe src={withBase(topic.pdfPath)} title={`PDF del tema ${topic.shortTitle}`}></iframe>
+    </div>
+  </section>
+
+  <section class="section-block" id="tests">
+    <div class="section-heading section-heading--centered">
+      <div>
+        <p class="eyebrow">Práctica y seguimiento</p>
+        <h2>Material disponible para este tema</h2>
+      </div>
+    </div>
+
+    <div class="resource-tabs" data-resource-tabs-root>
+      <button class="resource-tabs__button is-active" type="button" data-tab-trigger="simulacros">
+        Simulacros específicos
+        <span>{topic.testCount}</span>
+      </button>
+      <button class="resource-tabs__button" type="button" data-tab-trigger="oficiales">
+        Tests oficiales y ejercicios
+        <span>{topic.officialCount}</span>
+      </button>
+    </div>
+
+    <div class="resource-panel is-active" data-tab-panel="simulacros" id="simulacros">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Simulacros específicos</p>
+          <h2>Tests de práctica para afianzar el tema</h2>
+        </div>
+      </div>
+
+      {
+        topic.hasTests ? (
+          <>
+            <div class="test-grid">
+              {topic.tests.map((test) => <TestCard topic={topic} test={test} />)}
+            </div>
+            <TestProgressScript />
+          </>
+        ) : (
+          <article class="empty-state">
+            <h3>Tema sincronizado, pero sin simulacros todavía</h3>
+            <p>
+              El PDF ya está dentro de la app. Cuando generemos el banco de preguntas de este tema, aquí aparecerán los
+              cinco tests específicos.
+            </p>
+          </article>
+        )
+      }
+    </div>
+
+    <div class="resource-panel" data-tab-panel="oficiales" id="oficiales" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Tests oficiales y ejercicios</p>
+          <h2>Material del profesor para completar sí o sí</h2>
+        </div>
+      </div>
+
+      {
+        topic.hasOfficialMaterials ? (
+          <div class="official-list">
+            {topic.officialMaterials.map((material) => <OfficialMaterialCard material={material} topicSlug={topic.slug} />)}
+          </div>
+        ) : (
+          <article class="empty-state">
+            <h3>Aquí irán los oficiales de este tema</h3>
+            <p>
+              Cuando exista material dentro de `Test/{topic.code}`, aparecerá separado aquí como test oficial o
+              ejercicio, sin mezclarse con los simulacros.
+            </p>
+          </article>
+        )
+      }
+    </div>
+  </section>
+
+  <script is:inline>
+    const resourceTabsRoot = document.querySelector("[data-resource-tabs-root]");
+
+    if (resourceTabsRoot) {
+      const tabButtons = [...resourceTabsRoot.querySelectorAll("[data-tab-trigger]")];
+      const tabPanels = [...document.querySelectorAll("[data-tab-panel]")];
+
+      const setActivePanel = (tabId, updateHash = false) => {
+        for (const button of tabButtons) {
+          const isActive = button.getAttribute("data-tab-trigger") === tabId;
+          button.classList.toggle("is-active", isActive);
+          button.setAttribute("aria-pressed", isActive ? "true" : "false");
+        }
+
+        for (const panel of tabPanels) {
+          const isActive = panel.getAttribute("data-tab-panel") === tabId;
+          panel.classList.toggle("is-active", isActive);
+          panel.hidden = !isActive;
+        }
+
+        if (updateHash) {
+          const nextHash = tabId === "oficiales" ? "#oficiales" : "#tests";
+          window.history.replaceState(null, "", nextHash);
+        }
+      };
+
+      const readTabFromHash = () => (window.location.hash === "#oficiales" ? "oficiales" : "simulacros");
+
+      setActivePanel(readTabFromHash());
+
+      for (const button of tabButtons) {
+        button.addEventListener("click", () => {
+          const tabId = button.getAttribute("data-tab-trigger");
+
+          if (tabId === "simulacros" || tabId === "oficiales") {
+            setActivePanel(tabId, true);
+          }
+        });
+      }
+
+      window.addEventListener("hashchange", () => {
+        setActivePanel(readTabFromHash());
+      });
+    }
+  </script>
+</BaseLayout>

@@ -1,0 +1,84 @@
+---
+import { withBase } from "../utils/paths";
+
+const currentPath = Astro.url.pathname;
+const links = [
+  { href: withBase(""), label: "Inicio" },
+  { href: withBase("temarios/"), label: "Temarios" },
+];
+---
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href={withBase("")}>
+      <span class="brand__eyebrow">TAI 2027</span>
+      <span class="brand__name">AprobarApp</span>
+    </a>
+
+    <div class="site-header__controls">
+      <nav class="nav-tabs" aria-label="Navegación principal">
+        {
+          links.map((link) => (
+            <a class:list={["nav-tabs__link", currentPath === new URL(link.href, Astro.url).pathname && "is-active"]} href={link.href}>
+              {link.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <div class="theme-toggle" aria-label="Cambiar tema">
+        <button class="theme-toggle__button" type="button" data-theme-option="light">
+          Claro
+        </button>
+        <button class="theme-toggle__button" type="button" data-theme-option="dark">
+          Oscuro
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  const storageKey = "aprobarapp:theme";
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+
+  const syncThemeButtons = () => {
+    const currentTheme = document.documentElement.dataset.theme || "light";
+    const themeButtons = document.querySelectorAll("[data-theme-option]");
+
+    for (const button of themeButtons) {
+      const isActive = button.getAttribute("data-theme-option") === currentTheme;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    }
+
+    if (themeMeta) {
+      themeMeta.setAttribute("content", currentTheme === "dark" ? "#101114" : "#f5f1e8");
+    }
+  };
+
+  syncThemeButtons();
+
+  document.addEventListener("click", (event) => {
+    const button = event.target instanceof Element ? event.target.closest("[data-theme-option]") : null;
+
+    if (!button) {
+      return;
+    }
+
+    const selectedTheme = button.getAttribute("data-theme-option");
+
+    if (selectedTheme !== "light" && selectedTheme !== "dark") {
+      return;
+    }
+
+    document.documentElement.dataset.theme = selectedTheme;
+    document.documentElement.style.colorScheme = selectedTheme;
+
+    try {
+      window.localStorage.setItem(storageKey, selectedTheme);
+    } catch {}
+
+    syncThemeButtons();
+  });
+</script>

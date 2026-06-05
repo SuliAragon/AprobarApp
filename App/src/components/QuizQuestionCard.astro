@@ -1,0 +1,35 @@
+---
+import type { QuizQuestion } from "../data/question-bank";
+
+interface Props {
+  index: number;
+  question: QuizQuestion;
+}
+
+const { index, question } = Astro.props;
+---
+
+<article class="quiz-question" data-question data-correct={question.correctOption}>
+  <div class="quiz-question__header">
+    <span class="quiz-question__index">Pregunta {index + 1}</span>
+    <span class="quiz-question__section">{question.section.replace(/-/g, " ")}</span>
+  </div>
+
+  <h3>{question.prompt}</h3>
+
+  <div class="quiz-options">
+    {
+      question.options.map((option) => (
+        <button class="quiz-option" type="button" data-option={option.id}>
+          <span class="quiz-option__letter">{option.id.toUpperCase()}</span>
+          <span>{option.label}</span>
+        </button>
+      ))
+    }
+  </div>
+
+  <div class="quiz-feedback" data-feedback hidden>
+    <p class="quiz-feedback__title" data-feedback-title></p>
+    <p class="quiz-feedback__body">{question.explanation}</p>
+  </div>
+</article>

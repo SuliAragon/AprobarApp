@@ -1,0 +1,83 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HeroStats from "../components/HeroStats.astro";
+import TopicCard from "../components/TopicCard.astro";
+import { topics } from "../data/topics";
+import { withBase } from "../utils/paths";
+
+const totalTopics = topics.length;
+const totalTests = topics.reduce((accumulator, topic) => accumulator + topic.testCount, 0);
+const totalQuestions = topics.reduce((accumulator, topic) => accumulator + topic.questionCount, 0);
+const featuredTopics = topics.slice(0, 3);
+---
+
+<BaseLayout title="AprobarApp | TAI 2027" description="Temarios TAI con tests tipo autoescuela en Astro.">
+  <section class="hero content-centered">
+    <div class="hero__content">
+      <p class="eyebrow">Preparación TAI 2027</p>
+      <h1>Estudia cada tema con tests tipo oposición y corrección inmediata.</h1>
+      <p class="hero__lede">
+        AprobarApp convierte cada PDF del temario en una zona de estudio clara: acceso directo al tema, tests
+        específicos, corrección visual y seguimiento estilo autoescuela.
+      </p>
+      <div class="hero__actions">
+        <a class="button button--primary" href={withBase("temarios/")}>Entrar al temario</a>
+        <a class="button button--secondary" href="#como-funciona">Cómo está organizado</a>
+      </div>
+    </div>
+
+    <div class="hero__panel">
+      <HeroStats totalTopics={totalTopics} totalTests={totalTests} totalQuestions={totalQuestions} />
+      <div class="hero-note">
+        <p class="hero-note__title">Modo autoescuela</p>
+        <p>0 fallos: verde. 1 a 3 fallos: amarillo. Más de 3: rojo. Las respuestas correctas se explican al momento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-block section-block--centered">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Temas activos</p>
+        <h2>Lo que ya está preparado</h2>
+      </div>
+      <a class="text-link" href={withBase("temarios/")}>Ver todos</a>
+    </div>
+
+    <div class="topic-grid topic-grid--centered">
+      {featuredTopics.map((topic) => <TopicCard topic={topic} />)}
+    </div>
+  </section>
+
+  <section class="section-block section-block--alt section-block--centered" id="como-funciona">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Flujo de estudio</p>
+        <h2>Cómo te sirve la app en el día a día</h2>
+      </div>
+    </div>
+
+    <div class="study-steps study-steps--centered">
+      <article>
+        <span>01</span>
+        <h3>Subes un PDF</h3>
+        <p>La carpeta `Temario` es la fuente. La app lo detecta y lo deja visible dentro de Astro al construir el sitio.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Entras al tema</h3>
+        <p>Cada tema tiene su ficha, resumen rápido, acceso al PDF y los simulacros específicos disponibles.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Haces el test</h3>
+        <p>Las opciones correctas e incorrectas se marcan al instante y la explicación te dice por qué.</p>
+      </article>
+      <article>
+        <span>04</span>
+        <h3>Ves tu color</h3>
+        <p>El navegador guarda el resultado y el test se pinta como autoescuela para que sepas dónde insistir.</p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

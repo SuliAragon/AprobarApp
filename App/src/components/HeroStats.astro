@@ -1,0 +1,24 @@
+---
+interface Props {
+  totalTopics: number;
+  totalTests: number;
+  totalQuestions: number;
+}
+
+const { totalTopics, totalTests, totalQuestions } = Astro.props;
+---
+
+<div class="hero-stats">
+  <article class="hero-stats__item">
+    <span class="hero-stats__label">Temas cargados</span>
+    <strong>{totalTopics}</strong>
+  </article>
+  <article class="hero-stats__item">
+    <span class="hero-stats__label">Tests específicos</span>
+    <strong>{totalTests}</strong>
+  </article>
+  <article class="hero-stats__item">
+    <span class="hero-stats__label">Preguntas base</span>
+    <strong>{totalQuestions}</strong>
+  </article>
+</div>

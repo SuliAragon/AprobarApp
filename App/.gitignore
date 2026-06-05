@@ -1,0 +1,6 @@
+node_modules
+dist
+.astro
+public/temario
+public/test-oficial
+src/data/generated

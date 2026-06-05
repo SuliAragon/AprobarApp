@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TopicCard from "../../components/TopicCard.astro";
+import { topics } from "../../data/topics";
+---
+
+<BaseLayout title="Temarios | AprobarApp" description="Listado de temarios y tests específicos para TAI 2027.">
+  <section class="page-hero content-centered">
+    <p class="eyebrow">Biblioteca de estudio</p>
+    <h1>Temarios cargados en AprobarApp</h1>
+    <p>
+      Cada tarjeta te lleva al PDF, al resumen y a los tests específicos del tema. La estructura está pensada para
+      estudiar por bloques y no mezclar contenidos todavía.
+    </p>
+  </section>
+
+  <section class="section-block section-block--centered">
+    <div class="topic-grid topic-grid--centered">
+      {topics.map((topic) => <TopicCard topic={topic} />)}
+    </div>
+  </section>
+</BaseLayout>

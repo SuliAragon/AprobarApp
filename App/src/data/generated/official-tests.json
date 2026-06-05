@@ -1,0 +1,2778 @@
+[
+  {
+    "code": "B1T1",
+    "slug": "b1t1-test-oficial-ce-1",
+    "title": "Test oficial CE 1",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "B1T1/B1T1Test_CE_1 1.pdf",
+    "assetPath": "/test-oficial/B1T1/b1t1-test-oficial-ce-1.pdf",
+    "questions": [
+      {
+        "id": "b1t1-test-oficial-ce-1-1",
+        "section": "test-oficial",
+        "prompt": "¿En qué parte de la Constitución Española se regula la nacionalidad española?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el Título Preliminar."
+          },
+          {
+            "id": "b",
+            "label": "En el Preámbulo."
+          },
+          {
+            "id": "c",
+            "label": "En el Título Primero."
+          },
+          {
+            "id": "d",
+            "label": "En el Título Segundo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: En el Título Primero."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-2",
+        "section": "test-oficial",
+        "prompt": "De acuerdo su Preámbulo, ¿quién ratifica la Constitución Española de 1978?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey."
+          },
+          {
+            "id": "b",
+            "label": "El pueblo español."
+          },
+          {
+            "id": "c",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "El Gobierno."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El pueblo español."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-3",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Constitución Española, ¿cuál de las siguientes funciones corresponde al Rey?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La iniciativa de reforma constitucional."
+          },
+          {
+            "id": "b",
+            "label": "Dirigir la acción del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Proponer la disolución del Congreso, del Senado o de las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "Convocar elecciones en los términos previstos en la Constitución."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Convocar elecciones en los términos previstos en la Constitución."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-4",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La sucesión en el trono seguirá el orden regular de premoriencia y representación."
+          },
+          {
+            "id": "b",
+            "label": "La persona del Rey es inviolable y no está sujeta a responsabilidad."
+          },
+          {
+            "id": "c",
+            "label": "Las abdicaciones y renuncias y cualquier duda de hecho o de derecho que ocurra en el orden de sucesión a la Corona se resolverán por una ley marco."
+          },
+          {
+            "id": "d",
+            "label": "El Rey nombra y releva a los miembros civiles y militares de su Casa previa autorización de las Cortes Generales."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La persona del Rey es inviolable y no está sujeta a responsabilidad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-5",
+        "section": "test-oficial",
+        "prompt": "Es susceptible de recurso de amparo ante el Tribunal Constitucional la vulneración del derecho:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la libertad de cátedra."
+          },
+          {
+            "id": "b",
+            "label": "A la herencia."
+          },
+          {
+            "id": "c",
+            "label": "A contraer matrimonio con plena igualdad jurídica."
+          },
+          {
+            "id": "d",
+            "label": "A disfrutar de una vivienda digna y adecuada."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: A la libertad de cátedra."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-6",
+        "section": "test-oficial",
+        "prompt": "El artículo 29 de la Constitución Española reconoce el derecho de petición a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todos los ciudadanos."
+          },
+          {
+            "id": "b",
+            "label": "Todos los españoles."
+          },
+          {
+            "id": "c",
+            "label": "Todas las personas que residen en territorio español."
+          },
+          {
+            "id": "d",
+            "label": "Todas las personas censadas en España."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Todos los españoles."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-7",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes funciones NO corresponde al Rey, de conformidad con la Constitución Española?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Promulgar leyes."
+          },
+          {
+            "id": "b",
+            "label": "Dirigir la Administración militar."
+          },
+          {
+            "id": "c",
+            "label": "Convocar referéndum en los casos previstos en la Constitución Española."
+          },
+          {
+            "id": "d",
+            "label": "Nombrar y separar a los miembros del Gobierno."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Dirigir la Administración militar."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-8",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, ¿cuál de los siguientes derechos debe ser desarrollado mediante ley orgánica?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El derecho a la propiedad privada."
+          },
+          {
+            "id": "b",
+            "label": "El derecho de huelga de los trabajadores para la defensa de sus intereses."
+          },
+          {
+            "id": "c",
+            "label": "El derecho a la protección a la salud."
+          },
+          {
+            "id": "d",
+            "label": "El derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El derecho de huelga de los trabajadores para la defensa de sus intereses."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-9",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, la función de promulgar las leyes corresponde a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "El Rey."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Rey."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-10",
+        "section": "test-oficial",
+        "prompt": "El derecho al honor, a la intimidad personal y familiar y a la propia imagen queda garantizado por el artículo 18.1 de la Constitución Española. Este derecho podrá ser suspendido:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En ningún caso podrá ser suspendido."
+          },
+          {
+            "id": "b",
+            "label": "Una Ley orgánica podrá determinar la forma y los casos en los que, de forma individual y con el adecuado puedan ser suspendido."
+          },
+          {
+            "id": "c",
+            "label": "Cuando se acuerde la declaración del estado de excepción o de sitio en los términos previstos en la Constitución."
+          },
+          {
+            "id": "d",
+            "label": "Únicamente cuando se acuerde el estado de sitio en los términos previstos por la Constitución en el artículo 116."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: En ningún caso podrá ser suspendido."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-11",
+        "section": "test-oficial",
+        "prompt": "Conforme a la Constitución Española, la forma política del Estado español es la:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Monarquía democrática."
+          },
+          {
+            "id": "b",
+            "label": "Monarquía limitada."
+          },
+          {
+            "id": "c",
+            "label": "Monarquía constitucional."
+          },
+          {
+            "id": "d",
+            "label": "Monarquía parlamentaria."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Monarquía parlamentaria."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-12",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, los valores superiores del ordenamiento jurídico son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La libertad, la justicia, la igualdad y el pluralismo político."
+          },
+          {
+            "id": "b",
+            "label": "La legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad de los poderes públicos."
+          },
+          {
+            "id": "c",
+            "label": "Los derechos fundamentales y las libertades públicas."
+          },
+          {
+            "id": "d",
+            "label": "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La libertad, la justicia, la igualdad y el pluralismo político."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-13",
+        "section": "test-oficial",
+        "prompt": "El artículo 27 de la Constitución Española regula el derecho a la educación. En este precepto se prevé expresamente que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todos los españoles tienen derecho a la educación universitaria."
+          },
+          {
+            "id": "b",
+            "label": "Todos tienen derecho a la educación, sin que se haga referencia a nacionalidad alguna, reconociéndose además la libertad de enseñanza."
+          },
+          {
+            "id": "c",
+            "label": "Las Comunidades Autónomas tendrá derecho a desarrollar la legislación básica que apruebe el Estado en materia educativa."
+          },
+          {
+            "id": "d",
+            "label": "Los poderes públicos fomentarán la formación profesional orientado al mercado de trabajo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Todos tienen derecho a la educación, sin que se haga referencia a nacionalidad alguna, reconociéndose además la libertad de enseñanza."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-14",
+        "section": "test-oficial",
+        "prompt": "En relación con los principios rectores de la política social y económica previstos en el Capítulo III del Título I de la Constitución Española, su reconocimiento, respeto y protección se asegura del siguiente modo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Está sujeto a reserva de ley orgánica."
+          },
+          {
+            "id": "b",
+            "label": "Permite la interposición del recurso de amparo para garantizar su protección."
+          },
+          {
+            "id": "c",
+            "label": "No cabe la interposición del recurso de amparo, pero sí la vía judicial preferente y sumaria, en todo caso."
+          },
+          {
+            "id": "d",
+            "label": "Informarán la legislación positiva, la práctica judicial y la actuación de los poderes públicos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Informarán la legislación positiva, la práctica judicial y la actuación de los poderes públicos."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-15",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, de los actos del Rey será responsable:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los miembros civiles y militares de la Casa Real."
+          },
+          {
+            "id": "b",
+            "label": "El Rey."
+          },
+          {
+            "id": "c",
+            "label": "Aquel que los refrende."
+          },
+          {
+            "id": "d",
+            "label": "Aquel que los proponga."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Aquel que los refrende."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-16",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 57 de la Constitución Española, cualquier duda de hecho o de derecho que ocurra en el orden de sucesión a la Corona, se resolverá:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por una ley orgánica."
+          },
+          {
+            "id": "b",
+            "label": "Por el Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "Por el Tribunal Constitucional."
+          },
+          {
+            "id": "d",
+            "label": "Por las Cortes Generales mediante acuerdo conjunto."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Por una ley orgánica."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-17",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, el instrumento fundamental para la participación política son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "Los partidos políticos."
+          },
+          {
+            "id": "c",
+            "label": "Los sindicatos."
+          },
+          {
+            "id": "d",
+            "label": "Las Comunidades Autónomas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Los partidos políticos."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-18",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Constitución Española, extinguidas todas las líneas llamadas en Derecho para la sucesión en el trono:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales proveerán a la sucesión en la forma que más convenga a los intereses de España."
+          },
+          {
+            "id": "b",
+            "label": "Las Cortes Generales proveerán a la sucesión atendiendo exclusivamente a los imperativos genealógicos conocidos."
+          },
+          {
+            "id": "c",
+            "label": "El Congreso de los Diputados proveerá a la sucesión de conformidad con los usos y costumbres existentes."
+          },
+          {
+            "id": "d",
+            "label": "El Congreso de los Diputados proveerá a la sucesión a lo que decidan dos grupos parlamentarios o una quinta parte de los Diputados."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Las Cortes Generales proveerán a la sucesión en la forma que más convenga a los intereses de España."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-19",
+        "section": "test-oficial",
+        "prompt": "La tutela de los derechos fundamentales y libertades públicas reconocidos en la Sección primera del Capítulo II del Título I de la Constitución Española podrá recabarse por cualquier ciudadano:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Solo ante el Tribunal Constitucional de acuerdo con lo previsto en el art. 161.1.a), referente al recurso de inconstitucionalidad."
+          },
+          {
+            "id": "b",
+            "label": "Solo ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad."
+          },
+          {
+            "id": "c",
+            "label": "Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, ante el Tribunal Constitucional a través del recurso de inconstitucionalidad."
+          },
+          {
+            "id": "d",
+            "label": "Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-20",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 22 de la Constitución Española, las asociaciones solo podrán ser disueltas o suspendidas en sus actividades:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por Real Decreto."
+          },
+          {
+            "id": "b",
+            "label": "Por Orden del Ministerio de Interior."
+          },
+          {
+            "id": "c",
+            "label": "Por resolución judicial motivada."
+          },
+          {
+            "id": "d",
+            "label": "Por resolución del Delegado del Gobierno de la Comunidad Autónoma donde tenga establecido su domicilio la asociación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Por resolución judicial motivada."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-21",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 59 de la Constitución Española, será válida la Regencia nombrada por las Cortes Generales que se componga del siguiente número de personas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cinco."
+          },
+          {
+            "id": "b",
+            "label": "Dos."
+          },
+          {
+            "id": "c",
+            "label": "Cuatro."
+          },
+          {
+            "id": "d",
+            "label": "Siete."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Cinco."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-22",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, el ejercicio de la libertad de expresión y del derecho de información pueden restringirse:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En caso de flagrante delito."
+          },
+          {
+            "id": "b",
+            "label": "No puede restringirse mediante ningún tipo de censura previa."
+          },
+          {
+            "id": "c",
+            "label": "Por resolución de la Administración competente."
+          },
+          {
+            "id": "d",
+            "label": "Estableciendo un sistema de control previo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: No puede restringirse mediante ningún tipo de censura previa."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-23",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, cuando se acuerde la declaración del estado de excepción o de sitio, la Constitución NO permite la suspensión de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El derecho a la inviolabilidad del domicilio."
+          },
+          {
+            "id": "b",
+            "label": "El derecho a adoptar medidas de conflicto colectivo."
+          },
+          {
+            "id": "c",
+            "label": "El derecho de asociación."
+          },
+          {
+            "id": "d",
+            "label": "El derecho a comunicar o recibir libremente información veraz."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El derecho de asociación."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-24",
+        "section": "test-oficial",
+        "prompt": "Según se establece en la Constitución Española, los poderes públicos promoverán en beneficio del interés general:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La investigación científica."
+          },
+          {
+            "id": "b",
+            "label": "La ciencia."
+          },
+          {
+            "id": "c",
+            "label": "La investigación técnica."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Todas las respuestas son correctas."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-25",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española dispone, en relación con la Iglesia Católica y las demás confesiones religiosas que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los poderes públicos deberán adoptar relaciones oficiales con las mismas."
+          },
+          {
+            "id": "b",
+            "label": "Los poderes públicos mantendrán relaciones de cooperación con las mismas."
+          },
+          {
+            "id": "c",
+            "label": "Los poderes públicos y privados mantendrán relaciones de cooperación con las mismas."
+          },
+          {
+            "id": "d",
+            "label": "El Estado y las Comunidades Autónomas, en sus respectivos Estatutos de Autonomía, adoptarán como oficiales las que correspondan."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Los poderes públicos mantendrán relaciones de cooperación con las mismas."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-26",
+        "section": "test-oficial",
+        "prompt": "La tortura y las penas o tratos inhumanos o degradantes, según la regulación constitucional, atentan contra el derecho a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La libertad personal y la seguridad."
+          },
+          {
+            "id": "b",
+            "label": "La libertad de expresión."
+          },
+          {
+            "id": "c",
+            "label": "El honor y la intimidad personal y familiar."
+          },
+          {
+            "id": "d",
+            "label": "La vida y la integridad física y moral."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: La vida y la integridad física y moral."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-27",
+        "section": "test-oficial",
+        "prompt": "El artículo 14 de Constitución Española establece el principio de igualdad de los españoles ante la ley. La Constitución prohíbe que pueda prevalecer discriminación alguna, entre otras circunstancias, por razón de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nacionalidad, raza, sexo y religión."
+          },
+          {
+            "id": "b",
+            "label": "Sexo, nacimiento, religión, opinión y raza."
+          },
+          {
+            "id": "c",
+            "label": "Opinión, sexo, creencias y raza."
+          },
+          {
+            "id": "d",
+            "label": "Nacionalidad, sexo, creencias, nacimiento y opinión."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Sexo, nacimiento, religión, opinión y raza."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-28",
+        "section": "test-oficial",
+        "prompt": "El régimen público de Seguridad Social, que la Constitución Española obliga a mantener a todos los poderes públicos, debe garantizar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las prestaciones y servicios suficientes."
+          },
+          {
+            "id": "b",
+            "label": "La asistencia y prestaciones sociales suficientes."
+          },
+          {
+            "id": "c",
+            "label": "La atención y prestaciones sociales adecuadas."
+          },
+          {
+            "id": "d",
+            "label": "La asistencia y prestaciones complementarias suficientes."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La asistencia y prestaciones sociales suficientes."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-29",
+        "section": "test-oficial",
+        "prompt": "El derecho reconocido en la Constitución Española a acceder en condiciones de igualdad a las funciones y cargos públicos requiere el cumplimiento de los requisitos señalados por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los poderes públicos."
+          },
+          {
+            "id": "b",
+            "label": "Las leyes."
+          },
+          {
+            "id": "c",
+            "label": "Los tratados y las leyes."
+          },
+          {
+            "id": "d",
+            "label": "Las normas jurídicas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Las leyes."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-30",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, la ley:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Garantizará el deber de negociar en materia laboral entre los representantes de los trabajadores y empresarios."
+          },
+          {
+            "id": "b",
+            "label": "Garantizará la fuerza vinculante de los convenios."
+          },
+          {
+            "id": "c",
+            "label": "Facilitará el derecho a la negociación colectiva laboral."
+          },
+          {
+            "id": "d",
+            "label": "Podrá reconocer la fuerza vinculante de los convenios."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Garantizará la fuerza vinculante de los convenios."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-31",
+        "section": "test-oficial",
+        "prompt": "España se constituye, según el artículo 1 de la Constitución Española, en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La libertad, la justicia, la igualdad y la publicidad de las normas."
+          },
+          {
+            "id": "b",
+            "label": "La legalidad, la justicia, la igualdad y el pluralismo político."
+          },
+          {
+            "id": "c",
+            "label": "La libertad, la justicia, la igualdad y el pluralismo político."
+          },
+          {
+            "id": "d",
+            "label": "La legalidad, la jerarquía, la igualdad y el pluralismo político."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La libertad, la justicia, la igualdad y el pluralismo político."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-32",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española reconoce el derecho de todos a disfrutar de un medio ambiente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Digno y adecuado para el desarrollo de la sociedad."
+          },
+          {
+            "id": "b",
+            "label": "Adecuado para la integridad de la persona."
+          },
+          {
+            "id": "c",
+            "label": "Adecuado para el desarrollo de la persona."
+          },
+          {
+            "id": "d",
+            "label": "Digno y adecuado para el desarrollo de la persona."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Adecuado para el desarrollo de la persona."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-33",
+        "section": "test-oficial",
+        "prompt": "Los poderes públicos, según la Constitución Española, deben promover las condiciones favorables para el progreso social y económico y para una distribución de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La renta regional y general más justa."
+          },
+          {
+            "id": "b",
+            "label": "La renta personal y regional más equitativa."
+          },
+          {
+            "id": "c",
+            "label": "La asistencia personal y regional estable y equitativa."
+          },
+          {
+            "id": "d",
+            "label": "La renta regional y social más equitativa."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La renta personal y regional más equitativa."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-34",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española reconoce el derecho a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La protección de la salud física."
+          },
+          {
+            "id": "b",
+            "label": "La protección de la salud."
+          },
+          {
+            "id": "c",
+            "label": "La salud pública."
+          },
+          {
+            "id": "d",
+            "label": "La protección sanitaria de la salud."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La protección de la salud."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-35",
+        "section": "test-oficial",
+        "prompt": "Además de las penas privativas de libertad, la Constitución Española dispone que estarán orientadas hacia la reeducación y reinserción social:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las medidas de seguridad privativas."
+          },
+          {
+            "id": "b",
+            "label": "Las medidas de seguridad privativas de libertad."
+          },
+          {
+            "id": "c",
+            "label": "Las medidas de seguridad."
+          },
+          {
+            "id": "d",
+            "label": "Las medidas privativas de seguridad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Las medidas de seguridad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-36",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Constitución Española, el procedimiento ante los Tribunales ordinarios para recabar la tutela de los derechos fundamentales y libertades públicas está basado en los principios de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Juez ordinario predeterminado por la Ley y preferencia y sumariedad."
+          },
+          {
+            "id": "b",
+            "label": "Preferencia y publicidad sin dilaciones indebidas."
+          },
+          {
+            "id": "c",
+            "label": "Preferencia y sumariedad."
+          },
+          {
+            "id": "d",
+            "label": "Tutela efectiva y sumariedad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Preferencia y sumariedad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-37",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, los centros docentes sostenidos por la Administración con fondos públicos estarán intervenidos en el control y gestión por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La dirección de los mismos."
+          },
+          {
+            "id": "b",
+            "label": "El profesorado y los padres."
+          },
+          {
+            "id": "c",
+            "label": "La propia Administración."
+          },
+          {
+            "id": "d",
+            "label": "El profesorado, los padres y, en su caso, los alumnos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El profesorado, los padres y, en su caso, los alumnos."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-38",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, el gasto público realizará una:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Asignación equitativa de los ingresos personales o patrimoniales de carácter público."
+          },
+          {
+            "id": "b",
+            "label": "Distribución equitativa de los ingresos públicos."
+          },
+          {
+            "id": "c",
+            "label": "Asignación eficiente de los recursos públicos."
+          },
+          {
+            "id": "d",
+            "label": "Asignación equitativa de los recursos públicos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Asignación equitativa de los recursos públicos."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-39",
+        "section": "test-oficial",
+        "prompt": "La inscripción de las asociaciones constituidas al amparo del artículo 22 de la Constitución Española debe efectuarse:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A los efectos de su reconocimiento."
+          },
+          {
+            "id": "b",
+            "label": "A los solos efectos de su constitución."
+          },
+          {
+            "id": "c",
+            "label": "A los solos efectos de publicidad."
+          },
+          {
+            "id": "d",
+            "label": "A los efectos de información."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: A los solos efectos de publicidad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-40",
+        "section": "test-oficial",
+        "prompt": "Se consideran asociaciones ilegales por la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las asociaciones secretas."
+          },
+          {
+            "id": "b",
+            "label": "Las que persigan fines ilícitos."
+          },
+          {
+            "id": "c",
+            "label": "Las asociaciones que utilicen medios tipificados como delito."
+          },
+          {
+            "id": "d",
+            "label": "Las asociaciones indebidamente inscritas en el registro."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Las asociaciones que utilicen medios tipificados como delito."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-41",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, el sistema tributario se inspira en los principios de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Justicia e igualdad."
+          },
+          {
+            "id": "b",
+            "label": "Legalidad, economía y justicia."
+          },
+          {
+            "id": "c",
+            "label": "Igualdad y progresividad."
+          },
+          {
+            "id": "d",
+            "label": "Progresividad, confiscatoriedad e igualdad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Igualdad y progresividad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-42",
+        "section": "test-oficial",
+        "prompt": "La garantía constitucional de no privación de la nacionalidad española se asegura a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todos los españoles."
+          },
+          {
+            "id": "b",
+            "label": "Los españoles de origen y los que posean la doble nacionalidad."
+          },
+          {
+            "id": "c",
+            "label": "Sólo a los españoles de origen."
+          },
+          {
+            "id": "d",
+            "label": "Los extranjeros naturalizados en España."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Sólo a los españoles de origen."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-43",
+        "section": "test-oficial",
+        "prompt": "Atendiendo a la estructura de la Constitución Española, el derecho a disfrutar de una vivienda digna y adecuada es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un derecho fundamental."
+          },
+          {
+            "id": "b",
+            "label": "Un derecho ciudadano."
+          },
+          {
+            "id": "c",
+            "label": "Un principio rector."
+          },
+          {
+            "id": "d",
+            "label": "Ninguno de los anteriores."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Un principio rector."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-44",
+        "section": "test-oficial",
+        "prompt": "En su artículo 14 la Constitución española propugna que los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Opinión."
+          },
+          {
+            "id": "b",
+            "label": "Género."
+          },
+          {
+            "id": "c",
+            "label": "Ideología."
+          },
+          {
+            "id": "d",
+            "label": "Creencias."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Opinión."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-45",
+        "section": "test-oficial",
+        "prompt": "Para la sucesión en el trono en España, según la Constitución Española, será preferido en el mismo grado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El grado más próximo al más remoto."
+          },
+          {
+            "id": "b",
+            "label": "El varón a la mujer."
+          },
+          {
+            "id": "c",
+            "label": "La persona de más edad a la de menos."
+          },
+          {
+            "id": "d",
+            "label": "La línea anterior a la posterior."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El varón a la mujer."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-46",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 9.1 de la Constitución española, ¿a qué están sujetos los poderes públicos y los ciudadanos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la Constitución, a la ley y al resto del ordenamiento jurídico."
+          },
+          {
+            "id": "b",
+            "label": "A la Constitución y al resto del ordenamiento jurídico."
+          },
+          {
+            "id": "c",
+            "label": "A la ley y al ordenamiento jurídico."
+          },
+          {
+            "id": "d",
+            "label": "A la Constitución y a la ley."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: A la Constitución y al resto del ordenamiento jurídico."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-47",
+        "section": "test-oficial",
+        "prompt": "¿Qué parte de la Constitución Española NO tiene valor normativo o fuerza jurídica?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Preámbulo."
+          },
+          {
+            "id": "b",
+            "label": "Todas las partes de la Constitución tienen fuerza jurídica."
+          },
+          {
+            "id": "c",
+            "label": "Las Disposiciones adicionales."
+          },
+          {
+            "id": "d",
+            "label": "El Título Preliminar."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Preámbulo."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-48",
+        "section": "test-oficial",
+        "prompt": "Conforme al artículo 13.1 de la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los extranjeros gozan en España, de las libertades públicas que garantiza el Título I de la Constitución."
+          },
+          {
+            "id": "b",
+            "label": "Los extranjeros gozan en España, de las libertades del Capítulo II, Título I de la Constitución."
+          },
+          {
+            "id": "c",
+            "label": "Los extranjeros gozan en España, de los derechos y libertades del Título I de la Constitución."
+          },
+          {
+            "id": "d",
+            "label": "Los extranjeros gozan en España, de los derechos y libertades del Capítulo II, Título I de la Constitución."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Los extranjeros gozan en España, de las libertades públicas que garantiza el Título I de la Constitución."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-49",
+        "section": "test-oficial",
+        "prompt": "Establece la Constitución Española que el derecho a la huelga deberá ser desarrollado por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ley."
+          },
+          {
+            "id": "b",
+            "label": "Ley o Decreto-Legislativo."
+          },
+          {
+            "id": "c",
+            "label": "Ley Ordinaria o Ley Orgánica según los casos."
+          },
+          {
+            "id": "d",
+            "label": "Ley Orgánica."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Ley Orgánica."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-50",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, ¿cuál de las siguientes es una función del Rey?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proponer el nombramiento de los miembros del Tribunal Constitucional."
+          },
+          {
+            "id": "b",
+            "label": "Separar a los miembros del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Autorizar a las Cortes Generales para declarar la guerra."
+          },
+          {
+            "id": "d",
+            "label": "Proponer al presidente del Gobierno el nombramiento de los miembros de éste."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Separar a los miembros del Gobierno."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-51",
+        "section": "test-oficial",
+        "prompt": "¿En quién recae, según la Constitución Española, la tutela del Rey preferentemente?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el padre o madre mientras permanezcan viudos."
+          },
+          {
+            "id": "b",
+            "label": "En la persona que designen las Cortes."
+          },
+          {
+            "id": "c",
+            "label": "En la persona nombrada por el Rey difunto en su testamento."
+          },
+          {
+            "id": "d",
+            "label": "En el Regente."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: En la persona nombrada por el Rey difunto en su testamento."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-52",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española considera al Rey símbolo de la unidad y permanencia de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Estado."
+          },
+          {
+            "id": "b",
+            "label": "Las instituciones."
+          },
+          {
+            "id": "c",
+            "label": "Los poderes públicos."
+          },
+          {
+            "id": "d",
+            "label": "La Corona."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Estado."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-53",
+        "section": "test-oficial",
+        "prompt": "Para el sostenimiento de su Familia y Casa, la Constitución Española prevé que el Rey reciba de los Presupuestos del Estado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una asignación mínima."
+          },
+          {
+            "id": "b",
+            "label": "Una cantidad suficiente."
+          },
+          {
+            "id": "c",
+            "label": "Un fondo global."
+          },
+          {
+            "id": "d",
+            "label": "Una cantidad global."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Una cantidad global."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-54",
+        "section": "test-oficial",
+        "prompt": "El artículo 34 de la Constitución Española reconoce el derecho de fundación para fines de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Interés público."
+          },
+          {
+            "id": "b",
+            "label": "Utilidad pública."
+          },
+          {
+            "id": "c",
+            "label": "Interés general, con arreglo a la ley."
+          },
+          {
+            "id": "d",
+            "label": "Obligado cumplimiento."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Interés general, con arreglo a la ley."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-55",
+        "section": "test-oficial",
+        "prompt": "Conforme a la Constitución Española corresponde al Rey:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nombrar al Defensor del Pueblo a propuesta del Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales."
+          },
+          {
+            "id": "c",
+            "label": "Nombrar al Presidente del Tribunal Constitucional a propuesta del Presidente del Consejo General del Poder Judicial."
+          },
+          {
+            "id": "d",
+            "label": "Nombrar a los Delegados del Gobierno a propuesta del Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-56",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 59 de la Constitución Española, si el Rey se inhabilitare para el ejercicio de su autoridad y la imposibilidad fuere reconocida por las Cortes Generales, entrará a ejercer inmediatamente la Regencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "El Príncipe heredero de la Corona, si fuere mayor de edad."
+          },
+          {
+            "id": "c",
+            "label": "El Príncipe heredero de la Corona, aunque fuese menor de edad."
+          },
+          {
+            "id": "d",
+            "label": "La Reina Regente."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El Príncipe heredero de la Corona, si fuere mayor de edad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-57",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 64 de la Constitución Española, la propuesta y el nombramiento del Presidente del Gobierno, y la disolución prevista en el artículo 99, serán refrendadas por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey."
+          },
+          {
+            "id": "b",
+            "label": "Los Presidentes del Congreso y del Senado."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente del Congreso."
+          },
+          {
+            "id": "d",
+            "label": "El Rey y los ministros competentes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Presidente del Congreso."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-58",
+        "section": "test-oficial",
+        "prompt": "Por mandato constitucional, el Defensor del Pueblo, debe dar cuenta de su actuación a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "El Consejo de Estado."
+          },
+          {
+            "id": "c",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "El Pleno de las Cámaras."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Las Cortes Generales."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-59",
+        "section": "test-oficial",
+        "prompt": "En el establecimiento de las normas que permitan a los españoles hacer efectivo su derecho a disfrutar de una vivienda digna y adecuada, la Constitución dispone que los poderes públicos promoverán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La participación de los mismos en las plusvalías que genere dicha actividad."
+          },
+          {
+            "id": "b",
+            "label": "La utilización del suelo de acuerdo con el interés general para garantizar la solidaridad colectiva."
+          },
+          {
+            "id": "c",
+            "label": "La utilización del suelo de acuerdo con el interés general para impedir la especulación."
+          },
+          {
+            "id": "d",
+            "label": "Las condiciones necesarias que garanticen dicho derecho."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Las condiciones necesarias que garanticen dicho derecho."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-1-60",
+        "section": "test-oficial",
+        "prompt": "Se prevé por la Constitución un procedimiento de “habeas corpus” para que el detenido ilegalmente sea inmediatamente puesto:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En libertad."
+          },
+          {
+            "id": "b",
+            "label": "A disposición policial."
+          },
+          {
+            "id": "c",
+            "label": "A disposición judicial."
+          },
+          {
+            "id": "d",
+            "label": "En libertad o a disposición judicial."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: A disposición judicial."
+      }
+    ]
+  },
+  {
+    "code": "B2T3",
+    "slug": "b2t3-test-oficial-estructuras-de-datos",
+    "title": "Test oficial Estructuras de datos",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "B2T3/B2T3Test_Estructuras_de_datos 1.pdf",
+    "assetPath": "/test-oficial/B2T3/b2t3-test-oficial-estructuras-de-datos.pdf",
+    "questions": [
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-1",
+        "section": "test-oficial",
+        "prompt": "Es un algoritmo de la teoría de grafos para encontrar un árbol recubridor mínimo en un grafo conexo y ponderado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Quicksort."
+          },
+          {
+            "id": "b",
+            "label": "Kruskal."
+          },
+          {
+            "id": "c",
+            "label": "QR."
+          },
+          {
+            "id": "d",
+            "label": "Rijndael."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Kruskal."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-2",
+        "section": "test-oficial",
+        "prompt": "Entre los métodos para la compresión de imágenes con pérdidas se encuentra:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Codificación en planos de bits (como RLE)."
+          },
+          {
+            "id": "b",
+            "label": "Codificación de longitud variable (como Huffman)."
+          },
+          {
+            "id": "c",
+            "label": "Algoritmos de diccionario adaptables (como LZW)."
+          },
+          {
+            "id": "d",
+            "label": "Codificación por transformación (como TDC)."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Codificación por transformación (como TDC)."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-3",
+        "section": "test-oficial",
+        "prompt": "¿Qué formato de fichero es de gráficos vectoriales?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SVG."
+          },
+          {
+            "id": "b",
+            "label": "EXIF."
+          },
+          {
+            "id": "c",
+            "label": "HEIF."
+          },
+          {
+            "id": "d",
+            "label": "JPEG."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SVG."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-4",
+        "section": "test-oficial",
+        "prompt": "El método del intercambio directo o algoritmo de la burbuja es un algoritmo clásico de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ordenación que recorre un vector de elementos e intercambia en cada recorrido un elemento con su sucesor si no está en orden."
+          },
+          {
+            "id": "b",
+            "label": "Ordenación que recorre un vector de elementos hasta encontrar el menor de todos e intercambiarlo con el que está en la primera posición. Luego el segundo más pequeño, y así sucesivamente hasta ordenar todo."
+          },
+          {
+            "id": "c",
+            "label": "Búsqueda que compara secuencialmente el elemento deseado con los valores contenidos en las posiciones 1..n del vector de elementos hasta que lo encuentre."
+          },
+          {
+            "id": "d",
+            "label": "Búsqueda que compara secuencialmente el elemento deseado con los valores contenidos en las posiciones 1..n del vector de elementos hasta que lo encuentre, requisito indispensable es que el vector esté previamente ordenado."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Ordenación que recorre un vector de elementos e intercambia en cada recorrido un elemento con su sucesor si no está en orden."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-5",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes afirmaciones acerca de los algoritmos es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todo algoritmo tiene asociada una única implementación del mismo."
+          },
+          {
+            "id": "b",
+            "label": "La complejidad algorítmica representa la cantidad de recursos que necesita un algoritmo para resolver un problema."
+          },
+          {
+            "id": "c",
+            "label": "La complejidad de un algoritmo solamente se puede medir en el caso medio."
+          },
+          {
+            "id": "d",
+            "label": "La complejidad de un algoritmo solamente se puede medir en el mejor caso."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La complejidad algorítmica representa la cantidad de recursos que necesita un algoritmo para resolver un problema."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-6",
+        "section": "test-oficial",
+        "prompt": "En el contexto de las estructuras de datos, seleccione la respuesta correcta, un árbol es una estructura:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dinámica cuyo recorrido sólo se puede realizar en profundidad."
+          },
+          {
+            "id": "b",
+            "label": "Estática cuyo recorrido se puede realizar en amplitud y en profundidad."
+          },
+          {
+            "id": "c",
+            "label": "Estática cuyo recorrido sólo se puede realizar en amplitud."
+          },
+          {
+            "id": "d",
+            "label": "Dinámica cuyo recorrido se puede realizar en amplitud y en profundidad."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Dinámica cuyo recorrido se puede realizar en amplitud y en profundidad."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-7",
+        "section": "test-oficial",
+        "prompt": "¿Cuántas pasadas como máximo hay que realizar a un array para ordenarlo mediante el método de la burbuja (siendo N el número de elementos del array)?",
+        "options": [
+          {
+            "id": "a",
+            "label": "N-1."
+          },
+          {
+            "id": "b",
+            "label": "N."
+          },
+          {
+            "id": "c",
+            "label": "N/2."
+          },
+          {
+            "id": "d",
+            "label": "N+1."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: N-1."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-8",
+        "section": "test-oficial",
+        "prompt": "Si el resultado al recorrer un árbol binario en preorden es {7, 8, 2, 1, 5, 6, 9, 0}, indique cuál es la raíz del árbol:",
+        "options": [
+          {
+            "id": "a",
+            "label": "7."
+          },
+          {
+            "id": "b",
+            "label": "1."
+          },
+          {
+            "id": "c",
+            "label": "0."
+          },
+          {
+            "id": "d",
+            "label": "5."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: 7."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-9",
+        "section": "test-oficial",
+        "prompt": "Si el resultado al recorrer un árbol binario en postorden es {7, 8, 2, 1, 5, 6, 9, 0}, indique cuál es la raíz del árbol:",
+        "options": [
+          {
+            "id": "a",
+            "label": "7."
+          },
+          {
+            "id": "b",
+            "label": "1."
+          },
+          {
+            "id": "c",
+            "label": "0."
+          },
+          {
+            "id": "d",
+            "label": "5."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: 0."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-10",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes extensiones de ficheros pertenece a un fichero de tipo hoja de cálculo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Odt."
+          },
+          {
+            "id": "b",
+            "label": "Doc."
+          },
+          {
+            "id": "c",
+            "label": "Ods."
+          },
+          {
+            "id": "d",
+            "label": "Rtf."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Ods."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-11",
+        "section": "test-oficial",
+        "prompt": "Con respecto a la resolución de colisiones que se pueden producir cuando se utilizan tablas de dispersión (tablas hash):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Hay dos métodos principales para la resolución de colisiones: hashing lineal y hashing cuadrático."
+          },
+          {
+            "id": "b",
+            "label": "Un criterio para decidir qué método de resolución utilizar es el factor de carga, que se define como el cociente del número de índices y el tamaño de la tabla."
+          },
+          {
+            "id": "c",
+            "label": "Los métodos principales para la resolución de colisiones: hashing abierto y hashing cerrado."
+          },
+          {
+            "id": "d",
+            "label": "El método de hashing lineal permite resolver la colisión mediante la búsqueda en ubicaciones alternativas en la misma tabla."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Los métodos principales para la resolución de colisiones: hashing abierto y hashing cerrado."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-12",
+        "section": "test-oficial",
+        "prompt": "El grado de un árbol es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número total de nodos del mismo."
+          },
+          {
+            "id": "b",
+            "label": "El número de hijos de un nodo."
+          },
+          {
+            "id": "c",
+            "label": "El número más alto de nodos finales de un arco."
+          },
+          {
+            "id": "d",
+            "label": "Máximo grado de los nodos del árbol."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Máximo grado de los nodos del árbol."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-13",
+        "section": "test-oficial",
+        "prompt": "Señale el formato de compresión con pérdida:",
+        "options": [
+          {
+            "id": "a",
+            "label": "PNG."
+          },
+          {
+            "id": "b",
+            "label": "LZW."
+          },
+          {
+            "id": "c",
+            "label": "JPEG."
+          },
+          {
+            "id": "d",
+            "label": "FLAC."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: JPEG."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-14",
+        "section": "test-oficial",
+        "prompt": "Indicar qué característica se puede asociar al algoritmo de la burbuja:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Algoritmo de búsqueda de complejidad cuadrática."
+          },
+          {
+            "id": "b",
+            "label": "Algoritmo de ordenación de complejidad lineal."
+          },
+          {
+            "id": "c",
+            "label": "Algoritmo de ordenación de complejidad cuadrática."
+          },
+          {
+            "id": "d",
+            "label": "Algoritmo de búsqueda de complejidad logarítmica."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Algoritmo de ordenación de complejidad cuadrática."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-15",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación INCORRECTA en relación a los árboles de búsqueda AVL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Son un tipo de árbol de búsqueda binario."
+          },
+          {
+            "id": "b",
+            "label": "Para cada uno de los nodos, la diferencia de altura entre sus dos subárboles no puede ser superior a uno."
+          },
+          {
+            "id": "c",
+            "label": "Los árboles AVL son árboles multicamino de grado 3."
+          },
+          {
+            "id": "d",
+            "label": "Un árbol AVL es un árbol binario de búsqueda con ciertas características adicionales."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Los árboles AVL son árboles multicamino de grado 3."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-16",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes algoritmos de ordenación consiste en recorrer la lista comparando y ordenando los elementos adyacentes de dos en dos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Burbuja (BubbleSort)."
+          },
+          {
+            "id": "b",
+            "label": "Selección."
+          },
+          {
+            "id": "c",
+            "label": "Inserción."
+          },
+          {
+            "id": "d",
+            "label": "Rápido (QuickSort)."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Burbuja (BubbleSort)."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-17",
+        "section": "test-oficial",
+        "prompt": "Empleando el algoritmo más simple de la burbuja (Bubble Sort), en caso de querer ordenar un array de 10 elementos, ¿cuántas pasadas sería necesario realizar?",
+        "options": [
+          {
+            "id": "a",
+            "label": "10."
+          },
+          {
+            "id": "b",
+            "label": "5."
+          },
+          {
+            "id": "c",
+            "label": "11."
+          },
+          {
+            "id": "d",
+            "label": "9."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: 9."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-18",
+        "section": "test-oficial",
+        "prompt": "Si tenemos el grafo definido por los siguientes conjuntos de vértices y aristas: V:={a,b,c,d,e} E:={{a,b},{a,c},{c,d},{c,e}}. ¿Cuál de las siguientes afirmaciones es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un grafo completo."
+          },
+          {
+            "id": "b",
+            "label": "Es un grafo no conexo."
+          },
+          {
+            "id": "c",
+            "label": "Es un grafo trivial."
+          },
+          {
+            "id": "d",
+            "label": "Es un árbol."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Es un árbol."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-19",
+        "section": "test-oficial",
+        "prompt": "En el peor de los casos, el algoritmo de ordenación rápida (quicksort) posee una complejidad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "O(n3)."
+          },
+          {
+            "id": "b",
+            "label": "O(n)."
+          },
+          {
+            "id": "c",
+            "label": "O(n)n."
+          },
+          {
+            "id": "d",
+            "label": "O(n2)."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: O(n2)."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-20",
+        "section": "test-oficial",
+        "prompt": "Sea el array [10, 3, 15, 2, 1, 18]. ¿Cuántas iteraciones deberá ejecutarse el algoritmo de ordenación por selección para que quede totalmente ordenado en sentido ascendente?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2."
+          },
+          {
+            "id": "b",
+            "label": "4."
+          },
+          {
+            "id": "c",
+            "label": "6."
+          },
+          {
+            "id": "d",
+            "label": "8."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: 4."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-21",
+        "section": "test-oficial",
+        "prompt": "En relación con los grafos, indique la respuesta FALSA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Orden de un grafo: Es el número de nodos (vértices del grafo)."
+          },
+          {
+            "id": "b",
+            "label": "Grado de un nodo: Es el número de ejes (arcos) que inciden sobre el nodo."
+          },
+          {
+            "id": "c",
+            "label": "Tamaño de un grafo: Es el número de aristas."
+          },
+          {
+            "id": "d",
+            "label": "Ciclo de un grafo: Es un camino simple cerrado compuesto por dos nodos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Ciclo de un grafo: Es un camino simple cerrado compuesto por dos nodos."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-22",
+        "section": "test-oficial",
+        "prompt": "Indique el orden en el que se recorrería un árbol en postorden:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rama izquierda, rama derecha y raíz."
+          },
+          {
+            "id": "b",
+            "label": "Rama izquierda, raíz y rama derecha."
+          },
+          {
+            "id": "c",
+            "label": "Rama derecha, rama izquierda y raíz."
+          },
+          {
+            "id": "d",
+            "label": "Rama derecha, raíz y rama derecha."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Rama izquierda, rama derecha y raíz."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-23",
+        "section": "test-oficial",
+        "prompt": "Indica la afirmación INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una pila representa una estructura de datos de tipo LlFO."
+          },
+          {
+            "id": "b",
+            "label": "Una matriz dispersa representa una estructura de datos tipo FIFO."
+          },
+          {
+            "id": "c",
+            "label": "Una lista por saltos está basada en listas enlazadas paralelas."
+          },
+          {
+            "id": "d",
+            "label": "Una forma de resolver las colisiones en las tablas hash es el encadenamiento separado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Una matriz dispersa representa una estructura de datos tipo FIFO."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-24",
+        "section": "test-oficial",
+        "prompt": "En relación con el concepto de tipo de datos, indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un tipo de datos determina el conjunto de valores al que pertenece una constante."
+          },
+          {
+            "id": "b",
+            "label": "Un tipo de datos determina el conjunto de valores que puede tomar una variable."
+          },
+          {
+            "id": "c",
+            "label": "Un tipo de datos determina el conjunto de valores al que pertenece una variable."
+          },
+          {
+            "id": "d",
+            "label": "Un tipo de datos determina el conjunto de valores que pueden ser generados por un operador o función."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Un tipo de datos determina el conjunto de valores que puede tomar una variable."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-25",
+        "section": "test-oficial",
+        "prompt": "El máximo de los niveles de todos los elementos de un árbol menos uno, se dice que es su:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Longitud de camino externo."
+          },
+          {
+            "id": "b",
+            "label": "Grado."
+          },
+          {
+            "id": "c",
+            "label": "Altura."
+          },
+          {
+            "id": "d",
+            "label": "Longitud de camino interno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Altura."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-26",
+        "section": "test-oficial",
+        "prompt": "Un árbol está equilibrado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Si, y sólo si, para cada uno de sus nodos ocurre que las alturas de sus dos subárboles difieren como mucho en 1."
+          },
+          {
+            "id": "b",
+            "label": "Si, para cada nodo, el número de nodos en el subárbol izquierdo, y el número de nodos en el subárbol derecho, difieren como mucho en una unidad."
+          },
+          {
+            "id": "c",
+            "label": "Si, para cada nodo, el número de nodos en el subárbol izquierdo, y el número de nodos en el subárbol derecho, es el mismo."
+          },
+          {
+            "id": "d",
+            "label": "Si, y solo si, para algunos de sus nodos ocurre que las alturas de sus dos subárboles difieren como mucho en 1."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Si, y sólo si, para cada uno de sus nodos ocurre que las alturas de sus dos subárboles difieren como mucho en 1."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-27",
+        "section": "test-oficial",
+        "prompt": "El máximo número de nodos en un nivel i de un árbol binario para i≥1 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "2i-1"
+          },
+          {
+            "id": "b",
+            "label": "2i"
+          },
+          {
+            "id": "c",
+            "label": "2i -1"
+          },
+          {
+            "id": "d",
+            "label": "2i- 1"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: 2i-1."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-28",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se denomina la estructura de datos en la que los elementos se añaden y quitan por el mismo extremo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cola."
+          },
+          {
+            "id": "b",
+            "label": "Registro."
+          },
+          {
+            "id": "c",
+            "label": "Pila."
+          },
+          {
+            "id": "d",
+            "label": "Vector."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Pila."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-29",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el número de comparaciones que necesitamos para ordenar un array de N elementos, por el método de selección?",
+        "options": [
+          {
+            "id": "a",
+            "label": "N(N-1)/2"
+          },
+          {
+            "id": "b",
+            "label": "N2-1/2"
+          },
+          {
+            "id": "c",
+            "label": "N2"
+          },
+          {
+            "id": "d",
+            "label": "N/2"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: N(N-1)/2."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-30",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se denomina el tipo de datos estructurado formado por una colección finita de elementos, no necesariamente homogéneos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Campo."
+          },
+          {
+            "id": "b",
+            "label": "Registro."
+          },
+          {
+            "id": "c",
+            "label": "Conjunto."
+          },
+          {
+            "id": "d",
+            "label": "Lista."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Registro."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-31",
+        "section": "test-oficial",
+        "prompt": "Un registro es una estructura de datos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Formada por un conjunto ordenado de elementos que pueden ser de cualquier tipo simple."
+          },
+          {
+            "id": "b",
+            "label": "Formada por un conjunto ordenado de elementos que pueden ser de cualquier tipo, incluso estructurados."
+          },
+          {
+            "id": "c",
+            "label": "Formada por un conjunto ordenado de elementos alfanuméricos."
+          },
+          {
+            "id": "d",
+            "label": "Formada por un conjunto ordenado de cadenas de caracteres."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Formada por un conjunto ordenado de elementos que pueden ser de cualquier tipo, incluso estructurados."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-32",
+        "section": "test-oficial",
+        "prompt": "De las siguientes afirmaciones, relativas al tipo abstracto de datos lista, indique cuál es INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las listas solo pueden ser implementadas con tipos de datos dinámicos y los elementos que la componen son del mismo tipo."
+          },
+          {
+            "id": "b",
+            "label": "Las listas pueden clasificarse, en función del modo de acceso al siguiente elemento, en densas y enlazadas."
+          },
+          {
+            "id": "c",
+            "label": "Las listas pueden clasificarse, en función del modo de almacenar y recuperar sus elementos, en colas y pilas."
+          },
+          {
+            "id": "d",
+            "label": "Las pilas son un tipo de listas que tienen un funcionamiento LIFO."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Las listas solo pueden ser implementadas con tipos de datos dinámicos y los elementos que la componen son del mismo tipo."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-33",
+        "section": "test-oficial",
+        "prompt": "Cuando hablamos de un conjunto de elementos del mismo tipo referenciados con un mismo nombre y a través de una posición, nos referimos a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un registro."
+          },
+          {
+            "id": "b",
+            "label": "Una lista."
+          },
+          {
+            "id": "c",
+            "label": "Un vector."
+          },
+          {
+            "id": "d",
+            "label": "Un bucle."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Un vector."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-34",
+        "section": "test-oficial",
+        "prompt": "El algoritmo de ordenación que hace uso de un elemento pivote es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Bubblesort."
+          },
+          {
+            "id": "b",
+            "label": "Heapsort."
+          },
+          {
+            "id": "c",
+            "label": "Quicksort."
+          },
+          {
+            "id": "d",
+            "label": "ShellSort."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Quicksort."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-35",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes es un algoritmo de ordenación?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Algoritmo dicotómico (Binary)."
+          },
+          {
+            "id": "b",
+            "label": "Algoritmo por montículos (Heapsort)."
+          },
+          {
+            "id": "c",
+            "label": "Algoritmo de búsqueda atrás (Backtracking)."
+          },
+          {
+            "id": "d",
+            "label": "Algoritmo devorador (Greedy)."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Algoritmo por montículos (Heapsort)."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-36",
+        "section": "test-oficial",
+        "prompt": "En relación con las estructuras de datos conocidas como listas, señale la afirmación correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La pila es una lista en la que solo se pueden hacer inserts y updates en su final, llamado \"top\"."
+          },
+          {
+            "id": "b",
+            "label": "La pila puede ser interpretado como una lista FIFO."
+          },
+          {
+            "id": "c",
+            "label": "Se pueden usar pilas para trabajar con operaciones aritméticas en notación postfix."
+          },
+          {
+            "id": "d",
+            "label": "Las pilas con las operaciones \"push\" y \"pop\" coincidentes se conocen como colas ADT."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Se pueden usar pilas para trabajar con operaciones aritméticas en notación postfix."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-37",
+        "section": "test-oficial",
+        "prompt": "¿Qué es YAML?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un lenguaje para serializar datos, legible por seres humanos, usado en el despliegue de contenedores de aplicaciones (docker)."
+          },
+          {
+            "id": "b",
+            "label": "Una librería que facilita la creación de aplicaciones dirigidas a mejorar la experiencia de usuario (UX) mediante la realidad aumentada."
+          },
+          {
+            "id": "c",
+            "label": "Un comando que permite parametrizaciones avanzadas en el despliegue de políticas de grupo (GPO) en entornos de Directorio Activo."
+          },
+          {
+            "id": "d",
+            "label": "Una herramienta con un potente interfaz visual que, mediante el análisis de logs, permite la monitorización del rendimiento de la infraestructura T.I. de las organizaciones."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Un lenguaje para serializar datos, legible por seres humanos, usado en el despliegue de contenedores de aplicaciones (docker)."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-38",
+        "section": "test-oficial",
+        "prompt": "Un grafo en el que cada par de vértices está conectado por un camino que los une se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Grafo simple."
+          },
+          {
+            "id": "b",
+            "label": "Grafo orientado."
+          },
+          {
+            "id": "c",
+            "label": "Grafo completo."
+          },
+          {
+            "id": "d",
+            "label": "Grafo conexo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Grafo conexo."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-39",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes algoritmos de ordenación es de complejidad O(n log n)?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ordenación por mezcla (Merge sort)."
+          },
+          {
+            "id": "b",
+            "label": "Ordenación por burbuja (Bubble sort)."
+          },
+          {
+            "id": "c",
+            "label": "Ordenación por burbuja bidireccional (Cocktail sort)."
+          },
+          {
+            "id": "d",
+            "label": "Ordenación por selección (Selection sort)."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Ordenación por mezcla (Merge sort)."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-40",
+        "section": "test-oficial",
+        "prompt": "La organización de ficheros en que se puede insertar registros en cualquier posición del fichero (donde haya espacio suficiente) se llama:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ordenados."
+          },
+          {
+            "id": "b",
+            "label": "Hash estático."
+          },
+          {
+            "id": "c",
+            "label": "Hash dinámico."
+          },
+          {
+            "id": "d",
+            "label": "Montículo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Montículo."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-41",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de entre los siguientes algoritmos ordena un vector V eligiendo entre sus elementos un valor clave P que actúa como pivote y organiza tres secciones entre P, elementos a la izquierda de P y elementos a la derecha de P:",
+        "options": [
+          {
+            "id": "a",
+            "label": "MergeSort."
+          },
+          {
+            "id": "b",
+            "label": "QuickSort."
+          },
+          {
+            "id": "c",
+            "label": "KeySort."
+          },
+          {
+            "id": "d",
+            "label": "Burbuja."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: QuickSort."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-42",
+        "section": "test-oficial",
+        "prompt": "Dentro de la teoría de grafos, la definición \"es un grafo conexo, sin ciclos y de grado mayor a 1\", correspondería a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lista."
+          },
+          {
+            "id": "b",
+            "label": "Pila."
+          },
+          {
+            "id": "c",
+            "label": "Cola."
+          },
+          {
+            "id": "d",
+            "label": "Árbol."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Árbol."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-43",
+        "section": "test-oficial",
+        "prompt": "Los grafos se representan por medio de dos conjuntos, G=(V, A), de tal modo que V son los vértices y A las aristas. Indique cuál de los siguientes conjuntos representa un grafo regular de grado 3, G= (V,A), donde:",
+        "options": [
+          {
+            "id": "a",
+            "label": "V={1,2,3} y A={{1,2},{2,3}}."
+          },
+          {
+            "id": "b",
+            "label": "V={1,2,3} y A={{1,2},{2,3},{3,1}}."
+          },
+          {
+            "id": "c",
+            "label": "V={1,2,3,4} y A={{1,2},{2,4},{3,1},{1,4},{2,3}}."
+          },
+          {
+            "id": "d",
+            "label": "V={1,2,3,4} y A={{1,2},{3,4},{3,1},{2,3},{1,4},{2,4}}."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: V={1,2,3,4} y A={{1,2},{3,4},{3,1},{2,3},{1,4},{2,4}}."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-44",
+        "section": "test-oficial",
+        "prompt": "Con respecto al tipo abstracto de datos árbol podemos decir que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La profundidad de un nodo en un árbol es la longitud del camino desde que dicho nodo a la hoja más lejana que sea alcanzable desde él."
+          },
+          {
+            "id": "b",
+            "label": "La altura de un nodo en un árbol es la longitud del único camino existente desde el nodo raíz hasta dicho nodo."
+          },
+          {
+            "id": "c",
+            "label": "La altura de un árbol es el nivel de la hoja menos profunda."
+          },
+          {
+            "id": "d",
+            "label": "El grado de un árbol es el número máximo de hijos que pueden tener sus subárboles."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El grado de un árbol es el número máximo de hijos que pueden tener sus subárboles."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-45",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación correcta en relación al Algoritmo de Floyd-Warshall para grafos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Compara todos los posibles caminos a través del grafo entre cada par de vértices."
+          },
+          {
+            "id": "b",
+            "label": "Es un ejemplo de programación estática."
+          },
+          {
+            "id": "c",
+            "label": "Resuelve el problema de encontrar el camino mínimo en grafos no dirigidos ponderados."
+          },
+          {
+            "id": "d",
+            "label": "Supone que hay ciclos negativos para que haya coherencia numérica."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Compara todos los posibles caminos a través del grafo entre cada par de vértices."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-46",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el comportamiento de una estructura de datos abstractos de tipo Pila (stack)?",
+        "options": [
+          {
+            "id": "a",
+            "label": "First in first output (FIFO)."
+          },
+          {
+            "id": "b",
+            "label": "Last in first output (LIFO)."
+          },
+          {
+            "id": "c",
+            "label": "First out last output (FOLO)."
+          },
+          {
+            "id": "d",
+            "label": "Last in first input (LOFI)."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Last in first output (LIFO)."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-47",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el grado de un árbol binario lleno de 15 nodos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: 2."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-48",
+        "section": "test-oficial",
+        "prompt": "En relación a las estructuras de datos, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las cadenas son estructuras de datos contiguas."
+          },
+          {
+            "id": "b",
+            "label": "Los vectores no son estructuras de datos contiguas."
+          },
+          {
+            "id": "c",
+            "label": "Un array bidimensional es una matriz."
+          },
+          {
+            "id": "d",
+            "label": "Una cola es una estructura FIFO (first in, first out)."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Los vectores no son estructuras de datos contiguas."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-49",
+        "section": "test-oficial",
+        "prompt": "Dado un árbol binario no vacío, ¿cómo se denomina el recorrido que primero recorre el subárbol izquierdo, luego la raíz y, por último, el subárbol derecho?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Recorrido INORDEN."
+          },
+          {
+            "id": "b",
+            "label": "Recorrido PREORDEN."
+          },
+          {
+            "id": "c",
+            "label": "Recorrido EXORDEN."
+          },
+          {
+            "id": "d",
+            "label": "Recorrido POSORDEN."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Recorrido INORDEN."
+      },
+      {
+        "id": "b2t3-test-oficial-estructuras-de-datos-50",
+        "section": "test-oficial",
+        "prompt": "Con respecto a JSON, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un tipo de gramática XML."
+          },
+          {
+            "id": "b",
+            "label": "Es una API de Java."
+          },
+          {
+            "id": "c",
+            "label": "Es un conjunto de librerías de Javascript."
+          },
+          {
+            "id": "d",
+            "label": "Es un formato de intercambio de ficheros."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Es un formato de intercambio de ficheros."
+      }
+    ]
+  }
+]

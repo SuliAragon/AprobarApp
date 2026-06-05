@@ -1,0 +1,75 @@
+---
+import type { OfficialMaterial } from "../data/topics";
+import { withBase } from "../utils/paths";
+
+interface Props {
+  material: OfficialMaterial;
+  topicSlug: string;
+}
+
+const { material, topicSlug } = Astro.props;
+const storageKey = `aprobarapp:official:${topicSlug}:${material.slug}`;
+
+const kindLabelByType = {
+  "official-test": "Test oficial",
+  exercise: "Ejercicio",
+  resource: "Material",
+} as const;
+---
+
+<article
+  class:list={["official-material", `official-material--${material.kind}`]}
+  data-test-card={material.hasInteractiveQuiz ? "true" : undefined}
+  data-storage-key={material.hasInteractiveQuiz ? storageKey : undefined}
+>
+  <div class="official-material__main">
+    <div class="official-material__header">
+      <span class="official-material__badge">{kindLabelByType[material.kind]}</span>
+      <span class="official-material__filename">{material.sourceFilename}</span>
+      {
+        material.hasInteractiveQuiz && (
+          <span class="official-material__status test-card__status" data-test-status>
+            Pendiente
+          </span>
+        )
+      }
+    </div>
+
+    <h3>{material.title}</h3>
+    <p>
+      {
+        material.hasInteractiveQuiz
+          ? `Material oficial incorporado desde la carpeta Test. Ya puedes hacerlo dentro de la web y revisar también el PDF original cuando quieras.`
+          : `Material oficial incorporado desde la carpeta Test. Puedes abrirlo directamente desde la web para revisarlo o tenerlo controlado esta semana.`
+      }
+    </p>
+  </div>
+
+  <div class="official-material__footer">
+    {
+      material.hasInteractiveQuiz ? (
+        <>
+          <div class="test-card__meta official-material__meta">
+            <span>{material.interactiveQuestionCount} preguntas</span>
+            <span>Solución oficial</span>
+          </div>
+
+          <div class="official-material__actions">
+            <a class="button button--primary" href={withBase(`temarios/${topicSlug}/oficiales/${material.slug}/`)}>
+              Hacer test
+            </a>
+            <a class="button button--secondary" href={withBase(material.assetPath)} target="_blank" rel="noreferrer">
+              Abrir archivo
+            </a>
+          </div>
+        </>
+      ) : (
+        <div class="official-material__actions">
+          <a class="button button--primary" href={withBase(material.assetPath)} target="_blank" rel="noreferrer">
+            Abrir archivo
+          </a>
+        </div>
+      )
+    }
+  </div>
+</article>

@@ -1,0 +1,40 @@
+---
+import type { Topic } from "../data/topics";
+import type { TopicTest } from "../data/question-bank";
+import { withBase } from "../utils/paths";
+
+interface Props {
+  topic: Topic;
+  test: TopicTest;
+}
+
+const { topic, test } = Astro.props;
+const storageKey = `aprobarapp:test:${topic.slug}:${test.slug}`;
+---
+
+<article class="test-card" data-test-card data-storage-key={storageKey}>
+  <div class="test-card__main">
+    <div class="test-card__header">
+      <div>
+        <h3>{test.title}</h3>
+        <p>{test.description}</p>
+      </div>
+      <span class="test-card__status" data-test-status>
+        Pendiente
+      </span>
+    </div>
+  </div>
+
+  <div class="test-card__footer">
+    <div class="test-card__meta">
+      <span>{test.questions.length} preguntas</span>
+      <span>{test.focusSections.length} focos</span>
+    </div>
+
+    <div class="test-card__actions">
+      <a class="button button--primary" href={withBase(`temarios/${topic.slug}/tests/${test.slug}/`)}>
+        Empezar test
+      </a>
+    </div>
+  </div>
+</article>

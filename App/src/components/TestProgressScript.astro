@@ -1,0 +1,30 @@
+<script is:inline>
+  const testCards = document.querySelectorAll("[data-test-card]");
+
+  for (const card of testCards) {
+    const statusNode = card.querySelector("[data-test-status]");
+    const storageKey = card.getAttribute("data-storage-key");
+
+    if (!statusNode || !storageKey) {
+      continue;
+    }
+
+    const storedResult = localStorage.getItem(storageKey);
+
+    if (!storedResult) {
+      statusNode.textContent = "Pendiente";
+      continue;
+    }
+
+    try {
+      const result = JSON.parse(storedResult);
+      const mistakes = Number(result.mistakes ?? 0);
+      const scoreClass = mistakes === 0 ? "is-perfect" : mistakes <= 3 ? "is-warning" : "is-danger";
+      card.classList.add(scoreClass);
+      statusNode.classList.add(scoreClass);
+      statusNode.textContent = `${mistakes} fallos`;
+    } catch {
+      statusNode.textContent = "Pendiente";
+    }
+  }
+</script>

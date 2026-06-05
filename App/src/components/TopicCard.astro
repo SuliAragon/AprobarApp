@@ -1,0 +1,35 @@
+---
+import type { Topic } from "../data/topics";
+import { withBase } from "../utils/paths";
+
+interface Props {
+  topic: Topic;
+}
+
+const { topic } = Astro.props;
+---
+
+<article class:list={["topic-card", `topic-card--${topic.accent}`]}>
+  <div class="topic-card__main">
+    <div class="topic-card__header">
+      <p class="topic-card__code">{topic.code}</p>
+      <span class:list={["topic-card__badge", topic.hasTests ? "is-ready" : "is-pending"]}>
+        {topic.hasTests ? "Tests listos" : "Tema detectado"}
+      </span>
+    </div>
+    <h3>{topic.shortTitle}</h3>
+    <p>{topic.description}</p>
+  </div>
+
+  <div class="topic-card__footer">
+    <div class="topic-card__meta">
+      <span>{topic.testCount} tests</span>
+      <span>{topic.questionCount} preguntas base</span>
+      {topic.hasOfficialMaterials && <span>{topic.officialCount} oficiales</span>}
+    </div>
+
+    <a class="topic-card__link" href={withBase(`temarios/${topic.slug}/`)}>
+      Abrir temario
+    </a>
+  </div>
+</article>

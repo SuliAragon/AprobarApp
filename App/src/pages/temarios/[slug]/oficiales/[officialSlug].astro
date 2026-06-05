@@ -1,0 +1,163 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import QuizQuestionCard from "../../../../components/QuizQuestionCard.astro";
+import { topics, type OfficialMaterial, type Topic } from "../../../../data/topics";
+import { withBase } from "../../../../utils/paths";
+
+export async function getStaticPaths() {
+  return topics.flatMap((topic) =>
+    topic.officialMaterials
+      .filter((material) => material.hasInteractiveQuiz && material.interactiveTest)
+      .map((material) => ({
+        params: { slug: topic.slug, officialSlug: material.slug },
+        props: { topic, material },
+      })),
+  );
+}
+
+const { topic, material } = Astro.props as { topic: Topic; material: OfficialMaterial };
+const test = material.interactiveTest;
+
+if (!test) {
+  throw new Error(`No existe versión interactiva para el material oficial ${material.slug}.`);
+}
+
+const storageKey = `aprobarapp:official:${topic.slug}:${material.slug}`;
+---
+
+<BaseLayout title={`${material.title} | AprobarApp`} description={test.description}>
+  <section class="test-hero">
+    <div>
+      <p class="eyebrow">{topic.code} · {topic.shortTitle}</p>
+      <h1>{material.title}</h1>
+      <p>{test.description}</p>
+    </div>
+
+    <div class="test-hero__actions">
+      <a class="button button--secondary" href={withBase(`temarios/${topic.slug}/#oficiales`)}>
+        Volver al tema
+      </a>
+      <a class="button button--ghost" href={withBase(material.assetPath)} target="_blank" rel="noreferrer">
+        Ver archivo oficial
+      </a>
+    </div>
+  </section>
+
+  <section class="quiz-layout" data-quiz data-storage-key={storageKey}>
+    <aside class="quiz-summary">
+      <div class="quiz-summary__box">
+        <p class="quiz-summary__label">Estado del test</p>
+        <strong data-score-label>En curso</strong>
+      </div>
+      <div class="quiz-summary__box">
+        <p class="quiz-summary__label">Respondidas</p>
+        <strong><span data-answered-count>0</span> / {test.questions.length}</strong>
+      </div>
+      <div class="quiz-summary__box">
+        <p class="quiz-summary__label">Fallos</p>
+        <strong data-mistakes-count>0</strong>
+      </div>
+      <a class="button button--primary" href={withBase(`temarios/${topic.slug}/oficiales/${material.slug}/`)}>
+        Reiniciar intento
+      </a>
+    </aside>
+
+    <div class="quiz-questions">
+      {test.questions.map((question, index) => <QuizQuestionCard index={index} question={question} />)}
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ storageKey, totalQuestions: test.questions.length }}>
+    const quizRoot = document.querySelector("[data-quiz]");
+    const answeredNode = document.querySelector("[data-answered-count]");
+    const mistakesNode = document.querySelector("[data-mistakes-count]");
+    const scoreLabelNode = document.querySelector("[data-score-label]");
+
+    if (quizRoot && answeredNode && mistakesNode && scoreLabelNode) {
+      const questions = [...quizRoot.querySelectorAll("[data-question]")];
+      let answeredCount = 0;
+      let mistakesCount = 0;
+
+      const updateSummary = () => {
+        answeredNode.textContent = String(answeredCount);
+        mistakesNode.textContent = String(mistakesCount);
+
+        if (answeredCount < totalQuestions) {
+          scoreLabelNode.textContent = "En curso";
+          scoreLabelNode.className = "";
+          return;
+        }
+
+        const resultClass = mistakesCount === 0 ? "is-perfect" : mistakesCount <= 3 ? "is-warning" : "is-danger";
+        const label = mistakesCount === 0 ? "Verde · impecable" : mistakesCount <= 3 ? "Amarillo · repasable" : "Rojo · toca reforzar";
+
+        scoreLabelNode.textContent = label;
+        scoreLabelNode.className = resultClass;
+
+        localStorage.setItem(
+          storageKey,
+          JSON.stringify({
+            answered: answeredCount,
+            mistakes: mistakesCount,
+            totalQuestions,
+            completedAt: new Date().toISOString(),
+          }),
+        );
+      };
+
+      for (const question of questions) {
+        const correctOption = question.getAttribute("data-correct");
+        const buttons = [...question.querySelectorAll("[data-option]")];
+        const feedback = question.querySelector("[data-feedback]");
+        const feedbackTitle = question.querySelector("[data-feedback-title]");
+
+        for (const button of buttons) {
+          button.addEventListener("click", () => {
+            if (question.classList.contains("is-answered")) {
+              return;
+            }
+
+            const selectedOption = button.getAttribute("data-option");
+            const isCorrect = selectedOption === correctOption;
+
+            question.classList.add("is-answered");
+            answeredCount += 1;
+
+            if (!isCorrect) {
+              mistakesCount += 1;
+            }
+
+            for (const optionButton of buttons) {
+              const optionId = optionButton.getAttribute("data-option");
+              optionButton.setAttribute("disabled", "true");
+
+              if (optionId === correctOption) {
+                optionButton.classList.add("is-correct");
+              }
+
+              if (optionButton === button && !isCorrect) {
+                optionButton.classList.add("is-incorrect");
+              }
+
+              if (optionButton === button && isCorrect) {
+                optionButton.classList.add("is-correct");
+              }
+            }
+
+            if (feedback && feedbackTitle) {
+              feedback.hidden = false;
+              feedback.classList.add(isCorrect ? "is-correct" : "is-incorrect");
+              feedbackTitle.textContent = isCorrect
+                ? "Respuesta correcta. Sigue así."
+                : "Respuesta incorrecta. La opción válida queda marcada en verde.";
+            }
+
+            updateSummary();
+          });
+        }
+      }
+
+      updateSummary();
+    }
+  </script>
+</BaseLayout>

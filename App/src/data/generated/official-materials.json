@@ -1,0 +1,26 @@
+[
+  {
+    "code": "B1T1",
+    "slug": "b1t1-test-oficial-ce-1",
+    "kind": "official-test",
+    "sourceFilename": "B1T1/B1T1Test_CE_1 1.pdf",
+    "title": "Test oficial CE 1",
+    "assetPath": "/test-oficial/B1T1/b1t1-test-oficial-ce-1.pdf"
+  },
+  {
+    "code": "B2T3",
+    "slug": "b2t3-ejercicios",
+    "kind": "exercise",
+    "sourceFilename": "B2T3/B2T3Ejercicios 1.pdf",
+    "title": "Ejercicios",
+    "assetPath": "/test-oficial/B2T3/b2t3-ejercicios.pdf"
+  },
+  {
+    "code": "B2T3",
+    "slug": "b2t3-test-oficial-estructuras-de-datos",
+    "kind": "official-test",
+    "sourceFilename": "B2T3/B2T3Test_Estructuras_de_datos 1.pdf",
+    "title": "Test oficial Estructuras de datos",
+    "assetPath": "/test-oficial/B2T3/b2t3-test-oficial-estructuras-de-datos.pdf"
+  }
+]
