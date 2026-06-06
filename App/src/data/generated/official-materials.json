@@ -8,6 +8,14 @@
     "assetPath": "/test-oficial/B1T1/b1t1-test-oficial-ce-1.pdf"
   },
   {
+    "code": "B1T1",
+    "slug": "b1t1-test-oficial-ce-2",
+    "kind": "official-test",
+    "sourceFilename": "B1T1/B1T1Test_CE_2 1.pdf",
+    "title": "Test oficial CE 2",
+    "assetPath": "/test-oficial/B1T1/b1t1-test-oficial-ce-2.pdf"
+  },
+  {
     "code": "B2T3",
     "slug": "b2t3-ejercicios",
     "kind": "exercise",

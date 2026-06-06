@@ -12,7 +12,10 @@ const { topic } = Astro.props;
 <article class:list={["topic-card", `topic-card--${topic.accent}`]}>
   <div class="topic-card__main">
     <div class="topic-card__header">
-      <p class="topic-card__code">{topic.code}</p>
+      <div class="topic-card__eyebrow-group">
+        <p class="topic-card__locator">{topic.blockLabel} · {topic.topicLabel}</p>
+        <p class="topic-card__code">{topic.code}</p>
+      </div>
       <span class:list={["topic-card__badge", topic.hasTests ? "is-ready" : "is-pending"]}>
         {topic.hasTests ? "Tests listos" : "Tema detectado"}
       </span>

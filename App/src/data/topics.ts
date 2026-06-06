@@ -3,6 +3,7 @@ import generatedOfficialMaterials from "./generated/official-materials.json";
 import { getOfficialInteractiveTestBySlug, type OfficialInteractiveTest } from "./official-tests";
 import { buildTopicTests, type TopicTest } from "./question-bank";
 import { questionBanksByCode } from "./question-banks";
+import { buildTopicNavigator, parseTopicCode } from "./topic-catalog.js";
 import { topicOverrides } from "./topic-overrides";
 
 export interface OfficialMaterial {
@@ -20,6 +21,10 @@ export interface OfficialMaterial {
 export interface Topic {
   code: string;
   slug: string;
+  blockNumber: number | null;
+  topicNumber: number | null;
+  blockLabel: string;
+  topicLabel: string;
   title: string;
   shortTitle: string;
   description: string;
@@ -64,7 +69,8 @@ const officialMaterialsByCode = (generatedOfficialMaterials as Omit<OfficialMate
   {},
 );
 
-export const topics: Topic[] = (generatedTopics as GeneratedTopic[]).map((topic) => {
+export const topics: Topic[] = (generatedTopics as GeneratedTopic[])
+  .map((topic) => {
   const override = topicOverrides[topic.code];
   const questionBank = questionBanksByCode[topic.code] ?? [];
   const tests = override ? buildTopicTests(topic.code, questionBank, override.testPresets) : [];
@@ -74,10 +80,15 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[]).map((topic)
   });
   const officialTestsCount = officialMaterials.filter((material) => material.kind === "official-test").length;
   const exerciseCount = officialMaterials.filter((material) => material.kind === "exercise").length;
+  const { blockNumber, topicNumber } = parseTopicCode(topic.code);
 
   return {
     code: topic.code || "SIN-CODIGO",
     slug: topic.slug,
+    blockNumber,
+    topicNumber,
+    blockLabel: blockNumber ? `Bloque ${blockNumber}` : "Bloque sin clasificar",
+    topicLabel: topicNumber ? `Tema ${topicNumber}` : "Tema sin clasificar",
     title: override?.title ?? topic.title,
     shortTitle: override?.shortTitle ?? topic.title,
     description:
@@ -100,7 +111,26 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[]).map((topic)
     hasTests: tests.length > 0,
     hasOfficialMaterials: officialMaterials.length > 0,
   };
-});
+})
+  .sort((left, right) => {
+    const leftBlock = left.blockNumber ?? Number.MAX_SAFE_INTEGER;
+    const rightBlock = right.blockNumber ?? Number.MAX_SAFE_INTEGER;
+
+    if (leftBlock !== rightBlock) {
+      return leftBlock - rightBlock;
+    }
+
+    const leftTopic = left.topicNumber ?? Number.MAX_SAFE_INTEGER;
+    const rightTopic = right.topicNumber ?? Number.MAX_SAFE_INTEGER;
+
+    if (leftTopic !== rightTopic) {
+      return leftTopic - rightTopic;
+    }
+
+    return left.shortTitle.localeCompare(right.shortTitle, "es");
+  });
+
+export const topicNavigator = buildTopicNavigator(topics);
 
 export function getTopicBySlug(slug: string) {
   return topics.find((topic) => topic.slug === slug);

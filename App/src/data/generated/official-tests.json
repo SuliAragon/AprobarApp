@@ -1513,6 +1513,2019 @@
     ]
   },
   {
+    "code": "B1T1",
+    "slug": "b1t1-test-oficial-ce-2",
+    "title": "Test oficial CE 2",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "B1T1/B1T1Test_CE_2 1.pdf",
+    "assetPath": "/test-oficial/B1T1/b1t1-test-oficial-ce-2.pdf",
+    "questions": [
+      {
+        "id": "b1t1-test-oficial-ce-2-1",
+        "section": "test-oficial",
+        "prompt": "El referéndum en el que se aprobó popularmente la Constitución Española se llevó a efecto el:",
+        "options": [
+          {
+            "id": "a",
+            "label": "27 diciembre de 1978."
+          },
+          {
+            "id": "b",
+            "label": "6 diciembre de 1978."
+          },
+          {
+            "id": "c",
+            "label": "31 octubre de 1978."
+          },
+          {
+            "id": "d",
+            "label": "29 diciembre de 1979."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: 6 diciembre de 1978."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-2",
+        "section": "test-oficial",
+        "prompt": "Si un poder público, en su actuación, infringe lo dispuesto en el Preámbulo de la Constitución:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Incurre en nulidad"
+          },
+          {
+            "id": "b",
+            "label": "Incurre en inconstitucionalidad"
+          },
+          {
+            "id": "c",
+            "label": "No pasa nada, salvo que, como consecuencia de esa actuación, se infrinja un artículo de la propia CE"
+          },
+          {
+            "id": "d",
+            "label": "Todas son falsas"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: No pasa nada, salvo que, como consecuencia de esa actuación, se infrinja un artículo de la propia CE."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-3",
+        "section": "test-oficial",
+        "prompt": "Según se deduce de la Constitución Española, una norma que imponga una nueva pena más leve para un delito:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No se aplica retroactivamente."
+          },
+          {
+            "id": "b",
+            "label": "Puede aplicarse retroactivamente."
+          },
+          {
+            "id": "c",
+            "label": "Ha de ser reglamentaria."
+          },
+          {
+            "id": "d",
+            "label": "Atenta contra el principio de legalidad penal si se aplica retroactivamente."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Puede aplicarse retroactivamente."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-4",
+        "section": "test-oficial",
+        "prompt": "El Defensor del Pueblo se regula en el siguiente Título y Capítulo de la Constitución Española, respectivamente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Preliminar y 1º."
+          },
+          {
+            "id": "b",
+            "label": "Segundo y 4º."
+          },
+          {
+            "id": "c",
+            "label": "Segundo y 3º."
+          },
+          {
+            "id": "d",
+            "label": "Primero y 4º."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Primero y 4º."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-5",
+        "section": "test-oficial",
+        "prompt": "Un español de origen puede perder esta nacionalidad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por sanción administrativa."
+          },
+          {
+            "id": "b",
+            "label": "Cuando libremente renuncie a la misma."
+          },
+          {
+            "id": "c",
+            "label": "Por condena penal."
+          },
+          {
+            "id": "d",
+            "label": "En ningún caso."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Cuando libremente renuncie a la misma."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-6",
+        "section": "test-oficial",
+        "prompt": "Las Comunidades Autónomas deben usar o instalar la bandera española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En sus edificios."
+          },
+          {
+            "id": "b",
+            "label": "En los actos oficiales."
+          },
+          {
+            "id": "c",
+            "label": "Cuando lo solicite el Delegado del Gobierno de la Nación en las mismas."
+          },
+          {
+            "id": "d",
+            "label": "Cuando lo estimen oportuno."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: En los actos oficiales."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-7",
+        "section": "test-oficial",
+        "prompt": "Deberán tener una estructura interna y un funcionamiento democrático los/las:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Partidos Políticos."
+          },
+          {
+            "id": "b",
+            "label": "Colegios Profesionales."
+          },
+          {
+            "id": "c",
+            "label": "Organizaciones Profesionales."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son verdaderas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Todas las respuestas son verdaderas."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-8",
+        "section": "test-oficial",
+        "prompt": "Defender la integridad territorial de España se atribuye por la Constitución Española a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Fuerzas y Cuerpos de Seguridad."
+          },
+          {
+            "id": "b",
+            "label": "Fuerzas Armadas."
+          },
+          {
+            "id": "c",
+            "label": "Gobierno de la Nación."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son verdaderas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Fuerzas Armadas."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-9",
+        "section": "test-oficial",
+        "prompt": "En virtud del principio de progresividad tributaria:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se implantarán cada vez mayores tributos."
+          },
+          {
+            "id": "b",
+            "label": "Los tipos impositivos serán regresivos."
+          },
+          {
+            "id": "c",
+            "label": "Prima el principio de igualdad en el pago de los tributos."
+          },
+          {
+            "id": "d",
+            "label": "Nada de lo expuesto es cierto."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Nada de lo expuesto es cierto."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-10",
+        "section": "test-oficial",
+        "prompt": "Además de en la vida económica y política, los poderes públicos deben fomentar la participación de los ciudadanos en la vida:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cultural."
+          },
+          {
+            "id": "b",
+            "label": "Social."
+          },
+          {
+            "id": "c",
+            "label": "Corporativa."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas a y b son ciertas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Las respuestas a y b son ciertas."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-11",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, el Estado es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Apolítico."
+          },
+          {
+            "id": "b",
+            "label": "Aconfesional."
+          },
+          {
+            "id": "c",
+            "label": "De bienestar social."
+          },
+          {
+            "id": "d",
+            "label": "Federal."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Aconfesional."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-12",
+        "section": "test-oficial",
+        "prompt": "El derecho a la vida se consagra en el siguiente artículo de la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "10."
+          },
+          {
+            "id": "b",
+            "label": "16."
+          },
+          {
+            "id": "c",
+            "label": "15."
+          },
+          {
+            "id": "d",
+            "label": "24."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: 15."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-13",
+        "section": "test-oficial",
+        "prompt": "La pena de muerte en España:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ha quedado abolida."
+          },
+          {
+            "id": "b",
+            "label": "Puede aplicarse en cualquier momento."
+          },
+          {
+            "id": "c",
+            "label": "Sólo se aplicará, en tiempo de guerra, a los militares."
+          },
+          {
+            "id": "d",
+            "label": "Rige sólo en el ámbito civil."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Ha quedado abolida."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-14",
+        "section": "test-oficial",
+        "prompt": "La inmediata puesta a disposición judicial derivada del habeas corpus, se produce por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Detención ilegal."
+          },
+          {
+            "id": "b",
+            "label": "Prisión ilegal."
+          },
+          {
+            "id": "c",
+            "label": "Prisión preventiva."
+          },
+          {
+            "id": "d",
+            "label": "Detención preventiva."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Detención ilegal."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-15",
+        "section": "test-oficial",
+        "prompt": "La entrada en un domicilio en caso de flagrante delito, sin autorización de su titular:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Puede dar lugar a la aplicación del hábeas corpus."
+          },
+          {
+            "id": "b",
+            "label": "Requiere autorización previa de la autoridad judicial."
+          },
+          {
+            "id": "c",
+            "label": "Puede efectuarse en todo momento."
+          },
+          {
+            "id": "d",
+            "label": "No puede realizarse en ningún momento."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Puede efectuarse en todo momento."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-16",
+        "section": "test-oficial",
+        "prompt": "Cuando, al conocerse la comisión de un delito por una persona, se acude a su domicilio para detenerla:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Está obligada a franquear la entrada."
+          },
+          {
+            "id": "b",
+            "label": "Se necesita autorización judicial para entrar, si no da su consentimiento para ello."
+          },
+          {
+            "id": "c",
+            "label": "Pese a que no dé su consentimiento, se puede entrar."
+          },
+          {
+            "id": "d",
+            "label": "Nada de lo anterior es correcto."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Se necesita autorización judicial para entrar, si no da su consentimiento para ello."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-17",
+        "section": "test-oficial",
+        "prompt": "Además de la no autoinculpación, la Constitución Española prevé que NO se está obligado a declarar sobre un hecho presuntamente delictivo en caso de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Parentesco y afinidad."
+          },
+          {
+            "id": "b",
+            "label": "Cláusula de conciencia."
+          },
+          {
+            "id": "c",
+            "label": "Secreto profesional."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas a y b son correctas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Secreto profesional."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-18",
+        "section": "test-oficial",
+        "prompt": "Los Tribunales de Honor están prohibidos respecto de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sindicatos y Organizaciones Profesionales."
+          },
+          {
+            "id": "b",
+            "label": "Administración Civil y Militar."
+          },
+          {
+            "id": "c",
+            "label": "Organizaciones profesionales y la Administración Civil."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas b y c son correctas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Organizaciones profesionales y la Administración Civil."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-19",
+        "section": "test-oficial",
+        "prompt": "El ejercicio del derecho de petición a través de una manifestación ciudadana:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No se admite."
+          },
+          {
+            "id": "b",
+            "label": "Se admite en algún caso."
+          },
+          {
+            "id": "c",
+            "label": "Se admite, salvo para los militares."
+          },
+          {
+            "id": "d",
+            "label": "Ni se admite ni se prohíbe."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: No se admite."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-20",
+        "section": "test-oficial",
+        "prompt": "Nuestro sistema tributario ha de ser:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Regresivo e igualitario."
+          },
+          {
+            "id": "b",
+            "label": "Progresivo y generalizado."
+          },
+          {
+            "id": "c",
+            "label": "Confiscatorio."
+          },
+          {
+            "id": "d",
+            "label": "Justo y regresivo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Progresivo y generalizado."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-21",
+        "section": "test-oficial",
+        "prompt": "Se produce una rotura definitiva del vínculo conyugal, debiendo regularse por ley según la Constitución Española, en caso de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cese de la convivencia matrimonial."
+          },
+          {
+            "id": "b",
+            "label": "Disolución del matrimonio."
+          },
+          {
+            "id": "c",
+            "label": "Separación."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Disolución del matrimonio."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-22",
+        "section": "test-oficial",
+        "prompt": "La especulación urbanística, según la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Debe evitarse."
+          },
+          {
+            "id": "b",
+            "label": "Está permitida."
+          },
+          {
+            "id": "c",
+            "label": "Genera plusvalías para la colectividad."
+          },
+          {
+            "id": "d",
+            "label": "Pueden hacerla los poderes públicos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Debe evitarse."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-23",
+        "section": "test-oficial",
+        "prompt": "Las fundaciones son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Entidades constituidas para fines de interés general."
+          },
+          {
+            "id": "b",
+            "label": "Administraciones Corporativas."
+          },
+          {
+            "id": "c",
+            "label": "Entidades privadas con fines de carácter también privado."
+          },
+          {
+            "id": "d",
+            "label": "Asociaciones de personas para conseguir fines de interés general."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Entidades constituidas para fines de interés general."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-24",
+        "section": "test-oficial",
+        "prompt": "La asistencia de todo orden a los hijos habidos extraconyugalmente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No está prevista en la Constitución Española."
+          },
+          {
+            "id": "b",
+            "label": "Es un deber de los padres."
+          },
+          {
+            "id": "c",
+            "label": "Se dispensará por instituciones de Beneficencia."
+          },
+          {
+            "id": "d",
+            "label": "Se dispensa solo a los que de ellos tengan discapacidad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Es un deber de los padres."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-25",
+        "section": "test-oficial",
+        "prompt": "¿Cuál NO es un derecho fundamental?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sindicación."
+          },
+          {
+            "id": "b",
+            "label": "Investigación científica."
+          },
+          {
+            "id": "c",
+            "label": "Secreto de las comunicaciones"
+          },
+          {
+            "id": "d",
+            "label": "Todas son correctas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Investigación científica."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-26",
+        "section": "test-oficial",
+        "prompt": "¿Cuál NO es un derecho fundamental?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Libertad de cátedra."
+          },
+          {
+            "id": "b",
+            "label": "Negociación colectiva"
+          },
+          {
+            "id": "c",
+            "label": "Manifestación"
+          },
+          {
+            "id": "d",
+            "label": "Huelga."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Negociación colectiva."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-27",
+        "section": "test-oficial",
+        "prompt": "Sí es un derecho fundamental:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Libre sindicación."
+          },
+          {
+            "id": "b",
+            "label": "Petición."
+          },
+          {
+            "id": "c",
+            "label": "Educación."
+          },
+          {
+            "id": "d",
+            "label": "Todos son derechos fundamentales."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Todos son derechos fundamentales."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-28",
+        "section": "test-oficial",
+        "prompt": "Una vez declarado el estado de excepción NO se puede suspender el derecho:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Huelga."
+          },
+          {
+            "id": "b",
+            "label": "Enseñanza."
+          },
+          {
+            "id": "c",
+            "label": "Adopción de medidas de conflicto colectivo."
+          },
+          {
+            "id": "d",
+            "label": "Libertad de circulación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Enseñanza."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-29",
+        "section": "test-oficial",
+        "prompt": "Durante el estado de excepción, un detenido conserva el derecho:",
+        "options": [
+          {
+            "id": "a",
+            "label": "72 horas para ser puesto a disposición judicial."
+          },
+          {
+            "id": "b",
+            "label": "Secreto de comunicaciones."
+          },
+          {
+            "id": "c",
+            "label": "Asistencia de letrado."
+          },
+          {
+            "id": "d",
+            "label": "No conserva ninguno de los enunciados."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Asistencia de letrado."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-30",
+        "section": "test-oficial",
+        "prompt": "Se puede suspender, con motivo de investigaciones relativas a bandas armadas, el derecho de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Huelga."
+          },
+          {
+            "id": "b",
+            "label": "Inviolabilidad del domicilio."
+          },
+          {
+            "id": "c",
+            "label": "Libertad de circulación."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas b y c son correctas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Inviolabilidad del domicilio."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-31",
+        "section": "test-oficial",
+        "prompt": "Según el Título Preliminar de la Constitución Española, la soberanía nacional reside en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Rey."
+          },
+          {
+            "id": "d",
+            "label": "El pueblo español."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El pueblo español."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-32",
+        "section": "test-oficial",
+        "prompt": "¿Quién debe proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Las Fuerzas Armadas."
+          },
+          {
+            "id": "c",
+            "label": "Las Fuerzas y Cuerpos de Seguridad."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Las Fuerzas y Cuerpos de Seguridad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-33",
+        "section": "test-oficial",
+        "prompt": "NO es un valor superior del ordenamiento jurídico, según el artículo 1.1 de la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La libertad."
+          },
+          {
+            "id": "b",
+            "label": "La justicia."
+          },
+          {
+            "id": "c",
+            "label": "La democracia."
+          },
+          {
+            "id": "d",
+            "label": "El pluralismo político."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La democracia."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-34",
+        "section": "test-oficial",
+        "prompt": "El derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona es, según la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un derecho fundamental de los ciudadanos."
+          },
+          {
+            "id": "b",
+            "label": "Un valor superior del ordenamiento jurídico."
+          },
+          {
+            "id": "c",
+            "label": "Un principio rector de la política social y económica."
+          },
+          {
+            "id": "d",
+            "label": "Una libertad pública."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Un principio rector de la política social y económica."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-35",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 40 de la Constitución Española, los poderes públicos promoverán las condiciones favorables para el progreso social y económico y de manera especial realizarán una política orientada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al pleno empleo."
+          },
+          {
+            "id": "b",
+            "label": "Al desarrollo sostenible."
+          },
+          {
+            "id": "c",
+            "label": "A la mejora de las condiciones de los trabajadores."
+          },
+          {
+            "id": "d",
+            "label": "A la incorporación de los colectivos más desfavorecidos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Al pleno empleo."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-36",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española se fundamenta, según su Título Preliminar en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La indisoluble unidad de la Nación española."
+          },
+          {
+            "id": "b",
+            "label": "La Monarquía parlamentaria."
+          },
+          {
+            "id": "c",
+            "label": "La riqueza de las distintas modalidades lingüísticas de España."
+          },
+          {
+            "id": "d",
+            "label": "La soberanía nacional."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La indisoluble unidad de la Nación española."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-37",
+        "section": "test-oficial",
+        "prompt": "La parte de la Constitución Española que regula los derechos y deberes de los ciudadanos se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Parte dogmática."
+          },
+          {
+            "id": "b",
+            "label": "Título Preliminar."
+          },
+          {
+            "id": "c",
+            "label": "Parte orgánica."
+          },
+          {
+            "id": "d",
+            "label": "Preámbulo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Parte dogmática."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-38",
+        "section": "test-oficial",
+        "prompt": "La estructura interna y el funcionamiento de los sindicatos según el Título Preliminar de la Constitución Española deberán ser:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Participativos."
+          },
+          {
+            "id": "b",
+            "label": "Liberales."
+          },
+          {
+            "id": "c",
+            "label": "Democráticos."
+          },
+          {
+            "id": "d",
+            "label": "Dialogantes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Democráticos."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-39",
+        "section": "test-oficial",
+        "prompt": "De los actos del Rey serán responsables:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El propio Rey siembre."
+          },
+          {
+            "id": "b",
+            "label": "El Jefe de la Casa del Rey."
+          },
+          {
+            "id": "c",
+            "label": "Las personas que los refrenden."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Las personas que los refrenden."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-40",
+        "section": "test-oficial",
+        "prompt": "La convocatoria de referéndum en los casos previstos en la Constitución Española corresponde al:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Rey."
+          },
+          {
+            "id": "c",
+            "label": "Presidente del Congreso de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "Consejo de Gobierno."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Rey."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-41",
+        "section": "test-oficial",
+        "prompt": "Los actos del Rey serán refrendados:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nunca."
+          },
+          {
+            "id": "b",
+            "label": "En algunos casos."
+          },
+          {
+            "id": "c",
+            "label": "Siempre, salvo el nombramiento de los miembros civiles y militares de su Casa."
+          },
+          {
+            "id": "d",
+            "label": "Cuando lo establezcan las leyes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Siempre, salvo el nombramiento de los miembros civiles y militares de su Casa."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-42",
+        "section": "test-oficial",
+        "prompt": "¿Quién refrenda al Rey en el nombramiento del Presidente del Gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Presidente del Gobierno saliente."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente del Congreso."
+          },
+          {
+            "id": "c",
+            "label": "El Jefe de la Casa Real."
+          },
+          {
+            "id": "d",
+            "label": "Este acto se realiza sin refrendo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El Presidente del Congreso."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-43",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española regula la institución de la Corona en el:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Título III."
+          },
+          {
+            "id": "b",
+            "label": "Título Preliminar."
+          },
+          {
+            "id": "c",
+            "label": "Título I."
+          },
+          {
+            "id": "d",
+            "label": "Título II."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Título II."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-44",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Constitución Española, ¿cuál de las siguientes funciones corresponde al Rey?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La iniciativa de reforma constitucional."
+          },
+          {
+            "id": "b",
+            "label": "Dirigir la acción del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Proponer la disolución del Congreso, del Senado o de las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "Convocar elecciones en los términos previstos en la Constitución."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Convocar elecciones en los términos previstos en la Constitución."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-45",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La sucesión en el trono seguirá el orden regular de premoriencia y representación."
+          },
+          {
+            "id": "b",
+            "label": "La persona del Rey es inviolable y no está sujeto a responsabilidad."
+          },
+          {
+            "id": "c",
+            "label": "Las abdicaciones y renuncias y cualquier duda de hecho o de derecho que ocurra en el orden de sucesión a la Corona se resolverán por una ley marco."
+          },
+          {
+            "id": "d",
+            "label": "El Rey nombra y releva a los miembros civiles y militares de su Casa previa autorización de las Cortes Generales."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La persona del Rey es inviolable y no está sujeto a responsabilidad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-46",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española permite el establecimiento de un servicio civil:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Para el cumplimiento de fines de interés general."
+          },
+          {
+            "id": "b",
+            "label": "En casos de grave riesgo, catástrofe o calamidad pública."
+          },
+          {
+            "id": "c",
+            "label": "Para el cumplimiento de fines de interés social."
+          },
+          {
+            "id": "d",
+            "label": "En los supuestos de objeción de conciencia al servicio militar obligatorio."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Para el cumplimiento de fines de interés general."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-47",
+        "section": "test-oficial",
+        "prompt": "Algunos Títulos de la Constitución Española se dividen en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Subtítulos."
+          },
+          {
+            "id": "b",
+            "label": "Secciones."
+          },
+          {
+            "id": "c",
+            "label": "Apartados."
+          },
+          {
+            "id": "d",
+            "label": "Capítulos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Capítulos."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-48",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, los poderes públicos deben garantizar a los ciudadanos durante la tercera edad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los servicios asistenciales suficientes."
+          },
+          {
+            "id": "b",
+            "label": "La suficiencia adecuada."
+          },
+          {
+            "id": "c",
+            "label": "Las pensiones públicas."
+          },
+          {
+            "id": "d",
+            "label": "La suficiencia económica."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: La suficiencia económica."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-49",
+        "section": "test-oficial",
+        "prompt": "La conservación de la nacionalidad española, según la Constitución Española, tendrá lugar de acuerdo con lo establecido en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La ley."
+          },
+          {
+            "id": "b",
+            "label": "Los tratados de doble nacionalidad."
+          },
+          {
+            "id": "c",
+            "label": "Los tratados y la ley."
+          },
+          {
+            "id": "d",
+            "label": "El ordenamiento jurídico."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La ley."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-50",
+        "section": "test-oficial",
+        "prompt": "Los principios reconocidos en el Capítulo Tercero del Título Primero de la Constitución Española, según ésta dispone:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Pueden ser alegados ante los Juzgados y Tribunales en todo caso."
+          },
+          {
+            "id": "b",
+            "label": "Sólo pueden ser alegados ante la Jurisdicción ordinaria de acuerdo con las leyes que los desarrollen."
+          },
+          {
+            "id": "c",
+            "label": "Pueden ser alegados directamente ante el Tribunal Constitucional."
+          },
+          {
+            "id": "d",
+            "label": "Sólo pueden ser alegados ante los Juzgados y Tribunales ordinarios de acuerdo con su contenido constitucional."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Sólo pueden ser alegados ante la Jurisdicción ordinaria de acuerdo con las leyes que los desarrollen."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-51",
+        "section": "test-oficial",
+        "prompt": "Para hacer efectivo el derecho a disfrutar de una vivienda digna y adecuada, la Constitución Española dispone que los poderes públicos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Establecerán las normas pertinentes."
+          },
+          {
+            "id": "b",
+            "label": "Regularán la participación en las plusvalías públicas y privadas."
+          },
+          {
+            "id": "c",
+            "label": "Regularán las condiciones necesarias."
+          },
+          {
+            "id": "d",
+            "label": "Sancionarán los atentados contra el mismo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Establecerán las normas pertinentes."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-52",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española reconoce el derecho de fundación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Para fines de interés particular, con arreglo a la ley."
+          },
+          {
+            "id": "b",
+            "label": "Para fines de interés público, de acuerdo con la ley."
+          },
+          {
+            "id": "c",
+            "label": "Para fines de interés general, con arreglo a la ley."
+          },
+          {
+            "id": "d",
+            "label": "Para fines de interés social, con arreglo a la ley."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Para fines de interés general, con arreglo a la ley."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-53",
+        "section": "test-oficial",
+        "prompt": "La conservación de los bienes que integran el patrimonio histórico, cultural y artístico español alcanza, de acuerdo con la Constitución Española, a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todos los bienes de titularidad pública."
+          },
+          {
+            "id": "b",
+            "label": "Cualquier bien, cualquiera que sea su titular."
+          },
+          {
+            "id": "c",
+            "label": "Los bienes inmuebles."
+          },
+          {
+            "id": "d",
+            "label": "Los bienes de régimen jurídico y titularidad privada."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Cualquier bien, cualquiera que sea su titular."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-54",
+        "section": "test-oficial",
+        "prompt": "España, según la Constitución Española, se constituye en un:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Estado socialista y democrático de Derecho."
+          },
+          {
+            "id": "b",
+            "label": "Estado social y monárquico de Derecho."
+          },
+          {
+            "id": "c",
+            "label": "Estado socialdemócrata y monárquico de Derecho."
+          },
+          {
+            "id": "d",
+            "label": "Estado social y democrático de Derecho."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Estado social y democrático de Derecho."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-55",
+        "section": "test-oficial",
+        "prompt": "Para la salud se reconoce en la Constitución Española el derecho a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La protección."
+          },
+          {
+            "id": "b",
+            "label": "Las medidas preventivas."
+          },
+          {
+            "id": "c",
+            "label": "La asistencia social y servicios necesarios."
+          },
+          {
+            "id": "d",
+            "label": "Las prestaciones y servicios necesarios."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La protección."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-56",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, el derecho de petición puede ser suspendido:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando se declare el estado de excepción o de sitio."
+          },
+          {
+            "id": "b",
+            "label": "En ningún caso puede suspenderse."
+          },
+          {
+            "id": "c",
+            "label": "Sólo cuando se declare el estado de sitio."
+          },
+          {
+            "id": "d",
+            "label": "Cuando se declare el estado de excepción o de sitio, el ejercicio colectivo de dicho derecho."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: En ningún caso puede suspenderse."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-57",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, los poderes públicos deben promover el bienestar de los ciudadanos durante la tercera edad mediante un sistema de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Servicios sociales."
+          },
+          {
+            "id": "b",
+            "label": "Salud pública."
+          },
+          {
+            "id": "c",
+            "label": "Seguridad social."
+          },
+          {
+            "id": "d",
+            "label": "Servicios asistenciales."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Servicios sociales."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-58",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española fue ratificada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por los Presidentes de las Diputaciones Provinciales."
+          },
+          {
+            "id": "b",
+            "label": "Por los partidos políticos."
+          },
+          {
+            "id": "c",
+            "label": "Por los sindicatos mayoritarios."
+          },
+          {
+            "id": "d",
+            "label": "Por el pueblo español en referéndum."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Por el pueblo español en referéndum."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-59",
+        "section": "test-oficial",
+        "prompt": "La disolución de las fundaciones, de acuerdo con la Constitución Española, podrá realizarse:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por resolución, debidamente motivada, de la autoridad competente."
+          },
+          {
+            "id": "b",
+            "label": "Sólo en los supuestos de declaración de los estados de excepción o de sitio."
+          },
+          {
+            "id": "c",
+            "label": "Por el Tribunal Constitucional exclusivamente."
+          },
+          {
+            "id": "d",
+            "label": "Por resolución judicial motivada."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Por resolución judicial motivada."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-60",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española está compuesta de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuatro disposiciones transitorias, nueve adicionales, una derogatoria y una final."
+          },
+          {
+            "id": "b",
+            "label": "Una disposición transitoria, cuatro adicionales, una derogatoria y dos finales."
+          },
+          {
+            "id": "c",
+            "label": "Cuatro disposiciones adicionales, nueve transitorias, una derogatoria y una final."
+          },
+          {
+            "id": "d",
+            "label": "Una disposición adicional, cuatro transitorias, una derogatoria y dos finales."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Cuatro disposiciones adicionales, nueve transitorias, una derogatoria y una final."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-61",
+        "section": "test-oficial",
+        "prompt": "En el artículo 20 de la Constitución Española el derecho de producción y creación literaria:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se reconoce."
+          },
+          {
+            "id": "b",
+            "label": "Se garantiza."
+          },
+          {
+            "id": "c",
+            "label": "Se reconoce y protege."
+          },
+          {
+            "id": "d",
+            "label": "Se garantiza y protege."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Se reconoce y protege."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-62",
+        "section": "test-oficial",
+        "prompt": "¿Qué día fue aprobada por las Cortes Generales la Constitución Española?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El 31 de octubre de 1978."
+          },
+          {
+            "id": "b",
+            "label": "El 6 de diciembre de 1978."
+          },
+          {
+            "id": "c",
+            "label": "El 30 de octubre de 1978."
+          },
+          {
+            "id": "d",
+            "label": "El 30 de noviembre de 1978."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El 31 de octubre de 1978."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-63",
+        "section": "test-oficial",
+        "prompt": "En el caso de inhabilitación del Rey para el ejercicio de su autoridad, según la Constitución Española, es llamado a la Regencia, en primer lugar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Príncipe heredero, si es mayor de edad, y en defecto del padre o la madre."
+          },
+          {
+            "id": "b",
+            "label": "La Reina consorte o el consorte de la Reina."
+          },
+          {
+            "id": "c",
+            "label": "El Príncipe heredero, si es mayor de edad."
+          },
+          {
+            "id": "d",
+            "label": "La persona designada por las Cortes Generales."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Príncipe heredero, si es mayor de edad."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-64",
+        "section": "test-oficial",
+        "prompt": "El relevo de los miembros civiles y militares de la Casa del Rey, según la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Requiere autorización previa del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Se realiza por el Consejo de Ministros, a propuesta exclusiva del Rey."
+          },
+          {
+            "id": "c",
+            "label": "Se realiza libremente por el Rey."
+          },
+          {
+            "id": "d",
+            "label": "Se refrenda por el Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Se realiza libremente por el Rey."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-65",
+        "section": "test-oficial",
+        "prompt": "Como excepción a la exigencia de refrendo de los actos del Rey, la Constitución Española contempla:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La propuesta de candidato a Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "La sanción y promulgación de las leyes aprobadas por las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "El nombramiento y el relevo de los miembros civiles y militares de la Casa del Rey."
+          },
+          {
+            "id": "d",
+            "label": "La concesión de empleos civiles y militares."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El nombramiento y el relevo de los miembros civiles y militares de la Casa del Rey."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-66",
+        "section": "test-oficial",
+        "prompt": "Corresponde al Rey, de acuerdo con la Constitución Española, nombrar y separar a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los titulares de los órganos de la Administración General del Estado."
+          },
+          {
+            "id": "b",
+            "label": "Los Presidentes de las Cámaras."
+          },
+          {
+            "id": "c",
+            "label": "Los miembros del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Los miembros de las Fuerzas Armadas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Los miembros del Gobierno."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-67",
+        "section": "test-oficial",
+        "prompt": "Si el Rey en su testamento no designa tutor del Rey menor de edad, la Constitución Española atribuye la tutela al padre o la madre, siempre que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sean mayores de edad."
+          },
+          {
+            "id": "b",
+            "label": "Permanezcan viudos."
+          },
+          {
+            "id": "c",
+            "label": "Acepten expresamente la tutela."
+          },
+          {
+            "id": "d",
+            "label": "Permanezcan en el cargo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Permanezcan viudos."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-68",
+        "section": "test-oficial",
+        "prompt": "En el supuesto de que se extingan todas las líneas para la sucesión en la Corona, corresponde a las Cortes Generales, según la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nombrar a la persona a la que corresponda la Regencia."
+          },
+          {
+            "id": "b",
+            "label": "Proveer a la sucesión en la forma más conveniente a los intereses de España."
+          },
+          {
+            "id": "c",
+            "label": "Desempeñar las funciones propias de la Regencia."
+          },
+          {
+            "id": "d",
+            "label": "Proveer a la sucesión en la forma más conveniente a los intereses de la Jefatura del Estado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Proveer a la sucesión en la forma más conveniente a los intereses de España."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-69",
+        "section": "test-oficial",
+        "prompt": "La disolución de las Cámaras y la convocatoria de nuevas elecciones por el Rey en el caso del artículo 99 de la Constitución Española, se refrenda por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Ministro competente."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente del Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "Los Presidentes del Congreso y del Senado."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El Presidente del Congreso de los Diputados."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-70",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, corresponden al Rey las funciones que le sean atribuidas expresamente por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales, reunidas en sesión conjunta."
+          },
+          {
+            "id": "b",
+            "label": "La Constitución y las leyes."
+          },
+          {
+            "id": "c",
+            "label": "Las Cortes Generales y, en su caso, el Gobierno de la Nación."
+          },
+          {
+            "id": "d",
+            "label": "La Constitución y las leyes orgánicas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La Constitución y las leyes."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-71",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española dispone que el Rey:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aprueba y sanciona las leyes."
+          },
+          {
+            "id": "b",
+            "label": "Expide las leyes y decretos."
+          },
+          {
+            "id": "c",
+            "label": "Sanciona y promulga las leyes."
+          },
+          {
+            "id": "d",
+            "label": "Sanciona y ordena la publicación de las leyes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Sanciona y promulga las leyes."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-72",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española prevé que entrará a ejercer la Regencia, cuando el Rey sea menor de edad y en defecto del padre o la madre del Rey:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Príncipe heredero."
+          },
+          {
+            "id": "b",
+            "label": "El pariente mayor de edad más próximo a suceder en la Corona."
+          },
+          {
+            "id": "c",
+            "label": "El pariente de más edad."
+          },
+          {
+            "id": "d",
+            "label": "La persona nombrada en el testamento del Rey difunto."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El pariente mayor de edad más próximo a suceder en la Corona."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-73",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de los siguientes enunciados es correcto, de conformidad con lo dispuesto en la Constitución Española de 1978:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La forma política del Estado español es la democracia parlamentaria."
+          },
+          {
+            "id": "b",
+            "label": "Las personas condenadas a pena de prisión que estuvieran cumpliendo la misma gozarán, sin excepción, de los derechos fundamentales recogidos en el Capítulo II del Título I de la Constitución."
+          },
+          {
+            "id": "c",
+            "label": "El derecho del detenido a la asistencia de abogado en las diligencias penales y judiciales, en los términos que ley establezca, no podrá ser suspendido cuando se acuerde la declaración del estado de excepción."
+          },
+          {
+            "id": "d",
+            "label": "Con carácter previo a la aprobación por las Cortes Generales de una reforma que afecte al Título II de la Constitución, el Rey deberá convocar un referéndum consultivo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El derecho del detenido a la asistencia de abogado en las diligencias penales y judiciales, en los términos que ley establezca, no podrá ser suspendido cuando se acuerde la declaración del estado de excepción."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-74",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de los siguientes enunciados es correcto, de conformidad con lo dispuesto en la Constitución Española de 1978:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Constitución española reconoce y protege el derecho a la producción y creación artística, sin más limitación que el respeto al derecho al honor."
+          },
+          {
+            "id": "b",
+            "label": "Toda persona detenida ha de ser informada en el plazo máximo de 72 horas de las razones de su detención."
+          },
+          {
+            "id": "c",
+            "label": "Los partidos políticos expresan el pluralismo político y la diversidad territorial del Estado español."
+          },
+          {
+            "id": "d",
+            "label": "El ejercicio del derecho de reunión requerirá comunicación previa a la autoridad cuando la reunión se realice en lugares de tránsito público."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El ejercicio del derecho de reunión requerirá comunicación previa a la autoridad cuando la reunión se realice en lugares de tránsito público."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-75",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de los siguientes enunciados es correcto, de conformidad con lo dispuesto en la Constitución Española de 1978:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los ciudadanos pueden ser obligados a declarar sobre su ideología cuando se hubiera declarado el estado de sitio."
+          },
+          {
+            "id": "b",
+            "label": "Mediante ley se regularán las peculiaridades para los funcionarios públicos del ejercicio del derecho a sindicarse libremente."
+          },
+          {
+            "id": "c",
+            "label": "Mediante ley orgánica se regularán los supuestos en los que la Administración civil puede imponer penas privativas de libertad."
+          },
+          {
+            "id": "d",
+            "label": "Los miembros de las Fuerzas Armadas pueden ejercer el derecho de petición colectivamente, con arreglo a lo dispuesto en su legislación específica."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Mediante ley se regularán las peculiaridades para los funcionarios públicos del ejercicio del derecho a sindicarse libremente."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-76",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de los siguientes enunciados es correcto, de conformidad con lo dispuesto en la Constitución Española de 1978:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mediante ley se determinarán los supuestos en los que un español de origen puede ser privado de su nacionalidad."
+          },
+          {
+            "id": "b",
+            "label": "La prohibición de los Tribunales de Honor se restringe al ámbito de las organizaciones profesionales."
+          },
+          {
+            "id": "c",
+            "label": "El plazo máximo de duración de la prisión provisional viene fijado por la propia Constitución."
+          },
+          {
+            "id": "d",
+            "label": "Se prohíbe que se inicie la reforma constitucional durante la vigencia del estado de alarma."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Se prohíbe que se inicie la reforma constitucional durante la vigencia del estado de alarma."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-77",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de los siguientes enunciados es correcto, de conformidad con lo dispuesto en la Constitución Española de 1978:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el juramento que el Rey ha de prestar al ser proclamado ante las Cortes Generales, se incluye el respeto de los derechos de las Comunidades Autónomas."
+          },
+          {
+            "id": "b",
+            "label": "El Rey puede presidir las sesiones del Consejo de Ministros siempre que lo estime oportuno, sin más exigencia que la previa comunicación al presidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "En el ejercicio del derecho de gracia, el Rey puede conceder indultos generales."
+          },
+          {
+            "id": "d",
+            "label": "Para ser tutor del Rey bastará que la persona que en su testamento hubiera nombrado el Rey difunto sea mayor de edad y tenga la nacionalidad española."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: En el juramento que el Rey ha de prestar al ser proclamado ante las Cortes Generales, se incluye el respeto de los derechos de las Comunidades Autónomas."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-78",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 100 de la Constitución Española, los Ministros del Gobierno son nombrados por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "El Congreso de los Diputados y el Senado."
+          },
+          {
+            "id": "d",
+            "label": "El Rey."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El Rey."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-79",
+        "section": "test-oficial",
+        "prompt": "Conforme a la Constitución Española de 1978, en relación al derecho de asociación, responda la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se regula en su artículo 21."
+          },
+          {
+            "id": "b",
+            "label": "Las asociaciones constituidas al amparo del derecho de asociación deberán inscribirse en un registro a los efectos de su constitución formal."
+          },
+          {
+            "id": "c",
+            "label": "Se prohíben las asociaciones secretas y las de carácter paramilitar."
+          },
+          {
+            "id": "d",
+            "label": "Las asociaciones solo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial o administrativa motivada."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Se prohíben las asociaciones secretas y las de carácter paramilitar."
+      },
+      {
+        "id": "b1t1-test-oficial-ce-2-80",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 41 de la Constitución Española, loa poderes públicos deberán mantener un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad y, especialmente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En caso de desempleo."
+          },
+          {
+            "id": "b",
+            "label": "En caso de enfermedad."
+          },
+          {
+            "id": "c",
+            "label": "En casa de necesidad económica."
+          },
+          {
+            "id": "d",
+            "label": "En casa de crisis económica."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: En caso de desempleo."
+      }
+    ]
+  },
+  {
     "code": "B2T3",
     "slug": "b2t3-test-oficial-estructuras-de-datos",
     "title": "Test oficial Estructuras de datos",

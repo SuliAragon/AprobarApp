@@ -1,22 +1,173 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import TopicCard from "../../components/TopicCard.astro";
-import { topics } from "../../data/topics";
+import { topicNavigator, topics } from "../../data/topics";
+
+const firstAvailableBlock = topicNavigator.blockOptions.find((block) => block.loadedTopicCount > 0)?.value ?? "1";
+const firstAvailableTheme = topicNavigator.themeOptionsByBlock[firstAvailableBlock]?.[0]?.value ?? "";
 ---
 
 <BaseLayout title="Temarios | AprobarApp" description="Listado de temarios y tests específicos para TAI 2027.">
   <section class="page-hero content-centered">
     <p class="eyebrow">Biblioteca de estudio</p>
-    <h1>Temarios cargados en AprobarApp</h1>
+    <h1>Encuentra el tema por bloque y número</h1>
     <p>
-      Cada tarjeta te lleva al PDF, al resumen y a los tests específicos del tema. La estructura está pensada para
-      estudiar por bloques y no mezclar contenidos todavía.
+      En vez de crecer como una lista infinita, `Temarios` ya funciona como selector: eliges bloque, eliges tema y
+      entras directo al material cargado.
     </p>
   </section>
 
   <section class="section-block section-block--centered">
-    <div class="topic-grid topic-grid--centered">
-      {topics.map((topic) => <TopicCard topic={topic} />)}
+    <div class="topic-picker" data-topic-picker-root>
+      <div class="topic-picker__intro">
+        <p class="eyebrow">Navegación escalable</p>
+        <h2>Selecciona primero el bloque y después el tema</h2>
+        <p>
+          Solo aparecen aquí los temas que ya has cargado. A medida que añadamos más PDFs, este selector se irá
+          completando sin convertir la página en un listado interminable.
+        </p>
+      </div>
+
+      <div class="topic-picker__controls">
+        <label class="topic-picker__field">
+          <span>Bloque</span>
+          <select data-block-select>
+            {
+              topicNavigator.blockOptions.map((block) => (
+                <option value={block.value} selected={block.value === firstAvailableBlock}>
+                  {block.label} · {block.loadedTopicCount} cargados
+                </option>
+              ))
+            }
+          </select>
+        </label>
+
+        <label class="topic-picker__field">
+          <span>Tema</span>
+          <select data-theme-select data-initial-theme={firstAvailableTheme}></select>
+        </label>
+      </div>
+
+      <p class="topic-picker__hint" data-topic-picker-hint>
+        Mostrando el primer tema disponible del bloque seleccionado.
+      </p>
+
+      <div class="topic-grid topic-grid--centered topic-grid--picker" data-topic-results>
+        {
+          topics.map((topic) => (
+            <div
+              data-topic-entry
+              data-block={topic.blockNumber ?? ""}
+              data-topic={topic.topicNumber ?? ""}
+              data-slug={topic.slug}
+              hidden
+            >
+              <TopicCard topic={topic} />
+            </div>
+          ))
+        }
+      </div>
+
+      <article class="empty-state" data-topic-empty hidden>
+        <h3>No hay ningún tema cargado en esa combinación todavía</h3>
+        <p>
+          Cuando metas más PDFs del bloque o del tema correspondiente, aparecerán aquí automáticamente sin tocar la
+          estructura de la página.
+        </p>
+      </article>
     </div>
   </section>
+
+  <script
+    is:inline
+    define:vars={{
+      firstAvailableBlock,
+      firstAvailableTheme,
+      themeOptionsByBlock: topicNavigator.themeOptionsByBlock,
+    }}
+  >
+    const topicPickerRoot = document.querySelector("[data-topic-picker-root]");
+
+    if (topicPickerRoot) {
+      const blockSelect = topicPickerRoot.querySelector("[data-block-select]");
+      const themeSelect = topicPickerRoot.querySelector("[data-theme-select]");
+      const topicEntries = [...topicPickerRoot.querySelectorAll("[data-topic-entry]")];
+      const emptyState = topicPickerRoot.querySelector("[data-topic-empty]");
+      const hintNode = topicPickerRoot.querySelector("[data-topic-picker-hint]");
+
+      const fillThemeOptions = (blockValue, preferredTheme = "") => {
+        if (!themeSelect) {
+          return "";
+        }
+
+        const options = themeOptionsByBlock[blockValue] ?? [];
+        themeSelect.innerHTML = "";
+
+        if (options.length === 0) {
+          const emptyOption = document.createElement("option");
+          emptyOption.value = "";
+          emptyOption.textContent = "No hay temas cargados";
+          themeSelect.append(emptyOption);
+          themeSelect.disabled = true;
+          return "";
+        }
+
+        for (const option of options) {
+          const element = document.createElement("option");
+          element.value = option.value;
+          element.textContent = option.label;
+          themeSelect.append(element);
+        }
+
+        themeSelect.disabled = false;
+
+        const nextTheme = options.some((option) => option.value === preferredTheme) ? preferredTheme : options[0].value;
+        themeSelect.value = nextTheme;
+        return nextTheme;
+      };
+
+      const syncVisibleTopic = () => {
+        if (!blockSelect || !themeSelect || !emptyState || !hintNode) {
+          return;
+        }
+
+        const blockValue = blockSelect.value;
+        const themeValue = themeSelect.value;
+        let visibleCount = 0;
+
+        for (const entry of topicEntries) {
+          const isVisible =
+            entry.getAttribute("data-block") === blockValue && entry.getAttribute("data-topic") === themeValue;
+          entry.hidden = !isVisible;
+          visibleCount += isVisible ? 1 : 0;
+        }
+
+        emptyState.hidden = visibleCount !== 0;
+
+        if (visibleCount === 0) {
+          hintNode.textContent = `No hay tema cargado para el bloque ${blockValue} con ese número todavía.`;
+          return;
+        }
+
+        const currentOption = themeSelect.selectedOptions[0];
+        hintNode.textContent = `${blockSelect.selectedOptions[0]?.textContent ?? `Bloque ${blockValue}`} · ${currentOption?.textContent ?? `Tema ${themeValue}`}`;
+      };
+
+      const initialTheme = fillThemeOptions(firstAvailableBlock, firstAvailableTheme);
+      if (themeSelect) {
+        themeSelect.value = initialTheme;
+      }
+      syncVisibleTopic();
+
+      blockSelect?.addEventListener("change", () => {
+        const nextTheme = fillThemeOptions(blockSelect.value, "");
+        if (themeSelect) {
+          themeSelect.value = nextTheme;
+        }
+        syncVisibleTopic();
+      });
+
+      themeSelect?.addEventListener("change", syncVisibleTopic);
+    }
+  </script>
 </BaseLayout>
