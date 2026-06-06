@@ -1,12 +1,14 @@
 import { spawnSync } from "node:child_process";
 import { cpSync, existsSync, mkdirSync, readdirSync, writeFileSync } from "node:fs";
-import { dirname, extname, join, relative, resolve } from "node:path";
+import { basename, dirname, extname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseOfficialTestText } from "./lib/official-tests-parser.mjs";
+import { buildTemarioCatalog, isSupportedTemarioFile } from "./lib/temario-catalog.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDir = resolve(projectRoot, "..", "Temario");
 const publicDir = resolve(projectRoot, "public", "temario");
+const podcastPublicDir = resolve(projectRoot, "public", "podcast");
 const manifestFile = resolve(projectRoot, "src", "data", "generated", "temarios.json");
 const officialSourceDir = resolve(projectRoot, "..", "Test");
 const officialPublicDir = resolve(projectRoot, "public", "test-oficial");
@@ -25,16 +27,6 @@ function slugify(value) {
 function deriveCode(filename) {
   const match = filename.match(/^([A-Za-z0-9]+)/);
   return match ? match[1].toUpperCase() : "";
-}
-
-function prettifyFilename(filename) {
-  return filename
-    .replace(/\.[^.]+$/, "")
-    .replace(/_/g, " ")
-    .replace(/\bsubrayado\b/gi, "")
-    .replace(/\s+\d+$/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 function prettifyOfficialFilename(filename, code) {
@@ -97,6 +89,7 @@ function writeJsonFile(filePath, value) {
 }
 
 mkdirSync(publicDir, { recursive: true });
+mkdirSync(podcastPublicDir, { recursive: true });
 mkdirSync(dirname(manifestFile), { recursive: true });
 mkdirSync(officialPublicDir, { recursive: true });
 mkdirSync(dirname(officialManifestFile), { recursive: true });
@@ -106,25 +99,37 @@ if (!existsSync(sourceDir)) {
   writeJsonFile(manifestFile, []);
   console.warn("[sync-temario] No existe la carpeta Temario. Se genera un manifest vacío.");
 } else {
-  const pdfFiles = readdirSync(sourceDir)
-    .filter((file) => extname(file).toLowerCase() === ".pdf")
-    .sort((a, b) => a.localeCompare(b, "es"));
+  const temarioFiles = collectFilesRecursively(sourceDir)
+    .filter((file) => isSupportedTemarioFile(file))
+    .sort((left, right) => left.localeCompare(right, "es"));
+  const temarioCatalog = buildTemarioCatalog(temarioFiles.map((file) => relative(sourceDir, file)));
 
-  const manifest = pdfFiles.map((file) => {
-    const originalName = file;
-    const code = deriveCode(file);
-    const title = prettifyFilename(file);
-    const slug = slugify(title);
-    const destinationName = `${slug}.pdf`;
+  const manifest = temarioCatalog.map((entry) => {
+    const pdfDestinationName = `${entry.slug}.pdf`;
+    cpSync(join(sourceDir, entry.sourceFilename), join(publicDir, pdfDestinationName), { force: true });
 
-    cpSync(join(sourceDir, file), join(publicDir, destinationName), { force: true });
+    const podcasts = entry.podcasts.map((podcast) => {
+      const code = entry.code || deriveCode(basename(entry.sourceFilename)) || "SIN-CODIGO";
+      const destinationDir = join(podcastPublicDir, code);
+      const destinationName = `${podcast.slug}${podcast.extension}`;
+
+      mkdirSync(destinationDir, { recursive: true });
+      cpSync(join(sourceDir, podcast.sourceFilename), join(destinationDir, destinationName), { force: true });
+
+      return {
+        sourceFilename: podcast.sourceFilename,
+        title: podcast.title,
+        assetPath: `/podcast/${code}/${destinationName}`,
+      };
+    });
 
     return {
-      code,
-      slug,
-      sourceFilename: originalName,
-      title,
-      pdfPath: `/temario/${destinationName}`,
+      code: entry.code,
+      slug: entry.slug,
+      sourceFilename: entry.sourceFilename,
+      title: entry.title,
+      pdfPath: `/temario/${pdfDestinationName}`,
+      podcasts,
     };
   });
 

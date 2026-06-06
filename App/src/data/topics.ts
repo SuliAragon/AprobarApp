@@ -6,6 +6,12 @@ import { questionBanksByCode } from "./question-banks";
 import { buildTopicNavigator, parseTopicCode } from "./topic-catalog.js";
 import { topicOverrides } from "./topic-overrides";
 
+export interface TopicPodcast {
+  sourceFilename: string;
+  title: string;
+  assetPath: string;
+}
+
 export interface OfficialMaterial {
   code: string;
   slug: string;
@@ -30,6 +36,9 @@ export interface Topic {
   description: string;
   pdfPath: string;
   sourceFilename: string;
+  podcasts: TopicPodcast[];
+  podcastCount: number;
+  hasPodcasts: boolean;
   summary: string[];
   sections: string[];
   accent: "emerald" | "amber" | "coral" | "azure";
@@ -50,6 +59,7 @@ interface GeneratedTopic {
   title: string;
   pdfPath: string;
   sourceFilename: string;
+  podcasts?: TopicPodcast[];
 }
 
 const officialMaterialsByCode = (generatedOfficialMaterials as Omit<OfficialMaterial, "interactiveTest" | "hasInteractiveQuiz" | "interactiveQuestionCount">[]).reduce<
@@ -96,6 +106,9 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[])
       "Tema detectado automáticamente. El PDF ya está disponible en la app y se puede ampliar con tests específicos.",
     pdfPath: topic.pdfPath,
     sourceFilename: topic.sourceFilename,
+    podcasts: topic.podcasts ?? [],
+    podcastCount: topic.podcasts?.length ?? 0,
+    hasPodcasts: (topic.podcasts?.length ?? 0) > 0,
     summary:
       override?.summary ??
       ["Tema sincronizado desde la carpeta Temario.", "Añade un banco de preguntas para activar los tests específicos."],

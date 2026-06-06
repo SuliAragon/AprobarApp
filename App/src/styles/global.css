@@ -445,7 +445,8 @@ iframe {
 .study-steps,
 .topic-columns,
 .quiz-questions,
-.official-list {
+.official-list,
+.podcast-list {
   display: grid;
   gap: 0;
 }
@@ -454,7 +455,8 @@ iframe {
 .test-grid,
 .study-steps,
 .quiz-questions,
-.official-list {
+.official-list,
+.podcast-list {
   border-top: 1px solid var(--line);
 }
 
@@ -979,6 +981,60 @@ iframe {
   gap: 0.75rem;
 }
 
+.podcast-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.9fr);
+  gap: 1rem;
+  align-items: end;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.podcast-item__main,
+.podcast-item__footer {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.podcast-item__header {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.podcast-item__badge,
+.podcast-item__filename {
+  font-family: var(--font-display);
+}
+
+.podcast-item__badge {
+  padding: 0.42rem 0.72rem;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.podcast-item__filename {
+  color: var(--text-soft);
+  font-size: 0.82rem;
+}
+
+.podcast-item h3 {
+  margin: 0;
+  color: var(--title);
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 1.8vw, 1.75rem);
+  letter-spacing: -0.04em;
+}
+
+.podcast-item audio {
+  width: 100%;
+}
+
 .quiz-layout {
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
@@ -1104,6 +1160,10 @@ iframe {
   .official-material {
     grid-template-columns: 1fr;
   }
+
+  .podcast-item {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 760px) {
@@ -1135,7 +1195,8 @@ iframe {
 
   .topic-card,
   .test-card,
-  .official-material {
+  .official-material,
+  .podcast-item {
     grid-template-columns: 1fr;
     gap: 0.85rem;
   }

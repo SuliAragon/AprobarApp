@@ -2,15 +2,29 @@
   {
     "code": "B1T1",
     "slug": "b1t1-ce",
-    "sourceFilename": "B1T1_CE_subrayado 1.pdf",
+    "sourceFilename": "Bloque 1/Tema 1/B1T1_CE_subrayado 1.pdf",
     "title": "B1T1 CE",
-    "pdfPath": "/temario/b1t1-ce.pdf"
+    "pdfPath": "/temario/b1t1-ce.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 1/Tema 1/Claves_de_la_Constitución_para_opositores.m4a",
+        "title": "Claves de la Constitución para opositores",
+        "assetPath": "/podcast/B1T1/claves-de-la-constitucion-para-opositores.m4a"
+      }
+    ]
   },
   {
     "code": "B2T3",
     "slug": "b2t3-estructuras-de-datos",
-    "sourceFilename": "B2T3_Estructuras_de_datos_subrayado 1.pdf",
+    "sourceFilename": "Bloque 2/Tema 3/B2T3_Estructuras_de_datos_subrayado 1.pdf",
     "title": "B2T3 Estructuras de datos",
-    "pdfPath": "/temario/b2t3-estructuras-de-datos.pdf"
+    "pdfPath": "/temario/b2t3-estructuras-de-datos.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 2/Tema 3/Estructuras_de_datos_y_algoritmos_TAI.m4a",
+        "title": "Estructuras de datos y algoritmos TAI",
+        "assetPath": "/podcast/B2T3/estructuras-de-datos-y-algoritmos-tai.m4a"
+      }
+    ]
   }
 ]

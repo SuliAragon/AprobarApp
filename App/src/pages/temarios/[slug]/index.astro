@@ -87,6 +87,41 @@ const { topic } = Astro.props as { topic: Topic };
     </div>
   </section>
 
+  {
+    topic.hasPodcasts && (
+      <section class="section-block section-block--centered">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Audio de apoyo</p>
+            <h2>Podcasts para repasar este tema</h2>
+          </div>
+        </div>
+
+        <div class="podcast-list">
+          {topic.podcasts.map((podcast) => (
+            <article class="podcast-item">
+              <div class="podcast-item__main">
+                <div class="podcast-item__header">
+                  <span class="podcast-item__badge">Podcast</span>
+                  <span class="podcast-item__filename">{podcast.sourceFilename}</span>
+                </div>
+                <h3>{podcast.title}</h3>
+                <p>Audio añadido dentro de la carpeta del tema para poder repasar el contenido también fuera del PDF.</p>
+              </div>
+
+              <div class="podcast-item__footer">
+                <audio controls preload="none" src={withBase(podcast.assetPath)}></audio>
+                <a class="button button--secondary" href={withBase(podcast.assetPath)} target="_blank" rel="noreferrer">
+                  Abrir audio
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
   <section class="section-block" id="tests">
     <div class="section-heading section-heading--centered">
       <div>

@@ -3,4 +3,5 @@ dist
 .astro
 public/temario
 public/test-oficial
+public/podcast
 src/data/generated

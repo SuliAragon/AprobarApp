@@ -28,6 +28,7 @@ const { topic } = Astro.props;
     <div class="topic-card__meta">
       <span>{topic.testCount} tests</span>
       <span>{topic.questionCount} preguntas base</span>
+      {topic.hasPodcasts && <span>{topic.podcastCount} podcasts</span>}
       {topic.hasOfficialMaterials && <span>{topic.officialCount} oficiales</span>}
     </div>
 
