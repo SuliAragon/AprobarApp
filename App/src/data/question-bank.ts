@@ -1,5 +1,7 @@
 export type OptionId = "a" | "b" | "c" | "d";
 
+import { rebalanceQuestionsForTest } from "./test-option-balancer";
+
 export interface QuestionOption {
   id: OptionId;
   label: string;
@@ -116,7 +118,7 @@ export function buildTopicTests(topicCode: string, bank: QuizQuestion[], presets
       title: preset.title,
       description: preset.description,
       focusSections: preset.focusSections,
-      questions: selected,
+      questions: rebalanceQuestionsForTest(selected, `${topicCode}-${preset.slug}`),
     } satisfies TopicTest;
   });
 }
