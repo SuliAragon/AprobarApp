@@ -54,5 +54,21 @@
     "sourceFilename": "Bloque 3/Tema 1/B3T1Test_ModeloER 1.pdf",
     "title": "Test oficial ModeloER",
     "assetPath": "/test-oficial/B3T1/b3t1-test-oficial-modeloer.pdf"
+  },
+  {
+    "code": "B3T2",
+    "slug": "b3t2-ejercicios",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 2/B3T2Ejercicios 1.pdf",
+    "title": "Ejercicios",
+    "assetPath": "/test-oficial/B3T2/b3t2-ejercicios.pdf"
+  },
+  {
+    "code": "B3T2",
+    "slug": "b3t2-test-oficial-diseno-bd",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 3/Tema 2/B3T2Test_Diseno_BD 4.pdf",
+    "title": "Test oficial Diseno BD",
+    "assetPath": "/test-oficial/B3T2/b3t2-test-oficial-diseno-bd.pdf"
   }
 ]

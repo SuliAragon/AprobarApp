@@ -34,5 +34,13 @@
     "title": "B3T1 Modelo ER",
     "pdfPath": "/temario/b3t1-modelo-er.pdf",
     "podcasts": []
+  },
+  {
+    "code": "B3T2",
+    "slug": "b3t2-diseno-bd",
+    "sourceFilename": "Bloque 3/Tema 2/B3T2_Diseno_BD 1.pdf",
+    "title": "B3T2 Diseno BD",
+    "pdfPath": "/temario/b3t2-diseno-bd.pdf",
+    "podcasts": []
   }
 ]

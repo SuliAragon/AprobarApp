@@ -6000,5 +6000,1268 @@
         "explanation": "La plantilla oficial marca como correcta la opción D: El nombre, el grado, el tipo de correspondencia y la cardinalidad. MODELO ER."
       }
     ]
+  },
+  {
+    "code": "B3T2",
+    "slug": "b3t2-test-oficial-diseno-bd",
+    "title": "Test oficial Diseno BD",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 3/Tema 2/B3T2Test_Diseno_BD 4.pdf",
+    "assetPath": "/test-oficial/B3T2/b3t2-test-oficial-diseno-bd.pdf",
+    "questions": [
+      {
+        "id": "b3t2-test-oficial-diseno-bd-1",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO es un objetivo perseguido por Codd en la presentación de su modelo relacional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Independencia lógica."
+          },
+          {
+            "id": "b",
+            "label": "Independencia conceptual."
+          },
+          {
+            "id": "c",
+            "label": "Independencia física."
+          },
+          {
+            "id": "d",
+            "label": "Uniformidad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Independencia conceptual."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-2",
+        "section": "test-oficial",
+        "prompt": "Según la integridad de los datos en el modelo relacional. ¿A qué regla de integridad le corresponde la siguiente definición: “Los valores de claves foráneas deben existir en la clave primaria referenciada o bien deben ser valores nulos”?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La regla de integridad referencial."
+          },
+          {
+            "id": "b",
+            "label": "La regla de integridad de dominio."
+          },
+          {
+            "id": "c",
+            "label": "La regla de integridad foránea inversa."
+          },
+          {
+            "id": "d",
+            "label": "La regla de integridad de unicidad."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La regla de integridad referencial."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-3",
+        "section": "test-oficial",
+        "prompt": "Las consecuencias principales de que una base de datos NO esté normalizada adecuadamente son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Errores de inconsistencias, incoherencias, actualización y redundancia de datos."
+          },
+          {
+            "id": "b",
+            "label": "Problemas de bloque en las transacciones de las bases de datos."
+          },
+          {
+            "id": "c",
+            "label": "Problemas de disponibilidad de la base de datos."
+          },
+          {
+            "id": "d",
+            "label": "Dificultad para dimensionar adecuadamente las necesidades de almacenamiento de la base de datos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Errores de inconsistencias, incoherencias, actualización y redundancia de datos."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-4",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes opciones NO representa uno de los niveles de abstracción de bases de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Interno."
+          },
+          {
+            "id": "b",
+            "label": "Externo."
+          },
+          {
+            "id": "c",
+            "label": "Sintáctico."
+          },
+          {
+            "id": "d",
+            "label": "Conceptual."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Sintáctico."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-5",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes operaciones NO se considera fundamental en el álgebra relacional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proyección."
+          },
+          {
+            "id": "b",
+            "label": "Intersección."
+          },
+          {
+            "id": "c",
+            "label": "Selección."
+          },
+          {
+            "id": "d",
+            "label": "Unión."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Intersección."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-6",
+        "section": "test-oficial",
+        "prompt": "El modelo de datos relacional fue introducido por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Codd."
+          },
+          {
+            "id": "b",
+            "label": "Hamming."
+          },
+          {
+            "id": "c",
+            "label": "Ritchie."
+          },
+          {
+            "id": "d",
+            "label": "Adleman. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Codd."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-7",
+        "section": "test-oficial",
+        "prompt": "Dentro del modelo relacional, señale la afirmación ERRÓNEA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En una relación puede haber varias claves candidatas."
+          },
+          {
+            "id": "b",
+            "label": "Una clave primaria es, a su vez, clave candidata."
+          },
+          {
+            "id": "c",
+            "label": "Si se elimina un atributo de una clave candidata, ésta deja de serlo."
+          },
+          {
+            "id": "d",
+            "label": "Una relación puede no tener clave candidata."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Una relación puede no tener clave candidata."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-8",
+        "section": "test-oficial",
+        "prompt": "Según la teoría de la normalización, para pasar una relación de 1FN a 2FN hay que eliminar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "De ella los grupos repetitivos."
+          },
+          {
+            "id": "b",
+            "label": "Las dependencias parciales de la clave externas."
+          },
+          {
+            "id": "c",
+            "label": "Las dependencias parciales de las claves candidatas."
+          },
+          {
+            "id": "d",
+            "label": "Las dependencias transitivas de la clave primaria."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Las dependencias parciales de las claves candidatas."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-9",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes es un operador fundamental del álgebra relacional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Intersección."
+          },
+          {
+            "id": "b",
+            "label": "Producto cartesiano."
+          },
+          {
+            "id": "c",
+            "label": "Agrupación."
+          },
+          {
+            "id": "d",
+            "label": "Cociente."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Producto cartesiano."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-10",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre la Tercera Forma Normal (3FN) es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una entidad está en 3FN si está en 2FN y todos sus atributos no principales dependen directamente de la clave primaria, es decir, no hay dependencias funcionales transitivas de atributos no principales respecto de las claves."
+          },
+          {
+            "id": "b",
+            "label": "Una entidad está en 3FN si está en 2FN y todos sus atributos que no forman parte de las claves candidatas (atributos no principales) tienen dependencia funcional completa respecto de éstas."
+          },
+          {
+            "id": "c",
+            "label": "La 3FN es el nivel más elevado de normalización de una tabla."
+          },
+          {
+            "id": "d",
+            "label": "Una tabla está en 3FN cuando está en 2FN y además todos los atributos, tanto principales como no principales, son atómicos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Una entidad está en 3FN si está en 2FN y todos sus atributos no principales dependen directamente de la clave primaria, es decir, no hay dependencias funcionales transitivas de atributos no principales respecto de las claves."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-11",
+        "section": "test-oficial",
+        "prompt": "¿Qué nivel de la arquitectura ANSI/X3/SPARC contiene las vistas externas de la base de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nivel físico."
+          },
+          {
+            "id": "b",
+            "label": "Nivel conceptual."
+          },
+          {
+            "id": "c",
+            "label": "Nivel lógico."
+          },
+          {
+            "id": "d",
+            "label": "Las vistas están fuera del modelo de base de datos, ya que son externas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Nivel lógico."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-12",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes tareas NO corresponde a una tarea del diseño físico de una base de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Traducir el esquema lógico para el SGBD específico."
+          },
+          {
+            "id": "b",
+            "label": "Diseñar los mecanismos de seguridad."
+          },
+          {
+            "id": "c",
+            "label": "Transformación de entidades."
+          },
+          {
+            "id": "d",
+            "label": "Seleccionar los índices secundarios. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Transformación de entidades."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-13",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un objetivo de la normalización de base de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proporcionar una estructura más regular para la representación de tablas."
+          },
+          {
+            "id": "b",
+            "label": "Optimizar la base de datos."
+          },
+          {
+            "id": "c",
+            "label": "Evitar anomalías en las operaciones de manipulación de datos."
+          },
+          {
+            "id": "d",
+            "label": "La eliminación de dependencias entre atributos."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Optimizar la base de datos."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-14",
+        "section": "test-oficial",
+        "prompt": "Una relación, si los atributos que no forman parte de ninguna clave dependen de forma completa de la clave principal se dice que está en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tercera Forma Normal."
+          },
+          {
+            "id": "b",
+            "label": "Cuarta Forma Normal."
+          },
+          {
+            "id": "c",
+            "label": "Quinta Forma Normal."
+          },
+          {
+            "id": "d",
+            "label": "Segunda Forma Normal."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Segunda Forma Normal."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-15",
+        "section": "test-oficial",
+        "prompt": "En una tabla, si cada determinante, atributo que determina completamente a otro, es clave candidata se dice que está en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Primera Forma Normal."
+          },
+          {
+            "id": "b",
+            "label": "Segunda Forma Normal."
+          },
+          {
+            "id": "c",
+            "label": "Forma Normal de Boyce-Codd."
+          },
+          {
+            "id": "d",
+            "label": "Quinta Forma Normal."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Forma Normal de Boyce-Codd."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-16",
+        "section": "test-oficial",
+        "prompt": "Si en una base de datos relacional tenemos una tabla que contiene una tupla cuya única clave ajena tiene un valor nulo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Estaremos incumpliendo la regla de integridad de entidad."
+          },
+          {
+            "id": "b",
+            "label": "Estaremos incumpliendo la regla de integridad referencial."
+          },
+          {
+            "id": "c",
+            "label": "Dicha tupla no está relacionada con ninguna otra tupla de la entidad a la que hace referencia la clave ajena."
+          },
+          {
+            "id": "d",
+            "label": "Existirá una tupla en la entidad a la que hace referencia la clave ajena, con la que estará relacionada."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Dicha tupla no está relacionada con ninguna otra tupla de la entidad a la que hace referencia la clave ajena."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-17",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es una restricción inherente al modelo relacional de los sistemas gestores de bases de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El atributo que forma parte de la clave tiene que ser numérico."
+          },
+          {
+            "id": "b",
+            "label": "El atributo que forma parte de la clave no puede ser numérico."
+          },
+          {
+            "id": "c",
+            "label": "El atributo que forma parte de la clave no puede tomar el valor cero."
+          },
+          {
+            "id": "d",
+            "label": "El atributo que forma parte de la clave no puede tomar valore nulos (por nulo se interpreta valores desconocidos)."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El atributo que forma parte de la clave no puede tomar valore nulos (por nulo se interpreta valores desconocidos)."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-18",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se llama el operador del álgebra relacional que aplicado sobre una relación permite obtener un subconjunto de sus atributos manteniendo el mismo número de tuplas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Unión de conjuntos."
+          },
+          {
+            "id": "b",
+            "label": "Producto cartesiano."
+          },
+          {
+            "id": "c",
+            "label": "Selección."
+          },
+          {
+            "id": "d",
+            "label": "Proyección. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Proyección. DISEÑO DE BASES DE DATOS."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-19",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones NO es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las bases de datos relacionales se normalizan para evitar la redundancia de datos."
+          },
+          {
+            "id": "b",
+            "label": "Ningún atributo que compone una clave primara puede ser nulo."
+          },
+          {
+            "id": "c",
+            "label": "Un atributo nulo representa el valor cero o una cadena vacía."
+          },
+          {
+            "id": "d",
+            "label": "Uno de los objetivos de la normalización es facilitar el mantenimiento de datos y programas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Un atributo nulo representa el valor cero o una cadena vacía."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-20",
+        "section": "test-oficial",
+        "prompt": "Una tabla se dice que está en Tercera Forma Normal si se encuentra en Segunda Forma Normal y:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las únicas dependencias funcionales elementales son aquellas en las que la clave principal (y claves secundarias) determinan un atributo."
+          },
+          {
+            "id": "b",
+            "label": "Todo atributo secundario depende totalmente de la clave completa."
+          },
+          {
+            "id": "c",
+            "label": "Los valores que componen los atributos son elementales y únicos."
+          },
+          {
+            "id": "d",
+            "label": "No existen atributos no primarios que son transitivamente dependientes de cada posible clave de la tabla."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: No existen atributos no primarios que son transitivamente dependientes de cada posible clave de la tabla."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-21",
+        "section": "test-oficial",
+        "prompt": "En una tabla de una base de datos relacional, si no existen grupos repetitivos, y todos los elementos son independientes entre sí y dependen solamente de la clave primaria de forma plena, ¿ante qué forma normal nos encontramos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1FN."
+          },
+          {
+            "id": "b",
+            "label": "2FN."
+          },
+          {
+            "id": "c",
+            "label": "3FN."
+          },
+          {
+            "id": "d",
+            "label": "No se encuentra en ninguna forma normal."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: 3FN."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-22",
+        "section": "test-oficial",
+        "prompt": "En el modelo relacional, una relación R, decimos que está en Segunda Forma Normal (2FN) si:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Está en Primera Forma Normal (1FN) y todos los atributos que no forman parte de las claves candidatas tienen dependencia funcional completa respecto de éstas."
+          },
+          {
+            "id": "b",
+            "label": "Todos los atributos que no forman parte de las claves candidatas tienen dependencia funcional completa respecto de éstas."
+          },
+          {
+            "id": "c",
+            "label": "Todos sus atributos no principales dependen directamente de la clave primaria."
+          },
+          {
+            "id": "d",
+            "label": "No tiene grupos repetitivos, es decir, un atributo solo puede tomar un único valor de un dominio simple."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Está en Primera Forma Normal (1FN) y todos los atributos que no forman parte de las claves candidatas tienen dependencia funcional completa respecto de éstas."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-23",
+        "section": "test-oficial",
+        "prompt": "La tabla siguiente EMPLEADOS (COD_EMPLEADO, COD_DEPARTAMENTO, TIPO, EDAD, PLANTA_DEPARTAMENTO) donde la clave principal es COD_EMPLEADO y COD_DEPARTAMENTO.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cumple la 2FN."
+          },
+          {
+            "id": "b",
+            "label": "No cumple la 3FN, pero cumple la segunda."
+          },
+          {
+            "id": "c",
+            "label": "No cumple la 2FN."
+          },
+          {
+            "id": "d",
+            "label": "No cumple la 4FN, pero cumple la tercera. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: No cumple la 2FN."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-24",
+        "section": "test-oficial",
+        "prompt": "Partiendo del diagrama Entidad/Relación de la figura. ¿Cuántas tablas generaría la transformación de este diagrama al modelo relacional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dos."
+          },
+          {
+            "id": "b",
+            "label": "Tres."
+          },
+          {
+            "id": "c",
+            "label": "Cuatro."
+          },
+          {
+            "id": "d",
+            "label": "Cinco."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Dos."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-25",
+        "section": "test-oficial",
+        "prompt": "Se pretende obtener el modelo lógico de datos a partir de este modelo entidad/relación, ¿cómo se reflejará la relación entre las tablas BECAS y ASPIRANTES?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En una nueva tabla cuya clave primaria será la concatenación de los atributos claves de las tablas BECAS y ASPIRANTES."
+          },
+          {
+            "id": "b",
+            "label": "Se propaga la clave primaria BECAS y los atributos de la relación de la entidad ASPIRANTES."
+          },
+          {
+            "id": "c",
+            "label": "En una nueva tabla cuya clave primaria será la concatenación de cuatro valores: los atributos clave de las tablas BECAS, ASPIRANTES y los atributos de la relación (“otorgada” y “año_otorgamiento”)."
+          },
+          {
+            "id": "d",
+            "label": "Se propaga la clave primaria de cualquier de las dos tablas a la otra, y el atributo de la relación también, pero ninguno de estos será clave primaria en la relación dónde se propaguen."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: En una nueva tabla cuya clave primaria será la concatenación de los atributos claves de las tablas BECAS y ASPIRANTES."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-26",
+        "section": "test-oficial",
+        "prompt": "En álgebra relacional la operación que, a partir de dos relaciones del mismo tipo, obtiene una nueva relación formada por las tuplas que pertenecen a las dos relaciones de partida, se llama:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Unión."
+          },
+          {
+            "id": "b",
+            "label": "Intersección."
+          },
+          {
+            "id": "c",
+            "label": "Diferencia."
+          },
+          {
+            "id": "d",
+            "label": "Producto cartesiano. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Intersección."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-27",
+        "section": "test-oficial",
+        "prompt": "Una relación (una tabla) se compone de los campos o atributos A, B, C y D. Solo existe una clave candidata, y es la clave compuesta (A, B). Además, se cumple que (A, B) determina funcionalmente a C, y C determina funcionalmente a D. Indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La tabla no cumple ninguna forma normal."
+          },
+          {
+            "id": "b",
+            "label": "La tabla está en 1FN, pero no en 2FN, ni en 3FN."
+          },
+          {
+            "id": "c",
+            "label": "La tabla está en 1FN y en 2FN, pero no en 3FN."
+          },
+          {
+            "id": "d",
+            "label": "La tabla está en 1FN, en 2FN y en 3FN."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La tabla está en 1FN y en 2FN, pero no en 3FN."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-28",
+        "section": "test-oficial",
+        "prompt": "Tal y como se muestra en el diagrama de Entidad/Relación, ¿cuál de las siguientes afirmaciones sobre la realidad que representa el diagrama NO es cierta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un Departamento está compuesto por una o varias Unidades y toda Unidad pertenece a un y sólo un Departamento."
+          },
+          {
+            "id": "b",
+            "label": "Un Departamento puede ser dirigido por un Titular y todo Titular debe dirigir a un Departamento."
+          },
+          {
+            "id": "c",
+            "label": "Cada Unidad puede ser dirigida por un Titular y un Titular dirige siempre una Unidad."
+          },
+          {
+            "id": "d",
+            "label": "Un Departamento puede participar en varias Comisiones interministeriales. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Un Departamento puede participar en varias Comisiones interministeriales. DISEÑO DE BASES DE DATOS."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-29",
+        "section": "test-oficial",
+        "prompt": "Tomando como referencia el modelo E/R anterior, se pretende obtener el modelo lógico de datos, ¿cómo se reflejaría la relación entre las tablas DEPARTAMENTO y COMISIÓN MINISTERIAL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se propaga el identificador de la Comisión Ministerial, así como los posibles atributos de la relación a la tabla de DEPARTAMENTOS."
+          },
+          {
+            "id": "b",
+            "label": "Se propaga el identificador del Departamento, así como los posibles atributos de la relación a la tabla de COMISIONES MINISTERIALES."
+          },
+          {
+            "id": "c",
+            "label": "Se crea una tabla nueva en la que se incluyen los atributos que forman clave primaria de las tablas DEPARTAMENTOS y COMISIONES MINISTERIALES, y los atributos que tiene la relación, siendo estos últimos la clave primaria de esta nueva tabla."
+          },
+          {
+            "id": "d",
+            "label": "Se crea una tabla nueva en la que se incluyen los atributos que forman clave primaria de las tablas DEPARTAMENTOS y COMISIONES MINISTERIALES y que, a su vez, formarán la clave primaria de la nueva tabla. Así como los atributos que pueda tener la relación."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Se crea una tabla nueva en la que se incluyen los atributos que forman clave primaria de las tablas DEPARTAMENTOS y COMISIONES MINISTERIALES y que, a su vez, formarán la clave primaria de la nueva tabla. Así como los atributos que pueda tener la relación."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-30",
+        "section": "test-oficial",
+        "prompt": "En una base de datos relacional en la que se tiene información guardada en una tabla de provincias y además se dispone de una tabla de municipios donde parte de la clave es la provincia, ¿se puede borrar un elemento de la tabla de provincias manteniendo la integridad del sistema?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Si, una vez que los municipios ya existen no hay ningún problema."
+          },
+          {
+            "id": "b",
+            "label": "Si, aunque no podría dar de alta nuevos municipios de esa provincia."
+          },
+          {
+            "id": "c",
+            "label": "Sólo si no hay ninguna población perteneciente a esa provincia."
+          },
+          {
+            "id": "d",
+            "label": "No, la tabla de provincias no puede cambiar ya que son un elemento estable."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Sólo si no hay ninguna población perteneciente a esa provincia."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-31",
+        "section": "test-oficial",
+        "prompt": "En la teoría de bases de datos relacionales, cuanto más alta sea la forma normal aplicable a una tabla (acoplamiento = grado de interdependencia entre módulos, cohesión = medida de la relación funcional entre elementos de un módulo):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Menor será la cohesión relacional."
+          },
+          {
+            "id": "b",
+            "label": "Menor será el acoplamiento relacional."
+          },
+          {
+            "id": "c",
+            "label": "Menos vulnerable será a inconsistencias y anomalías."
+          },
+          {
+            "id": "d",
+            "label": "Más vulnerable será a inconsistencias y anomalías, pero será más eficiente."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Menos vulnerable será a inconsistencias y anomalías."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-32",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de las siguientes afirmaciones sobre la arquitectura ANSI/X3/SPARC es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El nivel externo también recibe el nombre de nivel físico."
+          },
+          {
+            "id": "b",
+            "label": "El nivel interno también recibe el nombre de nivel lógico."
+          },
+          {
+            "id": "c",
+            "label": "El nivel externo define los datos que se almacenan en la base de datos y las relaciones entre ellos."
+          },
+          {
+            "id": "d",
+            "label": "El nivel externo contiene las vistas externas de la base de datos y permite ver a cada tipo de usuario solo aquella parte del esquema que es de su interés. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El nivel externo contiene las vistas externas de la base de datos y permite ver a cada tipo de usuario solo aquella parte del esquema que es de su interés. DISEÑO DE BASES DE DATOS."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-33",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre el proceso de normalización del modelo relacional es cierta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Existen solo un total de 3 Formas Normales: 1FN, 2FN y 3FN."
+          },
+          {
+            "id": "b",
+            "label": "Una tabla está en 2FN cuando se demuestra que existe dependencia funcional del resto de columnas de la tabla con respecto a las claves candidatas."
+          },
+          {
+            "id": "c",
+            "label": "Una tabla está en 1FN cuando se demuestra que existe dependencia funcional completa del resto de columnas de la tabla con respecto a la clave primaria."
+          },
+          {
+            "id": "d",
+            "label": "Una tabla que está en 1FN tiene el máximo grado de normalización y, por tanto, cumple también la Segunda y Tercer Forma Normal."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Una tabla está en 2FN cuando se demuestra que existe dependencia funcional del resto de columnas de la tabla con respecto a las claves candidatas."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-34",
+        "section": "test-oficial",
+        "prompt": "En relación al esquema conceptual en los niveles ANSI/X3/SPARC, ¿qué afirmación de las siguientes NO es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Representa el modelo de datos de forma independiente del sistema gestor de bases que se utilizará."
+          },
+          {
+            "id": "b",
+            "label": "Refleja la representación de los datos que se van a guardar y sus relaciones a partir del modelo ER."
+          },
+          {
+            "id": "c",
+            "label": "Corresponde a la visión de la base de datos que ofrece cada aplicación."
+          },
+          {
+            "id": "d",
+            "label": "Debe ser absolutamente independiente del esquema físico."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Corresponde a la visión de la base de datos que ofrece cada aplicación."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-35",
+        "section": "test-oficial",
+        "prompt": "El operador JOIN del álgebra relacional es un operador compuesto de otros operadores fundamentales, que son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Selección, proyección y unión."
+          },
+          {
+            "id": "b",
+            "label": "Selección, producto cartesiano y proyección."
+          },
+          {
+            "id": "c",
+            "label": "Diferencia de conjuntos, unión y producto cartesiano."
+          },
+          {
+            "id": "d",
+            "label": "Unión, proyección y producto cartesiano."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Selección, producto cartesiano y proyección."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-36",
+        "section": "test-oficial",
+        "prompt": "¿Qué esquema de bases de datos incluye la descripción de todos los datos e interrelaciones entre éstos, así como las restricciones de integridad?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Esquema interno."
+          },
+          {
+            "id": "b",
+            "label": "Esquema conceptual."
+          },
+          {
+            "id": "c",
+            "label": "Esquema externo."
+          },
+          {
+            "id": "d",
+            "label": "Esquema físico."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Esquema conceptual."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-37",
+        "section": "test-oficial",
+        "prompt": "En un diagrama entidad/relación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una alta redundancia es buena ya que permite alcanzar la información a través de distintas relaciones."
+          },
+          {
+            "id": "b",
+            "label": "Una baja redundancia es buena ya que no aporta información adicional y complica la gestión de la información."
+          },
+          {
+            "id": "c",
+            "label": "Si aparece un ciclo entre relaciones y entidades, debemos eliminar una relación para evitar la redundancia."
+          },
+          {
+            "id": "d",
+            "label": "Si aparece un ciclo entre relaciones y entidades, no es conveniente romperlo si cada una de las relaciones aporta una información distinta al resto. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Si aparece un ciclo entre relaciones y entidades, no es conveniente romperlo si cada una de las relaciones aporta una información distinta al resto. DISEÑO DE BASES DE DATOS."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-38",
+        "section": "test-oficial",
+        "prompt": "Dada una relación ternaria en un diagrama E/R, ¿en cuántas relaciones se transformará en el modelo relacional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: 4."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-39",
+        "section": "test-oficial",
+        "prompt": "La normalización se aplica en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El diseño físico."
+          },
+          {
+            "id": "b",
+            "label": "El diseño conceptual."
+          },
+          {
+            "id": "c",
+            "label": "El diseño lógico."
+          },
+          {
+            "id": "d",
+            "label": "El diseño interno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El diseño lógico."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-40",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación INCORRECTA sobre el modelo lógico relacional:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La cardinalidad de una relación es el número de tuplas."
+          },
+          {
+            "id": "b",
+            "label": "El grado de una relación es el número de atributos."
+          },
+          {
+            "id": "c",
+            "label": "Un dominio es un conjunto de valores."
+          },
+          {
+            "id": "d",
+            "label": "Cada fila de una relación puede ser única."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Cada fila de una relación puede ser única."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-41",
+        "section": "test-oficial",
+        "prompt": "La desnormalización controlada del modelo físico de datos se aplica para:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tener una estructura de tablas más regular."
+          },
+          {
+            "id": "b",
+            "label": "Incrementar la flexibilidad del esquema."
+          },
+          {
+            "id": "c",
+            "label": "Mejorar los tiempos de respuesta de las consultas."
+          },
+          {
+            "id": "d",
+            "label": "Reducir o simplificar el número de acceso a la base de datos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Reducir o simplificar el número de acceso a la base de datos."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-42",
+        "section": "test-oficial",
+        "prompt": "En el modelo relacional, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un valor nulo representa el valor cero."
+          },
+          {
+            "id": "b",
+            "label": "Un valor nulo representa un valor desconocido."
+          },
+          {
+            "id": "c",
+            "label": "Un valor nulo representa la cadena vacía."
+          },
+          {
+            "id": "d",
+            "label": "Un valor nulo representa el valor booleano false."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Un valor nulo representa un valor desconocido."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-43",
+        "section": "test-oficial",
+        "prompt": "Según el modelo E/R extendido propuesto en Métrica v3, si 2 entidades se relacionan mediante la relación “ASOCIADA A”, siendo el tipo de correspondencia 1:1 y teniendo en cuenta que la relación “ASOCIADA A” posee el atributo “fecha_asociacion”, ¿en cuántas relaciones se transformará en el modelo relacional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: 3."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-44",
+        "section": "test-oficial",
+        "prompt": "Dada una jerarquía en el modelo Entidad- Relación extendido, se crea una tabla para el supertipo que tenga de clave primaria el identificador y una tabla para cada uno de los subtipos que tengan el identificador del supertipo como clave ajena. Esta solución es apropiada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Si los subtipos tienen muchos atributos distintos y se quieren conservar los atributos comunes en una tabla."
+          },
+          {
+            "id": "b",
+            "label": "Porque mejora la eficiencia en los accesos a todos los atributos de un subtipo, sean los comunes al supertipo o los específicos."
+          },
+          {
+            "id": "c",
+            "label": "Si los subtipos se diferencien en pocos atributos y las relaciones entre los subtipos y otras entidades sean las mismas."
+          },
+          {
+            "id": "d",
+            "label": "En todo caso."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Si los subtipos tienen muchos atributos distintos y se quieren conservar los atributos comunes en una tabla."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-45",
+        "section": "test-oficial",
+        "prompt": "La técnica cuyo objetivo consiste en una desnormalización controlada del modelo físico de datos que se aplica para reducir o simplificar el número de accesos a la base de datos, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Optimización."
+          },
+          {
+            "id": "b",
+            "label": "Cálculo de accesos."
+          },
+          {
+            "id": "c",
+            "label": "Caminos de acceso."
+          },
+          {
+            "id": "d",
+            "label": "Normalización inversa."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Optimización."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-46",
+        "section": "test-oficial",
+        "prompt": "Respecto a la regla de integridad de entidad, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ninguno de los atributos que componen la clave primaria puede ser nulo."
+          },
+          {
+            "id": "b",
+            "label": "Ninguno de los atributos que componen la claves candidatas puede ser nulo."
+          },
+          {
+            "id": "c",
+            "label": "La clave primaria es irreducible."
+          },
+          {
+            "id": "d",
+            "label": "No se aplica a las claves candidatas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Ninguno de los atributos que componen la claves candidatas puede ser nulo."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-47",
+        "section": "test-oficial",
+        "prompt": "En el modelo relacional, la extensión de una relación es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número de atributos que posee."
+          },
+          {
+            "id": "b",
+            "label": "El esquema de esa relación."
+          },
+          {
+            "id": "c",
+            "label": "El conjunto de filas o tuplas de esa relación."
+          },
+          {
+            "id": "d",
+            "label": "El conjunto de dominios utilizados para los atributos de esa relación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El conjunto de filas o tuplas de esa relación."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-48",
+        "section": "test-oficial",
+        "prompt": "En el modelo relacional, la cardinalidad de una relación es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número de atributos que posee."
+          },
+          {
+            "id": "b",
+            "label": "El número de atributos que componen la clave primaria de esa relación."
+          },
+          {
+            "id": "c",
+            "label": "El número de filas o tuplas de esa relación."
+          },
+          {
+            "id": "d",
+            "label": "El número de dominios utilizados para los atributos de esa relación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El número de filas o tuplas de esa relación."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-49",
+        "section": "test-oficial",
+        "prompt": "En el modelo relacional, el grado de una relación es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número de atributos que posee."
+          },
+          {
+            "id": "b",
+            "label": "El número de atributos que componen la clave primaria de esa relación."
+          },
+          {
+            "id": "c",
+            "label": "El número de filas o tuplas de esa relación."
+          },
+          {
+            "id": "d",
+            "label": "El número de dominios utilizados para los atributos de esa relación. DISEÑO DE BASES DE DATOS"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El número de atributos que posee."
+      },
+      {
+        "id": "b3t2-test-oficial-diseno-bd-50",
+        "section": "test-oficial",
+        "prompt": "En la transformación al modelo relacional de un diagrama Entidad-Relación extendido, las relaciones de agregación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se transforman del mismo modo que las 1:N."
+          },
+          {
+            "id": "b",
+            "label": "Se transforman del mismo modo que las 1:1."
+          },
+          {
+            "id": "c",
+            "label": "Se transforman del mismo modo que las N:M."
+          },
+          {
+            "id": "d",
+            "label": "Su transformación depende del tipo de correspondencia concreto."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Se transforman del mismo modo que las 1:N."
+      }
+    ]
   }
 ]

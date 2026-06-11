@@ -176,4 +176,55 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B3T2: {
+    title: "Diseño de bases de datos, modelo relacional y normalización",
+    shortTitle: "Diseño de bases de datos",
+    description:
+      "Tema del bloque de bases de datos centrado en diseño relacional, normalización, álgebra relacional, integridad y transformaciones desde el modelo E/R.",
+    summary: [
+      "Temario principal de diseño de bases de datos sincronizado desde la carpeta del bloque 3.",
+      "Material complementario del profesor disponible en el propio tema: test y ejercicios.",
+      "Cinco simulacros específicos construidos a partir del banco real del tema para practicar modelo relacional y normalización.",
+    ],
+    sections: [
+      "Fundamentos del modelo relacional",
+      "Normalización y dependencias",
+      "Transformación E/R a relacional",
+      "Arquitectura ANSI/SPARC y diseño",
+      "Integridad y modelo lógico",
+    ],
+    accent: "amber",
+    testPresets: [
+      {
+        slug: "fundamentos-relacional",
+        title: "Test 1 · Fundamentos del modelo relacional",
+        description: "Refuerza Codd, niveles de abstracción, operadores básicos y conceptos esenciales del modelo relacional.",
+        focusSections: ["fundamentos-relacional"],
+      },
+      {
+        slug: "normalizacion",
+        title: "Test 2 · Normalización y dependencias",
+        description: "Se centra en formas normales, dependencias funcionales y anomalías de diseño.",
+        focusSections: ["normalizacion"],
+      },
+      {
+        slug: "transformacion-er",
+        title: "Test 3 · Transformación E/R a relacional",
+        description: "Practica el paso de diagramas E/R al modelo relacional y el tratamiento de relaciones y jerarquías.",
+        focusSections: ["transformacion-er"],
+      },
+      {
+        slug: "arquitectura-y-diseno",
+        title: "Test 4 · Arquitectura y diseño",
+        description: "Repasa arquitectura ANSI/SPARC, esquemas, diseño conceptual, lógico y físico.",
+        focusSections: ["arquitectura-y-diseno"],
+      },
+      {
+        slug: "integridad-y-modelo-logico",
+        title: "Test 5 · Integridad y modelo lógico",
+        description: "Combina reglas de integridad, claves, dominios, cardinalidad y propiedades del modelo lógico relacional.",
+        focusSections: ["integridad-y-modelo-logico"],
+      },
+    ],
+  },
 };
