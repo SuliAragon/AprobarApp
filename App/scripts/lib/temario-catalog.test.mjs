@@ -43,3 +43,21 @@ test("buildTemarioCatalog prioriza el pdf actualizado frente al subrayado dentro
   assert.equal(catalog[0].sourceFilename, "Bloque 1/Tema 1/B1T1_CE 6.pdf");
   assert.equal(catalog[0].title, "B1T1 CE");
 });
+
+test("buildTemarioCatalog usa el temario principal y conserva pdfs complementarios del mismo tema", () => {
+  const catalog = buildTemarioCatalog([
+    "Bloque 3/Tema 1/B3T1_Modelo_ER 4.pdf",
+    "Bloque 3/Tema 1/B3T1Test_ModeloER 1.pdf",
+    "Bloque 3/Tema 1/B3T1Ejercicios_enunciados 1.pdf",
+    "Bloque 3/Tema 1/B3T1Ejercicios_soluciones.pdf",
+  ]);
+
+  assert.equal(catalog.length, 1);
+  assert.equal(catalog[0].sourceFilename, "Bloque 3/Tema 1/B3T1_Modelo_ER 4.pdf");
+  assert.equal(catalog[0].relatedPdfFiles.length, 3);
+  assert.deepEqual(catalog[0].relatedPdfFiles, [
+    "Bloque 3/Tema 1/B3T1Ejercicios_enunciados 1.pdf",
+    "Bloque 3/Tema 1/B3T1Ejercicios_soluciones.pdf",
+    "Bloque 3/Tema 1/B3T1Test_ModeloER 1.pdf",
+  ]);
+});

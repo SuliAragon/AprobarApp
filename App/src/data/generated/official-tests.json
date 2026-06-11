@@ -4787,5 +4787,1218 @@
         "explanation": "La plantilla oficial marca como correcta la opción D: Es un formato de intercambio de ficheros."
       }
     ]
+  },
+  {
+    "code": "B3T1",
+    "slug": "b3t1-test-oficial-modeloer",
+    "title": "Test oficial ModeloER",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 3/Tema 1/B3T1Test_ModeloER 1.pdf",
+    "assetPath": "/test-oficial/B3T1/b3t1-test-oficial-modeloer.pdf",
+    "questions": [
+      {
+        "id": "b3t1-test-oficial-modeloer-1",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación, el conjunto nominado de valores homogéneos que puede tomar una cierta característica, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Atributo."
+          },
+          {
+            "id": "b",
+            "label": "Dominio."
+          },
+          {
+            "id": "c",
+            "label": "Entidad."
+          },
+          {
+            "id": "d",
+            "label": "Diccionario de datos."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Dominio."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-2",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una entidad regular es aquella cuya existencia depende de otra entidad."
+          },
+          {
+            "id": "b",
+            "label": "Una entidad débil es aquella que tiene existencia por sí misma."
+          },
+          {
+            "id": "c",
+            "label": "Todas las ocurrencias de un tipo de entidad deben tener los mismos atributos."
+          },
+          {
+            "id": "d",
+            "label": "Una relación es regular si asocia una entidad regular y una entidad fuerte."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Todas las ocurrencias de un tipo de entidad deben tener los mismos atributos."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-3",
+        "section": "test-oficial",
+        "prompt": "Una relación del modelo Entidad-Relación extendido según Métrica v3, NO se caracteriza por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nombre."
+          },
+          {
+            "id": "b",
+            "label": "Tipo de Correspondencia."
+          },
+          {
+            "id": "c",
+            "label": "Cardinalidad."
+          },
+          {
+            "id": "d",
+            "label": "Dominio."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Dominio."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-4",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes enunciados NO es un objetivo en la elaboración del modelo conceptual de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Identificar y definir las entidades que quedan dentro del ámbito del sistema."
+          },
+          {
+            "id": "b",
+            "label": "Identificar y definir los métodos asociados a cada una de las entidades del sistema."
+          },
+          {
+            "id": "c",
+            "label": "Identificar y definir los atributos de cada entidad y sus dominios correspondientes."
+          },
+          {
+            "id": "d",
+            "label": "Identificar y definir las relaciones existentes entre las entidades."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Identificar y definir los métodos asociados a cada una de las entidades del sistema."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-5",
+        "section": "test-oficial",
+        "prompt": "Señale cómo se denomina, en el modelo Entidad-Relación extendido, al número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tipo de correspondencia de la asociación."
+          },
+          {
+            "id": "b",
+            "label": "Cardinalidad de la entidad."
+          },
+          {
+            "id": "c",
+            "label": "Grado de la asociación."
+          },
+          {
+            "id": "d",
+            "label": "Dominio de las entidades de la asociación."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Tipo de correspondencia de la asociación."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-6",
+        "section": "test-oficial",
+        "prompt": "Señale cómo se denomina, en el modelo Entidad-Relación extendido, la relación por la que un supertipo se descompone en uno o varios subtipos, los cuales heredan todos los atributos y relaciones del supertipo, además de tener los suyos propios:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Generalización."
+          },
+          {
+            "id": "b",
+            "label": "Asociación."
+          },
+          {
+            "id": "c",
+            "label": "Especialización."
+          },
+          {
+            "id": "d",
+            "label": "Agregación. MODELO ER"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Especialización."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-7",
+        "section": "test-oficial",
+        "prompt": "El modelo entidad-relación está formado por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Clases, objetos e instancias."
+          },
+          {
+            "id": "b",
+            "label": "Variables y métodos."
+          },
+          {
+            "id": "c",
+            "label": "Entidades, atributos y relaciones."
+          },
+          {
+            "id": "d",
+            "label": "Entidades, objetos y clases."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Entidades, atributos y relaciones."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-8",
+        "section": "test-oficial",
+        "prompt": "En un modelo de datos Entidad-Relación, ¿qué se entiende por “entidad débil”?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una entidad que no se encuentra relacionada con otra."
+          },
+          {
+            "id": "b",
+            "label": "Una entidad que hereda todos sus atributos de otra."
+          },
+          {
+            "id": "c",
+            "label": "Una entidad cuya existencia depende de la existencia de otra."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores define una entidad débil."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Una entidad cuya existencia depende de la existencia de otra."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-9",
+        "section": "test-oficial",
+        "prompt": "Qué esquema de bases de datos incluye la descripción de todos los datos e interrelaciones entre éstos, así como las restricciones de integridad y de confidencialidad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Esquema interno."
+          },
+          {
+            "id": "b",
+            "label": "Esquema conceptual."
+          },
+          {
+            "id": "c",
+            "label": "Esquema externo."
+          },
+          {
+            "id": "d",
+            "label": "Esquema físico."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Esquema conceptual."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-10",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA sobre las relaciones en el modelo Entidad-Relación Extendido:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una relación se caracteriza por el nombre, tipo de correspondencia y la cardinalidad."
+          },
+          {
+            "id": "b",
+            "label": "La relación puede ser regular, si asocia tipos de entidad regulares, o débil, si asocia un tipo de entidad débil con un tipo de entidad regular."
+          },
+          {
+            "id": "c",
+            "label": "Dentro de las relaciones débiles se distinguen la dependencia en existencia y la dependencia en identificación."
+          },
+          {
+            "id": "d",
+            "label": "Se dice que una relación es exclusiva cuando la existencia de una relación entre dos tipos de entidades implica la existencia de las otras relaciones."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Se dice que una relación es exclusiva cuando la existencia de una relación entre dos tipos de entidades implica la existencia de las otras relaciones."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-11",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta de las siguientes afirmaciones sobre el modelo EntidadRelación Extendido:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un requisito el conocer el SGDB en el que se va a implementar."
+          },
+          {
+            "id": "b",
+            "label": "Es dependiente del entorno físico."
+          },
+          {
+            "id": "c",
+            "label": "Se centra en los datos, independientemente del procesamiento que los transforma."
+          },
+          {
+            "id": "d",
+            "label": "Debe proporcionar a los usuarios toda la información que necesiten garantizando la eficiencia del proceso."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Se centra en los datos, independientemente del procesamiento que los transforma."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-12",
+        "section": "test-oficial",
+        "prompt": "Tenemos las entidades “opositor” y “oposición” y sabemos que a los opositores se les permite apuntase a varias oposiciones distintas. Si quisiera crear el modelo conceptual de base de datos, ¿qué relación crearía?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una relación N:M."
+          },
+          {
+            "id": "b",
+            "label": "Una relación 1:N."
+          },
+          {
+            "id": "c",
+            "label": "Una relación 1:1."
+          },
+          {
+            "id": "d",
+            "label": "El modelo conceptual no admite relaciones, sólo el modelo relacional lo permite. MODELO ER"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Una relación N:M."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-13",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre el modelo Entidad-Relación es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En la especialización un supertipo se descompone en uno o varios subtipos, los cuales heredan todos los atributos y relaciones del supertipo."
+          },
+          {
+            "id": "b",
+            "label": "La generalización consiste en relacionar dos tipos de entidades que normalmente son de dominios independientes, pero coyunturalmente se asocian."
+          },
+          {
+            "id": "c",
+            "label": "La agregación permite abstraer un tipo de entidad de nivel superior (supertipo) a partir de varios tipos de entidad (subtipos)."
+          },
+          {
+            "id": "d",
+            "label": "La asociación consiste en construir un nuevo tipo de entidad como composición de otros."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: En la especialización un supertipo se descompone en uno o varios subtipos, los cuales heredan todos los atributos y relaciones del supertipo."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-14",
+        "section": "test-oficial",
+        "prompt": "En una relación del modelo Entidad-Relación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La cardinalidad es igual que el tipo de correspondencia."
+          },
+          {
+            "id": "b",
+            "label": "La cardinalidad máxima es igual que el tipo de correspondencia."
+          },
+          {
+            "id": "c",
+            "label": "La cardinalidad mínima es igual con el tipo de correspondencia."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son falsas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La cardinalidad máxima es igual que el tipo de correspondencia."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-15",
+        "section": "test-oficial",
+        "prompt": "Un atributo puede ser:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Derivado, compuesto o significado."
+          },
+          {
+            "id": "b",
+            "label": "Obligatorio, derivado o compuesto."
+          },
+          {
+            "id": "c",
+            "label": "Obligatorio, derivado o significado."
+          },
+          {
+            "id": "d",
+            "label": "Obligatorio, compuesto o significado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Obligatorio, derivado o compuesto."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-16",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación Extendido, a la abstracción de un tipo de entidad superior (supertipo) a partir de varios tipos de entidad (subtipos) se le denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Generalización."
+          },
+          {
+            "id": "b",
+            "label": "Especialización."
+          },
+          {
+            "id": "c",
+            "label": "Agregación."
+          },
+          {
+            "id": "d",
+            "label": "Asociación."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Generalización."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-17",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación podemos definir entidad como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cualquier objeto u elemento (real o abstracto) acerca del cual se puede almacenar información en la base de datos."
+          },
+          {
+            "id": "b",
+            "label": "Cualquier asociación entre elementos."
+          },
+          {
+            "id": "c",
+            "label": "El número de relaciones en las que un elemento puede aparecer."
+          },
+          {
+            "id": "d",
+            "label": "Una propiedad concreta de una relación."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Cualquier objeto u elemento (real o abstracto) acerca del cual se puede almacenar información en la base de datos."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-18",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación, ¿qué se entiende por “tipo de correspondencia”?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número máximo de ocurrencias de cada entidad que pueden intervenir en la relación."
+          },
+          {
+            "id": "b",
+            "label": "El número de entidades que participan en una relación."
+          },
+          {
+            "id": "c",
+            "label": "El número mínimo y máximo de ocurrencias de una entidad que pueden estar relacionadas con una ocurrencia de otra entidad participante en la relación."
+          },
+          {
+            "id": "d",
+            "label": "Es el número de elementos con características comunes que componen una entidad. MODELO ER"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El número máximo de ocurrencias de cada entidad que pueden intervenir en la relación."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-19",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, se tiene la siguiente jerarquía: empleado público es el supertipo y funcionario de carrera, funcionario interino y personal laboral, son los subtipos. Teniendo en cuenta que todo empleado público será un funcionario de carrera, un funcionario interino o personal laboral y que todo empleado público solo estar un uno de los subtipos. La jerarquía es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Total y solapada."
+          },
+          {
+            "id": "b",
+            "label": "Parcial y solapada."
+          },
+          {
+            "id": "c",
+            "label": "Total y disjunta."
+          },
+          {
+            "id": "d",
+            "label": "Parcial y disjunta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Total y disjunta."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-20",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, se tiene la siguiente jerarquía: documento es el supertipo y documento público, documento privado y documento mixto, son los subtipos. Teniendo en cuenta que un documento puede ser o no un documento público, privado o mixto, y que todo documento puede estar clasificado en más de un subtipo. La jerarquía es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Total y solapada."
+          },
+          {
+            "id": "b",
+            "label": "Parcial y solapada."
+          },
+          {
+            "id": "c",
+            "label": "Total y disjunta."
+          },
+          {
+            "id": "d",
+            "label": "Parcial y disjunta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Parcial y solapada."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-21",
+        "section": "test-oficial",
+        "prompt": "Teniendo en cuenta la jerarquía anterior (sobre tipos de documentos), la descomposición del supertipo documento en los subtipos descritos, se conoce como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Asociación."
+          },
+          {
+            "id": "b",
+            "label": "Exclusividad."
+          },
+          {
+            "id": "c",
+            "label": "Especialización."
+          },
+          {
+            "id": "d",
+            "label": "Generalización."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Especialización."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-22",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, si la entidad Aspirante se relaciona con la entidad Empresa a través de la relación Entrevista y se necesita modelar una relación entre la relación entrevista y la entidad Oferta de trabajo, ¿qué extensión se debería utilizar?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Asociación."
+          },
+          {
+            "id": "b",
+            "label": "Categorías."
+          },
+          {
+            "id": "c",
+            "label": "Agregación."
+          },
+          {
+            "id": "d",
+            "label": "Generalización."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Agregación."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-23",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, NO es una restricción sobre atributo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Derivado."
+          },
+          {
+            "id": "b",
+            "label": "Compuesto."
+          },
+          {
+            "id": "c",
+            "label": "Exclusivo."
+          },
+          {
+            "id": "d",
+            "label": "Simple."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Exclusivo."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-24",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, las entidades pueden ser:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Normales o específicas."
+          },
+          {
+            "id": "b",
+            "label": "Regulares o débiles."
+          },
+          {
+            "id": "c",
+            "label": "Generales o dependientes."
+          },
+          {
+            "id": "d",
+            "label": "Reales o abstractas. MODELO ER"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Regulares o débiles."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-25",
+        "section": "test-oficial",
+        "prompt": "La intensión es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número ocurrencias de una entidad."
+          },
+          {
+            "id": "b",
+            "label": "La capacidad que tienen los modelos conceptuales de datos para representar entidades abstractas del mundo real."
+          },
+          {
+            "id": "c",
+            "label": "Una ocurrencia concreta de una entidad."
+          },
+          {
+            "id": "d",
+            "label": "El conjunto de entidades que poseen la misma estructura."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El conjunto de entidades que poseen la misma estructura."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-26",
+        "section": "test-oficial",
+        "prompt": "La extensión es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número de entidades representadas en un modelo de datos concreto."
+          },
+          {
+            "id": "b",
+            "label": "El número de relaciones de un modelo de datos concreto."
+          },
+          {
+            "id": "c",
+            "label": "El conjunto de ocurrencias de una entidad concreta."
+          },
+          {
+            "id": "d",
+            "label": "Una ocurrencia concreta de una entidad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El conjunto de ocurrencias de una entidad concreta."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-27",
+        "section": "test-oficial",
+        "prompt": "Sobre el modelo Entidad-Relación extendido, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Permite representar parte de los datos de un sistema."
+          },
+          {
+            "id": "b",
+            "label": "Está ligado a una tecnología concreta."
+          },
+          {
+            "id": "c",
+            "label": "Una de las extensiones permite modelas la funcionalidad de un sistema."
+          },
+          {
+            "id": "d",
+            "label": "Es independiente del entorno físico."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Es independiente del entorno físico."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-28",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, las relaciones reflexivas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Son aquellas entre dos entidades independientes."
+          },
+          {
+            "id": "b",
+            "label": "Se denominan también recursivas o exclusivas."
+          },
+          {
+            "id": "c",
+            "label": "Son las llamadas relaciones ternarias."
+          },
+          {
+            "id": "d",
+            "label": "Son aquellas en las que entidad se relaciona consigo misma."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Son aquellas en las que entidad se relaciona consigo misma."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-29",
+        "section": "test-oficial",
+        "prompt": "En los modelos Entidad-Relación que se usan para modelar conceptualmente un esquema relacional:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se produce dependencia por existencia cuando una entidad fuerte no puede existir sin otra entidad débil."
+          },
+          {
+            "id": "b",
+            "label": "Se produce dependencia por identificación cuando las ocurrencias de la entidad fuerte no se pueden identificar solo mediante sus propios atributos, si no que se tiene que añadir la clave de la ocurrencia de otra entidad débil."
+          },
+          {
+            "id": "c",
+            "label": "La cardinalidad es el número de entidades con la cual otra entidad se puede asociar mediante una relación binaria."
+          },
+          {
+            "id": "d",
+            "label": "El grado es el número de valores que puede tomar el atributo de una entidad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La cardinalidad es el número de entidades con la cual otra entidad se puede asociar mediante una relación binaria."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-30",
+        "section": "test-oficial",
+        "prompt": "De entre los siguientes, ¿cuál NO es una técnica para crear modelos conceptuales de bases de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Diagramas de estructura."
+          },
+          {
+            "id": "b",
+            "label": "Diagramas ORM."
+          },
+          {
+            "id": "c",
+            "label": "Diagramas UML."
+          },
+          {
+            "id": "d",
+            "label": "Diagramas IDEF1X. MODELO ER"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Diagramas de estructura."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-31",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes características relacionadas con los modelos conceptuales de datos es FALSA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Representan la visión estática del dominio de la información del Sistema de información a modelar."
+          },
+          {
+            "id": "b",
+            "label": "Ayudan a representar las necesidades de usuario."
+          },
+          {
+            "id": "c",
+            "label": "Representan toda la información que va a tratar el Sistema de Información objeto del análisis."
+          },
+          {
+            "id": "d",
+            "label": "Representan también el dominio de negocio del sistema de información."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Representan también el dominio de negocio del sistema de información."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-32",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se representa en el modelo Entidad-Relación extendido una relación?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rectángulo simple."
+          },
+          {
+            "id": "b",
+            "label": "Rectángulo doble."
+          },
+          {
+            "id": "c",
+            "label": "Arco."
+          },
+          {
+            "id": "d",
+            "label": "Rombo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Rombo."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-33",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una relación no puede tener atributos propios."
+          },
+          {
+            "id": "b",
+            "label": "Las relaciones unarias se conocen también como relaciones exclusivas."
+          },
+          {
+            "id": "c",
+            "label": "La razón de cardinalidad es el número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando."
+          },
+          {
+            "id": "d",
+            "label": "No hay obligación en que una relación tenga un nombre."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La razón de cardinalidad es el número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-34",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, construir un nuevo tipo de entidad como composición de otros y su tipo de relación y así poder manejarlo en un nivel de abstracción mayor se conoce como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Categorías."
+          },
+          {
+            "id": "b",
+            "label": "Agregación."
+          },
+          {
+            "id": "c",
+            "label": "Desagregación."
+          },
+          {
+            "id": "d",
+            "label": "Generalización."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Agregación."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-35",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se representa en el modelo Entidad-Relación extendido una jerarquía total?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Con una doble línea entre el supertipo y el triángulo."
+          },
+          {
+            "id": "b",
+            "label": "Con una línea simple entre el supertipo y el triángulo."
+          },
+          {
+            "id": "c",
+            "label": "Con un círculo o una O en el triángulo invertido."
+          },
+          {
+            "id": "d",
+            "label": "Con una letra d en el triángulo invertido."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Con una doble línea entre el supertipo y el triángulo."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-36",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, ¿con qué letra se representa las uniones por categorías?",
+        "options": [
+          {
+            "id": "a",
+            "label": "d."
+          },
+          {
+            "id": "b",
+            "label": "O."
+          },
+          {
+            "id": "c",
+            "label": "U."
+          },
+          {
+            "id": "d",
+            "label": "C. MODELO ER"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: U."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-37",
+        "section": "test-oficial",
+        "prompt": "En una jerarquía del modelo Entidad-Relación extendido, si una ocurrencia del supertipo solo puede pertenecer a uno de los subtipos, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Jerarquía total."
+          },
+          {
+            "id": "b",
+            "label": "Jerarquía parcial."
+          },
+          {
+            "id": "c",
+            "label": "Jerarquía disjunta."
+          },
+          {
+            "id": "d",
+            "label": "Jerarquía solapada."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Jerarquía disjunta."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-38",
+        "section": "test-oficial",
+        "prompt": "En una jerarquía del modelo Entidad-Relación extendido, si toda ocurrencia del supertipo pertenece siempre a algún subtipo, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Jerarquía total."
+          },
+          {
+            "id": "b",
+            "label": "Jerarquía parcial."
+          },
+          {
+            "id": "c",
+            "label": "Jerarquía disjunta."
+          },
+          {
+            "id": "d",
+            "label": "Jerarquía solapada."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Jerarquía total."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-39",
+        "section": "test-oficial",
+        "prompt": "En una jerarquía del modelo Entidad-Relación extendido, si una ocurrencia del supertipo puede pertenecer a varios subtipos, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Jerarquía total."
+          },
+          {
+            "id": "b",
+            "label": "Jerarquía parcial."
+          },
+          {
+            "id": "c",
+            "label": "Jerarquía disjunta."
+          },
+          {
+            "id": "d",
+            "label": "Jerarquía solapada."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Jerarquía solapada."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-40",
+        "section": "test-oficial",
+        "prompt": "En una jerarquía del modelo Entidad-Relación extendido, si una ocurrencia del supertipo no pertenece a algún subtipo, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Jerarquía total."
+          },
+          {
+            "id": "b",
+            "label": "Jerarquía parcial."
+          },
+          {
+            "id": "c",
+            "label": "Jerarquía disjunta."
+          },
+          {
+            "id": "d",
+            "label": "Jerarquía solapada."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Jerarquía parcial."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-41",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, ¿con qué letra se representa una jerarquía disjunta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "d."
+          },
+          {
+            "id": "b",
+            "label": "O."
+          },
+          {
+            "id": "c",
+            "label": "U."
+          },
+          {
+            "id": "d",
+            "label": "C."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: d."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-42",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad-Relación extendido, ¿con qué letra se representa una jerarquía solapada?",
+        "options": [
+          {
+            "id": "a",
+            "label": "d."
+          },
+          {
+            "id": "b",
+            "label": "O."
+          },
+          {
+            "id": "c",
+            "label": "U."
+          },
+          {
+            "id": "d",
+            "label": "C. MODELO ER"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: O."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-43",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta relativa al Modelo Entidad/Relación Extendido según establece Métrica v3:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un atributo se define sobre diversos dominios."
+          },
+          {
+            "id": "b",
+            "label": "El dominio no tiene existencia propia y depende de las entidades, las relaciones o los atributos."
+          },
+          {
+            "id": "c",
+            "label": "La entidad es aquel objeto, real o abstracto, acerca del cual se desea almacenar información en la base de datos."
+          },
+          {
+            "id": "d",
+            "label": "La clave candidata es el conjunto de atributos que garantizan la unicidad de las ocurrencias e identifican la ocurrencia unívocamente."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La entidad es aquel objeto, real o abstracto, acerca del cual se desea almacenar información en la base de datos."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-44",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad/Relación Extendido, al conjunto de valores que puede tomar un atributo se le denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Entidad."
+          },
+          {
+            "id": "b",
+            "label": "Recorrido."
+          },
+          {
+            "id": "c",
+            "label": "Cardinalidad."
+          },
+          {
+            "id": "d",
+            "label": "Dominio."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Dominio."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-45",
+        "section": "test-oficial",
+        "prompt": "En el Entidad-Relación extendido, las relaciones N:M:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cada ocurrencia de una entidad puede estar relacionada con cero, una o varias ocurrencias de la otra entidad y cada ocurrencia de la otra entidad puede corresponder a cero, una o varias ocurrencias de la primera."
+          },
+          {
+            "id": "b",
+            "label": "Cada ocurrencia de una entidad puede estar relacionada con cero, una o varias ocurrencias de la otra entidad."
+          },
+          {
+            "id": "c",
+            "label": "Cada ocurrencia de una entidad se relaciona con una y sólo una ocurrencia de la otra entidad."
+          },
+          {
+            "id": "d",
+            "label": "Son las llamadas muchos a uno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Cada ocurrencia de una entidad puede estar relacionada con cero, una o varias ocurrencias de la otra entidad y cada ocurrencia de la otra entidad puede corresponder a cero, una o varias ocurrencias de la primera."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-46",
+        "section": "test-oficial",
+        "prompt": "La razón de cardinalidad es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es el número mínimo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando."
+          },
+          {
+            "id": "b",
+            "label": "Es el número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando."
+          },
+          {
+            "id": "c",
+            "label": "Es la participación en la relación de cada una de las entidades afectadas."
+          },
+          {
+            "id": "d",
+            "label": "Es el número de atributos de una entidad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Es el número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-47",
+        "section": "test-oficial",
+        "prompt": "El rol de una entidad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se especifica en las relaciones exclusivas."
+          },
+          {
+            "id": "b",
+            "label": "Se especifica en las relaciones reflexivas."
+          },
+          {
+            "id": "c",
+            "label": "Se especifica en las entidades débiles."
+          },
+          {
+            "id": "d",
+            "label": "Se especifica en las relaciones ternarias."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Se especifica en las relaciones reflexivas."
+      },
+      {
+        "id": "b3t1-test-oficial-modeloer-48",
+        "section": "test-oficial",
+        "prompt": "Una relación se caracteriza por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El grado y el tipo de correspondencia."
+          },
+          {
+            "id": "b",
+            "label": "El tipo de correspondencia, el nombre y la cardinalidad."
+          },
+          {
+            "id": "c",
+            "label": "El nombre, la cardinalidad, la extensión y la intensión."
+          },
+          {
+            "id": "d",
+            "label": "El nombre, el grado, el tipo de correspondencia y la cardinalidad. MODELO ER"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El nombre, el grado, el tipo de correspondencia y la cardinalidad. MODELO ER."
+      }
+    ]
   }
 ]

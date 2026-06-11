@@ -148,16 +148,15 @@ const officialFiles = collectFilesRecursively(officialSourceDir)
   .filter((file) => [".pdf", ".doc", ".docx", ".png", ".jpg", ".jpeg"].includes(extname(file).toLowerCase()))
   .sort((a, b) => a.localeCompare(b, "es"));
 
-const officialEntries = officialFiles.map((filePath) => {
-  const relativePath = relative(officialSourceDir, filePath);
+function buildOfficialEntry(filePath, rootDirectory, { code, originalName } = {}) {
+  const relativePath = originalName ?? relative(rootDirectory, filePath);
   const [topicFolder = "SIN-CODIGO"] = relativePath.split("/");
-  const code = topicFolder.toUpperCase();
-  const originalName = relativePath;
+  const resolvedCode = code ?? topicFolder.toUpperCase();
   const extension = extname(filePath).toLowerCase();
   const kind = deriveOfficialKind(relativePath);
-  const title = prettifyOfficialFilename(relativePath.split("/").at(-1) ?? relativePath, code);
-  const slug = slugify(`${code}-${title}`);
-  const destinationDir = join(officialPublicDir, code);
+  const title = prettifyOfficialFilename(relativePath.split("/").at(-1) ?? relativePath, resolvedCode);
+  const slug = slugify(`${resolvedCode}-${title}`);
+  const destinationDir = join(officialPublicDir, resolvedCode);
   const destinationName = `${slug}${extension}`;
 
   mkdirSync(destinationDir, { recursive: true });
@@ -165,15 +164,40 @@ const officialEntries = officialFiles.map((filePath) => {
 
   return {
     absolutePath: filePath,
-    code,
+    code: resolvedCode,
     slug,
     kind,
     extension,
-    sourceFilename: originalName,
+    sourceFilename: relativePath,
     title,
-    assetPath: `/test-oficial/${code}/${destinationName}`,
+    assetPath: `/test-oficial/${resolvedCode}/${destinationName}`,
   };
+}
+
+const officialEntries = officialFiles.map((filePath) => {
+  const relativePath = relative(officialSourceDir, filePath);
+  const [topicFolder = "SIN-CODIGO"] = relativePath.split("/");
+  const code = topicFolder.toUpperCase();
+  return buildOfficialEntry(filePath, officialSourceDir, { code, originalName: relativePath });
 });
+
+if (existsSync(sourceDir)) {
+  const temarioFiles = collectFilesRecursively(sourceDir)
+    .filter((file) => isSupportedTemarioFile(file))
+    .sort((left, right) => left.localeCompare(right, "es"));
+  const temarioCatalog = buildTemarioCatalog(temarioFiles.map((file) => relative(sourceDir, file)));
+
+  for (const entry of temarioCatalog) {
+    for (const relatedPdf of entry.relatedPdfFiles) {
+      officialEntries.push(
+        buildOfficialEntry(join(sourceDir, relatedPdf), sourceDir, {
+          code: entry.code || deriveCode(basename(entry.sourceFilename)) || "SIN-CODIGO",
+          originalName: relatedPdf,
+        }),
+      );
+    }
+  }
+}
 
 const officialManifest = officialEntries.map(({ absolutePath, extension, ...entry }) => entry);
 

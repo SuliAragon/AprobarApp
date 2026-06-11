@@ -43,8 +43,14 @@ function pickPreferredPdf(files) {
   }
 
   const prioritizedPdf = [...pdfFiles].sort((left, right) => {
+    const leftIsTestOrExercise = /\b(test|ejercicios?)\b/i.test(basename(left));
+    const rightIsTestOrExercise = /\b(test|ejercicios?)\b/i.test(basename(right));
     const leftIsSubrayado = /\bsubrayado\b/i.test(basename(left));
     const rightIsSubrayado = /\bsubrayado\b/i.test(basename(right));
+
+    if (leftIsTestOrExercise !== rightIsTestOrExercise) {
+      return leftIsTestOrExercise ? 1 : -1;
+    }
 
     if (leftIsSubrayado !== rightIsSubrayado) {
       return leftIsSubrayado ? 1 : -1;
@@ -85,6 +91,9 @@ export function buildTemarioCatalog(relativeFiles) {
       const code = deriveCode(basename(pdfFile));
       const title = prettifyPdfFilename(basename(pdfFile));
       const slug = slugify(title);
+      const relatedPdfFiles = sortedFiles.filter(
+        (file) => extname(file).toLowerCase() === ".pdf" && file !== pdfFile,
+      );
       const podcasts = sortedFiles
         .filter((file) => audioExtensions.has(extname(file).toLowerCase()))
         .map((file) => ({
@@ -100,6 +109,7 @@ export function buildTemarioCatalog(relativeFiles) {
           slug,
           title,
           sourceFilename,
+          relatedPdfFiles,
           podcasts,
         },
       ];

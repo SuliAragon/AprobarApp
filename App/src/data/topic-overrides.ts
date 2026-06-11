@@ -121,4 +121,59 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B3T1: {
+    title: "Modelo entidad-relación y diseño conceptual de bases de datos",
+    shortTitle: "Modelo entidad-relación",
+    description:
+      "Tema del bloque de bases de datos centrado en el modelo entidad-relación, con test del profesor y ejercicios de apoyo dentro del propio tema.",
+    summary: [
+      "Temario principal del modelo entidad-relación sincronizado desde la carpeta del bloque 3.",
+      "Material complementario del profesor disponible en el propio tema: test y ejercicios.",
+      "Estructura preparada para añadir más adelante simulacros específicos interactivos.",
+    ],
+    sections: [
+      "Modelo entidad-relación",
+      "Cardinalidades y restricciones",
+      "Ejercicios propuestos",
+      "Test de repaso del profesor",
+    ],
+    accent: "coral",
+    testPresets: [
+      {
+        slug: "fundamentos-er",
+        title: "Test 1 · Fundamentos del modelo ER",
+        description: "Repasa entidades, atributos, dominios, esquema conceptual y bases del modelo entidad-relación.",
+        focusSections: ["fundamentos-er"],
+        size: 30,
+      },
+      {
+        slug: "relaciones-y-cardinalidad",
+        title: "Test 2 · Relaciones y cardinalidad",
+        description: "Se centra en relaciones, tipo de correspondencia, cardinalidades, roles y entidades débiles.",
+        focusSections: ["relaciones-y-cardinalidad"],
+        size: 30,
+      },
+      {
+        slug: "modelo-conceptual",
+        title: "Test 3 · Modelo conceptual",
+        description: "Trabaja objetivos del modelo conceptual, técnicas de modelado y representación de relaciones.",
+        focusSections: ["modelo-conceptual"],
+        size: 30,
+      },
+      {
+        slug: "jerarquias-y-abstraccion",
+        title: "Test 4 · Jerarquías y abstracción",
+        description: "Entrena generalización, especialización, agregación y jerarquías totales, parciales o solapadas.",
+        focusSections: ["jerarquias-y-abstraccion"],
+        size: 30,
+      },
+      {
+        slug: "metricav3-y-diseno",
+        title: "Test 5 · Métrica v3 y diseño",
+        description: "Refuerza nomenclatura de Métrica v3, diseño conceptual y preguntas de cierre del tema.",
+        focusSections: ["metricav3-y-diseno"],
+        size: 30,
+      },
+    ],
+  },
 };

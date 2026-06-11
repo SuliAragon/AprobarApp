@@ -1,6 +1,6 @@
 export type OptionId = "a" | "b" | "c" | "d";
 
-import { rebalanceQuestionsForTest } from "./test-option-balancer";
+import { rebalanceQuestionsForTest } from "./test-option-balancer.ts";
 
 export interface QuestionOption {
   id: OptionId;
@@ -21,6 +21,7 @@ export interface TestPreset {
   title: string;
   description: string;
   focusSections: string[];
+  size?: number;
 }
 
 export interface TopicTest {
@@ -90,6 +91,7 @@ function shuffleWithSeed<T>(values: T[], seedLabel: string) {
 
 export function buildTopicTests(topicCode: string, bank: QuizQuestion[], presets: TestPreset[], size = 50) {
   return presets.map((preset) => {
+    const targetSize = preset.size ?? size;
     const focusQuestions = shuffleWithSeed(
       bank.filter((question) => preset.focusSections.includes(question.section)),
       `${topicCode}-${preset.slug}-focus`,
@@ -108,7 +110,7 @@ export function buildTopicTests(topicCode: string, bank: QuizQuestion[], presets
         seenIds.add(question.id);
       }
 
-      if (selected.length === size) {
+      if (selected.length === targetSize) {
         break;
       }
     }

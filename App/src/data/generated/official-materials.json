@@ -30,5 +30,29 @@
     "sourceFilename": "B2T3/B2T3Test_Estructuras_de_datos 1.pdf",
     "title": "Test oficial Estructuras de datos",
     "assetPath": "/test-oficial/B2T3/b2t3-test-oficial-estructuras-de-datos.pdf"
+  },
+  {
+    "code": "B3T1",
+    "slug": "b3t1-ejercicios-enunciados",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 1/B3T1Ejercicios_enunciados 1.pdf",
+    "title": "Ejercicios enunciados",
+    "assetPath": "/test-oficial/B3T1/b3t1-ejercicios-enunciados.pdf"
+  },
+  {
+    "code": "B3T1",
+    "slug": "b3t1-ejercicios-soluciones",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 1/B3T1Ejercicios_soluciones.pdf",
+    "title": "Ejercicios soluciones",
+    "assetPath": "/test-oficial/B3T1/b3t1-ejercicios-soluciones.pdf"
+  },
+  {
+    "code": "B3T1",
+    "slug": "b3t1-test-oficial-modeloer",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 3/Tema 1/B3T1Test_ModeloER 1.pdf",
+    "title": "Test oficial ModeloER",
+    "assetPath": "/test-oficial/B3T1/b3t1-test-oficial-modeloer.pdf"
   }
 ]
