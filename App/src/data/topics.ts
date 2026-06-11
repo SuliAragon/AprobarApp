@@ -5,6 +5,7 @@ import { buildTopicTests, type TopicTest } from "./question-bank";
 import { questionBanksByCode } from "./question-banks";
 import { buildTopicNavigator, parseTopicCode } from "./topic-catalog.js";
 import { topicOverrides } from "./topic-overrides";
+import { buildVersionedAssetPath } from "../utils/versioned-asset-path";
 
 export interface TopicPodcast {
   sourceFilename: string;
@@ -35,6 +36,7 @@ export interface Topic {
   shortTitle: string;
   description: string;
   pdfPath: string;
+  pdfAssetPath: string;
   sourceFilename: string;
   podcasts: TopicPodcast[];
   podcastCount: number;
@@ -105,6 +107,7 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[])
       override?.description ??
       "Tema detectado automáticamente. El PDF ya está disponible en la app y se puede ampliar con tests específicos.",
     pdfPath: topic.pdfPath,
+    pdfAssetPath: buildVersionedAssetPath(topic.pdfPath, topic.sourceFilename),
     sourceFilename: topic.sourceFilename,
     podcasts: topic.podcasts ?? [],
     podcastCount: topic.podcasts?.length ?? 0,

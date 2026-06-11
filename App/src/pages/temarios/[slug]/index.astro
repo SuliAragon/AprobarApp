@@ -24,7 +24,7 @@ const { topic } = Astro.props as { topic: Topic };
       <p>{topic.description}</p>
 
       <div class="topic-hero__actions">
-        <a class="button button--primary" href={withBase(topic.pdfPath)}>
+        <a class="button button--primary" href={withBase(topic.pdfAssetPath)}>
           Abrir PDF
         </a>
         <a class="button button--secondary" href="#tests">
@@ -77,13 +77,13 @@ const { topic } = Astro.props as { topic: Topic };
         <p class="eyebrow">Fuente del estudio</p>
         <h2>PDF del temario</h2>
       </div>
-      <a class="text-link" href={withBase(topic.pdfPath)}>
+      <a class="text-link" href={withBase(topic.pdfAssetPath)}>
         Abrir en pestaña nueva
       </a>
     </div>
 
     <div class="pdf-panel">
-      <iframe src={withBase(topic.pdfPath)} title={`PDF del tema ${topic.shortTitle}`}></iframe>
+      <iframe src={withBase(topic.pdfAssetPath)} title={`PDF del tema ${topic.shortTitle}`}></iframe>
     </div>
   </section>
 
