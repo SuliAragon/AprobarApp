@@ -47,6 +47,12 @@
     "sourceFilename": "Bloque 3/Tema 2/B3T2_Diseno_BD 1.pdf",
     "title": "B3T2 Diseno BD",
     "pdfPath": "/temario/b3t2-diseno-bd.pdf",
-    "podcasts": []
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 3/Tema 2/Diseño_lógico_y_físico_de_datos.m4a",
+        "title": "Diseño lógico y físico de datos",
+        "assetPath": "/podcast/B3T2/diseno-logico-y-fisico-de-datos.m4a"
+      }
+    ]
   }
 ]
