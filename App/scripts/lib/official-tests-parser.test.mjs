@@ -100,3 +100,26 @@ SOLUCIONES
   assert.equal(parsed.questions[0].correctOption, "d");
   assert.equal(parsed.questions[0].options.length, 4);
 });
+
+test("parseOfficialTestText aplica correcciones manuales conocidas sobre la plantilla oficial", () => {
+  const source = `
+5. Un español de origen puede perder esta nacionalidad:
+a) Por sanción administrativa.
+b) Cuando libremente renuncie a la misma.
+c) Por condena penal.
+d) En ningún caso.
+
+SOLUCIONES
+5. B
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T1",
+    slug: "b1t1-test-oficial-ce-2",
+    title: "Test oficial CE 2",
+  });
+
+  assert.equal(parsed.questions.length, 1);
+  assert.equal(parsed.questions[0].correctOption, "d");
+  assert.match(parsed.questions[0].explanation, /opción D/i);
+});

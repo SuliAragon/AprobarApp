@@ -31,3 +31,15 @@ test("buildTemarioCatalog mantiene temas separados si llegan pdfs sueltos en rai
     ["B1T1", "B2T3"],
   );
 });
+
+test("buildTemarioCatalog prioriza el pdf actualizado frente al subrayado dentro del mismo tema", () => {
+  const catalog = buildTemarioCatalog([
+    "Bloque 1/Tema 1/B1T1_CE_subrayado 1.pdf",
+    "Bloque 1/Tema 1/B1T1_CE 6.pdf",
+    "Bloque 1/Tema 1/Claves_de_la_Constitucion_para_opositores.m4a",
+  ]);
+
+  assert.equal(catalog.length, 1);
+  assert.equal(catalog[0].sourceFilename, "Bloque 1/Tema 1/B1T1_CE 6.pdf");
+  assert.equal(catalog[0].title, "B1T1 CE");
+});

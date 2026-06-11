@@ -1,4 +1,7 @@
 const optionIds = ["a", "b", "c", "d"];
+const officialAnswerOverrides = {
+  "b1t1-test-oficial-ce-2:5": "d",
+};
 
 const noisePatterns = [
   /^PABLO ARELLANO$/i,
@@ -115,7 +118,8 @@ export function parseOfficialTestText(source, meta) {
       continue;
     }
 
-    const correctOption = solutions.get(parsedBlock.questionNumber);
+    const overrideKey = `${meta.slug}:${parsedBlock.questionNumber}`;
+    const correctOption = officialAnswerOverrides[overrideKey] ?? solutions.get(parsedBlock.questionNumber);
 
     if (!correctOption) {
       continue;

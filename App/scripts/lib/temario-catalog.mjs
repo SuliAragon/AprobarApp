@@ -35,6 +35,27 @@ function prettifyPodcastFilename(filename) {
     .trim();
 }
 
+function pickPreferredPdf(files) {
+  const pdfFiles = files.filter((file) => extname(file).toLowerCase() === ".pdf");
+
+  if (pdfFiles.length <= 1) {
+    return pdfFiles[0] ?? null;
+  }
+
+  const prioritizedPdf = [...pdfFiles].sort((left, right) => {
+    const leftIsSubrayado = /\bsubrayado\b/i.test(basename(left));
+    const rightIsSubrayado = /\bsubrayado\b/i.test(basename(right));
+
+    if (leftIsSubrayado !== rightIsSubrayado) {
+      return leftIsSubrayado ? 1 : -1;
+    }
+
+    return left.localeCompare(right, "es");
+  });
+
+  return prioritizedPdf[0] ?? null;
+}
+
 export function buildTemarioCatalog(relativeFiles) {
   const filesByDirectory = new Map();
 
@@ -54,7 +75,7 @@ export function buildTemarioCatalog(relativeFiles) {
     .sort(([left], [right]) => left.localeCompare(right, "es"))
     .flatMap(([, files]) => {
       const sortedFiles = [...files].sort((left, right) => left.localeCompare(right, "es"));
-      const pdfFile = sortedFiles.find((file) => extname(file).toLowerCase() === ".pdf");
+      const pdfFile = pickPreferredPdf(sortedFiles);
 
       if (!pdfFile) {
         return [];
