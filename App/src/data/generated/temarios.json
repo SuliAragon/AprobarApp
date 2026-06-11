@@ -33,7 +33,13 @@
     "sourceFilename": "Bloque 3/Tema 1/B3T1_Modelo_ER 4.pdf",
     "title": "B3T1 Modelo ER",
     "pdfPath": "/temario/b3t1-modelo-er.pdf",
-    "podcasts": []
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 3/Tema 1/Anatomía_del_modelo_entidad_relación_extendido.m4a",
+        "title": "Anatomía del modelo entidad relación extendido",
+        "assetPath": "/podcast/B3T1/anatomia-del-modelo-entidad-relacion-extendido.m4a"
+      }
+    ]
   },
   {
     "code": "B3T2",
