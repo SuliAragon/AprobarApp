@@ -1585,13 +1585,13 @@ iframe {
   }
 
   .site-header__inner {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
 
   .site-header__controls {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .hero-stats {
@@ -1612,6 +1612,7 @@ iframe {
   .dashboard-test-row {
     grid-template-columns: 1fr;
     gap: 0.85rem;
+    text-align: center;
   }
 
   .topic-picker__controls {
@@ -1619,12 +1620,86 @@ iframe {
   }
 
   .section-heading {
-    align-items: start;
+    align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 
   .nav-tabs,
   .theme-toggle {
     width: fit-content;
+  }
+
+  .hero,
+  .page-hero,
+  .topic-hero,
+  .test-hero,
+  .topic-picker,
+  .tests-dashboard__summary,
+  .tests-topic-group__header,
+  .quiz-summary,
+  .quiz-question,
+  .info-panel,
+  .empty-state {
+    text-align: center;
+  }
+
+  .hero__actions,
+  .topic-hero__actions,
+  .test-hero__actions,
+  .test-card__actions,
+  .official-material__actions,
+  .podcast-item__footer,
+  .dashboard-test-row__actions,
+  .cta-banner__actions {
+    justify-content: center;
+  }
+
+  .topic-card__header,
+  .test-card__header,
+  .official-material__header,
+  .podcast-item__header,
+  .tests-topic-group__header,
+  .dashboard-test-row__topline,
+  .quiz-question__header {
+    justify-content: center;
+  }
+
+  .topic-card__footer,
+  .test-card__footer,
+  .official-material__footer,
+  .podcast-item__footer,
+  .dashboard-test-row__actions,
+  .tests-topic-group__stats {
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .topic-card__meta,
+  .test-card__meta,
+  .official-material__meta,
+  .hero__microcopy,
+  .tests-topic-group__stats {
+    justify-content: center;
+  }
+
+  .official-material__status {
+    margin-left: 0;
+  }
+
+  .quiz-feedback {
+    text-align: center;
+    padding-left: 0;
+    border-left: 0;
+    border-top: 2px solid var(--line-strong);
+    padding-top: 0.9rem;
+  }
+
+  .quiz-feedback.is-correct {
+    border-top-color: var(--accent);
+  }
+
+  .quiz-feedback.is-incorrect {
+    border-top-color: #dc2626;
   }
 }
