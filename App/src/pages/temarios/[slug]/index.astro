@@ -71,6 +71,42 @@ const { topic } = Astro.props as { topic: Topic };
     </article>
   </section>
 
+  {
+    topic.hasVisualScheme && topic.visualScheme && (
+      <section class="section-block section-block--centered">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Esquema visual</p>
+            <h2>Mapa para copiar en el cuaderno</h2>
+          </div>
+          <a class="text-link" href={withBase(topic.visualScheme.assetPath)} target="_blank" rel="noreferrer">
+            Abrir imagen
+          </a>
+        </div>
+
+        <article class="visual-scheme-panel">
+          <div class="visual-scheme-panel__main">
+            <h3>{topic.visualScheme.title}</h3>
+            <p>{topic.visualScheme.description}</p>
+
+            <div class="visual-scheme-panel__actions">
+              <a class="button button--primary" href={withBase(topic.visualScheme.assetPath)} target="_blank" rel="noreferrer">
+                Ver esquema completo
+              </a>
+              <a class="button button--secondary" href={withBase(topic.visualScheme.assetPath)} download>
+                Descargar esquema
+              </a>
+            </div>
+          </div>
+
+          <div class="visual-scheme-panel__frame">
+            <img src={withBase(topic.visualScheme.assetPath)} alt={`Esquema visual del tema ${topic.shortTitle}`} loading="lazy" />
+          </div>
+        </article>
+      </section>
+    )
+  }
+
   <section class="section-block section-block--alt section-block--centered">
     <div class="section-heading">
       <div>

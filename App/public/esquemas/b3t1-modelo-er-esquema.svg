@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2280" viewBox="0 0 1600 2280" role="img" aria-labelledby="title desc">
+  <title>Esquema visual de estudio</title>
+  <desc>Esquema resumido para copiar en cuaderno y repasar rápidamente.</desc>
+  <rect width="1600" height="2280" fill="#f7f4ee" />
+  
+      
+    <g>
+      <rect x="56" y="54" width="1488" height="150" rx="34" fill="#fffdf8" stroke="#d8d2c4" stroke-width="2" />
+      <rect x="56" y="54" width="18" height="150" rx="34" fill="#9c4d44" />
+      <text x="102" y="104" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="4">B3T1</text>
+      <text x="102" y="154" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">Modelo Entidad-Relación</text>
+      <text x="102" y="190" fill="#5b667a" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Diseño conceptual de datos con foco en entidades, atributos, relaciones y validación.</text>
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="232" width="1440" height="214" rx="30" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <text x="114" y="280" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">FLUJO DE ESTUDIO</text>
+      <text x="114" y="318" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Qué persigue el tema</text>
+      
+        <rect x="120" y="318" width="312" height="84" rx="20" fill="#f7e0db" stroke="#e8beb6" stroke-width="2" />
+        <text x="276" y="354" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="800">
+          <tspan x="276" dy="0">Mundo real</tspan>
+        </text>
+        <path d="M 444 360 L 466 360" stroke="#9c4d44" stroke-width="5" stroke-linecap="round" />
+               <path d="M 454 348 L 468 360 L 454 372" fill="none" stroke="#9c4d44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+      
+        <rect x="450" y="318" width="312" height="84" rx="20" fill="#f0ece2" stroke="#e8beb6" stroke-width="2" />
+        <text x="606" y="354" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="800">
+          <tspan x="606" dy="0">Esquema</tspan><tspan x="606" dy="22">conceptual</tspan>
+        </text>
+        <path d="M 774 360 L 796 360" stroke="#9c4d44" stroke-width="5" stroke-linecap="round" />
+               <path d="M 784 348 L 798 360 L 784 372" fill="none" stroke="#9c4d44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+      
+        <rect x="780" y="318" width="312" height="84" rx="20" fill="#f7e0db" stroke="#e8beb6" stroke-width="2" />
+        <text x="936" y="354" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="800">
+          <tspan x="936" dy="0">Modelo E-R</tspan><tspan x="936" dy="22">extendido</tspan>
+        </text>
+        <path d="M 1104 360 L 1126 360" stroke="#9c4d44" stroke-width="5" stroke-linecap="round" />
+               <path d="M 1114 348 L 1128 360 L 1114 372" fill="none" stroke="#9c4d44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+      
+        <rect x="1110" y="318" width="312" height="84" rx="20" fill="#f0ece2" stroke="#e8beb6" stroke-width="2" />
+        <text x="1266" y="354" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="800">
+          <tspan x="1266" dy="0">Datos sin</tspan><tspan x="1266" dy="22">redundancia ni</tspan><tspan x="1266" dy="22">incoherencias</tspan>
+        </text>
+        
+      
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="480" width="680" height="344" rx="28" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <rect x="80" y="480" width="680" height="16" rx="28" fill="#f7e0db" />
+      <text x="114" y="526" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">MARCO GENERAL</text>
+      <text x="114" y="564" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Objetivo y beneficios</text>
+      
+      <circle cx="121" cy="591" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="598" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Modelar los datos de un sistema de</tspan><tspan x="138" dy="27">información con enfoque estructurado.</tspan>
+    </text>
+  
+<circle cx="121" cy="663" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="670" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">El resultado es el esquema conceptual:</tspan><tspan x="138" dy="27">primera aproximación del mundo real.</tspan>
+    </text>
+  
+<circle cx="121" cy="735" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="742" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Ventajas: comprender la organización,</tspan><tspan x="138" dy="27">separar del entorno físico, detectar</tspan><tspan x="138" dy="27">errores pronto y mejorar el mantenimiento.</tspan>
+    </text>
+  
+<circle cx="121" cy="834" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="841" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Métrica v3 adopta el modelo E-R extendido.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      <g>
+        
+    <g>
+      <rect x="840" y="480" width="680" height="344" rx="28" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <rect x="840" y="480" width="680" height="16" rx="28" fill="#f7e0db" />
+      <text x="874" y="526" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">PIEZAS Y SÍMBOLOS</text>
+      <text x="874" y="564" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Dominio y notación</text>
+      
+    <text x="874" y="598" fill="#5b667a" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="500">
+      <tspan x="874" dy="0">Cada atributo toma valores de un dominio. El</tspan><tspan x="874" dy="25">dominio existe con independencia de la entidad</tspan><tspan x="874" dy="25">y de la relación.</tspan>
+    </text>
+  
+      <circle cx="881" cy="690" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="697" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Entidad -&gt; rectángulo</tspan>
+    </text>
+  
+<circle cx="881" cy="735" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="742" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Atributo -&gt; elipse</tspan>
+    </text>
+  
+<circle cx="881" cy="780" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="787" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Relación -&gt; rombo</tspan>
+    </text>
+  
+<circle cx="881" cy="825" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="832" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Jerarquía -&gt; triángulo invertido</tspan>
+    </text>
+  
+      
+            <rect x="980" y="666" width="116" height="58" rx="10" fill="#f7e0db" stroke="#9c4d44" stroke-width="2.5" />
+            <text x="1038" y="703" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800">Entidad</text>
+            <ellipse cx="1228" cy="694" rx="74" ry="34" fill="#f7e0db" stroke="#9c4d44" stroke-width="2.5" />
+            <text x="1228" y="701" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800">Atributo</text>
+            <polygon points="1378,660 1446,694 1378,728 1310,694" fill="#f7e0db" stroke="#9c4d44" stroke-width="2.5" />
+            <text x="1378" y="701" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="800">Relación</text>
+          
+    </g>
+  
+      </g>
+      
+    <g>
+      <rect x="80" y="856" width="680" height="462" rx="28" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <rect x="80" y="856" width="680" height="16" rx="28" fill="#f7e0db" />
+      <text x="114" y="902" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">CONCEPTO 1</text>
+      <text x="114" y="940" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Entidad</text>
+      
+      <circle cx="121" cy="967" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="974" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Objeto real o abstracto del que interesa</tspan><tspan x="138" dy="27">almacenar información.</tspan>
+    </text>
+  
+<circle cx="121" cy="1039" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1046" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Tipo de entidad = intención; conjunto de</tspan><tspan x="138" dy="27">ocurrencias = extensión.</tspan>
+    </text>
+  
+<circle cx="121" cy="1111" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1118" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Regulares: existen por sí mismas.</tspan>
+    </text>
+  
+<circle cx="121" cy="1156" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1163" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Débiles: dependen de otra entidad.</tspan>
+    </text>
+  
+<circle cx="121" cy="1201" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1208" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Reglas: existencia propia, ocurrencias</tspan><tspan x="138" dy="27">distinguibles y mismos atributos.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="840" y="856" width="680" height="462" rx="28" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <rect x="840" y="856" width="680" height="16" rx="28" fill="#f7e0db" />
+      <text x="874" y="902" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">CONCEPTO 2</text>
+      <text x="874" y="940" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Atributo</text>
+      
+      <circle cx="881" cy="967" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="974" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Propiedad que identifica o describe la</tspan><tspan x="898" dy="27">entidad y se define sobre un dominio.</tspan>
+    </text>
+  
+<circle cx="881" cy="1039" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="1046" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Debe existir un identificador principal o</tspan><tspan x="898" dy="27">clave primaria.</tspan>
+    </text>
+  
+<circle cx="881" cy="1111" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="1118" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Si hay varias claves posibles, una es</tspan><tspan x="898" dy="27">primaria y las demás son candidatas o</tspan><tspan x="898" dy="27">alternativas.</tspan>
+    </text>
+  
+<circle cx="881" cy="1210" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="1217" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Superclave = conjunto no mínimo que</tspan><tspan x="898" dy="27">identifica unívocamente.</tspan>
+    </text>
+  
+<circle cx="881" cy="1282" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="1289" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Tipos: simple, compuesto, multivaluado,</tspan><tspan x="898" dy="27">obligatorio y derivado.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="1334" width="1440" height="404" rx="28" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <rect x="80" y="1334" width="1440" height="16" rx="28" fill="#f7e0db" />
+      <text x="114" y="1380" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">CONCEPTO 3</text>
+      <text x="114" y="1418" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Relación</text>
+      
+      <circle cx="121" cy="1445" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1452" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Asociación entre entidades. Puede ser regular, débil o exclusiva. En dependencia por</tspan><tspan x="138" dy="27">identificación: clave de la débil = clave de la fuerte + clave propia.</tspan>
+    </text>
+  
+<circle cx="121" cy="1517" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1524" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Se caracteriza por nombre, grado, tipo de correspondencia y cardinalidad.</tspan>
+    </text>
+  
+<circle cx="121" cy="1562" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1569" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Grado: unaria (reflexiva), binaria, ternaria o n-aria.</tspan>
+    </text>
+  
+<circle cx="121" cy="1607" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1614" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Tipo de correspondencia: 1:1, 1:N o N:M.</tspan>
+    </text>
+  
+<circle cx="121" cy="1652" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1659" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Cardinalidad: obligatoria (1,max) u opcional (0,max). Puede haber atributos propios y</tspan><tspan x="138" dy="27">roles.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="1770" width="680" height="430" rx="28" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <rect x="80" y="1770" width="680" height="16" rx="28" fill="#f7e0db" />
+      <text x="114" y="1816" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">ABSTRACCIÓN</text>
+      <text x="114" y="1854" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Extensiones del modelo E-R</text>
+      
+      <circle cx="121" cy="1881" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1888" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Generalización: varios subtipos -&gt; un</tspan><tspan x="138" dy="27">supertipo.</tspan>
+    </text>
+  
+<circle cx="121" cy="1953" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="1960" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Especialización: un supertipo -&gt; varios</tspan><tspan x="138" dy="27">subtipos.</tspan>
+    </text>
+  
+<circle cx="121" cy="2025" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="2032" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Categorías: subtipo unión de varios</tspan><tspan x="138" dy="27">supertipos.</tspan>
+    </text>
+  
+<circle cx="121" cy="2097" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="2104" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Agregación: tratar una composición como</tspan><tspan x="138" dy="27">entidad nueva.</tspan>
+    </text>
+  
+<circle cx="121" cy="2169" r="5.2" fill="#9c4d44" />
+
+    <text x="138" y="2176" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Jerarquías: total/parcial y</tspan><tspan x="138" dy="27">disjunta/solapada.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="840" y="1770" width="680" height="430" rx="28" fill="#fffdf8" stroke="#e8beb6" stroke-width="2" />
+      <rect x="840" y="1770" width="680" height="16" rx="28" fill="#f7e0db" />
+      <text x="874" y="1816" fill="#9c4d44" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">MÉTODO</text>
+      <text x="874" y="1854" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Construcción y validación</text>
+      
+      <circle cx="881" cy="1881" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="1888" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">1. Identificar entidades del sistema.</tspan>
+    </text>
+  
+<circle cx="881" cy="1926" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="1933" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">2. Fijar identificadores principales.</tspan>
+    </text>
+  
+<circle cx="881" cy="1971" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="1978" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">3. Establecer relaciones, grados y</tspan><tspan x="898" dy="27">cardinalidades.</tspan>
+    </text>
+  
+<circle cx="881" cy="2043" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="2050" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">4. Dibujar el modelo.</tspan>
+    </text>
+  
+<circle cx="881" cy="2088" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="2095" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">5. Añadir y describir atributos.</tspan>
+    </text>
+  
+<circle cx="881" cy="2133" r="5.2" fill="#9c4d44" />
+
+    <text x="898" y="2140" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">6. Verificar redundancias de atributos y</tspan><tspan x="898" dy="27">relaciones.</tspan>
+    </text>
+  
+      
+    </g>
+  
+    
+</svg>

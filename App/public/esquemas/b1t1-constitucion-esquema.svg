@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2310" viewBox="0 0 1600 2310" role="img" aria-labelledby="title desc">
+  <title>Esquema visual de estudio</title>
+  <desc>Esquema resumido para copiar en cuaderno y repasar rápidamente.</desc>
+  <rect width="1600" height="2310" fill="#f7f4ee" />
+  
+      
+    <g>
+      <rect x="56" y="54" width="1488" height="150" rx="34" fill="#fffdf8" stroke="#d8d2c4" stroke-width="2" />
+      <rect x="56" y="54" width="18" height="150" rx="34" fill="#1f6f5f" />
+      <text x="102" y="104" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="4">B1T1</text>
+      <text x="102" y="154" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">Constitución Española de 1978</text>
+      <text x="102" y="190" fill="#5b667a" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Estructura, derechos, garantías y Corona en un mapa visual para repasar.</text>
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="232" width="1440" height="250" rx="30" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <text x="114" y="280" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">CRONOLOGÍA CLAVE</text>
+      <text x="114" y="320" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Secuencia constitucional que conviene memorizar</text>
+      <text x="114" y="352" fill="#5b667a" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="500">Del proceso constituyente a la entrada en vigor.</text>
+      
+        <line x1="150" y1="360" x2="410" y2="360" stroke="#add5c7" stroke-width="6" />
+        <circle cx="150" cy="360" r="22" fill="#1f6f5f" />
+        <text x="150" y="367" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">1</text>
+        <text x="150" y="414" text-anchor="middle" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800">15/06/1977</text>
+        <text x="150" y="446" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600">
+          <tspan x="150" dy="0">Elecciones</tspan><tspan x="150" dy="22">generales</tspan>
+        </text>
+      
+        <line x1="410" y1="360" x2="670" y2="360" stroke="#add5c7" stroke-width="6" />
+        <circle cx="410" cy="360" r="22" fill="#1f6f5f" />
+        <text x="410" y="367" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">2</text>
+        <text x="410" y="414" text-anchor="middle" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800">22/07/1977</text>
+        <text x="410" y="446" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600">
+          <tspan x="410" dy="0">Constitución de</tspan><tspan x="410" dy="22">las Cortes</tspan>
+        </text>
+      
+        <line x1="670" y1="360" x2="930" y2="360" stroke="#add5c7" stroke-width="6" />
+        <circle cx="670" cy="360" r="22" fill="#1f6f5f" />
+        <text x="670" y="367" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">3</text>
+        <text x="670" y="414" text-anchor="middle" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800">31/10/1978</text>
+        <text x="670" y="446" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600">
+          <tspan x="670" dy="0">Aprobación del</tspan><tspan x="670" dy="22">texto</tspan>
+        </text>
+      
+        <line x1="930" y1="360" x2="1190" y2="360" stroke="#add5c7" stroke-width="6" />
+        <circle cx="930" cy="360" r="22" fill="#1f6f5f" />
+        <text x="930" y="367" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">4</text>
+        <text x="930" y="414" text-anchor="middle" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800">06/12/1978</text>
+        <text x="930" y="446" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600">
+          <tspan x="930" dy="0">Referéndum</tspan>
+        </text>
+      
+        <line x1="1190" y1="360" x2="1450" y2="360" stroke="#add5c7" stroke-width="6" />
+        <circle cx="1190" cy="360" r="22" fill="#1f6f5f" />
+        <text x="1190" y="367" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">5</text>
+        <text x="1190" y="414" text-anchor="middle" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800">27/12/1978</text>
+        <text x="1190" y="446" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600">
+          <tspan x="1190" dy="0">Sanción real</tspan>
+        </text>
+      
+        
+        <circle cx="1450" cy="360" r="22" fill="#1f6f5f" />
+        <text x="1450" y="367" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">6</text>
+        <text x="1450" y="414" text-anchor="middle" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800">29/12/1978</text>
+        <text x="1450" y="446" text-anchor="middle" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600">
+          <tspan x="1450" dy="0">BOE y vigencia</tspan>
+        </text>
+      
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="516" width="680" height="336" rx="28" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <rect x="80" y="516" width="680" height="16" rx="28" fill="#dff1ea" />
+      <text x="114" y="562" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">IDEA FUERZA</text>
+      <text x="114" y="600" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Características</text>
+      
+      <circle cx="121" cy="627" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="634" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Escrita y codificada; extensa: 169</tspan><tspan x="138" dy="27">artículos.</tspan>
+    </text>
+  
+<circle cx="121" cy="699" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="706" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Rígida: reforma por procedimiento especial.</tspan>
+    </text>
+  
+<circle cx="121" cy="744" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="751" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Cuatro reformas que debes ubicar: arts.</tspan><tspan x="138" dy="27">13.2, 135, 49 y 69.</tspan>
+    </text>
+  
+<circle cx="121" cy="816" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="823" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Democrática y monárquica: Estado social y</tspan><tspan x="138" dy="27">democrático de Derecho + Monarquía</tspan><tspan x="138" dy="27">parlamentaria.</tspan>
+    </text>
+  
+<circle cx="121" cy="915" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="922" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Constitución de consenso y con derechos</tspan><tspan x="138" dy="27">garantizados.</tspan>
+    </text>
+  
+<circle cx="121" cy="987" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="994" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Norma suprema del ordenamiento.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="840" y="516" width="680" height="336" rx="28" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <rect x="840" y="516" width="680" height="16" rx="28" fill="#dff1ea" />
+      <text x="874" y="562" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">ARQUITECTURA</text>
+      <text x="874" y="600" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Estructura</text>
+      
+      <circle cx="881" cy="627" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="634" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Preámbulo: declaración política de</tspan><tspan x="898" dy="27">fundamento.</tspan>
+    </text>
+  
+<circle cx="881" cy="699" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="706" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Parte dogmática: Título Preliminar + Título</tspan><tspan x="898" dy="27">I.</tspan>
+    </text>
+  
+<circle cx="881" cy="771" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="778" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Parte orgánica: Títulos II a X.</tspan>
+    </text>
+  
+<circle cx="881" cy="816" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="823" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">169 artículos, 4 adicionales, 9</tspan><tspan x="898" dy="27">transitorias, 1 derogatoria y 1 final.</tspan>
+    </text>
+  
+<circle cx="881" cy="888" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="895" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">11 bloques en total: Preliminar + 10</tspan><tspan x="898" dy="27">títulos.</tspan>
+    </text>
+  
+<circle cx="881" cy="960" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="967" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Capítulo II del Título I se divide en dos</tspan><tspan x="898" dy="27">secciones.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="884" width="680" height="612" rx="28" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <rect x="80" y="884" width="680" height="16" rx="28" fill="#dff1ea" />
+      <text x="114" y="930" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">ARTS. 1 A 9</text>
+      <text x="114" y="968" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Título Preliminar</text>
+      
+      <circle cx="121" cy="995" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1002" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 1: libertad, justicia, igualdad y</tspan><tspan x="138" dy="27">pluralismo político; soberanía popular;</tspan><tspan x="138" dy="27">Monarquía parlamentaria.</tspan>
+    </text>
+  
+<circle cx="121" cy="1094" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1101" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 2: unidad de España + autonomía +</tspan><tspan x="138" dy="27">solidaridad.</tspan>
+    </text>
+  
+<circle cx="121" cy="1166" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1173" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 3: castellano oficial; demás lenguas,</tspan><tspan x="138" dy="27">cooficiales según Estatutos.</tspan>
+    </text>
+  
+<circle cx="121" cy="1238" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1245" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 4 y 5: bandera del Estado y capital en</tspan><tspan x="138" dy="27">Madrid.</tspan>
+    </text>
+  
+<circle cx="121" cy="1310" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1317" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 6 y 7: partidos, sindicatos y</tspan><tspan x="138" dy="27">asociaciones empresariales con</tspan><tspan x="138" dy="27">funcionamiento democrático.</tspan>
+    </text>
+  
+<circle cx="121" cy="1409" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1416" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 8: misión de las Fuerzas Armadas.</tspan>
+    </text>
+  
+<circle cx="121" cy="1454" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1461" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 9: sujeción a la CE y garantías</tspan><tspan x="138" dy="27">jurídicas básicas.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="840" y="884" width="680" height="612" rx="28" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <rect x="840" y="884" width="680" height="16" rx="28" fill="#dff1ea" />
+      <text x="874" y="930" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">ARTS. 10 A 55</text>
+      <text x="874" y="968" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Título I · Derechos y deberes</text>
+      
+      <circle cx="881" cy="995" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1002" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Art. 10: dignidad, libre desarrollo y</tspan><tspan x="898" dy="27">lectura conforme a DDHH.</tspan>
+    </text>
+  
+<circle cx="881" cy="1067" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1074" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Cap. I (11-13): nacionalidad, mayoría de</tspan><tspan x="898" dy="27">edad y estatuto de los extranjeros.</tspan>
+    </text>
+  
+<circle cx="881" cy="1139" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1146" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Cap. II Sección 1ª (14-29): igualdad, vida,</tspan><tspan x="898" dy="27">libertad, intimidad, expresión, reunión,</tspan><tspan x="898" dy="27">asociación, participación y tutela.</tspan>
+    </text>
+  
+<circle cx="881" cy="1238" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1245" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Cap. II Sección 2ª (30-38): deberes</tspan><tspan x="898" dy="27">ciudadanos, trabajo, propiedad y</tspan><tspan x="898" dy="27">negociación colectiva.</tspan>
+    </text>
+  
+<circle cx="881" cy="1337" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1344" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Cap. III (39-52): principios rectores de</tspan><tspan x="898" dy="27">política social y económica.</tspan>
+    </text>
+  
+<circle cx="881" cy="1409" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1416" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Cap. IV y V (53-55): garantías, Defensor</tspan><tspan x="898" dy="27">del Pueblo y suspensión.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="1528" width="680" height="336" rx="28" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <rect x="80" y="1528" width="680" height="16" rx="28" fill="#dff1ea" />
+      <text x="114" y="1574" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">PARA EXAMINARTE</text>
+      <text x="114" y="1612" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Derechos que más se cruzan</text>
+      
+      <circle cx="121" cy="1639" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1646" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Igualdad; vida e integridad; libertad y</tspan><tspan x="138" dy="27">seguridad + habeas corpus.</tspan>
+    </text>
+  
+<circle cx="121" cy="1711" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1718" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Honor, intimidad, domicilio y secreto de</tspan><tspan x="138" dy="27">las comunicaciones.</tspan>
+    </text>
+  
+<circle cx="121" cy="1783" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1790" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Expresión e información; reunión;</tspan><tspan x="138" dy="27">asociación; participación del art. 23.</tspan>
+    </text>
+  
+<circle cx="121" cy="1855" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="1862" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Tutela judicial, legalidad sancionadora y</tspan><tspan x="138" dy="27">educación.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="840" y="1528" width="680" height="336" rx="28" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <rect x="840" y="1528" width="680" height="16" rx="28" fill="#dff1ea" />
+      <text x="874" y="1574" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">ARTS. 53 A 55</text>
+      <text x="874" y="1612" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Garantía y suspensión</text>
+      
+      <circle cx="881" cy="1639" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1646" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Tutela ordinaria y amparo constitucional</tspan><tspan x="898" dy="27">para art. 14 a 29 y objeción del 30.2.</tspan>
+    </text>
+  
+<circle cx="881" cy="1711" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1718" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Los principios rectores orientan leyes y</tspan><tspan x="898" dy="27">actuación pública.</tspan>
+    </text>
+  
+<circle cx="881" cy="1783" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1790" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Defensor del Pueblo: alto comisionado de</tspan><tspan x="898" dy="27">las Cortes.</tspan>
+    </text>
+  
+<circle cx="881" cy="1855" r="5.2" fill="#1f6f5f" />
+
+    <text x="898" y="1862" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="898" dy="0">Excepción o sitio: se suspenden 17, 18.2-3,</tspan><tspan x="898" dy="27">19, 20, 21, 28.2 y 37.2.</tspan>
+    </text>
+  
+      
+    </g>
+  
+      
+    <g>
+      <rect x="80" y="1896" width="1440" height="334" rx="28" fill="#fffdf8" stroke="#add5c7" stroke-width="2" />
+      <rect x="80" y="1896" width="1440" height="16" rx="28" fill="#dff1ea" />
+      <text x="114" y="1942" fill="#1f6f5f" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="800" letter-spacing="3.5">ARTS. 56 A 65</text>
+      <text x="114" y="1980" fill="#172033" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Corona, Jefatura del Estado y funciones del Rey</text>
+      
+      <circle cx="121" cy="2007" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="2014" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 56: Jefe del Estado, símbolo de unidad y permanencia; arbitra y modera; inviolable; actos con</tspan><tspan x="138" dy="27">refrendo.</tspan>
+    </text>
+  
+<circle cx="121" cy="2079" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="2086" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Arts. 57 a 61: sucesión, Príncipe de Asturias, Regencia, tutela y juramento.</tspan>
+    </text>
+  
+<circle cx="121" cy="2124" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="2131" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Art. 62: leyes, Cortes, elecciones, referéndum, Presidente, Gobierno, decretos, FFAA, gracia y</tspan><tspan x="138" dy="27">Academias.</tspan>
+    </text>
+  
+<circle cx="121" cy="2196" r="5.2" fill="#1f6f5f" />
+
+    <text x="138" y="2203" fill="#172033" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="500">
+      <tspan x="138" dy="0">Arts. 63 a 65: representación exterior, tratados, guerra y paz, refrendo y Casa del Rey.</tspan>
+    </text>
+  
+      
+    </g>
+  
+    
+</svg>

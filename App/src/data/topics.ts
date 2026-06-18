@@ -13,6 +13,13 @@ export interface TopicPodcast {
   assetPath: string;
 }
 
+export interface TopicVisualResource {
+  title: string;
+  description: string;
+  assetPath: string;
+  sourceFilename: string;
+}
+
 export interface OfficialMaterial {
   code: string;
   slug: string;
@@ -41,6 +48,8 @@ export interface Topic {
   podcasts: TopicPodcast[];
   podcastCount: number;
   hasPodcasts: boolean;
+  visualScheme?: TopicVisualResource;
+  hasVisualScheme: boolean;
   summary: string[];
   sections: string[];
   accent: "emerald" | "amber" | "coral" | "azure";
@@ -112,6 +121,13 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[])
     podcasts: topic.podcasts ?? [],
     podcastCount: topic.podcasts?.length ?? 0,
     hasPodcasts: (topic.podcasts?.length ?? 0) > 0,
+    visualScheme: override?.visualScheme
+      ? {
+          ...override.visualScheme,
+          assetPath: buildVersionedAssetPath(override.visualScheme.assetPath, override.visualScheme.sourceFilename),
+        }
+      : undefined,
+    hasVisualScheme: Boolean(override?.visualScheme),
     summary:
       override?.summary ??
       ["Tema sincronizado desde la carpeta Temario.", "Añade un banco de preguntas para activar los tests específicos."],

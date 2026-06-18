@@ -1,5 +1,12 @@
 import type { TestPreset } from "./question-bank";
 
+export interface TopicVisualScheme {
+  title: string;
+  description: string;
+  assetPath: string;
+  sourceFilename: string;
+}
+
 export interface TopicOverride {
   title: string;
   shortTitle: string;
@@ -8,6 +15,7 @@ export interface TopicOverride {
   sections: string[];
   accent: "emerald" | "amber" | "coral" | "azure";
   testPresets: TestPreset[];
+  visualScheme?: TopicVisualScheme;
 }
 
 export const topicOverrides: Record<string, TopicOverride> = {
@@ -33,6 +41,13 @@ export const topicOverrides: Record<string, TopicOverride> = {
       "Corona y funciones del Rey",
     ],
     accent: "emerald",
+    visualScheme: {
+      title: "Esquema visual de la Constitución",
+      description:
+        "Mapa resumido con cronología, estructura, Título Preliminar, Título I, garantías y Corona para copiarlo en el cuaderno y repasarlo a mano.",
+      assetPath: "/esquemas/b1t1-constitucion-esquema.svg",
+      sourceFilename: "b1t1-constitucion-esquema.svg",
+    },
     testPresets: [
       {
         slug: "fundamentos-y-estructura",
@@ -138,6 +153,13 @@ export const topicOverrides: Record<string, TopicOverride> = {
       "Test de repaso del profesor",
     ],
     accent: "coral",
+    visualScheme: {
+      title: "Esquema visual del modelo E-R",
+      description:
+        "Resumen visual del tema con entidades, atributos, relaciones, extensiones y proceso de construcción y validación del modelo conceptual.",
+      assetPath: "/esquemas/b3t1-modelo-er-esquema.svg",
+      sourceFilename: "b3t1-modelo-er-esquema.svg",
+    },
     testPresets: [
       {
         slug: "fundamentos-er",
@@ -194,6 +216,13 @@ export const topicOverrides: Record<string, TopicOverride> = {
       "Integridad y modelo lógico",
     ],
     accent: "amber",
+    visualScheme: {
+      title: "Esquema visual de diseño de bases de datos",
+      description:
+        "Recorrido visual por arquitectura ANSI/SPARC, diseño lógico y físico, transformación E-R a relacional y normalización de 1FN a 5FN.",
+      assetPath: "/esquemas/b3t2-diseno-bd-esquema.svg",
+      sourceFilename: "b3t2-diseno-bd-esquema.svg",
+    },
     testPresets: [
       {
         slug: "fundamentos-relacional",
