@@ -31,7 +31,7 @@ const simulationOverrides: Record<
     description:
       "Simulacro global pensado para consolidar los tres primeros temas que ya habéis trabajado antes de seguir escalando el temario.",
     studyLabel: "Repaso acumulado",
-    coveredTopicCodes: ["B1T1", "B2T3", "B3T1"],
+    coveredTopicCodes: ["B1T1", "B3T1", "B3T2"],
   },
 };
 
@@ -50,4 +50,3 @@ export const simulations: Simulation[] = (generatedSimulations as GeneratedSimul
     };
   })
   .sort((left, right) => left.title.localeCompare(right.title, "es"));
-
