@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HeroStats from "../components/HeroStats.astro";
 import TopicCard from "../components/TopicCard.astro";
+import { simulations } from "../data/simulations";
 import { topics } from "../data/topics";
 import { withBase } from "../utils/paths";
 
@@ -9,6 +10,7 @@ const totalTopics = topics.length;
 const totalTests = topics.reduce((accumulator, topic) => accumulator + topic.testCount, 0);
 const totalQuestions = topics.reduce((accumulator, topic) => accumulator + topic.questionCount, 0);
 const featuredTopics = topics.slice(0, 3);
+const latestSimulation = simulations[0];
 ---
 
 <BaseLayout title="AprobarApp | TAI 2027" description="Temarios TAI con tests tipo autoescuela en Astro.">
@@ -48,6 +50,45 @@ const featuredTopics = topics.slice(0, 3);
       {featuredTopics.map((topic) => <TopicCard topic={topic} />)}
     </div>
   </section>
+
+  {
+    latestSimulation && (
+      <section class="section-block section-block--centered">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Repaso acumulado</p>
+            <h2>Simulacros globales ya disponibles</h2>
+          </div>
+          <a class="text-link" href={withBase("simulacros/")}>Ver simulacros</a>
+        </div>
+
+        <article class="official-material official-material--simulation">
+          <div class="official-material__main">
+            <div class="official-material__header">
+              <span class="official-material__badge">Simulacro</span>
+              <span class="official-material__filename">{latestSimulation.sourceFilename}</span>
+            </div>
+            <p class="official-material__context">{latestSimulation.studyLabel}</p>
+            <h3>{latestSimulation.title}</h3>
+            <p>{latestSimulation.description}</p>
+          </div>
+
+          <div class="official-material__footer">
+            <div class="test-card__meta official-material__meta">
+              <span>{latestSimulation.coveredTopicCodes.length} temas</span>
+              <span>PDF de repaso</span>
+            </div>
+
+            <div class="official-material__actions">
+              <a class="button button--primary" href={withBase("simulacros/")}>
+                Abrir sección
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+    )
+  }
 
   <section class="section-block section-block--alt section-block--centered" id="como-funciona">
     <div class="section-heading">

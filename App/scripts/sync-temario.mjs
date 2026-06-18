@@ -14,6 +14,9 @@ const officialSourceDir = resolve(projectRoot, "..", "Test");
 const officialPublicDir = resolve(projectRoot, "public", "test-oficial");
 const officialManifestFile = resolve(projectRoot, "src", "data", "generated", "official-materials.json");
 const officialTestsFile = resolve(projectRoot, "src", "data", "generated", "official-tests.json");
+const simulationSourceDir = resolve(officialSourceDir, "Simulacros");
+const simulationPublicDir = resolve(projectRoot, "public", "simulacros");
+const simulationManifestFile = resolve(projectRoot, "src", "data", "generated", "simulacros.json");
 
 function slugify(value) {
   return value
@@ -84,6 +87,16 @@ function collectFilesRecursively(directory) {
   return files;
 }
 
+function prettifySimulationFilename(filename) {
+  const baseName = filename.replace(/\.[^.]+$/, "");
+
+  return baseName
+    .replace(/_/g, " ")
+    .replace(/\s+\d+$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function writeJsonFile(filePath, value) {
   writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`);
 }
@@ -94,6 +107,8 @@ mkdirSync(dirname(manifestFile), { recursive: true });
 mkdirSync(officialPublicDir, { recursive: true });
 mkdirSync(dirname(officialManifestFile), { recursive: true });
 mkdirSync(dirname(officialTestsFile), { recursive: true });
+mkdirSync(simulationPublicDir, { recursive: true });
+mkdirSync(dirname(simulationManifestFile), { recursive: true });
 
 if (!existsSync(sourceDir)) {
   writeJsonFile(manifestFile, []);
@@ -140,11 +155,13 @@ if (!existsSync(sourceDir)) {
 if (!existsSync(officialSourceDir)) {
   writeJsonFile(officialManifestFile, []);
   writeJsonFile(officialTestsFile, []);
+  writeJsonFile(simulationManifestFile, []);
   console.warn("[sync-temario] No existe la carpeta Test. Se genera un manifest vacío de oficiales.");
   process.exit(0);
 }
 
 const officialFiles = collectFilesRecursively(officialSourceDir)
+  .filter((file) => !relative(officialSourceDir, file).startsWith("Simulacros/"))
   .filter((file) => [".pdf", ".doc", ".docx", ".png", ".jpg", ".jpeg"].includes(extname(file).toLowerCase()))
   .sort((a, b) => a.localeCompare(b, "es"));
 
@@ -203,6 +220,32 @@ const officialManifest = officialEntries.map(({ absolutePath, extension, ...entr
 
 writeJsonFile(officialManifestFile, officialManifest);
 console.log(`[sync-temario] Sincronizados ${officialManifest.length} materiales oficiales.`);
+
+const simulationFiles = existsSync(simulationSourceDir)
+  ? collectFilesRecursively(simulationSourceDir)
+      .filter((file) => [".pdf", ".doc", ".docx"].includes(extname(file).toLowerCase()))
+      .sort((a, b) => a.localeCompare(b, "es"))
+  : [];
+
+const simulationsManifest = simulationFiles.map((filePath) => {
+  const relativePath = relative(simulationSourceDir, filePath);
+  const extension = extname(filePath).toLowerCase();
+  const title = prettifySimulationFilename(basename(relativePath));
+  const slug = slugify(title);
+  const destinationName = `${slug}${extension}`;
+
+  cpSync(filePath, join(simulationPublicDir, destinationName), { force: true });
+
+  return {
+    slug,
+    title,
+    sourceFilename: relativePath,
+    assetPath: `/simulacros/${destinationName}`,
+  };
+});
+
+writeJsonFile(simulationManifestFile, simulationsManifest);
+console.log(`[sync-temario] Sincronizados ${simulationsManifest.length} simulacros globales.`);
 
 const interactiveOfficialTests = [];
 let parserUnavailable = false;

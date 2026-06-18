@@ -1,0 +1,92 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { simulations } from "../../data/simulations";
+import { topics } from "../../data/topics";
+import { withBase } from "../../utils/paths";
+
+const topicsByCode = topics.reduce<Record<string, (typeof topics)[number]>>((accumulator, topic) => {
+  accumulator[topic.code] = topic;
+  return accumulator;
+}, {});
+---
+
+<BaseLayout
+  title="Simulacros | AprobarApp"
+  description="Simulacros globales de repaso en AprobarApp para consolidar varios temas a la vez."
+>
+  <section class="page-hero content-centered">
+    <p class="eyebrow">Repaso global</p>
+    <h1>Simulacros para mezclar varios temas en una sola sesión</h1>
+    <p>
+      Aquí van los simulacros acumulados que no pertenecen a un único tema. Son perfectos para repasar bloques ya vistos
+      y entrenar cambios de contexto antes del examen.
+    </p>
+  </section>
+
+  <section class="section-block section-block--centered">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Material disponible</p>
+        <h2>Simulacros generales de la academia</h2>
+      </div>
+    </div>
+
+    {
+      simulations.length > 0 ? (
+        <div class="official-list">
+          {simulations.map((simulation) => {
+            const coveredTopics = simulation.coveredTopicCodes
+              .map((code) => topicsByCode[code])
+              .filter(Boolean);
+
+            return (
+              <article class="official-material official-material--simulation">
+                <div class="official-material__main">
+                  <div class="official-material__header">
+                    <span class="official-material__badge">Simulacro</span>
+                    <span class="official-material__filename">{simulation.sourceFilename}</span>
+                  </div>
+
+                  <p class="official-material__context">{simulation.studyLabel}</p>
+                  <h3>{simulation.title}</h3>
+                  <p>{simulation.description}</p>
+
+                  {
+                    coveredTopics.length > 0 && (
+                      <div class="simulation-links">
+                        {coveredTopics.map((topic) => (
+                          <a class="simulation-links__item" href={withBase(`temarios/${topic.slug}/`)}>
+                            {topic.code} · {topic.shortTitle}
+                          </a>
+                        ))}
+                      </div>
+                    )
+                  }
+                </div>
+
+                <div class="official-material__footer">
+                  <div class="test-card__meta official-material__meta">
+                    <span>{simulation.coveredTopicCodes.length} temas</span>
+                    <span>PDF de repaso</span>
+                  </div>
+
+                  <div class="official-material__actions">
+                    <a class="button button--primary" href={withBase(simulation.assetPath)} target="_blank" rel="noreferrer">
+                      Abrir simulacro
+                    </a>
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      ) : (
+        <article class="empty-state">
+          <h3>Todavía no hay simulacros globales</h3>
+          <p>En cuanto metas PDFs dentro de `Test/Simulacros`, aparecerán aquí automáticamente.</p>
+        </article>
+      )
+    }
+  </section>
+</BaseLayout>
+
