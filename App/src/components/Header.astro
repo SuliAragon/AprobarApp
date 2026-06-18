@@ -5,6 +5,7 @@ const currentPath = Astro.url.pathname;
 const links = [
   { href: withBase(""), label: "Inicio" },
   { href: withBase("temarios/"), label: "Temarios" },
+  { href: withBase("tests/"), label: "Tests" },
 ];
 ---
 
@@ -53,7 +54,7 @@ const links = [
     }
 
     if (themeMeta) {
-      themeMeta.setAttribute("content", currentTheme === "dark" ? "#101114" : "#f5f1e8");
+      themeMeta.setAttribute("content", currentTheme === "dark" ? "#11151b" : "#f4f5f7");
     }
   };
 

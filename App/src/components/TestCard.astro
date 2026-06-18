@@ -6,9 +6,10 @@ import { withBase } from "../utils/paths";
 interface Props {
   topic: Topic;
   test: TopicTest;
+  showTopicContext?: boolean;
 }
 
-const { topic, test } = Astro.props;
+const { topic, test, showTopicContext = false } = Astro.props;
 const storageKey = `aprobarapp:test:${topic.slug}:${test.slug}`;
 ---
 
@@ -16,6 +17,7 @@ const storageKey = `aprobarapp:test:${topic.slug}:${test.slug}`;
   <div class="test-card__main">
     <div class="test-card__header">
       <div>
+        {showTopicContext && <p class="test-card__context">{topic.code} · {topic.shortTitle}</p>}
         <h3>{test.title}</h3>
         <p>{test.description}</p>
       </div>

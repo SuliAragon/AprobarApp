@@ -5,9 +5,10 @@ import { withBase } from "../utils/paths";
 interface Props {
   material: OfficialMaterial;
   topicSlug: string;
+  topicLabel?: string;
 }
 
-const { material, topicSlug } = Astro.props;
+const { material, topicSlug, topicLabel } = Astro.props;
 const storageKey = `aprobarapp:official:${topicSlug}:${material.slug}`;
 
 const kindLabelByType = {
@@ -35,6 +36,7 @@ const kindLabelByType = {
       }
     </div>
 
+    {topicLabel && <p class="official-material__context">{topicLabel}</p>}
     <h3>{material.title}</h3>
     <p>
       {

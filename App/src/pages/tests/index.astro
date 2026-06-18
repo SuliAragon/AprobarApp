@@ -1,0 +1,303 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TestProgressScript from "../../components/TestProgressScript.astro";
+import { topics } from "../../data/topics";
+import { withBase } from "../../utils/paths";
+
+const topicGroups = topics
+  .map((topic) => {
+    const practiceTests = topic.tests.map((test) => ({
+      kind: "practice" as const,
+      id: `practice-${topic.slug}-${test.slug}`,
+      title: test.title,
+      description: test.description,
+      metaPrimary: `${test.questions.length} preguntas`,
+      metaSecondary: `${test.focusSections.length} focos`,
+      href: withBase(`temarios/${topic.slug}/tests/${test.slug}/`),
+      ctaLabel: "Hacer test",
+      storageKey: `aprobarapp:test:${topic.slug}:${test.slug}`,
+      sourceLabel: "Simulacro específico",
+    }));
+
+    const officialTests = topic.officialMaterials
+      .filter((material) => material.hasInteractiveQuiz)
+      .map((material) => ({
+        kind: "official" as const,
+        id: `official-${topic.slug}-${material.slug}`,
+        title: material.title,
+        description: "Material oficial interactivo incorporado desde la carpeta Test.",
+        metaPrimary: `${material.interactiveQuestionCount} preguntas`,
+        metaSecondary: "Solución oficial",
+        href: withBase(`temarios/${topic.slug}/oficiales/${material.slug}/`),
+        ctaLabel: "Hacer test",
+        storageKey: `aprobarapp:official:${topic.slug}:${material.slug}`,
+        sourceLabel: "Test oficial",
+      }));
+
+    const entries = [...practiceTests, ...officialTests];
+
+    return {
+      topic,
+      practiceTests,
+      officialTests,
+      entries,
+      totalCount: entries.length,
+    };
+  })
+  .filter((group) => group.totalCount > 0);
+
+const totalPractice = topicGroups.reduce((total, group) => total + group.practiceTests.length, 0);
+const totalOfficial = topicGroups.reduce((total, group) => total + group.officialTests.length, 0);
+const totalInteractive = totalPractice + totalOfficial;
+
+const groupsByBlock = topicGroups.reduce<Record<string, typeof topicGroups>>((accumulator, group) => {
+  const key = group.topic.blockLabel;
+  accumulator[key] ??= [];
+  accumulator[key].push(group);
+  return accumulator;
+}, {});
+
+const blockEntries = Object.entries(groupsByBlock).sort((left, right) => left[0].localeCompare(right[0], "es"));
+---
+
+<BaseLayout title="Tests | AprobarApp" description="Dashboard global de tests de AprobarApp, con simulacros y oficiales listos para hacer.">
+  <section class="page-hero content-centered tests-dashboard-hero">
+    <p class="eyebrow">Dashboard de tests</p>
+    <h1>Accede a todos los tests sin pasar por cada tema</h1>
+    <p>
+      Esta vista reúne todos los simulacros y todos los oficiales interactivos en un panel compacto, filtrable y
+      preparado para seguir creciendo sin convertirse en una lista infinita.
+    </p>
+  </section>
+
+  <section class="tests-dashboard" data-tests-dashboard>
+    <aside class="tests-sidebar">
+      <div class="tests-sidebar__panel">
+        <p class="eyebrow">Vista global</p>
+        <h2>Panel de acceso</h2>
+        <p>Filtra por tipo o quédate solo con un tema concreto para entrar directamente al test que quieras hacer.</p>
+      </div>
+
+      <div class="tests-sidebar__panel">
+        <p class="eyebrow">Tipos</p>
+        <div class="tests-sidebar__filters" role="tablist" aria-label="Filtrar tests por tipo">
+          <button class="tests-sidebar__filter is-active" type="button" data-tests-type="all">
+            Todos
+            <span>{totalInteractive}</span>
+          </button>
+          <button class="tests-sidebar__filter" type="button" data-tests-type="practice">
+            Simulacros
+            <span>{totalPractice}</span>
+          </button>
+          <button class="tests-sidebar__filter" type="button" data-tests-type="official">
+            Oficiales
+            <span>{totalOfficial}</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="tests-sidebar__panel">
+        <p class="eyebrow">Temas disponibles</p>
+        <div class="tests-sidebar__topics">
+          <button class="tests-sidebar__topic is-active" type="button" data-tests-topic="all" data-topic-label="Todos los temas">
+            <span>Todos los temas</span>
+            <strong>{topicGroups.length}</strong>
+          </button>
+
+          {
+            blockEntries.map(([blockLabel, groups]) => (
+              <div class="tests-sidebar__block">
+                <p>{blockLabel}</p>
+                <div class="tests-sidebar__topic-list">
+                  {groups.map(({ topic, totalCount }) => (
+                    <button
+                      class="tests-sidebar__topic"
+                      type="button"
+                      data-tests-topic={topic.slug}
+                      data-topic-label={`${topic.code} · ${topic.shortTitle}`}
+                    >
+                      <span>{topic.code}</span>
+                      <strong>{totalCount}</strong>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </aside>
+
+    <div class="tests-dashboard__content">
+      <div class="tests-dashboard__summary">
+        <div>
+          <p class="eyebrow">Listado compacto</p>
+          <h2>Tests agrupados por tema</h2>
+        </div>
+        <p class="tests-dashboard__hint" data-tests-dashboard-hint>
+          Viendo todos los temas y todos los tipos de test.
+        </p>
+      </div>
+
+      <div class="tests-dashboard__groups">
+        {
+          topicGroups.map(({ topic, practiceTests, officialTests, totalCount }) => (
+            <section class="tests-topic-group" data-topic-group data-topic-slug={topic.slug} id={`tests-${topic.slug}`}>
+              <header class="tests-topic-group__header">
+                <div>
+                  <p class="tests-topic-group__eyebrow">
+                    {topic.code} · {topic.blockLabel} · {topic.topicLabel}
+                  </p>
+                  <h3>{topic.shortTitle}</h3>
+                </div>
+
+                <div class="tests-topic-group__stats">
+                  <span>{totalCount} tests</span>
+                  <span>{practiceTests.length} simulacros</span>
+                  <span>{officialTests.length} oficiales</span>
+                </div>
+              </header>
+
+              <div class="tests-topic-group__rows">
+                {practiceTests.map((entry) => (
+                  <article
+                    class="dashboard-test-row"
+                    data-test-card
+                    data-storage-key={entry.storageKey}
+                    data-test-kind={entry.kind}
+                    data-topic-entry={topic.slug}
+                  >
+                    <div class="dashboard-test-row__main">
+                      <div class="dashboard-test-row__topline">
+                        <span class="dashboard-test-row__badge dashboard-test-row__badge--practice">{entry.sourceLabel}</span>
+                        <span class="dashboard-test-row__meta-inline">{entry.metaPrimary}</span>
+                        <span class="dashboard-test-row__meta-inline">{entry.metaSecondary}</span>
+                      </div>
+                      <h4 class="dashboard-test-row__title">{entry.title}</h4>
+                      <p>{entry.description}</p>
+                    </div>
+
+                    <span class="test-card__status dashboard-test-row__status" data-test-status>Pendiente</span>
+
+                    <div class="dashboard-test-row__actions">
+                      <a class="button button--primary" href={entry.href}>{entry.ctaLabel}</a>
+                    </div>
+                  </article>
+                ))}
+
+                {officialTests.map((entry) => (
+                  <article
+                    class="dashboard-test-row dashboard-test-row--official"
+                    data-test-card
+                    data-storage-key={entry.storageKey}
+                    data-test-kind={entry.kind}
+                    data-topic-entry={topic.slug}
+                  >
+                    <div class="dashboard-test-row__main">
+                      <div class="dashboard-test-row__topline">
+                        <span class="dashboard-test-row__badge dashboard-test-row__badge--official">{entry.sourceLabel}</span>
+                        <span class="dashboard-test-row__meta-inline">{entry.metaPrimary}</span>
+                        <span class="dashboard-test-row__meta-inline">{entry.metaSecondary}</span>
+                      </div>
+                      <h4 class="dashboard-test-row__title">{entry.title}</h4>
+                      <p>{entry.description}</p>
+                    </div>
+
+                    <span class="test-card__status dashboard-test-row__status" data-test-status>Pendiente</span>
+
+                    <div class="dashboard-test-row__actions">
+                      <a class="button button--primary" href={entry.href}>{entry.ctaLabel}</a>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          ))
+        }
+      </div>
+
+      <article class="empty-state" data-tests-dashboard-empty hidden>
+        <h3>No hay resultados para ese filtro</h3>
+        <p>Prueba a cambiar el tipo o vuelve a “Todos los temas” para recuperar el listado completo.</p>
+      </article>
+    </div>
+  </section>
+
+  <TestProgressScript />
+
+  <script is:inline>
+    const dashboardRoot = document.querySelector("[data-tests-dashboard]");
+
+    if (dashboardRoot) {
+      const typeButtons = [...dashboardRoot.querySelectorAll("[data-tests-type]")];
+      const topicButtons = [...dashboardRoot.querySelectorAll("[data-tests-topic]")];
+      const groups = [...dashboardRoot.querySelectorAll("[data-topic-group]")];
+      const hintNode = dashboardRoot.querySelector("[data-tests-dashboard-hint]");
+      const emptyNode = dashboardRoot.querySelector("[data-tests-dashboard-empty]");
+
+      let activeType = "all";
+      let activeTopic = "all";
+
+      const syncDashboard = () => {
+        let visibleGroups = 0;
+
+        for (const button of typeButtons) {
+          button.classList.toggle("is-active", button.getAttribute("data-tests-type") === activeType);
+        }
+
+        for (const button of topicButtons) {
+          button.classList.toggle("is-active", button.getAttribute("data-tests-topic") === activeTopic);
+        }
+
+        for (const group of groups) {
+          const topicSlug = group.getAttribute("data-topic-slug");
+          const rows = [...group.querySelectorAll("[data-test-kind]")];
+          const topicMatches = activeTopic === "all" || topicSlug === activeTopic;
+          let visibleRows = 0;
+
+          for (const row of rows) {
+            const rowType = row.getAttribute("data-test-kind");
+            const typeMatches = activeType === "all" || rowType === activeType;
+            const isVisible = topicMatches && typeMatches;
+            row.hidden = !isVisible;
+            visibleRows += isVisible ? 1 : 0;
+          }
+
+          group.hidden = visibleRows === 0;
+          visibleGroups += visibleRows > 0 ? 1 : 0;
+        }
+
+        if (hintNode) {
+          const typeLabel =
+            activeType === "practice" ? "solo simulacros" : activeType === "official" ? "solo oficiales" : "todos los tipos";
+          const topicLabel =
+            activeTopic === "all"
+              ? "todos los temas"
+              : topicButtons.find((button) => button.getAttribute("data-tests-topic") === activeTopic)?.getAttribute("data-topic-label") ??
+                "tema filtrado";
+          hintNode.textContent = `Viendo ${topicLabel} y ${typeLabel}.`;
+        }
+
+        if (emptyNode) {
+          emptyNode.hidden = visibleGroups !== 0;
+        }
+      };
+
+      for (const button of typeButtons) {
+        button.addEventListener("click", () => {
+          activeType = button.getAttribute("data-tests-type") ?? "all";
+          syncDashboard();
+        });
+      }
+
+      for (const button of topicButtons) {
+        button.addEventListener("click", () => {
+          activeTopic = button.getAttribute("data-tests-topic") ?? "all";
+          syncDashboard();
+        });
+      }
+
+      syncDashboard();
+    }
+  </script>
+</BaseLayout>
