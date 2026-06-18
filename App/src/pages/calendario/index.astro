@@ -1,0 +1,770 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { topics } from "../../data/topics";
+
+const topicSuggestions = [
+  "Repaso global",
+  "Simulacro",
+  "Tests oficiales",
+  ...topics.map((topic) => `${topic.code} · ${topic.shortTitle}`),
+];
+---
+
+<BaseLayout
+  title="Calendario | AprobarApp"
+  description="Calendario mensual de estudio con tareas persistentes por día para organizar las próximas semanas."
+>
+  <section class="calendar-view" data-calendar-root>
+    <div class="calendar-intro content-centered">
+      <p class="eyebrow">Planificación visual</p>
+      <h1>Un calendario de estudio de verdad, con tareas dentro de cada día</h1>
+      <p>
+        La idea aquí no es una lista larga, sino ver el mes como un calendario real. Seleccionas un día, escribes lo
+        que toca estudiar y vas marcando lo cumplido sin perder la visión global de las próximas semanas.
+      </p>
+    </div>
+
+    <div class="calendar-shell">
+      <section class="calendar-board">
+        <div class="calendar-board__header">
+          <div>
+            <p class="eyebrow">Calendario mensual</p>
+            <h2 data-calendar-month-label>Mes actual</h2>
+            <p class="calendar-board__subtitle" data-calendar-month-subtitle>
+              Ve cargando semanas, simulacros y repasos sin perder de vista el conjunto.
+            </p>
+          </div>
+
+          <div class="calendar-summary">
+            <article class="calendar-summary__item">
+              <span>Total</span>
+              <strong data-calendar-total>0</strong>
+            </article>
+            <article class="calendar-summary__item">
+              <span>Cumplidas</span>
+              <strong data-calendar-completed>0</strong>
+            </article>
+            <article class="calendar-summary__item">
+              <span>Próximas 2 semanas</span>
+              <strong data-calendar-upcoming>0</strong>
+            </article>
+          </div>
+        </div>
+
+        <div class="calendar-panel">
+          <div class="calendar-toolbar">
+            <div class="calendar-toolbar__cluster">
+              <button class="calendar-toolbar__button" type="button" data-calendar-nav="prev" aria-label="Mes anterior">
+                Anterior
+              </button>
+              <button class="calendar-toolbar__button calendar-toolbar__button--ghost" type="button" data-calendar-nav="today">
+                Hoy
+              </button>
+              <button class="calendar-toolbar__button" type="button" data-calendar-nav="next" aria-label="Mes siguiente">
+                Siguiente
+              </button>
+            </div>
+            <p class="calendar-toolbar__caption">Vista mensual con semanas de lunes a domingo</p>
+          </div>
+
+          <div class="calendar-weekdays">
+            <span>Lun</span>
+            <span>Mar</span>
+            <span>Mié</span>
+            <span>Jue</span>
+            <span>Vie</span>
+            <span>Sáb</span>
+            <span>Dom</span>
+          </div>
+
+          <div class="calendar-grid" data-calendar-grid></div>
+        </div>
+      </section>
+
+      <aside class="calendar-sidebar">
+        <div class="calendar-selected">
+          <p class="eyebrow" data-calendar-selected-weekday>Día seleccionado</p>
+          <h2 data-calendar-selected-label>Selecciona una fecha</h2>
+          <p class="calendar-selected__meta" data-calendar-selected-meta>
+            Aquí verás las tareas del día y podrás escribir nuevas directamente para esa fecha.
+          </p>
+        </div>
+
+        <div class="calendar-editor-card">
+          <div class="calendar-editor-card__header">
+            <div>
+              <p class="eyebrow">Nueva tarea</p>
+              <h3>Escribe dentro del día</h3>
+            </div>
+            <button class="button button--ghost" type="button" data-calendar-clear-completed>
+              Limpiar completadas
+            </button>
+          </div>
+
+          <form class="calendar-form" data-calendar-form>
+            <input name="dayKey" type="hidden" data-calendar-day-input />
+
+            <label class="calendar-field">
+              <span>Tarea</span>
+              <input
+                name="title"
+                type="text"
+                maxlength="120"
+                placeholder="Ej. Hacer test oficial CE 2"
+                required
+              />
+            </label>
+
+            <label class="calendar-field">
+              <span>Tema o área</span>
+              <input
+                name="topic"
+                type="text"
+                list="calendar-topic-suggestions"
+                maxlength="80"
+                placeholder="Ej. B3T2 · Diseño BD"
+              />
+            </label>
+
+            <label class="calendar-field">
+              <span>Notas</span>
+              <textarea
+                name="notes"
+                rows="4"
+                maxlength="260"
+                placeholder="Ej. Prioridad alta, repasar errores al terminar o dejar hecho antes del jueves."
+              ></textarea>
+            </label>
+
+            <div class="calendar-form__actions">
+              <button class="button button--primary" type="submit">Guardar en este día</button>
+            </div>
+          </form>
+
+          <div class="calendar-backup">
+            <div class="calendar-backup__copy">
+              <p class="eyebrow">Copia de seguridad</p>
+              <p>
+                Todo se guarda en este navegador. Si cambias de móvil, de ordenador o borras los datos, puedes exportar
+                un respaldo e importarlo después.
+              </p>
+            </div>
+
+            <div class="calendar-backup__actions">
+              <button class="button button--secondary" type="button" data-calendar-export>
+                Exportar calendario
+              </button>
+              <button class="button button--ghost" type="button" data-calendar-import>
+                Importar copia
+              </button>
+            </div>
+
+            <p class="calendar-backup__status" data-calendar-backup-status>
+              Tus tareas quedan guardadas en este navegador automáticamente.
+            </p>
+
+            <input data-calendar-import-input type="file" accept="application/json,.json" hidden />
+          </div>
+
+          <datalist id="calendar-topic-suggestions">
+            {topicSuggestions.map((suggestion) => <option value={suggestion} />)}
+          </datalist>
+        </div>
+
+        <div class="calendar-day-panel">
+          <div class="calendar-day-panel__header">
+            <p class="eyebrow">Agenda del día</p>
+            <span data-calendar-selected-count>0 tareas</span>
+          </div>
+          <div class="calendar-day-panel__list" data-calendar-day-list></div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="calendar-agenda">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Próximas tareas</p>
+          <h2>Lo que viene en las siguientes semanas</h2>
+        </div>
+      </div>
+
+      <div class="calendar-agenda__list" data-calendar-agenda></div>
+    </section>
+  </section>
+
+  <script is:inline>
+    const calendarRoot = document.querySelector("[data-calendar-root]");
+
+    if (calendarRoot) {
+      const storageKey = "aprobarapp:calendar:v2";
+      const legacyStorageKey = "aprobarapp:planner:v1";
+      const calendarGridNode = calendarRoot.querySelector("[data-calendar-grid]");
+      const monthLabelNode = calendarRoot.querySelector("[data-calendar-month-label]");
+      const monthSubtitleNode = calendarRoot.querySelector("[data-calendar-month-subtitle]");
+      const totalNode = calendarRoot.querySelector("[data-calendar-total]");
+      const completedNode = calendarRoot.querySelector("[data-calendar-completed]");
+      const upcomingNode = calendarRoot.querySelector("[data-calendar-upcoming]");
+      const selectedWeekdayNode = calendarRoot.querySelector("[data-calendar-selected-weekday]");
+      const selectedLabelNode = calendarRoot.querySelector("[data-calendar-selected-label]");
+      const selectedMetaNode = calendarRoot.querySelector("[data-calendar-selected-meta]");
+      const selectedCountNode = calendarRoot.querySelector("[data-calendar-selected-count]");
+      const selectedDayInput = calendarRoot.querySelector("[data-calendar-day-input]");
+      const dayListNode = calendarRoot.querySelector("[data-calendar-day-list]");
+      const agendaNode = calendarRoot.querySelector("[data-calendar-agenda]");
+      const formNode = calendarRoot.querySelector("[data-calendar-form]");
+      const clearCompletedButton = calendarRoot.querySelector("[data-calendar-clear-completed]");
+      const exportButton = calendarRoot.querySelector("[data-calendar-export]");
+      const importButton = calendarRoot.querySelector("[data-calendar-import]");
+      const importInput = calendarRoot.querySelector("[data-calendar-import-input]");
+      const backupStatusNode = calendarRoot.querySelector("[data-calendar-backup-status]");
+      const navButtons = [...calendarRoot.querySelectorAll("[data-calendar-nav]")];
+
+      const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
+      const weekdayFormatter = new Intl.DateTimeFormat("es-ES", { weekday: "long" });
+      const fullDateFormatter = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long", year: "numeric" });
+      const compactDateFormatter = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short" });
+
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+
+      const startOfDay = (input) => {
+        const value = new Date(input);
+        value.setHours(0, 0, 0, 0);
+        return value;
+      };
+
+      const toDayKey = (date) => {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        return `${year}-${month}-${day}`;
+      };
+
+      const fromDayKey = (dayKey) => {
+        const [year, month, day] = dayKey.split("-").map(Number);
+        return new Date(year, (month ?? 1) - 1, day ?? 1);
+      };
+
+      const startOfMonth = (input) => new Date(input.getFullYear(), input.getMonth(), 1);
+
+      const addDays = (date, days) => {
+        const value = new Date(date);
+        value.setDate(value.getDate() + days);
+        return value;
+      };
+
+      const addMonths = (date, delta) => new Date(date.getFullYear(), date.getMonth() + delta, 1);
+
+      const startOfCalendarGrid = (monthStart) => {
+        const value = startOfDay(monthStart);
+        const offset = (value.getDay() + 6) % 7;
+        value.setDate(value.getDate() - offset);
+        return value;
+      };
+
+      const createId = () =>
+        typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
+          ? crypto.randomUUID()
+          : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 9)}`;
+
+      const setBackupStatus = (message, state = "idle") => {
+        if (!backupStatusNode) {
+          return;
+        }
+
+        backupStatusNode.textContent = message;
+        backupStatusNode.setAttribute("data-state", state);
+      };
+
+      const escapeHtml = (value = "") =>
+        value
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+
+      const normalizeEntries = (entries) =>
+        entries
+          .map((entry) => ({
+            id: typeof entry.id === "string" ? entry.id : createId(),
+            dayKey: typeof entry.dayKey === "string" ? entry.dayKey : toDayKey(today),
+            title: typeof entry.title === "string" ? entry.title.trim() : "",
+            topic: typeof entry.topic === "string" ? entry.topic.trim() : "",
+            notes: typeof entry.notes === "string" ? entry.notes.trim() : "",
+            completed: Boolean(entry.completed),
+            createdAt: typeof entry.createdAt === "string" ? entry.createdAt : new Date().toISOString(),
+          }))
+          .filter((entry) => entry.title.length > 0);
+
+      const compareEntries = (left, right) => {
+        if (left.dayKey !== right.dayKey) {
+          return left.dayKey.localeCompare(right.dayKey);
+        }
+
+        if (left.completed !== right.completed) {
+          return Number(left.completed) - Number(right.completed);
+        }
+
+        return new Date(left.createdAt).getTime() - new Date(right.createdAt).getTime();
+      };
+
+      const pickInitialDayKey = (entries) => {
+        const todayKey = toDayKey(today);
+        const sortedEntries = [...entries].sort(compareEntries);
+        const nearestUpcoming = sortedEntries.find((entry) => entry.dayKey >= todayKey);
+        return nearestUpcoming?.dayKey ?? sortedEntries[0]?.dayKey ?? todayKey;
+      };
+
+      const readState = () => {
+        try {
+          const raw = localStorage.getItem(storageKey);
+          if (raw) {
+            const parsed = JSON.parse(raw);
+            return {
+              entries: Array.isArray(parsed.entries) ? normalizeEntries(parsed.entries).sort(compareEntries) : [],
+            };
+          }
+
+          const legacyRaw = localStorage.getItem(legacyStorageKey);
+          if (legacyRaw) {
+            const parsedLegacy = JSON.parse(legacyRaw);
+            const legacyEntries = Array.isArray(parsedLegacy.tasks)
+              ? parsedLegacy.tasks.map((task) => ({
+                  id: typeof task.id === "string" ? task.id : createId(),
+                  dayKey: typeof task.weekKey === "string" ? task.weekKey : toDayKey(today),
+                  title: typeof task.title === "string" ? task.title : "",
+                  topic: typeof task.topic === "string" ? task.topic : "",
+                  notes: typeof task.notes === "string" ? task.notes : "",
+                  completed: Boolean(task.completed),
+                  createdAt: typeof task.createdAt === "string" ? task.createdAt : new Date().toISOString(),
+                }))
+              : [];
+
+            return { entries: normalizeEntries(legacyEntries).sort(compareEntries) };
+          }
+        } catch {}
+
+        return { entries: [] };
+      };
+
+      const writeState = () => {
+        localStorage.setItem(storageKey, JSON.stringify({ entries: state.entries }));
+      };
+
+      const getEntriesForDay = (dayKey) =>
+        state.entries
+          .filter((entry) => entry.dayKey === dayKey)
+          .sort(compareEntries);
+
+      const countUpcoming = () => {
+        const todayKey = toDayKey(today);
+        return state.entries.filter((entry) => !entry.completed && entry.dayKey >= todayKey && entry.dayKey <= toDayKey(addDays(today, 13))).length;
+      };
+
+      const buildMonthDays = (visibleMonth) => {
+        const monthStart = startOfMonth(visibleMonth);
+        const monthEnd = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() + 1, 0);
+        const gridStart = startOfCalendarGrid(monthStart);
+
+        return Array.from({ length: 42 }, (_, index) => {
+          const date = addDays(gridStart, index);
+          const dayKey = toDayKey(date);
+          const entries = getEntriesForDay(dayKey);
+          const previewEntries = entries.slice(0, 3);
+          const overflowCount = Math.max(0, entries.length - previewEntries.length);
+
+          return {
+            date,
+            dayKey,
+            dayNumber: date.getDate(),
+            isCurrentMonth: date >= monthStart && date <= monthEnd,
+            isToday: dayKey === toDayKey(today),
+            isSelected: dayKey === selectedDayKey,
+            entries,
+            previewEntries,
+            overflowCount,
+          };
+        });
+      };
+
+      const renderCalendarGrid = (visibleMonth) => {
+        if (!calendarGridNode) {
+          return;
+        }
+
+        const days = buildMonthDays(visibleMonth);
+
+        calendarGridNode.innerHTML = days
+          .map((day) => {
+            const previewMarkup =
+              day.previewEntries.length > 0
+                ? day.previewEntries
+                    .map(
+                      (entry) => `
+                        <div class="calendar-day__item ${entry.completed ? "is-completed" : ""}">
+                          <span class="calendar-day__dot"></span>
+                          <span>${escapeHtml(entry.title)}</span>
+                        </div>
+                      `,
+                    )
+                    .join("")
+                : `<div class="calendar-day__empty">Sin tareas</div>`;
+
+            return `
+              <button
+                class="calendar-day ${day.isCurrentMonth ? "" : "is-outside"} ${day.isToday ? "is-today" : ""} ${
+                  day.isSelected ? "is-selected" : ""
+                }"
+                type="button"
+                data-calendar-day="${day.dayKey}"
+              >
+                <div class="calendar-day__header">
+                  <span class="calendar-day__number">${day.dayNumber}</span>
+                  ${day.entries.length > 0 ? `<span class="calendar-day__count">${day.entries.length}</span>` : ""}
+                </div>
+                <div class="calendar-day__items">
+                  ${previewMarkup}
+                  ${day.overflowCount > 0 ? `<div class="calendar-day__more">+${day.overflowCount} más</div>` : ""}
+                </div>
+              </button>
+            `;
+          })
+          .join("");
+      };
+
+      const renderSelectedDay = () => {
+        if (!selectedDayInput || !dayListNode) {
+          return;
+        }
+
+        const dayDate = fromDayKey(selectedDayKey);
+        const dayEntries = getEntriesForDay(selectedDayKey);
+
+        selectedDayInput.value = selectedDayKey;
+
+        if (selectedWeekdayNode) {
+          selectedWeekdayNode.textContent = weekdayFormatter.format(dayDate);
+        }
+
+        if (selectedLabelNode) {
+          selectedLabelNode.textContent = fullDateFormatter.format(dayDate);
+        }
+
+        if (selectedMetaNode) {
+          selectedMetaNode.textContent =
+            dayEntries.length > 0
+              ? `${dayEntries.filter((entry) => !entry.completed).length} pendientes y ${
+                  dayEntries.filter((entry) => entry.completed).length
+                } cumplidas para esta fecha.`
+              : "Todavía no hay nada apuntado en este día. Puedes empezar a escribir aquí mismo.";
+        }
+
+        if (selectedCountNode) {
+          selectedCountNode.textContent = `${dayEntries.length} ${dayEntries.length === 1 ? "tarea" : "tareas"}`;
+        }
+
+        dayListNode.innerHTML =
+          dayEntries.length > 0
+            ? dayEntries
+                .map(
+                  (entry) => `
+                    <article class="calendar-task-card ${entry.completed ? "is-completed" : ""}">
+                      <label class="calendar-task-card__check">
+                        <input type="checkbox" data-entry-toggle="${entry.id}" ${entry.completed ? "checked" : ""} />
+                        <span></span>
+                      </label>
+                      <div class="calendar-task-card__body">
+                        <div class="calendar-task-card__topline">
+                          <h4>${escapeHtml(entry.title)}</h4>
+                          ${entry.topic ? `<span class="calendar-task-card__topic">${escapeHtml(entry.topic)}</span>` : ""}
+                        </div>
+                        ${entry.notes ? `<p class="calendar-task-card__notes">${escapeHtml(entry.notes)}</p>` : ""}
+                      </div>
+                      <button class="calendar-task-card__delete" type="button" data-entry-delete="${entry.id}">Eliminar</button>
+                    </article>
+                  `,
+                )
+                .join("")
+            : `<div class="calendar-day-panel__empty">No hay tareas para este día todavía.</div>`;
+      };
+
+      const renderAgenda = () => {
+        if (!agendaNode) {
+          return;
+        }
+
+        const upcomingEntries = [...state.entries]
+          .filter((entry) => entry.dayKey >= toDayKey(today))
+          .sort((left, right) => {
+            if (left.dayKey !== right.dayKey) {
+              return left.dayKey.localeCompare(right.dayKey);
+            }
+
+            if (left.completed !== right.completed) {
+              return Number(left.completed) - Number(right.completed);
+            }
+
+            return new Date(left.createdAt).getTime() - new Date(right.createdAt).getTime();
+          })
+          .slice(0, 10);
+
+        agendaNode.innerHTML =
+          upcomingEntries.length > 0
+            ? upcomingEntries
+                .map(
+                  (entry) => `
+                    <article class="calendar-agenda__item ${entry.completed ? "is-completed" : ""}">
+                      <div class="calendar-agenda__date">
+                        <span>${escapeHtml(compactDateFormatter.format(fromDayKey(entry.dayKey)))}</span>
+                      </div>
+                      <div class="calendar-agenda__body">
+                        <h3>${escapeHtml(entry.title)}</h3>
+                        <p>${escapeHtml(entry.topic || "Sin área concreta")}</p>
+                      </div>
+                      <div class="calendar-agenda__state">${entry.completed ? "Cumplida" : "Pendiente"}</div>
+                    </article>
+                  `,
+                )
+                .join("")
+            : `<article class="empty-state"><h3>Sin tareas próximas</h3><p>Cuando vayas cargando días del calendario, aquí aparecerán las siguientes más cercanas.</p></article>`;
+      };
+
+      const renderHeader = () => {
+        if (monthLabelNode) {
+          const formatted = monthFormatter.format(visibleMonthDate);
+          monthLabelNode.textContent = formatted.charAt(0).toUpperCase() + formatted.slice(1);
+        }
+
+        if (monthSubtitleNode) {
+          const pendingThisMonth = state.entries.filter(
+            (entry) =>
+              !entry.completed &&
+              fromDayKey(entry.dayKey).getMonth() === visibleMonthDate.getMonth() &&
+              fromDayKey(entry.dayKey).getFullYear() === visibleMonthDate.getFullYear(),
+          ).length;
+          monthSubtitleNode.textContent =
+            pendingThisMonth > 0
+              ? `${pendingThisMonth} tareas pendientes dentro de este mes.`
+              : "Mes despejado por ahora. Buen momento para planificar con calma.";
+        }
+
+        if (totalNode) {
+          totalNode.textContent = String(state.entries.length);
+        }
+
+        if (completedNode) {
+          completedNode.textContent = String(state.entries.filter((entry) => entry.completed).length);
+        }
+
+        if (upcomingNode) {
+          upcomingNode.textContent = String(countUpcoming());
+        }
+      };
+
+      const ensureSelectedDayVisible = () => {
+        const selectedDate = fromDayKey(selectedDayKey);
+        if (
+          selectedDate.getFullYear() !== visibleMonthDate.getFullYear() ||
+          selectedDate.getMonth() !== visibleMonthDate.getMonth()
+        ) {
+          visibleMonthDate = startOfMonth(selectedDate);
+        }
+      };
+
+      const renderCalendar = () => {
+        ensureSelectedDayVisible();
+        renderHeader();
+        renderCalendarGrid(visibleMonthDate);
+        renderSelectedDay();
+        renderAgenda();
+      };
+
+      let state = readState();
+      let selectedDayKey = pickInitialDayKey(state.entries);
+      let visibleMonthDate = startOfMonth(fromDayKey(selectedDayKey));
+
+      formNode?.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(formNode);
+        const title = String(formData.get("title") ?? "").trim();
+        const topic = String(formData.get("topic") ?? "").trim();
+        const notes = String(formData.get("notes") ?? "").trim();
+        const dayKey = String(formData.get("dayKey") ?? selectedDayKey);
+
+        if (!title) {
+          return;
+        }
+
+        state.entries.push({
+          id: createId(),
+          dayKey,
+          title,
+          topic,
+          notes,
+          completed: false,
+          createdAt: new Date().toISOString(),
+        });
+        state.entries.sort(compareEntries);
+
+        selectedDayKey = dayKey;
+        writeState();
+        setBackupStatus("Calendario guardado en este navegador.", "idle");
+        formNode.reset();
+        if (selectedDayInput) {
+          selectedDayInput.value = selectedDayKey;
+        }
+        renderCalendar();
+      });
+
+      calendarGridNode?.addEventListener("click", (event) => {
+        const button = event.target instanceof Element ? event.target.closest("[data-calendar-day]") : null;
+        if (!button) {
+          return;
+        }
+
+        const dayKey = button.getAttribute("data-calendar-day");
+        if (!dayKey) {
+          return;
+        }
+
+        selectedDayKey = dayKey;
+        renderCalendar();
+      });
+
+      dayListNode?.addEventListener("change", (event) => {
+        const target = event.target;
+
+        if (!(target instanceof HTMLInputElement) || !target.matches("[data-entry-toggle]")) {
+          return;
+        }
+
+        const entryId = target.getAttribute("data-entry-toggle");
+        const entry = state.entries.find((item) => item.id === entryId);
+        if (!entry) {
+          return;
+        }
+
+        entry.completed = target.checked;
+        writeState();
+        setBackupStatus("Cambios guardados en este navegador.", "idle");
+        renderCalendar();
+      });
+
+      dayListNode?.addEventListener("click", (event) => {
+        const button = event.target instanceof Element ? event.target.closest("[data-entry-delete]") : null;
+        if (!button) {
+          return;
+        }
+
+        const entryId = button.getAttribute("data-entry-delete");
+        state.entries = state.entries.filter((entry) => entry.id !== entryId);
+        writeState();
+        setBackupStatus("Tarea eliminada y calendario actualizado.", "idle");
+        renderCalendar();
+      });
+
+      clearCompletedButton?.addEventListener("click", () => {
+        state.entries = state.entries.filter((entry) => !entry.completed);
+        writeState();
+        selectedDayKey = pickInitialDayKey(state.entries);
+        visibleMonthDate = startOfMonth(fromDayKey(selectedDayKey));
+        setBackupStatus("Tareas completadas eliminadas del calendario.", "idle");
+        renderCalendar();
+      });
+
+      exportButton?.addEventListener("click", () => {
+        const payload = {
+          version: 2,
+          exportedAt: new Date().toISOString(),
+          entries: state.entries,
+        };
+        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = `aprobarapp-calendario-${toDayKey(today)}.json`;
+        link.click();
+        window.setTimeout(() => URL.revokeObjectURL(url), 0);
+        setBackupStatus("Copia exportada. Ya puedes guardarla o moverla a otro dispositivo.", "success");
+      });
+
+      importButton?.addEventListener("click", () => {
+        importInput?.click();
+      });
+
+      importInput?.addEventListener("change", async (event) => {
+        const target = event.target;
+        if (!(target instanceof HTMLInputElement)) {
+          return;
+        }
+
+        const file = target.files?.[0];
+        if (!file) {
+          return;
+        }
+
+        try {
+          const raw = await file.text();
+          const parsed = JSON.parse(raw);
+          const importedEntries = Array.isArray(parsed)
+            ? parsed
+            : Array.isArray(parsed.entries)
+              ? parsed.entries
+              : null;
+
+          if (!importedEntries) {
+            throw new Error("invalid-backup");
+          }
+
+          if (
+            state.entries.length > 0 &&
+            !window.confirm("Esto reemplazará las tareas guardadas ahora mismo en este navegador. ¿Quieres continuar?")
+          ) {
+            target.value = "";
+            return;
+          }
+
+          state.entries = normalizeEntries(importedEntries).sort(compareEntries);
+          selectedDayKey = pickInitialDayKey(state.entries);
+          visibleMonthDate = startOfMonth(fromDayKey(selectedDayKey));
+          writeState();
+          setBackupStatus("Copia importada correctamente. El calendario ya está restaurado.", "success");
+          renderCalendar();
+        } catch {
+          setBackupStatus("No he podido importar esa copia. Asegúrate de que sea un JSON exportado desde AprobarApp.", "error");
+        } finally {
+          target.value = "";
+        }
+      });
+
+      for (const button of navButtons) {
+        button.addEventListener("click", () => {
+          const direction = button.getAttribute("data-calendar-nav");
+
+          if (direction === "prev") {
+            visibleMonthDate = addMonths(visibleMonthDate, -1);
+            selectedDayKey = toDayKey(startOfMonth(visibleMonthDate));
+          } else if (direction === "next") {
+            visibleMonthDate = addMonths(visibleMonthDate, 1);
+            selectedDayKey = toDayKey(startOfMonth(visibleMonthDate));
+          } else {
+            visibleMonthDate = startOfMonth(today);
+            selectedDayKey = toDayKey(today);
+          }
+
+          renderCalendar();
+        });
+      }
+
+      if (selectedDayInput) {
+        selectedDayInput.value = selectedDayKey;
+      }
+
+      setBackupStatus("Tus tareas quedan guardadas en este navegador automáticamente.", "idle");
+      renderCalendar();
+    }
+  </script>
+</BaseLayout>
