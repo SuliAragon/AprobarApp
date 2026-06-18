@@ -1097,7 +1097,13 @@ iframe {
 .podcast-item__main,
 .podcast-item__footer {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 0.75rem;
+}
+
+.podcast-item__footer {
+  width: min(100%, 26rem);
+  justify-self: end;
 }
 
 .podcast-item__header {
@@ -1137,7 +1143,9 @@ iframe {
 }
 
 .podcast-item audio {
+  display: block;
   width: 100%;
+  min-width: 0;
 }
 
 .quiz-layout {
@@ -1765,6 +1773,17 @@ iframe {
 
   .official-material__status {
     margin-left: 0;
+  }
+
+  .podcast-item__footer {
+    width: 100%;
+    max-width: 100%;
+    justify-self: stretch;
+    justify-items: stretch;
+  }
+
+  .podcast-item audio {
+    width: 100%;
   }
 
   .section-block,
