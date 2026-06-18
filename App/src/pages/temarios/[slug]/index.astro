@@ -110,7 +110,7 @@ const { topic } = Astro.props as { topic: Topic };
               </div>
 
               <div class="podcast-item__footer">
-                <audio controls preload="none" src={withBase(podcast.assetPath)}></audio>
+                <audio controls preload="metadata" src={withBase(podcast.assetPath)}></audio>
                 <a class="button button--secondary" href={withBase(podcast.assetPath)} target="_blank" rel="noreferrer">
                   Abrir audio
                 </a>
