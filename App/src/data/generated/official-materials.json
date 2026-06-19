@@ -32,6 +32,14 @@
     "assetPath": "/test-oficial/B2T3/b2t3-test-oficial-estructuras-de-datos.pdf"
   },
   {
+    "code": "B1T2",
+    "slug": "b1t2-test-oficial-cortes-generales",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 2/B1T2Test_Cortes_Generales 1.pdf",
+    "title": "Test oficial Cortes Generales",
+    "assetPath": "/test-oficial/B1T2/b1t2-test-oficial-cortes-generales.pdf"
+  },
+  {
     "code": "B3T1",
     "slug": "b3t1-ejercicios-enunciados",
     "kind": "exercise",

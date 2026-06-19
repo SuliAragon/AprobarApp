@@ -123,3 +123,33 @@ SOLUCIONES
   assert.equal(parsed.questions[0].correctOption, "d");
   assert.match(parsed.questions[0].explanation, /opción D/i);
 });
+
+test("parseOfficialTestText no corta el examen si aparece la palabra resoluciones dentro del enunciado", () => {
+  const source = `
+18. En relación con el Defensor del Pueblo:
+a) Puede anular resoluciones e imponer sanciones.
+b) Carece de legitimación para el amparo.
+c) Solo supervisa a la Administración del Estado.
+d) Defiende derechos del Título I.
+
+19. El Tribunal Constitucional:
+a) Se compone de 12 miembros.
+b) Tiene 8 miembros.
+c) Renueva todos sus miembros a la vez.
+d) Depende del Gobierno.
+
+SOLUCIONES
+18. D
+19. A
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T2",
+    slug: "b1t2-test-oficial",
+    title: "Test oficial B1T2",
+  });
+
+  assert.equal(parsed.questions.length, 2);
+  assert.equal(parsed.questions[0].correctOption, "d");
+  assert.equal(parsed.questions[1].correctOption, "a");
+});

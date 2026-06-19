@@ -14,6 +14,20 @@
     ]
   },
   {
+    "code": "B1T2",
+    "slug": "b1t2-cortes-generales",
+    "sourceFilename": "Bloque 1/Tema 2/B1T2_Cortes_Generales 5.pdf",
+    "title": "B1T2 Cortes Generales",
+    "pdfPath": "/temario/b1t2-cortes-generales.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 1/Tema 2/La_maquinaria_de_las_Cortes_Generales.m4a",
+        "title": "La maquinaria de las Cortes Generales",
+        "assetPath": "/podcast/B1T2/la-maquinaria-de-las-cortes-generales.m4a"
+      }
+    ]
+  },
+  {
     "code": "B2T3",
     "slug": "b2t3-estructuras-de-datos",
     "sourceFilename": "Bloque 2/Tema 3/B2T3_Estructuras_de_datos 1.pdf",

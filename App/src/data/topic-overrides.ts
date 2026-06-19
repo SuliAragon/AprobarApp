@@ -41,13 +41,6 @@ export const topicOverrides: Record<string, TopicOverride> = {
       "Corona y funciones del Rey",
     ],
     accent: "emerald",
-    visualScheme: {
-      title: "Esquema visual de la Constitución",
-      description:
-        "Mapa resumido con cronología, estructura, Título Preliminar, Título I, garantías y Corona para copiarlo en el cuaderno y repasarlo a mano.",
-      assetPath: "/esquemas/b1t1-constitucion-esquema.svg",
-      sourceFilename: "b1t1-constitucion-esquema.svg",
-    },
     testPresets: [
       {
         slug: "fundamentos-y-estructura",
@@ -78,6 +71,61 @@ export const topicOverrides: Record<string, TopicOverride> = {
         title: "Test 5 · Corona y funciones del Rey",
         description: "Repasa sucesión, Regencia, tutela y funciones constitucionales del monarca.",
         focusSections: ["corona"],
+      },
+    ],
+  },
+  B1T2: {
+    title: "Las Cortes Generales, el Tribunal Constitucional y el Defensor del Pueblo",
+    shortTitle: "Cortes Generales",
+    description:
+      "Tema del bloque constitucional centrado en Congreso y Senado, elaboración de las leyes, tratados internacionales, Tribunal Constitucional y Defensor del Pueblo.",
+    summary: [
+      "Estructura y funciones de las Cortes Generales, con reglas sobre sesiones, órganos, inmunidad parlamentaria y adopción de acuerdos.",
+      "Composición, sistema electoral y atribuciones generales del Congreso de los Diputados y del Senado.",
+      "Producción normativa: leyes orgánicas, ordinarias, delegación legislativa, decretos-leyes, iniciativa legislativa y referéndum.",
+      "Marco constitucional de los tratados internacionales y control de su compatibilidad con la Constitución.",
+      "Composición, atribuciones y legitimación del Tribunal Constitucional, junto con la regulación básica del Defensor del Pueblo.",
+    ],
+    sections: [
+      "Cortes Generales: estructura, funcionamiento y garantías",
+      "Congreso de los Diputados",
+      "Senado y representación territorial",
+      "Elaboración de las leyes y referéndum",
+      "Tratados internacionales",
+      "Tribunal Constitucional",
+      "Defensor del Pueblo",
+    ],
+    accent: "emerald",
+    testPresets: [
+      {
+        slug: "fundamentos-y-camaras",
+        title: "Test 1 · Fundamentos y Cámaras",
+        description: "Repasa estructura constitucional de las Cortes, funcionamiento parlamentario y claves del Congreso.",
+        focusSections: ["cortes-generales", "congreso"],
+      },
+      {
+        slug: "congreso-y-senado",
+        title: "Test 2 · Congreso y Senado",
+        description: "Entrena composición, sistema electoral y diferencias entre Cámara Baja y Cámara Alta.",
+        focusSections: ["congreso", "senado"],
+      },
+      {
+        slug: "procedimiento-legislativo",
+        title: "Test 3 · Procedimiento legislativo",
+        description: "Se centra en leyes orgánicas, leyes ordinarias, delegación legislativa, decretos-leyes, iniciativa y referéndum.",
+        focusSections: ["elaboracion-leyes"],
+      },
+      {
+        slug: "tribunal-constitucional",
+        title: "Test 4 · Tribunal Constitucional",
+        description: "Refuerza composición, incompatibilidades, competencias, legitimación y efectos de las sentencias del TC.",
+        focusSections: ["tribunal-constitucional"],
+      },
+      {
+        slug: "defensor-y-garantias",
+        title: "Test 5 · Defensor y garantías institucionales",
+        description: "Combina Defensor del Pueblo, recursos constitucionales y protección institucional de los derechos.",
+        focusSections: ["defensor-del-pueblo", "tribunal-constitucional"],
       },
     ],
   },
@@ -153,13 +201,6 @@ export const topicOverrides: Record<string, TopicOverride> = {
       "Test de repaso del profesor",
     ],
     accent: "coral",
-    visualScheme: {
-      title: "Esquema visual del modelo E-R",
-      description:
-        "Resumen visual del tema con entidades, atributos, relaciones, extensiones y proceso de construcción y validación del modelo conceptual.",
-      assetPath: "/esquemas/b3t1-modelo-er-esquema.svg",
-      sourceFilename: "b3t1-modelo-er-esquema.svg",
-    },
     testPresets: [
       {
         slug: "fundamentos-er",
@@ -216,13 +257,6 @@ export const topicOverrides: Record<string, TopicOverride> = {
       "Integridad y modelo lógico",
     ],
     accent: "amber",
-    visualScheme: {
-      title: "Esquema visual de diseño de bases de datos",
-      description:
-        "Recorrido visual por arquitectura ANSI/SPARC, diseño lógico y físico, transformación E-R a relacional y normalización de 1FN a 5FN.",
-      assetPath: "/esquemas/b3t2-diseno-bd-esquema.svg",
-      sourceFilename: "b3t2-diseno-bd-esquema.svg",
-    },
     testPresets: [
       {
         slug: "fundamentos-relacional",

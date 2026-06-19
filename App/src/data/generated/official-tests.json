@@ -4789,6 +4789,1769 @@
     ]
   },
   {
+    "code": "B1T2",
+    "slug": "b1t2-test-oficial-cortes-generales",
+    "title": "Test oficial Cortes Generales",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 2/B1T2Test_Cortes_Generales 1.pdf",
+    "assetPath": "/test-oficial/B1T2/b1t2-test-oficial-cortes-generales.pdf",
+    "questions": [
+      {
+        "id": "b1t2-test-oficial-cortes-generales-1",
+        "section": "test-oficial",
+        "prompt": "El Título III de la Constitución Española establece que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cámaras se reunirán anualmente en dos periodos ordinarios de sesiones: el primero de febrero a julio, y el segundo de octubre a diciembre."
+          },
+          {
+            "id": "b",
+            "label": "En cada Cámara habrá una Diputación Permanente compuesta por un mínimo de 42 miembros que representarán a los grupos parlamentarios, en proporción a su importancia numérica."
+          },
+          {
+            "id": "c",
+            "label": "Las sesiones plenarias de las Cámaras serán siempre públicas."
+          },
+          {
+            "id": "d",
+            "label": "Para adoptar acuerdos, las Cámaras deben estar reunidas reglamentariamente y con asistencia de la mayoría de sus miembros."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Para adoptar acuerdos, las Cámaras deben estar reunidas reglamentariamente y con asistencia de la mayoría de sus miembros."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-2",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 94 de la Constitución Española, la prestación del consentimiento del Estado para obligarse por medio de tratados o convenios requerirá previa autorización de las Cortes Generales en los siguientes casos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tratados o convenios de carácter paramilitar."
+          },
+          {
+            "id": "b",
+            "label": "Tratados o convenios que afecten a la organización territorial del Estado."
+          },
+          {
+            "id": "c",
+            "label": "Tratados o convenios que impliquen obligaciones financieras para la Hacienda Pública."
+          },
+          {
+            "id": "d",
+            "label": "Tratados o convenios que afecten al Título X de la CE."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Tratados o convenios que impliquen obligaciones financieras para la Hacienda Pública."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-3",
+        "section": "test-oficial",
+        "prompt": "Señale, de acuerdo con el artículo 68 de la Constitución Española y en relación con el Congreso de los Diputados, cuál de las siguientes afirmaciones es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las elecciones tendrán lugar entre los treinta días y sesenta días desde la terminación del mandato. El Congreso electo deberá ser convocado dentro de los veinticinco días siguientes a la celebración de las elecciones."
+          },
+          {
+            "id": "b",
+            "label": "Las elecciones tendrán lugar entre los treinta días y setenta días desde la terminación del mandato. El Congreso electo deberá ser convocado dentro de los veinticinco días siguientes a la celebración de las elecciones."
+          },
+          {
+            "id": "c",
+            "label": "Las elecciones tendrán lugar entre los veinticinco días y sesenta días desde la terminación del mandato. El Congreso electo deberá ser convocado dentro de los treinta días siguientes a la celebración de las elecciones."
+          },
+          {
+            "id": "d",
+            "label": "Las elecciones tendrán lugar entre los veinticinco días y setenta días desde la terminación del mandato. El Congreso electo deberá ser convocado dentro de los treinta días siguientes a la celebración de las elecciones."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Las elecciones tendrán lugar entre los treinta días y sesenta días desde la terminación del mandato. El Congreso electo deberá ser convocado dentro de los veinticinco días siguientes a la celebración de las elecciones."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-4",
+        "section": "test-oficial",
+        "prompt": "Respecto al artículo 54 de la Constitución Española y la figura del Defensor del Pueblo, señale la sentencia INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tiene como misión la vigilancia y defensa de los derechos del Título I de la CE."
+          },
+          {
+            "id": "b",
+            "label": "Una ley orgánica regulará la institución del Defensor del Pueblo."
+          },
+          {
+            "id": "c",
+            "label": "Es un órgano de la Administración pública española."
+          },
+          {
+            "id": "d",
+            "label": "Supervisa la actividad de la Administración."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Es un órgano de la Administración pública española."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-5",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta FALSA. El Tribunal Constitucional se compone de 12 miembros nombrados por el Rey, de ellos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "4 a propuesta del Congreso por mayoría de tres quintos de sus miembros."
+          },
+          {
+            "id": "b",
+            "label": "4 a propuesta del Senado por mayoría de dos quintos de sus miembros."
+          },
+          {
+            "id": "c",
+            "label": "2 a propuesta del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "2 a propuesta del Consejo General del Poder Judicial. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: 4 a propuesta del Senado por mayoría de dos quintos de sus miembros."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-6",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española en su artículo 159, los miembros del Tribunal Constitucional serán designados por un periodo de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Seis años y se renovarán por terceras partes cada tres."
+          },
+          {
+            "id": "b",
+            "label": "Nueve años y se renovarán por terceras partes cada tres."
+          },
+          {
+            "id": "c",
+            "label": "Ocho años y se renovarán por terceras partes cada dos."
+          },
+          {
+            "id": "d",
+            "label": "Cuatro años y se renovarán por terceras partes cada dos."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Nueve años y se renovarán por terceras partes cada tres."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-7",
+        "section": "test-oficial",
+        "prompt": "¿Qué es lo que caracteriza a un decreto-ley?",
+        "options": [
+          {
+            "id": "a",
+            "label": "No puede afectar al ordenamiento de las instituciones básicas del Estado."
+          },
+          {
+            "id": "b",
+            "label": "Es dictado por las Cortes Generales en casos de urgente necesidad."
+          },
+          {
+            "id": "c",
+            "label": "Es dictado por el Presidente del Gobierno en casos de extraordinaria y urgente necesidad."
+          },
+          {
+            "id": "d",
+            "label": "Es dictado por el Gobierno por encargo de las Cortes Generales."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: No puede afectar al ordenamiento de las instituciones básicas del Estado."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-8",
+        "section": "test-oficial",
+        "prompt": "¿Qué tipo de ley aprueba los estatutos de autonomía?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una ley ordinaria."
+          },
+          {
+            "id": "b",
+            "label": "Una ley orgánica."
+          },
+          {
+            "id": "c",
+            "label": "Una ley de bases."
+          },
+          {
+            "id": "d",
+            "label": "Una ley de transferencia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Una ley orgánica."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-9",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los miembros de las Cortes Generales estarán ligados por mandato imperativo."
+          },
+          {
+            "id": "b",
+            "label": "Las Cámaras podrán delegar en las Comisiones legislativas la aprobación de los Presupuestos Generales del Estado."
+          },
+          {
+            "id": "c",
+            "label": "Los Reglamentos de las Cámaras deberán ser aprobados por mayoría absoluta del Consejo de Ministros, previo informe favorable del Consejo de Estado."
+          },
+          {
+            "id": "d",
+            "label": "Las Cortes Generales podrán delegar en el Gobierno la potestad de dictar normas con rango de ley sobre materias determinadas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Las Cortes Generales podrán delegar en el Gobierno la potestad de dictar normas con rango de ley sobre materias determinadas."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-10",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 81 de la Constitución Española, se aprobará mediante Ley Orgánica:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El procedimiento a través del cual deben producirse los actos administrativos."
+          },
+          {
+            "id": "b",
+            "label": "El Estatuto e incompatibilidades de los miembros del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El régimen electoral general."
+          },
+          {
+            "id": "d",
+            "label": "Los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El régimen electoral general."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-11",
+        "section": "test-oficial",
+        "prompt": "La propuesta para que el Rey nombre al Presidente del Tribunal Constitucional partirá:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Del Consejo General del Poder Judicial."
+          },
+          {
+            "id": "b",
+            "label": "Del Presidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Del Congreso de los Diputados, a través de la Mesa."
+          },
+          {
+            "id": "d",
+            "label": "Del Tribunal Constitucional en pleno. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Del Tribunal Constitucional en pleno. CORTES GENERALES."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-12",
+        "section": "test-oficial",
+        "prompt": "La convocatoria a referéndum consultivo del cuerpo electoral corresponde a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente del Gobierno, previamente autorizado por el Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente del Gobierno, mediante propuesta del Congreso de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "El Rey, mediante propuesta del Congreso de los Diputados, previamente autorizada por el Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-13",
+        "section": "test-oficial",
+        "prompt": "De conformidad con lo previsto en el artículo 81 de la Constitución Española, se aprobará mediante ley orgánica:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Ley de Presupuestos Generales del Estado."
+          },
+          {
+            "id": "b",
+            "label": "El estatuto de los funcionarios públicos."
+          },
+          {
+            "id": "c",
+            "label": "El régimen del concejo abierto."
+          },
+          {
+            "id": "d",
+            "label": "El régimen electoral general."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El régimen electoral general."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-14",
+        "section": "test-oficial",
+        "prompt": "Las disposiciones del Gobierno que contienen legislación delegada reciben el título de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Decreto legislativo."
+          },
+          {
+            "id": "b",
+            "label": "Real Decreto."
+          },
+          {
+            "id": "c",
+            "label": "Decreto-ley."
+          },
+          {
+            "id": "d",
+            "label": "Ley ordinaria."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Decreto legislativo."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-15",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación correcta: “El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer…”",
+        "options": [
+          {
+            "id": "a",
+            "label": "Del recurso de inconstitucionalidad contra leyes y reales decretos."
+          },
+          {
+            "id": "b",
+            "label": "Del recurso de amparo por violación de cualquiera de los derechos reconocidos en el Título I de la CE."
+          },
+          {
+            "id": "c",
+            "label": "Del recurso de casación para la unificación de doctrina."
+          },
+          {
+            "id": "d",
+            "label": "De los conflictos de competencia entre el Estado y las Comunidades Autónomas o de los de éstas entre sí."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: De los conflictos de competencia entre el Estado y las Comunidades Autónomas o de los de éstas entre sí."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-16",
+        "section": "test-oficial",
+        "prompt": "La delegación legislativa de las Cortes Generales en el Gobierno, cuando se trata de refundir varios textos legales en uno solo, deberá otorgarse mediante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ley orgánica."
+          },
+          {
+            "id": "b",
+            "label": "Ley ordinaria."
+          },
+          {
+            "id": "c",
+            "label": "Ley de bases."
+          },
+          {
+            "id": "d",
+            "label": "Ley marco. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Ley ordinaria."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-17",
+        "section": "test-oficial",
+        "prompt": "La tutela de los derechos fundamentales y libertades públicas reconocidos en la sección primera del capítulo II del Título I de la Constitución española podrá recabarse por cualquier ciudadano:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sólo ante el Tribunal Constitucional de acuerdo con lo previsto en el art. 161.1.a), referente al recurso de Inconstitucionalidad."
+          },
+          {
+            "id": "b",
+            "label": "Sólo ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad."
+          },
+          {
+            "id": "c",
+            "label": "Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, ante el Tribunal Constitucional a través del recurso de inconstitucionalidad."
+          },
+          {
+            "id": "d",
+            "label": "Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-18",
+        "section": "test-oficial",
+        "prompt": "En relación con el Defensor del Pueblo, señale la afirmación correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es el supremo órgano consultivo del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Puede supervisar la actividad de la Administración del Estado, pero no la de las Comunidades Autónomas."
+          },
+          {
+            "id": "c",
+            "label": "Puede anular resoluciones e imponer sanciones, siempre que no impliquen privación de libertad."
+          },
+          {
+            "id": "d",
+            "label": "Tiene como misión la defensa de todos los derechos comprendidos en el Título I de la Constitución Española, y no sólo los susceptibles de recurso de amparo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Tiene como misión la defensa de todos los derechos comprendidos en el Título I de la Constitución Española, y no sólo los susceptibles de recurso de amparo."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-19",
+        "section": "test-oficial",
+        "prompt": "El Tribunal Constitucional:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se compone de 12 miembros, nombrados por el Rey; de ellos, cuatro a propuesta del Congreso, cuatro a propuesta del Senado, dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial."
+          },
+          {
+            "id": "b",
+            "label": "Se compone de 12 miembros, nombrados por el Rey; de ellos, tres a propuesta del Congreso, tres a propuesta del Senado, tres a propuesta del Gobierno y tres a propuesta del Consejo General del Poder Judicial."
+          },
+          {
+            "id": "c",
+            "label": "Se compone de 12 miembros, nombrados por el Gobierno; de ellos, seis a propuesta del Congreso y seis a propuesta del Senado."
+          },
+          {
+            "id": "d",
+            "label": "Está integrado por el Presidente del Tribunal Supremo, que lo presidirá, y por veinte miembros nombrados por el Rey por un periodo de cinco años."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Se compone de 12 miembros, nombrados por el Rey; de ellos, cuatro a propuesta del Congreso, cuatro a propuesta del Senado, dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-20",
+        "section": "test-oficial",
+        "prompt": "La aprobación de una ley ordinaria exige necesariamente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El voto favorable de la mayoría de los miembros presentes siembre que las Cámaras estén reunidas reglamentariamente y con la asistencia de la mayoría de sus miembros."
+          },
+          {
+            "id": "b",
+            "label": "El voto favorable de la mayoría de los miembros presentes siembre que las Cámaras estén reunidas reglamentariamente aunque no asista la mayoría de sus miembros."
+          },
+          {
+            "id": "c",
+            "label": "El voto favorable de la mayoría absoluta de sus miembros siembre que las Cámaras estén reunidas reglamentariamente y con la asistencia de la mayoría de sus miembros."
+          },
+          {
+            "id": "d",
+            "label": "El voto favorable de la mayoría de los miembros presentes siembre que las Cámaras estén reunidas reglamentariamente en periodo de sesiones o de la mayoría de los miembros de la Diputación Permanente fuera de los periodos ordinarios de sesiones. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El voto favorable de la mayoría de los miembros presentes siembre que las Cámaras estén reunidas reglamentariamente y con la asistencia de la mayoría de sus miembros."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-21",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes órganos, de conformidad con la Constitución Española, NO tiene legitimidad para interponer el recurso de inconstitucionalidad?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Presidente del Senado."
+          },
+          {
+            "id": "b",
+            "label": "El Defensor del Pueblo."
+          },
+          {
+            "id": "c",
+            "label": "Las Asambleas de las Comunidades Autónomas."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Presidente del Senado."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-22",
+        "section": "test-oficial",
+        "prompt": "Según el art. 75 de la Constitución Española, las Cámaras pueden delegar en las Comisiones Legislativas Permanentes:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La aprobación de proyectos o proposiciones de ley."
+          },
+          {
+            "id": "b",
+            "label": "La convalidación de decretos-leyes."
+          },
+          {
+            "id": "c",
+            "label": "La aprobación de proyectos de leyes de bases."
+          },
+          {
+            "id": "d",
+            "label": "La aprobación de proyectos de leyes orgánicas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La aprobación de proyectos o proposiciones de ley."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-23",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, son Leyes Orgánicas las relativas, entre otras materias, al desarrollo de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todos los Derechos y Libertades del Título I de la Constitución."
+          },
+          {
+            "id": "b",
+            "label": "Los Derechos Fundamentales y Libertades Públicas."
+          },
+          {
+            "id": "c",
+            "label": "Los Derechos y Deberes Fundamentales."
+          },
+          {
+            "id": "d",
+            "label": "Los Derechos y Libertades regulados en los artículos 14 a 38 de la Constitución."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Los Derechos Fundamentales y Libertades Públicas."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-24",
+        "section": "test-oficial",
+        "prompt": "¿Qué Capítulo del Título III de la Constitución Española regula las Cámaras que componen las Cortes Generales?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Capítulo II."
+          },
+          {
+            "id": "b",
+            "label": "El Capítulo V."
+          },
+          {
+            "id": "c",
+            "label": "El Capítulo I."
+          },
+          {
+            "id": "d",
+            "label": "El Capítulo IV."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Capítulo I."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-25",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes respuestas NO es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales representan al pueblo español."
+          },
+          {
+            "id": "b",
+            "label": "El Senado es la Cámara Alta de las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "Las Cortes Generales ejercen la potestad ejecutiva del Estado."
+          },
+          {
+            "id": "d",
+            "label": "Las Cortes Generales nombran al Defensor del Pueblo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Las Cortes Generales ejercen la potestad ejecutiva del Estado."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-26",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Senado otorga la confianza al candidato propuesto para Presidente del Gobierno"
+          },
+          {
+            "id": "b",
+            "label": "Un Senador puede ser procesado por cualquier tribunal español"
+          },
+          {
+            "id": "c",
+            "label": "La soberanía nacional reside en las Cortes Generales"
+          },
+          {
+            "id": "d",
+            "label": "Los Diputados y Senadores no podrán ser inculpados ni procesados sin la previa autorización del Congreso de los Diputados o del Senado, respectivamente."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Los Diputados y Senadores no podrán ser inculpados ni procesados sin la previa autorización del Congreso de los Diputados o del Senado, respectivamente."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-27",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes pueden ser elegidos Diputados o Senadores?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los Generales del Ejército de Tierra en activo."
+          },
+          {
+            "id": "b",
+            "label": "Los Magistrados y Fiscales en activo."
+          },
+          {
+            "id": "c",
+            "label": "Los componentes del Tribunal Constitucional."
+          },
+          {
+            "id": "d",
+            "label": "Los Abogados y Procuradores de los Tribunales en activo. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Los Abogados y Procuradores de los Tribunales en activo. CORTES GENERALES."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-28",
+        "section": "test-oficial",
+        "prompt": "Conforme a la Constitución Española y a efecto de elección de Senadores por provincia, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En la provincia de Soria se elegirán 4 Senadores."
+          },
+          {
+            "id": "b",
+            "label": "En la provincia de Barcelona se elegirán 4 Senadores."
+          },
+          {
+            "id": "c",
+            "label": "En la isla de Mallorca se elegirán 3 Senadores."
+          },
+          {
+            "id": "d",
+            "label": "En Ceuta se elegirá 1 Senador."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: En Ceuta se elegirá 1 Senador."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-29",
+        "section": "test-oficial",
+        "prompt": "¿Cuándo tienen lugar las elecciones al Congreso de los Diputados?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al mes justo de terminar el anterior mandato."
+          },
+          {
+            "id": "b",
+            "label": "Entre los 15 y los 30 días desde la terminación del anterior mandato."
+          },
+          {
+            "id": "c",
+            "label": "Entre los 30 y los 60 días desde la terminación del anterior mandato."
+          },
+          {
+            "id": "d",
+            "label": "Antes de las 6 semanas siguientes a la terminación del anterior mandato."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Entre los 30 y los 60 días desde la terminación del anterior mandato."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-30",
+        "section": "test-oficial",
+        "prompt": "Elegido un nuevo Congreso de los Diputados, ¿cuándo ha de ser convocado?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Congreso electo deberá ser convocado dentro de los 25 días siguientes a la celebración de las elecciones."
+          },
+          {
+            "id": "b",
+            "label": "El Congreso electo podrá ser convocado entre los 30 y 60 días desde la celebración de las elecciones."
+          },
+          {
+            "id": "c",
+            "label": "El Congreso electo será convocado dentro de los 15 días siguientes a la celebración de las elecciones."
+          },
+          {
+            "id": "d",
+            "label": "El Congreso electo será convocado cuando lo considere oportuno el Presidente del mismo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Congreso electo deberá ser convocado dentro de los 25 días siguientes a la celebración de las elecciones."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-31",
+        "section": "test-oficial",
+        "prompt": "Suponiendo que la Comunidad Autónoma de Madrid tiene un total de 4.500.000 habitantes, ¿cuántos Senadores designará, según la Constitución Española?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ninguno, ya que sólo elegirán Senadores las provincias españolas."
+          },
+          {
+            "id": "b",
+            "label": "5, 1 por cada millón de habitantes más otro por ser una CC.AA."
+          },
+          {
+            "id": "c",
+            "label": "10, 1 por cada medio millón de habitantes más otro por tratarse de una CC.AA."
+          },
+          {
+            "id": "d",
+            "label": "5, 1 por tratarse de una CC.AA. y otros 4 por estar formada dicha Comunidad por una sola provincia, que es la provincia de Madrid."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: 5, 1 por cada millón de habitantes más otro por ser una CC.AA."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-32",
+        "section": "test-oficial",
+        "prompt": "Los Diputados y Senadores:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Gozarán de inviolabilidad por las opiniones manifestadas en sus profesiones privadas."
+          },
+          {
+            "id": "b",
+            "label": "No podrán ser detenidos sin la previa autorización de la Cámara respectiva."
+          },
+          {
+            "id": "c",
+            "label": "Gozarán de inmunidad durante el período de su mandato."
+          },
+          {
+            "id": "d",
+            "label": "Sólo podrán ser detenidos en caso de haber cometido delito grave y doloso. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Gozarán de inmunidad durante el período de su mandato."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-33",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, las Cámaras que componen las Cortes Generales se reunirán anualmente en tres períodos ordinarios de sesiones. ¿Cuáles son dichos períodos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El primero de enero a marzo; el segundo de mayo a julio; y el tercero de septiembre a noviembre."
+          },
+          {
+            "id": "b",
+            "label": "La pregunta es incorrecta ya que las Cámaras se reunirán anualmente en dos períodos de sesiones: el septiembre a diciembre y el segundo de febrero a junio."
+          },
+          {
+            "id": "c",
+            "label": "Los tres períodos de sesiones serán determinados libremente por el Presidente de cada Cámara a principios de cada año."
+          },
+          {
+            "id": "d",
+            "label": "El primero de enero a abril; el segundo de mayo a agosto; el tercero, de septiembre a diciembre."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La pregunta es incorrecta ya que las Cámaras se reunirán anualmente en dos períodos de sesiones: el septiembre a diciembre y el segundo de febrero a junio."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-34",
+        "section": "test-oficial",
+        "prompt": "El Senado es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Cámara de representación territorial."
+          },
+          {
+            "id": "b",
+            "label": "La Cámara encargada de los asuntos internacionales."
+          },
+          {
+            "id": "c",
+            "label": "La representación de las Diputaciones provinciales."
+          },
+          {
+            "id": "d",
+            "label": "Un órgano consultivo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La Cámara de representación territorial."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-35",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, el Congreso de los Diputados se compone de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un mínimo de 300 y un máximo de 400 Diputados."
+          },
+          {
+            "id": "b",
+            "label": "250 Diputados."
+          },
+          {
+            "id": "c",
+            "label": "500 Diputados."
+          },
+          {
+            "id": "d",
+            "label": "Un mínimo de 275 y un máximo de 350 Diputados."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Un mínimo de 300 y un máximo de 400 Diputados."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-36",
+        "section": "test-oficial",
+        "prompt": "Las poblaciones de Ceuta y Melilla estarán representadas en el Congreso cada una de ellas por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tres Diputados."
+          },
+          {
+            "id": "b",
+            "label": "Dos Diputados."
+          },
+          {
+            "id": "c",
+            "label": "Un Diputado."
+          },
+          {
+            "id": "d",
+            "label": "Seis Diputados."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Un Diputado."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-37",
+        "section": "test-oficial",
+        "prompt": "El mandato de los Diputados, salvo la disolución anticipada de las Cámaras, tendrá una duración de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuatro años."
+          },
+          {
+            "id": "b",
+            "label": "Cinco años."
+          },
+          {
+            "id": "c",
+            "label": "Tres años."
+          },
+          {
+            "id": "d",
+            "label": "Dos años, prorrogables por otros dos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Cuatro años."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-38",
+        "section": "test-oficial",
+        "prompt": "Los Diputados son elegidos por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sufragio universal, indirecto y secreto."
+          },
+          {
+            "id": "b",
+            "label": "El Rey, a propuesta del Presidente del Congreso."
+          },
+          {
+            "id": "c",
+            "label": "Sufragio universal, libre, igual, directo y secreto."
+          },
+          {
+            "id": "d",
+            "label": "Los miembros del Senado. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Sufragio universal, libre, igual, directo y secreto."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-39",
+        "section": "test-oficial",
+        "prompt": "Actualmente el Congreso de los Diputados está compuesto por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "250 Diputados."
+          },
+          {
+            "id": "b",
+            "label": "550 Diputados."
+          },
+          {
+            "id": "c",
+            "label": "350 Diputados."
+          },
+          {
+            "id": "d",
+            "label": "450 Diputados."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: 350 Diputados."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-40",
+        "section": "test-oficial",
+        "prompt": "Las Cámaras podrán reunirse en sesiones extraordinarias:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A petición de la mayoría simple de los miembros de cualquiera de las Cámaras."
+          },
+          {
+            "id": "b",
+            "label": "Únicamente si así lo considera oportuno la Diputación Permanente."
+          },
+          {
+            "id": "c",
+            "label": "A petición de los miembros de ambas Cámaras conjuntamente."
+          },
+          {
+            "id": "d",
+            "label": "A petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: A petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-41",
+        "section": "test-oficial",
+        "prompt": "En las causas contra Senadores y Diputados será competente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Tribunal Constitucional."
+          },
+          {
+            "id": "b",
+            "label": "La Audiencia Nacional."
+          },
+          {
+            "id": "c",
+            "label": "La Sala de lo Penal del Tribunal Supremo."
+          },
+          {
+            "id": "d",
+            "label": "La Sala de lo Penal del Tribunal Superior de Justicia."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La Sala de lo Penal del Tribunal Supremo."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-42",
+        "section": "test-oficial",
+        "prompt": "¿A quién corresponde velar por los poderes de las Cámaras cuando éstas no estén reunidas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la Diputación Permanente de las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "A la Comisión de Vigilancia de las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "A la Diputación Permanente de cada Cámara"
+          },
+          {
+            "id": "d",
+            "label": "Al Consejo de Estado."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: A la Diputación Permanente de cada Cámara."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-43",
+        "section": "test-oficial",
+        "prompt": "Expirado el mandato parlamentario o en caso de disolución de las Cortes, las Diputaciones Permanentes de ambas Cámaras:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cesarán en sus funciones desde ese momento."
+          },
+          {
+            "id": "b",
+            "label": "Seguirán ejerciendo sus funciones hasta la constitución de las nuevas Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "Seguirán ejerciendo sus funciones durante el período que determine el Gobierno de la Nación."
+          },
+          {
+            "id": "d",
+            "label": "Seguirán sus funciones durante tres meses a partir de la disolución de las Cortes Generales."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Seguirán ejerciendo sus funciones hasta la constitución de las nuevas Cortes Generales."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-44",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes características NO es predicable de las Cortes Generales?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un órgano permanente."
+          },
+          {
+            "id": "b",
+            "label": "Es un órgano legislativo."
+          },
+          {
+            "id": "c",
+            "label": "Es un órgano unicameral."
+          },
+          {
+            "id": "d",
+            "label": "Es un órgano representativo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Es un órgano unicameral."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-45",
+        "section": "test-oficial",
+        "prompt": "¿Cuántos Senadores se eligen por cada provincia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Uno."
+          },
+          {
+            "id": "b",
+            "label": "Dos."
+          },
+          {
+            "id": "c",
+            "label": "Tres."
+          },
+          {
+            "id": "d",
+            "label": "Cuatro. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Cuatro. CORTES GENERALES."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-46",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el número de miembros que componen la Diputación Permanente del Congreso?",
+        "options": [
+          {
+            "id": "a",
+            "label": "20."
+          },
+          {
+            "id": "b",
+            "label": "15."
+          },
+          {
+            "id": "c",
+            "label": "21."
+          },
+          {
+            "id": "d",
+            "label": "24."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: 21."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-47",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 160 de la Constitución Española, en el ejercicio de su mandato, los miembros del Tribunal Constitucional serán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Inviolables e inmunes."
+          },
+          {
+            "id": "b",
+            "label": "Independientes e inamovibles."
+          },
+          {
+            "id": "c",
+            "label": "Independientes e inviolables."
+          },
+          {
+            "id": "d",
+            "label": "Inamovibles e inmunes."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Independientes e inamovibles."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-48",
+        "section": "test-oficial",
+        "prompt": "¿Pueden vincular las conclusiones de una Comisión de Investigación a los Tribunales?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sólo en caso de que se traten materias penales."
+          },
+          {
+            "id": "b",
+            "label": "Sólo en caso de que no se trate de materias penales."
+          },
+          {
+            "id": "c",
+            "label": "En ningún caso."
+          },
+          {
+            "id": "d",
+            "label": "En cualquier caso."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: En ningún caso."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-49",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes definiciones corresponden al concepto de inmunidad parlamentaria?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Consiste en que los Diputados o Senadores no pueden ser detenidos en ningún caso."
+          },
+          {
+            "id": "b",
+            "label": "Consiste en que los Diputados o Senadores no están obligados a declarar."
+          },
+          {
+            "id": "c",
+            "label": "Consiste en que los Diputados o Senadores no pueden ser detenidos salvo en los casos de flagrante delito."
+          },
+          {
+            "id": "d",
+            "label": "Consiste en que no se les puede exigir responsabilidad política por las opiniones vertidas en el ejercicio de su cargo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Consiste en que los Diputados o Senadores no pueden ser detenidos salvo en los casos de flagrante delito."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-50",
+        "section": "test-oficial",
+        "prompt": "El Presidente de la Diputación Permanente del Congreso de los Diputados es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Elegido por el partido mayoritario."
+          },
+          {
+            "id": "b",
+            "label": "El Portavoz del partido con mayor número de escaños."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente de la Cámara."
+          },
+          {
+            "id": "d",
+            "label": "El Elegido por los portavoces de los Grupos Parlamentarios."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Presidente de la Cámara."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-51",
+        "section": "test-oficial",
+        "prompt": "El mínimo de miembros integrantes de una Comisión de Investigación según el art. 76 de la Constitución Española es de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Veintiuno."
+          },
+          {
+            "id": "b",
+            "label": "Mayoría simple."
+          },
+          {
+            "id": "c",
+            "label": "Mayoría absoluta."
+          },
+          {
+            "id": "d",
+            "label": "No se establece. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: No se establece. CORTES GENERALES."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-52",
+        "section": "test-oficial",
+        "prompt": "NO puede delegarse en una Comisión Legislativa Permanente la posibilidad de aprobar una Ley:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tributaria."
+          },
+          {
+            "id": "b",
+            "label": "De funcionarios Públicos."
+          },
+          {
+            "id": "c",
+            "label": "Orgánica."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas a y c son correctas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Orgánica."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-53",
+        "section": "test-oficial",
+        "prompt": "NO pueden solicitar la celebración de una sesión extraordinaria de las Cortes Generales:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La mayoría absoluta de sus miembros."
+          },
+          {
+            "id": "b",
+            "label": "La Diputación Permanente de ellas."
+          },
+          {
+            "id": "c",
+            "label": "La Mesa de cada Cámara."
+          },
+          {
+            "id": "d",
+            "label": "El Gobierno de la Nación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La Mesa de cada Cámara."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-54",
+        "section": "test-oficial",
+        "prompt": "Como regla general los acuerdos de las Cámaras deben adoptarse por el siguiente quórum:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mayoría absoluta del número de hecho."
+          },
+          {
+            "id": "b",
+            "label": "Mayoría absoluta del número legal de miembros."
+          },
+          {
+            "id": "c",
+            "label": "Mayoría de los miembros presentes."
+          },
+          {
+            "id": "d",
+            "label": "Mayoría de los votos emitidos personalmente o por representación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Mayoría de los miembros presentes."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-55",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación correcta. Según la Constitución Española, en relación con las Comisiones de investigación sobre cualquier asunto de interés público:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Pueden nombrarse por cualquiera de las Cámaras."
+          },
+          {
+            "id": "b",
+            "label": "Sólo pueden nombrarse por cada Cámara."
+          },
+          {
+            "id": "c",
+            "label": "Pueden nombrarse por cualquier Cámara o por ambas conjuntamente."
+          },
+          {
+            "id": "d",
+            "label": "Pueden nombrarse por cada Cámara o por ambas en sesión conjunta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Pueden nombrarse por cualquier Cámara o por ambas conjuntamente."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-56",
+        "section": "test-oficial",
+        "prompt": "La aprobación del Reglamento de las Cortes Generales previsto en la Constitución Española requiere:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aprobación conjunta de las Cámaras."
+          },
+          {
+            "id": "b",
+            "label": "Mayoría absoluta de cada Cámara."
+          },
+          {
+            "id": "c",
+            "label": "Aprobación, en sesión conjunta, por mayoría absoluta de las Cámaras."
+          },
+          {
+            "id": "d",
+            "label": "Mayoría absoluta del Congreso de los Diputados."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Mayoría absoluta de cada Cámara."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-57",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española dispone que el voto de Diputados y Senadores es personal e:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Intransferible."
+          },
+          {
+            "id": "b",
+            "label": "Indelegable."
+          },
+          {
+            "id": "c",
+            "label": "Irrenunciable."
+          },
+          {
+            "id": "d",
+            "label": "Inviolable."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Indelegable."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-58",
+        "section": "test-oficial",
+        "prompt": "La distribución del número total de Diputados al Congreso por cada circunscripción se realiza, por mandato constitucional, por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "La ley."
+          },
+          {
+            "id": "d",
+            "label": "El Consejo de ministros. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La ley."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-59",
+        "section": "test-oficial",
+        "prompt": "El quórum que con carácter general la Constitución Española exige en las Cámaras para que sean válidamente aprobados es el de mayoría:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Absoluta de los miembros presentes."
+          },
+          {
+            "id": "b",
+            "label": "De los miembros presentes."
+          },
+          {
+            "id": "c",
+            "label": "De sus miembros."
+          },
+          {
+            "id": "d",
+            "label": "Absoluta de sus miembros."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: De los miembros presentes."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-60",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española establece que las Cortes Generales ejercen la potestad legislativa del Estado y en relación a sus Presupuestos, los:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aprueban."
+          },
+          {
+            "id": "b",
+            "label": "Sancionan."
+          },
+          {
+            "id": "c",
+            "label": "Controlan."
+          },
+          {
+            "id": "d",
+            "label": "Enmiendan."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Aprueban."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-61",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española establece que las sesiones de los Plenos de las Cámaras serán públicas, salvo acuerdo en contrario de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Mesa de la Cámara."
+          },
+          {
+            "id": "b",
+            "label": "La mayoría absoluta de los miembros de cada Cámara."
+          },
+          {
+            "id": "c",
+            "label": "El presidente de la Cámara, oída la Junta de Portavoces."
+          },
+          {
+            "id": "d",
+            "label": "La mayoría de los miembros presentes de cada Cámara."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La mayoría absoluta de los miembros de cada Cámara."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-62",
+        "section": "test-oficial",
+        "prompt": "Los Estatutos de Autonomía, según establece la Constitución Española, son aprobados por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Norma básica estatal."
+          },
+          {
+            "id": "b",
+            "label": "Ley orgánica."
+          },
+          {
+            "id": "c",
+            "label": "Ley."
+          },
+          {
+            "id": "d",
+            "label": "Constitución autonómica."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Ley orgánica."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-63",
+        "section": "test-oficial",
+        "prompt": "La Constitución Española dispone que el Congreso electo debe ser convocado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dentro de los treinta días siguientes a la terminación del mandato de los Diputados."
+          },
+          {
+            "id": "b",
+            "label": "Después de los veinticinco días siguientes a la convocatoria de las elecciones."
+          },
+          {
+            "id": "c",
+            "label": "Entre los treinta y sesenta días posteriores a la terminación de su mandato."
+          },
+          {
+            "id": "d",
+            "label": "Dentro de los veinticinco días siguientes a la celebración de las elecciones."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Dentro de los veinticinco días siguientes a la celebración de las elecciones."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-64",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, las elecciones tendrán lugar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A los treinta días de terminar el mandato."
+          },
+          {
+            "id": "b",
+            "label": "A los sesenta días de terminar el mandato."
+          },
+          {
+            "id": "c",
+            "label": "Transcurridos treinta días desde la terminación del mandato."
+          },
+          {
+            "id": "d",
+            "label": "Transcurridos sesenta días desde la terminación del mandato."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Transcurridos treinta días desde la terminación del mandato."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-65",
+        "section": "test-oficial",
+        "prompt": "Para que las Cámaras puedan reunirse en sesión extraordinaria, a petición de los miembros de las mismas, la Constitución Española requiere:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mayoría absoluta de cada Cámara."
+          },
+          {
+            "id": "b",
+            "label": "Mayoría de cada Cámara."
+          },
+          {
+            "id": "c",
+            "label": "Mayoría conjunta de ambas Cámaras."
+          },
+          {
+            "id": "d",
+            "label": "Sólo es posible a petición de la Diputación Permanente. CORTES GENERALES"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Mayoría absoluta de cada Cámara."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-66",
+        "section": "test-oficial",
+        "prompt": "Los Senadores que se eligen en cada provincia, según dispone la Constitución Española, son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuatro."
+          },
+          {
+            "id": "b",
+            "label": "Dos."
+          },
+          {
+            "id": "c",
+            "label": "Tres."
+          },
+          {
+            "id": "d",
+            "label": "Uno y otro más por cada millón de habitantes."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Cuatro."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-67",
+        "section": "test-oficial",
+        "prompt": "Las Cámaras, por mandato constitucional, en relación a las peticiones que reciban:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Deben remitirlas al Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Deben exigir al Gobierno explicación sobre su contenido."
+          },
+          {
+            "id": "c",
+            "label": "Pueden remitirlas al Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Pueden remitirlas al Ministerio Fiscal."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Pueden remitirlas al Gobierno."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-68",
+        "section": "test-oficial",
+        "prompt": "El plazo de que dispone el Senado para vetar o enmendar un proyecto de ley, de acuerdo con la Constitución Española, es de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dos meses."
+          },
+          {
+            "id": "b",
+            "label": "Veinte días naturales o dos meses, según los casos."
+          },
+          {
+            "id": "c",
+            "label": "Dos meses desde la recepción siempre."
+          },
+          {
+            "id": "d",
+            "label": "Dos meses desde la aprobación por el Congreso."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Veinte días naturales o dos meses, según los casos."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-69",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, la legitimación para interponer el recurso de inconstitucionalidad NO corresponde a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Los órganos colegiados ejecutivos de las Comunidades Autónomas."
+          },
+          {
+            "id": "c",
+            "label": "El Defensor del Pueblo."
+          },
+          {
+            "id": "d",
+            "label": "50 Senadores."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Gobierno."
+      },
+      {
+        "id": "b1t2-test-oficial-cortes-generales-70",
+        "section": "test-oficial",
+        "prompt": "Los miembros del Tribunal Constitucional, de acuerdo con la Constitución Española, se renovarán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por cuartas partes cada dos años."
+          },
+          {
+            "id": "b",
+            "label": "Por terceras partes cada tres años."
+          },
+          {
+            "id": "c",
+            "label": "Por mitades cada tres años."
+          },
+          {
+            "id": "d",
+            "label": "Íntegramente cada 9 años."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Por terceras partes cada tres años."
+      }
+    ]
+  },
+  {
     "code": "B3T1",
     "slug": "b3t1-test-oficial-modeloer",
     "title": "Test oficial ModeloER",

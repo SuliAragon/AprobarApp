@@ -106,8 +106,20 @@ function buildExplanation(correctOptionId, correctLabel) {
   return `La plantilla oficial marca como correcta la opción ${correctOptionId.toUpperCase()}: ${correctLabel}${suffix}`;
 }
 
+function splitQuestionsAndSolutions(source) {
+  const solutionsHeadingMatch = source.match(/(?:^|[\n\f])\s*SOLUCIONES\s*(?:[\n\f]|$)/i);
+
+  if (!solutionsHeadingMatch || solutionsHeadingMatch.index === undefined) {
+    return [source, ""];
+  }
+
+  const headingStart = solutionsHeadingMatch.index;
+  const headingEnd = headingStart + solutionsHeadingMatch[0].length;
+  return [source.slice(0, headingStart), source.slice(headingEnd)];
+}
+
 export function parseOfficialTestText(source, meta) {
-  const [questionsSource = "", solutionsSource = ""] = source.split(/SOLUCIONES/i);
+  const [questionsSource = "", solutionsSource = ""] = splitQuestionsAndSolutions(source);
   const solutions = extractSolutions(solutionsSource);
   const questions = [];
 
