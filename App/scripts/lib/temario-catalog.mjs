@@ -1,6 +1,7 @@
 import { basename, dirname, extname } from "node:path";
 
 const audioExtensions = new Set([".m4a", ".mp3", ".aac", ".wav", ".ogg", ".oga", ".m4b"]);
+const relatedResourceExtensions = new Set([".sql"]);
 
 function slugify(value) {
   return value
@@ -94,6 +95,9 @@ export function buildTemarioCatalog(relativeFiles) {
       const relatedPdfFiles = sortedFiles.filter(
         (file) => extname(file).toLowerCase() === ".pdf" && file !== pdfFile,
       );
+      const relatedResourceFiles = sortedFiles.filter((file) =>
+        relatedResourceExtensions.has(extname(file).toLowerCase()),
+      );
       const podcasts = sortedFiles
         .filter((file) => audioExtensions.has(extname(file).toLowerCase()))
         .map((file) => ({
@@ -110,6 +114,7 @@ export function buildTemarioCatalog(relativeFiles) {
           title,
           sourceFilename,
           relatedPdfFiles,
+          relatedResourceFiles,
           podcasts,
         },
       ];
@@ -118,5 +123,5 @@ export function buildTemarioCatalog(relativeFiles) {
 
 export function isSupportedTemarioFile(filePath) {
   const extension = extname(filePath).toLowerCase();
-  return extension === ".pdf" || audioExtensions.has(extension);
+  return extension === ".pdf" || audioExtensions.has(extension) || relatedResourceExtensions.has(extension);
 }

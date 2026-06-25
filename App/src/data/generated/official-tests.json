@@ -9026,5 +9026,1518 @@
         "explanation": "La plantilla oficial marca como correcta la opción A: Se transforman del mismo modo que las 1:N."
       }
     ]
+  },
+  {
+    "code": "B3T4",
+    "slug": "b3t4-test-oficial-lenguajes-bd-sql",
+    "title": "Test oficial Lenguajes BD SQL",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 3/Tema 4/B3T4Test_Lenguajes_BD_SQL 2.pdf",
+    "assetPath": "/test-oficial/B3T4/b3t4-test-oficial-lenguajes-bd-sql.pdf",
+    "questions": [
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-1",
+        "section": "test-oficial",
+        "prompt": "En un Sistema Gestor de Base de Datos (SGBD), el lenguaje DDL proporciona una serie de facilidades, las cuales son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Suministra facilidades para poder consultar y actualizar los datos existentes en la Base de Datos."
+          },
+          {
+            "id": "b",
+            "label": "Brinda facilidades para poder gestionar permisos sobre los objetos de la base de datos."
+          },
+          {
+            "id": "c",
+            "label": "Proporciona facilidades para poder crear tablas o columnas."
+          },
+          {
+            "id": "d",
+            "label": "Aporta facilidades para hacer SELECT sobre las tablas de la base de datos."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Proporciona facilidades para poder crear tablas o columnas."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-2",
+        "section": "test-oficial",
+        "prompt": "El lenguaje SQL posee una serie de operadores de agregación, cuál de los siguientes NO es uno de ellos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "LIKE."
+          },
+          {
+            "id": "b",
+            "label": "AVG."
+          },
+          {
+            "id": "c",
+            "label": "MIN."
+          },
+          {
+            "id": "d",
+            "label": "COUNT."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: LIKE."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-3",
+        "section": "test-oficial",
+        "prompt": "En SQL, las cláusulas para, respectivamente, consultar datos, introducirlos, modificarlos y borrarlos, son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT, APPEND, UPDATE, DELETE."
+          },
+          {
+            "id": "b",
+            "label": "SELECT, INSERT, UPDATE, ERASE."
+          },
+          {
+            "id": "c",
+            "label": "SELECT, APPEND, UPDATE, ERASE."
+          },
+          {
+            "id": "d",
+            "label": "SELECT, INSERT, UPDATE, DELETE."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: SELECT, INSERT, UPDATE, DELETE."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-4",
+        "section": "test-oficial",
+        "prompt": "La sentencia TRUNCATE del lenguaje SQL pertenece al:",
+        "options": [
+          {
+            "id": "a",
+            "label": "DDL."
+          },
+          {
+            "id": "b",
+            "label": "DCL."
+          },
+          {
+            "id": "c",
+            "label": "DCU."
+          },
+          {
+            "id": "d",
+            "label": "DML."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: DDL."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-5",
+        "section": "test-oficial",
+        "prompt": "Sean dos tablas relacionadas, A y B, en un SGBD relacional. En A la clave primaria es el campo llamado “primaria” y, en B, la clave foránea (referenciada con A) es el campo “foránea”. Si queremos obtener mediante un JOIN las filas de A junto con las filas de B correspondientes, y además también las filas de A que no tengan correspondencias en B, ¿qué usaríamos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A LEFT JOIN B ON A.primaria = B.foranea."
+          },
+          {
+            "id": "b",
+            "label": "A INNER JOIN B ON A.primaria = B.foranea."
+          },
+          {
+            "id": "c",
+            "label": "A RIGHT JOIN B ON A.primaria = B.foranea."
+          },
+          {
+            "id": "d",
+            "label": "A OUTER JOIN B ON A.primaria = B.foranea."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: A LEFT JOIN B ON A.primaria = B.foranea."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-6",
+        "section": "test-oficial",
+        "prompt": "En SQL, para especifica una condición que debe cumplir un grupo de agregación, usamos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "GROUP BY."
+          },
+          {
+            "id": "b",
+            "label": "COUNT."
+          },
+          {
+            "id": "c",
+            "label": "SELECT."
+          },
+          {
+            "id": "d",
+            "label": "HAVING. SQL"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: HAVING. SQL."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-7",
+        "section": "test-oficial",
+        "prompt": "La sentencia SQL que nos permite generar una vista de una tabla es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "DEFINE VIEW."
+          },
+          {
+            "id": "b",
+            "label": "DROP VIEW."
+          },
+          {
+            "id": "c",
+            "label": "CREATE VIEW."
+          },
+          {
+            "id": "d",
+            "label": "NEW VIEW."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: CREATE VIEW."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-8",
+        "section": "test-oficial",
+        "prompt": "Señale la opción INCORRECTA con respecto de las restricciones de integridad (CONSTRAINTS) en SQL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Pueden definirse en la creación de la tabla."
+          },
+          {
+            "id": "b",
+            "label": "Pueden definirse después de que la tabla haya sido creada."
+          },
+          {
+            "id": "c",
+            "label": "Se definen mediante la sentencia CREATE RESTRICTION."
+          },
+          {
+            "id": "d",
+            "label": "FOREIGN KEY y NOT NULL son dos tipos de restricciones."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Se definen mediante la sentencia CREATE RESTRICTION."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-9",
+        "section": "test-oficial",
+        "prompt": "El estándar ANSI SQL especifica estos tipos de cláusulas JOIN:",
+        "options": [
+          {
+            "id": "a",
+            "label": "JOIN, LEFT/RIGHT [INNER], COMPLETE y CROSS."
+          },
+          {
+            "id": "b",
+            "label": "INNER, LEFT/RIGHT/FULL [OUTER] y CROSS."
+          },
+          {
+            "id": "c",
+            "label": "INNER, LEFT/RIGHT/BOTH [OUTER] y ACROSS."
+          },
+          {
+            "id": "d",
+            "label": "INSIDE, OUTSIDE y LEFT/RIGHT/FULL [OUTER]."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: INNER, LEFT/RIGHT/FULL [OUTER] y CROSS."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-10",
+        "section": "test-oficial",
+        "prompt": "En una base de datos relacional se quiere añadir una nueva columna en una tabla ya existente. ¿Qué sentencia SQL habría que utilizar?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Add column."
+          },
+          {
+            "id": "b",
+            "label": "Alter table."
+          },
+          {
+            "id": "c",
+            "label": "Insert column."
+          },
+          {
+            "id": "d",
+            "label": "Modify column."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Alter table."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-11",
+        "section": "test-oficial",
+        "prompt": "En cuanto al lenguaje de interrogación de bases de datos SQL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un estándar de facto cuando hablamos de lenguajes de interrogación de bases de datos y su base es el álgebra relacional."
+          },
+          {
+            "id": "b",
+            "label": "Es un lenguaje de interrogación de bases de datos utilizado para hacer consultas sobre bases de datos estructuradas, relacionales, jerárquicas o en red."
+          },
+          {
+            "id": "c",
+            "label": "Es un lenguaje de consulta, pero para realizar otras operaciones sobre bases de datos como la definición/creación de las mismas se utiliza otro tipo de lenguajes."
+          },
+          {
+            "id": "d",
+            "label": "No está implementado en gestores de bases de datos menores como Microsoft Access."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Es un estándar de facto cuando hablamos de lenguajes de interrogación de bases de datos y su base es el álgebra relacional."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-12",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes términos se relaciona directamente con el control de integridad en SQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "ROLLBACK."
+          },
+          {
+            "id": "b",
+            "label": "GRANT."
+          },
+          {
+            "id": "c",
+            "label": "CREATE INDEX."
+          },
+          {
+            "id": "d",
+            "label": "REVOKE."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: ROLLBACK."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-13",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el propósito del lenguaje DDL en una base de datos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Acceso a la base de datos de lectura pero no de escritura."
+          },
+          {
+            "id": "b",
+            "label": "Acceder a la base de datos para leer, escribir o modificar la información."
+          },
+          {
+            "id": "c",
+            "label": "Recuperar y eliminar una base de datos."
+          },
+          {
+            "id": "d",
+            "label": "Definir la estructura lógica de una base de datos. SQL"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Definir la estructura lógica de una base de datos. SQL."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-14",
+        "section": "test-oficial",
+        "prompt": "¿Qué sentencia de las siguientes pertenece a la categoría de DDL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "CREATE."
+          },
+          {
+            "id": "b",
+            "label": "UPDATE."
+          },
+          {
+            "id": "c",
+            "label": "SELECT."
+          },
+          {
+            "id": "d",
+            "label": "DELETE."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: CREATE."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-15",
+        "section": "test-oficial",
+        "prompt": "¿Qué operador de SQL, utilizado junto a la cláusula WHERE, permite buscar según un patrón determinado en una columna?",
+        "options": [
+          {
+            "id": "a",
+            "label": "LIKE."
+          },
+          {
+            "id": "b",
+            "label": "IN."
+          },
+          {
+            "id": "c",
+            "label": "BETWEEN."
+          },
+          {
+            "id": "d",
+            "label": "HAVING."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: LIKE."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-16",
+        "section": "test-oficial",
+        "prompt": "Indicar qué resultado se puede esperar de esta consulta SQL sobre una tabla COCHES_VENTA que mantiene el inventario de automóviles en un pequeño concesionario: SELECT Modelo, Color, COUNT(Bastidor) AS Num FROM COCHES_VENTA GROUP BY Modelo, Color HAVING COUNT(Bastidor) <= 1",
+        "options": [
+          {
+            "id": "a",
+            "label": "Le indica al dueño del concesionario que quizá debe plantearse adquirir más existencias de un cierto modelo y color de automóvil."
+          },
+          {
+            "id": "b",
+            "label": "Le indica al dueño del concesionario todos los modelos distintos del concesionario. Es decir, un inventario organizado por modelos."
+          },
+          {
+            "id": "c",
+            "label": "Le indica al dueño del concesionario todos los modelos distintos del concesionario. Es decir, un inventario organizado por modelos y color."
+          },
+          {
+            "id": "d",
+            "label": "Le indica al dueño todos los modelos cuyo número de bastidor es menor o igual a 1."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Le indica al dueño del concesionario que quizá debe plantearse adquirir más existencias de un cierto modelo y color de automóvil."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-17",
+        "section": "test-oficial",
+        "prompt": "Indique la cláusula necesaria para crear el esquema de la base de datos museoDB y hacer que todos los objetos creados en el mismo tengan como propietario al usuario museo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "CREATE SCHEMA museoDB ON ROLE museo."
+          },
+          {
+            "id": "b",
+            "label": "CREATE SCHEMA museoDB ON USER museo."
+          },
+          {
+            "id": "c",
+            "label": "CREATE SCHEMA museoDB TO USER museo."
+          },
+          {
+            "id": "d",
+            "label": "CREATE SCHEMA museoDB AUTHORIZATION museo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: CREATE SCHEMA museoDB AUTHORIZATION museo."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-18",
+        "section": "test-oficial",
+        "prompt": "Después de crear el usuario de la BD museo_consulta, se necesita que se le asigne permisos de SELECT en la tabla ENTIDADES_EXTERNAS. La sentencia para ello sería:",
+        "options": [
+          {
+            "id": "a",
+            "label": "GRANT SELECT IN TABLE ENTIDADES_EXTERNAS TO museo_consulta."
+          },
+          {
+            "id": "b",
+            "label": "GRANT SELECT ON ENTIDADES_EXTERNAS TO museo_consulta."
+          },
+          {
+            "id": "c",
+            "label": "GRANT USAGE SELECT TO ENTIDADES_EXTERNAS ON museo_consulta."
+          },
+          {
+            "id": "d",
+            "label": "GRANT SELECT TO ENTIDADES_EXTERNAS ON museo_consultas. SQL"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: GRANT SELECT ON ENTIDADES_EXTERNAS TO museo_consulta."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-19",
+        "section": "test-oficial",
+        "prompt": "Insertar una constraint en la cláusula SQL de creación de la tabla RESERVAS para el campo de clave ajena idcliente, de forma que NO ejecute ninguna acción en la tabla referenciada en los casos de UPDATE o DELETE:",
+        "options": [
+          {
+            "id": "a",
+            "label": "CONSTRAINT con_fk FOREIGN KEY (idcliente) ON CLIENTES (id) MATCH SIMPLE WITH NO ACTION."
+          },
+          {
+            "id": "b",
+            "label": "CONSTRAINT con_fk FOREIGN KEY ON idcliente MATCH SIMPLE WITH CLIENTES (id) ON UPDATE NO ACTION ON DELETE NO ACTION."
+          },
+          {
+            "id": "c",
+            "label": "CONSTRAINT con_fk FOREIGN KEY (idcliente) REFERENCES CLIENTES (id) ON UPDATE NO ACTION ON DELETE NO ACTION."
+          },
+          {
+            "id": "d",
+            "label": "CONSTRAINT con_fk FOREIGN KEY (idcliente) ON CLIENTES (id) MATCH SIMPLE WITH UPDATE NO ACTION WITH DELETE NO ACTION."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: CONSTRAINT con_fk FOREIGN KEY (idcliente) REFERENCES CLIENTES (id) ON UPDATE NO ACTION ON DELETE NO ACTION."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-20",
+        "section": "test-oficial",
+        "prompt": "En SQL, ¿cuál de las siguientes opciones representa la secuencia de parámetros en el orden correcto deberían aparecer en una sentencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT – FROM – WHERE - ORDER BY – GROUP BY – HAVING."
+          },
+          {
+            "id": "b",
+            "label": "SELECT – FROM - WHERE – GROUP BY – HAVING – ORDER BY."
+          },
+          {
+            "id": "c",
+            "label": "SELECT – FROM – WHERE – GROUP BY – ORDER BY – HAVING."
+          },
+          {
+            "id": "d",
+            "label": "SELECT – FROM – WHERE – ORDER BY – HAVING – GROUP BY."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: SELECT – FROM - WHERE – GROUP BY – HAVING – ORDER BY."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-21",
+        "section": "test-oficial",
+        "prompt": "La sintaxis estándar de ANSI SQL que nos permite borrar una vista es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "ERASE VIEW."
+          },
+          {
+            "id": "b",
+            "label": "DELETE VIEW."
+          },
+          {
+            "id": "c",
+            "label": "CLEAR VIEW."
+          },
+          {
+            "id": "d",
+            "label": "DROP VIEW."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: DROP VIEW."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-22",
+        "section": "test-oficial",
+        "prompt": "Indique qué sentencia ANSI SQL utilizaría para deshacer una transacción:",
+        "options": [
+          {
+            "id": "a",
+            "label": "ROLLBACK."
+          },
+          {
+            "id": "b",
+            "label": "BACKSTEP."
+          },
+          {
+            "id": "c",
+            "label": "REVOKE."
+          },
+          {
+            "id": "d",
+            "label": "UNDO."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: ROLLBACK."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-23",
+        "section": "test-oficial",
+        "prompt": "Seleccione la respuesta correcta en relación a las bases de datos relacionales:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El lenguaje que se usa para manipular datos (seleccionar, borrar, etc.) es diferente que el que se usa para definir datos (crear/modificar tablas, etc.)."
+          },
+          {
+            "id": "b",
+            "label": "En el lenguaje SQL, el operador BETWEEN no puede estar en una sentencia WHERE."
+          },
+          {
+            "id": "c",
+            "label": "En el lenguaje SQL, la sintaxis para borrar una tabla es: DELETE TABLE (NOMBRE_TABLE)."
+          },
+          {
+            "id": "d",
+            "label": "Las claves ajenas (foreign keys) pueden ser nulas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Las claves ajenas (foreign keys) pueden ser nulas."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-24",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes sentencias forma parte del DDL de SQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "INSERT."
+          },
+          {
+            "id": "b",
+            "label": "UPDATE."
+          },
+          {
+            "id": "c",
+            "label": "ALTER."
+          },
+          {
+            "id": "d",
+            "label": "COMMIT. SQL"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: ALTER."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-25",
+        "section": "test-oficial",
+        "prompt": "En SQL, la cláusula having:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se utiliza específicamente para realizar cálculos con campos tipo Datetime."
+          },
+          {
+            "id": "b",
+            "label": "Se usa habitualmente en combinación con la cláusula group by."
+          },
+          {
+            "id": "c",
+            "label": "El uso de having impide usar la cláusula where en la misma sentencia."
+          },
+          {
+            "id": "d",
+            "label": "Es un comando que se incluye dentro del llamado DDL."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Se usa habitualmente en combinación con la cláusula group by."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-26",
+        "section": "test-oficial",
+        "prompt": "Con la cláusula ORDER BY de SQL, si nos encontramos con la siguiente consulta: SELECT * FROM Empleados ORDER BY Provincia DESC, Municipio. ¿Cuál es el resultado que se obtendría?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un listado de empleados ordenado de manera ascendente por la columna Provincia y, dentro de cada provincia ordenado de manera ascendente por la columna Municipio."
+          },
+          {
+            "id": "b",
+            "label": "Un listado de empleados ordenado de manera descendente por la columna Provincia y, dentro de cada provincia ordenado de manera ascendente por la columna Municipio."
+          },
+          {
+            "id": "c",
+            "label": "Un listado de empleados ordenado de manera ascendente por la columna Provincia y, dentro de cada provincia ordenado de manera descendente por la columna Municipio."
+          },
+          {
+            "id": "d",
+            "label": "Da error."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Un listado de empleados ordenado de manera descendente por la columna Provincia y, dentro de cada provincia ordenado de manera ascendente por la columna Municipio."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-27",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes sentencias utilizaríamos para permitir al USUARIO1 actualizar la columna SALARIO de la tabla EMPLEADOS sin permitirle dar de alta nuevos empleados?",
+        "options": [
+          {
+            "id": "a",
+            "label": "GRANT EMPLEADOS ON SELECT, UPDATE(SALARIO) TO USUARIO1."
+          },
+          {
+            "id": "b",
+            "label": "GRANT ALL ON SELECT, UPDATE TO USUARIO1."
+          },
+          {
+            "id": "c",
+            "label": "GRANT ALL ON EMPLEADOS TO USUARIO1."
+          },
+          {
+            "id": "d",
+            "label": "GRANT SELECT, UPDATE(SALARIO) ON EMPLEADOS TO USUARIO1."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: GRANT SELECT, UPDATE(SALARIO) ON EMPLEADOS TO USUARIO1."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-28",
+        "section": "test-oficial",
+        "prompt": "De acuerdo al estándar ANSI SQL, ¿cuál de las siguientes opciones es equivalente a la operación JOIN?",
+        "options": [
+          {
+            "id": "a",
+            "label": "LEFT JOIN."
+          },
+          {
+            "id": "b",
+            "label": "FULL JOIN."
+          },
+          {
+            "id": "c",
+            "label": "INNER JOIN."
+          },
+          {
+            "id": "d",
+            "label": "OUTER JOIN."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: INNER JOIN."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-29",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes sentencias SQL es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "DROP TABLE t WHERE a=1;"
+          },
+          {
+            "id": "b",
+            "label": "TRUNCATE TABLE t WHERE a=1;"
+          },
+          {
+            "id": "c",
+            "label": "DELETE FROM t;"
+          },
+          {
+            "id": "d",
+            "label": "DELETE FROM t1, t2 WHERE t1.a=t2.a; Dado el siguiente esquema de bases de datos: - Proveedores, S=(S#, nomprov, domicilio, ciudad) - Piezas, P=(P#, nompiez, color) - Proyectos, J=(J#, nomproy, duración, ciudad) - Envíos o Suministros, que relaciona a los proveedores que suministran ciertas cantidades de piezas a los proyectos, SPJ=(S#, P#, J#, cantidad) Responda a las siguientes cuestiones: SQL"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: DELETE FROM t;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-30",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes consultas en SQL contesta a la pregunta \"Eliminar todos los proveedores que no realicen envíos\"?",
+        "options": [
+          {
+            "id": "a",
+            "label": "DELETE FROM S WHERE S# NOT IN (SELECT S# FROM SPJ);"
+          },
+          {
+            "id": "b",
+            "label": "DELETE S# FROM S WHERE S IN (SELECT S# FROM SPJ);"
+          },
+          {
+            "id": "c",
+            "label": "DELETE S# FROM S WHERE S# NOT IN (SELECT S# FROM SPJ);"
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: DELETE FROM S WHERE S# NOT IN (SELECT S# FROM SPJ);."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-31",
+        "section": "test-oficial",
+        "prompt": "¿Qué realiza la siguiente sentencia? DELETE FROM J WHERE J# NOT IN (SELECT J# FROM SPJ);",
+        "options": [
+          {
+            "id": "a",
+            "label": "Eliminar todos los proyectos para los cuales no existan envíos."
+          },
+          {
+            "id": "b",
+            "label": "Eliminar todos los proyectos que tienen algún envío."
+          },
+          {
+            "id": "c",
+            "label": "Eliminar todos los proyectos."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Eliminar todos los proyectos para los cuales no existan envíos."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-32",
+        "section": "test-oficial",
+        "prompt": "¿Qué permite obtener la siguiente consulta? SELECT DISTINCT J# FROM J WHERE ciudad=\"Madrid\" AND S# IN (SELECT J# FROM j WHERE ciudad = \"Barcelona\");",
+        "options": [
+          {
+            "id": "a",
+            "label": "Obtener los J# de los proyectos que son de \"Madrid\" o de \"Barcelona\"."
+          },
+          {
+            "id": "b",
+            "label": "Obtener los J# de los proyectos que son de \"Madrid\" y algunos de \"Barcelona\"."
+          },
+          {
+            "id": "c",
+            "label": "Obtener los J# de los proyectos que son de \"Madrid\" y de \"Barcelona\"."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Ninguna de las respuestas anteriores es correcta."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-33",
+        "section": "test-oficial",
+        "prompt": "¿Qué permite obtener la siguiente consulta? SELECT DISTINCT J# FROM J WHERE ciudad=\"Madrid\" AND J# IN (SELECT J# FROM J WHERE ciudad = \"Barcelona\");",
+        "options": [
+          {
+            "id": "a",
+            "label": "Obtener los J# de los proyectos que son de \"Madrid\" o de \"Barcelona\"."
+          },
+          {
+            "id": "b",
+            "label": "Obtener los J# de los proyectos que son de \"Madrid\" y algunos de \"Barcelona\"."
+          },
+          {
+            "id": "c",
+            "label": "Obtener los J# de los proyectos que son de \"Madrid\" y de \"Barcelona\"."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta. SQL"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Ninguna de las respuestas anteriores es correcta. SQL."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-34",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes consultas SQL contesta a la pregunta “Obtener los S# de los proveedores que suministren por lo menos alguna de las piezas suministradas por alguno de los proveedores que suministran alguna pieza”?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT DISTINCT S# FROM SPJ WHERE P# IN (SELECT a.P# FROM SPJ a WHERE a.S# IN (SELECT b.S# FROM SPJ b WHERE b.P# IN (SELECT P.P# FROM P)));"
+          },
+          {
+            "id": "b",
+            "label": "SELECT DISTINCT S# FROM SPJ WHERE P# IN (SELECT P# FROM P WHERE S# IN (SELECT S# FROM S WHERE P# IN (SELECT P# FROM P)));"
+          },
+          {
+            "id": "c",
+            "label": "SELECT DISTINCT S# FROM SPJ WHERE P# IN (SELECT P# FROM P);"
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT DISTINCT S# FROM SPJ WHERE P# IN (SELECT a.P# FROM SPJ a WHERE a.S# IN (SELECT b.S# FROM SPJ b WHERE b.P# IN (SELECT P.P# FROM P)));."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-35",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes consultas SQL contesta a la pregunta “Obtener los J# de los proyectos donde se utilice al menos una de las piezas suministrada por los proveedores S#='S1' o S#='S2'?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT DISTINCT SPJ.J# FROM SPJ WHERE EXISTS (SELECT * FROM SPJ WHERE SPJ.P#=P# AND S#='S1' OR S#='S2');"
+          },
+          {
+            "id": "b",
+            "label": "SELECT DISTINCT SPJX.J# FROM SPJ WHERE S#='S1' OR s#='S2';"
+          },
+          {
+            "id": "c",
+            "label": "SELECT DISTINCT J# FROM SPJ WHERE EXISTS (SELECT * FROM SPJ WHERE PJ.P#='S1' OR s#='S2');"
+          },
+          {
+            "id": "d",
+            "label": "SELECT DISTINCT SPJX.J# FROM SPJ SPJX WHERE EXISTS (SELECT * FROM SPJ WHERE SPJ.P#=SPJX.P# AND SPJ.S#='S1' OR SPJ.S#='S2'); SQL"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: SELECT DISTINCT SPJX.J# FROM SPJ SPJX WHERE EXISTS (SELECT * FROM SPJ WHERE SPJ.P#=SPJX.P# AND SPJ.S#='S1' OR SPJ.S#='S2'); SQL."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-36",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes consultas en SQL contesta a la pregunta \"Obtener los J# de los proyectos para los cuales el proveedor S#='S1' es el único proveedor?\"?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT DISTINCT J# FROM SPJ SPJX WHERE NOT EXISTS (SELECT * FROM SPJ WHERE SPJ.J#=SPJX.J# AND SPJ.S# <> 'S1');"
+          },
+          {
+            "id": "b",
+            "label": "SELECT DISTINCT J# FROM SPJ SPJX WHERE EXISTS (SELECT * FROM SPJ WHERE SPJ.J#=SPJX.J# AND SPJ.S# = 'S1');"
+          },
+          {
+            "id": "c",
+            "label": "SELECT DISTINCT J# FROM SPJ SPJX WHERE EXISTS (SELECT * FROM SPJ WHERE SPJ.S# = 'S1');"
+          },
+          {
+            "id": "d",
+            "label": "SELECT DISTINCT J# FROM SPJ SPJX WHERE EXISTS (SELECT * FROM SPJ WHERE SPJ.P#=SPJX.P# AND SPJ.S# <>'S1');"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT DISTINCT J# FROM SPJ SPJX WHERE NOT EXISTS (SELECT * FROM SPJ WHERE SPJ.J#=SPJX.J# AND SPJ.S# <> 'S1');."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-37",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las respuestas es contestada por la siguiente consulta SQL? SELECT DISTINCT P# FROM SPJ SPJX WHERE NOT EXISTS (SELECT * FROM J WHERE CIUDAD=’Londres’ AND NOT EXISTS (SELECT * FROM SPJ SPJY WHERE SPJY.P# = SPJX.P# AND SPJY.J# = J.J# ) );",
+        "options": [
+          {
+            "id": "a",
+            "label": "Obtener los P# de las piezas suministradas a todos los proyectos que no son de ‘Londres’."
+          },
+          {
+            "id": "b",
+            "label": "Obtener los P# de las piezas suministradas solamente a los proyectos de ‘Londres’."
+          },
+          {
+            "id": "c",
+            "label": "Obtener los P# de las piezas suministradas a todos los proyectos de ‘Londres’."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna respuesta responde a la cuestión planteada. SQL"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Obtener los P# de las piezas suministradas a todos los proyectos de ‘Londres’."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-38",
+        "section": "test-oficial",
+        "prompt": "¿Cual de las siguientes consultas en SQL contesta a la pregunta \"Obtener los P# de las piezas suministradas a algún proyecto tales que la cantidad media suministrada en total sea mayor que 320\"?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT DISTINCT P# FROM SPJ GROUP BY P# WHERE AVG(cantidad) > 320;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT DISTINCT P# FROM SPJ WHERE AVG(cantidad) > 320; GROUP BY P#"
+          },
+          {
+            "id": "c",
+            "label": "SELECT DISTINCT P# FROM SPJ GROUP BY P#, J# HAVING AVG(cantidad) > 320;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT DISTINCT P# FROM SPJ GROUP BY J# HAVING AVG(cantidad) > 320;"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: SELECT DISTINCT P# FROM SPJ GROUP BY P#, J# HAVING AVG(cantidad) > 320;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-39",
+        "section": "test-oficial",
+        "prompt": "En un SGBD Oracle, indique cuál de los siguientes es un lenguaje de procedimiento cuya sintaxis permite insertar sentencias SQL y se almacena compilado dentro de la base de datos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "TRANSACT SQL."
+          },
+          {
+            "id": "b",
+            "label": "PL/SQL."
+          },
+          {
+            "id": "c",
+            "label": "FORTRAN."
+          },
+          {
+            "id": "d",
+            "label": "COBOL."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: PL/SQL."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-40",
+        "section": "test-oficial",
+        "prompt": "En SQL, ¿cómo se pueden eliminar los datos en una tabla, pero no la propia definición de la tabla?",
+        "options": [
+          {
+            "id": "a",
+            "label": "DROP TABLE."
+          },
+          {
+            "id": "b",
+            "label": "DELETE."
+          },
+          {
+            "id": "c",
+            "label": "REMOVE."
+          },
+          {
+            "id": "d",
+            "label": "ERASE."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: DELETE."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-41",
+        "section": "test-oficial",
+        "prompt": "Un analista debe definir una columna para almacenar cadenas de texto de longitud variable, hasta un máximo de 100 caracteres, en una tabla SQL estándar. ¿Cuál es el tipo de dato más adecuado según el estándar ANSI SQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "CHAR(100)."
+          },
+          {
+            "id": "b",
+            "label": "VARCHAR(100)."
+          },
+          {
+            "id": "c",
+            "label": "TEXT."
+          },
+          {
+            "id": "d",
+            "label": "STRING(100). SQL"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: VARCHAR(100)."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-42",
+        "section": "test-oficial",
+        "prompt": "En SQL estándar, ¿qué ocurre si se ejecuta DROP SCHEMA mi_esquema RESTRICT; y el esquema contiene tablas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El esquema se elimina solo si no contiene elementos."
+          },
+          {
+            "id": "b",
+            "label": "El esquema y todas sus tablas se eliminan."
+          },
+          {
+            "id": "c",
+            "label": "El esquema se elimina y las tablas se renombran."
+          },
+          {
+            "id": "d",
+            "label": "El comando falla y elimina solo las tablas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El esquema se elimina solo si no contiene elementos."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-43",
+        "section": "test-oficial",
+        "prompt": "En la definición de una clave foránea en SQL, ¿qué opción permite que, al eliminar una fila referenciada, las filas hijas se eliminen automáticamente?",
+        "options": [
+          {
+            "id": "a",
+            "label": "ON DELETE NO ACTION."
+          },
+          {
+            "id": "b",
+            "label": "ON DELETE SET NULL."
+          },
+          {
+            "id": "c",
+            "label": "ON DELETE CASCADE."
+          },
+          {
+            "id": "d",
+            "label": "ON DELETE SET DEFAULT."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: ON DELETE CASCADE."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-44",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre las vistas en SQL es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una vista siempre almacena físicamente los datos que muestra."
+          },
+          {
+            "id": "b",
+            "label": "Una vista no puede tener restricciones de inserción o modificación."
+          },
+          {
+            "id": "c",
+            "label": "Una vista no puede usarse para simplificar consultas complejas."
+          },
+          {
+            "id": "d",
+            "label": "Una vista puede ser actualizable solo si se basa en una única tabla sin GROUP BY ni HAVING."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Una vista puede ser actualizable solo si se basa en una única tabla sin GROUP BY ni HAVING."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-45",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es la forma correcta de insertar una fila en la tabla EMPLEADOS, especificando solo los campos NOMBRE y SUELDO, dejando el resto con valores por defecto?",
+        "options": [
+          {
+            "id": "a",
+            "label": "INSERT INTO EMPLEADOS VALUES ('Ana', 2000);"
+          },
+          {
+            "id": "b",
+            "label": "INSERT INTO EMPLEADOS (NOMBRE, SUELDO) VALUES ('Ana', 2000);"
+          },
+          {
+            "id": "c",
+            "label": "INSERT EMPLEADOS (NOMBRE, SUELDO) VALUES ('Ana', 2000);"
+          },
+          {
+            "id": "d",
+            "label": "INSERT INTO EMPLEADOS SET NOMBRE='Ana', SUELDO=2000;"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: INSERT INTO EMPLEADOS (NOMBRE, SUELDO) VALUES ('Ana', 2000);."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-46",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes consultas obtiene los nombres de los proyectos donde todos los empleados asignados tienen un sueldo inferior al precio del proyecto?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT nombre_proyecto FROM proyectos WHERE precio < ANY (SELECT sueldo FROM empleado WHERE proyectos.idproyecto = empleado.idproyecto);"
+          },
+          {
+            "id": "b",
+            "label": "SELECT nombre_proyecto FROM proyectos WHERE precio > ALL (SELECT sueldo FROM empleado WHERE proyectos.idproyecto = empleado.idproyecto);"
+          },
+          {
+            "id": "c",
+            "label": "SELECT nombre_proyecto FROM proyectos WHERE precio = ALL (SELECT sueldo FROM empleado WHERE proyectos.idproyecto = empleado.idproyecto);"
+          },
+          {
+            "id": "d",
+            "label": "SELECT nombre_proyecto FROM proyectos WHERE precio < ALL (SELECT sueldo FROM empleado WHERE proyectos.idproyecto = empleado.idproyecto);"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: SELECT nombre_proyecto FROM proyectos WHERE precio > ALL (SELECT sueldo FROM empleado WHERE proyectos.idproyecto = empleado.idproyecto);."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-47",
+        "section": "test-oficial",
+        "prompt": "¿Qué tipo de JOIN permite obtener todas las filas de la tabla izquierda y solo las coincidentes de la derecha, rellenando con NULL donde no hay coincidencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "INNER JOIN."
+          },
+          {
+            "id": "b",
+            "label": "RIGHT JOIN."
+          },
+          {
+            "id": "c",
+            "label": "LEFT JOIN."
+          },
+          {
+            "id": "d",
+            "label": "FULL JOIN. SQL"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: LEFT JOIN."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-48",
+        "section": "test-oficial",
+        "prompt": "¿Qué sentencia permite otorgar a un usuario el privilegio de seleccionar datos de una tabla y, además, permitirle conceder ese privilegio a otros usuarios?",
+        "options": [
+          {
+            "id": "a",
+            "label": "GRANT SELECT ON tabla TO usuario;"
+          },
+          {
+            "id": "b",
+            "label": "GRANT ALL ON tabla TO usuario;"
+          },
+          {
+            "id": "c",
+            "label": "GRANT USAGE ON tabla TO usuario;"
+          },
+          {
+            "id": "d",
+            "label": "GRANT SELECT ON tabla TO usuario WITH GRANT OPTION;"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: GRANT SELECT ON tabla TO usuario WITH GRANT OPTION;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-49",
+        "section": "test-oficial",
+        "prompt": "En SQL Server, ¿cómo se define un parámetro de salida en un procedimiento almacenado?",
+        "options": [
+          {
+            "id": "a",
+            "label": "@parametro INT OUT"
+          },
+          {
+            "id": "b",
+            "label": "parametro OUT INT"
+          },
+          {
+            "id": "c",
+            "label": "OUT @parametro INT"
+          },
+          {
+            "id": "d",
+            "label": "@parametro OUTPUT INT"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: @parametro INT OUT."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-50",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre triggers es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un trigger solo puede ejecutarse antes de una operación (BEFORE)."
+          },
+          {
+            "id": "b",
+            "label": "Un trigger puede ejecutarse antes (BEFORE), después (AFTER) o en sustitución (INSTEAD OF) de una operación."
+          },
+          {
+            "id": "c",
+            "label": "Un trigger solo puede asociarse a operaciones de inserción."
+          },
+          {
+            "id": "d",
+            "label": "Un trigger no puede acceder a los valores antiguos y nuevos de una fila."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Un trigger puede ejecutarse antes (BEFORE), después (AFTER) o en sustitución (INSTEAD OF) de una operación."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-51",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es la principal ventaja de utilizar un driver JDBC tipo 4 (Java puro) frente a los demás tipos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Permite acceder a cualquier SGBD sin instalar drivers específicos."
+          },
+          {
+            "id": "b",
+            "label": "Es el más eficiente, ya que no requiere capas intermedias y traduce directamente las llamadas JDBC al protocolo del SGBD."
+          },
+          {
+            "id": "c",
+            "label": "Requiere siempre un middleware adicional."
+          },
+          {
+            "id": "d",
+            "label": "Solo funciona con bases de datos no relacionales. Disponemos de dos tablas: - empleados(id, empleado, nombre, id_departamento) - departamentos(id_departamento, nombre_departamento)"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Es el más eficiente, ya que no requiere capas intermedias y traduce directamente las llamadas JDBC al protocolo del SGBD."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-52",
+        "section": "test-oficial",
+        "prompt": "Se quiere obtener el nombre de cada empleado junto al nombre de su departamento, solo para aquellos empleados que tienen departamento asignado. ¿Qué consulta devuelve la información requerida?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT nombre, nombre_departamento FROM empleados, departamentos;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT nombre, nombre_departamento FROM empleados INNER JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "c",
+            "label": "SELECT nombre, nombre_departamento FROM empleados LEFT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT nombre, nombre_departamento FROM empleados RIGHT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento; SQL"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: SELECT nombre, nombre_departamento FROM empleados INNER JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-53",
+        "section": "test-oficial",
+        "prompt": "Se necesitan obtener todos los empleados, incluyendo aquellos que no tienen departamento asignado, mostrando NULL en el nombre del departamento si no existe. ¿Qué consulta devuelve la información que se necesita?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT nombre, nombre_departamento FROM empleados LEFT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT nombre, nombre_departamento FROM empleados RIGHT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "c",
+            "label": "SELECT nombre, nombre_departamento FROM empleados INNER JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT nombre, nombre_departamento FROM empleados, departamentos;"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT nombre, nombre_departamento FROM empleados LEFT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-54",
+        "section": "test-oficial",
+        "prompt": "Es necesario obtener todos los departamentos, incluyendo aquellos que no tienen empleados asignados, mostrando NULL en el nombre del empleado si no existe. ¿Qué consulta",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT nombre, nombre_departamento FROM empleados RIGHT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT nombre, nombre_departamento FROM empleados LEFT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "c",
+            "label": "SELECT nombre, nombre_departamento FROM empleados INNER JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT nombre, nombre_departamento;"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT nombre, nombre_departamento FROM empleados RIGHT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-55",
+        "section": "test-oficial",
+        "prompt": "Se precisa obtener todos los empleados y todos los departamentos, mostrando NULL donde no haya coincidencia entre empleado y departamento.",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT nombre, nombre_departamento FROM empleados FULL OUTER JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT nombre, nombre_departamento FROM empleados LEFT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "c",
+            "label": "SELECT nombre, nombre_departamento FROM empleados RIGHT JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT nombre, nombre_departamento FROM empleados INNER JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT nombre, nombre_departamento FROM empleados FULL OUTER JOIN departamentos ON empleados.id_departamento = departamentos.id_departamento;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-56",
+        "section": "test-oficial",
+        "prompt": "Tienes dos tablas con una columna llamada id en ambas, y quieres hacer una combinación automática por esa columna, sin especificar ON ni USING. ¿Qué tipo de JOIN se debe usar?",
+        "options": [
+          {
+            "id": "a",
+            "label": "INNER JOIN."
+          },
+          {
+            "id": "b",
+            "label": "NATURAL JOIN."
+          },
+          {
+            "id": "c",
+            "label": "LEFT JOIN."
+          },
+          {
+            "id": "d",
+            "label": "CROSS JOIN. SQL"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: NATURAL JOIN."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-57",
+        "section": "test-oficial",
+        "prompt": "Dispones de las tablas funcionarios(id_funcionario, nombre, apellidos, id_unidad) y expedientes (id_expediente, id_funcionario, fecha_inicio, estado). Queremos saber cuántos expedientes ha tramitado cada funcionario. ¿Cuál es la consulta SQL más adecuada?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT f.nombre, f.apellidos, COUNT(e.id_expediente) AS num_expedientes FROM funcionarios f LEFT JOIN expedientes e ON f.id_funcionario = e.id_funcionario GROUP BY f.nombre, f.apellidos;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT f.nombre, f.apellidos, COUNT(*) AS num_expedientes FROM expedientes e INNER JOIN funcionarios f ON e.id_funcionario = f.id_funcionario GROUP BY f.nombre, f.apellidos;"
+          },
+          {
+            "id": "c",
+            "label": "SELECT nombre, apellidos, COUNT(id_expediente) AS num_expedientes FROM expedientes GROUP BY nombre, apellidos;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT f.nombre, f.apellidos, COUNT(e.id_expediente) AS num_expedientes FROM expedientes e RIGHT JOIN funcionarios f ON e.id_funcionario = f.id_funcionario GROUP BY f.nombre, f.apellidos;"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT f.nombre, f.apellidos, COUNT(e.id_expediente) AS num_expedientes FROM funcionarios f LEFT JOIN expedientes e ON f.id_funcionario = e.id_funcionario GROUP BY f.nombre, f.apellidos;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-58",
+        "section": "test-oficial",
+        "prompt": "Tienes las tablas unidades(id_unidad, nombre_unidad, sede) y funcionarios(id_funcionario, nombre, id_unidad). Quieren saber cuántos funcionarios hay en cada unidad administrativa, mostrando también las unidades sin funcionarios. ¿Cuál es la consulta correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A)SELECT u.nombre_unidad, COUNT(f.id_funcionario) AS num_funcionarios FROM unidades u LEFT JOIN funcionarios f ON u.id_unidad = f.id_unidad GROUP BY u.nombre_unidad;"
+          },
+          {
+            "id": "b",
+            "label": "B) SELECT u.nombre_unidad, COUNT(*) AS num_funcionarios FROM funcionarios f INNER JOIN unidades u ON f.id_unidad = u.id_unidad GROUP BY u.nombre_unidad;"
+          },
+          {
+            "id": "c",
+            "label": "C) SELECT u.nombre_unidad, COUNT(f.id_funcionario) AS num_funcionarios FROM funcionarios f RIGHT JOIN unidades u ON f.id_unidad = u.id_unidad GROUP BY u.nombre_unidad;"
+          },
+          {
+            "id": "d",
+            "label": "D) SELECT nombre_unidad, COUNT(id_funcionario) AS num_funcionarios FROM funcionarios GROUP BY nombre_unidad;"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: A)SELECT u.nombre_unidad, COUNT(f.id_funcionario) AS num_funcionarios FROM unidades u LEFT JOIN funcionarios f ON u.id_unidad = f.id_unidad GROUP BY u.nombre_unidad;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-59",
+        "section": "test-oficial",
+        "prompt": "Tenemos de las tablas ciudadanos(dni, nombre, provincia) y solicitudes(id_solicitud, dni, fecha, tipo_tramite). Se requiere obtener las provincias donde los ciudadanos han presentado más de 100 solicitudes. ¿Cuál es la consulta adecuada?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT c.provincia, COUNT(s.id_solicitud) AS total_solicitudes FROM ciudadanos c INNER JOIN solicitudes s ON c.dni = s.dni GROUP BY c.provincia HAVING COUNT(s.id_solicitud) > 100;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT provincia, COUNT(id_solicitud) AS total_solicitudes FROM solicitudes GROUP BY provincia HAVING COUNT(id_solicitud) > 100;"
+          },
+          {
+            "id": "c",
+            "label": "SELECT c.provincia, COUNT(*) AS total_solicitudes FROM ciudadanos c LEFT JOIN solicitudes s ON c.dni = s.dni GROUP BY c.provincia HAVING COUNT(*) > 100;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT provincia, COUNT(*) AS total_solicitudes FROM ciudadanos GROUP BY provincia HAVING COUNT(*) > 100; SQL"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT c.provincia, COUNT(s.id_solicitud) AS total_solicitudes FROM ciudadanos c INNER JOIN solicitudes s ON c.dni = s.dni GROUP BY c.provincia HAVING COUNT(s.id_solicitud) > 100;."
+      },
+      {
+        "id": "b3t4-test-oficial-lenguajes-bd-sql-60",
+        "section": "test-oficial",
+        "prompt": "Tenemos las tablas organismos(id_organismo, nombre_organismo, tipo) y contratos(id_contrato, id_organismo, importe, fecha_firma). Se desea saber el importe total adjudicado por cada organismo. ¿Cuál es la consulta correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SELECT o.nombre_organismo, SUM(c.importe) AS total_adjudicado FROM organismos o LEFT JOIN contratos c ON o.id_organismo = c.id_organismo GROUP BY o.nombre_organismo;"
+          },
+          {
+            "id": "b",
+            "label": "SELECT o.nombre_organismo, SUM(c.importe) AS total_adjudicado FROM contratos c INNER JOIN organismos o ON c.id_organismo = o.id_organismo GROUP BY o.nombre_organismo;"
+          },
+          {
+            "id": "c",
+            "label": "SELECT nombre_organismo, SUM(importe) AS total_adjudicado FROM contratos GROUP BY nombre_organismo;"
+          },
+          {
+            "id": "d",
+            "label": "SELECT o.nombre_organismo, SUM(c.importe) AS total_adjudicado FROM organismos o RIGHT JOIN contratos c ON o.id_organismo = c.id_organismo GROUP BY o.nombre_organismo;"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: SELECT o.nombre_organismo, SUM(c.importe) AS total_adjudicado FROM organismos o LEFT JOIN contratos c ON o.id_organismo = c.id_organismo GROUP BY o.nombre_organismo;."
+      }
+    ]
   }
 ]

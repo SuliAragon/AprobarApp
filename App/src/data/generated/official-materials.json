@@ -78,5 +78,45 @@
     "sourceFilename": "Bloque 3/Tema 2/B3T2Test_Diseno_BD 4.pdf",
     "title": "Test oficial Diseno BD",
     "assetPath": "/test-oficial/B3T2/b3t2-test-oficial-diseno-bd.pdf"
+  },
+  {
+    "code": "B3T4",
+    "slug": "b3t4-ejercicios",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 4/B3T4Ejercicios 1.pdf",
+    "title": "Ejercicios",
+    "assetPath": "/test-oficial/B3T4/b3t4-ejercicios.pdf"
+  },
+  {
+    "code": "B3T4",
+    "slug": "b3t4-ejercicios-soluciones",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 4/B3T4Ejercicios_soluciones 1.pdf",
+    "title": "Ejercicios soluciones",
+    "assetPath": "/test-oficial/B3T4/b3t4-ejercicios-soluciones.pdf"
+  },
+  {
+    "code": "B3T4",
+    "slug": "b3t4-test-oficial-lenguajes-bd-sql",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 3/Tema 4/B3T4Test_Lenguajes_BD_SQL 2.pdf",
+    "title": "Test oficial Lenguajes BD SQL",
+    "assetPath": "/test-oficial/B3T4/b3t4-test-oficial-lenguajes-bd-sql.pdf"
+  },
+  {
+    "code": "B3T4",
+    "slug": "b3t4-enunciado1",
+    "kind": "resource",
+    "sourceFilename": "Bloque 3/Tema 4/B3T4_enunciado1 1.sql",
+    "title": "enunciado1",
+    "assetPath": "/test-oficial/B3T4/b3t4-enunciado1.sql"
+  },
+  {
+    "code": "B3T4",
+    "slug": "b3t4-ejercicios-batallas",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 4/B3T4Ejercicios_Batallas 1.sql",
+    "title": "Ejercicios Batallas",
+    "assetPath": "/test-oficial/B3T4/b3t4-ejercicios-batallas.sql"
   }
 ]

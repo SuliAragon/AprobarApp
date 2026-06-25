@@ -290,4 +290,59 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B3T4: {
+    title: "Lenguajes de bases de datos SQL, procedimientos almacenados y disparadores",
+    shortTitle: "SQL",
+    description:
+      "Tema del bloque de bases de datos centrado en ANSI SQL, DDL, DML, DCL, procedimientos almacenados, eventos, disparadores y conectividad ODBC/JDBC.",
+    summary: [
+      "Panorámica del estándar ANSI SQL y su evolución histórica, con las sentencias base de definición, manipulación y control de datos.",
+      "Trabajo sobre DDL, DML y DCL: CREATE, ALTER, DROP, SELECT, INSERT, UPDATE, DELETE, COMMIT, ROLLBACK, GRANT y REVOKE.",
+      "Consultas SQL con filtros, joins, agrupaciones, vistas, restricciones, integridad y tratamiento práctico de esquemas relacionales.",
+      "Procedimientos almacenados, eventos y disparadores en distintos motores, junto con su papel en la automatización de lógica de base de datos.",
+      "Material complementario del profesor incorporado dentro del tema: test oficial, ejercicios resueltos y scripts `.sql` descargables.",
+    ],
+    sections: [
+      "Estándar ANSI SQL",
+      "DDL: esquemas, tablas, restricciones y vistas",
+      "DML, DCL y consultas SQL",
+      "Procedimientos almacenados",
+      "Eventos y disparadores",
+      "Conectividad ODBC y JDBC",
+      "Ejercicios y casos prácticos",
+    ],
+    accent: "azure",
+    testPresets: [
+      {
+        slug: "ansi-sql-y-ddl",
+        title: "Test 1 · ANSI SQL y DDL",
+        description: "Refuerza evolución del estándar SQL, sentencias DDL, tipos de datos, esquemas, tablas y restricciones.",
+        focusSections: ["ansi-sql-y-ddl"],
+      },
+      {
+        slug: "dml-dcl-y-consultas",
+        title: "Test 2 · DML, DCL y consultas",
+        description: "Trabaja SELECT, INSERT, UPDATE, DELETE, GRANT, REVOKE, transacciones y sintaxis general de consulta.",
+        focusSections: ["dml-dcl-y-consultas"],
+      },
+      {
+        slug: "joins-agrupaciones-y-vistas",
+        title: "Test 3 · Joins, agrupaciones y vistas",
+        description: "Entrena joins ANSI, GROUP BY, HAVING, ORDER BY, funciones de agregación y creación o borrado de vistas.",
+        focusSections: ["joins-agrupaciones-y-vistas"],
+      },
+      {
+        slug: "procedimientos-eventos-y-disparadores",
+        title: "Test 4 · Procedimientos y disparadores",
+        description: "Se centra en procedimientos almacenados, eventos, triggers y automatización en motores de bases de datos.",
+        focusSections: ["procedimientos-eventos-y-disparadores"],
+      },
+      {
+        slug: "conectividad-y-casos-practicos",
+        title: "Test 5 · Conectividad y casos prácticos",
+        description: "Combina ODBC, JDBC y ejercicios de consultas reales con joins y agregaciones sobre escenarios administrativos.",
+        focusSections: ["conectividad-y-casos-practicos"],
+      },
+    ],
+  },
 };

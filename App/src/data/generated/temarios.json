@@ -68,5 +68,13 @@
         "assetPath": "/podcast/B3T2/diseno-logico-y-fisico-de-datos.m4a"
       }
     ]
+  },
+  {
+    "code": "B3T4",
+    "slug": "b3t4-lenguajes-bd-sql",
+    "sourceFilename": "Bloque 3/Tema 4/B3T4_Lenguajes_BD_SQL 1.pdf",
+    "title": "B3T4 Lenguajes BD SQL",
+    "pdfPath": "/temario/b3t4-lenguajes-bd-sql.pdf",
+    "podcasts": []
   }
 ]

@@ -162,7 +162,7 @@ if (!existsSync(officialSourceDir)) {
 
 const officialFiles = collectFilesRecursively(officialSourceDir)
   .filter((file) => !relative(officialSourceDir, file).startsWith("Simulacros/"))
-  .filter((file) => [".pdf", ".doc", ".docx", ".png", ".jpg", ".jpeg"].includes(extname(file).toLowerCase()))
+  .filter((file) => [".pdf", ".doc", ".docx", ".png", ".jpg", ".jpeg", ".sql"].includes(extname(file).toLowerCase()))
   .sort((a, b) => a.localeCompare(b, "es"));
 
 function buildOfficialEntry(filePath, rootDirectory, { code, originalName } = {}) {
@@ -210,6 +210,15 @@ if (existsSync(sourceDir)) {
         buildOfficialEntry(join(sourceDir, relatedPdf), sourceDir, {
           code: entry.code || deriveCode(basename(entry.sourceFilename)) || "SIN-CODIGO",
           originalName: relatedPdf,
+        }),
+      );
+    }
+
+    for (const relatedResource of entry.relatedResourceFiles ?? []) {
+      officialEntries.push(
+        buildOfficialEntry(join(sourceDir, relatedResource), sourceDir, {
+          code: entry.code || deriveCode(basename(entry.sourceFilename)) || "SIN-CODIGO",
+          originalName: relatedResource,
         }),
       );
     }

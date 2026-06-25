@@ -61,3 +61,24 @@ test("buildTemarioCatalog usa el temario principal y conserva pdfs complementari
     "Bloque 3/Tema 1/B3T1Test_ModeloER 1.pdf",
   ]);
 });
+
+test("buildTemarioCatalog conserva recursos auxiliares como sql dentro del mismo tema", () => {
+  const catalog = buildTemarioCatalog([
+    "Bloque 3/Tema 4/B3T4_Lenguajes_BD_SQL 1.pdf",
+    "Bloque 3/Tema 4/B3T4Test_Lenguajes_BD_SQL 2.pdf",
+    "Bloque 3/Tema 4/B3T4Ejercicios 1.pdf",
+    "Bloque 3/Tema 4/B3T4_enunciado1 1.sql",
+    "Bloque 3/Tema 4/B3T4Ejercicios_Batallas 1.sql",
+  ]);
+
+  assert.equal(catalog.length, 1);
+  assert.equal(catalog[0].sourceFilename, "Bloque 3/Tema 4/B3T4_Lenguajes_BD_SQL 1.pdf");
+  assert.deepEqual(catalog[0].relatedPdfFiles, [
+    "Bloque 3/Tema 4/B3T4Ejercicios 1.pdf",
+    "Bloque 3/Tema 4/B3T4Test_Lenguajes_BD_SQL 2.pdf",
+  ]);
+  assert.deepEqual(catalog[0].relatedResourceFiles, [
+    "Bloque 3/Tema 4/B3T4_enunciado1 1.sql",
+    "Bloque 3/Tema 4/B3T4Ejercicios_Batallas 1.sql",
+  ]);
+});
