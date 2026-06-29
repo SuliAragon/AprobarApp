@@ -75,6 +75,12 @@
     "sourceFilename": "Bloque 3/Tema 4/B3T4_Lenguajes_BD_SQL 1.pdf",
     "title": "B3T4 Lenguajes BD SQL",
     "pdfPath": "/temario/b3t4-lenguajes-bd-sql.pdf",
-    "podcasts": []
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 3/Tema 4/SQL_y_el_orden_invisible_de_datos.m4a",
+        "title": "SQL y el orden invisible de datos",
+        "assetPath": "/podcast/B3T4/sql-y-el-orden-invisible-de-datos.m4a"
+      }
+    ]
   }
 ]
