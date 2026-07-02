@@ -40,6 +40,14 @@
     "assetPath": "/test-oficial/B1T2/b1t2-test-oficial-cortes-generales.pdf"
   },
   {
+    "code": "B2T5",
+    "slug": "b2t5-test-oficial-sgbd",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 2/Tema 5/B2T5Test_SGBD 1.pdf",
+    "title": "Test oficial SGBD",
+    "assetPath": "/test-oficial/B2T5/b2t5-test-oficial-sgbd.pdf"
+  },
+  {
     "code": "B3T1",
     "slug": "b3t1-ejercicios-enunciados",
     "kind": "exercise",

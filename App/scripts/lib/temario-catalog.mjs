@@ -36,8 +36,12 @@ function prettifyPodcastFilename(filename) {
     .trim();
 }
 
+function isIgnoredPdf(filePath) {
+  return extname(filePath).toLowerCase() === ".pdf" && /esquema/i.test(basename(filePath));
+}
+
 function pickPreferredPdf(files) {
-  const pdfFiles = files.filter((file) => extname(file).toLowerCase() === ".pdf");
+  const pdfFiles = files.filter((file) => extname(file).toLowerCase() === ".pdf" && !isIgnoredPdf(file));
 
   if (pdfFiles.length <= 1) {
     return pdfFiles[0] ?? null;
@@ -93,7 +97,7 @@ export function buildTemarioCatalog(relativeFiles) {
       const title = prettifyPdfFilename(basename(pdfFile));
       const slug = slugify(title);
       const relatedPdfFiles = sortedFiles.filter(
-        (file) => extname(file).toLowerCase() === ".pdf" && file !== pdfFile,
+        (file) => extname(file).toLowerCase() === ".pdf" && file !== pdfFile && !isIgnoredPdf(file),
       );
       const relatedResourceFiles = sortedFiles.filter((file) =>
         relatedResourceExtensions.has(extname(file).toLowerCase()),
@@ -123,5 +127,9 @@ export function buildTemarioCatalog(relativeFiles) {
 
 export function isSupportedTemarioFile(filePath) {
   const extension = extname(filePath).toLowerCase();
-  return extension === ".pdf" || audioExtensions.has(extension) || relatedResourceExtensions.has(extension);
+  if (extension === ".pdf") {
+    return !isIgnoredPdf(filePath);
+  }
+
+  return audioExtensions.has(extension) || relatedResourceExtensions.has(extension);
 }

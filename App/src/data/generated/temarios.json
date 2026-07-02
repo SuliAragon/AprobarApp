@@ -42,6 +42,20 @@
     ]
   },
   {
+    "code": "B2T5",
+    "slug": "b2t5-sgbd",
+    "sourceFilename": "Bloque 2/Tema 5/B2T5_SGBD 3.pdf",
+    "title": "B2T5 SGBD",
+    "pdfPath": "/temario/b2t5-sgbd.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 2/Tema 5/Modelo_ACID_y_bases_de_datos_NoSQL.m4a",
+        "title": "Modelo ACID y bases de datos NoSQL",
+        "assetPath": "/podcast/B2T5/modelo-acid-y-bases-de-datos-nosql.m4a"
+      }
+    ]
+  },
+  {
     "code": "B3T1",
     "slug": "b3t1-modelo-er",
     "sourceFilename": "Bloque 3/Tema 1/B3T1_Modelo_ER 4.pdf",

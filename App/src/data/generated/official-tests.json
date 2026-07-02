@@ -6552,6 +6552,1169 @@
     ]
   },
   {
+    "code": "B2T5",
+    "slug": "b2t5-test-oficial-sgbd",
+    "title": "Test oficial SGBD",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 2/Tema 5/B2T5Test_SGBD 1.pdf",
+    "assetPath": "/test-oficial/B2T5/b2t5-test-oficial-sgbd.pdf",
+    "questions": [
+      {
+        "id": "b2t5-test-oficial-sgbd-1",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes sistemas de bases de datos es orientado a objetos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "MySQL."
+          },
+          {
+            "id": "b",
+            "label": "SQLite."
+          },
+          {
+            "id": "c",
+            "label": "Zope Object DB."
+          },
+          {
+            "id": "d",
+            "label": "MariaDB."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Zope Object DB."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-2",
+        "section": "test-oficial",
+        "prompt": "Señale, de entre los siguientes, cuál es un gestor de bases de datos relacional:",
+        "options": [
+          {
+            "id": "a",
+            "label": "PostgreSQL."
+          },
+          {
+            "id": "b",
+            "label": "Datawarehouse."
+          },
+          {
+            "id": "c",
+            "label": "Snowflake."
+          },
+          {
+            "id": "d",
+            "label": "CouchDB."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: PostgreSQL."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-3",
+        "section": "test-oficial",
+        "prompt": "La ejecución de una transacción en un SGBD debe cumplir, entre otras, las características de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Consistencia y herencia."
+          },
+          {
+            "id": "b",
+            "label": "Atomicidad y herencia."
+          },
+          {
+            "id": "c",
+            "label": "Atomicidad y consistencia."
+          },
+          {
+            "id": "d",
+            "label": "Abstracción y polimorfismo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Atomicidad y consistencia."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-4",
+        "section": "test-oficial",
+        "prompt": "¿Qué es MongoDB?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es una base de datos NoSQL de código abierto basada en documentos tipo JSON."
+          },
+          {
+            "id": "b",
+            "label": "Es un almacén de estructuras de datos en memoria, usado como base de datos, caché y bróker de mensajería."
+          },
+          {
+            "id": "c",
+            "label": "Es una extensión de PostgreSQL para el tratamiento de información geográfica."
+          },
+          {
+            "id": "d",
+            "label": "Es una base de datos relacional de código abierto, compatible con Oracle."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Es una base de datos NoSQL de código abierto basada en documentos tipo JSON."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-5",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes Bases de Datos NoSQL es de tipo clave-valor?",
+        "options": [
+          {
+            "id": "a",
+            "label": "MongoDB."
+          },
+          {
+            "id": "b",
+            "label": "Redis."
+          },
+          {
+            "id": "c",
+            "label": "CouchDB."
+          },
+          {
+            "id": "d",
+            "label": "Knosys."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Redis."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-6",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes características en relación a las bases de datos SQL y NoSQL es FALSA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "NoSQL no suele utilizar SQL como lenguaje de consultas."
+          },
+          {
+            "id": "b",
+            "label": "No se suelen realizar operaciones JOIN en NoSQL por el alto coste."
+          },
+          {
+            "id": "c",
+            "label": "Es más sencillo realizar escalado horizontal en NoSQL que en una base de datos SQL."
+          },
+          {
+            "id": "d",
+            "label": "Las bases de datos NoSQL garantizan completamente las propiedades ACID."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Las bases de datos NoSQL garantizan completamente las propiedades ACID."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-7",
+        "section": "test-oficial",
+        "prompt": "El proyecto de la fundación Apache que provee una base de datos NoSQL se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Hadoop."
+          },
+          {
+            "id": "b",
+            "label": "CouchDB."
+          },
+          {
+            "id": "c",
+            "label": "Ignite."
+          },
+          {
+            "id": "d",
+            "label": "MetaModel. SGBD"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: CouchDB."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-8",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre MongoDB es CORRECTA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Permite el uso de instrucciones SQL."
+          },
+          {
+            "id": "b",
+            "label": "El equivalente en MongoDB a una tabla de un SGBDR se denomina Documento."
+          },
+          {
+            "id": "c",
+            "label": "Utiliza BSON con formato de serialización para almacenar datos."
+          },
+          {
+            "id": "d",
+            "label": "Soporte transacciones sobre múltiples documentos."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Utiliza BSON con formato de serialización para almacenar datos."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-9",
+        "section": "test-oficial",
+        "prompt": "En relación con el modelo relacional, cuál de entre las siguientes NO se considera una de las reglas de CODD:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Regla de la actualización de vistas."
+          },
+          {
+            "id": "b",
+            "label": "Tratamiento sistemático de valores nulos."
+          },
+          {
+            "id": "c",
+            "label": "Regla de la no subversión."
+          },
+          {
+            "id": "d",
+            "label": "Regla de la independencia del catálogo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Regla de la independencia del catálogo."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-10",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de las siguientes NO es una base de datos NoSQL basada en un modelo de almacenamiento clave-valor:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cassandra."
+          },
+          {
+            "id": "b",
+            "label": "Dynamo."
+          },
+          {
+            "id": "c",
+            "label": "Radiant."
+          },
+          {
+            "id": "d",
+            "label": "Oracle NoSQL."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Radiant."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-11",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes características es propia de los sistemas de base de datos NoSQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Soportan operaciones JOIN."
+          },
+          {
+            "id": "b",
+            "label": "Garantizan completamente ACID."
+          },
+          {
+            "id": "c",
+            "label": "Requieren estructuras fijas, como tablas."
+          },
+          {
+            "id": "d",
+            "label": "Escalan bien horizontalmente."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Escalan bien horizontalmente."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-12",
+        "section": "test-oficial",
+        "prompt": "Entre los tipos de Bases de Datos NoSQL no se encuentran:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Bases de datos orientadas a filas."
+          },
+          {
+            "id": "b",
+            "label": "Bases de datos orientadas a documentos."
+          },
+          {
+            "id": "c",
+            "label": "Bases de datos de clave/valor."
+          },
+          {
+            "id": "d",
+            "label": "Bases de datos orientadas a objetos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Bases de datos orientadas a objetos."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-13",
+        "section": "test-oficial",
+        "prompt": "Entre las características de las Bases de Datos NoSQL se encuentran:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Pueden manejar enormes cantidades de datos estructurados."
+          },
+          {
+            "id": "b",
+            "label": "Existe un control estricto de las transacciones (propiedades ACID)."
+          },
+          {
+            "id": "c",
+            "label": "Se basan en sistemas distribuidos."
+          },
+          {
+            "id": "d",
+            "label": "Se basan en el modelo de datos relacional."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Se basan en sistemas distribuidos."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-14",
+        "section": "test-oficial",
+        "prompt": "Son bases de datos NoSQL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "MongoDB y MariaDB"
+          },
+          {
+            "id": "b",
+            "label": "HBase y DynamoDB."
+          },
+          {
+            "id": "c",
+            "label": "MariaDB, Cassandra y BigTable"
+          },
+          {
+            "id": "d",
+            "label": "Memcached y ObjectDB. SGBD"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: HBase y DynamoDB."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-15",
+        "section": "test-oficial",
+        "prompt": "¿Quién desarrolló inicialmente la base de datos NoSQL Cassandra?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Apache."
+          },
+          {
+            "id": "b",
+            "label": "Facebook."
+          },
+          {
+            "id": "c",
+            "label": "Apple."
+          },
+          {
+            "id": "d",
+            "label": "Twitter."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Facebook."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-16",
+        "section": "test-oficial",
+        "prompt": "Un sistema de gestión de base de datos NoSQL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un sistema de base de datos relacional que no utiliza SQL."
+          },
+          {
+            "id": "b",
+            "label": "Almacena sus datos en estructuras fijas (tablas)."
+          },
+          {
+            "id": "c",
+            "label": "Garantiza completamente las propiedades ACID."
+          },
+          {
+            "id": "d",
+            "label": "Tienen como ventaja principal la gran escalabilidad y rendimiento."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Tienen como ventaja principal la gran escalabilidad y rendimiento."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-17",
+        "section": "test-oficial",
+        "prompt": "Es un sistema de bases de datos es orientado a objetos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "GemStone."
+          },
+          {
+            "id": "b",
+            "label": "ObjectDB."
+          },
+          {
+            "id": "c",
+            "label": "Son correctas las respuestas a) y b)."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las anteriores respuestas es correcta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Son correctas las respuestas a) y b)."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-18",
+        "section": "test-oficial",
+        "prompt": "¿Cuál NO es una ventaja de los sistemas de base de datos NoSQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Manejan eficientemente grandes cantidades de datos."
+          },
+          {
+            "id": "b",
+            "label": "Ofrecen una gran eficiencia en operaciones en tiempo real."
+          },
+          {
+            "id": "c",
+            "label": "Utilizan estructuras flexibles."
+          },
+          {
+            "id": "d",
+            "label": "Genera cuellos de botella."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Genera cuellos de botella."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-19",
+        "section": "test-oficial",
+        "prompt": "En el ámbito de las bases de datos Oracle una vista materializada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un objeto de la base de datos donde se almacena la información de todas las vistas de la BD."
+          },
+          {
+            "id": "b",
+            "label": "Es un objeto de la base de datos donde se almacena la definición de la tabla que materializa."
+          },
+          {
+            "id": "c",
+            "label": "Es un objeto de la base de datos donde se almacena el resultado de una consulta."
+          },
+          {
+            "id": "d",
+            "label": "Es una vista ordinaria que automáticamente se actualizará siempre que se actualicen las tablas involucradas en esa vista."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Es un objeto de la base de datos donde se almacena el resultado de una consulta."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-20",
+        "section": "test-oficial",
+        "prompt": "Respecto a la tecnología de almacenamiento InnoDB señale la respuesta afirmativa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "InnoDB es una tecnología de almacenamiento de datos de código abierto para la base de datos Oracle."
+          },
+          {
+            "id": "b",
+            "label": "Es la tecnología de almacenamiento de datos por defecto por el sistema administrador de bases de datos relacionales MySQL."
+          },
+          {
+            "id": "c",
+            "label": "Se basa en el código ISAM."
+          },
+          {
+            "id": "d",
+            "label": "No permite las búsquedas denominadas full-text, que para conjuntos de datos grandes son mucho más eficientes."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Es la tecnología de almacenamiento de datos por defecto por el sistema administrador de bases de datos relacionales MySQL."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-21",
+        "section": "test-oficial",
+        "prompt": "En Oracle, un tablespace es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El espacio que ocupa un fichero en donde reside un índice."
+          },
+          {
+            "id": "b",
+            "label": "El espacio físico de almacenamiento de datos."
+          },
+          {
+            "id": "c",
+            "label": "El espacio que ocupa un fichero en donde reside una tabla."
+          },
+          {
+            "id": "d",
+            "label": "El espacio lógico de almacenamiento de datos. SGBD"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El espacio lógico de almacenamiento de datos. SGBD."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-22",
+        "section": "test-oficial",
+        "prompt": "¿Qué alternativas existen en otros sistemas de base de datos a las vistas materializadas de Oracle?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Vistas indexadas."
+          },
+          {
+            "id": "b",
+            "label": "Vistas normalizadas."
+          },
+          {
+            "id": "c",
+            "label": "Vistas físicas."
+          },
+          {
+            "id": "d",
+            "label": "No existen alternativas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Vistas indexadas."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-23",
+        "section": "test-oficial",
+        "prompt": "En el contexto del SGBD ORACLE, al conjunto compartido de estructuras de memoria y procesos que acceden a un grupo de ficheros de la base de datos, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Réplica."
+          },
+          {
+            "id": "b",
+            "label": "Segmento."
+          },
+          {
+            "id": "c",
+            "label": "Instancia."
+          },
+          {
+            "id": "d",
+            "label": "Tablespace."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Instancia."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-24",
+        "section": "test-oficial",
+        "prompt": "La regla 2 de Codd es la del:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tratamiento sistemático de valores nulos."
+          },
+          {
+            "id": "b",
+            "label": "Acceso garantizado."
+          },
+          {
+            "id": "c",
+            "label": "Actualización de vistas."
+          },
+          {
+            "id": "d",
+            "label": "Integridad referencial."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Acceso garantizado."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-25",
+        "section": "test-oficial",
+        "prompt": "¿En qué consiste la regla de Independencia de Integridad establecida por Codd?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los programas de aplicación y actividades del terminal permanecerán inalterados a nivel lógico cuando se realicen cambios sobre las tablas base que preservan la información."
+          },
+          {
+            "id": "b",
+            "label": "Las limitaciones de integridad han de poder ser definidos utilizando el sublenguaje de datos relacional y almacenables en el catálogo dinámico."
+          },
+          {
+            "id": "c",
+            "label": "La independencia de integridad requiere la definición de claves ajenas con la opción CASCADE, a fin de que se propaguen a la clave ajena los cambios realizados sobre la clave primaria referenciada."
+          },
+          {
+            "id": "d",
+            "label": "Si en una relación hay una clave ajena, sus valores deben coincidir con los valores de la clave primaria a que se refiere, o deben ser completamente nulos."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Las limitaciones de integridad han de poder ser definidos utilizando el sublenguaje de datos relacional y almacenables en el catálogo dinámico."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-26",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes es una regla de Codd?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Regla de la no subversión."
+          },
+          {
+            "id": "b",
+            "label": "Regla de la no concurrencia."
+          },
+          {
+            "id": "c",
+            "label": "Regla de la restricción."
+          },
+          {
+            "id": "d",
+            "label": "Regla de la no replicación de Información."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Regla de la no subversión."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-27",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre bases de datos relacionales se deriva de las reglas de Codd?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un SGBD no debe permitir el uso de valores vacíos."
+          },
+          {
+            "id": "b",
+            "label": "Los cambios realizados a nivel físico no deben afectar al nivel lógico."
+          },
+          {
+            "id": "c",
+            "label": "Un SGBD no debe almacenar información redundante ni cíclica."
+          },
+          {
+            "id": "d",
+            "label": "Un SGBD no debe instalarse de manera distribuida para evitar restricciones de acceso a los datos. SGBD"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Los cambios realizados a nivel físico no deben afectar al nivel lógico."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-28",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO es una de las llamadas doce reglas de Codd?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Independencia física de los datos."
+          },
+          {
+            "id": "b",
+            "label": "Independencia de distribución."
+          },
+          {
+            "id": "c",
+            "label": "Independencia de actualización."
+          },
+          {
+            "id": "d",
+            "label": "Independencia de integridad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Independencia de actualización."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-29",
+        "section": "test-oficial",
+        "prompt": "EI acrónimo en inglés \"ACID\" relacionado con una transacción de base de datos se corresponde con las propiedades:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Authentication, Consistency, Integrity, Durability."
+          },
+          {
+            "id": "b",
+            "label": "Atomicity, Confidentiality, Identification, Durability."
+          },
+          {
+            "id": "c",
+            "label": "Atomicity, Consistency, Isolation, Durability."
+          },
+          {
+            "id": "d",
+            "label": "Availability, Consistency, Isolation, Durability."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Atomicity, Consistency, Isolation, Durability."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-30",
+        "section": "test-oficial",
+        "prompt": "Las reglas de Codd sirven para:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Integrar correctamente el modelo conceptual en un sistema gestor de bases de datos."
+          },
+          {
+            "id": "b",
+            "label": "Crear bases de datos más relacionadas y normalizadas."
+          },
+          {
+            "id": "c",
+            "label": "Cumplir con el estándar ANSI-SPARC."
+          },
+          {
+            "id": "d",
+            "label": "Describir correctamente los tres niveles del modelo de relación de entidades."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Crear bases de datos más relacionadas y normalizadas."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-31",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes NO es una de las Reglas de Codd:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Regla de la independencia física de los datos."
+          },
+          {
+            "id": "b",
+            "label": "Regla de no subversión."
+          },
+          {
+            "id": "c",
+            "label": "Regla de la inserción, actualización y supresión de bajo nivel."
+          },
+          {
+            "id": "d",
+            "label": "Regla de la actualización de vistas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Regla de la inserción, actualización y supresión de bajo nivel."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-32",
+        "section": "test-oficial",
+        "prompt": "Entre las características obligatorias de un sistema gestor de bases de datos orientadas a objetos, NO se encuentra:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Debe permitir construir objetos complejos."
+          },
+          {
+            "id": "b",
+            "label": "El conjunto de tipos de datos debe ser fijo, consiguiendo así mayor eficiencia en las búsquedas."
+          },
+          {
+            "id": "c",
+            "label": "Todos los objetos deben tener un identificador que sea independiente de los valores de sus atributos."
+          },
+          {
+            "id": "d",
+            "label": "El esquema de una base de datos orientada a objetos incluye únicamente un conjunto de clases (o de tipos)."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El conjunto de tipos de datos debe ser fijo, consiguiendo así mayor eficiencia en las búsquedas."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-33",
+        "section": "test-oficial",
+        "prompt": "Señale qué es el Machine Learning Services para SQL Server:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un conjunto de tecnologías destinadas a la copia y distribución de datos y objetos de base de datos desde una base de datos a otra, para luego sincronizar ambas bases de datos y mantener su coherencia."
+          },
+          {
+            "id": "b",
+            "label": "Es una característica de SQL Server que proporciona la capacidad de ejecutar scripts de Python y R con datos relacionales."
+          },
+          {
+            "id": "c",
+            "label": "Es un producto de calidad de datos basado en conocimiento."
+          },
+          {
+            "id": "d",
+            "label": "Es el servicio principal para almacenar, procesar y proteger los datos. SGBD"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Es una característica de SQL Server que proporciona la capacidad de ejecutar scripts de Python y R con datos relacionales."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-34",
+        "section": "test-oficial",
+        "prompt": "Indique la respuesta correcta en relación a los componentes de proceso de un SGBD:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Interfaces, modelo de referencia, compilador y precompilador DML."
+          },
+          {
+            "id": "b",
+            "label": "Compilador DML, precompilador DML, intérprete DDL y motor de ejecución."
+          },
+          {
+            "id": "c",
+            "label": "Gestor de ficheros, compilador y precompilador DML y gestor de transacciones."
+          },
+          {
+            "id": "d",
+            "label": "Estructuras de datos, gestor de transacciones, intérprete DDL y motor de ejecución."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Compilador DML, precompilador DML, intérprete DDL y motor de ejecución."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-35",
+        "section": "test-oficial",
+        "prompt": "\"Cualquier información almacenada en la base de datos debe poder ser accesible de manera unívoca mediante un nombre de tabla, un nombre de columna y el valor de la clave primaria para la fila en la que está almacenada la información en cuestión\". Según las Reglas de Codd, nos estaríamos refiriendo a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La regla fundamental."
+          },
+          {
+            "id": "b",
+            "label": "La regla de la información."
+          },
+          {
+            "id": "c",
+            "label": "La regla del acceso garantizado."
+          },
+          {
+            "id": "d",
+            "label": "La regla del tratamiento sistemático de los valores nulos."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: La regla del acceso garantizado."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-36",
+        "section": "test-oficial",
+        "prompt": "El principio BASE se corresponde con:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Basically Available, Soft state y Eventual consistency."
+          },
+          {
+            "id": "b",
+            "label": "BSON format, Serial transactions y Eventual consistency."
+          },
+          {
+            "id": "c",
+            "label": "Basically Available, Serial transactions y Execute independent."
+          },
+          {
+            "id": "d",
+            "label": "BSON format, Soft state y Execute independent."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Basically Available, Soft state y Eventual consistency."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-37",
+        "section": "test-oficial",
+        "prompt": "Son bases de datos NoSQL orientadas a grafos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "FlockDB, OrientDB, SimpleDB."
+          },
+          {
+            "id": "b",
+            "label": "Neo4j, OrientDB, CouchDB."
+          },
+          {
+            "id": "c",
+            "label": "InfinityGraph, AllegroGraph, RethinkDB."
+          },
+          {
+            "id": "d",
+            "label": "Neo4j, OrientDB, AllegroGraph."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Neo4j, OrientDB, AllegroGraph."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-38",
+        "section": "test-oficial",
+        "prompt": "En relación con Redis, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un sistema de base de datos NoSQL orientado a columnas."
+          },
+          {
+            "id": "b",
+            "label": "Redis es el acrónimo de Remote Dictionary Server."
+          },
+          {
+            "id": "c",
+            "label": "Ha sido desarrollado en lenguaje Python."
+          },
+          {
+            "id": "d",
+            "label": "Solo está disponible en sistemas Windows."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Redis es el acrónimo de Remote Dictionary Server."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-39",
+        "section": "test-oficial",
+        "prompt": "NO es una base de datos de series temporales:",
+        "options": [
+          {
+            "id": "a",
+            "label": "InfluxDB."
+          },
+          {
+            "id": "b",
+            "label": "QuestDB."
+          },
+          {
+            "id": "c",
+            "label": "AWS Timestream."
+          },
+          {
+            "id": "d",
+            "label": "IndexedDB."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: IndexedDB."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-40",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Hbase es un sistema de gestión de bases de datos orientado a grafos."
+          },
+          {
+            "id": "b",
+            "label": "Bigtable fue creado por Google."
+          },
+          {
+            "id": "c",
+            "label": "IndexedDB ofrece almacenamiento persistente en el servidor web."
+          },
+          {
+            "id": "d",
+            "label": "SQLite es un sistema de gestión de bases de datos relacional y altamente escalable. SGBD"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Bigtable fue creado por Google."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-41",
+        "section": "test-oficial",
+        "prompt": "En Oracle existen 5 tipos de segmentos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "De datos, de índices, de rollback, temporales y de bootstrap."
+          },
+          {
+            "id": "b",
+            "label": "De datos, de control, de commit, de rollback y temporales."
+          },
+          {
+            "id": "c",
+            "label": "De índices, de bootstrap, de control, de joins y de datos."
+          },
+          {
+            "id": "d",
+            "label": "Temporales, de rollback, de joins, de datos y de índices."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: De datos, de índices, de rollback, temporales y de bootstrap."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-42",
+        "section": "test-oficial",
+        "prompt": "En Oracle, la estructura física está compuesta por los siguientes tipos de ficheros:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ficheros de redo log, ficheros de control y ficheros de datos."
+          },
+          {
+            "id": "b",
+            "label": "Ficheros de datos y ficheros rollback."
+          },
+          {
+            "id": "c",
+            "label": "Ficheros de control, ficheros temporales y ficheros de datos."
+          },
+          {
+            "id": "d",
+            "label": "Ficheros de redo log y ficheros de control."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Ficheros de redo log, ficheros de control y ficheros de datos."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-43",
+        "section": "test-oficial",
+        "prompt": "El sistema de gestión de bases de datos Oracle está formado por los siguientes elementos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los procesos y las estructuras en memoria principal."
+          },
+          {
+            "id": "b",
+            "label": "Los archivos de la base de datos, los procesos y los protocolos de comunicaciones."
+          },
+          {
+            "id": "c",
+            "label": "La instancia de Oracle y los protocolos de comunicación."
+          },
+          {
+            "id": "d",
+            "label": "Los archivos de la base de datos y la instancia de Oracle."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Los archivos de la base de datos y la instancia de Oracle."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-44",
+        "section": "test-oficial",
+        "prompt": "En Oracle, indique cuál de los siguientes es un lenguaje de procedimiento cuya sintaxis permite insertar sentencias SQL y se almacena compilado dentro de la base de datos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Transact SQL."
+          },
+          {
+            "id": "b",
+            "label": "PL/SQL."
+          },
+          {
+            "id": "c",
+            "label": "Python."
+          },
+          {
+            "id": "d",
+            "label": "SQL."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: PL/SQL."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-45",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO es una base de datos NoSQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "MongoDB."
+          },
+          {
+            "id": "b",
+            "label": "Cassandra."
+          },
+          {
+            "id": "c",
+            "label": "HBase."
+          },
+          {
+            "id": "d",
+            "label": "Kaltura."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Kaltura."
+      },
+      {
+        "id": "b2t5-test-oficial-sgbd-46",
+        "section": "test-oficial",
+        "prompt": "Dentro de las bases de datos NoSQL, ¿de qué tipo es la base de datos Neo4j?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Clave-valor."
+          },
+          {
+            "id": "b",
+            "label": "Documentos."
+          },
+          {
+            "id": "c",
+            "label": "Familia de columnas."
+          },
+          {
+            "id": "d",
+            "label": "Grafos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Grafos."
+      }
+    ]
+  },
+  {
     "code": "B3T1",
     "slug": "b3t1-test-oficial-modeloer",
     "title": "Test oficial ModeloER",

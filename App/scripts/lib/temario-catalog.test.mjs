@@ -82,3 +82,17 @@ test("buildTemarioCatalog conserva recursos auxiliares como sql dentro del mismo
     "Bloque 3/Tema 4/B3T4Ejercicios_Batallas 1.sql",
   ]);
 });
+
+test("buildTemarioCatalog ignora esquemas pdf cuando existe un temario principal", () => {
+  const catalog = buildTemarioCatalog([
+    "Bloque 2/Tema 5/B2T5_SGBD 3.pdf",
+    "Bloque 2/Tema 5/B2T5Test_SGBD 1.pdf",
+    "Bloque 2/Tema 5/esquema_sgbd_3_paginas.pdf",
+    "Bloque 2/Tema 5/Modelo_ACID_y_bases_de_datos_NoSQL.m4a",
+  ]);
+
+  assert.equal(catalog.length, 1);
+  assert.equal(catalog[0].sourceFilename, "Bloque 2/Tema 5/B2T5_SGBD 3.pdf");
+  assert.deepEqual(catalog[0].relatedPdfFiles, ["Bloque 2/Tema 5/B2T5Test_SGBD 1.pdf"]);
+  assert.equal(catalog[0].podcasts.length, 1);
+});
