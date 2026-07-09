@@ -28,6 +28,20 @@
     ]
   },
   {
+    "code": "B1T3",
+    "slug": "b1t3-gobierno",
+    "sourceFilename": "Bloque 1/Tema 3/B1T3_Gobierno 1.pdf",
+    "title": "B1T3 Gobierno",
+    "pdfPath": "/temario/b1t3-gobierno.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 1/Tema 3/El_código_fuente_del_Gobierno_español.m4a",
+        "title": "El código fuente del Gobierno español",
+        "assetPath": "/podcast/B1T3/el-codigo-fuente-del-gobierno-espanol.m4a"
+      }
+    ]
+  },
+  {
     "code": "B2T3",
     "slug": "b2t3-estructuras-de-datos",
     "sourceFilename": "Bloque 2/Tema 3/B2T3_Estructuras_de_datos 1.pdf",

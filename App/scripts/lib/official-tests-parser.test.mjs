@@ -153,3 +153,35 @@ SOLUCIONES
   assert.equal(parsed.questions[0].correctOption, "d");
   assert.equal(parsed.questions[1].correctOption, "a");
 });
+
+test("parseOfficialTestText ignora cabeceras temáticas incrustadas entre opciones", () => {
+  const source = `
+41. ¿Quién cesa a los Vicepresidentes del Gobierno?
+a) El Rey, a propuesta del Presidente del Gobierno.
+b) El Congreso de los Diputados.
+c) El propio Vicepresidente.
+d) El Consejo de Estado.
+
+EL GOBIERNO
+
+42. La acción del Gobierno la dirige y coordina:
+a) El Presidente del Gobierno.
+b) El Ministro de la Presidencia.
+c) El Consejo de Ministros.
+d) Las Cortes Generales.
+
+SOLUCIONES
+41. A
+42. A
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T3",
+    slug: "b1t3-test-oficial",
+    title: "Test oficial Gobierno",
+  });
+
+  assert.equal(parsed.questions.length, 2);
+  assert.equal(parsed.questions[0].options[3].label, "El Consejo de Estado.");
+  assert.equal(parsed.questions[1].prompt, "La acción del Gobierno la dirige y coordina:");
+});

@@ -129,6 +129,59 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B1T3: {
+    title: "El Gobierno: composición, nombramiento y cese, funciones y relaciones con las Cortes Generales",
+    shortTitle: "El Gobierno",
+    description:
+      "Tema del bloque constitucional centrado en el Gobierno, sus miembros, órganos de apoyo, investidura, cese, funciones constitucionales y control parlamentario.",
+    summary: [
+      "Marco constitucional y legal del Gobierno a partir de los Títulos IV y V de la Constitución, junto con la Ley del Gobierno y la Ley 40/2015.",
+      "Composición del Gobierno, distinción entre órganos unipersonales y colegiados, y papel del Presidente, Vicepresidentes y Ministros.",
+      "Órganos de colaboración y apoyo, estatuto jurídico, incompatibilidades y responsabilidad de los miembros del Gobierno y Secretarios de Estado.",
+      "Nombramiento, investidura, cese y régimen del Gobierno en funciones, con especial atención a la disolución de las Cámaras y a la continuidad del Ejecutivo.",
+      "Funciones del Gobierno y relaciones con las Cortes Generales: confianza, moción de censura, presupuestos, referéndum y estados de alarma, excepción y sitio.",
+    ],
+    sections: [
+      "Marco constitucional y composición",
+      "Órganos de apoyo y estatuto",
+      "Nombramiento, investidura y cese",
+      "Funciones del Gobierno",
+      "Relaciones con las Cortes Generales",
+    ],
+    accent: "emerald",
+    testPresets: [
+      {
+        slug: "fundamentos-y-composicion",
+        title: "Test 1 · Fundamentos y composición",
+        description: "Repasa artículos básicos, miembros del Gobierno, órganos colegiados y estructura general del Ejecutivo.",
+        focusSections: ["marco-constitucional-y-composicion"],
+      },
+      {
+        slug: "organos-y-estatuto",
+        title: "Test 2 · Órganos y estatuto",
+        description: "Se centra en Comisión General, Secretaría del Consejo, Consejo de Estado, Secretarios de Estado y responsabilidad jurídica.",
+        focusSections: ["organos-de-apoyo-y-estatuto"],
+      },
+      {
+        slug: "nombramiento-investidura-y-cese",
+        title: "Test 3 · Nombramiento, investidura y cese",
+        description: "Trabaja propuesta de candidato, votaciones de investidura, cese, disolución de Cámaras y Gobierno en funciones.",
+        focusSections: ["nombramiento-investidura-y-cese"],
+      },
+      {
+        slug: "funciones-del-gobierno",
+        title: "Test 4 · Funciones del Gobierno",
+        description: "Refuerza potestad reglamentaria, función ejecutiva, iniciativa legislativa y atribuciones del Presidente y del Consejo de Ministros.",
+        focusSections: ["funciones-del-gobierno"],
+      },
+      {
+        slug: "relaciones-con-las-cortes",
+        title: "Test 5 · Relaciones con las Cortes",
+        description: "Entrena cuestión de confianza, moción de censura, control parlamentario, presupuestos, referéndum y estados excepcionales.",
+        focusSections: ["relaciones-con-las-cortes"],
+      },
+    ],
+  },
   B2T3: {
     title: "Tipos abstractos y estructuras de datos, algoritmos, ficheros y formatos",
     shortTitle: "Estructuras de datos",

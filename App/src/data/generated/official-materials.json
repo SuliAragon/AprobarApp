@@ -40,6 +40,14 @@
     "assetPath": "/test-oficial/B1T2/b1t2-test-oficial-cortes-generales.pdf"
   },
   {
+    "code": "B1T3",
+    "slug": "b1t3-test-oficial-gobierno",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 3/B1T3Test_Gobierno 1.pdf",
+    "title": "Test oficial Gobierno",
+    "assetPath": "/test-oficial/B1T3/b1t3-test-oficial-gobierno.pdf"
+  },
+  {
     "code": "B2T5",
     "slug": "b2t5-test-oficial-sgbd",
     "kind": "official-test",

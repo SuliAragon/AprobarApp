@@ -11,6 +11,7 @@ const noisePatterns = [
   /^[A-Z0-9]+\s+test\d*$/i,
   /^CONSTITUCI[ÓO]N ESPAÑOLA$/i,
   /^ESTRUCTURAS DE DATOS$/i,
+  /^EL GOBIERNO$/i,
   /^PREPARACI[ÓO]N OPOSICIONES$/i,
   /^T[ÉE]CNICOS AUXILIARES DE INFORM[ÁA]TICA$/i,
   /^\d{4}-\d{4}$/i,

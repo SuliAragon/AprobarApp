@@ -6552,6 +6552,1819 @@
     ]
   },
   {
+    "code": "B1T3",
+    "slug": "b1t3-test-oficial-gobierno",
+    "title": "Test oficial Gobierno",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 3/B1T3Test_Gobierno 1.pdf",
+    "assetPath": "/test-oficial/B1T3/b1t3-test-oficial-gobierno.pdf",
+    "questions": [
+      {
+        "id": "b1t3-test-oficial-gobierno-1",
+        "section": "test-oficial",
+        "prompt": "En relación con la moción de censura, el art. 113 de la Constitución española establece que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Su adopción exige la mayoría absoluta del Congreso de los Diputados y el Senado."
+          },
+          {
+            "id": "b",
+            "label": "Debe ser propuesta, al menos, por la décima parte de los Diputados, y habrá de incluir un candidato a la Presidencia del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Si no es aprobada, sus signatarios no podrán presentar otra moción de censura durante la misma legislatura."
+          },
+          {
+            "id": "d",
+            "label": "Debe ser votada dentro de los cinco días siguientes a su presentación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Debe ser propuesta, al menos, por la décima parte de los Diputados, y habrá de incluir un candidato a la Presidencia del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-2",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el art. 97 de la Constitución Española, corresponde dirigir la política interior y exterior, la Administración civil y militar y la defensa del Estado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al Jefe del Estado, por corresponderle el mando supremo de las Fuerzas Armadas."
+          },
+          {
+            "id": "b",
+            "label": "A las Cortes Generales, como representación del pueblo español."
+          },
+          {
+            "id": "c",
+            "label": "Al Congreso de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "Al Gobierno."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Al Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-3",
+        "section": "test-oficial",
+        "prompt": "El art. 108 de la Constitución Española establece que el Gobierno responde solidariamente de su gestión política ante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Jefe del Estado."
+          },
+          {
+            "id": "b",
+            "label": "El Tribunal Constitucional"
+          },
+          {
+            "id": "c",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "Las Cortes Generales."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Congreso de los Diputados."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-4",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución española, la declaración del estado de excepción corresponde a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey, a propuesta del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "El Gobierno, mediante Decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "El Congreso de los Diputados, a propuesta del Consejo de Ministros."
+          },
+          {
+            "id": "d",
+            "label": "Las Cortes Generales, por mayoría de los miembros de cada Cámara."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El Gobierno, mediante Decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-5",
+        "section": "test-oficial",
+        "prompt": "Corresponde aprobar el proyecto de Ley de Presupuestos Generales del Estado a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Ministerio de Economía y Hacienda."
+          },
+          {
+            "id": "b",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "El Consejo de Ministros."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El Consejo de Ministros."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-6",
+        "section": "test-oficial",
+        "prompt": "La dirección de la política interior y exterior, la Administración civil y militar y la defensa del Estado corresponde a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey."
+          },
+          {
+            "id": "b",
+            "label": "El Jefe del Estado."
+          },
+          {
+            "id": "c",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-7",
+        "section": "test-oficial",
+        "prompt": "Las disposiciones del Gobierno que contengan legislación delegada reciben el título de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Decretos Legislativos."
+          },
+          {
+            "id": "b",
+            "label": "Decretos-leyes."
+          },
+          {
+            "id": "c",
+            "label": "Leyes de bases."
+          },
+          {
+            "id": "d",
+            "label": "Reales Decretos del Consejo de Ministros."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Decretos Legislativos."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-8",
+        "section": "test-oficial",
+        "prompt": "Señale cómo se reúnen los miembros del Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En Consejo de Ministros y en Comisiones Delegadas del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "En Consejo de Ministros y en Consejo de Vicepresidentes."
+          },
+          {
+            "id": "c",
+            "label": "En Consejo de Ministros y en Comisiones Delegadas de las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "En Comisiones Delegadas del Gobierno y Consejo de Estado."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: En Consejo de Ministros y en Comisiones Delegadas del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-9",
+        "section": "test-oficial",
+        "prompt": "La potestad reglamentaria constitucionalmente corresponde:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "A las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "Al Poder Judicial."
+          },
+          {
+            "id": "d",
+            "label": "Al Congreso de los Diputados."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Al Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-10",
+        "section": "test-oficial",
+        "prompt": "La competencia de nombrar y cesar a los ministros, corresponde, según establece la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "A las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "A los electores."
+          },
+          {
+            "id": "d",
+            "label": "Al Rey, a propuesta del Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Al Rey, a propuesta del Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-11",
+        "section": "test-oficial",
+        "prompt": "El Rey podrá presidir las sesiones del Consejo de Ministros:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando el Rey, por razones de interés general, así lo decida."
+          },
+          {
+            "id": "b",
+            "label": "A petición del Pleno del Consejo de Ministros."
+          },
+          {
+            "id": "c",
+            "label": "A petición del Presidente del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "No está prevista constitucionalmente la presidencia del Consejo de Ministros por parte del Rey."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: A petición del Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-12",
+        "section": "test-oficial",
+        "prompt": "La cuestión de confianza la plantea el Presidente del Gobierno ante el Congreso y la moción de censura el propio Congreso, por tanto, el Senado, ¿no ejerce facultad alguna en la materia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Solo promueve interpelaciones y preguntas."
+          },
+          {
+            "id": "b",
+            "label": "Sí, pero solo cuando esté disuelto el Congreso."
+          },
+          {
+            "id": "c",
+            "label": "Sí, puesto que la cuestión de confianza se puede plantear ante el Senado."
+          },
+          {
+            "id": "d",
+            "label": "Sí, puesto que existen sesiones conjuntas para exigir la responsabilidad política al Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Solo promueve interpelaciones y preguntas."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-13",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El estado de sitio será declarado por mayoría absoluta del Congreso a propuesta del Consejo de Ministros."
+          },
+          {
+            "id": "b",
+            "label": "El estado de excepción será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros y previa autorización del Congreso de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "El estado de excepción será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros y previa autorización de las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna respuesta es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El estado de excepción será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros y previa autorización del Congreso de los Diputados."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-14",
+        "section": "test-oficial",
+        "prompt": "Indique quiénes son miembros del Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Presidente y los Ministros, exclusivamente."
+          },
+          {
+            "id": "b",
+            "label": "Los Secretarios de Estado, entre otros."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente, el Vicepresidente o Vicepresidentes, los Ministros y los Secretarios de Estado."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las afirmaciones anteriores es correcta."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Ninguna de las afirmaciones anteriores es correcta."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-15",
+        "section": "test-oficial",
+        "prompt": "Es competencia del Consejo de Ministros:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Declarar el estado de sitio."
+          },
+          {
+            "id": "b",
+            "label": "Resolver los recursos contencioso-administrativos que se interpongan ante cualquier miembro del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Aprobar las proposiciones de ley."
+          },
+          {
+            "id": "d",
+            "label": "Aprobar los proyectos de ley."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Aprobar los proyectos de ley."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-16",
+        "section": "test-oficial",
+        "prompt": "El Gobierno en funciones carece de competencias para:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presentar proyectos de Ley al Congreso."
+          },
+          {
+            "id": "b",
+            "label": "Proceder al despacho ordinario de los asuntos políticos."
+          },
+          {
+            "id": "c",
+            "label": "Facilitar el traspaso de poderes."
+          },
+          {
+            "id": "d",
+            "label": "Carece absolutamente de competencias salvo las de urgencia debidamente justificadas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Presentar proyectos de Ley al Congreso."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-17",
+        "section": "test-oficial",
+        "prompt": "Según la CE la votación de investidura del Presidente del Gobierno se produce en el seno del:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Congreso de los Diputados."
+          },
+          {
+            "id": "b",
+            "label": "Congreso de los Diputados y Senado."
+          },
+          {
+            "id": "c",
+            "label": "Consejo de Ministros."
+          },
+          {
+            "id": "d",
+            "label": "La votación de investidura son las elecciones generales."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Congreso de los Diputados."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-18",
+        "section": "test-oficial",
+        "prompt": "Una de las siguientes proposiciones sobre la participación del gobierno en la función legislativa es FALSA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los proyectos de ley serán aprobados por el Consejo de Ministros."
+          },
+          {
+            "id": "b",
+            "label": "Los decretos leyes no podrán afectar a materias reservadas a ley orgánica."
+          },
+          {
+            "id": "c",
+            "label": "Mediante los decretos legislativos se podrán refundir una serie de disposiciones normativas dispersas."
+          },
+          {
+            "id": "d",
+            "label": "Los decretos-leyes precisarán de su convalidación inmediata por las Cortes Generales."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Los decretos-leyes precisarán de su convalidación inmediata por las Cortes Generales."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-19",
+        "section": "test-oficial",
+        "prompt": "Se prohíbe al Gobierno cuando se encuentre en funciones:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La convocatoria de referéndum."
+          },
+          {
+            "id": "b",
+            "label": "Proponer al Rey la disolución de las Cámaras."
+          },
+          {
+            "id": "c",
+            "label": "Plantear la cuestión de confianza."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Todas las respuestas son correctas."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-20",
+        "section": "test-oficial",
+        "prompt": "La dimisión voluntaria del Presidente del Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No implicará del todo el Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Implicará la de todo el Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Es una posibilidad inexistente."
+          },
+          {
+            "id": "d",
+            "label": "Podrá no ser aceptada por el Rey."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Implicará la de todo el Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-21",
+        "section": "test-oficial",
+        "prompt": "La moción de censura no podrá ser votada hasta que transcurran desde su presentación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Veinte días."
+          },
+          {
+            "id": "b",
+            "label": "Dos meses."
+          },
+          {
+            "id": "c",
+            "label": "Cinco días."
+          },
+          {
+            "id": "d",
+            "label": "Treinta días."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Cinco días."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-22",
+        "section": "test-oficial",
+        "prompt": "¿Qué título de la Constitución Española está destinado a la regulación del Gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Título II."
+          },
+          {
+            "id": "b",
+            "label": "Título III."
+          },
+          {
+            "id": "c",
+            "label": "Título IV."
+          },
+          {
+            "id": "d",
+            "label": "Título V."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Título IV."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-23",
+        "section": "test-oficial",
+        "prompt": "¿Quién expedirá los Decretos acordados en el Consejo de Ministros?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey, con el refrendo del Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Ministro del Departamento."
+          },
+          {
+            "id": "d",
+            "label": "El propio Consejo de Ministros"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Rey, con el refrendo del Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-24",
+        "section": "test-oficial",
+        "prompt": "Las decisiones políticas de especial trascendencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Deberán ser sometidas a referéndum."
+          },
+          {
+            "id": "b",
+            "label": "Podrán ser sometidas a referéndum."
+          },
+          {
+            "id": "c",
+            "label": "Serán sometidas a referéndum."
+          },
+          {
+            "id": "d",
+            "label": "Serán deliberadas previamente por las Comisiones Delegadas del Gobierno."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Podrán ser sometidas a referéndum."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-25",
+        "section": "test-oficial",
+        "prompt": "El estado de excepción no podrá exceder de determinado plazo, que podrá prorrogarse por otro igual, ¿cuál es dicho plazo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "No podrá ser inferior a un mes."
+          },
+          {
+            "id": "b",
+            "label": "No podrá exceder de quince días."
+          },
+          {
+            "id": "c",
+            "label": "No podrá exceder de treinta días."
+          },
+          {
+            "id": "d",
+            "label": "Un mes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: No podrá exceder de treinta días."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-26",
+        "section": "test-oficial",
+        "prompt": "El Presidente del Gobierno puede plantear ante el Congreso la cuestión de confianza previa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Autorización previa del Consejo de Ministros."
+          },
+          {
+            "id": "b",
+            "label": "Deliberación del Consejo de Ministros."
+          },
+          {
+            "id": "c",
+            "label": "Propuesta del Consejo de Ministros."
+          },
+          {
+            "id": "d",
+            "label": "Aprobación del Consejo de Ministros."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Deliberación del Consejo de Ministros."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-27",
+        "section": "test-oficial",
+        "prompt": "La responsabilidad criminal del Presidente y de los miembros del Gobierno será exigible ante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey."
+          },
+          {
+            "id": "b",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "El Tribunal Supremo."
+          },
+          {
+            "id": "d",
+            "label": "El Tribunal Constitucional."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Tribunal Supremo."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-28",
+        "section": "test-oficial",
+        "prompt": "En caso de dimisión del Presidente del Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Gobierno cesa a continuación."
+          },
+          {
+            "id": "b",
+            "label": "El Rey podrá proponer, a través del Presidente del Congreso, un nuevo candidato a la Presidencia del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Pleno del Congreso, por mayoría absoluta, podrá proponer al Rey un nuevo candidato a la Presidencia del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "El Pleno del Congreso y del Senado, por mayoría absoluta, podrá proponer al Rey un nuevo candidato a la Presidencia del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Gobierno cesa a continuación."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-29",
+        "section": "test-oficial",
+        "prompt": "Tienen carácter preparatorio de las sesiones del Consejo de Ministros las reuniones de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Comisiones Delegadas del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "La Comisión General de Secretarios de Estado y Subsecretarios."
+          },
+          {
+            "id": "c",
+            "label": "Los Gabinetes."
+          },
+          {
+            "id": "d",
+            "label": "Las Comisiones parlamentarias."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La Comisión General de Secretarios de Estado y Subsecretarios."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-30",
+        "section": "test-oficial",
+        "prompt": "Los Presupuestos Generales del Estado son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aprobados por el Gobierno y examinados y enmendados por las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "Examinados por las Cortes Generales y enmendados por el Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Elaborados por el Gobierno y examinados, enmendados y aprobados por las cortes."
+          },
+          {
+            "id": "d",
+            "label": "Elaborados por el Gobierno, examinados por las Cortes y aprobados por el Tribunal de Cuentas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Elaborados por el Gobierno y examinados, enmendados y aprobados por las cortes."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-31",
+        "section": "test-oficial",
+        "prompt": "Según el texto constitucional, si el Congreso niega su confianza al Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Gobierno presentará su dimisión al Congreso, procediéndose a continuación a la designación del Presidente del Gobierno, según lo dispuesto en el artículo 99 de la Constitución."
+          },
+          {
+            "id": "b",
+            "label": "El Gobierno presentará su dimisión al Congreso, procediéndose a continuación a la convocatoria de elecciones generales."
+          },
+          {
+            "id": "c",
+            "label": "El Gobierno presentará su dimisión ante las Cortes Generales, procediéndose a continuación a la convocatoria de elecciones generales."
+          },
+          {
+            "id": "d",
+            "label": "El Gobierno presentará su dimisión al Rey, procediéndose a continuación a la designación del Presidente del Gobierno, según lo dispuesto en el artículo 99 de la Constitución."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: El Gobierno presentará su dimisión al Rey, procediéndose a continuación a la designación del Presidente del Gobierno, según lo dispuesto en el artículo 99 de la Constitución."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-32",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución, el Consejo de Estado es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El órgano de gobierno del Poder Judicial."
+          },
+          {
+            "id": "b",
+            "label": "El supremo órgano consultivo del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales."
+          },
+          {
+            "id": "d",
+            "label": "El supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado, así como del sector público."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El supremo órgano consultivo del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-33",
+        "section": "test-oficial",
+        "prompt": "Los miembros del Gobierno, excluido el Presidente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Son nombrados y separados por el Presidente del Tribunal Constitucional."
+          },
+          {
+            "id": "b",
+            "label": "Son nombrados y separados por el Presidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Son nombrados y separados por el Rey, a propuesta del Presidente del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Son nombrados y separados por las Cortes, a propuesta del Rey."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Son nombrados y separados por el Rey, a propuesta del Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-34",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta de acuerdo con la CE:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La cuestión de confianza planteada por el Presidente del Gobierno ante las Cortes Generales se entenderá otorgada cuando vote a favor de la misma la mayoría simple de cada Cámara."
+          },
+          {
+            "id": "b",
+            "label": "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+          },
+          {
+            "id": "c",
+            "label": "La cuestión de confianza planteada por el Presidente del Gobierno ante el Congreso de los Diputados se entenderá otorgada cuando vote a favor de la misma la mayoría absoluta del Congreso."
+          },
+          {
+            "id": "d",
+            "label": "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría simple de la moción de censura."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-35",
+        "section": "test-oficial",
+        "prompt": "Según lo dispuesto en el artículo 8.3 de la Ley 50/1997, de 27 de noviembre, del Gobierno, la Secretaría de la Comisión General de Secretarios de Estado y Subsecretarios será ejercida por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un Vicepresidente del Gobierno o, en su defecto, por el Ministro que corresponda según el orden de precedencia de los Departamentos Ministeriales."
+          },
+          {
+            "id": "b",
+            "label": "El Ministro de la Presidencia."
+          },
+          {
+            "id": "c",
+            "label": "El Secretario de Estado del Ministerio de Hacienda."
+          },
+          {
+            "id": "d",
+            "label": "Por el Subsecretario de Presidencia."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Por el Subsecretario de Presidencia."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-36",
+        "section": "test-oficial",
+        "prompt": "¿Quién actúa como Secretario en el Consejo de Ministros?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Ministro del Interior."
+          },
+          {
+            "id": "b",
+            "label": "El Ministro Portavoz del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Ministro de la Presidencia."
+          },
+          {
+            "id": "d",
+            "label": "El Ministro de Justicia."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Ministro de la Presidencia."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-37",
+        "section": "test-oficial",
+        "prompt": "A los efectos de la elección del Presidente del Gobierno, la CE indica taxativamente que el Rey, propondrá su candidato, previa consulta con:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los jefes de los grupos parlamentarios."
+          },
+          {
+            "id": "b",
+            "label": "Los portavoces de los diferentes partidos con representación parlamentaria."
+          },
+          {
+            "id": "c",
+            "label": "Los representantes designados por los grupos políticos con representación parlamentaria."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Congreso."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Los representantes designados por los grupos políticos con representación parlamentaria."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-38",
+        "section": "test-oficial",
+        "prompt": "El Gobierno no cesa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por la convocatoria de elecciones generales."
+          },
+          {
+            "id": "b",
+            "label": "Por la dimisión de su Presidente."
+          },
+          {
+            "id": "c",
+            "label": "Por la pérdida de la confianza parlamentaria."
+          },
+          {
+            "id": "d",
+            "label": "Todas son causas del cese del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Por la convocatoria de elecciones generales."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-39",
+        "section": "test-oficial",
+        "prompt": "La responsabilidad política del Gobierno es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Individual."
+          },
+          {
+            "id": "b",
+            "label": "Colectiva."
+          },
+          {
+            "id": "c",
+            "label": "Solidaria."
+          },
+          {
+            "id": "d",
+            "label": "No se le puede exigir responsabilidad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Solidaria."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-40",
+        "section": "test-oficial",
+        "prompt": "La cuestión de confianza planteada por el Presidente del Gobierno se entenderá otorgada cuando vote a favor de la misma la mayoría:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Absoluta de los miembros de las Cortes."
+          },
+          {
+            "id": "b",
+            "label": "Simple de los miembros del Congreso."
+          },
+          {
+            "id": "c",
+            "label": "Absoluta de los miembros del Congreso."
+          },
+          {
+            "id": "d",
+            "label": "3/5 de los miembros de las Cortes."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Simple de los miembros del Congreso."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-41",
+        "section": "test-oficial",
+        "prompt": "¿Quién cesa a los Vicepresidentes del Gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Rey."
+          },
+          {
+            "id": "c",
+            "label": "Consejo de Ministros."
+          },
+          {
+            "id": "d",
+            "label": "Cortes Generales."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-42",
+        "section": "test-oficial",
+        "prompt": "Cuando el Presidente del Gobierno proponga al Rey la disolución del Senado, la responsabilidad recae sobre:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Consejo de Ministros."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente no puede proponer al Rey la disolución del Senado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: El Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-43",
+        "section": "test-oficial",
+        "prompt": "La convocatoria de las reuniones del Consejo de Ministros corresponde:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Al Ministro de Administraciones Públicas, por indicación del Presidente."
+          },
+          {
+            "id": "c",
+            "label": "Al Vicepresidente."
+          },
+          {
+            "id": "d",
+            "label": "Todos pueden convocar al Consejo de Ministros."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Al Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-44",
+        "section": "test-oficial",
+        "prompt": "Si la moción de censura no es aprobada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los signatarios no podrán presentar otra durante la legislatura."
+          },
+          {
+            "id": "b",
+            "label": "Los signatarios no podrán presentar otra durante el mismo periodo de sesiones."
+          },
+          {
+            "id": "c",
+            "label": "No podrá presentarse una nueva moción de censura durante el mismo periodo de sesiones."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Los signatarios no podrán presentar otra durante el mismo periodo de sesiones."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-45",
+        "section": "test-oficial",
+        "prompt": "El Vicepresidente:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es miembro del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "No es de obligada existencia."
+          },
+          {
+            "id": "c",
+            "label": "Asume las funciones del Presidente en caso de ausencia."
+          },
+          {
+            "id": "d",
+            "label": "Todas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Todas son correctas."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-46",
+        "section": "test-oficial",
+        "prompt": "El Jefe del Gobierno es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rey."
+          },
+          {
+            "id": "b",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Vicepresidente del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Presidente del Congreso."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-47",
+        "section": "test-oficial",
+        "prompt": "Cuál de los siguientes mecanismos requiere la propuesta de un candidato a Presidente del Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La cuestión de confianza."
+          },
+          {
+            "id": "b",
+            "label": "La moción de censura."
+          },
+          {
+            "id": "c",
+            "label": "La declaración del estado de excepción."
+          },
+          {
+            "id": "d",
+            "label": "La interpelación al Gobierno por el Congreso."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La moción de censura."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-48",
+        "section": "test-oficial",
+        "prompt": "NO es función del Presidente del Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La convocatoria del Consejo de Ministros."
+          },
+          {
+            "id": "b",
+            "label": "La Presidencia del Consejo de Ministros."
+          },
+          {
+            "id": "c",
+            "label": "El nombramiento de los demás miembros del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Dirigir la acción del Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El nombramiento de los demás miembros del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-49",
+        "section": "test-oficial",
+        "prompt": "El Gobierno responde políticamente por su gestión ante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "b",
+            "label": "El Senado."
+          },
+          {
+            "id": "c",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Congreso de los Diputados."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-50",
+        "section": "test-oficial",
+        "prompt": "Toda interpelación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dará lugar a una moción."
+          },
+          {
+            "id": "b",
+            "label": "Podrá dar lugar a una moción en la que la Cámara manifieste su posición."
+          },
+          {
+            "id": "c",
+            "label": "Podrá dar lugar a una moción de censura."
+          },
+          {
+            "id": "d",
+            "label": "Sólo las preguntas dan lugar a moción."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Podrá dar lugar a una moción en la que la Cámara manifieste su posición."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-51",
+        "section": "test-oficial",
+        "prompt": "La responsabilidad criminal del Presidente en el ejercicio de sus funciones:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Será exigible ante la Sala de lo Penal de la Audiencia Nacional."
+          },
+          {
+            "id": "b",
+            "label": "En el caso de acusación por delito contra la seguridad del Estado, sólo podrá plantearse por iniciativa de la mayoría absoluta del Congreso."
+          },
+          {
+            "id": "c",
+            "label": "En el caso de acusación por cualquier delito contra la seguridad de Estado, aquella deberá aprobarse por la mayoría absoluta del Congreso."
+          },
+          {
+            "id": "d",
+            "label": "d) En el caso de delitos contra la seguridad del Estado podrá tener lugar la prerrogativa real de gracia."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: En el caso de acusación por cualquier delito contra la seguridad de Estado, aquella deberá aprobarse por la mayoría absoluta del Congreso."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-52",
+        "section": "test-oficial",
+        "prompt": "Los Secretarios de Estado son nombrados por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por Real Decreto del Consejo de Ministros a propuesta del Presidente del Gobierno o del Ministro a cuyo departamento pertenezca."
+          },
+          {
+            "id": "b",
+            "label": "Por Orden del Ministro a cuyo departamento pertenezca."
+          },
+          {
+            "id": "c",
+            "label": "Por el Rey, a propuesta del Presidente del Gobierno o del Ministro a cuyo departamento pertenezca."
+          },
+          {
+            "id": "d",
+            "label": "Por Real Decreto del Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Por Real Decreto del Consejo de Ministros a propuesta del Presidente del Gobierno o del Ministro a cuyo departamento pertenezca."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-53",
+        "section": "test-oficial",
+        "prompt": "En el ejercicio de su potestad reglamentaria, el Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aprueba un Decreto-Ley."
+          },
+          {
+            "id": "b",
+            "label": "Dicta un Decreto."
+          },
+          {
+            "id": "c",
+            "label": "Sanciona los Decretos Legislativos."
+          },
+          {
+            "id": "d",
+            "label": "Impugna una norma con rango de Ley."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Dicta un Decreto."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-54",
+        "section": "test-oficial",
+        "prompt": "Los Ministros son propuestos por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Senado."
+          },
+          {
+            "id": "c",
+            "label": "Congreso de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "El Rey."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-55",
+        "section": "test-oficial",
+        "prompt": "El Consejo de Ministros lo preside:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Ministro de la Presidencia."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente del Gobierno, y excepcionalmente, el Rey."
+          },
+          {
+            "id": "d",
+            "label": "El Gobierno en pleno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: El Presidente del Gobierno, y excepcionalmente, el Rey."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-56",
+        "section": "test-oficial",
+        "prompt": "Según la CE, el Gobierno se compone:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rey, que lo preside, del Presidente del Gobierno y los Ministros."
+          },
+          {
+            "id": "b",
+            "label": "Rey, Presidente del Gobierno, del Vicepresidente y los Ministros."
+          },
+          {
+            "id": "c",
+            "label": "Presidente, Vicepresidente y Ministros."
+          },
+          {
+            "id": "d",
+            "label": "Presidente, Vicepresidentes en su caso, Ministros, y los demás miembros que establezca la ley."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "La plantilla oficial marca como correcta la opción D: Presidente, Vicepresidentes en su caso, Ministros, y los demás miembros que establezca la ley."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-57",
+        "section": "test-oficial",
+        "prompt": "El ámbito donde es posible una mayor discrecionalidad por parte del Gobierno de la Nación es en el/la:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aplicación de la Ley."
+          },
+          {
+            "id": "b",
+            "label": "Potestad reglamentaria."
+          },
+          {
+            "id": "c",
+            "label": "Dirección de la política."
+          },
+          {
+            "id": "d",
+            "label": "Función ejecutiva."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Dirección de la política."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-58",
+        "section": "test-oficial",
+        "prompt": "La coordinación de las funciones de los miembros del Gobierno es competencia del/de las:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Vicepresidente del Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Ministerio de Administraciones Públicas."
+          },
+          {
+            "id": "d",
+            "label": "Ministro de la Presidencia."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-59",
+        "section": "test-oficial",
+        "prompt": "La propuesta del Rey de candidato a la Presidencia del Gobierno se canaliza a través del:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Congreso."
+          },
+          {
+            "id": "b",
+            "label": "Gobierno en pleno."
+          },
+          {
+            "id": "c",
+            "label": "Senado y Congreso."
+          },
+          {
+            "id": "d",
+            "label": "Grupo político mayoritario."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Presidente del Congreso."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-60",
+        "section": "test-oficial",
+        "prompt": "La confianza al candidato a Presidente del Gobierno se otorga, en primera vuelta, por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mayoría absoluta de las Cortes."
+          },
+          {
+            "id": "b",
+            "label": "Mayoría absoluta del Congreso."
+          },
+          {
+            "id": "c",
+            "label": "Mayoría simple del Congreso."
+          },
+          {
+            "id": "d",
+            "label": "Mayoría simple de las Cortes."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Mayoría absoluta del Congreso."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-61",
+        "section": "test-oficial",
+        "prompt": "La disolución de las Cámaras, por transcurso de dos meses desde la primera votación de investidura, sin obtención de la confianza parlamentaria por los candidatos, se refrenda por el:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Rey."
+          },
+          {
+            "id": "c",
+            "label": "Presidente del Congreso."
+          },
+          {
+            "id": "d",
+            "label": "No necesita refrendo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Presidente del Congreso."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-62",
+        "section": "test-oficial",
+        "prompt": "La iniciativa legislativa gubernamental adopta la forma de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proposición de Ley."
+          },
+          {
+            "id": "b",
+            "label": "Proyecto de Ley."
+          },
+          {
+            "id": "c",
+            "label": "Decreto-Ley."
+          },
+          {
+            "id": "d",
+            "label": "Cualquiera de ellas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Proyecto de Ley."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-63",
+        "section": "test-oficial",
+        "prompt": "La aprobación de exigencia de responsabilidad de un Ministro por un delito contra la seguridad del Estado en el ejercicio de sus funciones compete al/a la:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sala de lo Penal del Tribunal Supremo."
+          },
+          {
+            "id": "b",
+            "label": "Mayoría absoluta de los miembros del Congreso."
+          },
+          {
+            "id": "c",
+            "label": "Cuarta parte de estos miembros."
+          },
+          {
+            "id": "d",
+            "label": "Consejo de Ministros."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Mayoría absoluta de los miembros del Congreso."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-64",
+        "section": "test-oficial",
+        "prompt": "El pronunciamiento sobre la cuestión de confianza es competencia del/de las:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Congreso exclusivamente."
+          },
+          {
+            "id": "b",
+            "label": "Senado cuando se plantee ante él."
+          },
+          {
+            "id": "c",
+            "label": "Congreso y Senado."
+          },
+          {
+            "id": "d",
+            "label": "Propio Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Congreso exclusivamente."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-65",
+        "section": "test-oficial",
+        "prompt": "La cuestión de confianza se plantea por el:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Gobierno en sí."
+          },
+          {
+            "id": "c",
+            "label": "Congreso."
+          },
+          {
+            "id": "d",
+            "label": "Cualquier Ministro."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-66",
+        "section": "test-oficial",
+        "prompt": "Respecto al planteamiento de la cuestión de confianza, el Consejo de Ministros:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Decide."
+          },
+          {
+            "id": "b",
+            "label": "Debe dictaminarlo favorablemente."
+          },
+          {
+            "id": "c",
+            "label": "Delibera."
+          },
+          {
+            "id": "d",
+            "label": "No tiene nada que hacer."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Delibera."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-67",
+        "section": "test-oficial",
+        "prompt": "La disolución anticipada del Congreso o del Senado, se decreta por el:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Presidente de la Cámara."
+          },
+          {
+            "id": "c",
+            "label": "Rey."
+          },
+          {
+            "id": "d",
+            "label": "Gobierno en pleno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Rey."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-68",
+        "section": "test-oficial",
+        "prompt": "La declaración del estado de alarma lo es por el/las:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "Gobierno, por quince días."
+          },
+          {
+            "id": "c",
+            "label": "Congreso, por treinta días."
+          },
+          {
+            "id": "d",
+            "label": "Gobierno, por treinta días prorrogables por el Congreso."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: Gobierno, por quince días."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-69",
+        "section": "test-oficial",
+        "prompt": "La convocatoria y disolución de las Cortes Generales corresponde al:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Presidente de las Cortes."
+          },
+          {
+            "id": "c",
+            "label": "Rey."
+          },
+          {
+            "id": "d",
+            "label": "Presidente del Congreso."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "La plantilla oficial marca como correcta la opción C: Rey."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-70",
+        "section": "test-oficial",
+        "prompt": "Según la CE, el Gobierno ejerce:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La función ejecutiva y la potestad reglamentaria."
+          },
+          {
+            "id": "b",
+            "label": "La función legislativa y ejecutiva."
+          },
+          {
+            "id": "c",
+            "label": "La potestad reglamentaria y legislativa."
+          },
+          {
+            "id": "d",
+            "label": "La función ejecutiva, la potestad reglamentaria y legislativa."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: La función ejecutiva y la potestad reglamentaria."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-71",
+        "section": "test-oficial",
+        "prompt": "La acción del Gobierno la dirige y coordina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Presidente del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "El Ministro de Relaciones con las Cortes."
+          },
+          {
+            "id": "c",
+            "label": "El Ministro de Administraciones Públicas."
+          },
+          {
+            "id": "d",
+            "label": "El Consejo de Ministros."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "La plantilla oficial marca como correcta la opción A: El Presidente del Gobierno."
+      },
+      {
+        "id": "b1t3-test-oficial-gobierno-72",
+        "section": "test-oficial",
+        "prompt": "La moción de censura deberá ser propuesta al menos por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La mayoría absoluta de los Diputados."
+          },
+          {
+            "id": "b",
+            "label": "La décima parte de los Diputados."
+          },
+          {
+            "id": "c",
+            "label": "La cuarta parte de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "La mayoría simple de los Diputados."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "La plantilla oficial marca como correcta la opción B: La décima parte de los Diputados."
+      }
+    ]
+  },
+  {
     "code": "B2T5",
     "slug": "b2t5-test-oficial-sgbd",
     "title": "Test oficial SGBD",
