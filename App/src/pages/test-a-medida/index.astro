@@ -1,0 +1,325 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { topics } from "../../data/topics";
+
+const practiceTopics = topics.filter((topic) => topic.questionCount > 0);
+const topicsByBlock = practiceTopics.reduce<Record<string, typeof practiceTopics>>((groups, topic) => {
+  groups[topic.blockLabel] ??= [];
+  groups[topic.blockLabel].push(topic);
+  return groups;
+}, {});
+---
+
+<BaseLayout
+  title="Test a medida | AprobarApp"
+  description="Crea tests aleatorios mezclando los temas que quieras repasar."
+>
+  <section class="page-hero content-centered custom-test-hero">
+    <p class="eyebrow">Repaso personalizado</p>
+    <h1>Mezcla los temas que quieras en un test nuevo</h1>
+    <p>
+      Elige uno o varios temas, decide cuántas preguntas quieres y genera una combinación distinta cada vez. Las preguntas,
+      las opciones y las explicaciones mantienen el mismo formato de práctica de AprobarApp.
+    </p>
+  </section>
+
+  <section class="custom-test-builder" data-custom-test-builder>
+    <div class="custom-test-builder__header">
+      <div>
+        <p class="eyebrow">Configuración</p>
+        <h2>Prepara tu repaso</h2>
+      </div>
+      <p data-custom-selection-summary>Selecciona los temas que quieres mezclar.</p>
+    </div>
+
+    <div class="custom-test-builder__controls">
+      <fieldset class="custom-test-builder__topics">
+        <legend>Temas incluidos</legend>
+        <div class="custom-test-builder__quick-actions">
+          <button class="text-link" type="button" data-select-all>Seleccionar todos</button>
+          <button class="text-link" type="button" data-clear-selection>Limpiar</button>
+        </div>
+
+        <div class="custom-topic-picker">
+          {
+            Object.entries(topicsByBlock).map(([blockLabel, blockTopics]) => (
+              <div class="custom-topic-picker__block">
+                <p>{blockLabel}</p>
+                <div class="custom-topic-picker__list">
+                  {blockTopics.map((topic) => (
+                    <label class="custom-topic-option">
+                      <input type="checkbox" value={topic.code} data-custom-topic />
+                      <span class="custom-topic-option__check" aria-hidden="true"></span>
+                      <span class="custom-topic-option__content">
+                        <strong>{topic.code}</strong>
+                        <span>{topic.shortTitle}</span>
+                      </span>
+                      <small>{topic.questionCount} preguntas</small>
+                    </label>
+                  ))}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </fieldset>
+
+      <div class="custom-test-builder__settings">
+        <label class="custom-test-builder__size" for="custom-test-size">
+          <span>Preguntas del test</span>
+          <select id="custom-test-size" data-custom-size>
+            <option value="20">20 preguntas</option>
+            <option value="30">30 preguntas</option>
+            <option value="50" selected>50 preguntas</option>
+          </select>
+        </label>
+
+        <p class="custom-test-builder__note">
+          El reparto entre temas y las respuestas A, B, C y D se equilibra automáticamente siempre que las preguntas disponibles lo permitan.
+        </p>
+
+        <button class="button button--primary" type="button" data-generate-custom-test>
+          Generar test
+        </button>
+        <p class="custom-test-builder__error" data-custom-error role="alert" hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="custom-test-session" data-custom-test-session hidden aria-live="polite">
+    <div class="test-hero custom-test-session__hero">
+      <div>
+        <p class="eyebrow">Test a medida</p>
+        <h2>Tu repaso mixto está listo</h2>
+        <p data-custom-test-description></p>
+      </div>
+      <div class="test-hero__actions">
+        <button class="button button--secondary" type="button" data-generate-another>
+          Generar otro test
+        </button>
+      </div>
+    </div>
+
+    <div class="quiz-layout" data-custom-quiz>
+      <aside class="quiz-summary">
+        <div class="quiz-summary__box">
+          <p class="quiz-summary__label">Estado del test</p>
+          <strong data-custom-score-label>En curso</strong>
+        </div>
+        <div class="quiz-summary__box">
+          <p class="quiz-summary__label">Respondidas</p>
+          <strong><span data-custom-answered-count>0</span> / <span data-custom-total-count>0</span></strong>
+        </div>
+        <div class="quiz-summary__box">
+          <p class="quiz-summary__label">Fallos</p>
+          <strong data-custom-mistakes-count>0</strong>
+        </div>
+        <button class="button button--primary" type="button" data-generate-another>
+          Cambiar preguntas
+        </button>
+      </aside>
+
+      <div class="quiz-questions" data-custom-questions></div>
+    </div>
+  </section>
+
+  <noscript>
+    <p class="empty-state">Necesitas activar JavaScript para crear tests a medida desde el navegador.</p>
+  </noscript>
+
+  <script>
+    import { topics } from "../../data/topics";
+    import { questionBanksByCode } from "../../data/question-banks";
+    import { buildCustomTest } from "../../data/custom-test-generator.mjs";
+
+    const builder = document.querySelector("[data-custom-test-builder]");
+    const session = document.querySelector("[data-custom-test-session]");
+
+    if (builder && session) {
+      const topicInputs = [...builder.querySelectorAll("[data-custom-topic]")];
+      const sizeSelect = builder.querySelector("[data-custom-size]");
+      const selectionSummary = builder.querySelector("[data-custom-selection-summary]");
+      const errorNode = builder.querySelector("[data-custom-error]");
+      const questionRoot = session.querySelector("[data-custom-questions]");
+      const descriptionNode = session.querySelector("[data-custom-test-description]");
+      const totalNode = session.querySelector("[data-custom-total-count]");
+      const answeredNode = session.querySelector("[data-custom-answered-count]");
+      const mistakesNode = session.querySelector("[data-custom-mistakes-count]");
+      const scoreNode = session.querySelector("[data-custom-score-label]");
+      const sources = topics
+        .filter((topic) => topic.questionCount > 0)
+        .map((topic) => ({ code: topic.code, title: topic.shortTitle, questions: questionBanksByCode[topic.code] ?? [] }))
+        .filter((topic) => topic.questions.length > 0);
+      const sourcesByCode = new Map(sources.map((source) => [source.code, source]));
+      const configStorageKey = "aprobarapp:custom-test-config";
+      let generation = 0;
+
+      const selectedCodes = () =>
+        topicInputs.filter((input) => input instanceof HTMLInputElement && input.checked).map((input) => input.value);
+
+      const updateSelectionSummary = () => {
+        const selected = selectedCodes();
+        const names = selected.map((code) => sourcesByCode.get(code)?.title ?? code);
+
+        if (selected.length === 0) {
+          selectionSummary.textContent = "Selecciona al menos un tema para crear el test.";
+          return;
+        }
+
+        selectionSummary.textContent = `${selected.length} ${selected.length === 1 ? "tema seleccionado" : "temas seleccionados"}: ${names.join(", ")}.`;
+        localStorage.setItem(configStorageKey, JSON.stringify({ topics: selected, size: sizeSelect.value }));
+      };
+
+      const setError = (message = "") => {
+        errorNode.hidden = !message;
+        errorNode.textContent = message;
+      };
+
+      const createElement = (tagName, className, text = "") => {
+        const node = document.createElement(tagName);
+        if (className) node.className = className;
+        if (text) node.textContent = text;
+        return node;
+      };
+
+      const renderQuestions = (questions) => {
+        questionRoot.replaceChildren();
+
+        questions.forEach((question, index) => {
+          const card = createElement("article", "quiz-question");
+          card.dataset.question = "";
+          card.dataset.correct = question.correctOption;
+
+          const header = createElement("div", "quiz-question__header");
+          header.append(createElement("span", "quiz-question__index", `Pregunta ${index + 1}`));
+          header.append(createElement("span", "quiz-question__section", `${question.topicCode} · ${question.section.replace(/-/g, " ")}`));
+          card.append(header, createElement("h3", "", question.prompt));
+
+          const options = createElement("div", "quiz-options");
+          question.options.forEach((option) => {
+            const button = createElement("button", "quiz-option");
+            button.type = "button";
+            button.dataset.option = option.id;
+            button.append(createElement("span", "quiz-option__letter", option.id.toUpperCase()), createElement("span", "", option.label));
+            options.append(button);
+          });
+
+          const feedback = createElement("div", "quiz-feedback");
+          feedback.dataset.feedback = "";
+          feedback.hidden = true;
+          feedback.append(
+            createElement("p", "quiz-feedback__title"),
+            createElement("p", "quiz-feedback__body", question.explanation),
+          );
+          card.append(options, feedback);
+          questionRoot.append(card);
+        });
+      };
+
+      const startQuiz = (test, selected) => {
+        let answered = 0;
+        let mistakes = 0;
+        const storageKey = `aprobarapp:custom-test:${test.seed}`;
+        const topicLabels = selected.map((code) => `${code} · ${sourcesByCode.get(code)?.title ?? code}`);
+
+        renderQuestions(test.questions);
+        totalNode.textContent = String(test.questions.length);
+        answeredNode.textContent = "0";
+        mistakesNode.textContent = "0";
+        scoreNode.textContent = "En curso";
+        scoreNode.className = "";
+        descriptionNode.textContent = `${test.questions.length} preguntas mezclando ${topicLabels.join(", ")}.`;
+        session.hidden = false;
+
+        const updateSummary = () => {
+          answeredNode.textContent = String(answered);
+          mistakesNode.textContent = String(mistakes);
+
+          if (answered < test.questions.length) return;
+
+          const resultClass = mistakes === 0 ? "is-perfect" : mistakes <= 3 ? "is-warning" : "is-danger";
+          const label = mistakes === 0 ? "Verde · impecable" : mistakes <= 3 ? "Amarillo · repasable" : "Rojo · toca reforzar";
+          scoreNode.textContent = label;
+          scoreNode.className = resultClass;
+          localStorage.setItem(
+            storageKey,
+            JSON.stringify({ answered, mistakes, totalQuestions: test.questions.length, selectedTopics: selected, completedAt: new Date().toISOString() }),
+          );
+        };
+
+        for (const card of questionRoot.querySelectorAll("[data-question]")) {
+          const correctOption = card.getAttribute("data-correct");
+          const buttons = [...card.querySelectorAll("[data-option]")];
+          const feedback = card.querySelector("[data-feedback]");
+          const feedbackTitle = feedback?.querySelector(".quiz-feedback__title");
+
+          for (const button of buttons) {
+            button.addEventListener("click", () => {
+              if (card.classList.contains("is-answered")) return;
+
+              const isCorrect = button.getAttribute("data-option") === correctOption;
+              card.classList.add("is-answered");
+              answered += 1;
+              if (!isCorrect) mistakes += 1;
+
+              for (const optionButton of buttons) {
+                const optionId = optionButton.getAttribute("data-option");
+                optionButton.setAttribute("disabled", "true");
+                if (optionId === correctOption || (optionButton === button && isCorrect)) optionButton.classList.add("is-correct");
+                if (optionButton === button && !isCorrect) optionButton.classList.add("is-incorrect");
+              }
+
+              if (feedback && feedbackTitle) {
+                feedback.hidden = false;
+                feedback.classList.add(isCorrect ? "is-correct" : "is-incorrect");
+                feedbackTitle.textContent = isCorrect
+                  ? "Respuesta correcta. Sigue así."
+                  : "Respuesta incorrecta. La opción válida queda marcada en verde.";
+              }
+
+              updateSummary();
+            });
+          }
+        }
+      };
+
+      const generateTest = () => {
+        const selected = selectedCodes();
+        if (selected.length === 0) {
+          setError("Selecciona al menos un tema antes de generar el test.");
+          return;
+        }
+
+        setError();
+        generation += 1;
+        const selectedSources = selected.map((code) => sourcesByCode.get(code)).filter(Boolean);
+        const test = buildCustomTest(selectedSources, { size: Number(sizeSelect.value), seed: `${Date.now()}-${generation}` });
+        startQuiz(test, selected);
+        session.scrollIntoView({ behavior: "smooth", block: "start" });
+      };
+
+      try {
+        const stored = JSON.parse(localStorage.getItem(configStorageKey) ?? "null");
+        if (stored?.topics?.length) {
+          for (const input of topicInputs) input.checked = stored.topics.includes(input.value);
+        }
+        if (["20", "30", "50"].includes(stored?.size)) sizeSelect.value = stored.size;
+      } catch {}
+
+      for (const input of topicInputs) input.addEventListener("change", updateSelectionSummary);
+      sizeSelect.addEventListener("change", updateSelectionSummary);
+      builder.querySelector("[data-select-all]").addEventListener("click", () => {
+        for (const input of topicInputs) input.checked = true;
+        updateSelectionSummary();
+      });
+      builder.querySelector("[data-clear-selection]").addEventListener("click", () => {
+        for (const input of topicInputs) input.checked = false;
+        updateSelectionSummary();
+      });
+      builder.querySelector("[data-generate-custom-test]").addEventListener("click", generateTest);
+      for (const button of session.querySelectorAll("[data-generate-another]")) button.addEventListener("click", generateTest);
+
+      updateSelectionSummary();
+    }
+  </script>
+</BaseLayout>
