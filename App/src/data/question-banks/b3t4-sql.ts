@@ -1,4 +1,5 @@
 import generatedOfficialTests from "../generated/official-tests.json";
+import { practiceQuestionExtensionsByCode } from "../practice-question-extensions.mjs";
 import type { QuizQuestion } from "../question-bank";
 
 function getQuestionNumber(id: string) {
@@ -31,8 +32,13 @@ const b3t4OfficialTest = (generatedOfficialTests as Array<{
   questions: QuizQuestion[];
 }>).find((test) => test.code === "B3T4");
 
-export const b3t4SqlQuestionBank: QuizQuestion[] =
+const officialQuestions: QuizQuestion[] =
   b3t4OfficialTest?.questions.map((question) => ({
     ...question,
     section: resolveSection(getQuestionNumber(question.id)),
   })) ?? [];
+
+export const b3t4SqlQuestionBank: QuizQuestion[] = [
+  ...officialQuestions,
+  ...(practiceQuestionExtensionsByCode.B3T4 ?? []),
+];

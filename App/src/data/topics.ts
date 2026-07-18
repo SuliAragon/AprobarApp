@@ -3,6 +3,7 @@ import generatedOfficialMaterials from "./generated/official-materials.json";
 import { getOfficialInteractiveTestBySlug, type OfficialInteractiveTest } from "./official-tests";
 import { buildTopicTests, type TopicTest } from "./question-bank";
 import { questionBanksByCode } from "./question-banks";
+import { buildExtendedPracticePresets } from "./practice-test-presets.mjs";
 import { buildTopicNavigator, parseTopicCode } from "./topic-catalog.js";
 import { topicOverrides } from "./topic-overrides";
 import { buildVersionedAssetPath } from "../utils/versioned-asset-path";
@@ -94,7 +95,7 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[])
   .map((topic) => {
   const override = topicOverrides[topic.code];
   const questionBank = questionBanksByCode[topic.code] ?? [];
-  const tests = override ? buildTopicTests(topic.code, questionBank, override.testPresets) : [];
+  const tests = override ? buildTopicTests(topic.code, questionBank, buildExtendedPracticePresets(override.testPresets)) : [];
   const officialMaterials = (officialMaterialsByCode[topic.code] ?? []).sort((left, right) => {
     const order = { "official-test": 0, exercise: 1, resource: 2 };
     return order[left.kind] - order[right.kind] || left.title.localeCompare(right.title, "es");

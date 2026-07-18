@@ -1,4 +1,5 @@
 import generatedOfficialTests from "../generated/official-tests.json";
+import { practiceQuestionExtensionsByCode } from "../practice-question-extensions.mjs";
 import type { QuizQuestion } from "../question-bank";
 
 const sectionByQuestionNumber = new Map<number, string>([
@@ -86,7 +87,7 @@ const b1t3OfficialTest = (generatedOfficialTests as Array<{
   questions: QuizQuestion[];
 }>).find((test) => test.code === "B1T3");
 
-export const b1t3GobiernoQuestionBank: QuizQuestion[] =
+const officialQuestions: QuizQuestion[] =
   b1t3OfficialTest?.questions.map((question) => {
     const questionNumber = getQuestionNumber(question.id);
 
@@ -95,3 +96,8 @@ export const b1t3GobiernoQuestionBank: QuizQuestion[] =
       section: sectionByQuestionNumber.get(questionNumber) ?? "marco-constitucional-y-composicion",
     };
   }) ?? [];
+
+export const b1t3GobiernoQuestionBank: QuizQuestion[] = [
+  ...officialQuestions,
+  ...(practiceQuestionExtensionsByCode.B1T3 ?? []),
+];

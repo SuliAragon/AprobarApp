@@ -1,4 +1,5 @@
 import generatedOfficialTests from "../generated/official-tests.json";
+import { practiceQuestionExtensionsByCode } from "../practice-question-extensions.mjs";
 import type { QuizQuestion } from "../question-bank";
 
 const sectionByQuestionNumber = new Map<number, string>([
@@ -60,7 +61,7 @@ const b2t5OfficialTest = (generatedOfficialTests as Array<{
   questions: QuizQuestion[];
 }>).find((test) => test.code === "B2T5");
 
-export const b2t5SgbdQuestionBank: QuizQuestion[] =
+const officialQuestions: QuizQuestion[] =
   b2t5OfficialTest?.questions.map((question) => {
     const questionNumber = getQuestionNumber(question.id);
 
@@ -69,3 +70,8 @@ export const b2t5SgbdQuestionBank: QuizQuestion[] =
       section: sectionByQuestionNumber.get(questionNumber) ?? "fundamentos-y-acid",
     };
   }) ?? [];
+
+export const b2t5SgbdQuestionBank: QuizQuestion[] = [
+  ...officialQuestions,
+  ...(practiceQuestionExtensionsByCode.B2T5 ?? []),
+];
