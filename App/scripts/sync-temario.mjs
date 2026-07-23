@@ -307,6 +307,11 @@ if (parserUnavailable) {
     "[sync-temario] `pdftotext` no está disponible. Se conserva el JSON generado previamente para los tests oficiales interactivos.",
   );
 } else {
-  writeJsonFile(officialTestsFile, interactiveOfficialTests);
-  console.log(`[sync-temario] Generados ${interactiveOfficialTests.length} tests oficiales interactivos.`);
+  // Several source folders can expose the same official PDF. Keep one interactive test per slug.
+  const uniqueInteractiveOfficialTests = [
+    ...new Map(interactiveOfficialTests.map((test) => [test.slug, test])).values(),
+  ];
+
+  writeJsonFile(officialTestsFile, uniqueInteractiveOfficialTests);
+  console.log(`[sync-temario] Generados ${uniqueInteractiveOfficialTests.length} tests oficiales interactivos.`);
 }
