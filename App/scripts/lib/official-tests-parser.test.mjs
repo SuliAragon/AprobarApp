@@ -124,6 +124,30 @@ SOLUCIONES
   assert.match(parsed.questions[0].explanation, /opción D/i);
 });
 
+test("parseOfficialTestText genera una explicación didáctica y no repite la plantilla oficial", () => {
+  const source = `
+26. Un árbol está equilibrado:
+a) Si, y sólo si, para cada uno de sus nodos ocurre que las alturas de sus dos subárboles difieren como mucho en 1.
+b) Si, para cada nodo, el número de nodos de sus subárboles difiere como mucho en una unidad.
+c) Si los dos subárboles tienen siempre el mismo número de nodos.
+d) Si basta con que algunos de sus nodos cumplan la condición de altura.
+
+SOLUCIONES
+26. A
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B2T3",
+    slug: "b2t3-test-oficial",
+    title: "Test oficial estructuras",
+  });
+
+  assert.match(parsed.questions[0].explanation, /^Por qué:/);
+  assert.match(parsed.questions[0].explanation, /altura.*subárboles/i);
+  assert.match(parsed.questions[0].explanation, /Referencia del temario: B2T3 · .*Árboles/i);
+  assert.doesNotMatch(parsed.questions[0].explanation, /plantilla oficial/i);
+});
+
 test("parseOfficialTestText no corta el examen si aparece la palabra resoluciones dentro del enunciado", () => {
   const source = `
 18. En relación con el Defensor del Pueblo:

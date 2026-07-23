@@ -7,8 +7,9 @@ import { b2t5SgbdQuestionBank } from "./b2t5-sgbd";
 import { b3t1ModeloErQuestionBank } from "./b3t1-modelo-er";
 import { b3t2DisenoBdQuestionBank } from "./b3t2-diseno-bd";
 import { b3t4SqlQuestionBank } from "./b3t4-sql";
+import { withTemarioReference } from "../temario-explanation-references.mjs";
 
-export const questionBanksByCode: Record<string, QuizQuestion[]> = {
+const rawQuestionBanksByCode: Record<string, QuizQuestion[]> = {
   B1T1: b1t1ConstitutionQuestionBank,
   B1T2: b1t2CortesGeneralesQuestionBank,
   B1T3: b1t3GobiernoQuestionBank,
@@ -18,3 +19,10 @@ export const questionBanksByCode: Record<string, QuizQuestion[]> = {
   B3T2: b3t2DisenoBdQuestionBank,
   B3T4: b3t4SqlQuestionBank,
 };
+
+export const questionBanksByCode: Record<string, QuizQuestion[]> = Object.fromEntries(
+  Object.entries(rawQuestionBanksByCode).map(([code, questions]) => [
+    code,
+    questions.map((question) => withTemarioReference(question, code)),
+  ]),
+);
