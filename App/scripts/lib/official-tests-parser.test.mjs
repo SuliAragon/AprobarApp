@@ -209,3 +209,26 @@ SOLUCIONES
   assert.equal(parsed.questions[0].options[3].label, "El Consejo de Estado.");
   assert.equal(parsed.questions[1].prompt, "La acción del Gobierno la dirige y coordina:");
 });
+
+test("parseOfficialTestText elimina cabeceras pegadas al final de una opción", () => {
+  const source = `
+1. ¿Qué sistema de ficheros no fue creado para Windows?
+a) NTFS.
+b) FAT32.
+c) FAT16.
+d) Ext2. B2T4test SISTEMAS OPERATIVOS
+
+SOLUCIONES
+1. D
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B2T4",
+    slug: "b2t4-test-oficial",
+    title: "Test oficial SSOO",
+  });
+
+  assert.equal(parsed.questions.length, 1);
+  assert.equal(parsed.questions[0].options[3].label, "Ext2.");
+  assert.match(parsed.questions[0].explanation, /Referencia del temario: B2T4/i);
+});

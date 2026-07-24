@@ -56,6 +56,20 @@
     ]
   },
   {
+    "code": "B2T4",
+    "slug": "b2t4-ssoo",
+    "sourceFilename": "Bloque 2/Tema 4/B2T4_SSOO.pdf",
+    "title": "B2T4 SSOO",
+    "pdfPath": "/temario/b2t4-ssoo.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 2/Tema 4/La_ingeniería_oculta_del_sistema_operativo.m4a",
+        "title": "La ingeniería oculta del sistema operativo",
+        "assetPath": "/podcast/B2T4/la-ingenieria-oculta-del-sistema-operativo.m4a"
+      }
+    ]
+  },
+  {
     "code": "B2T5",
     "slug": "b2t5-sgbd",
     "sourceFilename": "Bloque 2/Tema 5/B2T5_SGBD 3.pdf",

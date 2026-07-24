@@ -48,6 +48,30 @@
     "assetPath": "/test-oficial/B1T3/b1t3-test-oficial-gobierno.pdf"
   },
   {
+    "code": "B2T4",
+    "slug": "b2t4-ejercicios",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 2/Tema 4/B2T4Ejercicios 2.pdf",
+    "title": "Ejercicios",
+    "assetPath": "/test-oficial/B2T4/b2t4-ejercicios.pdf"
+  },
+  {
+    "code": "B2T4",
+    "slug": "b2t4-test-oficial-ssoo",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 2/Tema 4/B2T4Test_SSOO 1.pdf",
+    "title": "Test oficial SSOO",
+    "assetPath": "/test-oficial/B2T4/b2t4-test-oficial-ssoo.pdf"
+  },
+  {
+    "code": "B2T4",
+    "slug": "b2t4-ejercicios-soluciones",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 2/Tema 4/B2T4Ejercicios_soluciones.xlsx",
+    "title": "Ejercicios soluciones",
+    "assetPath": "/test-oficial/B2T4/b2t4-ejercicios-soluciones.xlsx"
+  },
+  {
     "code": "B2T5",
     "slug": "b2t5-test-oficial-sgbd",
     "kind": "official-test",

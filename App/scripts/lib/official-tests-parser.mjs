@@ -19,7 +19,11 @@ const noisePatterns = [
 ];
 
 function normalizeWhitespace(value) {
-  return value.replace(/\s+/g, " ").trim();
+  return value
+    .replace(/\bB\d+T\d+\s*test\b/gi, "")
+    .replace(/\bSISTEMAS OPERATIVOS\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function isNoiseLine(value) {
@@ -112,6 +116,34 @@ const explanationRules = [
     text: "Kruskal construye un árbol recubridor mínimo eligiendo aristas de menor peso que no formen ciclos, por lo que se aplica a grafos conexos y ponderados.",
   },
   {
+    match: /Round Robin|quantum|time-slice/i,
+    text: "Round Robin reparte el procesador en turnos de duración limitada mediante un quantum o time-slice. Al agotarse el turno, el proceso vuelve a la cola si todavía no ha terminado.",
+  },
+  {
+    match: /paginación|paginacion|fragmentación interna|fragmentacion interna/i,
+    text: "La paginación divide memoria y procesos en bloques de tamaño fijo. Evita la fragmentación externa, pero el último marco asignado puede quedar parcialmente desaprovechado y producir fragmentación interna.",
+  },
+  {
+    match: /chmod|umask|permisos.*UNIX/i,
+    text: "En UNIX los permisos se expresan en octal para propietario, grupo y otros. Los valores 4, 2 y 1 representan lectura, escritura y ejecución, respectivamente; umask elimina permisos del valor base de creación.",
+  },
+  {
+    match: /daemon|zombie|proceso.*ejecución|proceso.*ejecucion/i,
+    text: "Un proceso es una instancia de un programa en ejecución. Los daemons prestan servicios en segundo plano y un zombie ya ha terminado, pero conserva su entrada hasta que su padre recoge su estado de salida.",
+  },
+  {
+    match: /i-nodo|inode|ext4|NTFS|APFS|JFS|Reiser|sistema de ficheros/i,
+    text: "Los sistemas de ficheros organizan datos y metadatos de forma distinta. En UNIX el i-nodo guarda la información de control del fichero, mientras que cada formato tiene sus propios límites y mecanismos, como journaling o extensiones.",
+  },
+  {
+    match: /Active Directory|registro de Windows|Windows Insider|App-V|Windows 10|Windows 8|Azure/i,
+    text: "Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario.",
+  },
+  {
+    match: /Android|iOS|Firefox OS|Cocoa Touch|Gonk|ART|móviles|moviles/i,
+    text: "Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS.",
+  },
+  {
     match: /gráficos vectoriales|\bSVG\b/i,
     text: "SVG describe gráficos mediante elementos vectoriales y no como una matriz fija de píxeles; por eso puede escalar sin la pérdida propia de una imagen ráster.",
   },
@@ -202,6 +234,7 @@ const topicFallbacks = {
   B1T2: "La cuestión se resuelve aplicando la regulación constitucional de las Cortes Generales, el Tribunal Constitucional o el Defensor del Pueblo. Hay que contrastar competencias, mayorías y procedimientos sin trasladarlos de una institución a otra.",
   B1T3: "La cuestión se resuelve con los artículos constitucionales sobre el Gobierno y sus relaciones con las Cortes, junto con la Ley del Gobierno. Conviene diferenciar composición, investidura, funciones y control parlamentario.",
   B2T3: "La respuesta correcta aplica la definición técnica exacta de la estructura, algoritmo o formato preguntado. Las alternativas restantes cambian el criterio esencial, el ámbito de aplicación o la propiedad que se está evaluando.",
+  B2T4: "La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles.",
   B2T5: "La respuesta correcta distingue la arquitectura y las propiedades propias de cada familia de SGBD. No deben confundirse los conceptos relacionales, orientados a objetos y NoSQL ni las garantías de una transacción.",
   B3T1: "La respuesta correcta se deduce de la semántica del modelo Entidad-Relación y de la transformación o validación del diseño conceptual. La clave está en respetar cardinalidades, atributos, entidades y restricciones del modelo.",
   B3T2: "La respuesta correcta aplica las reglas del modelo relacional y de normalización. Para descartar las demás hay que comprobar dependencias funcionales, claves, integridad y el nivel de diseño al que se refiere el enunciado.",
@@ -247,6 +280,18 @@ const temarioReferences = {
       [/grafo|Kruskal|Floyd|Dijkstra/i, "Tipos abstractos y estructuras de datos · Grafos y algoritmos de teoría de grafos"],
       [/búsqueda|ordenación|burbuja|complejidad|recursiv/i, "Algoritmos"],
       [/fichero|JSON|SVG|JPEG|imagen|audio|vídeo|video|documento/i, "Formatos de información y ficheros"],
+    ],
+  },
+  B2T4: {
+    fallback: "Sistemas operativos: características y elementos constitutivos",
+    rules: [
+      [/proceso|thread|planific|Round Robin|SJF|FCFS|daemon|zombie|concurrencia/i, "Administración de procesos y planificación"],
+      [/paginación|paginacion|segmentación|segmentacion|memoria|reemplazo de páginas|fallo de página/i, "Administración de la memoria"],
+      [/fichero|archivo|i-nodo|inode|ext4|NTFS|APFS|JFS|Reiser|partici/i, "Administración de archivos y sistemas de ficheros"],
+      [/Windows|Active Directory|registro|Azure|App-V|Insider/i, "Sistemas Windows"],
+      [/UNIX|Linux|chmod|umask|Samba|\/(etc|bin|sbin|var)|redirecci|distribución|distribucion/i, "Sistemas UNIX y Linux"],
+      [/Android|iOS|Firefox OS|Cocoa Touch|Gonk|ART|móvil|movil/i, "Sistemas operativos para dispositivos móviles"],
+      [/microkernel|monolít|monolit|máquina virtual|maquina virtual|sistema operativo|kernel/i, "Definición, estructura y componentes del sistema operativo"],
     ],
   },
   B2T5: {

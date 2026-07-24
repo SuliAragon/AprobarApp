@@ -8365,6 +8365,1519 @@
     ]
   },
   {
+    "code": "B2T4",
+    "slug": "b2t4-test-oficial-ssoo",
+    "title": "Test oficial SSOO",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 2/Tema 4/B2T4Test_SSOO 1.pdf",
+    "assetPath": "/test-oficial/B2T4/b2t4-test-oficial-ssoo.pdf",
+    "questions": [
+      {
+        "id": "b2t4-test-oficial-ssoo-1",
+        "section": "test-oficial",
+        "prompt": "Cuál de los siguientes sistemas de archivos NO fue creado para Windows:",
+        "options": [
+          {
+            "id": "a",
+            "label": "NTFS."
+          },
+          {
+            "id": "b",
+            "label": "FAT16."
+          },
+          {
+            "id": "c",
+            "label": "FAT32."
+          },
+          {
+            "id": "d",
+            "label": "Ext2."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción D (Ext2.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-2",
+        "section": "test-oficial",
+        "prompt": "Seleccione la respuesta correcta con respecto al algoritmo de planificación Round Robin, es un algoritmo que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Provoca aplazamientos indefinidos."
+          },
+          {
+            "id": "b",
+            "label": "Hace uso de “quantum” o “time-slice”."
+          },
+          {
+            "id": "c",
+            "label": "Prioriza el proceso cuyo tiempo restante sea más corto."
+          },
+          {
+            "id": "d",
+            "label": "Prioriza el proceso más corto."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Round Robin reparte el procesador en turnos de duración limitada mediante un quantum o time-slice. Al agotarse el turno, el proceso vuelve a la cola si todavía no ha terminado. En este caso, la opción B (Hace uso de “quantum” o “time-slice”.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-3",
+        "section": "test-oficial",
+        "prompt": "Relacionado con la gestión de memoria, la técnica de paginación puede provocar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La tabla de páginas se quede sin memoria provocando un error de Memory Exceptión."
+          },
+          {
+            "id": "b",
+            "label": "Fragmentación interna."
+          },
+          {
+            "id": "c",
+            "label": "Fragmentación externa."
+          },
+          {
+            "id": "d",
+            "label": "Fragmentación interna y externa a la vez."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La paginación divide memoria y procesos en bloques de tamaño fijo. Evita la fragmentación externa, pero el último marco asignado puede quedar parcialmente desaprovechado y producir fragmentación interna. En este caso, la opción B (Fragmentación interna.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de la memoria."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-4",
+        "section": "test-oficial",
+        "prompt": "En UNIX, si utiliza el comando “chmod 754” para modificar los permisos a un fichero, ¿qué permisos le estamos asignando?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Acceso de lectura y ejecución al dueño, acceso total al grupo y acceso de lectura al resto de usuarios."
+          },
+          {
+            "id": "b",
+            "label": "Acceso total al dueño, acceso de lectura y ejecución al grupo y acceso de lectura al resto de usuarios."
+          },
+          {
+            "id": "c",
+            "label": "Acceso total al dueño del fichero, acceso de lectura al grupo y acceso de lectura y ejecución al resto de usuarios."
+          },
+          {
+            "id": "d",
+            "label": "Acceso de lectura al dueño, acceso de lectura al grupo y total al resto de usuarios."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En UNIX los permisos se expresan en octal para propietario, grupo y otros. Los valores 4, 2 y 1 representan lectura, escritura y ejecución, respectivamente; umask elimina permisos del valor base de creación. En este caso, la opción B (Acceso total al dueño, acceso de lectura y ejecución al grupo y acceso de lectura al resto de usuarios.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-5",
+        "section": "test-oficial",
+        "prompt": "En UNIX, el comando para modificar los permisos de un fichero a acceso total al dueño, acceso de lectura y escritura al grupo y acceso de lectura al resto de usuarios:",
+        "options": [
+          {
+            "id": "a",
+            "label": "chmod 764."
+          },
+          {
+            "id": "b",
+            "label": "chmod 654."
+          },
+          {
+            "id": "c",
+            "label": "chmod 731."
+          },
+          {
+            "id": "d",
+            "label": "chmod 752."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: En UNIX los permisos se expresan en octal para propietario, grupo y otros. Los valores 4, 2 y 1 representan lectura, escritura y ejecución, respectivamente; umask elimina permisos del valor base de creación. En este caso, la opción A (chmod 764.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-6",
+        "section": "test-oficial",
+        "prompt": "En UNIX, la expresión “daemon” se refiere a un proceso del sistema que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se ejecuta durante un periodo corto de tiempo."
+          },
+          {
+            "id": "b",
+            "label": "Es un proceso que no tiene padre."
+          },
+          {
+            "id": "c",
+            "label": "Está siempre ejecutándose."
+          },
+          {
+            "id": "d",
+            "label": "Siempre se ejecuta en segundo plano (background)."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Un proceso es una instancia de un programa en ejecución. Los daemons prestan servicios en segundo plano y un zombie ya ha terminado, pero conserva su entrada hasta que su padre recoge su estado de salida. En este caso, la opción D (Siempre se ejecuta en segundo plano (background).) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-7",
+        "section": "test-oficial",
+        "prompt": "NO es una distribución Linux:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lollipop."
+          },
+          {
+            "id": "b",
+            "label": "Red Hat."
+          },
+          {
+            "id": "c",
+            "label": "Suse."
+          },
+          {
+            "id": "d",
+            "label": "Debian."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (Lollipop.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-8",
+        "section": "test-oficial",
+        "prompt": "Cuál de los siguientes NO es un estado en los que se puede encontrar un proceso:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En ejecución."
+          },
+          {
+            "id": "b",
+            "label": "Bloqueado."
+          },
+          {
+            "id": "c",
+            "label": "Listo."
+          },
+          {
+            "id": "d",
+            "label": "Ocioso."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción D (Ocioso.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-9",
+        "section": "test-oficial",
+        "prompt": "En Linux, los archivos de configuración se encuentran en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "/etc."
+          },
+          {
+            "id": "b",
+            "label": "/bin."
+          },
+          {
+            "id": "c",
+            "label": "/boot."
+          },
+          {
+            "id": "d",
+            "label": "/root."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (/etc.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-10",
+        "section": "test-oficial",
+        "prompt": "La versión 2.0 del sistema operativo para móviles Android es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cupcake."
+          },
+          {
+            "id": "b",
+            "label": "Donut."
+          },
+          {
+            "id": "c",
+            "label": "Eclair."
+          },
+          {
+            "id": "d",
+            "label": "Honeycom."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción C (Eclair.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-11",
+        "section": "test-oficial",
+        "prompt": "La versión 8.1 del sistema operativo para móviles Android es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lollipop."
+          },
+          {
+            "id": "b",
+            "label": "Marshmallow."
+          },
+          {
+            "id": "c",
+            "label": "Pie."
+          },
+          {
+            "id": "d",
+            "label": "Oreo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción D (Oreo.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-12",
+        "section": "test-oficial",
+        "prompt": "La versión actual de iOS es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "14."
+          },
+          {
+            "id": "b",
+            "label": "15."
+          },
+          {
+            "id": "c",
+            "label": "17."
+          },
+          {
+            "id": "d",
+            "label": "16."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción C (17.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-13",
+        "section": "test-oficial",
+        "prompt": "La capa de iOS que está desarrollada principalmente en Objetive C con tecnologías para acceso a ficheros multimedia es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Core OS."
+          },
+          {
+            "id": "b",
+            "label": "Core Services."
+          },
+          {
+            "id": "c",
+            "label": "Media."
+          },
+          {
+            "id": "d",
+            "label": "Cocoa Touch."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción C (Media.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-14",
+        "section": "test-oficial",
+        "prompt": "Cuál de las siguientes capas de Firefox OS se corresponde con el núcleo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Gaia."
+          },
+          {
+            "id": "b",
+            "label": "Gecko."
+          },
+          {
+            "id": "c",
+            "label": "Gona."
+          },
+          {
+            "id": "d",
+            "label": "Gonk."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción D (Gonk.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-15",
+        "section": "test-oficial",
+        "prompt": "La implementación libre del protocolo de archivos compartidos de Windows, renombrado a CIFS, para sistemas tipo UNIX de forma que se vean como servidores o actúen como clientes en redes Windows es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Samba."
+          },
+          {
+            "id": "b",
+            "label": "LDAP."
+          },
+          {
+            "id": "c",
+            "label": "Active Directory."
+          },
+          {
+            "id": "d",
+            "label": "Kerberos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción A (Samba.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-16",
+        "section": "test-oficial",
+        "prompt": "En Linux, un proceso zombie es el que completada su ejecución:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se identifica porque al ejecutar ps, estos procesos se marcan como <zombie>."
+          },
+          {
+            "id": "b",
+            "label": "Al padre se le envía la señal SIGPOLL a fin de que recupere la salida del proceso hijo."
+          },
+          {
+            "id": "c",
+            "label": "Al padre se le envía la señal KILL para recuperar su ejecución."
+          },
+          {
+            "id": "d",
+            "label": "Aún tiene una entrada en la tabla de procesos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Un proceso es una instancia de un programa en ejecución. Los daemons prestan servicios en segundo plano y un zombie ya ha terminado, pero conserva su entrada hasta que su padre recoge su estado de salida. En este caso, la opción D (Aún tiene una entrada en la tabla de procesos.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-17",
+        "section": "test-oficial",
+        "prompt": "Cuál de las siguientes claves del registro de Windows contiene la configuración predeterminada que se puede aplicar a todos los usuarios del equipo local:",
+        "options": [
+          {
+            "id": "a",
+            "label": "HKEY_CLASSES_ROOT."
+          },
+          {
+            "id": "b",
+            "label": "HKEY_LOCAL_MACHINE\\Software\\Classes."
+          },
+          {
+            "id": "c",
+            "label": "HKEY_CURRENT_USER\\Software\\Classes."
+          },
+          {
+            "id": "d",
+            "label": "HKEY_CURRENT_CONFIG."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario. En este caso, la opción B (HKEY_LOCAL_MACHINE\\Software\\Classes.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas Windows."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-18",
+        "section": "test-oficial",
+        "prompt": "Cuál de las siguientes NO es una categoría de servicio en la nube según Microsoft:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Informática con servidor."
+          },
+          {
+            "id": "b",
+            "label": "Infraestructura como servicio."
+          },
+          {
+            "id": "c",
+            "label": "Plataforma como servicio."
+          },
+          {
+            "id": "d",
+            "label": "Software como servicio."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (Informática con servidor.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos: características y elementos constitutivos."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-19",
+        "section": "test-oficial",
+        "prompt": "¿Qué aplicación para Windows 10 ofrece a los usuarios aplicaciones win32 como aplicaciones virtuales?",
+        "options": [
+          {
+            "id": "a",
+            "label": "WSL."
+          },
+          {
+            "id": "b",
+            "label": "Hello."
+          },
+          {
+            "id": "c",
+            "label": "App-V."
+          },
+          {
+            "id": "d",
+            "label": "Defender."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario. En este caso, la opción C (App-V.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas Windows."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-20",
+        "section": "test-oficial",
+        "prompt": "A la estructura en disco que contiene la información de control de un fichero en un sistema de ficheros UNIX se le denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "I-nodo."
+          },
+          {
+            "id": "b",
+            "label": "Cluster."
+          },
+          {
+            "id": "c",
+            "label": "Bloque de control."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los sistemas de ficheros organizan datos y metadatos de forma distinta. En UNIX el i-nodo guarda la información de control del fichero, mientras que cada formato tiene sus propios límites y mecanismos, como journaling o extensiones. En este caso, la opción A (I-nodo.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-21",
+        "section": "test-oficial",
+        "prompt": "NO es una distribución basada en Debian:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Knoppix."
+          },
+          {
+            "id": "b",
+            "label": "Trisquel."
+          },
+          {
+            "id": "c",
+            "label": "Ubuntu."
+          },
+          {
+            "id": "d",
+            "label": "CentOS."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción D (CentOS.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-22",
+        "section": "test-oficial",
+        "prompt": "Se presentan a continuación una lista de comandos UNIX, y una lista de funciones. 1) “Is”. 2) “pwd”. 3) “cat”. 4) “more”. I) Lista los archivos del directorio activo. II) Muestra en pantalla el contenido de un archivo página a página. III) Muestra el camino completo del directorio actual. IV) Imprime en la salida estándar el contenido de un archivo. El orden correcto de emparejamiento entre comandos y funciones es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1-I, 2-II, 3-III y 4-IV."
+          },
+          {
+            "id": "b",
+            "label": "1-I, 2-III, 3-IV y 4-II."
+          },
+          {
+            "id": "c",
+            "label": "1-II, 2-III, 3-IV y 4-IV."
+          },
+          {
+            "id": "d",
+            "label": "1-III, 2-IV, 3-I y 4-II."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción B (1-I, 2-III, 3-IV y 4-II.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-23",
+        "section": "test-oficial",
+        "prompt": "La versión 5.1 del sistema operativo para móviles Android es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lollipop."
+          },
+          {
+            "id": "b",
+            "label": "Marshmallow."
+          },
+          {
+            "id": "c",
+            "label": "Pie."
+          },
+          {
+            "id": "d",
+            "label": "Oreo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción A (Lollipop.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-24",
+        "section": "test-oficial",
+        "prompt": "La interfaz de usuario de Windows 10 se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Modern UI."
+          },
+          {
+            "id": "b",
+            "label": "Continuum."
+          },
+          {
+            "id": "c",
+            "label": "Aero."
+          },
+          {
+            "id": "d",
+            "label": "Space."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario. En este caso, la opción B (Continuum.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas Windows."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-25",
+        "section": "test-oficial",
+        "prompt": "La interfaz de usuario de Windows 8 se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Modern UI."
+          },
+          {
+            "id": "b",
+            "label": "Continuum."
+          },
+          {
+            "id": "c",
+            "label": "Aero."
+          },
+          {
+            "id": "d",
+            "label": "Space."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario. En este caso, la opción A (Modern UI.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas Windows."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-26",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el tamaño máximo de archivo que admite el sistema de ficheros JFS2?",
+        "options": [
+          {
+            "id": "a",
+            "label": "64 GB."
+          },
+          {
+            "id": "b",
+            "label": "1 TB."
+          },
+          {
+            "id": "c",
+            "label": "16 TB."
+          },
+          {
+            "id": "d",
+            "label": "32 TB."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los sistemas de ficheros organizan datos y metadatos de forma distinta. En UNIX el i-nodo guarda la información de control del fichero, mientras que cada formato tiene sus propios límites y mecanismos, como journaling o extensiones. En este caso, la opción C (16 TB.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-27",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA sobre el sistema de ficheros Reiser4:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es la evolución de ReiserFS."
+          },
+          {
+            "id": "b",
+            "label": "Admite journaling."
+          },
+          {
+            "id": "c",
+            "label": "Soporta compresión y cifrado."
+          },
+          {
+            "id": "d",
+            "label": "El tamaño máximo de archivo es de 4 TB."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Los sistemas de ficheros organizan datos y metadatos de forma distinta. En UNIX el i-nodo guarda la información de control del fichero, mientras que cada formato tiene sus propios límites y mecanismos, como journaling o extensiones. En este caso, la opción D (El tamaño máximo de archivo es de 4 TB.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-28",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes sistemas de ficheros permite gestionar un fichero de 6 EB?",
+        "options": [
+          {
+            "id": "a",
+            "label": "XFS."
+          },
+          {
+            "id": "b",
+            "label": "NTFS."
+          },
+          {
+            "id": "c",
+            "label": "HFS."
+          },
+          {
+            "id": "d",
+            "label": "APFS."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (XFS.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-29",
+        "section": "test-oficial",
+        "prompt": "El sistema de ficheros ext4 se caracteriza por la utilización del concepto:",
+        "options": [
+          {
+            "id": "a",
+            "label": "pages."
+          },
+          {
+            "id": "b",
+            "label": "segments."
+          },
+          {
+            "id": "c",
+            "label": "extends."
+          },
+          {
+            "id": "d",
+            "label": "filespaces."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los sistemas de ficheros organizan datos y metadatos de forma distinta. En UNIX el i-nodo guarda la información de control del fichero, mientras que cada formato tiene sus propios límites y mecanismos, como journaling o extensiones. En este caso, la opción C (extends.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-30",
+        "section": "test-oficial",
+        "prompt": "¿Qué característica del sistema de ficheros APFS NO es cierta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Permite snapshots."
+          },
+          {
+            "id": "b",
+            "label": "El tamaño máximo del volumen es 7,5 EB."
+          },
+          {
+            "id": "c",
+            "label": "Soporta compresión."
+          },
+          {
+            "id": "d",
+            "label": "Admite encriptación de forma no nativa."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Los sistemas de ficheros organizan datos y metadatos de forma distinta. En UNIX el i-nodo guarda la información de control del fichero, mientras que cada formato tiene sus propios límites y mecanismos, como journaling o extensiones. En este caso, la opción D (Admite encriptación de forma no nativa.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-31",
+        "section": "test-oficial",
+        "prompt": "¿Qué es Windows Insider?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una capa de compatibilidad desarrollada por Microsoft que simula un kernel de Linux que permite ejecutar aplicaciones propias."
+          },
+          {
+            "id": "b",
+            "label": "Un asisten virtual."
+          },
+          {
+            "id": "c",
+            "label": "Una funcionalidad que permite el cifrado de datos."
+          },
+          {
+            "id": "d",
+            "label": "Un programa que permite instalar y usar las últimas compilaciones de Windows."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario. En este caso, la opción D (Un programa que permite instalar y usar las últimas compilaciones de Windows.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas Windows."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-32",
+        "section": "test-oficial",
+        "prompt": "La estructura lógica de un directorio activo se divide en niveles. Los niveles, del más alto al menos, son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Bosques, dominios y unidades organizativas."
+          },
+          {
+            "id": "b",
+            "label": "Bosques, unidades organizativas y dominios."
+          },
+          {
+            "id": "c",
+            "label": "Unidades organizativas, bosques y dominios."
+          },
+          {
+            "id": "d",
+            "label": "Unidades organizativas, dominios y bosques."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción A (Bosques, dominios y unidades organizativas.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-33",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes distribuciones está basada en Ubuntu?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ututo."
+          },
+          {
+            "id": "b",
+            "label": "Peppermint OS."
+          },
+          {
+            "id": "c",
+            "label": "Manjaro."
+          },
+          {
+            "id": "d",
+            "label": "Arch Linux."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción B (Peppermint OS.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-34",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes distribuciones está basada en Lubuntu?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Kubuntu."
+          },
+          {
+            "id": "b",
+            "label": "Peppermint OS."
+          },
+          {
+            "id": "c",
+            "label": "Xubuntu."
+          },
+          {
+            "id": "d",
+            "label": "Edubuntu."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción B (Peppermint OS.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-35",
+        "section": "test-oficial",
+        "prompt": "¿Qué distribución utiliza Pacman como gestor de paquetes?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Manjaro."
+          },
+          {
+            "id": "b",
+            "label": "Q4OS."
+          },
+          {
+            "id": "c",
+            "label": "Linux Mint."
+          },
+          {
+            "id": "d",
+            "label": "Elementary OS."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (Manjaro.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-36",
+        "section": "test-oficial",
+        "prompt": "En Linux, ¿dónde se almacenan los archivos ejecutables de administración del sistema?",
+        "options": [
+          {
+            "id": "a",
+            "label": "/bin."
+          },
+          {
+            "id": "b",
+            "label": "/sbin."
+          },
+          {
+            "id": "c",
+            "label": "/root."
+          },
+          {
+            "id": "d",
+            "label": "/etc."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción B (/sbin.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-37",
+        "section": "test-oficial",
+        "prompt": "En Linux, los archivos de logs se encuentran en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "/etc."
+          },
+          {
+            "id": "b",
+            "label": "/bin."
+          },
+          {
+            "id": "c",
+            "label": "/var."
+          },
+          {
+            "id": "d",
+            "label": "/tmp."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción C (/var.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-38",
+        "section": "test-oficial",
+        "prompt": "En relación con las redirecciones en Linux, \"1>&2\" significa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Redirecciona stderr hacia donde stdout apunte."
+          },
+          {
+            "id": "b",
+            "label": "Redirecciona stdout hacia donde stderr apunte."
+          },
+          {
+            "id": "c",
+            "label": "Redirecciona stderr hacia un archivo hacia un fichero."
+          },
+          {
+            "id": "d",
+            "label": "Redirecciona stdout hacia un fichero."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción B (Redirecciona stdout hacia donde stderr apunte.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-39",
+        "section": "test-oficial",
+        "prompt": "En relación con las redirecciones en Linux, \"2>&1\" significa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Redirecciona stderr hacia donde stdout apunte."
+          },
+          {
+            "id": "b",
+            "label": "Redirecciona stdout hacia donde stderr apunte."
+          },
+          {
+            "id": "c",
+            "label": "Redirecciona stderr hacia un archivo hacia un fichero."
+          },
+          {
+            "id": "d",
+            "label": "Redirecciona stdout hacia un fichero."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (Redirecciona stderr hacia donde stdout apunte.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-40",
+        "section": "test-oficial",
+        "prompt": "En relación con las redirecciones en Linux, qué opción permite la redireccionar stderr hacia un archivo concatenando la salida de errores a ese archivo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1>."
+          },
+          {
+            "id": "b",
+            "label": "2>."
+          },
+          {
+            "id": "c",
+            "label": "1>>."
+          },
+          {
+            "id": "d",
+            "label": "2>>."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción D (2>>.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-41",
+        "section": "test-oficial",
+        "prompt": "En Linux, el comando umask permite establecer los permisos por defecto al crear un fichero. Indique la respuesta correcta para que se creen con los permisos 741:",
+        "options": [
+          {
+            "id": "a",
+            "label": "umask 741."
+          },
+          {
+            "id": "b",
+            "label": "umask 036."
+          },
+          {
+            "id": "c",
+            "label": "umask 022."
+          },
+          {
+            "id": "d",
+            "label": "umask 713."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En UNIX los permisos se expresan en octal para propietario, grupo y otros. Los valores 4, 2 y 1 representan lectura, escritura y ejecución, respectivamente; umask elimina permisos del valor base de creación. En este caso, la opción B (umask 036.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-42",
+        "section": "test-oficial",
+        "prompt": "El runtime de Android para la versión 10.0 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dalvik."
+          },
+          {
+            "id": "b",
+            "label": "ARM."
+          },
+          {
+            "id": "c",
+            "label": "ART."
+          },
+          {
+            "id": "d",
+            "label": "JRE."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción C (ART.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-43",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO es una característica del sistema operativo para móviles Android?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es de código abierto."
+          },
+          {
+            "id": "b",
+            "label": "Su núcleo está basado en el kernel de Linux."
+          },
+          {
+            "id": "c",
+            "label": "Utiliza un sistema de ficheros propio para el almacenamiento de datos."
+          },
+          {
+            "id": "d",
+            "label": "Existe un catálogo de aplicaciones para ser descargadas e instaladas denominado Google Play."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los sistemas de ficheros organizan datos y metadatos de forma distinta. En UNIX el i-nodo guarda la información de control del fichero, mientras que cada formato tiene sus propios límites y mecanismos, como journaling o extensiones. En este caso, la opción C (Utiliza un sistema de ficheros propio para el almacenamiento de datos.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-44",
+        "section": "test-oficial",
+        "prompt": "El algoritmo de reemplazo de páginas que elige la página que NO ha sido referenciada en el ciclo anterior es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "NRU."
+          },
+          {
+            "id": "b",
+            "label": "LRU."
+          },
+          {
+            "id": "c",
+            "label": "NFU."
+          },
+          {
+            "id": "d",
+            "label": "LFU."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción C (NFU.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de la memoria."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-45",
+        "section": "test-oficial",
+        "prompt": "El algoritmo de reemplazo de páginas que elige la página que NO ha sido usada en el ciclo anterior es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "NRU."
+          },
+          {
+            "id": "b",
+            "label": "LRU."
+          },
+          {
+            "id": "c",
+            "label": "NFU."
+          },
+          {
+            "id": "d",
+            "label": "LFU."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (NRU.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de la memoria."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-46",
+        "section": "test-oficial",
+        "prompt": "Los algoritmos utilizados en multiprogramación en memoria real permiten asignar un hueco a un programa cuando se necesita que sea cargado en memoria. Señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El algoritmo de primer ajuste asigna el primer hueco que sea mayor al tamaño deseado."
+          },
+          {
+            "id": "b",
+            "label": "El algoritmo de peor ajuste asigna el hueco cuyo tamaño exceda en la mayor cantidad al tamaño deseado, no requiriéndose una búsqueda exhaustiva."
+          },
+          {
+            "id": "c",
+            "label": "El algoritmo del siguiente ajuste asigna el primer hueco que sea mayor al tamaño deseado con la diferencia que se deja un puntero a la ubicación en donde se asignó el último hueco, comenzando la siguiente búsqueda a partir de ahí."
+          },
+          {
+            "id": "d",
+            "label": "El algoritmo del mejor ajuste asigna el hueco cuyo tamaño exceda en la menor cantidad al tamaño deseado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción B (El algoritmo de peor ajuste asigna el hueco cuyo tamaño exceda en la mayor cantidad al tamaño deseado, no requiriéndose una búsqueda exhaustiva.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de la memoria."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-47",
+        "section": "test-oficial",
+        "prompt": "¿Qué algoritmo de planificación del procesador es del tipo no apropiativa?",
+        "options": [
+          {
+            "id": "a",
+            "label": "FCFS."
+          },
+          {
+            "id": "b",
+            "label": "Round Robin."
+          },
+          {
+            "id": "c",
+            "label": "SRTF."
+          },
+          {
+            "id": "d",
+            "label": "Prioridad aplicándose Round Robin para procesos con misma prioridad."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (FCFS.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-48",
+        "section": "test-oficial",
+        "prompt": "En relación con la administración de procesos, el planificador a medio plazo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Decide qué trabajos son candidatos a convertirse en procesos listos para competir por los recursos del sistema."
+          },
+          {
+            "id": "b",
+            "label": "Decide qué proceso, de entre los listos, es al que se le va a asignar el procesador."
+          },
+          {
+            "id": "c",
+            "label": "Decide qué procesos de entre los bloqueados pasan a la cola de listos."
+          },
+          {
+            "id": "d",
+            "label": "Decide qué procesos se suspenden o se reanudan para lograr ciertas metas de rendimiento."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción D (Decide qué procesos se suspenden o se reanudan para lograr ciertas metas de rendimiento.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-49",
+        "section": "test-oficial",
+        "prompt": "En la administración de procesos, cualquier estrategia de planificación persigue una serie objetivos. Indique cuál NO es uno de ellos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Justicia."
+          },
+          {
+            "id": "b",
+            "label": "Evitar la inanición."
+          },
+          {
+            "id": "c",
+            "label": "Maximizar el tiempo de respuesta."
+          },
+          {
+            "id": "d",
+            "label": "El sistema debe ser predecible."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción C (Maximizar el tiempo de respuesta.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-50",
+        "section": "test-oficial",
+        "prompt": "Sobre la organización de las particiones en Unix, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Unix no utiliza el bloque 0 (superbloque)."
+          },
+          {
+            "id": "b",
+            "label": "El bloque 1 es bloque de arranque."
+          },
+          {
+            "id": "c",
+            "label": "La lista de i-nodos se sitúa al final de la partición y asocia un i-nodo a uno o varios ficheros."
+          },
+          {
+            "id": "d",
+            "label": "Los bloques de datos contienen tanto archivos como directorios."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción D (Los bloques de datos contienen tanto archivos como directorios.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de archivos y sistemas de ficheros."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-51",
+        "section": "test-oficial",
+        "prompt": "Dentro de los dispositivos Android, es posible encontrar un gran número de capas de personalización. Señale cuál NO es una de ellas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "MIUI."
+          },
+          {
+            "id": "b",
+            "label": "PenPoint OS."
+          },
+          {
+            "id": "c",
+            "label": "One UI."
+          },
+          {
+            "id": "d",
+            "label": "OriginOS."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción B (PenPoint OS.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas operativos para dispositivos móviles."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-52",
+        "section": "test-oficial",
+        "prompt": "Cuál de las siguientes afirmaciones NO es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En Windows de 64 bits, un proceso de 64 bits no puede cargar una biblioteca de vínculos dinámicos (DLL) de 32 bits."
+          },
+          {
+            "id": "b",
+            "label": "En Windows de 64 bits, un proceso de 32 bits no puede cargar un archivo DLL de 64 bits."
+          },
+          {
+            "id": "c",
+            "label": "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits solo en el mismo equipo."
+          },
+          {
+            "id": "d",
+            "label": "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits tanto en el mismo equipo como entre equipos distintos."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción C (En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits solo en el mismo equipo.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-53",
+        "section": "test-oficial",
+        "prompt": "Entre las funciones de un sistema operativo NO se encuentra:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Controlar las autorizaciones de uso para los usuarios."
+          },
+          {
+            "id": "b",
+            "label": "Administrar la CPU a través de un algoritmo de programación."
+          },
+          {
+            "id": "c",
+            "label": "Ejecutar rutinas de tratamiento de interrupciones en el caso de activación de una señal."
+          },
+          {
+            "id": "d",
+            "label": "Constituir el conjunto de software y hardware necesario para el funcionamiento del ordenador."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción D (Constituir el conjunto de software y hardware necesario para el funcionamiento del ordenador.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Definición, estructura y componentes del sistema operativo."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-54",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un algoritmo de planificación utilizado en sistemas Windows y Linux?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Algoritmo de agrupación."
+          },
+          {
+            "id": "b",
+            "label": "FCFS."
+          },
+          {
+            "id": "c",
+            "label": "SJF."
+          },
+          {
+            "id": "d",
+            "label": "Round Robin."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción A (Algoritmo de agrupación.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-55",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se denomina a una instancia de un programa en ejecución?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proceso terminal."
+          },
+          {
+            "id": "b",
+            "label": "Proceso o thread."
+          },
+          {
+            "id": "c",
+            "label": "Gestión de entrada y salida."
+          },
+          {
+            "id": "d",
+            "label": "Proceso o threat."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción B (Proceso o thread.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-56",
+        "section": "test-oficial",
+        "prompt": "Si decimos \"es un sistema operativo de tipo UNIX. Cuenta con cuatro capas de abstracción: la capa del núcleo del sistema operativo, las capas de servicios principales, la capa de medios y la capa de Cocoa Touch\", nos estamos refiriendo a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Android."
+          },
+          {
+            "id": "b",
+            "label": "Windows phone."
+          },
+          {
+            "id": "c",
+            "label": "iOS."
+          },
+          {
+            "id": "d",
+            "label": "Firefox OS."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. En este caso, la opción C (iOS.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-57",
+        "section": "test-oficial",
+        "prompt": "En un sistema operativo, el algoritmo que decide qué proceso entrará a ejecutarse, condicionado a que se ejecuten primero aquellos trabajos que necesitan menos tiempo es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Round Robin."
+          },
+          {
+            "id": "b",
+            "label": "FCFS."
+          },
+          {
+            "id": "c",
+            "label": "HRN."
+          },
+          {
+            "id": "d",
+            "label": "SJF."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción D (SJF.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-58",
+        "section": "test-oficial",
+        "prompt": "Dentro de las funciones del sistema operativo, existen varios tipos de planificación del procesador. La planificación no apropiativa es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aquella en la cual, una vez que a un proceso le toca su turno de ejecución, ya no puede ser suspendido y no se le puede arrebatar la CPU. Este esquema puede ser peligroso, ya que, si el proceso contiene ciclos infinitos, el resto de los procesos pueden quedar aplazados indefinidamente."
+          },
+          {
+            "id": "b",
+            "label": "Aquella en la cual, una vez que a un proceso le toca su turno de ejecución ya no puede ser suspendido, no se le puede arrebatar la CPU. Este esquema nunca genera ciclos infinitos, porque el resto de los procesos no quedarán aplazados indefinidamente y eventualmente entrarán a ejecutarse."
+          },
+          {
+            "id": "c",
+            "label": "Aquella en la que existe un reloj que lanza interrupciones periódicas en las cuales el planificador toma el control y se decide si el mismo proceso seguirá ejecutándose o se le da su turno a otro proceso."
+          },
+          {
+            "id": "d",
+            "label": "Aquella en la que existe un reloj que lanza interrupciones periódicas en las cuales el planificador toma el control y basándose en algoritmos de prioridades, se decide si el mismo proceso seguirá ejecutándose o se le da su turno a otro proceso."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Un proceso es una instancia de un programa en ejecución. Los daemons prestan servicios en segundo plano y un zombie ya ha terminado, pero conserva su entrada hasta que su padre recoge su estado de salida. En este caso, la opción A (Aquella en la cual, una vez que a un proceso le toca su turno de ejecución, ya no puede ser suspendido y no se le puede arrebatar la CPU. Este esquema puede ser peligroso, ya que, si el proceso contiene ciclos infinitos, el resto de los procesos pueden quedar aplazados indefinidamente.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de procesos y planificación."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-59",
+        "section": "test-oficial",
+        "prompt": "¿Cuáles son los modos de funcionamientos del sistema UNIX?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Modo usuario y modo proceso."
+          },
+          {
+            "id": "b",
+            "label": "Modo microkernel y modo kernel."
+          },
+          {
+            "id": "c",
+            "label": "Modo usuario y modo kernel."
+          },
+          {
+            "id": "d",
+            "label": "Modo proceso y modo microkernel."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción C (Modo usuario y modo kernel.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Sistemas UNIX y Linux."
+      },
+      {
+        "id": "b2t4-test-oficial-ssoo-60",
+        "section": "test-oficial",
+        "prompt": "En el contexto de la gestión de memoria, ¿qué intentan minimizar los algoritmos de reemplazo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El número de marcos de página."
+          },
+          {
+            "id": "b",
+            "label": "El tiempo de acceso a los marcos de página."
+          },
+          {
+            "id": "c",
+            "label": "La tasa de fallos de página."
+          },
+          {
+            "id": "d",
+            "label": "El tiempo de acceso al heap."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles. En este caso, la opción C (La tasa de fallos de página.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Administración de la memoria."
+      }
+    ]
+  },
+  {
     "code": "B2T5",
     "slug": "b2t5-test-oficial-sgbd",
     "title": "Test oficial SGBD",

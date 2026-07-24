@@ -237,6 +237,61 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B2T4: {
+    title: "Sistemas operativos: características, Windows, UNIX/Linux y dispositivos móviles",
+    shortTitle: "Sistemas operativos",
+    description:
+      "Tema técnico sobre arquitectura y funciones de los sistemas operativos, gestión de procesos, memoria, almacenamiento, Windows, UNIX/Linux y plataformas móviles.",
+    summary: [
+      "Definición, estructuras y componentes de un sistema operativo: núcleos monolíticos, capas, microkernel y máquinas virtuales.",
+      "Administración de procesos: estados, planificación, concurrencia, interbloqueos y planificación apropiativa o no apropiativa.",
+      "Gestión de memoria, paginación, segmentación, memoria virtual, entrada/salida y administración de archivos.",
+      "Sistemas de ficheros, permisos, directorios y comandos relevantes en UNIX y Linux.",
+      "Ecosistema Windows: Active Directory, registro, aplicaciones virtuales y servicios cloud; junto con Android, iOS y otros sistemas móviles.",
+    ],
+    sections: [
+      "Definición, estructura y componentes",
+      "Procesos, concurrencia y planificación",
+      "Memoria, entrada/salida y memoria virtual",
+      "Archivos, permisos y sistemas de ficheros",
+      "Sistemas Windows y servicios cloud",
+      "Sistemas UNIX, Linux y comandos",
+      "Sistemas operativos para dispositivos móviles",
+    ],
+    accent: "azure",
+    testPresets: [
+      {
+        slug: "arquitectura-y-procesos",
+        title: "Test 1 · Arquitectura y procesos",
+        description: "Repasa tipos de núcleo, componentes del sistema, procesos, estados, concurrencia y planificación.",
+        focusSections: ["arquitectura-y-componentes", "procesos-y-planificacion"],
+      },
+      {
+        slug: "memoria-y-ficheros",
+        title: "Test 2 · Memoria, E/S y ficheros",
+        description: "Trabaja paginación, reemplazo, memoria virtual, discos, permisos y sistemas de ficheros.",
+        focusSections: ["memoria-entrada-salida", "ficheros-y-almacenamiento"],
+      },
+      {
+        slug: "windows-y-cloud",
+        title: "Test 3 · Windows y servicios cloud",
+        description: "Entrena Active Directory, registro, aplicaciones de Windows y los servicios cloud del tema.",
+        focusSections: ["windows-y-servicios-cloud"],
+      },
+      {
+        slug: "unix-linux-y-comandos",
+        title: "Test 4 · UNIX, Linux y comandos",
+        description: "Cubre permisos, procesos, directorios, distribuciones, redirecciones y comandos de administración.",
+        focusSections: ["unix-linux-y-comandos"],
+      },
+      {
+        slug: "moviles-y-repaso",
+        title: "Test 5 · Móviles y repaso de plataforma",
+        description: "Refuerza Android, iOS y Firefox OS junto con las bases de arquitectura de sistemas operativos.",
+        focusSections: ["moviles-y-plataformas", "arquitectura-y-componentes"],
+      },
+    ],
+  },
   B2T5: {
     title: "Sistemas de gestión de bases de datos relacionales, orientados a objetos y NoSQL",
     shortTitle: "SGBD",

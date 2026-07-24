@@ -162,7 +162,7 @@ if (!existsSync(officialSourceDir)) {
 
 const officialFiles = collectFilesRecursively(officialSourceDir)
   .filter((file) => !relative(officialSourceDir, file).startsWith("Simulacros/"))
-  .filter((file) => [".pdf", ".doc", ".docx", ".png", ".jpg", ".jpeg", ".sql"].includes(extname(file).toLowerCase()))
+  .filter((file) => [".pdf", ".doc", ".docx", ".png", ".jpg", ".jpeg", ".sql", ".xlsx"].includes(extname(file).toLowerCase()))
   .sort((a, b) => a.localeCompare(b, "es"));
 
 function buildOfficialEntry(filePath, rootDirectory, { code, originalName } = {}) {

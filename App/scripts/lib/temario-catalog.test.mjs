@@ -83,6 +83,18 @@ test("buildTemarioCatalog conserva recursos auxiliares como sql dentro del mismo
   ]);
 });
 
+test("buildTemarioCatalog conserva hojas de cálculo auxiliares dentro del mismo tema", () => {
+  const catalog = buildTemarioCatalog([
+    "Bloque 2/Tema 4/B2T4_SSOO.pdf",
+    "Bloque 2/Tema 4/B2T4Ejercicios_soluciones.xlsx",
+  ]);
+
+  assert.equal(catalog.length, 1);
+  assert.deepEqual(catalog[0].relatedResourceFiles, [
+    "Bloque 2/Tema 4/B2T4Ejercicios_soluciones.xlsx",
+  ]);
+});
+
 test("buildTemarioCatalog ignora esquemas pdf cuando existe un temario principal", () => {
   const catalog = buildTemarioCatalog([
     "Bloque 2/Tema 5/B2T5_SGBD 3.pdf",

@@ -1,7 +1,7 @@
 import { basename, dirname, extname } from "node:path";
 
 const audioExtensions = new Set([".m4a", ".mp3", ".aac", ".wav", ".ogg", ".oga", ".m4b"]);
-const relatedResourceExtensions = new Set([".sql"]);
+const relatedResourceExtensions = new Set([".sql", ".xlsx"]);
 
 function slugify(value) {
   return value
