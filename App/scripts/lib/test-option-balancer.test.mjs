@@ -34,3 +34,27 @@ test("rebalanceQuestionsForTest reparte las respuestas correctas y conserva la o
     assert.equal(correctLabel, `Correcta ${index + 1}`);
   }
 });
+
+test("rebalanceQuestionsForTest elimina las letras antiguas de las explicaciones", () => {
+  const [question] = rebalanceQuestionsForTest(
+    [
+      {
+        id: "q-1",
+        options: [
+          { id: "a", label: "Respuesta valida" },
+          { id: "b", label: "Distractor B" },
+          { id: "c", label: "Distractor C" },
+          { id: "d", label: "Distractor D" },
+        ],
+        correctOption: "a",
+        explanation:
+          "Por qué: Explicacion concreta. En este caso, la opción A (Respuesta valida.) es la que se ajusta al criterio preguntado. Referencia del temario: B2T4 · Demo.",
+      },
+    ],
+    "test-con-respuesta-reubicada",
+  );
+
+  assert.match(question.explanation, /La respuesta correcta es «Respuesta valida»/);
+  assert.doesNotMatch(question.explanation, /opción A/i);
+  assert.match(question.explanation, /Referencia del temario: B2T4/i);
+});

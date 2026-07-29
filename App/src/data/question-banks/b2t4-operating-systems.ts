@@ -1,5 +1,6 @@
 import generatedOfficialTests from "../generated/official-tests.json";
 import { practiceQuestionExtensionsByCode } from "../practice-question-extensions.mjs";
+import { withB2T4Explanation } from "../b2t4-explanations";
 import type { QuizQuestion } from "../question-bank";
 
 const questionsBySection = {
@@ -30,7 +31,7 @@ const b2t4OfficialTest = (generatedOfficialTests as Array<{
 
 const officialQuestions: QuizQuestion[] =
   b2t4OfficialTest?.questions.map((question) => ({
-    ...question,
+    ...withB2T4Explanation(question),
     section: resolveSection(getQuestionNumber(question.id)),
   })) ?? [];
 

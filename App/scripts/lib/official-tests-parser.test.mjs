@@ -37,7 +37,7 @@ SOLUCIONES
     ["Opción A1.", "Opción B1.", "Opción C1.", "Opción D1."],
   );
   assert.equal(parsed.questions[0].correctOption, "c");
-  assert.match(parsed.questions[0].explanation, /opción C/i);
+  assert.match(parsed.questions[0].explanation, /La respuesta correcta es «Opción C1\./i);
   assert.equal(parsed.questions[1].correctOption, "a");
 });
 
@@ -121,7 +121,7 @@ SOLUCIONES
 
   assert.equal(parsed.questions.length, 1);
   assert.equal(parsed.questions[0].correctOption, "d");
-  assert.match(parsed.questions[0].explanation, /opción D/i);
+  assert.match(parsed.questions[0].explanation, /La respuesta correcta es «En ningún caso\./i);
 });
 
 test("parseOfficialTestText genera una explicación didáctica y no repite la plantilla oficial", () => {

@@ -346,12 +346,12 @@ function resolveTemarioReference(code, prompt, correctLabel) {
   return `Referencia del temario: ${code} · ${section}.`;
 }
 
-function buildExplanation(code, prompt, correctOptionId, correctLabel) {
+function buildExplanation(code, prompt, _correctOptionId, correctLabel) {
   const specificReason = explanationRules.find((rule) => rule.match.test(`${prompt} ${correctLabel}`))?.text;
   const fallback = topicFallbacks[code] ?? "La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial.";
   const suffix = /[.!?…]$/.test(correctLabel) ? "" : ".";
 
-  return `Por qué: ${specificReason ?? fallback} En este caso, la opción ${correctOptionId.toUpperCase()} (${correctLabel}${suffix}) es la que se ajusta al criterio preguntado. ${resolveTemarioReference(code, prompt, correctLabel)}`;
+  return `Por qué: ${specificReason ?? fallback} La respuesta correcta es «${correctLabel}${suffix}». ${resolveTemarioReference(code, prompt, correctLabel)}`;
 }
 
 function splitQuestionsAndSolutions(source) {

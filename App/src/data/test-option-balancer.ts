@@ -6,7 +6,21 @@ type BalanceableQuestion = {
   id: string;
   options: Array<{ id: OptionId; label: string }>;
   correctOption: OptionId;
+  explanation?: string;
 };
+
+function keepExplanationAlignedWithOptions(explanation: string | undefined, correctLabel: string) {
+  if (!explanation || !explanation.includes("En este caso, la opción ")) {
+    return explanation;
+  }
+
+  const previousAnswerStart = explanation.indexOf("En este caso, la opción ");
+  const referenceStart = explanation.indexOf("Referencia del temario:", previousAnswerStart);
+  const reason = explanation.slice(0, previousAnswerStart).trim();
+  const reference = referenceStart === -1 ? "" : explanation.slice(referenceStart).trim();
+
+  return [reason, `La respuesta correcta es «${correctLabel}».`, reference].filter(Boolean).join(" ");
+}
 
 function stringToSeed(value: string) {
   let hash = 2166136261;
@@ -75,11 +89,13 @@ export function rebalanceQuestionsForTest<T extends BalanceableQuestion>(questio
       id: optionId,
       label: optionId === targetCorrectOption ? correctOption.label : incorrectOptions[incorrectIndex++].label,
     }));
+    const currentCorrectLabel = balancedOptions.find((option) => option.id === targetCorrectOption)?.label;
 
     return {
       ...question,
       options: balancedOptions,
       correctOption: targetCorrectOption,
+      explanation: keepExplanationAlignedWithOptions(question.explanation, currentCorrectLabel ?? correctOption.label),
     };
   });
 }
