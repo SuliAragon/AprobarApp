@@ -1,6 +1,7 @@
 import generatedOfficialTests from "../generated/official-tests.json";
 import { practiceQuestionExtensionsByCode } from "../practice-question-extensions.mjs";
 import { withB2T4Explanation } from "../b2t4-explanations";
+import { withB2T4PracticeClarity } from "../b2t4-practice-clarity";
 import type { QuizQuestion } from "../question-bank";
 
 const questionsBySection = {
@@ -24,16 +25,22 @@ function resolveSection(questionNumber: number) {
   );
 }
 
+function toPracticeQuestion(question: QuizQuestion): QuizQuestion {
+  const questionNumber = getQuestionNumber(question.id);
+
+  return {
+    ...withB2T4PracticeClarity(withB2T4Explanation(question)),
+    section: resolveSection(questionNumber),
+  };
+}
+
 const b2t4OfficialTest = (generatedOfficialTests as Array<{
   code: string;
   questions: QuizQuestion[];
 }>).find((test) => test.code === "B2T4");
 
 const officialQuestions: QuizQuestion[] =
-  b2t4OfficialTest?.questions.map((question) => ({
-    ...withB2T4Explanation(question),
-    section: resolveSection(getQuestionNumber(question.id)),
-  })) ?? [];
+  b2t4OfficialTest?.questions.map(toPracticeQuestion) ?? [];
 
 export const b2t4OperatingSystemsQuestionBank: QuizQuestion[] = [
   ...officialQuestions,

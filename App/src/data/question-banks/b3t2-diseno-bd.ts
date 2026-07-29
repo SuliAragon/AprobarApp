@@ -1,5 +1,6 @@
 import generatedOfficialTests from "../generated/official-tests.json";
 import { practiceQuestionExtensionsByCode } from "../practice-question-extensions.mjs";
+import { isB3T2QuestionSuitableForPractice } from "../b3t2-practice-quality";
 import type { QuizQuestion } from "../question-bank";
 
 function getQuestionNumber(id: string) {
@@ -33,10 +34,12 @@ const b3t2OfficialTest = (generatedOfficialTests as Array<{
 }>).find((test) => test.code === "B3T2");
 
 const officialQuestions: QuizQuestion[] =
-  b3t2OfficialTest?.questions.map((question) => ({
-    ...question,
-    section: resolveSection(getQuestionNumber(question.id)),
-  })) ?? [];
+  b3t2OfficialTest?.questions
+    .filter(isB3T2QuestionSuitableForPractice)
+    .map((question) => ({
+      ...question,
+      section: resolveSection(getQuestionNumber(question.id)),
+    })) ?? [];
 
 export const b3t2DisenoBdQuestionBank: QuizQuestion[] = [
   ...officialQuestions,
