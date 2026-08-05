@@ -67,12 +67,15 @@ const topicsByCode = topics.reduce<Record<string, (typeof topics)[number]>>((acc
                 <div class="official-material__footer">
                   <div class="test-card__meta official-material__meta">
                     <span>{simulation.coveredTopicCodes.length} temas</span>
-                    <span>PDF de repaso</span>
+                    <span>{simulation.interactiveTest ? `${simulation.interactiveTest.questions.length} preguntas` : "PDF de repaso"}</span>
                   </div>
 
                   <div class="official-material__actions">
+                    {simulation.interactiveTest && (
+                      <a class="button button--primary" href={withBase(`simulacros/${simulation.slug}/`)}>Hacer simulacro</a>
+                    )}
                     <a class="button button--primary" href={withBase(simulation.assetPath)} target="_blank" rel="noreferrer">
-                      Abrir simulacro
+                      Abrir PDF
                     </a>
                   </div>
                 </div>
@@ -89,4 +92,3 @@ const topicsByCode = topics.reduce<Record<string, (typeof topics)[number]>>((acc
     }
   </section>
 </BaseLayout>
-

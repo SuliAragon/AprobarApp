@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import QuizQuestionCard from "../../components/QuizQuestionCard.astro";
+import { simulations, type Simulation } from "../../data/simulations";
+import { withBase } from "../../utils/paths";
+
+export function getStaticPaths() {
+  return simulations
+    .filter((simulation) => simulation.interactiveTest)
+    .map((simulation) => ({ params: { slug: simulation.slug }, props: { simulation } }));
+}
+
+const { simulation } = Astro.props as { simulation: Simulation };
+const test = simulation.interactiveTest;
+
+if (!test) throw new Error(`No existe version interactiva para ${simulation.slug}.`);
+
+const storageKey = `aprobarapp:simulacro:${simulation.slug}`;
+---
+
+<BaseLayout title={`${simulation.title} | AprobarApp`} description={simulation.description}>
+  <section class="test-hero">
+    <div>
+      <p class="eyebrow">Repaso global · {simulation.coveredTopicCodes.length} temas</p>
+      <h1>{simulation.title}</h1>
+      <p>{simulation.description}</p>
+    </div>
+    <div class="test-hero__actions">
+      <a class="button button--secondary" href={withBase("simulacros/")}>Volver a simulacros</a>
+      <a class="button button--ghost" href={withBase(simulation.assetPath)} target="_blank" rel="noreferrer">Ver PDF original</a>
+    </div>
+  </section>
+
+  <section class="quiz-layout" data-quiz>
+    <aside class="quiz-summary">
+      <div class="quiz-summary__box"><p class="quiz-summary__label">Estado del simulacro</p><strong data-score-label>En curso</strong></div>
+      <div class="quiz-summary__box"><p class="quiz-summary__label">Respondidas</p><strong><span data-answered-count>0</span> / {test.questions.length}</strong></div>
+      <div class="quiz-summary__box"><p class="quiz-summary__label">Fallos</p><strong data-mistakes-count>0</strong></div>
+      <a class="button button--primary" href={withBase(`simulacros/${simulation.slug}/`)}>Reiniciar intento</a>
+    </aside>
+    <div class="quiz-questions">{test.questions.map((question, index) => <QuizQuestionCard index={index} question={question} />)}</div>
+  </section>
+
+  <script is:inline define:vars={{ storageKey, totalQuestions: test.questions.length }}>
+    const root = document.querySelector("[data-quiz]");
+    const answered = document.querySelector("[data-answered-count]");
+    const mistakes = document.querySelector("[data-mistakes-count]");
+    const score = document.querySelector("[data-score-label]");
+    let answeredCount = 0;
+    let mistakesCount = 0;
+    const update = () => {
+      answered.textContent = String(answeredCount); mistakes.textContent = String(mistakesCount);
+      if (answeredCount < totalQuestions) return;
+      const level = mistakesCount === 0 ? "is-perfect" : mistakesCount <= 3 ? "is-warning" : "is-danger";
+      score.textContent = mistakesCount === 0 ? "Verde · impecable" : mistakesCount <= 3 ? "Amarillo · repasable" : "Rojo · toca reforzar";
+      score.className = level;
+      localStorage.setItem(storageKey, JSON.stringify({ answered: answeredCount, mistakes: mistakesCount, totalQuestions, completedAt: new Date().toISOString() }));
+    };
+    if (root && answered && mistakes && score) for (const question of root.querySelectorAll("[data-question]")) {
+      const correct = question.getAttribute("data-correct");
+      for (const button of question.querySelectorAll("[data-option]")) button.addEventListener("click", () => {
+        if (question.classList.contains("is-answered")) return;
+        const valid = button.getAttribute("data-option") === correct;
+        question.classList.add("is-answered"); answeredCount += 1; if (!valid) mistakesCount += 1;
+        for (const option of question.querySelectorAll("[data-option]")) {
+          option.setAttribute("disabled", "true");
+          if (option.getAttribute("data-option") === correct || (option === button && valid)) option.classList.add("is-correct");
+          if (option === button && !valid) option.classList.add("is-incorrect");
+        }
+        const feedback = question.querySelector("[data-feedback]"); const title = question.querySelector("[data-feedback-title]");
+        if (feedback && title) { feedback.hidden = false; feedback.classList.add(valid ? "is-correct" : "is-incorrect"); title.textContent = valid ? "Respuesta correcta. Sigue asi." : "Respuesta incorrecta. La opcion valida queda marcada en verde."; }
+        update();
+      });
+    }
+  </script>
+</BaseLayout>

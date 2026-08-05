@@ -58,7 +58,7 @@ function splitQuestionBlocks(value) {
   let currentBlock = [];
 
   for (const line of lines) {
-    if (/^\d+\.\s+/.test(line)) {
+    if (/^\d+\.\s*/.test(line)) {
       if (currentBlock.length > 0) {
         blocks.push(currentBlock.join("\n"));
       }
@@ -86,7 +86,7 @@ function extractOptions(block) {
     return null;
   }
 
-  const questionNumberMatch = block.match(/^(\d+)\.\s+/);
+  const questionNumberMatch = block.match(/^(\d+)\.\s*/);
 
   if (!questionNumberMatch) {
     return null;

@@ -1,4 +1,6 @@
 import generatedSimulations from "./generated/simulacros.json";
+import generatedInteractiveSimulations from "./generated/interactive-simulacros.json";
+import type { QuizQuestion } from "./question-bank";
 
 export interface Simulation {
   slug: string;
@@ -8,6 +10,7 @@ export interface Simulation {
   description: string;
   studyLabel: string;
   coveredTopicCodes: string[];
+  interactiveTest?: { questions: QuizQuestion[]; description: string };
 }
 
 interface GeneratedSimulation {
@@ -15,6 +18,12 @@ interface GeneratedSimulation {
   title: string;
   sourceFilename: string;
   assetPath: string;
+}
+
+interface GeneratedInteractiveSimulation {
+  slug: string;
+  description: string;
+  questions: QuizQuestion[];
 }
 
 const simulationOverrides: Record<
@@ -52,6 +61,9 @@ const simulationOverrides: Record<
 export const simulations: Simulation[] = (generatedSimulations as GeneratedSimulation[])
   .map((simulation) => {
     const override = simulationOverrides[simulation.slug];
+    const interactiveTest = (generatedInteractiveSimulations as GeneratedInteractiveSimulation[]).find(
+      (test) => test.slug === simulation.slug,
+    );
 
     return {
       ...simulation,
@@ -61,6 +73,7 @@ export const simulations: Simulation[] = (generatedSimulations as GeneratedSimul
         "Simulacro global sincronizado desde la carpeta Test/Simulacros para repasar varios temas en una sola sesión.",
       studyLabel: override?.studyLabel ?? "Simulacro global",
       coveredTopicCodes: override?.coveredTopicCodes ?? [],
+      interactiveTest,
     };
   })
   .sort((left, right) => left.title.localeCompare(right.title, "es"));

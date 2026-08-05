@@ -17,6 +17,7 @@ const officialTestsFile = resolve(projectRoot, "src", "data", "generated", "offi
 const simulationSourceDirs = [resolve(officialSourceDir, "Simulacros"), resolve(sourceDir, "Simulacros")];
 const simulationPublicDir = resolve(projectRoot, "public", "simulacros");
 const simulationManifestFile = resolve(projectRoot, "src", "data", "generated", "simulacros.json");
+const interactiveSimulationsFile = resolve(projectRoot, "src", "data", "generated", "interactive-simulacros.json");
 
 function slugify(value) {
   return value
@@ -111,6 +112,7 @@ mkdirSync(dirname(officialManifestFile), { recursive: true });
 mkdirSync(dirname(officialTestsFile), { recursive: true });
 mkdirSync(simulationPublicDir, { recursive: true });
 mkdirSync(dirname(simulationManifestFile), { recursive: true });
+mkdirSync(dirname(interactiveSimulationsFile), { recursive: true });
 
 if (!existsSync(sourceDir)) {
   writeJsonFile(manifestFile, []);
@@ -261,6 +263,43 @@ const simulationsManifest = simulationFiles.map(({ filePath, sourceDirectory }) 
 
 writeJsonFile(simulationManifestFile, simulationsManifest);
 console.log(`[sync-temario] Sincronizados ${simulationsManifest.length} simulacros globales.`);
+
+const interactiveSimulations = [];
+
+for (const simulation of simulationsManifest) {
+  if (!simulation.assetPath.endsWith(".pdf")) {
+    continue;
+  }
+
+  const source = simulationFiles.find(({ filePath, sourceDirectory }) =>
+    relative(sourceDirectory, filePath) === simulation.sourceFilename,
+  );
+
+  if (!source) {
+    continue;
+  }
+
+  const extraction = spawnSync("pdftotext", [source.filePath, "-"], { encoding: "utf8" });
+
+  if (extraction.status !== 0 || extraction.error) {
+    console.warn(`[sync-temario] No se pudo extraer el simulacro ${simulation.sourceFilename}.`);
+    continue;
+  }
+
+  const parsed = parseOfficialTestText(extraction.stdout, {
+    code: "SIMULACRO",
+    slug: simulation.slug,
+    title: simulation.title,
+    description: "Simulacro global de la academia con correccion inmediata y plantilla integrada.",
+  });
+
+  if (parsed.questions.length >= 90) {
+    interactiveSimulations.push({ ...parsed, questions: parsed.questions.slice(0, 100) });
+  }
+}
+
+writeJsonFile(interactiveSimulationsFile, interactiveSimulations);
+console.log(`[sync-temario] Generados ${interactiveSimulations.length} simulacros interactivos.`);
 
 const interactiveOfficialTests = [];
 let parserUnavailable = false;
