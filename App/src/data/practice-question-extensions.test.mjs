@@ -9,7 +9,8 @@ test("las ampliaciones de practica aportan preguntas originales completas a cada
   for (const topicCode of expandedTopics) {
     const questions = practiceQuestionExtensionsByCode[topicCode] ?? [];
 
-    assert.equal(questions.length, 10, `${topicCode} debe recibir diez preguntas nuevas`);
+    const minimumQuestions = topicCode === "B2T4" ? 50 : 10;
+    assert.ok(questions.length >= minimumQuestions, `${topicCode} debe recibir al menos ${minimumQuestions} preguntas nuevas`);
     assert.equal(new Set(questions.map((question) => question.id)).size, questions.length);
 
     for (const question of questions) {

@@ -1,29 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { withB2T4PracticeClarity } from "../b2t4-practice-clarity.ts";
+import { b2t4OperatingSystemsQuestionBank } from "./b2t4-operating-systems.ts";
 
-test("los simulacros de B2T4 aclaran los enunciados que podian inducir a error", () => {
-  const createQuestion = (number) =>
-    withB2T4PracticeClarity({
-      id: `b2t4-test-oficial-ssoo-${number}`,
-      section: "demo",
-      prompt: "Enunciado original",
-      options: [
-        { id: "a", label: "A" },
-        { id: "b", label: "B" },
-        { id: "c", label: "C" },
-        { id: "d", label: "D" },
-      ],
-      correctOption: "a",
-      explanation: "Demo",
-    });
-
-  const iosQuestion = createQuestion(13);
-  const unixCommandsQuestion = createQuestion(22);
-  const umaskQuestion = createQuestion(41);
-
-  assert.match(iosQuestion?.prompt ?? "", /audio, vídeo, gráficos/i);
-  assert.match(unixCommandsQuestion?.prompt ?? "", /\"ls\"/);
-  assert.match(umaskQuestion?.prompt ?? "", /modo base 777/i);
+test("los simulacros de B2T4 usan un banco original y no el test oficial", () => {
+  assert.equal(b2t4OperatingSystemsQuestionBank.length, 50);
+  assert.ok(b2t4OperatingSystemsQuestionBank.every((question) => question.id.startsWith("b2t4-practice-")));
+  assert.ok(b2t4OperatingSystemsQuestionBank.every((question) => question.options.length === 4));
 });
