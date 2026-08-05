@@ -104,6 +104,119 @@ function writeJsonFile(filePath, value) {
   writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`);
 }
 
+const simulationQuestionRepairs = {
+  "simulacro-1": {
+    74: {
+      prompt: "El modelo Entidad-Relación es un:",
+      options: ["Modelo conceptual.", "Modelo lógico.", "Modelo físico.", "Modelo multidimensional."],
+      correctOption: "a",
+      explanation: "Por qué: el modelo Entidad-Relación representa la realidad y las reglas de negocio antes de transformar el diseño a tablas o estructuras físicas; por eso pertenece al nivel conceptual.",
+    },
+    76: {
+      prompt: "En relación al modelo Entidad-Relación, indique cuál de las siguientes afirmaciones es correcta:",
+      options: ["Un tipo de entidad fuerte no puede tener una dependencia de existencia con respecto a otro tipo de entidad.", "Un atributo multivaluado se representa con un óvalo con línea discontinua.", "El discriminante o clave parcial de una entidad débil se indica con un óvalo con línea doble.", "El grado de una relación es el número de tipos de entidad que pueden intervenir en una ocurrencia de ese tipo de relación."],
+      correctOption: "d",
+      explanation: "Por qué: el grado de una relación se determina por el número de tipos de entidad que participan en ella. Las demás opciones confunden las notaciones de atributos y entidades débiles.",
+    },
+  },
+  "simulacro-2": {
+    49: {
+      prompt: "¿A quién corresponde velar por los poderes de las Cámaras cuando éstas no estén reunidas?",
+      options: ["A la Diputación Permanente de las Cortes Generales.", "A la Comisión de Vigilancia de las Cortes Generales.", "A la Diputación Permanente de cada Cámara.", "Al Consejo de Estado."],
+      correctOption: "c",
+      explanation: "Por qué: el artículo 78 de la Constitución prevé una Diputación Permanente en cada Cámara, encargada de velar por sus poderes cuando no están reunidas o han expirado su mandato.",
+    },
+    54: {
+      prompt: "Indique a qué corresponden las siglas ACID refiriéndose a una transacción de base de datos:",
+      options: ["Authentication, Consistency, Isolation, Durability.", "Atomicity, Consistency, Isolation, Durability.", "Availability, Consistency, Isolation, Durability.", "Availability, Correctness, Isolation, Durability."],
+      correctOption: "b",
+      explanation: "Por qué: ACID resume las propiedades de una transacción fiable: atomicidad, consistencia, aislamiento y durabilidad. Authentication y availability no forman parte de este acrónimo.",
+    },
+    69: {
+      prompt: "Dada la tabla DATOS(A), con valores 15, 3, NULL y 7, ¿cuál será el resultado de ejecutar SELECT SUM(A) FROM DATOS?",
+      options: ["25.", "18.", "0.", "NULL."],
+      correctOption: "a",
+      explanation: "Por qué: SUM ignora los valores NULL. La suma de los valores no nulos es 15 + 3 + 7, que da 25.",
+    },
+    70: {
+      prompt: "Dada la tabla DATOS(A, B) de la pregunta anterior, ¿cuántas filas devolverá SELECT COUNT(A) FROM DATOS GROUP BY A HAVING COUNT(A) > 0?",
+      options: ["1.", "2.", "3.", "4."],
+      correctOption: "c",
+      explanation: "Por qué: GROUP BY A forma un grupo por cada valor distinto. HAVING COUNT(A) > 0 excluye el grupo de NULL porque COUNT(A) no cuenta nulos; quedan los tres valores no nulos.",
+    },
+    71: {
+      prompt: "Dada la tabla DATOS(A, B), ¿cuántas filas devolverá SELECT A FROM DATOS GROUP BY A HAVING A IS NOT NULL?",
+      options: ["1.", "2.", "3.", "4."],
+      correctOption: "c",
+      explanation: "Por qué: tras agrupar por A, HAVING A IS NOT NULL descarta el grupo cuyo valor de A es NULL. Permanecen los tres grupos correspondientes a los valores no nulos.",
+    },
+    72: {
+      prompt: "Con la tabla DATOS(A, B) anterior, ¿cuál es el resultado de ejecutar SELECT AVG(A+B) FROM DATOS?",
+      options: ["15.", "13,25.", "18.", "Ninguna de las respuestas anteriores es correcta."],
+      correctOption: "a",
+      explanation: "Por qué: las expresiones que incluyen un NULL producen NULL y AVG ignora esos resultados. Se promedian 25, 10 y 10, por lo que el resultado es 15.",
+    },
+    73: {
+      prompt: "En un modelo Entidad/Relación, un tipo de interrelación se caracteriza por:",
+      options: ["El nombre y el tipo de correspondencia.", "El nombre y el grado.", "El nombre, el nivel y el tipo de correspondencia.", "El nombre, el grado y el tipo de correspondencia."],
+      correctOption: "d",
+      explanation: "Por qué: una interrelación se identifica por su nombre, por su grado (número de tipos de entidad participantes) y por el tipo de correspondencia o cardinalidad.",
+    },
+  },
+  "simulacro-3": {
+    62: {
+      prompt: "¿Qué muestra el comando top en UNIX?",
+      options: ["Los ficheros abiertos.", "El escritorio.", "Los procesos.", "Los puertos TCP/IP."],
+      correctOption: "c",
+      explanation: "Por qué: top muestra de forma dinámica los procesos en ejecución y datos de carga, CPU y memoria. No es una herramienta para listar ficheros, el escritorio o puertos de red.",
+    },
+    64: {
+      prompt: "En el ámbito de las bases de datos Oracle, una vista materializada:",
+      options: ["Es un objeto de la base de datos donde se almacena la información de todas las vistas de la BD.", "Es un objeto de la base de datos donde se almacena la definición de la tabla que materializa.", "Es un objeto de la base de datos donde se almacena el resultado de una consulta.", "Es una vista ordinaria que automáticamente se actualizará siempre que se actualicen las tablas involucradas en esa vista."],
+      correctOption: "c",
+      explanation: "Por qué: una vista materializada persiste el resultado de una consulta y puede actualizarse mediante mecanismos de refresco. Una vista ordinaria almacena la definición de la consulta, no sus resultados.",
+    },
+    82: {
+      prompt: "¿Cuál de las siguientes es una regla de Codd?",
+      options: ["Dependencia física de los datos.", "Dependencia lógica de los datos.", "Regla de la inversión.", "Actualización de vistas."],
+      correctOption: "d",
+      explanation: "Por qué: entre las reglas de Codd está la de actualización de vistas, que exige que las vistas teóricamente actualizables puedan actualizarse por el sistema. Las dependencias física y lógica contradicen la independencia de datos.",
+    },
+    87: {
+      prompt: "Podremos almacenar un fichero de 6 GB en un dispositivo si el sistema de ficheros con el que está formateado es:",
+      options: ["FAT32.", "NTFS.", "HPFS.", "ISO 9660:1988 Level 2."],
+      correctOption: "b",
+      explanation: "Por qué: FAT32 tiene un límite de tamaño por fichero inferior a 4 GB, mientras que NTFS admite archivos mucho mayores. Por ello un fichero de 6 GB puede almacenarse en NTFS.",
+    },
+  },
+};
+
+function repairSimulationQuestions(parsed, slug) {
+  const questionsByNumber = new Map();
+
+  for (const question of parsed.questions) {
+    const number = Number.parseInt(question.id.match(/-(\d+)$/)?.[1] ?? "", 10);
+
+    if (number >= 1 && number <= 100 && !questionsByNumber.has(number)) {
+      questionsByNumber.set(number, question);
+    }
+  }
+
+  for (const [number, repair] of Object.entries(simulationQuestionRepairs[slug] ?? {})) {
+    const questionNumber = Number.parseInt(number, 10);
+    questionsByNumber.set(questionNumber, {
+      id: `${slug}-${questionNumber}`,
+      section: "test-oficial",
+      ...repair,
+      options: repair.options.map((label, index) => ({ id: "abcd"[index], label })),
+    });
+  }
+
+  return [...questionsByNumber.entries()]
+    .sort(([left], [right]) => left - right)
+    .map(([, question]) => question);
+}
+
 mkdirSync(publicDir, { recursive: true });
 mkdirSync(podcastPublicDir, { recursive: true });
 mkdirSync(dirname(manifestFile), { recursive: true });
@@ -299,8 +412,12 @@ for (const simulation of simulationsManifest) {
     description: "Simulacro global de la academia con correccion inmediata y plantilla integrada.",
   });
 
-  if (parsed.questions.length >= 90) {
-    interactiveSimulations.push({ ...parsed, questions: parsed.questions.slice(0, 100) });
+  const questions = repairSimulationQuestions(parsed, simulation.slug);
+
+  if (questions.length === 100) {
+    interactiveSimulations.push({ ...parsed, questions });
+  } else {
+    console.warn(`[sync-temario] El simulacro ${simulation.sourceFilename} no alcanza las 100 preguntas principales.`);
   }
 }
 

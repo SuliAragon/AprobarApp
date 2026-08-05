@@ -140,7 +140,7 @@ const explanationRules = [
     text: "Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario.",
   },
   {
-    match: /Android|iOS|Firefox OS|Cocoa Touch|Gonk|ART|móviles|moviles/i,
+    match: /\b(?:Android|iOS|Firefox OS|Cocoa Touch|Gonk|ART)\b|móviles|moviles/i,
     text: "Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS.",
   },
   {
@@ -184,11 +184,19 @@ const explanationRules = [
     text: "En el modelo relacional y en E/R, el dominio es el conjunto de valores válidos que puede tomar un atributo, no una fila, una relación ni una clave.",
   },
   {
+    match: /ROLLBACK|COMMIT|SAVEPOINT/i,
+    text: "COMMIT confirma los cambios de una transacción; ROLLBACK los deshace, total o parcialmente si se usa junto a un punto de guardado, mientras la transacción no se haya confirmado.",
+  },
+  {
     match: /transacción|Atomicidad|ACID/i,
     text: "Las propiedades ACID garantizan que una transacción se ejecute de forma fiable: atomicidad, consistencia, aislamiento y durabilidad describen aspectos distintos y complementarios.",
   },
   {
-    match: /NoSQL|BASE|escalabilidad/i,
+    match: /reglas? de Codd|Codd/i,
+    text: "Las reglas de Codd describen requisitos del modelo relacional. La integridad de entidad y la integridad referencial forman parte de ese marco; la denominada integridad de paridad no es una de las reglas de Codd.",
+  },
+  {
+    match: /\b(?:NoSQL|BASE)\b|escalabilidad/i,
     text: "Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional.",
   },
   {
@@ -210,10 +218,6 @@ const explanationRules = [
   {
     match: /GROUP BY|HAVING|agregación/i,
     text: "GROUP BY forma grupos y HAVING filtra esos grupos tras aplicar agregaciones. WHERE actúa antes de agrupar y se aplica a las filas individuales.",
-  },
-  {
-    match: /ROLLBACK|COMMIT|SAVEPOINT/i,
-    text: "COMMIT confirma los cambios de una transacción; ROLLBACK los deshace, total o parcialmente si se usa junto a un punto de guardado, mientras la transacción no se haya confirmado.",
   },
   {
     match: /clave primaria|PRIMARY KEY/i,

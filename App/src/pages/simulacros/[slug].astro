@@ -16,6 +16,13 @@ const test = simulation.interactiveTest;
 if (!test) throw new Error(`No existe version interactiva para ${simulation.slug}.`);
 
 const storageKey = `aprobarapp:simulacro:${simulation.slug}`;
+
+// Los PDFs pueden contener preguntas cuya maquetación no permite crear una ficha
+// interactiva. Conservamos siempre la numeración original para cotejar el PDF.
+const sourceQuestionNumber = (questionId: string, fallbackIndex: number) => {
+  const match = questionId.match(/-(\d+)$/);
+  return match ? Number.parseInt(match[1], 10) : fallbackIndex + 1;
+};
 ---
 
 <BaseLayout title={`${simulation.title} | AprobarApp`} description={simulation.description}>
@@ -38,7 +45,7 @@ const storageKey = `aprobarapp:simulacro:${simulation.slug}`;
       <div class="quiz-summary__box"><p class="quiz-summary__label">Fallos</p><strong data-mistakes-count>0</strong></div>
       <a class="button button--primary" href={withBase(`simulacros/${simulation.slug}/`)}>Reiniciar intento</a>
     </aside>
-    <div class="quiz-questions">{test.questions.map((question, index) => <QuizQuestionCard index={index} question={question} />)}</div>
+    <div class="quiz-questions">{test.questions.map((question, index) => <QuizQuestionCard index={index} displayNumber={sourceQuestionNumber(question.id, index)} question={question} />)}</div>
   </section>
 
   <script is:inline define:vars={{ storageKey, totalQuestions: test.questions.length }}>

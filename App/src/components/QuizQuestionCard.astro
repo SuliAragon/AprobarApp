@@ -3,15 +3,16 @@ import type { QuizQuestion } from "../data/question-bank";
 
 interface Props {
   index: number;
+  displayNumber?: number;
   question: QuizQuestion;
 }
 
-const { index, question } = Astro.props;
+const { index, displayNumber, question } = Astro.props;
 ---
 
 <article class="quiz-question" data-question data-correct={question.correctOption}>
   <div class="quiz-question__header">
-    <span class="quiz-question__index">Pregunta {index + 1}</span>
+    <span class="quiz-question__index">Pregunta {displayNumber ?? index + 1}</span>
     <span class="quiz-question__section">{question.section.replace(/-/g, " ")}</span>
   </div>
 

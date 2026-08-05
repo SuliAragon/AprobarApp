@@ -28,7 +28,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «NATURAL JOIN.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Un JOIN combina filas relacionadas. INNER JOIN conserva coincidencias; LEFT, RIGHT y FULL OUTER JOIN incluyen además las filas sin pareja del lado que corresponda, rellenando con NULL. La respuesta correcta es «NATURAL JOIN.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-2",
@@ -628,7 +628,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Dependencia de reunión.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Un JOIN combina filas relacionadas. INNER JOIN conserva coincidencias; LEFT, RIGHT y FULL OUTER JOIN incluyen además las filas sin pareja del lado que corresponda, rellenando con NULL. La respuesta correcta es «Dependencia de reunión.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-26",
@@ -803,7 +803,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Solo puede ser (idProy, idEmp). SIMULACRO 2.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «Solo puede ser (idProy, idEmp). SIMULACRO 2.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-33",
@@ -828,7 +828,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Una superclave es un conjunto de uno o varios atributos que identifican de modo único las tuplas de la relación.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Una superclave es un conjunto de uno o varios atributos que identifican de modo único las tuplas de la relación.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-34",
@@ -903,7 +903,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Sólo si no hay ninguna población perteneciente a esa provincia.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Sólo si no hay ninguna población perteneciente a esa provincia.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-37",
@@ -1003,7 +1003,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «El derecho a la protección de la salud.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «El derecho a la protección de la salud.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-41",
@@ -1206,6 +1206,31 @@
         "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Derecho al honor, a la intimidad personal y familiar y la propia imagen.». Referencia del temario: apartado correspondiente del tema."
       },
       {
+        "id": "simulacro-2-49",
+        "section": "test-oficial",
+        "prompt": "¿A quién corresponde velar por los poderes de las Cámaras cuando éstas no estén reunidas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la Diputación Permanente de las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "A la Comisión de Vigilancia de las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "A la Diputación Permanente de cada Cámara."
+          },
+          {
+            "id": "d",
+            "label": "Al Consejo de Estado."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: el artículo 78 de la Constitución prevé una Diputación Permanente en cada Cámara, encargada de velar por sus poderes cuando no están reunidas o han expirado su mandato."
+      },
+      {
         "id": "simulacro-2-50",
         "section": "test-oficial",
         "prompt": "Las disposiciones legislativas provisionales dictadas por el Gobierno de la Nación para casos de extraordinaria y urgente necesidad, según dispone la Constitución Española, llevan el nombre de:",
@@ -1306,6 +1331,31 @@
         "explanation": "Por qué: DDL define o modifica la estructura de la base de datos: esquemas, tablas, columnas, vistas y restricciones. No se usa para consultar o manipular filas concretas. La respuesta correcta es «TRUNCATE.». Referencia del temario: apartado correspondiente del tema."
       },
       {
+        "id": "simulacro-2-54",
+        "section": "test-oficial",
+        "prompt": "Indique a qué corresponden las siglas ACID refiriéndose a una transacción de base de datos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Authentication, Consistency, Isolation, Durability."
+          },
+          {
+            "id": "b",
+            "label": "Atomicity, Consistency, Isolation, Durability."
+          },
+          {
+            "id": "c",
+            "label": "Availability, Consistency, Isolation, Durability."
+          },
+          {
+            "id": "d",
+            "label": "Availability, Correctness, Isolation, Durability."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: ACID resume las propiedades de una transacción fiable: atomicidad, consistencia, aislamiento y durabilidad. Authentication y availability no forman parte de este acrónimo."
+      },
+      {
         "id": "simulacro-2-55",
         "section": "test-oficial",
         "prompt": "Indique cómo se denomina en el SGBD Oracle al conjunto de extensiones (extents) que contienen todos los datos para una estructura de almacenamiento lógica específica dentro de un Tablespace:",
@@ -1403,7 +1453,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Proporcionar funcionamiento en alta disponibilidad. SIMULACRO 2.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Proporcionar funcionamiento en alta disponibilidad. SIMULACRO 2.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-59",
@@ -1453,7 +1503,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «Ninguna de las respuestas anteriores es correcta.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: COMMIT confirma los cambios de una transacción; ROLLBACK los deshace, total o parcialmente si se usa junto a un punto de guardado, mientras la transacción no se haya confirmado. La respuesta correcta es «Ninguna de las respuestas anteriores es correcta.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-61",
@@ -1528,7 +1578,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Pueden existir dos tablas con el mismo nombre.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Pueden existir dos tablas con el mismo nombre.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-64",
@@ -1578,7 +1628,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Regla 3.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Las reglas de Codd describen requisitos del modelo relacional. La integridad de entidad y la integridad referencial forman parte de ese marco; la denominada integridad de paridad no es una de las reglas de Codd. La respuesta correcta es «Regla 3.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-66",
@@ -1654,6 +1704,131 @@
         ],
         "correctOption": "b",
         "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «2ª Forma Normal.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-2-69",
+        "section": "test-oficial",
+        "prompt": "Dada la tabla DATOS(A), con valores 15, 3, NULL y 7, ¿cuál será el resultado de ejecutar SELECT SUM(A) FROM DATOS?",
+        "options": [
+          {
+            "id": "a",
+            "label": "25."
+          },
+          {
+            "id": "b",
+            "label": "18."
+          },
+          {
+            "id": "c",
+            "label": "0."
+          },
+          {
+            "id": "d",
+            "label": "NULL."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: SUM ignora los valores NULL. La suma de los valores no nulos es 15 + 3 + 7, que da 25."
+      },
+      {
+        "id": "simulacro-2-70",
+        "section": "test-oficial",
+        "prompt": "Dada la tabla DATOS(A, B) de la pregunta anterior, ¿cuántas filas devolverá SELECT COUNT(A) FROM DATOS GROUP BY A HAVING COUNT(A) > 0?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: GROUP BY A forma un grupo por cada valor distinto. HAVING COUNT(A) > 0 excluye el grupo de NULL porque COUNT(A) no cuenta nulos; quedan los tres valores no nulos."
+      },
+      {
+        "id": "simulacro-2-71",
+        "section": "test-oficial",
+        "prompt": "Dada la tabla DATOS(A, B), ¿cuántas filas devolverá SELECT A FROM DATOS GROUP BY A HAVING A IS NOT NULL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: tras agrupar por A, HAVING A IS NOT NULL descarta el grupo cuyo valor de A es NULL. Permanecen los tres grupos correspondientes a los valores no nulos."
+      },
+      {
+        "id": "simulacro-2-72",
+        "section": "test-oficial",
+        "prompt": "Con la tabla DATOS(A, B) anterior, ¿cuál es el resultado de ejecutar SELECT AVG(A+B) FROM DATOS?",
+        "options": [
+          {
+            "id": "a",
+            "label": "15."
+          },
+          {
+            "id": "b",
+            "label": "13,25."
+          },
+          {
+            "id": "c",
+            "label": "18."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: las expresiones que incluyen un NULL producen NULL y AVG ignora esos resultados. Se promedian 25, 10 y 10, por lo que el resultado es 15."
+      },
+      {
+        "id": "simulacro-2-73",
+        "section": "test-oficial",
+        "prompt": "En un modelo Entidad/Relación, un tipo de interrelación se caracteriza por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El nombre y el tipo de correspondencia."
+          },
+          {
+            "id": "b",
+            "label": "El nombre y el grado."
+          },
+          {
+            "id": "c",
+            "label": "El nombre, el nivel y el tipo de correspondencia."
+          },
+          {
+            "id": "d",
+            "label": "El nombre, el grado y el tipo de correspondencia."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: una interrelación se identifica por su nombre, por su grado (número de tipos de entidad participantes) y por el tipo de correspondencia o cardinalidad."
       },
       {
         "id": "simulacro-2-74",
@@ -2028,7 +2203,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-89",
@@ -2078,7 +2253,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Definir las políticas de seguridad e integridad.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Definir las políticas de seguridad e integridad.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-91",
@@ -2103,7 +2278,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «En el nivel externo solo puede haber usuarios finales.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «En el nivel externo solo puede haber usuarios finales.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-92",
@@ -2153,7 +2328,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Identificador único.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Identificador único.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-94",
@@ -2203,7 +2378,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Obtener una representación de la información con independencia de usuarios y aplicaciones en particular.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Obtener una representación de la información con independencia de usuarios y aplicaciones en particular.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-96",
@@ -2329,131 +2504,6 @@
         ],
         "correctOption": "b",
         "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Inviolables.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-2-1",
-        "section": "test-oficial",
-        "prompt": "De acuerdo con el artículo 82 de la Constitución Española, en los llamados decretos legislativos, y en relación con la actuación del Gobierno, las Cortes Generales intervienen:",
-        "options": [
-          {
-            "id": "a",
-            "label": "A priori, antes de la regulación que realice el Gobierno."
-          },
-          {
-            "id": "b",
-            "label": "A posteriori, después de la regulación que realice el Gobierno."
-          },
-          {
-            "id": "c",
-            "label": "Una vez promulgados, para su ratificación."
-          },
-          {
-            "id": "d",
-            "label": "De ninguna forma. SIMULACRO 2"
-          }
-        ],
-        "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «A priori, antes de la regulación que realice el Gobierno.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-2-2",
-        "section": "test-oficial",
-        "prompt": "El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer (señale la respuesta INCORRECTA):",
-        "options": [
-          {
-            "id": "a",
-            "label": "Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley. La declaración de inconstitucionalidad de una norma jurídica con rango de ley, interpretada por la jurisprudencia, afectará a ésta, si bien la sentencia o sentencias recaídas no perderán el valor de cosa juzgada."
-          },
-          {
-            "id": "b",
-            "label": "Del recurso de amparo por violación de los derechos y libertades referidos en el artículo 53.2, de esta Constitución, en los casos y formas que la ley establezca."
-          },
-          {
-            "id": "c",
-            "label": "De los conflictos de competencia entre el Gobierno y las Comunidades Autónomas o de los de éstas entre sí."
-          },
-          {
-            "id": "d",
-            "label": "De las demás materias que le atribuyan la Constitución o las leyes orgánicas."
-          }
-        ],
-        "correctOption": "c",
-        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «De los conflictos de competencia entre el Gobierno y las Comunidades Autónomas o de los de éstas entre sí.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-2-3",
-        "section": "test-oficial",
-        "prompt": "Indique el SGBD NoSQL de tipo grafo:",
-        "options": [
-          {
-            "id": "a",
-            "label": "FlockDB."
-          },
-          {
-            "id": "b",
-            "label": "SImpleDB."
-          },
-          {
-            "id": "c",
-            "label": "BigTable."
-          },
-          {
-            "id": "d",
-            "label": "Oracle NoSQL."
-          }
-        ],
-        "correctOption": "a",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «FlockDB.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-2-4",
-        "section": "test-oficial",
-        "prompt": "Según el modelo relacional, una tabla con grado 5 y cardinalidad 6 tiene:",
-        "options": [
-          {
-            "id": "a",
-            "label": "5 columnas y 6 tuplas."
-          },
-          {
-            "id": "b",
-            "label": "5 tuplas y 6 columnas."
-          },
-          {
-            "id": "c",
-            "label": "6 tuplas, y cada una de ellas relacionadas con 5 relaciones."
-          },
-          {
-            "id": "d",
-            "label": "30 tuplas."
-          }
-        ],
-        "correctOption": "a",
-        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «5 columnas y 6 tuplas.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-2-5",
-        "section": "test-oficial",
-        "prompt": "¿Qué es ZODB?",
-        "options": [
-          {
-            "id": "a",
-            "label": "Un SGBD relacional."
-          },
-          {
-            "id": "b",
-            "label": "Un SGBD NoSQL de tipo clave-valor."
-          },
-          {
-            "id": "c",
-            "label": "Un SGBD orientado a objetos."
-          },
-          {
-            "id": "d",
-            "label": "Un SGBD NoSQL tabular. SIMULACRO 2"
-          }
-        ],
-        "correctOption": "b",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Un SGBD NoSQL de tipo clave-valor.». Referencia del temario: apartado correspondiente del tema."
       }
     ]
   },
@@ -2486,7 +2536,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Las lenguas de otros países.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Las lenguas de otros países.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-2",
@@ -2611,7 +2661,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Tratados de carácter político.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Tratados de carácter político.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-7",
@@ -3011,7 +3061,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «La Comisión General de Secretarios de Estado y Subsecretarios.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «La Comisión General de Secretarios de Estado y Subsecretarios.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-23",
@@ -3036,7 +3086,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «La reforma constitucional, las cuestiones internacionales, las leyes orgánicas y de bases y los Presupuestos Generales del Estado.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «La reforma constitucional, las cuestiones internacionales, las leyes orgánicas y de bases y los Presupuestos Generales del Estado.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-24",
@@ -3086,7 +3136,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Crea, modifica y suprime, por Real Decreto, los Departamentos Ministeriales, así como las Secretarías de Estado.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Crea, modifica y suprime, por Real Decreto, los Departamentos Ministeriales, así como las Secretarías de Estado.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-26",
@@ -3111,7 +3161,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Real Decreto del Presidente del Gobierno.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Real Decreto del Presidente del Gobierno.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-27",
@@ -3186,7 +3236,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-30",
@@ -3611,7 +3661,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Cardinalidad.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Cardinalidad.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-47",
@@ -3936,7 +3986,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «fork.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «fork.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-60",
@@ -3961,7 +4011,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Versant.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Una base de datos orientada a objetos almacena objetos con identidad, estado y comportamiento, y normalmente admite conceptos como clases, encapsulación y herencia. La respuesta correcta es «Versant.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-61",
@@ -3989,6 +4039,31 @@
         "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «O(n2).». Referencia del temario: apartado correspondiente del tema."
       },
       {
+        "id": "simulacro-3-62",
+        "section": "test-oficial",
+        "prompt": "¿Qué muestra el comando top en UNIX?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los ficheros abiertos."
+          },
+          {
+            "id": "b",
+            "label": "El escritorio."
+          },
+          {
+            "id": "c",
+            "label": "Los procesos."
+          },
+          {
+            "id": "d",
+            "label": "Los puertos TCP/IP."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: top muestra de forma dinámica los procesos en ejecución y datos de carga, CPU y memoria. No es una herramienta para listar ficheros, el escritorio o puertos de red."
+      },
+      {
         "id": "simulacro-3-63",
         "section": "test-oficial",
         "prompt": "Respecto a Linux, señale la respuesta INCORRECTA:",
@@ -4014,6 +4089,31 @@
         "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Linux Mint es una distribución orientada a la auditoría y a la seguridad.». Referencia del temario: apartado correspondiente del tema."
       },
       {
+        "id": "simulacro-3-64",
+        "section": "test-oficial",
+        "prompt": "En el ámbito de las bases de datos Oracle, una vista materializada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un objeto de la base de datos donde se almacena la información de todas las vistas de la BD."
+          },
+          {
+            "id": "b",
+            "label": "Es un objeto de la base de datos donde se almacena la definición de la tabla que materializa."
+          },
+          {
+            "id": "c",
+            "label": "Es un objeto de la base de datos donde se almacena el resultado de una consulta."
+          },
+          {
+            "id": "d",
+            "label": "Es una vista ordinaria que automáticamente se actualizará siempre que se actualicen las tablas involucradas en esa vista."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: una vista materializada persiste el resultado de una consulta y puede actualizarse mediante mecanismos de refresco. Una vista ordinaria almacena la definición de la consulta, no sus resultados."
+      },
+      {
         "id": "simulacro-3-65",
         "section": "test-oficial",
         "prompt": "¿Cuál de los siguientes sistemas de bases de datos es orientado a objetos?",
@@ -4036,7 +4136,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Zope.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Una base de datos orientada a objetos almacena objetos con identidad, estado y comportamiento, y normalmente admite conceptos como clases, encapsulación y herencia. La respuesta correcta es «Zope.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-66",
@@ -4311,7 +4411,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Select count(1), C.MARCA, B.MUNICIPIO from COMPRAS A, PERSONA B, COCHE C where B.IDPERSONA=A.IDPERSONA AND C.IDCOCHE=A.IDCOCHE GROUP BY C.MARCA, B.MUNICIPIO.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «Select count(1), C.MARCA, B.MUNICIPIO from COMPRAS A, PERSONA B, COCHE C where B.IDPERSONA=A.IDPERSONA AND C.IDCOCHE=A.IDCOCHE GROUP BY C.MARCA, B.MUNICIPIO.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-77",
@@ -4336,7 +4436,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «No existen atributos no primarios que son transitivamente dependientes de cada posible clave de la tabla.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «No existen atributos no primarios que son transitivamente dependientes de cada posible clave de la tabla.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-78",
@@ -4361,7 +4461,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «No cumple la segunda forma normal.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La segunda forma normal parte de la 1FN y elimina dependencias parciales de atributos no clave respecto de una parte de una clave compuesta. La respuesta correcta es «No cumple la segunda forma normal.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-79",
@@ -4436,7 +4536,32 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Sticky bit.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Sticky bit.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-3-82",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes es una regla de Codd?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dependencia física de los datos."
+          },
+          {
+            "id": "b",
+            "label": "Dependencia lógica de los datos."
+          },
+          {
+            "id": "c",
+            "label": "Regla de la inversión."
+          },
+          {
+            "id": "d",
+            "label": "Actualización de vistas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: entre las reglas de Codd está la de actualización de vistas, que exige que las vistas teóricamente actualizables puedan actualizarse por el sistema. Las dependencias física y lógica contradicen la independencia de datos."
       },
       {
         "id": "simulacro-3-83",
@@ -4539,6 +4664,31 @@
         "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «find . -type f | xargs grep \"Aprobado\".». Referencia del temario: apartado correspondiente del tema."
       },
       {
+        "id": "simulacro-3-87",
+        "section": "test-oficial",
+        "prompt": "Podremos almacenar un fichero de 6 GB en un dispositivo si el sistema de ficheros con el que está formateado es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "FAT32."
+          },
+          {
+            "id": "b",
+            "label": "NTFS."
+          },
+          {
+            "id": "c",
+            "label": "HPFS."
+          },
+          {
+            "id": "d",
+            "label": "ISO 9660:1988 Level 2."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: FAT32 tiene un límite de tamaño por fichero inferior a 4 GB, mientras que NTFS admite archivos mucho mayores. Por ello un fichero de 6 GB puede almacenarse en NTFS."
+      },
+      {
         "id": "simulacro-3-88",
         "section": "test-oficial",
         "prompt": "Para entornos Unix, indique cómo se asigna el sticky bit a un directorio:",
@@ -4636,7 +4786,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Integridad de paridad.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Las reglas de Codd describen requisitos del modelo relacional. La integridad de entidad y la integridad referencial forman parte de ese marco; la denominada integridad de paridad no es una de las reglas de Codd. La respuesta correcta es «Integridad de paridad.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-92",
@@ -4736,7 +4886,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Termina la transacción actual y deshace los cambios realizados.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: COMMIT confirma los cambios de una transacción; ROLLBACK los deshace, total o parcialmente si se usa junto a un punto de guardado, mientras la transacción no se haya confirmado. La respuesta correcta es «Termina la transacción actual y deshace los cambios realizados.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-96",
@@ -4862,106 +5012,6 @@
         ],
         "correctOption": "b",
         "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «DynamoDB.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-3-1",
-        "section": "test-oficial",
-        "prompt": "¿Cuál de las siguientes operaciones del álgebra relacional NO pertenece a las operaciones fundamentales, también denominadas operadores básicos?",
-        "options": [
-          {
-            "id": "a",
-            "label": "Proyección."
-          },
-          {
-            "id": "b",
-            "label": "Producto cartesiano."
-          },
-          {
-            "id": "c",
-            "label": "Intersección."
-          },
-          {
-            "id": "d",
-            "label": "Unión."
-          }
-        ],
-        "correctOption": "c",
-        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Intersección.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-3-2",
-        "section": "test-oficial",
-        "prompt": "Sobre el lenguaje SQL podemos decir que:",
-        "options": [
-          {
-            "id": "a",
-            "label": "Es igual en todos los Sistemas Gestores de Bases de Datos Relacionales."
-          },
-          {
-            "id": "b",
-            "label": "El subconjunto de instrucciones DDL se encarga de la manipulación de los objetos de la base de datos."
-          },
-          {
-            "id": "c",
-            "label": "Permite la implementación de triggers de base de datos."
-          },
-          {
-            "id": "d",
-            "label": "Ninguna de las respuestas anteriores es cierta."
-          }
-        ],
-        "correctOption": "d",
-        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Ninguna de las respuestas anteriores es cierta.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-3-3",
-        "section": "test-oficial",
-        "prompt": "En relación con las bases de datos NoSQL, señale la respuesta INCORRECTA:",
-        "options": [
-          {
-            "id": "a",
-            "label": "Cassandra es de tipo clave-valor."
-          },
-          {
-            "id": "b",
-            "label": "No pueden ser accedidas mediante lenguaje SQL."
-          },
-          {
-            "id": "c",
-            "label": "Una de sus principales ventajas es la escalabilidad."
-          },
-          {
-            "id": "d",
-            "label": "Está recomendado su uso cuando el esquema de bases de datos es homogéneo."
-          }
-        ],
-        "correctOption": "d",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Está recomendado su uso cuando el esquema de bases de datos es homogéneo.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-3-4",
-        "section": "test-oficial",
-        "prompt": "En el modelo Entidad/Relación extendido, los cuatro elementos fundamentales son:",
-        "options": [
-          {
-            "id": "a",
-            "label": "Entidad, relación, dominio y atributo."
-          },
-          {
-            "id": "b",
-            "label": "Entidad, relación, estructura y ocurrencia."
-          },
-          {
-            "id": "c",
-            "label": "Entidad, relación, atributo y categoría."
-          },
-          {
-            "id": "d",
-            "label": "Entidad, relación, dominio y cardinalidad. SIMULACRO 3"
-          }
-        ],
-        "correctOption": "a",
-        "explanation": "Por qué: En el modelo relacional y en E/R, el dominio es el conjunto de valores válidos que puede tomar un atributo, no una fila, una relación ni una clave. La respuesta correcta es «Entidad, relación, dominio y atributo.». Referencia del temario: apartado correspondiente del tema."
       }
     ]
   },
@@ -5519,7 +5569,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Eliminar redundancias de los datos incluidos en las mismas y prevenir la aparición de inconsistencias.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Eliminar redundancias de los datos incluidos en las mismas y prevenir la aparición de inconsistencias.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-23",
@@ -5644,7 +5694,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Tres tablas: una tabla alumnos con el código de alumno y sus datos personales, otra tabla asignatura con el código de la asignatura y su denominación, y una tercera tabla que contuviese, en cada fila, una tupla (código alumno, código asignatura) por cada alumno y cada asignatura en la que éste estuviese matriculado.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La tercera forma normal exige estar en 2FN y evitar dependencias transitivas de atributos no clave respecto de una clave candidata. La respuesta correcta es «Tres tablas: una tabla alumnos con el código de alumno y sus datos personales, otra tabla asignatura con el código de la asignatura y su denominación, y una tercera tabla que contuviese, en cada fila, una tupla (código alumno, código asignatura) por cada alumno y cada asignatura en la que éste estuviese matriculado.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-28",
@@ -5669,7 +5719,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Diseño conceptual.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Diseño conceptual.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-29",
@@ -5719,7 +5769,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «La clave de la entidad que participa con cardinalidad 1 y el atributo de la relación, pasan a la tabla de cardinalidad N.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «La clave de la entidad que participa con cardinalidad 1 y el atributo de la relación, pasan a la tabla de cardinalidad N.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-31",
@@ -5744,7 +5794,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Externo, conceptual e interno.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Externo, conceptual e interno.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-32",
@@ -5869,7 +5919,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «En desnormalizar controladamente el modelo físico de datos.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «En desnormalizar controladamente el modelo físico de datos.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-37",
@@ -5894,7 +5944,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «En la especialización un supertipo se descompone en uno o varios subtipos, los cuales heredan todos los atributos y relaciones del supertipo.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «En la especialización un supertipo se descompone en uno o varios subtipos, los cuales heredan todos los atributos y relaciones del supertipo.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-38",
@@ -5919,7 +5969,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Lógico, Conceptual y Físico.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Lógico, Conceptual y Físico.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-39",
@@ -6044,7 +6094,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «El nivel conceptual se denomina también nivel lógico.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «El nivel conceptual se denomina también nivel lógico.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-44",
@@ -6569,7 +6619,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Definir una entidad Departamento y una relación reflexiva \"pertenece a\" cuyo tipo de correspondencia es 1:N.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Definir una entidad Departamento y una relación reflexiva \"pertenece a\" cuyo tipo de correspondencia es 1:N.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-65",
@@ -6594,7 +6644,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Derivado.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Derivado.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-66",
@@ -6797,6 +6847,31 @@
         "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «La entidad es aquel objeto, real o abstracto, acerca del cual se desea almacenar información en la base de datos.». Referencia del temario: apartado correspondiente del tema."
       },
       {
+        "id": "simulacro-1-74",
+        "section": "test-oficial",
+        "prompt": "El modelo Entidad-Relación es un:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Modelo conceptual."
+          },
+          {
+            "id": "b",
+            "label": "Modelo lógico."
+          },
+          {
+            "id": "c",
+            "label": "Modelo físico."
+          },
+          {
+            "id": "d",
+            "label": "Modelo multidimensional."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: el modelo Entidad-Relación representa la realidad y las reglas de negocio antes de transformar el diseño a tablas o estructuras físicas; por eso pertenece al nivel conceptual."
+      },
+      {
         "id": "simulacro-1-75",
         "section": "test-oficial",
         "prompt": "En relación al diseño de bases de datos, seleccione la respuesta correcta:",
@@ -6819,7 +6894,32 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «En el diseño conceptual se han de eliminar los atributos compuestos y los atributos multivaluados.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «En el diseño conceptual se han de eliminar los atributos compuestos y los atributos multivaluados.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-1-76",
+        "section": "test-oficial",
+        "prompt": "En relación al modelo Entidad-Relación, indique cuál de las siguientes afirmaciones es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un tipo de entidad fuerte no puede tener una dependencia de existencia con respecto a otro tipo de entidad."
+          },
+          {
+            "id": "b",
+            "label": "Un atributo multivaluado se representa con un óvalo con línea discontinua."
+          },
+          {
+            "id": "c",
+            "label": "El discriminante o clave parcial de una entidad débil se indica con un óvalo con línea doble."
+          },
+          {
+            "id": "d",
+            "label": "El grado de una relación es el número de tipos de entidad que pueden intervenir en una ocurrencia de ese tipo de relación."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: el grado de una relación se determina por el número de tipos de entidad que participan en ella. Las demás opciones confunden las notaciones de atributos y entidades débiles."
       },
       {
         "id": "simulacro-1-77",
@@ -6994,7 +7094,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Si no tiene grupos repetitivos y cualquiera de sus atributos no primarios tienen una dependencia funcional completa con cada una de las claves y no con partes de éstas.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La segunda forma normal parte de la 1FN y elimina dependencias parciales de atributos no clave respecto de una parte de una clave compuesta. La respuesta correcta es «Si no tiene grupos repetitivos y cualquiera de sus atributos no primarios tienen una dependencia funcional completa con cada una de las claves y no con partes de éstas.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-84",
@@ -7094,7 +7194,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Puja(idPostor, idLote) siendo idPostor clave ajena de la tabla Postor e idLote clave ajena de la tabla Lote.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «Puja(idPostor, idLote) siendo idPostor clave ajena de la tabla Postor e idLote clave ajena de la tabla Lote.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-88",
@@ -7294,7 +7394,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «El producto cartesiano incluye en la relación resultante las combinaciones de tuplas de ambas relaciones que en los atributos comunes no tienen valores iguales o correspondientes.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «El producto cartesiano incluye en la relación resultante las combinaciones de tuplas de ambas relaciones que en los atributos comunes no tienen valores iguales o correspondientes.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-96",
@@ -7344,7 +7444,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Selección, proyección y producto cartesiano.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: DDL define o modifica la estructura de la base de datos: esquemas, tablas, columnas, vistas y restricciones. No se usa para consultar o manipular filas concretas. La respuesta correcta es «Selección, proyección y producto cartesiano.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-98",
@@ -7394,7 +7494,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Hay que incluir una restricción para controlar el solapamiento.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Hay que incluir una restricción para controlar el solapamiento.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-100",
@@ -7419,57 +7519,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «R(a, b, c).». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-1-1",
-        "section": "test-oficial",
-        "prompt": "Según el art. 62 de la Constitución Española, ¿cuál NO es una función del Rey?",
-        "options": [
-          {
-            "id": "a",
-            "label": "Sancionar y promulgar las leyes."
-          },
-          {
-            "id": "b",
-            "label": "Convocar el referéndum en los casos previstos en la Constitución."
-          },
-          {
-            "id": "c",
-            "label": "Ser informado de los asuntos de Estado."
-          },
-          {
-            "id": "d",
-            "label": "Manifestar el consentimiento del Estado para obligarse internacionalmente por medio de tratados."
-          }
-        ],
-        "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Manifestar el consentimiento del Estado para obligarse internacionalmente por medio de tratados.». Referencia del temario: apartado correspondiente del tema."
-      },
-      {
-        "id": "simulacro-1-2",
-        "section": "test-oficial",
-        "prompt": "¿Cuándo puede ser conveniente transformar una jerarquía del modelo E/R en tantas relaciones como subtipos tenga la jerarquía?",
-        "options": [
-          {
-            "id": "a",
-            "label": "Cuando los subtipos tienen muchos atributos comunes."
-          },
-          {
-            "id": "b",
-            "label": "Cuando se va a realizar un número elevado de consultas al supertipo."
-          },
-          {
-            "id": "c",
-            "label": "Cuando el supertipo no participa en ninguna relación."
-          },
-          {
-            "id": "d",
-            "label": "Cuando los subtipos tienen muchos atributos distintos."
-          }
-        ],
-        "correctOption": "d",
-        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Cuando los subtipos tienen muchos atributos distintos.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «R(a, b, c).». Referencia del temario: apartado correspondiente del tema."
       }
     ]
   }
