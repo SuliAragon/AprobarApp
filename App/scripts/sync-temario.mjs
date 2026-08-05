@@ -265,6 +265,7 @@ writeJsonFile(simulationManifestFile, simulationsManifest);
 console.log(`[sync-temario] Sincronizados ${simulationsManifest.length} simulacros globales.`);
 
 const interactiveSimulations = [];
+let simulationParserUnavailable = false;
 
 for (const simulation of simulationsManifest) {
   if (!simulation.assetPath.endsWith(".pdf")) {
@@ -282,6 +283,11 @@ for (const simulation of simulationsManifest) {
   const extraction = spawnSync("pdftotext", [source.filePath, "-"], { encoding: "utf8" });
 
   if (extraction.status !== 0 || extraction.error) {
+    if (extraction.error?.code === "ENOENT") {
+      simulationParserUnavailable = true;
+      break;
+    }
+
     console.warn(`[sync-temario] No se pudo extraer el simulacro ${simulation.sourceFilename}.`);
     continue;
   }
@@ -298,8 +304,12 @@ for (const simulation of simulationsManifest) {
   }
 }
 
-writeJsonFile(interactiveSimulationsFile, interactiveSimulations);
-console.log(`[sync-temario] Generados ${interactiveSimulations.length} simulacros interactivos.`);
+if (simulationParserUnavailable && existsSync(interactiveSimulationsFile)) {
+  console.warn("[sync-temario] pdftotext no disponible; se conserva el manifest de simulacros interactivos ya generado.");
+} else {
+  writeJsonFile(interactiveSimulationsFile, interactiveSimulations);
+  console.log(`[sync-temario] Generados ${interactiveSimulations.length} simulacros interactivos.`);
+}
 
 const interactiveOfficialTests = [];
 let parserUnavailable = false;
