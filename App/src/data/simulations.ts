@@ -33,6 +33,20 @@ const simulationOverrides: Record<
     studyLabel: "Repaso acumulado",
     coveredTopicCodes: ["B1T1", "B3T1", "B3T2"],
   },
+  "simulacro-2": {
+    title: "Simulacro 2 · Repaso de los seis primeros temas",
+    description:
+      "Simulacro global para consolidar los seis primeros temas trabajados antes de avanzar con nuevo contenido.",
+    studyLabel: "Repaso acumulado",
+    coveredTopicCodes: ["B1T1", "B1T2", "B1T3", "B2T3", "B2T4", "B2T5"],
+  },
+  "simulacro-3": {
+    title: "Simulacro 3 · Repaso de los nueve primeros temas",
+    description:
+      "Simulacro global de los nueve temas disponibles para entrenar cambios de bloque y una vuelta completa al temario estudiado.",
+    studyLabel: "Repaso acumulado",
+    coveredTopicCodes: ["B1T1", "B1T2", "B1T3", "B2T3", "B2T4", "B2T5", "B3T1", "B3T2", "B3T4"],
+  },
 };
 
 export const simulations: Simulation[] = (generatedSimulations as GeneratedSimulation[])

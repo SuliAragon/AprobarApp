@@ -14,7 +14,7 @@ const officialSourceDir = resolve(projectRoot, "..", "Test");
 const officialPublicDir = resolve(projectRoot, "public", "test-oficial");
 const officialManifestFile = resolve(projectRoot, "src", "data", "generated", "official-materials.json");
 const officialTestsFile = resolve(projectRoot, "src", "data", "generated", "official-tests.json");
-const simulationSourceDir = resolve(officialSourceDir, "Simulacros");
+const simulationSourceDirs = [resolve(officialSourceDir, "Simulacros"), resolve(sourceDir, "Simulacros")];
 const simulationPublicDir = resolve(projectRoot, "public", "simulacros");
 const simulationManifestFile = resolve(projectRoot, "src", "data", "generated", "simulacros.json");
 
@@ -38,7 +38,7 @@ function prettifyOfficialFilename(filename, code) {
 
   normalized = normalized
     .replace(/_/g, " ")
-    .replace(/\s+\d+$/g, "")
+    .replace(/\s+\d+$/, "")
     .replace(/\s+/g, " ")
     .trim();
 
@@ -92,7 +92,9 @@ function prettifySimulationFilename(filename) {
 
   return baseName
     .replace(/_/g, " ")
-    .replace(/\s+\d+$/g, "")
+    .replace(/\s*\(\d+\)$/, "")
+    // Keep "Simulacro 2" while discarding only a trailing copy suffix.
+    .replace(/(\s+\d+)\s+\d+$/, "$1")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -115,6 +117,7 @@ if (!existsSync(sourceDir)) {
   console.warn("[sync-temario] No existe la carpeta Temario. Se genera un manifest vacío.");
 } else {
   const temarioFiles = collectFilesRecursively(sourceDir)
+    .filter((file) => !relative(sourceDir, file).startsWith("Simulacros/"))
     .filter((file) => isSupportedTemarioFile(file))
     .sort((left, right) => left.localeCompare(right, "es"));
   const temarioCatalog = buildTemarioCatalog(temarioFiles.map((file) => relative(sourceDir, file)));
@@ -200,6 +203,7 @@ const officialEntries = officialFiles.map((filePath) => {
 
 if (existsSync(sourceDir)) {
   const temarioFiles = collectFilesRecursively(sourceDir)
+    .filter((file) => !relative(sourceDir, file).startsWith("Simulacros/"))
     .filter((file) => isSupportedTemarioFile(file))
     .sort((left, right) => left.localeCompare(right, "es"));
   const temarioCatalog = buildTemarioCatalog(temarioFiles.map((file) => relative(sourceDir, file)));
@@ -230,14 +234,16 @@ const officialManifest = officialEntries.map(({ absolutePath, extension, ...entr
 writeJsonFile(officialManifestFile, officialManifest);
 console.log(`[sync-temario] Sincronizados ${officialManifest.length} materiales oficiales.`);
 
-const simulationFiles = existsSync(simulationSourceDir)
-  ? collectFilesRecursively(simulationSourceDir)
-      .filter((file) => [".pdf", ".doc", ".docx"].includes(extname(file).toLowerCase()))
-      .sort((a, b) => a.localeCompare(b, "es"))
-  : [];
+const simulationFiles = simulationSourceDirs.flatMap((directory) =>
+  existsSync(directory)
+    ? collectFilesRecursively(directory)
+        .filter((file) => [".pdf", ".doc", ".docx"].includes(extname(file).toLowerCase()))
+        .map((filePath) => ({ filePath, sourceDirectory: directory }))
+    : [],
+).sort((left, right) => left.filePath.localeCompare(right.filePath, "es"));
 
-const simulationsManifest = simulationFiles.map((filePath) => {
-  const relativePath = relative(simulationSourceDir, filePath);
+const simulationsManifest = simulationFiles.map(({ filePath, sourceDirectory }) => {
+  const relativePath = relative(sourceDirectory, filePath);
   const extension = extname(filePath).toLowerCase();
   const title = prettifySimulationFilename(basename(relativePath));
   const slug = slugify(title);

@@ -1,5 +1,17 @@
 [
   {
+    "slug": "simulacro-2",
+    "title": "Simulacro 2",
+    "sourceFilename": "Simulacro_2 (1).pdf",
+    "assetPath": "/simulacros/simulacro-2.pdf"
+  },
+  {
+    "slug": "simulacro-3",
+    "title": "Simulacro 3",
+    "sourceFilename": "Simulacro_3.pdf",
+    "assetPath": "/simulacros/simulacro-3.pdf"
+  },
+  {
     "slug": "simulacro-1",
     "title": "Simulacro 1",
     "sourceFilename": "Simulacro_1 4.pdf",
