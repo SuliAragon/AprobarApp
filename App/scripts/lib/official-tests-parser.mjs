@@ -108,6 +108,26 @@ function extractOptions(block) {
 
 const explanationRules = [
   {
+    match: /Ley 19\/2013|publicidad activa|Portal de Transparencia|sociedades mercantiles|información institucional|información de relevancia jurídica|información económica/i,
+    text: "La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I.",
+  },
+  {
+    match: /derecho de acceso|solicitud de acceso|información pública|terceros afectados|reelaboración|reelaboraci.n|datos personales|acceso parcial|inadmisión|inadmisi.n/i,
+    text: "El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso.",
+  },
+  {
+    match: /Consejo de Transparencia|buen gobierno|alto cargo|reclamación|reclamaci.n|abstención|abstenci.n/i,
+    text: "El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia.",
+  },
+  {
+    match: /Agenda 2030|Objetivos de Desarrollo Sostenible|\bODS\b|desarrollo sostenible/i,
+    text: "La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas.",
+  },
+  {
+    match: /Gobierno Abierto|Alianza para el Gobierno Abierto|\bOGP\b|rendición de cuentas|rendicion de cuentas/i,
+    text: "El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública.",
+  },
+  {
     match: /árbol.*equilibrado/i,
     text: "Un árbol equilibrado exige que, en cada nodo, la diferencia de altura entre sus dos subárboles no sea superior a una unidad. Contar nodos no sustituye ese criterio de altura.",
   },
@@ -140,7 +160,7 @@ const explanationRules = [
     text: "Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario.",
   },
   {
-    match: /\b(?:Android|iOS|Firefox OS|Cocoa Touch|Gonk|ART)\b|móviles|moviles/i,
+    match: /Android|iOS|Firefox OS|Cocoa Touch|Gonk|móviles|moviles/i,
     text: "Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS.",
   },
   {
@@ -237,6 +257,7 @@ const topicFallbacks = {
   B1T1: "La cuestión se resuelve por la literalidad de la Constitución Española, especialmente de los Títulos Preliminar, I y II. La alternativa correcta es la única que respeta el derecho, garantía u órgano que establece el precepto aplicable.",
   B1T2: "La cuestión se resuelve aplicando la regulación constitucional de las Cortes Generales, el Tribunal Constitucional o el Defensor del Pueblo. Hay que contrastar competencias, mayorías y procedimientos sin trasladarlos de una institución a otra.",
   B1T3: "La cuestión se resuelve con los artículos constitucionales sobre el Gobierno y sus relaciones con las Cortes, junto con la Ley del Gobierno. Conviene diferenciar composición, investidura, funciones y control parlamentario.",
+  B1T4: "La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos.",
   B2T3: "La respuesta correcta aplica la definición técnica exacta de la estructura, algoritmo o formato preguntado. Las alternativas restantes cambian el criterio esencial, el ámbito de aplicación o la propiedad que se está evaluando.",
   B2T4: "La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles.",
   B2T5: "La respuesta correcta distingue la arquitectura y las propiedades propias de cada familia de SGBD. No deben confundirse los conceptos relacionales, orientados a objetos y NoSQL ni las garantías de una transacción.",
@@ -273,6 +294,16 @@ const temarioReferences = {
       [/investidura|nombramiento|cese|Gobierno en funciones/i, "Nombramiento y cese"],
       [/moción de censura|cuestión de confianza|Cortes|alarma|excepción|sitio/i, "Relaciones entre el Gobierno y las Cortes Generales"],
       [/potestad reglamentaria|función ejecutiva|Presidente del Gobierno/i, "Las funciones del Gobierno"],
+    ],
+  },
+  B1T4: {
+    fallback: "Gobierno Abierto, Ley 19/2013 y Agenda 2030",
+    rules: [
+      [/publicidad activa|Portal de Transparencia|organigrama|contrato|informaci.n econ.mica|informaci.n de relevancia jur.dica/i, "Publicidad activa"],
+      [/acceso|solicitud|l.mite|tercero|reelaboraci.n|informaci.n p.blica|datos personales/i, "Derecho de acceso a la información pública"],
+      [/Consejo de Transparencia|alto cargo|buen gobierno|reclamaci.n|abstenci.n/i, "Buen gobierno y Consejo de Transparencia"],
+      [/Agenda 2030|ODS|Objetivo de Desarrollo Sostenible|Naciones Unidas|desarrollo sostenible/i, "Agenda 2030 y Objetivos de Desarrollo Sostenible"],
+      [/Gobierno Abierto|OGP|participaci|colaboraci|rendici.n de cuentas/i, "Gobierno Abierto y principios informadores"],
     ],
   },
   B2T3: {

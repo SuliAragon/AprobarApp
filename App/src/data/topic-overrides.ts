@@ -182,6 +182,59 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B1T4: {
+    title: "Gobierno Abierto, transparencia, acceso a la informacion publica, buen gobierno y Agenda 2030",
+    shortTitle: "Transparencia y Agenda 2030",
+    description:
+      "Tema del bloque constitucional sobre Gobierno Abierto, la Ley 19/2013, publicidad activa, derecho de acceso, buen gobierno, Consejo de Transparencia y Objetivos de Desarrollo Sostenible.",
+    summary: [
+      "Principios de Gobierno Abierto: transparencia, participacion, colaboracion, innovacion y rendicion de cuentas, junto con el papel de la OGP.",
+      "Ambito y obligaciones de la Ley 19/2013, con especial atencion a publicidad activa, Portal de Transparencia e informacion institucional, juridica y economica.",
+      "Derecho de acceso a la informacion publica: solicitud, limites, proteccion de datos, acceso parcial, inadmisiones, plazos y reclamacion.",
+      "Principios de buen gobierno y funciones del Consejo de Transparencia y Buen Gobierno en el control de las obligaciones legales.",
+      "Agenda 2030, las cinco P y los 17 Objetivos de Desarrollo Sostenible como marco integrado de desarrollo sostenible.",
+    ],
+    sections: [
+      "Gobierno Abierto y principios informadores",
+      "Ley 19/2013: publicidad activa",
+      "Derecho de acceso a la informacion publica",
+      "Buen gobierno y Consejo de Transparencia",
+      "Agenda 2030 y Objetivos de Desarrollo Sostenible",
+    ],
+    accent: "emerald",
+    testPresets: [
+      {
+        slug: "gobierno-abierto",
+        title: "Test 1 · Gobierno Abierto",
+        description: "Repasa transparencia, participacion, colaboracion, rendicion de cuentas, OGP y planes de accion.",
+        focusSections: ["gobierno-abierto"],
+      },
+      {
+        slug: "publicidad-activa",
+        title: "Test 2 · Publicidad activa",
+        description: "Entrena ambito subjetivo, informacion institucional, juridica y economica, Portal y principios tecnicos.",
+        focusSections: ["publicidad-activa"],
+      },
+      {
+        slug: "derecho-acceso",
+        title: "Test 3 · Derecho de acceso",
+        description: "Trabaja informacion publica, limites, datos personales, terceros, inadmisiones, acceso parcial y plazos.",
+        focusSections: ["derecho-acceso"],
+      },
+      {
+        slug: "buen-gobierno-y-consejo",
+        title: "Test 4 · Buen gobierno y Consejo",
+        description: "Refuerza altos cargos, principios de actuacion, infracciones y funciones del Consejo de Transparencia.",
+        focusSections: ["buen-gobierno-y-consejo"],
+      },
+      {
+        slug: "agenda-2030-y-ods",
+        title: "Test 5 · Agenda 2030 y ODS",
+        description: "Repasa las cinco P, los 17 ODS, sus metas, universalidad y los objetivos mas preguntables.",
+        focusSections: ["agenda-2030-y-ods"],
+      },
+    ],
+  },
   B2T3: {
     title: "Tipos abstractos y estructuras de datos, algoritmos, ficheros y formatos",
     shortTitle: "Estructuras de datos",

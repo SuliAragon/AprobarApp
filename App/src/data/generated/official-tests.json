@@ -15028,5 +15028,2656 @@
         "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. En este caso, la opción A (SELECT o.nombre_organismo, SUM(c.importe) AS total_adjudicado FROM organismos o LEFT JOIN contratos c ON o.id_organismo = c.id_organismo GROUP BY o.nombre_organismo;.) es la que se ajusta al criterio preguntado. Referencia del temario: B3T4 · Estándar ANSI SQL · Lenguaje de manipulación de datos (DML)."
       }
     ]
+  },
+  {
+    "code": "B1T4",
+    "slug": "b1t4-test-oficial-1-transparencia",
+    "title": "Test oficial 1 Transparencia",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 4/B1T4Test_1_Transparencia 2.pdf",
+    "assetPath": "/test-oficial/B1T4/b1t4-test-oficial-1-transparencia.pdf",
+    "questions": [
+      {
+        "id": "b1t4-test-oficial-1-transparencia-1",
+        "section": "test-oficial",
+        "prompt": "Las disposiciones de la Ley 19/2013 se aplican a las sociedades mercantiles en cuyo capital social la participación, directa o indirecta, de las entidades previstas en el artículo 2 de la misma sea:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Inferior al 50 por 100."
+          },
+          {
+            "id": "b",
+            "label": "Igual o superior al 50 por 100."
+          },
+          {
+            "id": "c",
+            "label": "Superior al 50 por 100."
+          },
+          {
+            "id": "d",
+            "label": "Superior al 75 por 100."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Superior al 50 por 100.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-2",
+        "section": "test-oficial",
+        "prompt": "En el caso de que la información pública a la que se refiera la solicitud de acceso pueda afectar a derechos o intereses de terceros, debidamente identificados, la Ley 19/2013 obliga a concederles un plazo de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "15 días para que puedan formular alegaciones."
+          },
+          {
+            "id": "b",
+            "label": "10 días para que puedan formular alegaciones."
+          },
+          {
+            "id": "c",
+            "label": "15 días para que soliciten que se les considere interesados en el procedimiento."
+          },
+          {
+            "id": "d",
+            "label": "10 días para que puedan oponerse a la tramitación del procedimiento."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «15 días para que puedan formular alegaciones.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-3",
+        "section": "test-oficial",
+        "prompt": "El Presidente del Consejo de Transparencia y Buen Gobierno, de acuerdo con la Ley 19/2013, es nombrado por un período de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "4 años, no renovable."
+          },
+          {
+            "id": "b",
+            "label": "5 años, renovable."
+          },
+          {
+            "id": "c",
+            "label": "4 años, renovable una sola vez."
+          },
+          {
+            "id": "d",
+            "label": "5 años, no renovable."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «5 años, no renovable.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-4",
+        "section": "test-oficial",
+        "prompt": "Cuando las infracciones de las normas de buen gobierno puedan ser constitutivas de delito, la Ley 19/2013:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Obliga a la Administración a poner los hechos en conocimiento del Consejo de Transparencia y Buen Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Obliga a la Administración a poner los hechos en conocimiento del Fiscal General del Estado."
+          },
+          {
+            "id": "c",
+            "label": "Faculta a la Administración para continuar con la tramitación del procedimiento aunque no haya sido resuelto el proceso penal."
+          },
+          {
+            "id": "d",
+            "label": "Permite a la Administración poner los hechos en conocimiento del Fiscal General del Estado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Obliga a la Administración a poner los hechos en conocimiento del Fiscal General del Estado.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-5",
+        "section": "test-oficial",
+        "prompt": "La Ley 19/2013 establece la obligatoriedad por parte de las Administraciones Públicas de publicar las circulares en la medida en que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Impliquen una aplicación no prevista en la normativa vigente."
+          },
+          {
+            "id": "b",
+            "label": "Tengan efectos jurídicos."
+          },
+          {
+            "id": "c",
+            "label": "Supongan una modificación de la normativa vigente."
+          },
+          {
+            "id": "d",
+            "label": "No produzcan efectos jurídicos. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Tengan efectos jurídicos.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-6",
+        "section": "test-oficial",
+        "prompt": "A efectos de la aplicación de las normas de buen gobierno de la Ley 19/2013, ésta considera altos cargos los que tengan tal consideración en aplicación de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La normativa en materia de incompatibilidades del personal al servicio de las Administraciones Públicas."
+          },
+          {
+            "id": "b",
+            "label": "La Ley de Régimen Jurídico del Sector Público."
+          },
+          {
+            "id": "c",
+            "label": "La normativa en materia de conflictos de intereses."
+          },
+          {
+            "id": "d",
+            "label": "La Ley del Gobierno y su normativa de desarrollo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La normativa en materia de conflictos de intereses.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-7",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 19/2013 se considera una infracción disciplinaria grave en la que pueden incurrir los altos cargos de la Administración General del Estado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La intervención en un procedimiento administrativo cuando se dé alguna de las causas de abstención legalmente señaladas."
+          },
+          {
+            "id": "b",
+            "label": "La incorrección con los superiores."
+          },
+          {
+            "id": "c",
+            "label": "La prevalencia de su condición para obtener un beneficio indebido."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La intervención en un procedimiento administrativo cuando se dé alguna de las causas de abstención legalmente señaladas.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-8",
+        "section": "test-oficial",
+        "prompt": "La Ley 19/2013 atribuye el control del cumplimiento por la Administración General del Estado de las obligaciones en materia de publicidad activa a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Intervención General de la Administración General del Estado."
+          },
+          {
+            "id": "b",
+            "label": "El Consejo de Transparencia y Buen Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Consejo de Estado."
+          },
+          {
+            "id": "d",
+            "label": "Las Inspecciones Generales de Servicios."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «El Consejo de Transparencia y Buen Gobierno.». Referencia del temario: B1T4 · Publicidad activa."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-9",
+        "section": "test-oficial",
+        "prompt": "El plazo de prescripción de las infracciones muy graves previstas en el Título II de la Ley 19/2013 es de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "6 años."
+          },
+          {
+            "id": "b",
+            "label": "4 años."
+          },
+          {
+            "id": "c",
+            "label": "3 años."
+          },
+          {
+            "id": "d",
+            "label": "5 años."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «5 años.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-10",
+        "section": "test-oficial",
+        "prompt": "Cuando la información solicitada contenga datos especialmente protegidos a los que se refiere la normativa en materia de protección de datos, la Ley 19/2013 dispone que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se podrá autorizar el acceso con el consentimiento expreso o tácito del afectado."
+          },
+          {
+            "id": "b",
+            "label": "No se podrá autorizar el acceso."
+          },
+          {
+            "id": "c",
+            "label": "Se podrá autorizar el acceso con el consentimiento expreso y por escrito del afectado."
+          },
+          {
+            "id": "d",
+            "label": "Se deberá autorizar el acceso con el consentimiento expreso, escrito o verbal, del interesado."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Se podrá autorizar el acceso con el consentimiento expreso y por escrito del afectado.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-11",
+        "section": "test-oficial",
+        "prompt": "El Estatuto del Consejo de Transparencia y Buen Gobierno se aprobará, por exigencia de la Ley 19/2013, mediante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Orden Ministerial."
+          },
+          {
+            "id": "b",
+            "label": "Real Decreto del Consejo de Ministros."
+          },
+          {
+            "id": "c",
+            "label": "Resolución de la Comisión de Transparencia y Buen Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Real Decreto del Presidente del Gobierno. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Real Decreto del Consejo de Ministros.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-12",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 19/2013, ¿qué incluirá el Portal de Transparencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Incluirá información relativa a las rentas patrimoniales de los responsables públicos."
+          },
+          {
+            "id": "b",
+            "label": "La información de la Administración General del Estado cuyo acceso se solicite con mayor frecuencia."
+          },
+          {
+            "id": "c",
+            "label": "Información actualizada diariamente sobre los contratos públicos."
+          },
+          {
+            "id": "d",
+            "label": "La información detallada de actuaciones presupuestarias con dinero público."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La información de la Administración General del Estado cuyo acceso se solicite con mayor frecuencia.». Referencia del temario: B1T4 · Publicidad activa."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-13",
+        "section": "test-oficial",
+        "prompt": "La Ley 19/2013 tiene por objeto:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ampliar y reforzar la transparencia de la actividad pública."
+          },
+          {
+            "id": "b",
+            "label": "Garantizar el derecho de acceso a la información."
+          },
+          {
+            "id": "c",
+            "label": "Establecer las obligaciones de buen gobierno que deben cumplir los responsables públicos."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-14",
+        "section": "test-oficial",
+        "prompt": "España entró a formar parte de la Alianza para el Gobierno Abierto (OGP) en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "2009."
+          },
+          {
+            "id": "b",
+            "label": "2010."
+          },
+          {
+            "id": "c",
+            "label": "2011."
+          },
+          {
+            "id": "d",
+            "label": "2012."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «2011.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-15",
+        "section": "test-oficial",
+        "prompt": "El Gobierno Abierto se sustenta en una serie de principios informadores, entre los cuales NO se encuentra:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reutilización."
+          },
+          {
+            "id": "b",
+            "label": "Colaboración."
+          },
+          {
+            "id": "c",
+            "label": "Rendición de cuentas."
+          },
+          {
+            "id": "d",
+            "label": "Transparencia."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Reutilización.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-16",
+        "section": "test-oficial",
+        "prompt": "En relación al Foro de Gobierno Abierto, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un espacio de diálogo y colaboración."
+          },
+          {
+            "id": "b",
+            "label": "La sociedad civil está representada."
+          },
+          {
+            "id": "c",
+            "label": "El Foro actúa en Pleno, Comisión Permanente y grupos de trabajo."
+          },
+          {
+            "id": "d",
+            "label": "El Foro se crea como compromiso del II Plan de Gobierno Abierto en España."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «El Foro se crea como compromiso del II Plan de Gobierno Abierto en España.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-17",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un grupo de trabajo del Foro de Gobierno Abierto?",
+        "options": [
+          {
+            "id": "a",
+            "label": "De Colaboración y Participación."
+          },
+          {
+            "id": "b",
+            "label": "De Ética y Reutilización de Datos."
+          },
+          {
+            "id": "c",
+            "label": "De Transparencia y Rendición de Cuentas."
+          },
+          {
+            "id": "d",
+            "label": "De Formación y Sensibilización."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «De Ética y Reutilización de Datos.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-18",
+        "section": "test-oficial",
+        "prompt": "La Agenda 2030 gira entorno a cinco ejes. Señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Alianzas."
+          },
+          {
+            "id": "b",
+            "label": "Prosperidad."
+          },
+          {
+            "id": "c",
+            "label": "Paz."
+          },
+          {
+            "id": "d",
+            "label": "Medio ambiente. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «Medio ambiente. GOBIERNO ABIERTO Y TRANSPARENCIA.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-19",
+        "section": "test-oficial",
+        "prompt": "NO forma parte de la estructura de gobernanza la Agenda 2030:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Alto Comisionado para la Agenda 2030."
+          },
+          {
+            "id": "b",
+            "label": "Comisión Delegada del Gobierno para la Agenda 2030."
+          },
+          {
+            "id": "c",
+            "label": "Conferencia Sectorial para la Agenda 2030."
+          },
+          {
+            "id": "d",
+            "label": "Consejo de Desarrollo Sostenible."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «Alto Comisionado para la Agenda 2030.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-20",
+        "section": "test-oficial",
+        "prompt": "La Agenda 2030 plantea:",
+        "options": [
+          {
+            "id": "a",
+            "label": "17 Objetivos de Desarrollo Sostenible con 169 metas."
+          },
+          {
+            "id": "b",
+            "label": "17 Objetivos de Desarrollo Sostenible con 168 metas."
+          },
+          {
+            "id": "c",
+            "label": "18 Objetivos de Desarrollo Sostenible con 169 metas."
+          },
+          {
+            "id": "d",
+            "label": "18 Objetivos de Desarrollo Sostenible con 168 metas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «17 Objetivos de Desarrollo Sostenible con 169 metas.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-21",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un Objetivo de Desarrollo Sostenible?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Acción por el clima."
+          },
+          {
+            "id": "b",
+            "label": "Ciudades y comunidades sostenibles."
+          },
+          {
+            "id": "c",
+            "label": "Trabajo digno y crecimiento económico."
+          },
+          {
+            "id": "d",
+            "label": "Vida submarina."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «Trabajo digno y crecimiento económico.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-22",
+        "section": "test-oficial",
+        "prompt": "Los principios técnicos a los que deberá adecuarse la información publicada en el Portal de la Transparencia, de conformidad con la Ley 19/2013, son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Integridad, accesibilidad e interoperabilidad."
+          },
+          {
+            "id": "b",
+            "label": "Accesibilidad, interoperabilidad y reutilización."
+          },
+          {
+            "id": "c",
+            "label": "Interoperabilidad, autenticidad e interconexión."
+          },
+          {
+            "id": "d",
+            "label": "Accesibilidad, confidencialidad e interoperabilidad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Accesibilidad, interoperabilidad y reutilización.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-23",
+        "section": "test-oficial",
+        "prompt": "NO forma parte de la Comisión de Transparencia y Buen gobierno, según el art. 36 de la Ley 19/2013:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un representante de la Administración de las Comunidades Autónomas."
+          },
+          {
+            "id": "b",
+            "label": "Un representante del Consejo de Estado."
+          },
+          {
+            "id": "c",
+            "label": "Un miembro del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Ninguno forma parte."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Ninguno forma parte.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-24",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta respecto al Presidente del Consejo de Transparencia y Buen Gobierno, de conformidad con el art. 37 de la Ley 19/2013:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Será nombrado por un período no renovable de cuatro años mediante Real Decreto."
+          },
+          {
+            "id": "b",
+            "label": "Las Cortes Generales a través de la Comisión competente y por acuerdo adoptado por mayoría absoluta, deberán refrendar el nombramiento del candidato propuesto en el plazo de un mes natural desde la recepción de la correspondiente comunicación."
+          },
+          {
+            "id": "c",
+            "label": "Cesará en su cargo por separación acordada por el Gobierno entre otros motivos."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Cesará en su cargo por separación acordada por el Gobierno entre otros motivos.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-25",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 19/2013, la intervención en un procedimiento administrativo cuando se dé alguna de las causas de abstención legalmente señaladas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No constituye infracción ni es motivo de invalidez del acto realizado."
+          },
+          {
+            "id": "b",
+            "label": "Es una infracción grave."
+          },
+          {
+            "id": "c",
+            "label": "Es una infracción muy grave."
+          },
+          {
+            "id": "d",
+            "label": "Es una infracción leve."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Es una infracción grave.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-26",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con lo establecido en la Ley 19/2013, NO está prevista en la ley como infracción:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La comisión de una infracción leve cuando el autor hubiera sido sancionado por dos infracciones leves a lo largo del año anterior contra las que no quepa recurso en la vía administrativa."
+          },
+          {
+            "id": "b",
+            "label": "La comisión de una infracción grave cuando el autor hubiera sido sancionado por dos infracciones graves a lo largo del año anterior contra las que no quepa recurso en la vía administrativa."
+          },
+          {
+            "id": "c",
+            "label": "La comisión de una infracción muy grave cuando el autor hubiera sido sancionado por dos infracciones graves a lo largo del año anterior contra las que no quepa recurso en la vía administrativa."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores están previstas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La comisión de una infracción muy grave cuando el autor hubiera sido sancionado por dos infracciones graves a lo largo del año anterior contra las que no quepa recurso en la vía administrativa.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-27",
+        "section": "test-oficial",
+        "prompt": "La reclamación ante el Consejo de Transparencia y Buen Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es preceptiva antes de acudir a la vía contencioso-administrativa."
+          },
+          {
+            "id": "b",
+            "label": "Puede emplearse o interponer el recurso de reposición (alternativamente) antes de acudir a la vía contenciosa."
+          },
+          {
+            "id": "c",
+            "label": "Tendrá la consideración de sustitutiva del recurso administrativo aplicable y de uso potestativo antes de acudir a la vía contenciosa."
+          },
+          {
+            "id": "d",
+            "label": "Tendrá la consideración de sustitutiva del recurso administrativo aplicable y de uso preceptivo antes de acudir a la vía contenciosa."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Tendrá la consideración de sustitutiva del recurso administrativo aplicable y de uso potestativo antes de acudir a la vía contenciosa.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-28",
+        "section": "test-oficial",
+        "prompt": "El acceso a la información:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se realizará exclusivamente por vía electrónica."
+          },
+          {
+            "id": "b",
+            "label": "Se realizará preferentemente por vía electrónica, salvo cuando no sea posible."
+          },
+          {
+            "id": "c",
+            "label": "Se realizará a través del medio elegido por el solicitante."
+          },
+          {
+            "id": "d",
+            "label": "Se realizará preferentemente por vía electrónica, salvo cuando no sea posible o el solicitante haya señalado expresamente otro medio."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Se realizará preferentemente por vía electrónica, salvo cuando no sea posible o el solicitante haya señalado expresamente otro medio.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-29",
+        "section": "test-oficial",
+        "prompt": "La resolución del procedimiento para el ejercicio del derecho de acceso:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Será siempre motivada."
+          },
+          {
+            "id": "b",
+            "label": "Será motivada solo si deniega el acceso."
+          },
+          {
+            "id": "c",
+            "label": "Será motivada si se concede el acceso con oposición de un tercero o concede un acceso parcial, entre otros motivos."
+          },
+          {
+            "id": "d",
+            "label": "Nunca habrá de motivarse. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Será motivada si se concede el acceso con oposición de un tercero o concede un acceso parcial, entre otros motivos.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-30",
+        "section": "test-oficial",
+        "prompt": "Establece el art. 20 de la Ley 19/2013, que el incumplimiento de la obligación de resolver en plazo las solicitudes de acceso:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tendrá la consideración de infracción leve."
+          },
+          {
+            "id": "b",
+            "label": "Tendrá la consideración de infracción muy grave."
+          },
+          {
+            "id": "c",
+            "label": "Tendrá la consideración de infracción grave."
+          },
+          {
+            "id": "d",
+            "label": "Constituye una infracción grave solo si el incumplimiento es reiterado."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Constituye una infracción grave solo si el incumplimiento es reiterado.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-31",
+        "section": "test-oficial",
+        "prompt": "El derecho de acceso a la información pública está previsto en el artículo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "105.a) de la Constitución."
+          },
+          {
+            "id": "b",
+            "label": "105.b) de la Constitución."
+          },
+          {
+            "id": "c",
+            "label": "105.c) de la Constitución."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «105.b) de la Constitución.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-32",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un principio técnico recogido en el art. 11 de la Ley 19/2013?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reutilización."
+          },
+          {
+            "id": "b",
+            "label": "Interoperabilidad."
+          },
+          {
+            "id": "c",
+            "label": "Transversalidad."
+          },
+          {
+            "id": "d",
+            "label": "Accesibilidad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Transversalidad.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-33",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se define el Gobierno Abierto?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Conjunto de mecanismos que contribuyen a la democracia y buen gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Conjunto de mecanismos que contribuyen a la gobernanza pública y buen gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Conjunto de mecanismos que contribuyen a la transparencia y buen gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Gobierno elegido democráticamente y disponible los 365 días del año."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Conjunto de mecanismos que contribuyen a la gobernanza pública y buen gobierno.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-34",
+        "section": "test-oficial",
+        "prompt": "¿En qué pilares se basa el Gobierno Abierto?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Transparencia, participación y colaboración."
+          },
+          {
+            "id": "b",
+            "label": "Transparencia, colaboración y cooperación."
+          },
+          {
+            "id": "c",
+            "label": "Transparencia, participación y coordinación."
+          },
+          {
+            "id": "d",
+            "label": "Transparencia, colaboración e investigación y desarrollo e innovación (I+D+i)."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Transparencia, participación y colaboración.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-35",
+        "section": "test-oficial",
+        "prompt": "Cuál de los siguientes NO forma parte de los principios informadores del Gobierno Abierto:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rendición de cuentas."
+          },
+          {
+            "id": "b",
+            "label": "Transparencia."
+          },
+          {
+            "id": "c",
+            "label": "Datos públicos abiertos."
+          },
+          {
+            "id": "d",
+            "label": "Colaboración."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Datos públicos abiertos.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-36",
+        "section": "test-oficial",
+        "prompt": "Respecto a la participación, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es sinónimo de ciudadanía inactiva."
+          },
+          {
+            "id": "b",
+            "label": "Prescinde de las contribuciones de los ciudadanos."
+          },
+          {
+            "id": "c",
+            "label": "Se basa en involucrar al público sin tener en cuenta sus aportaciones."
+          },
+          {
+            "id": "d",
+            "label": "Se basa en involucrar al público y tener en cuenta sus aportaciones. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Se basa en involucrar al público y tener en cuenta sus aportaciones. GOBIERNO ABIERTO Y TRANSPARENCIA.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-37",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se denomina el mecanismo de evaluación del avance de cada gobierno en sus compromisos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Autoridad Independiente de Evaluación."
+          },
+          {
+            "id": "b",
+            "label": "Autoridad Independiente de Control."
+          },
+          {
+            "id": "c",
+            "label": "Mecanismo Independiente de Evaluación."
+          },
+          {
+            "id": "d",
+            "label": "Mecanismo Independiente de Control."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Mecanismo Independiente de Evaluación.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-38",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el actual Plan de Gobierno Abierto en España?",
+        "options": [
+          {
+            "id": "a",
+            "label": "II Plan."
+          },
+          {
+            "id": "b",
+            "label": "III Plan."
+          },
+          {
+            "id": "c",
+            "label": "IV Plan."
+          },
+          {
+            "id": "d",
+            "label": "V Plan."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «V Plan.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-39",
+        "section": "test-oficial",
+        "prompt": "Respecto a los objetivos del actual Plan de Acción de Gobierno Abierto en España, ¿cuál forma parte de ellos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Gobernanza digital e inteligencia artificial."
+          },
+          {
+            "id": "b",
+            "label": "Potenciar mecanismos de participación y dialogo con la sociedad civil."
+          },
+          {
+            "id": "c",
+            "label": "Asegurar la cooperación interadministrativa."
+          },
+          {
+            "id": "d",
+            "label": "Fortalecer los cimientos del Gobierno Abierto."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Gobernanza digital e inteligencia artificial.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-40",
+        "section": "test-oficial",
+        "prompt": "El actual Plan de Acción de Gobierno Abierto en España, se compone de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "7 compromisos."
+          },
+          {
+            "id": "b",
+            "label": "8 compromisos."
+          },
+          {
+            "id": "c",
+            "label": "9 compromisos."
+          },
+          {
+            "id": "d",
+            "label": "10 compromisos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «10 compromisos.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-41",
+        "section": "test-oficial",
+        "prompt": "Cuál de los siguientes es un compromiso del actual Plan de Gobierno Abierto:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Estado abierto."
+          },
+          {
+            "id": "b",
+            "label": "Sostenibilidad."
+          },
+          {
+            "id": "c",
+            "label": "Confianza."
+          },
+          {
+            "id": "d",
+            "label": "Eficacia."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Estado abierto.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-42",
+        "section": "test-oficial",
+        "prompt": "Respecto a los Planes de Gobierno Abierto en España, señale la opción correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Son una obligación constitucional."
+          },
+          {
+            "id": "b",
+            "label": "Su elaboración es un compromiso adquirido por nuestro país al participar en la Alianza para el Gobierno Abierto (OGP)."
+          },
+          {
+            "id": "c",
+            "label": "Son normas reglamentarias que dan cumplimiento a los objetivos de transparencia y buen gobierno de la Ley 19/2013."
+          },
+          {
+            "id": "d",
+            "label": "Se han aprobado seis Plan de Gobierno Abierto en España. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Su elaboración es un compromiso adquirido por nuestro país al participar en la Alianza para el Gobierno Abierto (OGP).». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-43",
+        "section": "test-oficial",
+        "prompt": "Según los Objetivos de Desarrollo Sostenible de las Naciones Unidas, aumentar significativamente el acceso a la tecnología de la información y las comunicaciones y esforzarse por proporcionar acceso universal y asequible a Internet en los países menos adelantados, es una de las metas incluidas en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El ODS 9. Industria, innovación e infraestructura."
+          },
+          {
+            "id": "b",
+            "label": "El ODS 8. Trabajo decente y crecimiento económico."
+          },
+          {
+            "id": "c",
+            "label": "El ODS 11. Ciudades y comunidades sostenibles."
+          },
+          {
+            "id": "d",
+            "label": "El ODS 1. Fin de la pobreza."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «El ODS 9. Industria, innovación e infraestructura.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-44",
+        "section": "test-oficial",
+        "prompt": "Según los Objetivos de Desarrollo Sostenible de las Naciones Unidas, lograr progresivamente y mantener el crecimiento de los ingresos del 40% más pobre de la población a una tasa superior a la media nacional, es una de las metas incluidas en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El ODS 12. Producción y consumo responsables."
+          },
+          {
+            "id": "b",
+            "label": "El ODS 10. Reducción de desigualdades."
+          },
+          {
+            "id": "c",
+            "label": "El ODS 8. Trabajo decente y crecimiento económico."
+          },
+          {
+            "id": "d",
+            "label": "El ODS 1. Fin de la pobreza."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «El ODS 10. Reducción de desigualdades.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-45",
+        "section": "test-oficial",
+        "prompt": "Según los Objetivos de Desarrollo Sostenible de las Naciones Unidas, ayudar a los países en desarrollo a fortalecer su capacidad científica y tecnológica para avanzar hacia modalidades de consumo y producción más sostenibles, es una de las metas incluidas en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El ODS 7. Energía asequible y no contaminante."
+          },
+          {
+            "id": "b",
+            "label": "El ODS 8. Trabajo decente y crecimiento económico."
+          },
+          {
+            "id": "c",
+            "label": "El ODS 4. Educación de calidad."
+          },
+          {
+            "id": "d",
+            "label": "El ODS 12. Producción y consumo responsables."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «El ODS 12. Producción y consumo responsables.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-46",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, ¿se debe tener en cuenta la condición del solicitante de la información a la hora de acceder a la información pública?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dependiendo de la condición del solicitante se podrá aceptar o denegar el acceso a la información pública."
+          },
+          {
+            "id": "b",
+            "label": "Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el artículo 105. b) de la Constitución Española de 1978."
+          },
+          {
+            "id": "c",
+            "label": "Salvo en lo que afecte a la seguridad y la defensa no hay limitaciones del derecho de acceso."
+          },
+          {
+            "id": "d",
+            "label": "No hay limitaciones del derecho de acceso en base al artículo 14 de la Constitución Española de 1978. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el artículo 105. b) de la Constitución Española de 1978.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-47",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el artículo 8 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, ¿han de publicarse sólo los contratos públicos sometidos a la Ley de Contratos del Sector Público?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Han de publicarse todos los contratos, públicos y privados sin limitación alguna."
+          },
+          {
+            "id": "b",
+            "label": "Han de publicarse los contratos públicos y privados con la limitación establecida en los artículos 14 y 15 de la Ley de transparencia, acceso a la información pública y buen gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Los contratos privados de la Administración General del Estado no se publican."
+          },
+          {
+            "id": "d",
+            "label": "Han de publicarse sólo los contratos públicos sometidos a la Ley de Contratos del Sector Público."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Han de publicarse todos los contratos, públicos y privados sin limitación alguna.». Referencia del temario: B1T4 · Publicidad activa."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-48",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 13 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, ¿qué se entiende por los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de este título y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Publicidad activa."
+          },
+          {
+            "id": "b",
+            "label": "Información pública."
+          },
+          {
+            "id": "c",
+            "label": "Transparencia activa."
+          },
+          {
+            "id": "d",
+            "label": "Información institucional."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Información pública.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-49",
+        "section": "test-oficial",
+        "prompt": "Según lo dispuesto en la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, las solicitudes que se refieran a información de publicación general:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se remitirán al lugar o lugares de dicha publicación."
+          },
+          {
+            "id": "b",
+            "label": "Se inadmitirán a trámite."
+          },
+          {
+            "id": "c",
+            "label": "Se desestimarán."
+          },
+          {
+            "id": "d",
+            "label": "Se archivarán."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Se inadmitirán a trámite.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-1-transparencia-50",
+        "section": "test-oficial",
+        "prompt": "El tercer compromiso del vigente Plan de Gobierno Abierto está dedicado a la:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Transparencia."
+          },
+          {
+            "id": "b",
+            "label": "Rendición de cuentas."
+          },
+          {
+            "id": "c",
+            "label": "Integridad y rendición de cuentas."
+          },
+          {
+            "id": "d",
+            "label": "Participación. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El Gobierno Abierto combina transparencia, participación, colaboración y rendición de cuentas para acercar las instituciones a la ciudadanía y mejorar la acción pública. La respuesta correcta es «Integridad y rendición de cuentas.». Referencia del temario: B1T4 · Gobierno Abierto y principios informadores."
+      }
+    ]
+  },
+  {
+    "code": "B1T4",
+    "slug": "b1t4-test-oficial-2-transparencia",
+    "title": "Test oficial 2 Transparencia",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 4/B1T4Test_2_Transparencia 2.pdf",
+    "assetPath": "/test-oficial/B1T4/b1t4-test-oficial-2-transparencia.pdf",
+    "questions": [
+      {
+        "id": "b1t4-test-oficial-2-transparencia-1",
+        "section": "test-oficial",
+        "prompt": "Con carácter general y salvo que en el caso concreto prevalezca la protección de datos personales u otros derechos constitucionalmente protegidos sobre el interés público en la divulgación que lo impida, se concederá:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El acceso a la información que contenga datos meramente identificativos relacionados con la organización pública del órgano."
+          },
+          {
+            "id": "b",
+            "label": "El acceso a información que no contenga datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública del órgano."
+          },
+          {
+            "id": "c",
+            "label": "El acceso a información que contenga datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública del órgano."
+          },
+          {
+            "id": "d",
+            "label": "El acceso a información que contenga datos no identificativos relacionados con la organización, funcionamiento o actividad pública del órgano."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «El acceso a información que contenga datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública del órgano.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-2",
+        "section": "test-oficial",
+        "prompt": "El derecho de acceso podrá ser limitado cuando a la información suponga un perjuicio para:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La prevención, investigación y sanción de los ilícitos penales, administrativos o disciplinarios."
+          },
+          {
+            "id": "b",
+            "label": "La igualdad de las partes en los procesos judiciales y tutela judicial efectiva."
+          },
+          {
+            "id": "c",
+            "label": "Solamente las funciones administrativas de vigilancia."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas a) y b) son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Las respuestas a) y b) son correctas.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-3",
+        "section": "test-oficial",
+        "prompt": "El Portal de Transparencia contendrá información publicada de acuerdo con las prescripciones técnicas que se establezcan reglamentariamente que deberán adecuarse a los siguientes principios:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Accesibilidad: se proporcionará información estructurada sobre los documentos y recursos de información con vistas a facilitar la identificación y búsqueda de la información."
+          },
+          {
+            "id": "b",
+            "label": "Interoperabilidad: la información publicada será conforme al Esquema Nacional de Interoperabilidad, aprobado por el Real Decreto 4/2010, de 8 de enero, así como a las normas técnicas de interoperabilidad."
+          },
+          {
+            "id": "c",
+            "label": "Reutilización: se fomentará que la información sea publicada en formatos que permita se reutilización, de acuerdo con lo previsto en la ley 37/2007 de 16 de noviembre, sobre reutilización de la información del sector público y en su normativa de desarrollo."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Todas las respuestas son correctas. GOBIERNO ABIERTO Y TRANSPARENCIA.». Referencia del temario: B1T4 · Publicidad activa."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-4",
+        "section": "test-oficial",
+        "prompt": "Respecto a la información de relevancia jurídica, las Administraciones Públicas en el ámbito de sus competencias, publicarán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las directrices, instrucciones, acuerdos, circulares o respuestas a consultas planteadas por los particulares u otros órganos en la medida en que supongan una interpretación del Derecho o tengan efectos jurídicos."
+          },
+          {
+            "id": "b",
+            "label": "Los Anteproyectos de Ley y los proyectos de Decretos Legislativos cuya iniciativa les corresponda, cuando se soliciten los dictámenes a los órganos consultivos correspondientes. En el caso en que no sea preceptivo ningún dictamen la publicación se realizará en el momento de su aprobación."
+          },
+          {
+            "id": "c",
+            "label": "Los proyectos de Reglamentos cuya iniciativa les corresponda. Cuando sea preceptiva la solicitud de dictámenes, la publicación se producirá una vez que estos hayan sido solicitados a los órganos consultivos correspondientes sin que ello suponga, necesariamente, la apertura de un trámite de audiencia pública."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T4 · Publicidad activa."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-5",
+        "section": "test-oficial",
+        "prompt": "La Administración General del Estado desarrollará:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un Portal de Transparencia, dependiente del Ministerio de la Presidencia, que facilitará el acceso de los ciudadanos a toda información en su ámbito de actuación."
+          },
+          {
+            "id": "b",
+            "label": "Un Registro de la Transparencia, dependiente del Ministerio de la Presidencia, que facilitará el acceso de los ciudadanos a toda la información en su ámbito de actuación."
+          },
+          {
+            "id": "c",
+            "label": "Un Portal de Transparencia, independiente del Ministerio de la Presidencia, que facilitará el acceso de todos los ciudadanos a toda información en su ámbito de actuación."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Un Portal de Transparencia, dependiente del Ministerio de la Presidencia, que facilitará el acceso de los ciudadanos a toda información en su ámbito de actuación.». Referencia del temario: B1T4 · Publicidad activa."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-6",
+        "section": "test-oficial",
+        "prompt": "La información sujeta a las obligaciones de transparencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Será publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara, estructurada y entendible para los interesados y preferiblemente, en forma reutilizables."
+          },
+          {
+            "id": "b",
+            "label": "Será publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara y entendible para los interesados y preferiblemente, en formatos reutilizables."
+          },
+          {
+            "id": "c",
+            "label": "Será publicada en las correspondientes sedes electrónicas o páginas web preferiblemente, en formatos reutilizables. Se establecerán los mecanismos adecuados para facilitar la accesibilidad, la interoperabilidad, la calidad y la reutilización de la información publicada así como su identificación y localización."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Será publicada en las correspondientes sedes electrónicas o páginas web preferiblemente, en formatos reutilizables. Se establecerán los mecanismos adecuados para facilitar la accesibilidad, la interoperabilidad, la calidad y la reutilización de la información publicada así como su identificación y localización.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-7",
+        "section": "test-oficial",
+        "prompt": "La resolución en la que se conceda o deniegue el acceso deberá notificarse:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al solicitante que así lo haya solicitado en el plazo máximo de un mes desde la recepción de la solicitud por el órgano competente para resolver."
+          },
+          {
+            "id": "b",
+            "label": "Al solicitante y a los terceros afectados que así lo hayan solicitado en el plazo máximo de un mes desde la recepción de la solicitud por el órgano competente para resolver."
+          },
+          {
+            "id": "c",
+            "label": "Al solicitante y a los terceros afectados que así lo hayan solicitado en el plazo máximo de quince días desde la recepción de la solicitud por el órgano competente para resolver."
+          },
+          {
+            "id": "d",
+            "label": "Al solicitante y a los terceros afectados que así lo hayan solicitado en el plazo máximo de un mes desde la recepción por el órgano competente para instruir."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Al solicitante y a los terceros afectados que así lo hayan solicitado en el plazo máximo de un mes desde la recepción de la solicitud por el órgano competente para resolver.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-8",
+        "section": "test-oficial",
+        "prompt": "La solicitud de acceso a la información podrá presentarse por cualquier medio que permita tener constancia de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La identidad del solicitante."
+          },
+          {
+            "id": "b",
+            "label": "La información que sea solicitada."
+          },
+          {
+            "id": "c",
+            "label": "Una dirección de contacto, preferiblemente electrónica, a efectos de comunicaciones."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-9",
+        "section": "test-oficial",
+        "prompt": "Se inadmitirán a trámite, mediante resolución motivada, las solicitudes:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Relativas a información para cuya divulgación sea necesaria una acción previa de reelaboración."
+          },
+          {
+            "id": "b",
+            "label": "Dirigidas a un órgano en cuyo poder no obre la información cuando se desconozca el competente."
+          },
+          {
+            "id": "c",
+            "label": "Que sean manifiestamente repetitivas o tengan un carácter abusivo no justificado con la finalidad de la transparencia de esta ley."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-10",
+        "section": "test-oficial",
+        "prompt": "Indique la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los sujetos comprendidos en el ámbito de aplicación de este título publicarán información relativa a las funciones que desarrollan, la normativa que les sea de aplicación así como a su estructura organizativa. A estos efectos, incluirán un organigrama actualizado que identifique a los responsables de los diferentes órganos y su perfil y trayectoria profesional."
+          },
+          {
+            "id": "b",
+            "label": "Las Administraciones públicas publicarán los planes y programas anuales y plurianuales en los que se fijen objetivos concretos, así como las actividades, medios y tiempo previsto para su consecución."
+          },
+          {
+            "id": "c",
+            "label": "Su grado de cumplimiento y resultados podrán ser objeto de evaluación y publicación periódica junto con los indicadores de medida y valoración, en la forma en que se determine por cada Administración competente."
+          },
+          {
+            "id": "d",
+            "label": "Las obligaciones de transparencia contenidas en este capítulo se entienden sin perjuicio de la aplicación de la normativa autonómica correspondiente o de otras disposiciones específicas que prevean un régimen más amplio en materia de publicidad. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Su grado de cumplimiento y resultados podrán ser objeto de evaluación y publicación periódica junto con los indicadores de medida y valoración, en la forma en que se determine por cada Administración competente.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-11",
+        "section": "test-oficial",
+        "prompt": "La Administración General del Estado desarrollará un Portal de la Transparencia, dependiente del:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ministerio de la Presidencia."
+          },
+          {
+            "id": "b",
+            "label": "Ministerio de la Transparencia."
+          },
+          {
+            "id": "c",
+            "label": "Ministerio de la Administración General del Estado."
+          },
+          {
+            "id": "d",
+            "label": "A la Presidencia del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Ministerio de la Presidencia.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-12",
+        "section": "test-oficial",
+        "prompt": "Indique la respuesta correcta en relación al Consejo de Transparencia y Buen Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se crea como organismo público de los previstos en la disposición adicional décima de la Ley 6/1997 de 14 de abril de Organización y Funcionamiento de la Administración General del Estado. Estará adscrito al Ministerio de Hacienda y Administraciones Públicas."
+          },
+          {
+            "id": "b",
+            "label": "Tiene personalidad jurídica propia y plena capacidad de obrar. Actúa con autonomía plena independencia en el cumplimiento de sus fines."
+          },
+          {
+            "id": "c",
+            "label": "Las respuestas a) y b) son correctas."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Las respuestas a) y b) son correctas.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-13",
+        "section": "test-oficial",
+        "prompt": "El Consejo de Transparencia y Buen Gobierno estará compuesto por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Comisión de Transparencia y Buen Gobierno, y el Presidente del Consejo de Transparencia y Buen Gobierno que lo será también de su Comisión."
+          },
+          {
+            "id": "b",
+            "label": "La Comisión de Buen Gobierno, y el Presidente del Consejo de Transparencia y Buen Gobierno que lo será también de su Comisión."
+          },
+          {
+            "id": "c",
+            "label": "La Comisión de Transparencia y Buen Gobierno, y el Secretario General del Consejo de Transparencia y Buen Gobierno que lo será también de su Comisión."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «La Comisión de Transparencia y Buen Gobierno, y el Presidente del Consejo de Transparencia y Buen Gobierno que lo será también de su Comisión.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-14",
+        "section": "test-oficial",
+        "prompt": "El plazo de prescripción de las infracciones será de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cinco años para las infracciones muy graves, tres años para las graves y un año para las leves."
+          },
+          {
+            "id": "b",
+            "label": "Cuatro años para las infracciones muy graves, tres años para las graves y un año para las leves."
+          },
+          {
+            "id": "c",
+            "label": "Cuatro años para las infracciones muy graves, dos años para las graves y un año para las leves."
+          },
+          {
+            "id": "d",
+            "label": "Cuatro años para las infracciones muy graves, tres años para las graves y seis meses para las leves."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Cinco años para las infracciones muy graves, tres años para las graves y un año para las leves.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-15",
+        "section": "test-oficial",
+        "prompt": "Frente a toda resolución o presunta en materia de acceso podrá:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Interponerse una reclamación antes el Consejo de Transparencia, con carácter potestativo y previo a su impugnación en vía contencioso-administrativa."
+          },
+          {
+            "id": "b",
+            "label": "Interponerse una reclamación ante el Consejo de Transparencia y Buen Gobierno, con carácter potestativo y previo a su impugnación en vía contencioso-administrativa."
+          },
+          {
+            "id": "c",
+            "label": "Interponerse una reclamación ante el Consejo de Transparencia y Buen Gobierno, con carácter facultativo y previo a su impugnación en vía contencioso-administrativa."
+          },
+          {
+            "id": "d",
+            "label": "Interponerse a una reclamación ante el Consejo de Transparencia y Buen Gobierno, con carácter potestativo y con posterioridad a su impugnación en vía contenciosoadministrativa. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Interponerse una reclamación ante el Consejo de Transparencia y Buen Gobierno, con carácter potestativo y previo a su impugnación en vía contencioso-administrativa.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-16",
+        "section": "test-oficial",
+        "prompt": "La Comisión de Transparencia y Buen Gobierno estará compuesta por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Presidente, un Diputado, un Senador, un representante del Defensor del Pueblo, un representante de la Agencia Española de Protección de Datos, un representante de la Secretaría de Estado de la Administraciones Públicas y un representante de la Autoridad Independiente de Responsabilidad Fiscal."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente, un Diputado, un Senador, un representante del Tribunal de Cuentas, un representante del Defensor del Pueblo, un representante de la Agencia Española de Protección de Datos, un representante de la Secretaría de Estado de la Administraciones Públicas y un representante de la Autoridad Independiente de Responsabilidad Fiscal."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente, un Diputado, un Senador, un representante del Tribunal de Cuentas, un representante del Defensor del Pueblo, un representante de la Secretaría de Estado de la Administraciones Públicas y un representante de la Autoridad Independiente de Responsabilidad Fiscal."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente, un Diputado, un Senador, un representante del Tribunal de Cuentas, un representante del Defensor del Pueblo, un representante de la Agencia Española de Protección de Datos, un representante de la Secretaría de Estado de la Administraciones Públicas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «El Presidente, un Diputado, un Senador, un representante del Tribunal de Cuentas, un representante del Defensor del Pueblo, un representante de la Agencia Española de Protección de Datos, un representante de la Secretaría de Estado de la Administraciones Públicas y un representante de la Autoridad Independiente de Responsabilidad Fiscal.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-17",
+        "section": "test-oficial",
+        "prompt": "Las resoluciones del Consejo de Transparencia y Buen Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se publicarán, previa disociación de los datos de carácter personal que contuvieran, por medios electrónicos y en los términos en que se establezca reglamentariamente, una vez se hayan notificado a los interesados."
+          },
+          {
+            "id": "b",
+            "label": "No se publicarán."
+          },
+          {
+            "id": "c",
+            "label": "Se publicarán, previa asociación de los datos de carácter personal que contuvieran, por medios electrónicos y en los términos que se establezca reglamentariamente, una vez se haya notificado a los interesados."
+          },
+          {
+            "id": "d",
+            "label": "Se publicarán, sin más condiciones."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Se publicarán, previa disociación de los datos de carácter personal que contuvieran, por medios electrónicos y en los términos en que se establezca reglamentariamente, una vez se hayan notificado a los interesados.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-18",
+        "section": "test-oficial",
+        "prompt": "De entre los siguientes, ¿cuál NO es un principio de buen gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ejercerán sus funciones con dedicación al servicio público, obteniéndose de cualquier conducta que sea contraria a estos principios."
+          },
+          {
+            "id": "b",
+            "label": "Respetarán el principio de imparcialidad, de modo que mantenga un criterio independiente y ajeno a todo interés particular."
+          },
+          {
+            "id": "c",
+            "label": "Asegurarán un trato igual y sin discriminaciones de ningún tipo en el ejercicio de sus funciones."
+          },
+          {
+            "id": "d",
+            "label": "Guardarán la debida reserva respecto a los hechos o informaciones conocidos con motivo u ocasión del ejercicio de sus competencias. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Ejercerán sus funciones con dedicación al servicio público, obteniéndose de cualquier conducta que sea contraria a estos principios.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-19",
+        "section": "test-oficial",
+        "prompt": "La reclamación ante el Consejo de Transparencia y Buen Gobierno se interpondrá en el plazo de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un mes a contar desde el día siguiente al de la notificación del acto impugnado o desde el día siguiente a aquel en que se produzcan los efectos del silencio administrativo."
+          },
+          {
+            "id": "b",
+            "label": "Dos meses a contar desde el día siguiente al de la notificación del acto impugnado o desde el día siguiente a aquel en que se produzcan los efectos del silencio administrativo."
+          },
+          {
+            "id": "c",
+            "label": "Un mes a contar desde el día siguiente al de la notificación del acto impugnado."
+          },
+          {
+            "id": "d",
+            "label": "Dos meses a contar desde el día siguiente al de la notificación del acto impugnado."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Un mes a contar desde el día siguiente al de la notificación del acto impugnado o desde el día siguiente a aquel en que se produzcan los efectos del silencio administrativo.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-20",
+        "section": "test-oficial",
+        "prompt": "Según establece la Ley 19/2013 de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, en el ámbito de la Administración General del Estado, existirán unidades especializadas que tendrán las funciones:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Recabar y difundir la información a la que se refiere el capítulo II de dicha ley."
+          },
+          {
+            "id": "b",
+            "label": "Recibir y dar tramitación las solicitudes de acceso a la información."
+          },
+          {
+            "id": "c",
+            "label": "Realizar los trámites internos necesarios para dar acceso a la información solicitada."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-21",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley 19/2013 de transparencia, la información pública es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de este título y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones."
+          },
+          {
+            "id": "b",
+            "label": "Los contenidos o documentos, en formato electrónico, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de este título y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones."
+          },
+          {
+            "id": "c",
+            "label": "Los contenidos, en formato electrónico, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de este título y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de este título y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-22",
+        "section": "test-oficial",
+        "prompt": "¿Quién tiene por finalidad promover la transparencia de la actividad pública, velar por el cumplimiento de las obligaciones de publicidad, salvaguardar el ejercicio de derecho de acceso a la información pública y garantizar la observancia de las disposiciones de buen gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Consejo de Transparencia y Buen Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "El Poder Judicial."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «El Consejo de Transparencia y Buen Gobierno.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-23",
+        "section": "test-oficial",
+        "prompt": "En relación al derecho de acceso a la información pública señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Solamente las personas sin antecedentes penales tienen derecho a acceder a la información pública."
+          },
+          {
+            "id": "b",
+            "label": "El derecho a acceder a la información pública se ejerce en los términos previstos en el artículo 105.b) de la Constitución Española, desarrollados por la Ley 19/2013."
+          },
+          {
+            "id": "c",
+            "label": "No será de aplicación la normativa autonómica en ningún caso."
+          },
+          {
+            "id": "d",
+            "label": "Será de aplicación la normativa autonómica en todo caso. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «El derecho a acceder a la información pública se ejerce en los términos previstos en el artículo 105.b) de la Constitución Española, desarrollados por la Ley 19/2013.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-24",
+        "section": "test-oficial",
+        "prompt": "¿Se concederá siempre el acceso a información que no contiene datos especialmente protegidos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Si, en todo caso."
+          },
+          {
+            "id": "b",
+            "label": "Sí, en casos previstos reglamentariamente."
+          },
+          {
+            "id": "c",
+            "label": "No."
+          },
+          {
+            "id": "d",
+            "label": "No, el órgano al que se dirija la solicitud de acceso lo concederá previa ponderación del interés público en la divulgación de la información y los derechos de los afectados, cuyos datos aparezcan en la información solicitada, en particular su derecho fundamente a la protección de datos de carácter personal."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «No, el órgano al que se dirija la solicitud de acceso lo concederá previa ponderación del interés público en la divulgación de la información y los derechos de los afectados, cuyos datos aparezcan en la información solicitada, en particular su derecho fundamente a la protección de datos de carácter personal.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-25",
+        "section": "test-oficial",
+        "prompt": "La Ley 19/2013 de transparencia, establece en su artículo 5:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La información sujeta a las obligaciones de transparencia será publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara, estructurada y entendible para los interesados y, preferiblemente, en formatos reutilizables."
+          },
+          {
+            "id": "b",
+            "label": "La información sujeta a las obligaciones de transparencia podrá ser publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara, estructurada y entendible para los interesados y, preferiblemente, en formatos reutilizables."
+          },
+          {
+            "id": "c",
+            "label": "La información sujeta a las obligaciones de transparencia será publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara, estructurada y entendible para los interesados, en formatos reutilizables."
+          },
+          {
+            "id": "d",
+            "label": "La información sujeta a las obligaciones de transparencia podrá ser publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara, estructurada y entendible para los interesados y, siempre, en formatos reutilizables."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La información sujeta a las obligaciones de transparencia será publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara, estructurada y entendible para los interesados y, preferiblemente, en formatos reutilizables.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-26",
+        "section": "test-oficial",
+        "prompt": "NO son límites al derecho de acceso a la información pública regulado por la Ley 19/2013 de transparencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las relaciones laborales."
+          },
+          {
+            "id": "b",
+            "label": "La seguridad nacional."
+          },
+          {
+            "id": "c",
+            "label": "La seguridad pública."
+          },
+          {
+            "id": "d",
+            "label": "La defensa."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Las relaciones laborales.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-27",
+        "section": "test-oficial",
+        "prompt": "Qué consideración tiene el incumplimiento reiterado de las obligaciones de publicidad activa, a los efectos de aplicación del régimen disciplinario previsto en la correspondiente normativa reguladora:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Infracción muy grave."
+          },
+          {
+            "id": "b",
+            "label": "Infracción grave."
+          },
+          {
+            "id": "c",
+            "label": "Infracción leve."
+          },
+          {
+            "id": "d",
+            "label": "No constituye infracción alguna. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Infracción grave.». Referencia del temario: B1T4 · Publicidad activa."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-28",
+        "section": "test-oficial",
+        "prompt": "¿Se concederá el acceso a información que contengan datos meramente informativos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "No, nunca."
+          },
+          {
+            "id": "b",
+            "label": "Sí, siempre."
+          },
+          {
+            "id": "c",
+            "label": "Sólo si la persona que solicita la información acredita ser investigador y su investigación presenta conexión con los datos a los que pretende acceder."
+          },
+          {
+            "id": "d",
+            "label": "Sí, con carácter general, cuando los datos meramente identificativos están relacionados con la organización, funcionamiento o actividad pública del órgano. Sin embargo, si en el caso concreto prevalece la protección de datos personales u otros derechos constitucionalmente protegidos sobre el interés público en la divulgación de la información, se denegará el acceso."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Sí, con carácter general, cuando los datos meramente identificativos están relacionados con la organización, funcionamiento o actividad pública del órgano. Sin embargo, si en el caso concreto prevalece la protección de datos personales u otros derechos constitucionalmente protegidos sobre el interés público en la divulgación de la información, se denegará el acceso.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-29",
+        "section": "test-oficial",
+        "prompt": "Señale la opción INCORRECTA con respecto al ámbito de aplicación de la Ley 19/2013 de transparencia, acceso a la información pública y buen gobierno. Las disposiciones del Título I de esta Ley se aplican a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Administración General del Estado, las Administraciones de las Comunidades Autónomas y de las Ciudades de Ceuta y Melilla y las entidades que integran la Administración Local."
+          },
+          {
+            "id": "b",
+            "label": "Las entidades gestoras y servicios comunes de la Seguridad Social, así como las mutuas de accidentes de trabajo y enfermedades profesionales colaboradoras de la Seguridad Social."
+          },
+          {
+            "id": "c",
+            "label": "Los organismos autónomos, las agencias estatales, las entidades públicas empresariales y las entidades de derecho Público que, con indecencia funcional o con una especial autonomía reconocida por la ley, tengan atribuidas funciones de regulación o supervisión de carácter externo sobre un determinado sector o actividad."
+          },
+          {
+            "id": "d",
+            "label": "La Casa de su Majestad el Rey, el Congreso de los Diputados, el Senado, el Tribunal Constitucional y el Consejo General del Poder Judicial, así como el Banco de España, el Consejo de Estado, el Defensor del Pueblo, el Tribunal de Cuentas, el Consejo Económico y Social y las instituciones autonómicas análogas, en relación con sus actividades sujetas a derecho privado."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La Casa de su Majestad el Rey, el Congreso de los Diputados, el Senado, el Tribunal Constitucional y el Consejo General del Poder Judicial, así como el Banco de España, el Consejo de Estado, el Defensor del Pueblo, el Tribunal de Cuentas, el Consejo Económico y Social y las instituciones autonómicas análogas, en relación con sus actividades sujetas a derecho privado.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-30",
+        "section": "test-oficial",
+        "prompt": "Son límites al derecho de acceso a la información pública regulada por la Ley 19/2013 de transparencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La seguridad privada."
+          },
+          {
+            "id": "b",
+            "label": "Los intereses profesionales y empresariales."
+          },
+          {
+            "id": "c",
+            "label": "La igualdad de las partes en los procesos judiciales y la tutela judicial efectiva."
+          },
+          {
+            "id": "d",
+            "label": "La política social. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La igualdad de las partes en los procesos judiciales y la tutela judicial efectiva.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-31",
+        "section": "test-oficial",
+        "prompt": "Indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Si la información solicitada contuviera datos personales que revelen la ideología, afiliación sindical, religión o creencias, el acceso únicamente se podrá autorizar en caso de que se contase con el consentimiento expreso y por escrito del afectado, a menos que dicho afectado hubiese hecho manifiestamente públicos los datos con anterioridad a que se solicitase el acceso."
+          },
+          {
+            "id": "b",
+            "label": "Si la información incluyese datos personales que hagan referencia al origen racial, a la salud o a la vida sexual, incluyese datos genéticos o biométricos o contuviera datos relativos a la comisión de infracciones penales o administrativas que no conllevasen la amonestación pública al infractor, el acceso solo se podrá autorizar en caso de que se cuente con el consentimiento expreso del afectado o si aquel estuviera amparado por una norma con rango de ley."
+          },
+          {
+            "id": "c",
+            "label": "Ninguna respuesta es correcta."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas a) y b) son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Las respuestas a) y b) son correctas.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-32",
+        "section": "test-oficial",
+        "prompt": "¿En qué casos se concede el acceso parcial a la información pública?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando la aplicación de alguno de los límites previstos en el artículo 14 no afecte a la totalidad de la información y siempre que se omita previamente la información afectada por el límite."
+          },
+          {
+            "id": "b",
+            "label": "Sin embargo, si la información que resultaría de aplicar el acceso parcial es distorsionada o carece de sentido no se concederá el acceso parcial."
+          },
+          {
+            "id": "c",
+            "label": "En caso de que se conceda el acceso parcial, deberá indicarse que una parte de la información ha sido omitida."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-33",
+        "section": "test-oficial",
+        "prompt": "Cuando se pretenda acceder a datos no especialmente protegidos, la Ley 19/2013 establece unos criterios que deberán ser tenidos en cuenta por el órgano que concede o deniega un acceso. ¿Cuál de los siguientes NO es un criterio establecido en dicha ley?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El menor perjuicio a los afectados derivados del transcurso de los plazos establecidos en el artículo 57 de la Ley 16/1985 de 25 de junio, del patrimonio histórico español."
+          },
+          {
+            "id": "b",
+            "label": "La justificación por los solicitantes de su petición en el ejercicio de un derecho o el hecho de que tengan la condición de investigadores y no motiven el acceso en fines históricos, científicos o estadísticos."
+          },
+          {
+            "id": "c",
+            "label": "El menor perjuicio de los derechos de los afectados en caso de que los documentos únicamente contuviesen datos de carácter meramente identificativo de aquellos."
+          },
+          {
+            "id": "d",
+            "label": "La mayor garantía de los derechos de los afectados en caso de que los datos contenidos en el documento puedan afectar a su intimidad o a su integridad, o se refieran a menores de edad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «La justificación por los solicitantes de su petición en el ejercicio de un derecho o el hecho de que tengan la condición de investigadores y no motiven el acceso en fines históricos, científicos o estadísticos.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-34",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el artículo 18 de la Ley 19/2013 de trasparencia, ¿es necesario motivar la inadmisión a trámite de una solicitud de acceso a la información pública?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sí, en todo caso."
+          },
+          {
+            "id": "b",
+            "label": "En ciertos supuestos es necesario motivar la inadmisión a trámite de una solicitud de acceso."
+          },
+          {
+            "id": "c",
+            "label": "No."
+          },
+          {
+            "id": "d",
+            "label": "Solamente se motivará una inadmisión a trámite cuando se trate de los límites al derecho de acceso del art. 14 de la Ley 19/2013. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Sí, en todo caso.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-35",
+        "section": "test-oficial",
+        "prompt": "¿Es obligatorio que el solicitante motive su solicitud de acceso a la información?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sí, siempre que la información solicitada contenga datos relativos a la ideología, afiliación sindical o religión de las personas y no se cuente con el consentimiento expreso y por escrito de los afectados."
+          },
+          {
+            "id": "b",
+            "label": "No, pero se podrán exponer los motivos por los que se solicita la información y estos podrán ser tenidos en cuenta al citarse la resolución."
+          },
+          {
+            "id": "c",
+            "label": "Sí, cuando la información solicitada contenga datos relativos al origen racial, la salud o la vida sexual de las personas y no se cuente con el consentimiento expreso del afectado o el acceso no esté amparado por una norma con rango de ley."
+          },
+          {
+            "id": "d",
+            "label": "No, cuando se trate de datos no especialmente protegidos."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «No, pero se podrán exponer los motivos por los que se solicita la información y estos podrán ser tenidos en cuenta al citarse la resolución.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-36",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el plazo máximo para notificar la resolución en la que se conceda o deniegue el acceso a la información pública y a quiénes irá dirigida dicha notificación?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La notificación deberá ser dirigida al solicitante y a los terceros afectados que lo hayan solicitado, en el plazo máximo de un mes desde la recepción de la solicitud por el órgano competente para resolver."
+          },
+          {
+            "id": "b",
+            "label": "La notificación deberá ser dirigida al solicitante en el plazo máximo de tres meses desde la recepción de la solicitud por el órgano competente para la instrucción del procedimiento."
+          },
+          {
+            "id": "c",
+            "label": "La notificación deberá ser dirigida al solicitante en el plazo que establezca una norma de la Unión Europea."
+          },
+          {
+            "id": "d",
+            "label": "La notificación deberá ser cursada en el plazo máximo de seis meses desde la entrada de la solicitud en el registro del órgano competente para resolver y se dirige tanto al solicitante como a terceros afectados, lo hayan solicitado o no."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «La notificación deberá ser dirigida al solicitante y a los terceros afectados que lo hayan solicitado, en el plazo máximo de un mes desde la recepción de la solicitud por el órgano competente para resolver.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-37",
+        "section": "test-oficial",
+        "prompt": "Se podrá limitar el derecho a la información pública si se produce un perjuicio para:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La prevención, investigación y sanción de los ilícitos penales, administrativos o disciplinarios."
+          },
+          {
+            "id": "b",
+            "label": "Los intereses económicos y comerciales."
+          },
+          {
+            "id": "c",
+            "label": "La garantía de la confidencialidad o el secreto requerido en procesos de toma de decisión."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-38",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 18 de la Ley 19/2013, ¿cuál de los siguientes NO es una causa de inadmisión de solicitudes que deba motivarse?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Que se refieren a información ya elaborada."
+          },
+          {
+            "id": "b",
+            "label": "Relativas a información para cuya divulgación no se requiere una acción previa de elaboración."
+          },
+          {
+            "id": "c",
+            "label": "Dirigidas a un órgano en cuyo poder obra la información."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Ninguna de las respuestas anteriores es correcta. GOBIERNO ABIERTO Y TRANSPARENCIA.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-39",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación correcta, en relación con el ejercicio del derecho de acceso a la información pública:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La normativa de protección de datos personales no es de aplicación."
+          },
+          {
+            "id": "b",
+            "label": "La normativa de protección de datos personales sólo se aplica previa solicitud del afectado."
+          },
+          {
+            "id": "c",
+            "label": "La normativa de protección de datos personales es de aplicación al tratamiento posterior de los obtenidos a través del ejercicio del derecho de acceso."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «La normativa de protección de datos personales es de aplicación al tratamiento posterior de los obtenidos a través del ejercicio del derecho de acceso.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-40",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se inicia el procedimiento para el ejercicio del derecho de acceso?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se inicia por iniciativa del órgano en cuyo poder se encuentra la información que debe hacerse pública."
+          },
+          {
+            "id": "b",
+            "label": "Se inicia como consecuencia de orden superior."
+          },
+          {
+            "id": "c",
+            "label": "Se inicia por petición razonada de otros órganos. En caso de que el órgano competente para iniciar el procedimiento decida no iniciarlo, deberá comunicar al órgano que haya formulado la petición razonada de los motivos por los cuales no procede la iniciación."
+          },
+          {
+            "id": "d",
+            "label": "Se iniciará mediante solicitud, que deberá dirigirse al titular del órgano administrativo o entidad que posea la información."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Se iniciará mediante solicitud, que deberá dirigirse al titular del órgano administrativo o entidad que posea la información.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-41",
+        "section": "test-oficial",
+        "prompt": "En aquellas materias que tengan previsto un régimen jurídico específico de acceso a la información, ¿cuál es la norma por la que se rigen?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se regirán por su normativa específica, si bien interpretada bajo los principios de la Ley de Transparencia."
+          },
+          {
+            "id": "b",
+            "label": "Se regirán por la Ley 30/1992 y en su defecto por la Ley de Transparencia"
+          },
+          {
+            "id": "c",
+            "label": "Se regirán por su normativa específica, y por la Ley de Transparencia con carácter supletorio."
+          },
+          {
+            "id": "d",
+            "label": "A partir de la entrada en vigor de la Ley de Transparencia, por ésta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Se regirán por su normativa específica, y por la Ley de Transparencia con carácter supletorio.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-42",
+        "section": "test-oficial",
+        "prompt": "¿Qué plazo establece la Ley de transparencia para que el Congreso de los Diputados, el Senado y las Asambleas Legislativas de las Comunidades Autónomas regulen en sus respectivos reglamentos la aplicación concreta de las disposiciones de esta Ley?",
+        "options": [
+          {
+            "id": "a",
+            "label": "No establece plazo específico."
+          },
+          {
+            "id": "b",
+            "label": "Un año desde la publicación de la Ley."
+          },
+          {
+            "id": "c",
+            "label": "Dos años desde la publicación de la Ley."
+          },
+          {
+            "id": "d",
+            "label": "Cinco años desde la publicación de la Ley. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «No establece plazo específico.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-43",
+        "section": "test-oficial",
+        "prompt": "La resolución de la reclamación prevista en la Ley relativa al Derecho de acceso corresponderá, en los supuestos de resoluciones dictadas por las Administraciones de las Comunidades Autónomas y su sector público, y por las Entidades Locales comprendidas en su ámbito territorial, al órgano independiente que determinen las Comunidades Autónomas, pero, ¿qué recurso cabrá entonces contra las resoluciones dictadas por las Asambleas Legislativas y las instituciones análogas al Consejo de Estado, Consejo Económico y Social, Tribunal de Cuentas y Defensor del Pueblo en el caso de esas mismas reclamaciones?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Recurso potestativo ante el órgano independiente que determinen las respectivas normativas autonómicas."
+          },
+          {
+            "id": "b",
+            "label": "No cabe recurso alguno."
+          },
+          {
+            "id": "c",
+            "label": "Sólo cabrá la interposición de recurso contencioso-administrativo."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Sólo cabrá la interposición de recurso contencioso-administrativo.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-44",
+        "section": "test-oficial",
+        "prompt": "En el caso de las solicitudes de información que obre en poder de la Casa Real, ¿cuál será el órgano encargado de tramitar las solicitudes así como para conocer de cualquier otra cuestión que pudiera surgir derivada de la aplicación por la Casa Real de las disposiciones de esta Ley?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Secretaría General de la Casa Real."
+          },
+          {
+            "id": "b",
+            "label": "El titular del Consejo Diplomático de la casa de S.M. El Rey."
+          },
+          {
+            "id": "c",
+            "label": "La Secretaría General de la Presidencia del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «La Secretaría General de la Presidencia del Gobierno.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-45",
+        "section": "test-oficial",
+        "prompt": "¿Qué fórmula de coordinación prevé la Ley de Transparencia entre el Consejo de Transparencia y Buen Gobierno y la Agencia Española de Protección de Datos en lo que respecta a la ponderación del interés público en el acceso a la información y la garantía de los derechos de los interesados cuyos datos se contuviesen en la misma?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Prevalecerá el criterio Agencia Española de Protección de Datos."
+          },
+          {
+            "id": "b",
+            "label": "Prevalecerá el criterio del Consejo de Transparencia y Buen Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Adoptarán conjuntamente los criterios de aplicación."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Adoptarán conjuntamente los criterios de aplicación.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-46",
+        "section": "test-oficial",
+        "prompt": "¿Quién ha de resolver la reclamación de las resoluciones relativas al derecho de acceso a la Información Pública en aquellas Comunidades que no tengan regulación específica y hayan designado un órgano independiente que las resuelva?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Comunidades Autónomas podrán atribuir la competencia para la resolución de la reclamación al Consejo de Transparencia y Buen Gobierno. A tal efecto, deberán celebrar el correspondiente contrato-programa con la Administración General del Estado, en el que se estipulen las condiciones en que la Comunidad sufragará los gastos derivados de esta asunción de competencias."
+          },
+          {
+            "id": "b",
+            "label": "Las Comunidades Autónomas podrán atribuir la competencia para la resolución de la reclamación al Consejo de Transparencia y Buen Gobierno. A tal efecto, deberán celebrar el correspondiente convenio con la Administración General del Estado, en el que se estipulen las condiciones en que la Comunidad sufragará los gastos derivados de esta asunción de competencias."
+          },
+          {
+            "id": "c",
+            "label": "Las Comunidades Autónomas podrán atribuir la competencia para la resolución de la reclamación al Consejo de Transparencia y Buen Gobierno. A tal efecto, deberán celebrar el correspondiente convenio con la Administración General del Estado. Salvo que se pacte lo contrario, será la Comunidad Autónoma quién sufragará los gastos derivados de esta asunción de competencias."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El derecho de acceso se ejerce respecto de información pública y está sujeto a límites, protección de datos y un procedimiento concreto. Hay que distinguir entre la admisión de la solicitud, la audiencia a terceros y la resolución de acceso. La respuesta correcta es «Las Comunidades Autónomas podrán atribuir la competencia para la resolución de la reclamación al Consejo de Transparencia y Buen Gobierno. A tal efecto, deberán celebrar el correspondiente convenio con la Administración General del Estado, en el que se estipulen las condiciones en que la Comunidad sufragará los gastos derivados de esta asunción de competencias.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-47",
+        "section": "test-oficial",
+        "prompt": "El Derecho de acceso a la Información Pública, regulado en la Ley 19/2013 de Transparencia, acceso a la información pública y Buen Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Será gratuito, y el plazo máximo de resolución en el que se conceda o deniegue el acceso es de 1 mes."
+          },
+          {
+            "id": "b",
+            "label": "Será gratuito, y el plazo máximo de resolución en el que se conceda o deniegue el acceso es de 30 días."
+          },
+          {
+            "id": "c",
+            "label": "Requiere pago de tasa pública, y el plazo máximo de resolución en el que se conceda o deniegue el acceso es de 30 días."
+          },
+          {
+            "id": "d",
+            "label": "Será gratuito, y el plazo máximo de resolución en el que se conceda o deniegue el acceso es de 15 días."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Será gratuito, y el plazo máximo de resolución en el que se conceda o deniegue el acceso es de 1 mes.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-48",
+        "section": "test-oficial",
+        "prompt": "¿En qué medida las entidades privadas tienen que cumplir la Ley de Transparencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las entidades privadas que perciban durante el período de un año ayudas o subvenciones públicas en una cuantía superior a 150.000 euros."
+          },
+          {
+            "id": "b",
+            "label": "Cuando al menos el 40% del total de sus ingresos anuales tengan carácter de ayuda o subvención pública, siempre que alcancen como mínimo la cantidad de 5.000 euros."
+          },
+          {
+            "id": "c",
+            "label": "Las cumplirán sin ninguna limitación."
+          },
+          {
+            "id": "d",
+            "label": "Las respuestas a) y b) son correctas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Cuando al menos el 40% del total de sus ingresos anuales tengan carácter de ayuda o subvención pública, siempre que alcancen como mínimo la cantidad de 5.000 euros.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-49",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes responsables NO forma parte de la Comisión de Transparencia y Buen Gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Representante del Tribunal de Cuentas."
+          },
+          {
+            "id": "b",
+            "label": "Representante de la Agencia Española de Protección de Datos."
+          },
+          {
+            "id": "c",
+            "label": "Representante de la Agencia Estatal de la Administración del Estado."
+          },
+          {
+            "id": "d",
+            "label": "Representante de la Autoridad Independiente de Responsabilidad Fiscal. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Representante de la Agencia Estatal de la Administración del Estado.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-50",
+        "section": "test-oficial",
+        "prompt": "La Comisión de Transparencia y Buen Gobierno, convocará a los representantes de los organismos que, con funciones similares a las desarrolladas por ella, hayan sido creados por las Comunidades Autónomas en ejercicio de sus competencias.",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al menos dos veces al año convocará a los representantes de los organismos que, con funciones similares a las desarrolladas por ella, hayan sido creados por las Comunidades Autónomas en ejercicio de sus competencias."
+          },
+          {
+            "id": "b",
+            "label": "A esta reunión podrá ser convocado un representante de la Administración Local propuesto por la Federación Española de Municipios y Provincias."
+          },
+          {
+            "id": "c",
+            "label": "Las respuestas a) y b) son correctas."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «A esta reunión podrá ser convocado un representante de la Administración Local propuesto por la Federación Española de Municipios y Provincias.». Referencia del temario: B1T4 · Buen gobierno y Consejo de Transparencia."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-51",
+        "section": "test-oficial",
+        "prompt": "Indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Con la finalidad de dar un paso más adelante en el logro de los objetivos del desarrollo, intentando superar las deficiencias y puntos negativos reflejados en la puesta en funcionamiento de los Objetivos Desarrollo del Milenio, los 193 Estados miembros de las Naciones Unidas aprobaron la Resolución de su Asamblea General de la Naciones Unidas, de 25 de septiembre de 2015, para Transformar nuestro mundo; la Agenda 2030 para el desarrollo sostenible."
+          },
+          {
+            "id": "b",
+            "label": "Transformar Nuestro Mundo es el lema de la Agenda 2030, la nueva agenda internacional que desgrana los objetivos de la comunidad internacional en el periodo 2016-2030 para erradicar la pobreza y favorecer un desarrollo sostenible e igualitario."
+          },
+          {
+            "id": "c",
+            "label": "Las respuestas a) y b) son correctas."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «Las respuestas a) y b) son correctas.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-52",
+        "section": "test-oficial",
+        "prompt": "Indique la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La agenda 2030 gira entorno a 5 ejes centrales: PLANETA, PERSONAS, PROSPERIDAD, PAZ Y ALIANZAS."
+          },
+          {
+            "id": "b",
+            "label": "La Agenda 2030 está integrada por 17 objetivos de desarrollo sostenible y 160 metas. Suponen un nuevo reto de la comunidad internacional para lograr erradicar la pobreza, extender el acceso a los derechos humanos, lograr un desarrollo económico global sostenible y respetuoso con el planeta y los recursos que ofrece."
+          },
+          {
+            "id": "c",
+            "label": "Los nuevos objetivos beben de la experiencia de los Objetivos de Desarrollo del Milenio, suscritos en el año 2000 por la comunidad internacional con límite temporal en 2015."
+          },
+          {
+            "id": "d",
+            "label": "Los ODS asumen las tareas por finalizar relativas a los ODM y resultan más ambiciosos, participativos y, sobre todo, universales."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «La Agenda 2030 está integrada por 17 objetivos de desarrollo sostenible y 160 metas. Suponen un nuevo reto de la comunidad internacional para lograr erradicar la pobreza, extender el acceso a los derechos humanos, lograr un desarrollo económico global sostenible y respetuoso con el planeta y los recursos que ofrece.». Referencia del temario: B1T4 · Derecho de acceso a la información pública."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-53",
+        "section": "test-oficial",
+        "prompt": "Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible, es el objetivo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos. La respuesta correcta es «2.». Referencia del temario: B1T4 · Gobierno Abierto, Ley 19/2013 y Agenda 2030."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-54",
+        "section": "test-oficial",
+        "prompt": "Poner fin a la pobreza en todas sus formas en todo el mundo, es el objetivo de desarrollo sostenible número:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «1.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      },
+      {
+        "id": "b1t4-test-oficial-2-transparencia-55",
+        "section": "test-oficial",
+        "prompt": "Lograr la igualdad entre los géneros y empoderar a todas las mujeres y las niñas, es el objetivo de desarrollo sostenible número:",
+        "options": [
+          {
+            "id": "a",
+            "label": "4."
+          },
+          {
+            "id": "b",
+            "label": "5."
+          },
+          {
+            "id": "c",
+            "label": "6."
+          },
+          {
+            "id": "d",
+            "label": "7. GOBIERNO ABIERTO Y TRANSPARENCIA"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «5.». Referencia del temario: B1T4 · Agenda 2030 y Objetivos de Desarrollo Sostenible."
+      }
+    ]
   }
 ]
