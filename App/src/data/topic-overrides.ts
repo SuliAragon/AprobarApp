@@ -224,7 +224,7 @@ export const topicOverrides: Record<string, TopicOverride> = {
       {
         slug: "buen-gobierno-y-consejo",
         title: "Test 4 · Buen gobierno y Consejo",
-        description: "Refuerza altos cargos, principios de actuacion, infracciones y funciones del Consejo de Transparencia.",
+        description: "Refuerza altos cargos, principios de actuacion, Portal y funciones del Consejo de Transparencia.",
         focusSections: ["buen-gobierno-y-consejo"],
       },
       {

@@ -7,3 +7,7 @@ test("los simulacros de B1T4 usan 50 preguntas originales", () => {
   assert.ok(b1t4TransparencyQuestionBank.every((question) => question.id.startsWith("b1t4-practice-")));
   assert.ok(b1t4TransparencyQuestionBank.every((question) => question.options.length === 4));
 });
+
+test("B1T4 excluye infracciones disciplinarias del material de practica", () => {
+  assert.doesNotMatch(JSON.stringify(b1t4TransparencyQuestionBank), /infracci|disciplinari|sanci[oó]n/i);
+});
