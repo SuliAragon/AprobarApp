@@ -221,6 +221,28 @@ SOLUCIONES
   assert.match(agenda2030, /Agenda 2030.*2015.*Transformar nuestro mundo/i);
 });
 
+test("parseOfficialTestText prioriza la respuesta correcta frente a distractores al explicar B1T4", () => {
+  const source = `
+24. Señale la respuesta correcta respecto al Presidente del Consejo de Transparencia y Buen Gobierno, de conformidad con el art. 37 de la Ley 19/2013:
+a) Será nombrado por un período no renovable de cuatro años mediante Real Decreto.
+b) Las Cortes Generales deberán refrendar el nombramiento por mayoría absoluta.
+c) Cesará en su cargo por separación acordada por el Gobierno entre otros motivos.
+d) Todas las respuestas son correctas.
+
+SOLUCIONES
+24. C
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T4",
+    slug: "b1t4-test-oficial-cese",
+    title: "Test oficial Transparencia",
+  });
+
+  assert.match(parsed.questions[0].explanation, /cese.*separación acordada/i);
+  assert.doesNotMatch(parsed.questions[0].explanation, /cinco años no renovable/i);
+});
+
 test("parseOfficialTestText no corta el examen si aparece la palabra resoluciones dentro del enunciado", () => {
   const source = `
 18. En relación con el Defensor del Pueblo:

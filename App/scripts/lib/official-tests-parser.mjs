@@ -770,8 +770,10 @@ const b1t4ExplanationRules = [
 
 function buildB1T4Explanation(prompt, correctLabel, options = []) {
   const optionLabels = options.map((option) => option.label).join(" ");
-  const source = `${prompt} ${correctLabel} ${optionLabels}`;
-  const specificRule = b1t4ExplanationRules.find((rule) => rule.match.test(source));
+  const primarySource = `${prompt} ${correctLabel}`;
+  // Las alternativas de descarte no deben desplazar la explicación del enunciado correcto.
+  const specificRule = b1t4ExplanationRules.find((rule) => rule.match.test(primarySource))
+    ?? b1t4ExplanationRules.find((rule) => rule.match.test(`${primarySource} ${optionLabels}`));
 
   if (specificRule) {
     return specificRule.text;
