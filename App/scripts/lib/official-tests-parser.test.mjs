@@ -148,6 +148,79 @@ SOLUCIONES
   assert.doesNotMatch(parsed.questions[0].explanation, /plantilla oficial/i);
 });
 
+test("parseOfficialTestText explica cada supuesto de transparencia con su regla concreta", () => {
+  const source = `
+3. El Presidente del Consejo de Transparencia y Buen Gobierno, de acuerdo con la Ley 19/2013, es nombrado por un período de:
+a) 4 años, no renovable.
+b) 5 años, renovable.
+c) 4 años, renovable una sola vez.
+d) 5 años, no renovable.
+
+4. Cuando las infracciones de las normas de buen gobierno puedan ser constitutivas de delito, la Ley 19/2013:
+a) Obliga a la Administración a poner los hechos en conocimiento del Consejo de Transparencia y Buen Gobierno.
+b) Obliga a la Administración a poner los hechos en conocimiento del Fiscal General del Estado.
+c) Faculta a la Administración para continuar con el procedimiento.
+d) Permite a la Administración archivar los hechos.
+
+5. La Ley 19/2013 establece la obligatoriedad por parte de las Administraciones Públicas de publicar las circulares en la medida en que:
+a) Impliquen una aplicación no prevista en la normativa vigente.
+b) Tengan efectos jurídicos.
+c) Supongan una modificación de la normativa vigente.
+d) No produzcan efectos jurídicos.
+
+SOLUCIONES
+3. D
+4. B
+5. B
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T4",
+    slug: "b1t4-test-oficial",
+    title: "Test oficial Transparencia",
+  });
+
+  const explanations = parsed.questions.map((question) => question.explanation);
+
+  assert.equal(new Set(explanations).size, 3);
+  assert.match(explanations[0], /artículo 37.*cinco años.*no renovable/i);
+  assert.match(explanations[1], /Fiscal General del Estado.*proceso penal/i);
+  assert.match(explanations[2], /artículo 7.*efectos jurídicos/i);
+  assert.doesNotMatch(explanations[0], /obligaciones de publicidad activa.*Título I/i);
+});
+
+test("parseOfficialTestText distingue explicaciones cuando dos respuestas comparten el mismo literal", () => {
+  const source = `
+31. Indique la respuesta correcta:
+a) Los datos personales que revelen la ideología, afiliación sindical, religión o creencias requieren consentimiento expreso y por escrito.
+b) Los datos sobre origen racial, salud, vida sexual, datos genéticos o biométricos requieren consentimiento expreso o cobertura legal.
+c) Ninguna de las respuestas anteriores es correcta.
+d) Las respuestas a) y b) son correctas.
+
+51. Señale la respuesta correcta sobre la Agenda 2030:
+a) Los Objetivos de Desarrollo del Milenio se aprobaron en 2015 para Transformar nuestro mundo.
+b) Transformar nuestro mundo: la Agenda 2030 fue aprobada por los Estados miembros de Naciones Unidas en 2015.
+c) Las respuestas a) y b) son correctas.
+d) Ninguna de las respuestas anteriores es correcta.
+
+SOLUCIONES
+31. D
+51. C
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T4",
+    slug: "b1t4-test-oficial-2",
+    title: "Test oficial Transparencia 2",
+  });
+
+  const [proteccionDatos, agenda2030] = parsed.questions.map((question) => question.explanation);
+
+  assert.notEqual(proteccionDatos, agenda2030);
+  assert.match(proteccionDatos, /protección reforzada.*ideología/i);
+  assert.match(agenda2030, /Agenda 2030.*2015.*Transformar nuestro mundo/i);
+});
+
 test("parseOfficialTestText no corta el examen si aparece la palabra resoluciones dentro del enunciado", () => {
   const source = `
 18. En relación con el Defensor del Pueblo:
