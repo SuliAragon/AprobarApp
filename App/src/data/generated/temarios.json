@@ -1,5 +1,21 @@
 [
   {
+    "code": "008CFD00",
+    "slug": "008cfd00-38e7-49a2-9fe0-b6c4c11e5594",
+    "sourceFilename": "008cfd00-38e7-49a2-9fe0-b6c4c11e5594.pdf",
+    "title": "008cfd00-38e7-49a2-9fe0-b6c4c11e5594",
+    "pdfPath": "/temario/008cfd00-38e7-49a2-9fe0-b6c4c11e5594.pdf",
+    "podcasts": []
+  },
+  {
+    "code": "B5CA239D",
+    "slug": "b5ca239d-8396-4e1d-8884-c9747d6d37c1",
+    "sourceFilename": "b5ca239d-8396-4e1d-8884-c9747d6d37c1.pdf",
+    "title": "b5ca239d-8396-4e1d-8884-c9747d6d37c1",
+    "pdfPath": "/temario/b5ca239d-8396-4e1d-8884-c9747d6d37c1.pdf",
+    "podcasts": []
+  },
+  {
     "code": "B1T1",
     "slug": "b1t1-ce",
     "sourceFilename": "Bloque 1/Tema 1/B1T1_CE 6.pdf",
@@ -38,6 +54,34 @@
         "sourceFilename": "Bloque 1/Tema 3/El_código_fuente_del_Gobierno_español.m4a",
         "title": "El código fuente del Gobierno español",
         "assetPath": "/podcast/B1T3/el-codigo-fuente-del-gobierno-espanol.m4a"
+      }
+    ]
+  },
+  {
+    "code": "B1T4",
+    "slug": "b1t4-transparencia",
+    "sourceFilename": "Bloque 1/Tema 4/B1T4_Transparencia 3.pdf",
+    "title": "B1T4 Transparencia",
+    "pdfPath": "/temario/b1t4-transparencia.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 1/Tema 4/Adiós_a_la_caja_negra_del_Estado.m4a",
+        "title": "Adiós a la caja negra del Estado",
+        "assetPath": "/podcast/B1T4/adios-a-la-caja-negra-del-estado.m4a"
+      }
+    ]
+  },
+  {
+    "code": "B2T1",
+    "slug": "b2t1-informatica-basica",
+    "sourceFilename": "Bloque 2/Tema 1/B2T1_Informatica_basica 1.pdf",
+    "title": "B2T1 Informatica basica",
+    "pdfPath": "/temario/b2t1-informatica-basica.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 2/Tema 1/Por_qué_faltan_gigas_en_tu_disco.m4a",
+        "title": "Por qué faltan gigas en tu disco",
+        "assetPath": "/podcast/B2T1/por-que-faltan-gigas-en-tu-disco.m4a"
       }
     ]
   },

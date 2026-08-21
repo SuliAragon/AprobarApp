@@ -20,8 +20,10 @@ const noisePatterns = [
 
 function normalizeWhitespace(value) {
   return value
+    .normalize("NFC")
     .replace(/\bB\d+T\d+\s*test\b/gi, "")
     .replace(/\bSISTEMAS OPERATIVOS\b/g, "")
+    .replace(/\s*PABLO ARELLANO\s+www\.theglobeformacion\.com\s+Página \d+\s*/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -258,6 +260,7 @@ const topicFallbacks = {
   B1T2: "La cuestión se resuelve aplicando la regulación constitucional de las Cortes Generales, el Tribunal Constitucional o el Defensor del Pueblo. Hay que contrastar competencias, mayorías y procedimientos sin trasladarlos de una institución a otra.",
   B1T3: "La cuestión se resuelve con los artículos constitucionales sobre el Gobierno y sus relaciones con las Cortes, junto con la Ley del Gobierno. Conviene diferenciar composición, investidura, funciones y control parlamentario.",
   B1T4: "La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos.",
+  B2T1: "La cuestión se resuelve aplicando la definición concreta del temario sobre representación de la información, arquitectura del procesador, componentes internos o memoria. Las alternativas incorrectas confunden unidades, registros, arquitecturas o funciones diferentes.",
   B2T3: "La respuesta correcta aplica la definición técnica exacta de la estructura, algoritmo o formato preguntado. Las alternativas restantes cambian el criterio esencial, el ámbito de aplicación o la propiedad que se está evaluando.",
   B2T4: "La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles.",
   B2T5: "La respuesta correcta distingue la arquitectura y las propiedades propias de cada familia de SGBD. No deben confundirse los conceptos relacionales, orientados a objetos y NoSQL ni las garantías de una transacción.",
@@ -304,6 +307,21 @@ const temarioReferences = {
       [/Consejo de Transparencia|alto cargo|buen gobierno|reclamaci.n|abstenci.n/i, "Buen gobierno y Consejo de Transparencia"],
       [/Agenda 2030|ODS|Objetivo de Desarrollo Sostenible|Naciones Unidas|desarrollo sostenible/i, "Agenda 2030 y Objetivos de Desarrollo Sostenible"],
       [/Gobierno Abierto|OGP|participaci|colaboraci|rendici.n de cuentas/i, "Gobierno Abierto y principios informadores"],
+    ],
+  },
+  B2T1: {
+    fallback: "Informática básica, representación de la información y arquitectura de ordenadores",
+    rules: [
+      [/SRAM|DRAM|ROM|PROM|EPROM|EEPROM|FLASH|memoria interna|cach.|localidad|asociativa|LRU|FIFO|LFU|condensador/i, "Componentes internos · Memoria interna y caché"],
+      [/ASCII|Unicode|UTF-?8|UTF-?16|UTF-?32|codificaci.n/i, "Unicode y codificación de textos"],
+      [/bit|byte|palabra|nibble|KiB|MiB|GiB|capacidad|FLOPS|hercio/i, "Informática básica y unidades de información"],
+      [/binario|octal|decimal|hexadecimal|base numérica|conversión/i, "Sistemas de numeración"],
+      [/puerta|\bAND\b|\bNAND\b|\bOR\b|\bNOR\b|\bXOR\b|\bXNOR\b|lógica/i, "Funciones lógicas básicas"],
+      [/sistema de informaci.n|operacional|táctico|tactico|estratégico|estrategico|dato e informaci.n/i, "Elementos y niveles de los sistemas de información"],
+      [/contador de programa|\bPC\b|registro de instrucci.n|\bIR\b|\bMAR\b|\bMBR\b|\bMDR\b|ciclo de instrucci.n|direccionamiento|ALU|unidad de control|pipelining|segmentaci.n/i, "Organización del procesador · Registros y ciclo de instrucción"],
+      [/Von Neumann|Harvard|Flynn|SISD|SIMD|MISD|MIMD|RISC|CISC/i, "Arquitecturas de ordenadores"],
+      [/placa base|bus de datos|bus de direcciones|chipset|Northbridge|Southbridge|socket|PGA|LGA|microprocesador|GPU/i, "Componentes internos · Placa base y microprocesadores"],
+      [/BIOS|UEFI|POST|arranque|boot/i, "Componentes internos · Proceso de arranque"],
     ],
   },
   B2T3: {
@@ -379,6 +397,251 @@ function resolveTemarioReference(code, prompt, correctLabel) {
   const source = `${prompt} ${correctLabel}`;
   const section = reference.rules.find(([pattern]) => pattern.test(source))?.[1] ?? reference.fallback;
   return `Referencia del temario: ${code} · ${section}.`;
+}
+
+const b2t1ExplanationRules = [
+  {
+    match: /FLOPS|operaciones de coma flotante por segundo/i,
+    text: "FLOPS significa operaciones de coma flotante por segundo y mide rendimiento de cálculo numérico. No expresa la frecuencia del reloj, los accesos a memoria ni el número general de instrucciones, que son magnitudes distintas.",
+  },
+  {
+    match: /hexadecimal 3B/i,
+    text: "En hexadecimal, 3B equivale a 3 × 16 + 11, porque B representa 11. El resultado es 59 en decimal; no basta con leer las dos cifras como si pertenecieran a base diez.",
+  },
+  {
+    match: /2048 palabras.*16 bits/i,
+    text: "La capacidad se obtiene multiplicando 2048 palabras por 16 bits: son 32768 bits. Al dividir entre 8 se obtienen 4096 bytes, es decir, 4 KiB, que el test expresa como 4 KB.",
+  },
+  {
+    match: /SRAM|Synchronous Random-Access Memory/i,
+    text: "SRAM significa Static Random-Access Memory, no Synchronous RAM. Mantiene cada bit mediante biestables mientras recibe alimentación, no necesita refresco y por su rapidez y mayor coste se emplea habitualmente como caché.",
+  },
+  {
+    match: /UTF-?8/i,
+    text: "UTF-8 es una codificación Unicode de longitud variable: usa entre uno y cuatro bytes por carácter. Los caracteres ASCII conservan su representación de un byte, por lo que un texto ASCII no ocupa necesariamente más al codificarlo en UTF-8.",
+  },
+  {
+    match: /sistema octal corresponde al decimal 53/i,
+    text: "Para pasar 53 a octal se divide sucesivamente entre 8: 53 = 6 × 8 + 5. Leyendo cociente y resto se obtiene 65 en base ocho.",
+  },
+  {
+    match: /mayor cantidad de información/i,
+    text: "Hay que convertir todas las opciones a la misma unidad. 1042 MB supera 1 GB si el ejercicio adopta 1 GB = 1000 MB, y también supera claramente 100 millones de bits y 200000 KB.",
+  },
+  {
+    match: /forma de acceso a la memoria principal/i,
+    text: "La memoria principal es de acceso aleatorio porque puede leerse o escribirse una posición directamente a partir de su dirección, sin recorrer antes todas las posiciones anteriores como ocurriría en un acceso secuencial.",
+  },
+  {
+    match: /interpretar y ejecutar directamente.*lenguaje m[aá]quina/i,
+    text: "La CPU ejecuta directamente instrucciones codificadas en su lenguaje máquina. El pseudocódigo y los lenguajes interpretados necesitan traducción o la intervención de otro programa antes de convertirse en instrucciones ejecutables por el procesador.",
+  },
+  {
+    match: /microprocesadores multinúcleo|clúster de servidores interconectados/i,
+    text: "Un sistema multinúcleo o un clúster puede mantener varios flujos de instrucciones actuando sobre varios flujos de datos, por lo que encaja en MIMD. SISD solo contempla un flujo de cada tipo y SIMD comparte una instrucción sobre múltiples datos.",
+  },
+  {
+    match: /supervisar la transferencia de información.*unidad aritmético-lógica|indica a la unidad aritmético-lógica/i,
+    text: "La unidad de control interpreta la instrucción y genera las señales que coordinan registros, memoria, entrada/salida y ALU. La ALU realiza la operación aritmética o lógica indicada, pero no dirige por sí misma el ciclo completo.",
+  },
+  {
+    match: /de entre los siguientes números.*cuál es el menor/i,
+    text: "Al convertir todos los valores a decimal se pueden comparar sin mezclar bases: 2A0₁₆ es 672, 1226₈ es 662, 690 ya está en decimal y 1010110100₂ es 692. Por tanto, 1226 en octal es el menor.",
+  },
+  {
+    match: /procesador de dos núcleos/i,
+    text: "Un procesador de dos núcleos incorpora dos unidades de ejecución capaces de trabajar concurrentemente. Los núcleos no se reparten obligatoriamente RAM, disco ni operaciones lógicas y aritméticas; cada uno puede ejecutar su propio flujo de instrucciones.",
+  },
+  {
+    match: /puerta l[oó]gica de tipo XOR/i,
+    text: "XOR, u OR exclusiva, vale 1 exactamente cuando las dos entradas son distintas. Con dos entradas esto significa que solo una de ellas vale 1; si ambas coinciden, el resultado es 0.",
+  },
+  {
+    match: /Windows 32 bits/i,
+    text: "Con direcciones de 32 bits existen 2³² posiciones direccionables. Si cada posición representa un byte, el espacio máximo teórico es de 4 GiB, aunque parte puede quedar reservada para dispositivos.",
+  },
+  {
+    match: /CISC dispone de un número escaso de modos de direccionamiento/i,
+    text: "La afirmación incorrecta es atribuir a CISC pocos modos de direccionamiento: precisamente CISC suele ofrecer instrucciones complejas y numerosos modos. RISC favorece instrucciones simples de tamaño fijo, muchos registros y control cableado.",
+  },
+  {
+    match: /decisiones a medio y largo plazo/i,
+    text: "El nivel estratégico toma decisiones de alcance global y horizonte medio o largo. El nivel táctico concreta planes para áreas de la organización y el operacional se ocupa de la actividad cotidiana.",
+  },
+  {
+    match: /puerta l[oó]gica de tipo XNOR/i,
+    text: "XNOR es la negación de XOR y actúa como comparador de igualdad: produce 1 cuando ambas entradas tienen el mismo valor, tanto 0-0 como 1-1.",
+  },
+  {
+    match: /modos de direccionamiento.*INCORRECTA|Direccionamiento asociativo/i,
+    text: "Implícito, inmediato e indirecto son modos de direccionamiento de operandos. “Asociativo” describe una técnica de búsqueda o correspondencia de memoria, especialmente en caché, y no uno de los modos de direccionamiento enumerados en el tema.",
+  },
+  {
+    match: /contador de programa|\bPC\b.*siguiente instrucción/i,
+    text: "El contador de programa, PC, almacena la dirección de la siguiente instrucción que debe buscarse en memoria. Al realizar la búsqueda se actualiza; el registro de instrucción, IR, conserva en cambio la instrucción que se está decodificando o ejecutando.",
+  },
+  {
+    match: /¿Qué contiene el registro IR|Registro de Instrucción/i,
+    text: "El registro de instrucción, IR, conserva la instrucción que acaba de leerse y se está decodificando o ejecutando. La dirección de la siguiente instrucción pertenece al contador de programa, PC, no al IR.",
+  },
+  {
+    match: /operaciones que se realizan durante la ejecución de una instrucción/i,
+    text: "Cada transferencia u operación elemental realizada dentro del ciclo de una instrucción se denomina microoperación. Una instrucción máquina se descompone en varias microoperaciones coordinadas por la unidad de control.",
+  },
+  {
+    match: /registro almacena la ALU el resultado/i,
+    text: "El acumulador es el registro asociado tradicionalmente a la ALU para guardar resultados intermedios o finales. El MBR intercambia datos con memoria y el IR contiene la instrucción en curso.",
+  },
+  {
+    match: /muchas instrucciones complejas.*longitud variable|arquitecturas de ordenadores RISC y CISC.*correcta/i,
+    text: "CISC reúne muchas instrucciones, a menudo complejas y de longitud variable. RISC reduce y regulariza el repertorio, utiliza formatos normalmente fijos y favorece operaciones simples de tipo carga/almacenamiento.",
+  },
+  {
+    match: /no existe el campo índice|totalmente.*asociativa/i,
+    text: "En una caché totalmente asociativa cualquier bloque de memoria principal puede ocupar cualquier línea. Por eso no existe un campo índice que seleccione una línea concreta y se compara la etiqueta con todas las líneas.",
+  },
+  {
+    match: /10 elevado a 24/i,
+    text: "En el sistema decimal del SI, 10²⁴ bytes corresponde al prefijo yotta. Exa representa 10¹⁸, zetta 10²¹ y peta 10¹⁵.",
+  },
+  {
+    match: /refresco.*memoria dinámica|memoria DRAM|reescritura periódica|condensador.*descarga/i,
+    text: "En DRAM cada bit se representa mediante la carga de un condensador, que se pierde gradualmente. El refresco consiste en leer y reescribir periódicamente las celdas para restaurar esa carga antes de que desaparezca la información.",
+  },
+  {
+    match: /Northbridge/i,
+    text: "En el chipset clásico, el Northbridge gestionaba los enlaces de mayor velocidad y cercanos a la CPU, como la memoria RAM y el puerto gráfico AGP. IDE, SATA, USB, audio y otros periféricos dependían normalmente del Southbridge.",
+  },
+  {
+    match: /técnica de segmentación|tiempo de ejecución de cada instrucción/i,
+    text: "La segmentación solapa etapas de instrucciones distintas y mejora el rendimiento global o throughput. No reduce necesariamente la latencia de una instrucción individual; incluso mantiene sus etapas y puede añadir costes de control.",
+  },
+  {
+    match: /característica de diseño.*RISC|No debe emplearse la microprogramación/i,
+    text: "RISC busca una unidad de control sencilla y rápida, habitualmente cableada, por lo que evita la microprogramación propia de muchos diseños CISC. También favorece un repertorio reducido y regular y abundantes registros.",
+  },
+  {
+    match: /Ejecución continua y en parte solapada|Pipelining/i,
+    text: "Pipelining divide la ejecución en etapas y permite que varias instrucciones avancen simultáneamente por etapas diferentes. El solapamiento aumenta el número de instrucciones terminadas por unidad de tiempo.",
+  },
+  {
+    match: /categorías de ordenadores.*Flynn|\bSIMD\b/i,
+    text: "SIMD es una de las cuatro categorías de Flynn: una sola secuencia de instrucciones opera sobre múltiples flujos de datos. Las siglas SIDI, SDSP y MIMP no pertenecen a la taxonomía estándar.",
+  },
+  {
+    match: /10 elevado a 21/i,
+    text: "En el sistema decimal del SI, zetta equivale a 10²¹. Exa es 10¹⁸, peta 10¹⁵ y yotta 10²⁴, por lo que la potencia del enunciado identifica el zettabyte.",
+  },
+  {
+    match: /2 elevado a 90/i,
+    text: "El prefijo binario robi representa 2⁹⁰ bytes. Es distinto de yobi, que corresponde a 2⁸⁰, y de los prefijos binarios más pequeños exbi y zebi.",
+  },
+  {
+    match: /2 elevado a 70/i,
+    text: "Zebi corresponde a 2⁷⁰ bytes dentro de los prefijos binarios IEC. No debe confundirse con zetta, que es el prefijo decimal para 10²¹ bytes.",
+  },
+  {
+    match: /puerta l[oó]gica de tipo NOR/i,
+    text: "NOR es la negación de OR. Solo devuelve 1 cuando ninguna entrada está activa, es decir, cuando las dos entradas valen 0.",
+  },
+  {
+    match: /dos memorias, una para instrucciones y otra para datos|arquitectura Harvard/i,
+    text: "Harvard mantiene separados el almacenamiento y los caminos de acceso de datos e instrucciones, permitiendo acceder a ambos en paralelo. Von Neumann utiliza una memoria y un bus compartidos para los dos tipos de contenido.",
+  },
+  {
+    match: /CPU está compuesta por/i,
+    text: "La CPU reúne la unidad aritmético-lógica, la unidad de control y el conjunto de registros internos. La memoria principal se comunica con la CPU, pero no forma parte de ella.",
+  },
+  {
+    match: /ejecución simultánea de diferentes etapas/i,
+    text: "La ejecución simultánea de etapas pertenecientes a instrucciones distintas es segmentación o pipeline. No significa que cada instrucción termine antes, sino que se solapan sus fases para aumentar el rendimiento.",
+  },
+  {
+    match: /contenido del registro PC|Direccionamiento relativo/i,
+    text: "En direccionamiento relativo, la dirección efectiva se calcula sumando un desplazamiento al contenido del PC. Es frecuente en saltos porque permite expresar el destino respecto de la siguiente instrucción.",
+  },
+  {
+    match: /La ALU es una parte/i,
+    text: "La ALU forma parte de la CPU y ejecuta operaciones aritméticas, lógicas y comparaciones. No es memoria ni un bus, aunque intercambia operandos y resultados con los registros internos.",
+  },
+  {
+    match: /modelo CISC|microprogramación es una característica esencial/i,
+    text: "Los diseños CISC han empleado tradicionalmente control microprogramado para traducir instrucciones complejas en operaciones internas más simples. El repertorio reducido y la implementación directa y regular son rasgos asociados a RISC.",
+  },
+  {
+    match: /agrupación de 4 bits|Nibble/i,
+    text: "Un nibble es un grupo de cuatro bits, exactamente la mitad de un byte de ocho bits. Además, cuatro bits permiten representar una cifra hexadecimal.",
+  },
+  {
+    match: /categoría SISD/i,
+    text: "SISD significa Single Instruction, Single Data: un único flujo de instrucciones actúa sobre un único flujo de datos. Es el modelo secuencial clásico y no implica paralelismo de múltiples instrucciones o datos.",
+  },
+  {
+    match: /orden correcto de velocidad.*cach|RAM, L3, L2, L1/i,
+    text: "Al acercarse al núcleo aumenta la velocidad y disminuye normalmente la capacidad: la RAM es más lenta que la caché L3, L3 es más lenta que L2 y L2 es más lenta que L1. Por eso el orden ascendente es RAM, L3, L2 y L1.",
+  },
+  {
+    match: /sigla GPU/i,
+    text: "GPU significa Graphics Processing Unit, unidad de procesamiento gráfico. Está especializada en ejecutar muchas operaciones en paralelo, inicialmente para gráficos y también para cargas de cálculo general adecuadas.",
+  },
+  {
+    match: /arquitectura de Von Neumman.*componentes|modelo de diseño para computadores digitales/i,
+    text: "El modelo de Von Neumann integra unidad de procesamiento, unidad de control, memoria y mecanismos de entrada/salida, con almacenamiento externo como apoyo. A diferencia de Harvard, no separa la memoria de datos de la de instrucciones.",
+  },
+  {
+    match: /función principal de la unidad de procesamiento central/i,
+    text: "La función general de la CPU es buscar, decodificar y ejecutar las instrucciones de los programas. Los cálculos y el control de entrada/salida son partes de esa actividad, pero no describen por sí solos su función completa.",
+  },
+  {
+    match: /pines de contacto.*incorporados al procesador|\bPGA\b/i,
+    text: "En PGA, Pin Grid Array, los pines sobresalen del encapsulado del procesador y encajan en el zócalo. En LGA los contactos están en el socket y la superficie del procesador presenta zonas planas de contacto.",
+  },
+  {
+    match: /CPU del chip M4/i,
+    text: "La configuración de CPU del M4 a la que se refiere el material combina cuatro núcleos de rendimiento y seis de eficiencia. Los primeros priorizan potencia y los segundos reducen consumo en tareas menos exigentes.",
+  },
+  {
+    match: /14ª generación de procesadores Intel Core/i,
+    text: "El nombre en clave asociado en el material a la 14.ª generación Intel Core de escritorio es Raptor Lake S. Alder Lake corresponde a una generación anterior y Tiger Lake y Comet Lake a familias aún previas.",
+  },
+  {
+    match: /procesadores Intel ordenados de menor a mayor prestaciones/i,
+    text: "La progresión propuesta va de Atom, orientado a bajo consumo, a Celeron, después la familia Core y finalmente Xeon para estaciones y servidores. Las otras listas colocan familias de altas prestaciones por debajo de gamas básicas.",
+  },
+  {
+    match: /litografía hace referencia/i,
+    text: "La litografía es el proceso de fabricación con el que se dibujan e integran transistores y conexiones en un circuito integrado. Núcleos e hilos influyen en concurrencia y paralelismo, pero las otras afirmaciones los intercambian o generalizan incorrectamente.",
+  },
+  {
+    match: /número 450.*base decimal/i,
+    text: "450 en decimal se convierte en binario descomponiéndolo en potencias de dos: 256 + 128 + 64 + 2, lo que produce 111000010₂. Las representaciones octales y hexadecimales propuestas equivalen a otros valores.",
+  },
+  {
+    match: /número hexadecimal válido|DECAFE/i,
+    text: "Una cifra hexadecimal solo puede usar 0-9 y las letras A-F. DECAFE cumple esa restricción, mientras que las demás palabras contienen letras como G, H, I, L, R o T, que no existen en base dieciséis.",
+  },
+  {
+    match: /sistemas vectoriales y matriciales/i,
+    text: "Los procesadores vectoriales y matriciales aplican una misma instrucción a múltiples elementos de datos, por lo que son SIMD. MIMD ejecutaría varios flujos de instrucciones independientes.",
+  },
+  {
+    match: /NOT\(A\).*B XOR|valor habría que asignarle a D/i,
+    text: "Con A=0, NOT(A)=1; con B=0, para que el AND final sea verdadero el XOR debe valer 1. Eso exige que NOT(C≤D)=1, es decir, que 1≤D sea falso; entre las opciones, solo D=0 cumple la condición.",
+  },
+  {
+    match: /a=1 y b=1|a XNOR b/i,
+    text: "Con ambas entradas a 1, XNOR devuelve 1 porque comprueba igualdad. XOR y NOR devuelven 0, y NAND también devuelve 0 al negar el resultado 1 de AND.",
+  },
+];
+
+function buildB2T1Explanation(prompt, correctLabel, options = []) {
+  const optionLabels = options.map((option) => option.label).join(" ");
+  const primarySource = `${prompt} ${correctLabel}`;
+  const specificRule = b2t1ExplanationRules.find((rule) => rule.match.test(primarySource))
+    ?? b2t1ExplanationRules.find((rule) => rule.match.test(`${primarySource} ${optionLabels}`));
+
+  return specificRule?.text
+    ?? "El enunciado exige identificar la definición exacta recogida en el B2T1. La alternativa válida conserva la unidad, arquitectura, componente o función que describe el tema, mientras que las restantes la confunden con conceptos próximos.";
 }
 
 const b1t4ExplanationRules = [
@@ -785,6 +1048,8 @@ function buildB1T4Explanation(prompt, correctLabel, options = []) {
 function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = []) {
   const specificReason = code === "B1T4"
     ? buildB1T4Explanation(prompt, correctLabel, options)
+    : code === "B2T1"
+      ? buildB2T1Explanation(prompt, correctLabel, options)
     : explanationRules.find((rule) => rule.match.test(`${prompt} ${correctLabel}`))?.text;
   const fallback = topicFallbacks[code] ?? "La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial.";
   const suffix = /[.!?…]$/.test(correctLabel) ? "" : ".";

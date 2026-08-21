@@ -16,3 +16,23 @@ test("withTemarioReference añade el apartado del PDF sin duplicarlo", () => {
   assert.match(enriched.explanation, /Referencia del temario: B2T3 · .*Árboles/i);
   assert.equal(withTemarioReference(enriched, "B2T3").explanation, enriched.explanation);
 });
+
+test("B2T1 enlaza cada explicacion con su apartado concreto del temario", () => {
+  const cases = [
+    ["Por que UTF-8 conserva compatibilidad con ASCII?", "Unicode y codificación de textos"],
+    ["Que guarda el contador de programa PC?", "Registros y ciclo de instrucción"],
+    ["Que diferencia existe entre SRAM y DRAM?", "Memoria interna"],
+    ["Que secuencia sigue el POST durante el encendido?", "Proceso de arranque"],
+  ];
+
+  for (const [prompt, expectedSection] of cases) {
+    const enriched = withTemarioReference({
+      prompt,
+      options: [{ id: "a", label: "Respuesta" }],
+      correctOption: "a",
+      explanation: "Explicacion especifica.",
+    }, "B2T1");
+
+    assert.match(enriched.explanation, new RegExp(expectedSection, "i"));
+  }
+});

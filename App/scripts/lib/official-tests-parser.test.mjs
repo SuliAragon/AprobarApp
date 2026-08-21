@@ -148,6 +148,57 @@ SOLUCIONES
   assert.doesNotMatch(parsed.questions[0].explanation, /plantilla oficial/i);
 });
 
+test("parseOfficialTestText explica los conceptos de B2T1 sin textos genéricos repetidos", () => {
+  const source = `
+1. En la codificación UTF-8:
+a) Todos los caracteres ocupan siempre ocho bytes.
+b) Un carácter puede estar representado por entre uno y cuatro bytes.
+c) No existe compatibilidad con ASCII.
+d) Solo se representan caracteres latinos.
+
+2. ¿Qué almacena el contador de programa o PC?
+a) La instrucción que se está ejecutando.
+b) El dato leído desde memoria.
+c) La dirección de la siguiente instrucción que se ejecutará.
+d) El resultado de la última operación aritmética.
+
+3. ¿Por qué necesita refresco periódico una memoria DRAM?
+a) Porque cada bit se almacena como carga en un condensador que se descarga con el tiempo.
+b) Porque está construida exclusivamente con biestables.
+c) Porque su contenido se conserva sin alimentación.
+d) Porque solo admite operaciones de lectura.
+
+4. La arquitectura Harvard se caracteriza por:
+a) Compartir una única memoria y un único bus para datos e instrucciones.
+b) Carecer de unidad de control.
+c) Ejecutar únicamente instrucciones complejas.
+d) Mantener memorias y buses separados para datos e instrucciones.
+
+SOLUCIONES
+1. B
+2. C
+3. A
+4. D
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B2T1",
+    slug: "b2t1-test-oficial",
+    title: "Test oficial Informática básica",
+  });
+
+  const explanations = parsed.questions.map((question) => question.explanation);
+
+  assert.equal(explanations.length, 4);
+  assert.equal(new Set(explanations).size, 4);
+  assert.match(explanations[0], /uno y cuatro bytes.*ASCII/i);
+  assert.match(explanations[1], /siguiente instrucción.*registro de instrucción/i);
+  assert.match(explanations[2], /condensador.*refresco/i);
+  assert.match(explanations[3], /datos e instrucciones.*separad/i);
+  assert.match(explanations[0], /Referencia del temario: B2T1 · Unicode/i);
+  assert.doesNotMatch(explanations.join(" "), /aplica el concepto preciso|se ajusta al criterio preguntado|apartado correspondiente/i);
+});
+
 test("parseOfficialTestText explica cada supuesto de transparencia con su regla concreta", () => {
   const source = `
 3. El Presidente del Consejo de Transparencia y Buen Gobierno, de acuerdo con la Ley 19/2013, es nombrado por un período de:
@@ -303,6 +354,29 @@ SOLUCIONES
   assert.equal(parsed.questions.length, 2);
   assert.equal(parsed.questions[0].options[3].label, "El Consejo de Estado.");
   assert.equal(parsed.questions[1].prompt, "La acción del Gobierno la dirige y coordina:");
+});
+
+test("parseOfficialTestText normaliza acentos combinados y elimina pies de página pegados", () => {
+  const source = `
+14. Una puerta lógica de tipo XOR con dos entradas devuelve un valor de 1:
+a) Cuando sus dos entradas tienen valor 1.
+b) Cuando alguna de sus entradas vale 1.
+c) Cuando ninguna de sus entradas vale 1.
+d) Cuando solo una de sus entradas vale 1. PABLO ARELLANO www.theglobeformacion.com Página 3
+
+SOLUCIONES
+14. D
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B2T1",
+    slug: "b2t1-test-oficial",
+    title: "Test oficial Informática básica",
+  });
+
+  assert.equal(parsed.questions[0].prompt, "Una puerta lógica de tipo XOR con dos entradas devuelve un valor de 1:");
+  assert.equal(parsed.questions[0].options[3].label, "Cuando solo una de sus entradas vale 1.");
+  assert.match(parsed.questions[0].explanation, /OR exclusiva.*entradas son distintas/i);
 });
 
 test("parseOfficialTestText elimina cabeceras pegadas al final de una opción", () => {

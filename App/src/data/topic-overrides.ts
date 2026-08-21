@@ -235,6 +235,61 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B2T1: {
+    title: "Informática básica, representación de la información y arquitectura de ordenadores",
+    shortTitle: "Informática básica",
+    description:
+      "Tema técnico sobre representación y comunicación de la información, sistemas de información, arquitectura de ordenadores y componentes internos de equipos microinformáticos.",
+    summary: [
+      "Unidades de información, prefijos decimales y binarios, frecuencia y medidas de rendimiento.",
+      "Sistemas de numeración, conversiones, codificación ASCII y Unicode y funciones lógicas básicas.",
+      "Elementos y niveles operacional, táctico y estratégico de los sistemas de información.",
+      "Organización del procesador, registros, ciclo de instrucción, direccionamiento y segmentación.",
+      "Arquitecturas Von Neumann y Harvard, taxonomía de Flynn, RISC y CISC, placa base, memoria, caché y proceso de arranque.",
+    ],
+    sections: [
+      "Informática básica y unidades de información",
+      "Numeración, codificación de textos y lógica",
+      "Elementos de un sistema de información",
+      "Procesador y arquitectura Von Neumann",
+      "Harvard, Flynn, RISC y CISC",
+      "Placa base, buses y microprocesadores",
+      "Memoria, caché y proceso de arranque",
+    ],
+    accent: "azure",
+    testPresets: [
+      {
+        slug: "fundamentos-y-unidades",
+        title: "Test 1 · Fundamentos y unidades",
+        description: "Repasa bit, byte, palabra, prefijos SI e IEC, frecuencia y medidas de capacidad y rendimiento.",
+        focusSections: ["fundamentos-unidades"],
+      },
+      {
+        slug: "numeracion-codificacion-y-logica",
+        title: "Test 2 · Numeración, codificación y lógica",
+        description: "Entrena bases numéricas, conversiones, ASCII, Unicode, UTF y puertas lógicas.",
+        focusSections: ["numeracion-codificacion-logica"],
+      },
+      {
+        slug: "sistemas-de-informacion",
+        title: "Test 3 · Sistemas de información",
+        description: "Distingue datos e información, componentes del sistema y niveles operacional, táctico y estratégico.",
+        focusSections: ["sistemas-informacion"],
+      },
+      {
+        slug: "procesador-y-arquitecturas",
+        title: "Test 4 · Procesador y arquitecturas",
+        description: "Trabaja CPU, registros, ciclo de instrucción, direccionamiento, Von Neumann, Harvard, Flynn, RISC y CISC.",
+        focusSections: ["procesador-von-neumann", "harvard-flynn-risc-cisc"],
+      },
+      {
+        slug: "componentes-memoria-y-arranque",
+        title: "Test 5 · Componentes, memoria y arranque",
+        description: "Refuerza placa base, buses, sockets, memoria interna, jerarquía, caché, localidad y secuencia de arranque.",
+        focusSections: ["placa-buses-componentes", "memoria-cache-arranque"],
+      },
+    ],
+  },
   B2T3: {
     title: "Tipos abstractos y estructuras de datos, algoritmos, ficheros y formatos",
     shortTitle: "Estructuras de datos",

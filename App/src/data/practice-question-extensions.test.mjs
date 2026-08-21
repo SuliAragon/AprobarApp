@@ -3,13 +3,13 @@ import test from "node:test";
 
 import { practiceQuestionExtensionsByCode } from "./practice-question-extensions.mjs";
 
-const expandedTopics = ["B1T3", "B2T4", "B2T5", "B3T1", "B3T2", "B3T4"];
+const expandedTopics = ["B1T3", "B2T1", "B2T4", "B2T5", "B3T1", "B3T2", "B3T4"];
 
 test("las ampliaciones de practica aportan preguntas originales completas a cada tema tecnico", () => {
   for (const topicCode of expandedTopics) {
     const questions = practiceQuestionExtensionsByCode[topicCode] ?? [];
 
-    const minimumQuestions = ["B1T3", "B2T4", "B2T5", "B3T1", "B3T2", "B3T4"].includes(topicCode) ? 50 : 10;
+    const minimumQuestions = ["B1T3", "B2T1", "B2T4", "B2T5", "B3T1", "B3T2", "B3T4"].includes(topicCode) ? 50 : 10;
     assert.ok(questions.length >= minimumQuestions, `${topicCode} debe recibir al menos ${minimumQuestions} preguntas nuevas`);
     assert.equal(new Set(questions.map((question) => question.id)).size, questions.length);
 

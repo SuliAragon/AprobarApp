@@ -48,6 +48,46 @@
     "assetPath": "/test-oficial/B1T3/b1t3-test-oficial-gobierno.pdf"
   },
   {
+    "code": "B1T4",
+    "slug": "b1t4-test-oficial-1-transparencia",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 4/B1T4Test_1_Transparencia 2.pdf",
+    "title": "Test oficial 1 Transparencia",
+    "assetPath": "/test-oficial/B1T4/b1t4-test-oficial-1-transparencia.pdf"
+  },
+  {
+    "code": "B1T4",
+    "slug": "b1t4-test-oficial-2-transparencia",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 4/B1T4Test_2_Transparencia 2.pdf",
+    "title": "Test oficial 2 Transparencia",
+    "assetPath": "/test-oficial/B1T4/b1t4-test-oficial-2-transparencia.pdf"
+  },
+  {
+    "code": "B2T1",
+    "slug": "b2t1-test-oficial-informatica-basica",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 2/Tema 1/B2T1Test_Informatica_basica 1.pdf",
+    "title": "Test oficial Informatica basica",
+    "assetPath": "/test-oficial/B2T1/b2t1-test-oficial-informatica-basica.pdf"
+  },
+  {
+    "code": "B2T3",
+    "slug": "b2t3-ejercicios",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 2/Tema 3/B2T3Ejercicios 1.pdf",
+    "title": "Ejercicios",
+    "assetPath": "/test-oficial/B2T3/b2t3-ejercicios.pdf"
+  },
+  {
+    "code": "B2T3",
+    "slug": "b2t3-test-oficial-estructuras-de-datos",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 2/Tema 3/B2T3Test_Estructuras_de_datos 1.pdf",
+    "title": "Test oficial Estructuras de datos",
+    "assetPath": "/test-oficial/B2T3/b2t3-test-oficial-estructuras-de-datos.pdf"
+  },
+  {
     "code": "B2T4",
     "slug": "b2t4-ejercicios",
     "kind": "exercise",
