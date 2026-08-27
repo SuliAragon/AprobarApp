@@ -189,6 +189,32 @@ const simulationQuestionRepairs = {
       explanation: "Por qué: FAT32 tiene un límite de tamaño por fichero inferior a 4 GB, mientras que NTFS admite archivos mucho mayores. Por ello un fichero de 6 GB puede almacenarse en NTFS.",
     },
   },
+  "simulacro-4": {
+    1: {
+      prompt: "Están legitimados para interponer el recurso de amparo, según la Constitución Española:",
+      options: ["El Gobierno.", "Las Comunidades Autónomas.", "El Presidente del Gobierno.", "El Ministerio Fiscal."],
+      correctOption: "d",
+      explanation: "Por qué: el artículo 162.1.b de la Constitución reconoce legitimación para el recurso de amparo, entre otros, al Ministerio Fiscal. El Gobierno, su Presidente y las Comunidades Autónomas no figuran como legitimados en ese precepto.",
+    },
+    3: {
+      prompt: "De conformidad con el artículo 9 de la Constitución Española, la Constitución garantiza (señale la respuesta INCORRECTA):",
+      options: ["El principio de legalidad.", "La jerarquía normativa.", "La seguridad jurídica.", "La publicidad de las leyes."],
+      correctOption: "d",
+      explanation: "Por qué: el artículo 9.3 garantiza la publicidad de las normas, no la publicidad de las leyes formulada de manera restrictiva. El principio de legalidad, la jerarquía normativa y la seguridad jurídica aparecen expresamente en el mismo precepto.",
+    },
+    4: {
+      prompt: "Según la Constitución Española, los 4 miembros del Tribunal Constitucional propuestos por el Congreso son elegidos por mayoría de:",
+      options: ["2/3 de los presentes.", "3/5 de los presentes.", "2/3 de sus miembros.", "3/5 de sus miembros."],
+      correctOption: "d",
+      explanation: "Por qué: el artículo 159.1 de la Constitución exige una mayoría de tres quintos de los miembros del Congreso para proponer cuatro magistrados del Tribunal Constitucional. No basta calcular la mayoría sobre los asistentes.",
+    },
+    5: {
+      prompt: "Según el artículo 9 de la Constitución Española, están sujetos a la Constitución y al resto del ordenamiento jurídico:",
+      options: ["Los ciudadanos y los poderes públicos.", "Los ciudadanos a excepción de los poderes públicos.", "Los ciudadanos y los poderes públicos, a excepción de las personas miembros del Congreso y Senado que gozan de inmunidad parlamentaria.", "Los ciudadanos y los poderes públicos, a excepción de la persona que ostente la presidencia del Gobierno del Estado y de las Comunidades Autónomas que no están sujetas a responsabilidad jurídica."],
+      correctOption: "a",
+      explanation: "Por qué: el artículo 9.1 establece literalmente que los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico. Las inmunidades parlamentarias no eliminan esa sujeción general ni existen las excepciones de las otras opciones.",
+    },
+  },
 };
 
 function repairSimulationQuestions(parsed, slug) {
@@ -393,7 +419,9 @@ for (const simulation of simulationsManifest) {
     continue;
   }
 
-  const extraction = spawnSync("pdftotext", [source.filePath, "-"], { encoding: "utf8" });
+  // The academy simulations put answer options in side-by-side columns. Keeping
+  // the PDF layout prevents pdftotext from merging those options into one line.
+  const extraction = spawnSync("pdftotext", ["-layout", source.filePath, "-"], { encoding: "utf8" });
 
   if (extraction.status !== 0 || extraction.error) {
     if (extraction.error?.code === "ENOENT") {

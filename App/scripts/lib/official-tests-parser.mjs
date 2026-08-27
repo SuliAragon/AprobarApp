@@ -82,7 +82,22 @@ function splitQuestionBlocks(value) {
 }
 
 function extractOptions(block) {
-  const markers = [...block.matchAll(/(?:^|\n)([a-d])\)\s*/gm)];
+  // Some academy PDFs place a) and b) on the same visual row. The line
+  // normalizer removes column spacing, so any whitespace may separate options.
+  const rawMarkers = [...block.matchAll(/(?:^|\n|\s)([a-d])\)\s*/gm)];
+  const markers = [];
+
+  for (const marker of rawMarkers) {
+    if (marker[1] !== optionIds[markers.length]) {
+      continue;
+    }
+
+    markers.push(marker);
+
+    if (markers.length === optionIds.length) {
+      break;
+    }
+  }
 
   if (markers.length !== 4) {
     return null;
@@ -261,6 +276,7 @@ const topicFallbacks = {
   B1T3: "La cuestión se resuelve con los artículos constitucionales sobre el Gobierno y sus relaciones con las Cortes, junto con la Ley del Gobierno. Conviene diferenciar composición, investidura, funciones y control parlamentario.",
   B1T4: "La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos.",
   B2T1: "La cuestión se resuelve aplicando la definición concreta del temario sobre representación de la información, arquitectura del procesador, componentes internos o memoria. Las alternativas incorrectas confunden unidades, registros, arquitecturas o funciones diferentes.",
+  B2T2: "La cuestión se resuelve comprobando la tecnología, interfaz, unidad o función concreta de los periféricos. Hay que separar conectividad, impresión, almacenamiento, visualización y digitalización, sin intercambiar especificaciones próximas.",
   B2T3: "La respuesta correcta aplica la definición técnica exacta de la estructura, algoritmo o formato preguntado. Las alternativas restantes cambian el criterio esencial, el ámbito de aplicación o la propiedad que se está evaluando.",
   B2T4: "La respuesta correcta aplica el concepto preciso de sistemas operativos, diferenciando la gestión de procesos, memoria, archivos, plataformas Windows, UNIX/Linux y sistemas móviles.",
   B2T5: "La respuesta correcta distingue la arquitectura y las propiedades propias de cada familia de SGBD. No deben confundirse los conceptos relacionales, orientados a objetos y NoSQL ni las garantías de una transacción.",
@@ -322,6 +338,16 @@ const temarioReferences = {
       [/Von Neumann|Harvard|Flynn|SISD|SIMD|MISD|MIMD|RISC|CISC/i, "Arquitecturas de ordenadores"],
       [/placa base|bus de datos|bus de direcciones|chipset|Northbridge|Southbridge|socket|PGA|LGA|microprocesador|GPU/i, "Componentes internos · Placa base y microprocesadores"],
       [/BIOS|UEFI|POST|arranque|boot/i, "Componentes internos · Proceso de arranque"],
+    ],
+  },
+  B2T2: {
+    fallback: "Periféricos: conectividad, impresión, almacenamiento, visualización y digitalización",
+    rules: [
+      [/USB|Thunderbolt|FireWire|IEEE ?1394|DVI|DisplayPort|HDMI|PCIe|SATA|SAS|NVMe|conector|puerto|carriles/i, "Conectividad y administración de periféricos"],
+      [/impresora|impresión|impresion|inyección|inyeccion|láser|laser|sublimación|sublimacion|FDM|SLA|SLS|3D|toner/i, "Elementos de impresión e impresión 3D"],
+      [/disco|SSD|HDD|sector|pista|cilindro|latencia|clúster|cluster|plato/i, "Elementos de almacenamiento"],
+      [/monitor|pantalla|resolución|resolucion|táctil|tactil|CRT|LCD|OLED|píxel|pixel|color/i, "Elementos de visualización"],
+      [/escáner|escaner|digitalización|digitalizacion|NTI|imagen electrónica|imagen electronica|metadatos|QWERTY|teclado/i, "Digitalización y periféricos de entrada"],
     ],
   },
   B2T3: {
@@ -642,6 +668,70 @@ function buildB2T1Explanation(prompt, correctLabel, options = []) {
 
   return specificRule?.text
     ?? "El enunciado exige identificar la definición exacta recogida en el B2T1. La alternativa válida conserva la unidad, arquitectura, componente o función que describe el tema, mientras que las restantes la confunden con conceptos próximos.";
+}
+
+const b2t2ExplanationRules = [
+  [/unidades SSD|misma función que el disco duro/i, "Una unidad SSD es almacenamiento secundario no volátil y cumple la misma función general que un HDD: conservar datos y programas. La diferencia es que el SSD usa memoria flash y no platos ni cabezales mecánicos."],
+  [/estructura física de un disco.*sector|qué es un sector/i, "Un sector es una división de una pista y es una unidad elemental de almacenamiento. Una pista es el círculo concéntrico; las pistas del mismo radio en varios platos forman un cilindro."],
+  [/latencia media/i, "La latencia media es la espera debida al giro del plato hasta que el sector buscado queda bajo el cabezal. El desplazamiento del cabezal hasta la pista es el tiempo de búsqueda, no la latencia."],
+  [/antiguos o muy valiosos|Cenital/i, "El escáner cenital digitaliza desde arriba sin apoyar ni forzar la apertura del libro. Por eso se emplea con fondos antiguos o valiosos que podrían deteriorarse en un escáner plano convencional."],
+  [/velocidad del USB 3\.0|10 veces superior/i, "USB 3.0 alcanza 4,8 Gbit/s frente a los 480 Mbit/s de USB 2.0. La relación es diez a uno, de ahí que USB 3.0 sea diez veces más rápido."],
+  [/pulso acústico|pantalla táctil/i, "El reconocimiento de pulso acústico detecta las ondas producidas al tocar una superficie. Por ello se relaciona con las pantallas táctiles, no con la RAM ni con el almacenamiento."],
+  [/comunicación en serie|SATA/i, "SATA significa Serial ATA y transmite los datos en serie. PATA es la evolución paralela de ATA, por lo que no identifica la interfaz serie preguntada."],
+  [/sublimación de tinta|calor para la transferencia/i, "La sublimación emplea calor para transferir el colorante de una cinta al soporte. No funciona por impacto, por agujas térmicas sobre papel sensible ni por microgotas de tinta."],
+  [/discos SSD.*INCORRECTA|copia y duplicación.*más lenta/i, "La afirmación incorrecta es que un SSD copia más lentamente que un HDD. Al no tener partes mecánicas, el SSD ofrece accesos y transferencias normalmente superiores; a igual capacidad suele costar más."],
+  [/impresoras de impacto.*NO es un tipo|inyección/i, "Las impresoras de margarita, matriciales y de bola son tecnologías de impacto porque golpean una cinta. La inyección expulsa gotas sin impacto mecánico y por eso no pertenece a ese grupo."],
+  [/tecnología de impresión 3D|Inyección de aglutinante/i, "La inyección de aglutinante es una tecnología aditiva de impresión 3D: deposita un agente aglutinante sobre capas de material. El chorro continuo y la inyección térmica describen impresión convencional."],
+  [/zonas de un disco duro.*respuesta FALSA|Sector es cada uno de los lados/i, "La afirmación falsa confunde sector y cara. Un sector es una parte de una pista; una cara es una superficie completa de un plato. Un clúster agrupa sectores contiguos a nivel lógico."],
+  [/siglas NO corresponde a un tipo de monitor|ARP/i, "CRT, LCD y TFT son tecnologías o familias asociadas a la visualización. ARP es un protocolo de red para resolver direcciones IP en direcciones físicas, no una tecnología de monitor."],
+  [/pines.*USB Tipo C|USB Tipo C.*24/i, "El conector USB Tipo C tiene 24 pines y es reversible: puede enchufarse en cualquiera de las dos orientaciones. El tipo de conector no determina por sí solo la versión USB ni su velocidad."],
+  [/Thunderbolt 1 y Thunderbolt 2.*bidireccional|Thunderbolt.*INCORRECTA/i, "Thunderbolt 1 y 2 usan conector Mini DisplayPort y ofrecen 10 y 20 Gbit/s respectivamente mediante canales de 10 Gbit/s. La opción incorrecta simplifica de forma engañosa esa arquitectura como un único enlace bidireccional."],
+  [/puerto DVI.*INCORRECTA|DVI-B/i, "DVI-A transporta señal analógica, DVI-D señal digital y DVI-I ambas. No existe un estándar DVI-B como variante habitual del conector, por lo que atribuirle señal digital es incorrecto."],
+  [/velocidad de SAS-3|12 Gbps/i, "SAS-3 alcanza 12 Gbit/s por enlace. SAS-2 llega a 6 Gbit/s y SAS-4 eleva la tasa, de modo que 12 Gbit/s identifica específicamente la tercera generación."],
+  [/fichero de vídeo de una hora.*1,2 Mbits|CD.*650 MBytes/i, "Un vídeo de 1,2 Mbit/s durante 3.600 segundos ocupa 4.320 Mbit, equivalentes a 540 MByte. El CD de 650 MByte es el soporte más barato de las opciones con capacidad suficiente."],
+  [/resolución 1080p|1080 líneas de resolución vertical/i, "En 1080p, 1080 indica las líneas verticales y la letra p significa progressive scan: todas las líneas se dibujan de forma progresiva, no entrelazada. No describe la resolución horizontal."],
+  [/NTI.*nivel de resolución mínimo|resolución mínimo.*imagen electrónica/i, "La Norma Técnica de Interoperabilidad de Digitalización fija una resolución mínima de 200 ppp para la imagen electrónica. Es un requisito de calidad de la digitalización y no debe confundirse con resoluciones habituales de pantalla."],
+  [/NTI Digitalización.*INCORRECTA|membrete/i, "La imagen electrónica debe ser fiel al documento origen, respetar su geometría y tener al menos 200 ppp. No pueden añadirse caracteres ni gráficos ajenos al original, por lo que el membrete añadido hace incorrecta esa opción."],
+  [/componentes digitales.*documento electrónico.*digitalización|Firma electrónica/i, "La NTI exige imagen electrónica, metadatos mínimos y, en su caso, metadatos del proceso de digitalización. La firma electrónica no es un componente obligatorio de todo documento digitalizado, por eso es la opción incorrecta."],
+  [/conectores completamente simétricos|USB-C/i, "USB-C tiene diseño simétrico y reversible. USB-A y USB-B tienen orientación física determinada y USB-S no es una categoría estándar de conector USB."],
+  [/velocidad de USB 4\.0|USB 4.*40 Gbps/i, "USB4 puede alcanzar 40 Gbit/s en su especificación inicial. Es una evolución basada en la arquitectura de Thunderbolt 3 y supera las tasas de USB 3.x."],
+  [/USB 3\.2 Gen 2x1|USB 3\.1 Gen 2/i, "USB 3.2 Gen 2x1 mantiene un único carril a 10 Gbit/s, por lo que equivale a USB 3.1 Gen 2. La nomenclatura cambia, pero no la tasa máxima de ese modo."],
+  [/DisplayPort.*INCORRECTA|Interfaz analógica/i, "DisplayPort es una interfaz digital de audio y vídeo, no analógica. DisplayPort 2.0 mejora su ancho de banda y el modo alternativo por USB-C permite resoluciones muy altas."],
+  [/número máximo de carriles.*PCIe|PCIe.*16/i, "PCI Express puede agrupar hasta 16 carriles en un enlace x16, habitual en tarjetas gráficas. Los enlaces x1, x4 y x8 existen, pero no representan el máximo."],
+  [/tecnología de impresión 3D FDM|polímero fundido/i, "FDM deposita polímero fundido sobre una base plana capa a capa hasta formar la pieza. La curación de resina con luz UV corresponde a SLA y la sinterización de polvo por láser a SLS."],
+  [/SATA 3\.0 utiliza un cable de datos|7 pines exclusivo/i, "El cable de datos SATA tiene siete conductores y conecta de forma exclusiva un puerto SATA con una unidad. La alimentación llega mediante un conector SATA independiente."],
+  [/16 Gbps|SATAe/i, "SATA Express, también llamado SATAe, combina SATA con carriles PCIe y ofrece hasta 16 Gbit/s en la comparación del temario. SATA 3.0 llega a 6 Gbit/s y no debe confundirse con SAS."],
+  [/INCORRECTA.*NVMe|discos duros/i, "NVMe significa Non-Volatile Memory Express y está diseñado para medios no volátiles conectados por PCIe, especialmente SSD. No se utiliza de forma intensiva para discos duros mecánicos, que suelen emplear SATA o SAS."],
+  [/mayor velocidad de lectura|SSD NVMe/i, "Un SSD NVMe usa PCIe y el protocolo NVMe, pensado para paralelismo y baja latencia. Por eso suele superar en lectura a un SSD conectado mediante SATA, incluso si ambos usan memoria flash."],
+  [/tecnología de monitor NO existe|TLED/i, "CRT, LCD e IPS son denominaciones de tecnologías o paneles de monitor. TLED no es una tecnología de pantalla reconocida; probablemente se confunde con LED, la retroiluminación de muchos LCD."],
+  [/disco duro SATA a la placa base|cable de alimentación SATA/i, "Un disco SATA necesita cable de datos hacia la placa base y cable de alimentación desde la fuente. El conector de datos no suministra por sí mismo la energía necesaria para la unidad."],
+  [/velocidad de transferencia máxima ofrece SATA 3\.0|6 Gbps/i, "SATA 3.0 ofrece una tasa de señalización de 6 Gbit/s. SATA 1.0 y 2.0 se asocian a 1,5 y 3 Gbit/s; 12 Gbit/s corresponde a SAS-3, no a SATA 3.0."],
+  [/a partir de qué versión de USB.*supera 1 Gbps|USB 3\.0/i, "USB 2.0 se limita a 480 Mbit/s, por debajo de 1 Gbit/s. USB 3.0 alcanza 4,8 Gbit/s, por lo que es la primera versión de la lista que supera ese umbral."],
+  [/tecnología empleada para la impresión 3D|SLS/i, "SLS significa sinterización selectiva por láser y es una técnica de fabricación aditiva. CCD es un sensor de imagen y WIA una interfaz de adquisición para Windows, no procesos de impresión 3D."],
+  [/NO es un espacio de color|HSM/i, "RGB y CMYK son espacios o modelos de color y HSB describe tono, saturación y brillo. HSM no es la denominación estándar del espacio de color que pretende incluir la pregunta."],
+  [/bits utilizados para definir cada píxel|Profundidad de bit/i, "La profundidad de color expresa cuántos bits se usan para codificar cada píxel y cuántos colores o niveles puede representar. La resolución mide el número de píxeles, no los bits de cada uno."],
+  [/640 x 480|480 líneas de exploración/i, "La notación 640 x 480 expresa 640 píxeles en horizontal y 480 en vertical. Por eso un monitor con esa resolución tiene 480 líneas de exploración verticales."],
+  [/resolución interpolada|genera nuevos puntos/i, "La resolución interpolada se calcula por software creando puntos nuevos a partir de los píxeles reales próximos. No aumenta la resolución óptica del sensor, que es la capacidad física de captura del escáner."],
+  [/almacenamiento en disco mediante bus serie|SATA/i, "SATA es una tecnología de almacenamiento que usa un bus serie. ATA paralelo y SCSI tradicional no identifican la interfaz serie de consumo que pregunta el enunciado."],
+  [/norma USB.*respuesta INCORRECTA|USB Type-C es lo mismo que USB 3\.1/i, "USB Type-C describe la forma física del conector, mientras que USB 3.1 es una especificación de transferencia. Un puerto Type-C puede implementar distintas versiones USB; por eso no son equivalentes."],
+  [/acceso más rápido.*datos en reposo|Disco SSD/i, "Entre los soportes de almacenamiento persistente propuestos, el SSD proporciona el acceso más rápido por usar memoria flash sin movimientos mecánicos. La RAM es más rápida, pero es volátil y no almacena datos en reposo."],
+  [/impresión más económica|láser/i, "Una vez adquirido el equipo, la impresión láser suele tener menor coste por página que la inyección, especialmente en tiradas medias o altas. El cartucho de tóner rinde muchas más páginas."],
+  [/discos mecánicos, SSD.s y NVMe.*capacidad|más rápidos son los NVMe/i, "Los discos mecánicos siguen ofreciendo grandes capacidades a menor coste, mientras que NVMe conectado por PCIe suele ser el más rápido. SSD SATA queda normalmente entre ambos en rendimiento."],
+  [/término QWERTY|tipo de teclado/i, "QWERTY es la distribución de teclado denominada por las seis primeras letras de la fila superior alfabética. No designa un tipo de impresora, ratón ni pantalla."],
+  [/Qué significa HDD|Hard Disk Drive/i, "HDD significa Hard Disk Drive, unidad de disco duro. Designa el dispositivo magnético de almacenamiento con platos giratorios y cabezales de lectura y escritura."],
+  [/tarjeta gráfica.*placa base|PCI-Express/i, "Las tarjetas gráficas dedicadas se conectan habitualmente mediante una ranura PCI Express x16. SATA e IDE son interfaces de almacenamiento y COM es un puerto serie heredado."],
+  [/periféricos de entrada|Teclado, ratón y escáner/i, "Teclado, ratón y escáner introducen datos en el ordenador, por lo que son periféricos de entrada. Impresora, altavoces y auriculares son periféricos de salida."],
+  [/PCIe 5\.0|Thunderbolt 5\.0 ofrece.*80 Gbps/i, "Thunderbolt 5 ofrece por defecto 80 Gbit/s, con un modo de mayor ancho de banda en una dirección para vídeo. PCIe 5.0, HDMI 2.1 y USB4 2.0 tienen cifras distintas y no deben intercambiarse."],
+];
+
+function buildB2T2Explanation(prompt, correctLabel, options = []) {
+  const optionLabels = options.map((option) => option.label).join(" ");
+  const primarySource = `${prompt} ${correctLabel}`;
+  const specificRule = b2t2ExplanationRules.find(([match]) => match.test(primarySource))
+    ?? b2t2ExplanationRules.find(([match]) => match.test(`${primarySource} ${optionLabels}`));
+
+  return specificRule?.[1]
+    ?? "La respuesta se obtiene comprobando la especificación concreta de periféricos que plantea el enunciado: función, interfaz, velocidad, unidad o tecnología. Las demás alternativas cambian un dato técnico esencial del temario B2T2.";
 }
 
 const b1t4ExplanationRules = [
@@ -1050,7 +1140,9 @@ function buildExplanation(code, prompt, _correctOptionId, correctLabel, options 
     ? buildB1T4Explanation(prompt, correctLabel, options)
     : code === "B2T1"
       ? buildB2T1Explanation(prompt, correctLabel, options)
-    : explanationRules.find((rule) => rule.match.test(`${prompt} ${correctLabel}`))?.text;
+      : code === "B2T2"
+        ? buildB2T2Explanation(prompt, correctLabel, options)
+        : explanationRules.find((rule) => rule.match.test(`${prompt} ${correctLabel}`))?.text;
   const fallback = topicFallbacks[code] ?? "La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial.";
   const suffix = /[.!?…]$/.test(correctLabel) ? "" : ".";
 

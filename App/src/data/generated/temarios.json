@@ -86,6 +86,20 @@
     ]
   },
   {
+    "code": "B2T2",
+    "slug": "b2t2-perifericos",
+    "sourceFilename": "Bloque 2/Tema 2/B2T2_Perifericos 2.pdf",
+    "title": "B2T2 Perifericos",
+    "pdfPath": "/temario/b2t2-perifericos.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 2/Tema 2/La_ingeniería_que_comunica_bits_y_átomos.m4a",
+        "title": "La ingeniería que comunica bits y átomos",
+        "assetPath": "/podcast/B2T2/la-ingenieria-que-comunica-bits-y-atomos.m4a"
+      }
+    ]
+  },
+  {
     "code": "B2T3",
     "slug": "b2t3-estructuras-de-datos",
     "sourceFilename": "Bloque 2/Tema 3/B2T3_Estructuras_de_datos 1.pdf",

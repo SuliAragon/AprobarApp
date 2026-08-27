@@ -290,6 +290,61 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B2T2: {
+    title: "Periféricos: conectividad y administración, impresión, almacenamiento, visualización y digitalización",
+    shortTitle: "Periféricos",
+    description:
+      "Tema técnico sobre periféricos, interfaces y conectividad, tecnologías de impresión, almacenamiento, pantallas, dispositivos de entrada, escáneres y digitalización documental.",
+    summary: [
+      "Concepto de periférico, clasificación por función y papel de los controladores de entrada y salida.",
+      "Puertos e interfaces: serie, paralelo, USB, FireWire, Thunderbolt, vídeo, SATA, PCI Express y Ethernet.",
+      "Tecnologías de impresión: impacto, inyección de tinta, láser, multifunción e impresión 3D.",
+      "Discos magnéticos y SSD: organización física, rendimiento, interfaces y diferencias técnicas.",
+      "Pantallas, teclados y escáneres, junto con la NTI de Digitalización de Documentos.",
+    ],
+    sections: [
+      "Periféricos y clasificación",
+      "Conectividad y administración",
+      "Impresión y tecnologías",
+      "Almacenamiento: HDD y SSD",
+      "Visualización y pantallas táctiles",
+      "Entrada y teclados",
+      "Digitalización y NTI",
+    ],
+    accent: "azure",
+    testPresets: [
+      {
+        slug: "perifericos-y-conectividad",
+        title: "Test 1 · Periféricos y conectividad",
+        description: "Repasa clasificación, controladores, puertos clásicos, USB, Thunderbolt, vídeo y expansión.",
+        focusSections: ["perifericos-y-clasificacion", "conectividad-y-administracion"],
+      },
+      {
+        slug: "impresion-y-3d",
+        title: "Test 2 · Impresión y 3D",
+        description: "Entrena tecnologías de impacto, inyección, láser, multifunción y fabricación aditiva.",
+        focusSections: ["impresion-y-tecnologias"],
+      },
+      {
+        slug: "discos-y-ssd",
+        title: "Test 3 · Discos y SSD",
+        description: "Trabaja platos, pistas, sectores, cilindros, rendimiento e interfaces de almacenamiento.",
+        focusSections: ["almacenamiento-hdd-y-ssd"],
+      },
+      {
+        slug: "pantallas-y-tactil",
+        title: "Test 4 · Pantallas y táctil",
+        description: "Refuerza resolución, tecnologías de visualización y funcionamiento de las pantallas táctiles.",
+        focusSections: ["visualizacion-y-pantallas-tactiles"],
+      },
+      {
+        slug: "entrada-y-digitalizacion",
+        title: "Test 5 · Entrada y digitalización",
+        description: "Repasa teclados, escáneres, color, resolución y requisitos de la NTI de digitalización.",
+        focusSections: ["entrada-y-teclados", "digitalizacion-y-nti"],
+      },
+    ],
+  },
   B2T3: {
     title: "Tipos abstractos y estructuras de datos, algoritmos, ficheros y formatos",
     shortTitle: "Estructuras de datos",

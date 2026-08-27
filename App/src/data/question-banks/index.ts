@@ -4,6 +4,7 @@ import { b1t2CortesGeneralesQuestionBank } from "./b1t2-cortes-generales";
 import { b1t3GobiernoQuestionBank } from "./b1t3-gobierno";
 import { b1t4TransparencyQuestionBank } from "./b1t4-transparency";
 import { b2t1InformaticaBasicaQuestionBank } from "./b2t1-informatica-basica";
+import { b2t2PerifericosQuestionBank } from "./b2t2-perifericos";
 import { b2t4OperatingSystemsQuestionBank } from "./b2t4-operating-systems";
 import { b2t3DataStructuresQuestionBank } from "./b2t3-data-structures";
 import { b2t5SgbdQuestionBank } from "./b2t5-sgbd";
@@ -18,6 +19,7 @@ const rawQuestionBanksByCode: Record<string, QuizQuestion[]> = {
   B1T3: b1t3GobiernoQuestionBank,
   B1T4: b1t4TransparencyQuestionBank,
   B2T1: b2t1InformaticaBasicaQuestionBank,
+  B2T2: b2t2PerifericosQuestionBank,
   B2T3: b2t3DataStructuresQuestionBank,
   B2T4: b2t4OperatingSystemsQuestionBank,
   B2T5: b2t5SgbdQuestionBank,

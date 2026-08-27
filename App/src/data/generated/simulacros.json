@@ -12,6 +12,12 @@
     "assetPath": "/simulacros/simulacro-3.pdf"
   },
   {
+    "slug": "simulacro-4",
+    "title": "Simulacro 4",
+    "sourceFilename": "Simulacro_4.pdf",
+    "assetPath": "/simulacros/simulacro-4.pdf"
+  },
+  {
     "slug": "simulacro-1",
     "title": "Simulacro 1",
     "sourceFilename": "Simulacro_1 4.pdf",

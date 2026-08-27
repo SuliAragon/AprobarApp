@@ -26,7 +26,7 @@ interface GeneratedInteractiveSimulation {
   questions: QuizQuestion[];
 }
 
-const simulationOverrides: Record<
+export const simulationOverrides: Record<
   string,
   {
     title?: string;
@@ -55,6 +55,13 @@ const simulationOverrides: Record<
       "Simulacro global de los nueve temas disponibles para entrenar cambios de bloque y una vuelta completa al temario estudiado.",
     studyLabel: "Repaso acumulado",
     coveredTopicCodes: ["B1T1", "B1T2", "B1T3", "B2T3", "B2T4", "B2T5", "B3T1", "B3T2", "B3T4"],
+  },
+  "simulacro-4": {
+    title: "Simulacro 4 · Repaso de los doce primeros temas",
+    description:
+      "Simulacro global de los doce temas disponibles para entrenar una vuelta completa al temario y los cambios de bloque.",
+    studyLabel: "Repaso acumulado",
+    coveredTopicCodes: ["B1T1", "B1T2", "B1T3", "B1T4", "B2T1", "B2T2", "B2T3", "B2T4", "B2T5", "B3T1", "B3T2", "B3T4"],
   },
 };
 

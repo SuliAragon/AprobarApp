@@ -224,7 +224,7 @@
           },
           {
             "id": "d",
-            "label": "La legalidad y la Nación española. SIMULACRO 2"
+            "label": "La legalidad y la Nación española. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "b",
@@ -399,7 +399,7 @@
           },
           {
             "id": "d",
-            "label": "El Príncipe heredero de la Corona, aunque fuese menor de edad. SIMULACRO 2"
+            "label": "El Príncipe heredero de la Corona, aunque fuese menor de edad. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "c",
@@ -574,7 +574,7 @@
           },
           {
             "id": "d",
-            "label": "Las sentencias de control de transacciones incluyen las instrucciones COMMIT y ROLLBACK. SIMULACRO 2"
+            "label": "Las sentencias de control de transacciones incluyen las instrucciones COMMIT y ROLLBACK. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "c",
@@ -799,11 +799,11 @@
           },
           {
             "id": "d",
-            "label": "Solo puede ser (idProy, idEmp). SIMULACRO 2"
+            "label": "Solo puede ser (idProy, idEmp). SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «Solo puede ser (idProy, idEmp). SIMULACRO 2.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «Solo puede ser (idProy, idEmp). SIMULACRO 2 TAI.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-33",
@@ -999,7 +999,7 @@
           },
           {
             "id": "d",
-            "label": "El derecho a comunicar o recibir libremente información veraz por cualquier medio de difusión. SIMULACRO 2"
+            "label": "El derecho a comunicar o recibir libremente información veraz por cualquier medio de difusión. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "a",
@@ -1449,11 +1449,11 @@
           },
           {
             "id": "d",
-            "label": "Proporcionar funcionamiento en alta disponibilidad. SIMULACRO 2"
+            "label": "Proporcionar funcionamiento en alta disponibilidad. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Proporcionar funcionamiento en alta disponibilidad. SIMULACRO 2.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Proporcionar funcionamiento en alta disponibilidad. SIMULACRO 2 TAI.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-59",
@@ -1624,7 +1624,7 @@
           },
           {
             "id": "d",
-            "label": "Ninguna de las respuestas es correcta. SIMULACRO 2"
+            "label": "Ninguna de las respuestas es correcta. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "c",
@@ -1874,11 +1874,11 @@
           },
           {
             "id": "d",
-            "label": "Es apropiada porque mejora la eficiencia en los accesos a todos los atributos de un subtipo, ya sean los atributos comunes al supertipo o los atributos específicos de cada subtipo. SIMULACRO 2"
+            "label": "Es apropiada porque mejora la eficiencia en los accesos a todos los atributos de un subtipo, ya sean los atributos comunes al supertipo o los atributos específicos de cada subtipo. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «Es apropiada porque mejora la eficiencia en los accesos a todos los atributos de un subtipo, ya sean los atributos comunes al supertipo o los atributos específicos de cada subtipo. SIMULACRO 2.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «Es apropiada porque mejora la eficiencia en los accesos a todos los atributos de un subtipo, ya sean los atributos comunes al supertipo o los atributos específicos de cada subtipo. SIMULACRO 2 TAI.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-76",
@@ -1912,23 +1912,23 @@
         "options": [
           {
             "id": "a",
-            "label": ""
+            "label": "Ambas consultas devuelven el mismo resultado."
           },
           {
             "id": "b",
-            "label": ""
+            "label": "Cada consulta devuelve un resultado distinto."
           },
           {
             "id": "c",
-            "label": ""
+            "label": "La consulta 2 devuelve más de un registro."
           },
           {
             "id": "d",
-            "label": "Ambas consultas devuelven el mismo resultado. Cada consulta devuelve un resultado distinto. La consulta 2 devuelve más de un registro. Ninguna de las respuestas anteriores es correcta. SIMULACRO 2"
+            "label": "Ninguna de las respuestas anteriores es correcta. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «Ambas consultas devuelven el mismo resultado.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-78",
@@ -1966,11 +1966,11 @@
           },
           {
             "id": "b",
-            "label": "InfluxDB."
+            "label": "IndexedDB."
           },
           {
             "id": "c",
-            "label": "IndexedDB."
+            "label": "InfluxDB."
           },
           {
             "id": "d",
@@ -1978,7 +1978,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «InfluxDB.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «IndexedDB.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-80",
@@ -2149,7 +2149,7 @@
           },
           {
             "id": "d",
-            "label": "Retira todos los permisos del usuario user y a continuación lo borra de la tabla administrators. SIMULACRO 2"
+            "label": "Retira todos los permisos del usuario user y a continuación lo borra de la tabla administrators. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "b",
@@ -2287,23 +2287,23 @@
         "options": [
           {
             "id": "a",
-            "label": ""
+            "label": "La creación del usuario USU_PEDIDOS con permisos de acceso a todas las tablas de COMPRAS."
           },
           {
             "id": "b",
-            "label": ""
+            "label": "Autorización de selección a USU_PEDIDOS a todas las tablas de COMPRAS."
           },
           {
             "id": "c",
-            "label": ""
+            "label": "Permisos de selección a USU_PEDIDOS a la tabla PEDIDOS de COMPRAS."
           },
           {
             "id": "d",
-            "label": "La creación del usuario USU_PEDIDOS con permisos de acceso a todas las tablas de COMPRAS. Autorización de selección a USU_PEDIDOS a todas las tablas de COMPRAS. Permisos de selección a USU_PEDIDOS a la tabla PEDIDOS de COMPRAS. Permisos de selección a USU_PEDIDOS a la tabla PEDIDOS de COMPRAS pero solo en el primer acceso que haga. SIMULACRO 2"
+            "label": "Permisos de selección a USU_PEDIDOS a la tabla PEDIDOS de COMPRAS pero solo en el primer acceso que haga. SIMULACRO 2 TAI"
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «Permisos de selección a USU_PEDIDOS a la tabla PEDIDOS de COMPRAS.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-2-93",
@@ -2707,7 +2707,7 @@
           },
           {
             "id": "d",
-            "label": "Las respuestas a) y b) son correctas. SIMULACRO 3"
+            "label": "Las respuestas a) y b) son correctas. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "b",
@@ -2857,7 +2857,7 @@
           },
           {
             "id": "d",
-            "label": "Para ser Príncipe heredero. SIMULACRO 3"
+            "label": "Para ser Príncipe heredero. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "b",
@@ -3032,7 +3032,7 @@
           },
           {
             "id": "d",
-            "label": "AI Presidente del Gobierno. SIMULACRO 3"
+            "label": "AI Presidente del Gobierno. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "a",
@@ -3182,11 +3182,11 @@
           },
           {
             "id": "d",
-            "label": "Tiene como misión la defensa de todos los derechos comprendidos en el Título I de la Constitución Española y no sólo los susceptibles de recurso de amparo. SIMULACRO 3"
+            "label": "Tiene como misión la defensa de todos los derechos comprendidos en el Título I de la Constitución Española y no sólo los susceptibles de recurso de amparo. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Tiene como misión la defensa de todos los derechos comprendidos en el Título I de la Constitución Española y no sólo los susceptibles de recurso de amparo. SIMULACRO 3.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Tiene como misión la defensa de todos los derechos comprendidos en el Título I de la Constitución Española y no sólo los susceptibles de recurso de amparo. SIMULACRO 3 TAI.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-3-28",
@@ -3357,7 +3357,7 @@
           },
           {
             "id": "d",
-            "label": "La aprobación de proyectos de leyes orgánicas. SIMULACRO 3"
+            "label": "La aprobación de proyectos de leyes orgánicas. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "a",
@@ -3582,7 +3582,7 @@
           },
           {
             "id": "d",
-            "label": "De carga de datos. SIMULACRO 3"
+            "label": "De carga de datos. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "a",
@@ -3832,7 +3832,7 @@
           },
           {
             "id": "d",
-            "label": "ipconfig. SIMULACRO 3"
+            "label": "ipconfig. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "a",
@@ -4291,7 +4291,7 @@
       {
         "id": "simulacro-3-72",
         "section": "test-oficial",
-        "prompt": "Si un árbol binario recorrido en “preorden” da como resultado a-b-d-c-e-f y recorrido en “inorden” b-d-a-e-cf, ¿cómo será el orden de visitas si el árbol binario es recorrido en “postorden”?",
+        "prompt": "Si un árbol binario recorrido en “preorden” da como resultado a-b-d-c-e-f y recorrido en “inorden” b-d-a-e-c- f, ¿cómo será el orden de visitas si el árbol binario es recorrido en “postorden”?",
         "options": [
           {
             "id": "a",
@@ -4332,7 +4332,7 @@
           },
           {
             "id": "d",
-            "label": "Crear una vista. SIMULACRO 3"
+            "label": "Crear una vista. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "b",
@@ -4482,7 +4482,7 @@
           },
           {
             "id": "d",
-            "label": "Obtener en una sentencia SELECT grupos de tuplas en lugar de tuplas individuales. SIMULACRO 3"
+            "label": "Obtener en una sentencia SELECT grupos de tuplas en lugar de tuplas individuales. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "b",
@@ -4907,7 +4907,7 @@
           },
           {
             "id": "d",
-            "label": "Los nombres de parámetro y de variable tienen que coincidir. SIMULACRO 3"
+            "label": "Los nombres de parámetro y de variable tienen que coincidir. SIMULACRO 3 TAI"
           }
         ],
         "correctOption": "a",
@@ -5017,6 +5017,2514 @@
   },
   {
     "code": "SIMULACRO",
+    "slug": "simulacro-4",
+    "title": "Simulacro 4",
+    "description": "Simulacro global de la academia con correccion inmediata y plantilla integrada.",
+    "questions": [
+      {
+        "id": "simulacro-4-1",
+        "section": "test-oficial",
+        "prompt": "Están legitimados para interponer el recurso de amparo, según la Constitución Española:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Las Comunidades Autónomas."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "El Ministerio Fiscal."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: el artículo 162.1.b de la Constitución reconoce legitimación para el recurso de amparo, entre otros, al Ministerio Fiscal. El Gobierno, su Presidente y las Comunidades Autónomas no figuran como legitimados en ese precepto."
+      },
+      {
+        "id": "simulacro-4-2",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, ¿qué confesión tendrá carácter estatal?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ninguna."
+          },
+          {
+            "id": "b",
+            "label": "La Iglesia Católica."
+          },
+          {
+            "id": "c",
+            "label": "La confesión mayoritaria."
+          },
+          {
+            "id": "d",
+            "label": "Todas son estatales."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Ninguna.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-3",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 9 de la Constitución Española, la Constitución garantiza (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "El principio de legalidad."
+          },
+          {
+            "id": "b",
+            "label": "La jerarquía normativa."
+          },
+          {
+            "id": "c",
+            "label": "La seguridad jurídica."
+          },
+          {
+            "id": "d",
+            "label": "La publicidad de las leyes."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: el artículo 9.3 garantiza la publicidad de las normas, no la publicidad de las leyes formulada de manera restrictiva. El principio de legalidad, la jerarquía normativa y la seguridad jurídica aparecen expresamente en el mismo precepto."
+      },
+      {
+        "id": "simulacro-4-4",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, los 4 miembros del Tribunal Constitucional propuestos por el Congreso son elegidos por mayoría de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "2/3 de los presentes."
+          },
+          {
+            "id": "b",
+            "label": "3/5 de los presentes."
+          },
+          {
+            "id": "c",
+            "label": "2/3 de sus miembros."
+          },
+          {
+            "id": "d",
+            "label": "3/5 de sus miembros."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: el artículo 159.1 de la Constitución exige una mayoría de tres quintos de los miembros del Congreso para proponer cuatro magistrados del Tribunal Constitucional. No basta calcular la mayoría sobre los asistentes."
+      },
+      {
+        "id": "simulacro-4-5",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 9 de la Constitución Española, están sujetos a la Constitución y al resto del ordenamiento jurídico:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los ciudadanos y los poderes públicos."
+          },
+          {
+            "id": "b",
+            "label": "Los ciudadanos a excepción de los poderes públicos."
+          },
+          {
+            "id": "c",
+            "label": "Los ciudadanos y los poderes públicos, a excepción de las personas miembros del Congreso y Senado que gozan de inmunidad parlamentaria."
+          },
+          {
+            "id": "d",
+            "label": "Los ciudadanos y los poderes públicos, a excepción de la persona que ostente la presidencia del Gobierno del Estado y de las Comunidades Autónomas que no están sujetas a responsabilidad jurídica."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: el artículo 9.1 establece literalmente que los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico. Las inmunidades parlamentarias no eliminan esa sujeción general ni existen las excepciones de las otras opciones."
+      },
+      {
+        "id": "simulacro-4-6",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 116.3 de la Constitución Española, el estado de excepción será declarado por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "b",
+            "label": "Las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "El Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «El Gobierno.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-7",
+        "section": "test-oficial",
+        "prompt": "En el artículo 116 de la Constitución Española se indica que las competencias y limitaciones correspondientes a los estados de alarma, de excepción y de sitio se regularán mediante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un Real Decreto."
+          },
+          {
+            "id": "b",
+            "label": "Una Ley ordinaria."
+          },
+          {
+            "id": "c",
+            "label": "Una Ley Orgánica."
+          },
+          {
+            "id": "d",
+            "label": "Una resolución ministerial."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Una Ley Orgánica.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-8",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el Título III de la Constitución Española, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Sala de lo Penal de la Audiencia Nacional será la competente para conocer de las causas contra Diputados y Senadores."
+          },
+          {
+            "id": "b",
+            "label": "El voto de Senadores y Diputados es personal, delegable y será emitido de forma electrónica mediante firma digital."
+          },
+          {
+            "id": "c",
+            "label": "Los Diputados y Senadores gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones."
+          },
+          {
+            "id": "d",
+            "label": "Durante su mandato, los Diputados y Senadores no podrán ser procesados sin la previa autorización conjunta de ambas Cámaras."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Los Diputados y Senadores gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-9",
+        "section": "test-oficial",
+        "prompt": "¿En qué artículo de la Constitución Española se hace referencia a la regulación de la institución del Defensor del Pueblo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Artículo 70."
+          },
+          {
+            "id": "b",
+            "label": "Artículo 54."
+          },
+          {
+            "id": "c",
+            "label": "Articulo 62."
+          },
+          {
+            "id": "d",
+            "label": "Articulo 55. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Artículo 54.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-10",
+        "section": "test-oficial",
+        "prompt": "De las siguientes funciones recogidas en la Ley 50/1997 del Gobierno, corresponde al Consejo de Ministros:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Resolver los conflictos de atribuciones que puedan surgir entre los diferentes Ministerios."
+          },
+          {
+            "id": "b",
+            "label": "Dirigir la política de defensa y ejercer respecto de las Fuerzas Armadas las funciones previstas en la legislación reguladora de la defensa nacional y de la organización militar."
+          },
+          {
+            "id": "c",
+            "label": "Crear, modificar y suprimir los órganos directivos de los Departamentos Ministeriales."
+          },
+          {
+            "id": "d",
+            "label": "Representar al Gobierno."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Crear, modificar y suprimir los órganos directivos de los Departamentos Ministeriales.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-11",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 19/2013, de Transparencia, acceso a la información pública y buen gobierno, la motivación de una solicitud de acceso a la información pública:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No siempre es obligatoria por parte del solicitante."
+          },
+          {
+            "id": "b",
+            "label": "Es requisito ineludible para que se facilite la información."
+          },
+          {
+            "id": "c",
+            "label": "Si no se realiza por el solicitante constituirá causa de rechazo de la solicitud."
+          },
+          {
+            "id": "d",
+            "label": "Se deja a la decisión del solicitante."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Se deja a la decisión del solicitante.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-12",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 19/2013, de Transparencia, acceso a la información pública y buen gobierno, NO es un fin del Consejo de Transparencia y Buen Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Promover la participación ciudadana en la actividad pública."
+          },
+          {
+            "id": "b",
+            "label": "Velar por el cumplimiento de las obligaciones de publicidad."
+          },
+          {
+            "id": "c",
+            "label": "Salvaguardar el ejercicio del derecho de acceso a la información pública."
+          },
+          {
+            "id": "d",
+            "label": "Garantizar la observancia de las normas de buen gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Promover la participación ciudadana en la actividad pública.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-13",
+        "section": "test-oficial",
+        "prompt": "De las infracciones tipificadas en la Ley 19/2013, indique cuál de las siguientes es un infracción grave:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La publicación o utilización indebida de la documentación o información a que tengan o hayan tenido acceso por razón de su cargo o función."
+          },
+          {
+            "id": "b",
+            "label": "El abuso de autoridad en el ejercicio del cargo."
+          },
+          {
+            "id": "c",
+            "label": "La obstaculización al ejercicio de las libertades públicas y derechos sindicales."
+          },
+          {
+            "id": "d",
+            "label": "El descuido o negligencia en el ejercicio de sus funciones y el incumplimiento de los principios de actuación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «El abuso de autoridad en el ejercicio del cargo.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-14",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Ley 19/2013, de Transparencia, acceso a la información pública y buen gobierno, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La información sujeta a las obligaciones de transparencia será publicada en las correspondientes sedes electrónicas o páginas web y de una manera clara, estructurada y entendible para los interesados y, preferiblemente, en formatos reutilizables."
+          },
+          {
+            "id": "b",
+            "label": "La información sujeta a las obligaciones de transparencia será comprensible, de acceso fácil y gratuito y estará a disposición de las personas con discapacidad en una modalidad suministrada por medios o en formatos adecuados que resulten accesibles y comprensibles, conforme al principio de accesibilidad universal y diseño para todos."
+          },
+          {
+            "id": "c",
+            "label": "En relación con el derecho de acceso a la información pública, la aplicación de los límites al derecho de acceso será justificada y proporcionada a su objeto y finalidad de protección y atenderá a las circunstancias del caso concreto, especialmente a la concurrencia de un interés público o privado superior que justifique el acceso."
+          },
+          {
+            "id": "d",
+            "label": "En relación con el derecho de acceso a la información pública, si la información solicitada contuviera datos personales que revelen la ideología, afiliación sindical, religión o creencias, el acceso únicamente se podrá autorizar en caso de que se contase con el consentimiento expreso del afectado, a menos que dicho afectado hubiese hecho manifiestamente públicos los datos con anterioridad a que se solicitase el acceso."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «En relación con el derecho de acceso a la información pública, si la información solicitada contuviera datos personales que revelen la ideología, afiliación sindical, religión o creencias, el acceso únicamente se podrá autorizar en caso de que se contase con el consentimiento expreso del afectado, a menos que dicho afectado hubiese hecho manifiestamente públicos los datos con anterioridad a que se solicitase el acceso.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-15",
+        "section": "test-oficial",
+        "prompt": "En relación con los Objetivos de Desarrollo Sostenible, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "ODS 10 – Reducción de las desigualdades."
+          },
+          {
+            "id": "b",
+            "label": "ODS 13 – Vida submarina."
+          },
+          {
+            "id": "c",
+            "label": "ODS 5 – Igualdad de género."
+          },
+          {
+            "id": "d",
+            "label": "ODS 2 – Hambre cero. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «ODS 13 – Vida submarina.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-16",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO forma parte de la Comisión de Transparencia y Buen Gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un representante del Tribunal de Cuentas."
+          },
+          {
+            "id": "b",
+            "label": "Un representante de la Autoridad Independiente de Responsabilidad Fiscal."
+          },
+          {
+            "id": "c",
+            "label": "Un representante de la Agencia Española de Protección de Datos."
+          },
+          {
+            "id": "d",
+            "label": "Un representante de la Agencia Española de Administración Tributaria."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El régimen de buen gobierno exige actuación responsable e imparcial de los altos cargos. El Consejo de Transparencia y Buen Gobierno vela por el cumplimiento de la Ley y garantiza el derecho de acceso en su ámbito de competencia. La respuesta correcta es «Un representante de la Agencia Española de Administración Tributaria.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-17",
+        "section": "test-oficial",
+        "prompt": "En relación con el derecho de acceso a la información pública y de conformidad con la Ley 19/2013, de Transparencia, acceso a la información pública y buen gobierno, si la información incluyese datos personales que hagan referencia al origen racial, a la salud o a la vida sexual, incluyese datos genéticos o biométricos o contuviera datos relativos a la comisión de infracciones penales o administrativas que no conllevasen la amonestación pública al infractor, el acceso sólo se podrá autorizar en caso de que se cuente con el consentimiento expreso del afectado o:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Si aquél hubiese hecho manifiestamente públicos los datos con anterioridad a que se solicitase el acceso."
+          },
+          {
+            "id": "b",
+            "label": "De su representante voluntario."
+          },
+          {
+            "id": "c",
+            "label": "Si aquél estuviera amparado por una disposición de carácter general."
+          },
+          {
+            "id": "d",
+            "label": "Si aquél estuviera amparado por una norma con rango de Ley."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Si aquél estuviera amparado por una norma con rango de Ley.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-18",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley 19/2013, los principios técnicos del Portal de Transparencia son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Accesibilidad, interoperabilidad y reutilización."
+          },
+          {
+            "id": "b",
+            "label": "Seguridad, interoperabilidad y reutilización."
+          },
+          {
+            "id": "c",
+            "label": "Accesibilidad, seguridad e interoperabilidad."
+          },
+          {
+            "id": "d",
+            "label": "Reutilización, seguridad e integridad."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 19/2013 distingue las obligaciones de publicidad activa y exige difundir de oficio la información relevante. La respuesta correcta aplica el ámbito subjetivo, el tipo de información o la obligación concreta que prevé el Título I. La respuesta correcta es «Accesibilidad, interoperabilidad y reutilización.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-19",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA en relación con la Agenda 2030:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Fue firmada en 2015 por los jefes de Estado y de Gobierno de los países miembros de Naciones Unidas."
+          },
+          {
+            "id": "b",
+            "label": "Está formada por 17 Objetivos de Desarrollo Sostenible con 169 metas."
+          },
+          {
+            "id": "c",
+            "label": "Está compuesta por 5 ejes: paz, personas, solidaridad, prosperidad y alianzas."
+          },
+          {
+            "id": "d",
+            "label": "Su lema es “Transformar nuestro mundo”."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Agenda 2030 articula 17 Objetivos de Desarrollo Sostenible y 169 metas con un enfoque universal, integrado e indivisible. Las cinco P son Personas, Planeta, Prosperidad, Paz y Alianzas. La respuesta correcta es «Está compuesta por 5 ejes: paz, personas, solidaridad, prosperidad y alianzas.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-20",
+        "section": "test-oficial",
+        "prompt": "El tipo de datos de entrada de una ALU (Unidad Aritmético Lógica) son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Acumuladores."
+          },
+          {
+            "id": "b",
+            "label": "Operandos."
+          },
+          {
+            "id": "c",
+            "label": "Interrupciones."
+          },
+          {
+            "id": "d",
+            "label": "Registros."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Operandos.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-21",
+        "section": "test-oficial",
+        "prompt": "Ocho nibbles, como unidad de información en un ordenador, equivalen a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "8 bits."
+          },
+          {
+            "id": "b",
+            "label": "24 bits."
+          },
+          {
+            "id": "c",
+            "label": "4 bytes."
+          },
+          {
+            "id": "d",
+            "label": "32 bytes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «4 bytes.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-22",
+        "section": "test-oficial",
+        "prompt": "En el registro de instrucción de la unidad central de proceso, se guarda la información referente a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las instrucciones que se ejecutan en lenguaje C."
+          },
+          {
+            "id": "b",
+            "label": "Las instrucciones necesarias para la carga inicial del sistema operativo."
+          },
+          {
+            "id": "c",
+            "label": "El código de las microinstrucciones generadas por el kernel."
+          },
+          {
+            "id": "d",
+            "label": "La instrucción que se está ejecutando."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «La instrucción que se está ejecutando.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-23",
+        "section": "test-oficial",
+        "prompt": "Indique qué capacidad de almacenamiento total dispone un ordenador si éste cuenta con dos discos duros, uno con capacidad de 2 TiB y otro de 3072 GiB:",
+        "options": [
+          {
+            "id": "a",
+            "label": "15.368.724.112 KiB."
+          },
+          {
+            "id": "b",
+            "label": "4 TiB."
+          },
+          {
+            "id": "c",
+            "label": "5.120 GiB."
+          },
+          {
+            "id": "d",
+            "label": "5.242.884 MiB."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las propiedades ACID garantizan que una transacción se ejecute de forma fiable: atomicidad, consistencia, aislamiento y durabilidad describen aspectos distintos y complementarios. La respuesta correcta es «5.120 GiB.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-24",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes unidades de medida de almacenamiento tiene mayor capacidad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Yobibyte."
+          },
+          {
+            "id": "b",
+            "label": "Zettabyte."
+          },
+          {
+            "id": "c",
+            "label": "Pebibyte."
+          },
+          {
+            "id": "d",
+            "label": "Robibyte."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las propiedades ACID garantizan que una transacción se ejecute de forma fiable: atomicidad, consistencia, aislamiento y durabilidad describen aspectos distintos y complementarios. La respuesta correcta es «Robibyte.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-25",
+        "section": "test-oficial",
+        "prompt": "El valor decimal del número hexadecimal BA1 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "2721."
+          },
+          {
+            "id": "b",
+            "label": "2993."
+          },
+          {
+            "id": "c",
+            "label": "2977."
+          },
+          {
+            "id": "d",
+            "label": "3009. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «2977.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-26",
+        "section": "test-oficial",
+        "prompt": "La técnica que permite solapar instrucciones mediante la división de su ejecución en etapas se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Parametrización."
+          },
+          {
+            "id": "b",
+            "label": "Segmentación."
+          },
+          {
+            "id": "c",
+            "label": "Multiplexación."
+          },
+          {
+            "id": "d",
+            "label": "Paginación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Segmentación.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-27",
+        "section": "test-oficial",
+        "prompt": "Cuál es la unidad de capacidad de información que se corresponde con 280 Bytes:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1 ExaByte."
+          },
+          {
+            "id": "b",
+            "label": "1 ZebiByte."
+          },
+          {
+            "id": "c",
+            "label": "1 PetaByte."
+          },
+          {
+            "id": "d",
+            "label": "1 YobiByte."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las propiedades ACID garantizan que una transacción se ejecute de forma fiable: atomicidad, consistencia, aislamiento y durabilidad describen aspectos distintos y complementarios. La respuesta correcta es «1 YobiByte.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-28",
+        "section": "test-oficial",
+        "prompt": "Respecto a los distintos tipos de memoria ROM, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "PROM: se suministran vírgenes y el usuario puede programarla cuantas veces quiera, mediante un dispositivo especial."
+          },
+          {
+            "id": "b",
+            "label": "EPROM: puede ser borrada y grabada repetidas veces, para borrarla se aplican rayos infrarrojos."
+          },
+          {
+            "id": "c",
+            "label": "EEPROM: puede ser borrada y grabada repetidas veces eléctricamente."
+          },
+          {
+            "id": "d",
+            "label": "EPPROM: puede ser borrada y grabada repetidas veces, para borrar y grabar se utiliza un dispositivo especial de ancho espectro."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «EEPROM: puede ser borrada y grabada repetidas veces eléctricamente.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-29",
+        "section": "test-oficial",
+        "prompt": "La unidad de información que se corresponde con 128 bytes es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1 Gigabit."
+          },
+          {
+            "id": "b",
+            "label": "1 Kibibit (Kibit)."
+          },
+          {
+            "id": "c",
+            "label": "1 Mebibit (Mibit)."
+          },
+          {
+            "id": "d",
+            "label": "1 Megabit."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «1 Kibibit (Kibit).». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-30",
+        "section": "test-oficial",
+        "prompt": "La revisión 3.2 de la interfaz de bus SATA, eleva el ancho de banda disponible hasta los:",
+        "options": [
+          {
+            "id": "a",
+            "label": "6 Gbps."
+          },
+          {
+            "id": "b",
+            "label": "10 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "12 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "16 Gbps."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «16 Gbps.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-31",
+        "section": "test-oficial",
+        "prompt": "La velocidad del estándar USB 3.2 Gen 2x1 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Similar a la del USB 3.0."
+          },
+          {
+            "id": "b",
+            "label": "Más del doble que la del USB 3.1 Gen 1."
+          },
+          {
+            "id": "c",
+            "label": "4,8 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "15 veces superior a la del USB 2.0."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Más del doble que la del USB 3.1 Gen 1.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-32",
+        "section": "test-oficial",
+        "prompt": "La tecnología Thunderbolt 4 permite transferencias de datos de hasta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "20 Gbps."
+          },
+          {
+            "id": "b",
+            "label": "30 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "40 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "60 Gbps."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «40 Gbps.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-33",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se denomina a los escáneres que son de gran tamaño y permiten escaneos por modelos de color CMYK o RGB, y que debido principalmente a su gran resolución óptica son muy utilizados en estudios de diseño gráfico o artístico?",
+        "options": [
+          {
+            "id": "a",
+            "label": "De cama plana."
+          },
+          {
+            "id": "b",
+            "label": "De mano."
+          },
+          {
+            "id": "c",
+            "label": "De impacto."
+          },
+          {
+            "id": "d",
+            "label": "De tambor."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «De tambor.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-34",
+        "section": "test-oficial",
+        "prompt": "Indique cuál es la velocidad máxima de transmisión de datos del estándar de interconexión de dispositivos USB 3.2:",
+        "options": [
+          {
+            "id": "a",
+            "label": "480 Mbps."
+          },
+          {
+            "id": "b",
+            "label": "20 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "10 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "4,8 Gbps."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «20 Gbps.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-35",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es la velocidad de transmisión de datos de PCI Express versión 4.0 para cuatro carriles?",
+        "options": [
+          {
+            "id": "a",
+            "label": "20 Gbps."
+          },
+          {
+            "id": "b",
+            "label": "40 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "64 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "128 Gbps."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «64 Gbps.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-36",
+        "section": "test-oficial",
+        "prompt": "Los dispositivos de almacenamiento SSD:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tienen mejor rendimiento (mayor ancho de banda y menor latencia) que los tradicionales HDD."
+          },
+          {
+            "id": "b",
+            "label": "Son más caros que los HDD."
+          },
+          {
+            "id": "c",
+            "label": "Están basados en memorias no volátiles."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Todas las respuestas anteriores son correctas. SIMULACRO 4 TAI.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-37",
+        "section": "test-oficial",
+        "prompt": "Con respecto al tipo abstracto de datos árbol podemos decir que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La profundidad de un nodo en un árbol es la longitud del camino desde dicho nodo a la hoja más lejana que sea alcanzable desde él."
+          },
+          {
+            "id": "b",
+            "label": "La altura de un nodo en un árbol es la longitud del único camino existente desde el nodo raíz hasta dicho nodo."
+          },
+          {
+            "id": "c",
+            "label": "La altura de un árbol es el nivel de la hoja menos profunda."
+          },
+          {
+            "id": "d",
+            "label": "El grado de un árbol es el número máximo de hijos que pueden tener sus subárboles."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «El grado de un árbol es el número máximo de hijos que pueden tener sus subárboles.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-38",
+        "section": "test-oficial",
+        "prompt": "Con respecto a JSON, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un tipo de gramática XML."
+          },
+          {
+            "id": "b",
+            "label": "Es una API Java."
+          },
+          {
+            "id": "c",
+            "label": "Es un conjunto de librerías de Javascript."
+          },
+          {
+            "id": "d",
+            "label": "Es un formato de intercambio de datos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Es un formato de intercambio de datos.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-39",
+        "section": "test-oficial",
+        "prompt": "La versión actual (a 1 de febrero de 2025) del sistema operativo iOS es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "16."
+          },
+          {
+            "id": "b",
+            "label": "17."
+          },
+          {
+            "id": "c",
+            "label": "18."
+          },
+          {
+            "id": "d",
+            "label": "19."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «18.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-40",
+        "section": "test-oficial",
+        "prompt": "En el sistema operativo Linux, ¿cuál de las siguientes opciones busca la palabra \"libro\" dentro de ficheros?",
+        "options": [
+          {
+            "id": "a",
+            "label": "find -type f | xwygs grep \"libro\""
+          },
+          {
+            "id": "b",
+            "label": "find -type f | xaygs grep \"libro\""
+          },
+          {
+            "id": "c",
+            "label": "find -type f | xargs grep \"libro\""
+          },
+          {
+            "id": "d",
+            "label": "find -type f | xargp grep \"libro\""
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «find -type f | xargs grep \"libro\".». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-41",
+        "section": "test-oficial",
+        "prompt": "Cuál de los siguientes sistemas de archivos NO fue creado para Windows:",
+        "options": [
+          {
+            "id": "a",
+            "label": "NTFS."
+          },
+          {
+            "id": "b",
+            "label": "FAT16."
+          },
+          {
+            "id": "c",
+            "label": "FAT32."
+          },
+          {
+            "id": "d",
+            "label": "ext3."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «ext3.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-42",
+        "section": "test-oficial",
+        "prompt": "En relación al gestor de base de datos Oracle, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un tablespace es una unidad lógica de almacenamiento."
+          },
+          {
+            "id": "b",
+            "label": "Un datafile (archivo de datos) puede pertenecer a varios tablespaces."
+          },
+          {
+            "id": "c",
+            "label": "Un segmento es la unidad mínima de almacenamiento físico."
+          },
+          {
+            "id": "d",
+            "label": "Una extensión es una agrupación de índices multinivel."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Un tablespace es una unidad lógica de almacenamiento.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-43",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de los siguientes es un motor de bases de datos relacional:",
+        "options": [
+          {
+            "id": "a",
+            "label": "MaxDB."
+          },
+          {
+            "id": "b",
+            "label": "MongoDB."
+          },
+          {
+            "id": "c",
+            "label": "Apache Cassandra."
+          },
+          {
+            "id": "d",
+            "label": "Amazon DynamoDB."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «MaxDB.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-44",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes características en relación a las bases de datos SQL y NoSQL es FALSA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "NoSQL no suele utilizar SQL como lenguaje de consultas."
+          },
+          {
+            "id": "b",
+            "label": "No se suelen realizar operaciones JOIN en NoSQL por el alto coste."
+          },
+          {
+            "id": "c",
+            "label": "Es más sencillo realizar escalado horizontal en NoSQL que en una base de datos SQL."
+          },
+          {
+            "id": "d",
+            "label": "Las bases de datos NoSQL garantizan completamente las propiedades ACID."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las propiedades ACID garantizan que una transacción se ejecute de forma fiable: atomicidad, consistencia, aislamiento y durabilidad describen aspectos distintos y complementarios. La respuesta correcta es «Las bases de datos NoSQL garantizan completamente las propiedades ACID.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-45",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes bases de datos NoSQL es del tipo clave-valor?",
+        "options": [
+          {
+            "id": "a",
+            "label": "MongoDB."
+          },
+          {
+            "id": "b",
+            "label": "Redis."
+          },
+          {
+            "id": "c",
+            "label": "CouchDB."
+          },
+          {
+            "id": "d",
+            "label": "Knosys."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Redis.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-46",
+        "section": "test-oficial",
+        "prompt": "Respecto al diseño conceptual de datos, en una jerarquía de generalización se dice que un subconjunto (caso particular de generalización con una sola entidad como subentidad) siempre es una jerarquía:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Total y exclusiva."
+          },
+          {
+            "id": "b",
+            "label": "Parcial y superpuesta."
+          },
+          {
+            "id": "c",
+            "label": "Parcial y exclusiva."
+          },
+          {
+            "id": "d",
+            "label": "Total y superpuesta. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Parcial y exclusiva.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-47",
+        "section": "test-oficial",
+        "prompt": "En Métrica v3, en relación al modelo Entidad/Relación extendido, dentro de las relaciones débiles, ¿qué dos tipos se distinguen?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dependencia en existencia y dependencia en identificación."
+          },
+          {
+            "id": "b",
+            "label": "Dependencia en composición y dependencia en identificación."
+          },
+          {
+            "id": "c",
+            "label": "Dependencia en existencia y dependencia en discriminación."
+          },
+          {
+            "id": "d",
+            "label": "Dependencia en composición y dependencia en discriminación."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Dependencia en existencia y dependencia en identificación.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-48",
+        "section": "test-oficial",
+        "prompt": "La agregación en el modelo Entidad/Relación extendido sirve para:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Indicar que un conjunto (o tipo) de entidades está formado por otro conjunto de entidades."
+          },
+          {
+            "id": "b",
+            "label": "Construir un nuevo tipo de entidad como composición de otros y su tipo de relación."
+          },
+          {
+            "id": "c",
+            "label": "Especializar un conjunto (o tipo) de entidades, por ejemplo un empleado puede ser un administrativo, un analista, etc."
+          },
+          {
+            "id": "d",
+            "label": "Indicar que un conjunto (o tipo) de entidades se identifican con el identificador de otro conjunto de entidades, más un conjunto de atributos propios."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: GROUP BY forma grupos y HAVING filtra esos grupos tras aplicar agregaciones. WHERE actúa antes de agrupar y se aplica a las filas individuales. La respuesta correcta es «Construir un nuevo tipo de entidad como composición de otros y su tipo de relación.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-49",
+        "section": "test-oficial",
+        "prompt": "En un sistema operativo GNU/Linux, se ejecuta la instrucción chmod 754 aprobados.txt. ¿Qué permisos se le han asignado al grupo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lectura, escritura y ejecución."
+          },
+          {
+            "id": "b",
+            "label": "Lectura y ejecución."
+          },
+          {
+            "id": "c",
+            "label": "Escritura y ejecución."
+          },
+          {
+            "id": "d",
+            "label": "Lectura y escritura."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En UNIX los permisos se expresan en octal para propietario, grupo y otros. Los valores 4, 2 y 1 representan lectura, escritura y ejecución, respectivamente; umask elimina permisos del valor base de creación. La respuesta correcta es «Lectura y ejecución.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-50",
+        "section": "test-oficial",
+        "prompt": "El acceso directo a memoria (DMA) consiste en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un mecanismo por el que se transmiten datos entre un sistema de entrada/salida y el sistema de memoria sin la intervención de la CPU."
+          },
+          {
+            "id": "b",
+            "label": "Un mecanismo de software que permite minimizar el tiempo de latencia de acceso a los discos duros, al no utilizar los buses de datos y direcciones."
+          },
+          {
+            "id": "c",
+            "label": "Un módulo que agrupa y controla todos los drivers de los dispositivos de entrada/salida, permitiendo acceder a memoria sin el uso de interrupciones."
+          },
+          {
+            "id": "d",
+            "label": "Un mecanismo por el cuál cada dispositivo de entrada/salida está mapeado a una dirección concreta de memoria, minimizando el tiempo de acceso."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Un mecanismo por el que se transmiten datos entre un sistema de entrada/salida y el sistema de memoria sin la intervención de la CPU.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-51",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes comandos en Windows permite conocer la dirección MAC del ordenador?",
+        "options": [
+          {
+            "id": "a",
+            "label": "nslookup."
+          },
+          {
+            "id": "b",
+            "label": "pathping."
+          },
+          {
+            "id": "c",
+            "label": "getmac."
+          },
+          {
+            "id": "d",
+            "label": "obtenerdir -mac."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «getmac.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-52",
+        "section": "test-oficial",
+        "prompt": "Las definiciones de restricciones de integridad en un esquema de bases de datos, ¿a qué nivel pertenecen de entre los propugnados en la arquitectura ANSI/SPARC para un modelo de SGBD?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Conceptual."
+          },
+          {
+            "id": "b",
+            "label": "Físico."
+          },
+          {
+            "id": "c",
+            "label": "Interno."
+          },
+          {
+            "id": "d",
+            "label": "Externo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Conceptual.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-53",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de los siguientes NO es un tipo de fichero del SGBD Oracle:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Fichero redolog."
+          },
+          {
+            "id": "b",
+            "label": "Fichero de control."
+          },
+          {
+            "id": "c",
+            "label": "Fichero de backup."
+          },
+          {
+            "id": "d",
+            "label": "Fichero de datos."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Fichero de backup.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-54",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un SGBD NoSQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Redis."
+          },
+          {
+            "id": "b",
+            "label": "Drupal."
+          },
+          {
+            "id": "c",
+            "label": "Cassandra."
+          },
+          {
+            "id": "d",
+            "label": "MongoDB."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Drupal.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-55",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con lo dispuesto en el artículo 30.3 de la Constitución Española, indique cuál de las siguientes opciones es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los españoles tienen el derecho pero no el deber de defender a España."
+          },
+          {
+            "id": "b",
+            "label": "No podrá establecerse un servicio civil para el cumplimiento de fines de interés general."
+          },
+          {
+            "id": "c",
+            "label": "Mediante reglamento podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública."
+          },
+          {
+            "id": "d",
+            "label": "Podrá establecerse un servicio civil para el cumplimiento de fines de interés general. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Podrá establecerse un servicio civil para el cumplimiento de fines de interés general. SIMULACRO 4 TAI.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-56",
+        "section": "test-oficial",
+        "prompt": "Una de las particularidades destacable de los sistemas NoSQL es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Usan SQL como lenguaje de consulta."
+          },
+          {
+            "id": "b",
+            "label": "Están optimizadas par la gestión de transacciones ACID-compliant."
+          },
+          {
+            "id": "c",
+            "label": "Escalan bien horizontalmente."
+          },
+          {
+            "id": "d",
+            "label": "No pueden manejar cantidades de datos muy grandes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Escalan bien horizontalmente.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-57",
+        "section": "test-oficial",
+        "prompt": "En el modelo Entidad/Relación extendido, ¿cuál de los siguientes NO es un elemento de una relación?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nombre."
+          },
+          {
+            "id": "b",
+            "label": "Tipo de correspondencia."
+          },
+          {
+            "id": "c",
+            "label": "Cardinalidad."
+          },
+          {
+            "id": "d",
+            "label": "Identificador."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Identificador.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-58",
+        "section": "test-oficial",
+        "prompt": "En el ámbito de la gestión de memoria de un sistema operativo, se define la memoria virtual como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El porcentaje de memoria principal que el sistema operativo utiliza para sus funciones."
+          },
+          {
+            "id": "b",
+            "label": "Una técnica de gestión de memoria para que el sistema operativo disponga de un espacio mayor de memoria que la disponible físicamente."
+          },
+          {
+            "id": "c",
+            "label": "La cantidad de espacio en disco que el sistema operativo usa para intercambiar datos con la memoria principal."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Una técnica de gestión de memoria para que el sistema operativo disponga de un espacio mayor de memoria que la disponible físicamente.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-59",
+        "section": "test-oficial",
+        "prompt": "Con los códigos de caracteres ASCII extendido y EBCDIC el número máximo de caracteres que se puede representar es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "ASCII extendido y EBCDIC pueden representar como máximo 128."
+          },
+          {
+            "id": "b",
+            "label": "ASCII extendido y EBCDIC pueden representar como máximo 256."
+          },
+          {
+            "id": "c",
+            "label": "ASCII extendido como máximo 128 y EBCDIC como máximo 256."
+          },
+          {
+            "id": "d",
+            "label": "ASCII extendido como máximo 256 y EBCDIC como máximo 128."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «ASCII extendido y EBCDIC pueden representar como máximo 256.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-60",
+        "section": "test-oficial",
+        "prompt": "¿En qué consiste el refresco de una memoria dinámica?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el proceso de optimización de la temperatura de trabajo de este tipo de memorias."
+          },
+          {
+            "id": "b",
+            "label": "En la operación de reescritura periódica que hay que realizar en ellas para que no pierdan la información almacenada."
+          },
+          {
+            "id": "c",
+            "label": "En la operación de acceso periódico que hay que realizar a este tipo de memorias, para repetir la última operación realizada."
+          },
+          {
+            "id": "d",
+            "label": "En el proceso de refrigeración de la temperatura de trabajo de este tipo de memorias."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «En la operación de reescritura periódica que hay que realizar en ellas para que no pierdan la información almacenada.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-61",
+        "section": "test-oficial",
+        "prompt": "Windows Azure es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un servicio SaaS (Software as a Service) de Amazon."
+          },
+          {
+            "id": "b",
+            "label": "Una plataforma en la nube de Microsoft que permite el desarrollo y ejecución de aplicaciones codificadas en varios lenguajes y tecnologías como .NET, Java y PHP."
+          },
+          {
+            "id": "c",
+            "label": "Un sistema operativo para dispositivos móviles."
+          },
+          {
+            "id": "d",
+            "label": "Una nube híbrida de Alfabet."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Windows integra servicios de directorio, registro, virtualización de aplicaciones y servicios cloud con funciones diferenciadas. La opción válida identifica el componente y la función concreta que le atribuye el temario. La respuesta correcta es «Una plataforma en la nube de Microsoft que permite el desarrollo y ejecución de aplicaciones codificadas en varios lenguajes y tecnologías como .NET, Java y PHP.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-62",
+        "section": "test-oficial",
+        "prompt": "Las bases de datos relacionales se normalizan para (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Evitar la redundancia de los datos."
+          },
+          {
+            "id": "b",
+            "label": "Disminuir problemas de actualización de los datos en las tablas."
+          },
+          {
+            "id": "c",
+            "label": "Proteger la integridad de datos."
+          },
+          {
+            "id": "d",
+            "label": "Proporcionar funcionamiento en alta disponibilidad."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Proporcionar funcionamiento en alta disponibilidad.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-63",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un sistema operativo para dispositivos móviles?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Android."
+          },
+          {
+            "id": "b",
+            "label": "iOS."
+          },
+          {
+            "id": "c",
+            "label": "z/OS."
+          },
+          {
+            "id": "d",
+            "label": "Tizen. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «z/OS.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-64",
+        "section": "test-oficial",
+        "prompt": "En un árbol B de orden N, se puede asegurar que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A cada nodo hoja se podrá accede con un máximo de N accesos."
+          },
+          {
+            "id": "b",
+            "label": "Cada nodo tendrá como máximo N hijos."
+          },
+          {
+            "id": "c",
+            "label": "A cada nodo hoja se accederá con un mínimo de N accesos."
+          },
+          {
+            "id": "d",
+            "label": "El número de nodos hoja es log2(N)."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Cada nodo tendrá como máximo N hijos.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-65",
+        "section": "test-oficial",
+        "prompt": "El algoritmo de planificación de procesos de sistemas operativos en el que a cada proceso se le asigna un tiempo máximo (quantum) para su ejecución y si cuando expira el quantum de tiempo el proceso continúa en CPU, el planificador lo desaloja y lo coloca al final de la cola de procesos preparados, que se gestiona como FIFO, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "FCFS."
+          },
+          {
+            "id": "b",
+            "label": "SJF."
+          },
+          {
+            "id": "c",
+            "label": "Round Robin."
+          },
+          {
+            "id": "d",
+            "label": "Cola multinivel con apropiación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Round Robin reparte el procesador en turnos de duración limitada mediante un quantum o time-slice. Al agotarse el turno, el proceso vuelve a la cola si todavía no ha terminado. La respuesta correcta es «Round Robin.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-66",
+        "section": "test-oficial",
+        "prompt": "Los árboles son estructuras dinámicas de datos. Señale la respuesta INCORRECTA respecto a dicha estructura de datos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un árbol binario balanceado es un árbol binario en el cual las alturas de los dos subárboles de cualquier nodo difieren a lo sumo en 2 unidades."
+          },
+          {
+            "id": "b",
+            "label": "Los árboles AVL están siempre equilibrados de tal modo que para todos los nodos, la altura de la rama izquierda no difiere en más de una unidad de la altura de la rama derecha o viceversa. Gracias a esta forma de equilibro (o balanceo), la complejidad de una búsqueda en uno de estos árboles se mantiene siempre en orden de complejidad O(log n)."
+          },
+          {
+            "id": "c",
+            "label": "Para recorrer un árbol binario no vacío en postorden, hay que realizar las siguientes operaciones recursivamente en cada nodo: 1. Recorra el subárbol izquierdo, 2. Recorra el subárbol derecho y 3. Visite la raíz."
+          },
+          {
+            "id": "d",
+            "label": "Los montículos máximos tienen la característica de que cada nodo padre tiene un valor mayor que el de cualquiera de sus nodos hijos, mientras que en los montículos mínimos, el valor del nodo padre es siempre menor al de sus nodos hijos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Un árbol binario balanceado es un árbol binario en el cual las alturas de los dos subárboles de cualquier nodo difieren a lo sumo en 2 unidades.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-67",
+        "section": "test-oficial",
+        "prompt": "En relación a los SGBD relacionales y los tipos de integridad, indique cuál NO es uno de ellos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Integridad de dominio."
+          },
+          {
+            "id": "b",
+            "label": "Integridad de entidad."
+          },
+          {
+            "id": "c",
+            "label": "Integridad de concurrencia."
+          },
+          {
+            "id": "d",
+            "label": "Integridad referencial."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Integridad de concurrencia.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-68",
+        "section": "test-oficial",
+        "prompt": "En relación a la normalización de bases de datos, indique a qué regla de normalización corresponde “Ningún atributo no primario de la tabla es dependiente transitivamente de una clave primaria” o “no hay dependencias funcionales transitivas de atributos no principales respecto de las claves”:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la 1ª FN."
+          },
+          {
+            "id": "b",
+            "label": "A ninguna."
+          },
+          {
+            "id": "c",
+            "label": "A la 3ª FN."
+          },
+          {
+            "id": "d",
+            "label": "A la 2ª FN."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «A la 3ª FN.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-69",
+        "section": "test-oficial",
+        "prompt": "Si se quisiera conceder todos los permisos al usuario CURSO sobre la tabla PERSONAS, ¿cuál de las siguientes sería la forma adecuada de hacerlo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "GRANT CONNECT ON PERSONAS TO CURSO;"
+          },
+          {
+            "id": "b",
+            "label": "GRANT CONNECT TO CURSO ON PERSONAS;"
+          },
+          {
+            "id": "c",
+            "label": "GRANT ALL ON PERSONAS TO CURSO;"
+          },
+          {
+            "id": "d",
+            "label": "GRANT ALL TO CURSO ON PERSONAS;"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «GRANT ALL ON PERSONAS TO CURSO;.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-70",
+        "section": "test-oficial",
+        "prompt": "La Norma Técnica de Interoperabilidad de Digitalización de Documentos establece la resolución mínima exigible en el proceso de digitalización requerido para la generación de la copia electrónica auténtica de un documento en papel. Esta resolución mínima es de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "200 píxeles por pulgada."
+          },
+          {
+            "id": "b",
+            "label": "300 píxeles por pulgada."
+          },
+          {
+            "id": "c",
+            "label": "400 píxeles por pulgada."
+          },
+          {
+            "id": "d",
+            "label": "500 píxeles por pulgada. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «200 píxeles por pulgada.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-71",
+        "section": "test-oficial",
+        "prompt": "En un ordenador con Linux, queremos borrar todos los archivos con extensión .mpg de los directorios home de los usuarios, incluyendo todos sus subdirectorios. ¿Cuál de los siguientes comandos se podría ejecutar para conseguirlo, suponiendo que se ejecuta como superusuario?",
+        "options": [
+          {
+            "id": "a",
+            "label": "rm -Rf /home/*.mpg"
+          },
+          {
+            "id": "b",
+            "label": "find /home -name “*.mpg” rm {} \\;"
+          },
+          {
+            "id": "c",
+            "label": "ls -ltR *.mpg -exec rm {} \\;"
+          },
+          {
+            "id": "d",
+            "label": "ls -lR /home | grep mpg | rm - &"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «find /home -name “*.mpg” rm {} \\;.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-72",
+        "section": "test-oficial",
+        "prompt": "En sistemas Windows, ¿para qué sirve WSUS?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ofrece un servicio de cortafuegos a los usuarios de una organización."
+          },
+          {
+            "id": "b",
+            "label": "Proporciona una solución integral para administrar las actualizaciones dentro de la red."
+          },
+          {
+            "id": "c",
+            "label": "Se utiliza para eliminar las amenazas por virus y malware."
+          },
+          {
+            "id": "d",
+            "label": "Proporciona un sistema de compartición de ficheros e impresoras."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Proporciona una solución integral para administrar las actualizaciones dentro de la red.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-73",
+        "section": "test-oficial",
+        "prompt": "En relación a la representación habitual del modelo entidad-relación, señale la afirmación correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tanto las entidades como las relaciones se representan con rectángulos."
+          },
+          {
+            "id": "b",
+            "label": "Las entidades se representan con rombos y las relaciones con rectángulos."
+          },
+          {
+            "id": "c",
+            "label": "Las entidades se representan con rectángulos y las relaciones con triángulos."
+          },
+          {
+            "id": "d",
+            "label": "Las relaciones se representan con rombos y las entidades con rectángulos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «Las relaciones se representan con rombos y las entidades con rectángulos.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-74",
+        "section": "test-oficial",
+        "prompt": "¿Qué significa la opción WITH GRANT OPTION de la sentencia GRANT del ANSI SQL?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Posibilita al usuario que se autoriza modificar los privilegios de otros usuarios."
+          },
+          {
+            "id": "b",
+            "label": "Posibilita al usuario que se autoriza la posibilidad de eliminar otros usuarios."
+          },
+          {
+            "id": "c",
+            "label": "Permite al usuario que se autoriza, poder a su vez, autorizar a otros usuarios con los mismos privilegiados con los que ha sido autorizado."
+          },
+          {
+            "id": "d",
+            "label": "Impide al usuario que se autoriza, poder a su vez, autorizar a otros usuarios con los mismos privilegiados con los que ha sido autorizado."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Permite al usuario que se autoriza, poder a su vez, autorizar a otros usuarios con los mismos privilegiados con los que ha sido autorizado.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-75",
+        "section": "test-oficial",
+        "prompt": "¿Qué afirmación sobre los Sistemas de Gestión de Base de Datos NO es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El lenguaje de control de datos permite conceder o suprimir privilegios a los usuarios."
+          },
+          {
+            "id": "b",
+            "label": "En el aislamiento, los resultados de una transacción se hacen visibles al resto de transacciones de otros procesos durante la duración de la transacción, para poder tener una copia de la transacción por si hay una pérdida de datos."
+          },
+          {
+            "id": "c",
+            "label": "En el diccionario de datos se puede tener un historial de los cambios realizados sobre la base de datos."
+          },
+          {
+            "id": "d",
+            "label": "En el control de integridad, cuando una operación cambia los datos de una base de datos, este módulo debe comprobar que la operación a realizar satisface todas las restricciones de integridad necesarias."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las propiedades ACID garantizan que una transacción se ejecute de forma fiable: atomicidad, consistencia, aislamiento y durabilidad describen aspectos distintos y complementarios. La respuesta correcta es «En el aislamiento, los resultados de una transacción se hacen visibles al resto de transacciones de otros procesos durante la duración de la transacción, para poder tener una copia de la transacción por si hay una pérdida de datos.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-76",
+        "section": "test-oficial",
+        "prompt": "NO es una característica del sistema operativo Android 13:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Vista previa del portapapeles."
+          },
+          {
+            "id": "b",
+            "label": "Material You."
+          },
+          {
+            "id": "c",
+            "label": "Gestor de retroceso predictivo."
+          },
+          {
+            "id": "d",
+            "label": "Preferencia de idioma de las apps."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Material You.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-77",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Título II de la Constitución Española, será tutor del Rey menor:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El que hubiere designado el familiar más cercano al Rey difunto."
+          },
+          {
+            "id": "b",
+            "label": "El que hubiere designado el Rey difunto en su testamento."
+          },
+          {
+            "id": "c",
+            "label": "El que hubieren designado las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "El que hubiere designado el Senado por mayoría absoluta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Corona se regula en el Título II de la Constitución. Los actos del Rey requieren refrendo salvo las excepciones expresamente previstas, y la responsabilidad recae en quien refrenda. La respuesta correcta es «El que hubiere designado el Rey difunto en su testamento.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-78",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de las siguientes funciones NO está atribuida constitucionalmente al Rey:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El mando supremo de las Fuerzas Armadas."
+          },
+          {
+            "id": "b",
+            "label": "Autorizar indultos generales."
+          },
+          {
+            "id": "c",
+            "label": "Sancionar las leyes."
+          },
+          {
+            "id": "d",
+            "label": "Promulgar las leyes. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Corona se regula en el Título II de la Constitución. Los actos del Rey requieren refrendo salvo las excepciones expresamente previstas, y la responsabilidad recae en quien refrenda. La respuesta correcta es «Autorizar indultos generales.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-79",
+        "section": "test-oficial",
+        "prompt": "El artículo 86 de la Constitución Española establece un plazo de 30 días, para que los Decretos-Leyes sean sometidos a debate y votación de la totalidad del Congreso de los Diputados, durante el cual:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los Decretos-Leyes podrán ser tramitados por las Cortes como proyectos de ley por el procedimiento de urgencia."
+          },
+          {
+            "id": "b",
+            "label": "Los Decretos-Leyes podrán ser tramitados por las Cortes como proyectos de ley por el procedimiento común."
+          },
+          {
+            "id": "c",
+            "label": "Durante dicho plazo, no pueden ser tramitados ni como proyectos de ley ni como proposiciones de ley."
+          },
+          {
+            "id": "d",
+            "label": "Durante dicho plazo, solo el Senado puede tramitar los Decretos-Leyes como proyectos de ley por el procedimiento de urgencia."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta se obtiene aplicando el precepto constitucional que regula la institución consultada. Es importante distinguir las funciones de las Cortes, el Congreso, el Senado, el Tribunal Constitucional y el Defensor del Pueblo. La respuesta correcta es «Los Decretos-Leyes podrán ser tramitados por las Cortes como proyectos de ley por el procedimiento de urgencia.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-80",
+        "section": "test-oficial",
+        "prompt": "Cuál NO es un estándar/driver de escáner para tecnologías de escaneo de imágenes:",
+        "options": [
+          {
+            "id": "a",
+            "label": "ISIS."
+          },
+          {
+            "id": "b",
+            "label": "OASIS."
+          },
+          {
+            "id": "c",
+            "label": "TWAIN."
+          },
+          {
+            "id": "d",
+            "label": "Windows Image Acquisition (WIA)."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «OASIS.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-81",
+        "section": "test-oficial",
+        "prompt": "¿Qué tipo de organización de ficheros permite insertar registros en cualquier posición del fichero en el que haya espacio suficiente, no existiendo ninguna ordenación de los registros?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Organización en montículos."
+          },
+          {
+            "id": "b",
+            "label": "Organización dispersa indexada."
+          },
+          {
+            "id": "c",
+            "label": "Organización direccionada directa."
+          },
+          {
+            "id": "d",
+            "label": "Organización secuencial."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «Organización en montículos.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-82",
+        "section": "test-oficial",
+        "prompt": "Según la teoría de la normalización, para pasar una relación de 2º FN a 3ª FN hay que eliminar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "De ella los grupos repetitivos."
+          },
+          {
+            "id": "b",
+            "label": "Las dependencias parciales respecto de la clave primaria."
+          },
+          {
+            "id": "c",
+            "label": "Las dependencias parciales respecto de las claves candidatas."
+          },
+          {
+            "id": "d",
+            "label": "Las dependencias transitivas respecto de las claves candidatas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Las dependencias transitivas respecto de las claves candidatas.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-83",
+        "section": "test-oficial",
+        "prompt": "Al diseñar la representación física de una base de datos, escogeremos los índices secundarios siguiendo los siguientes criterios (señale la INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Si la tabla es pequeña."
+          },
+          {
+            "id": "b",
+            "label": "Sobre atributos que se utilizan para acceder con mucha frecuencia."
+          },
+          {
+            "id": "c",
+            "label": "Sobre claves ajenas que se utilicen con frecuencia para hacer joins."
+          },
+          {
+            "id": "d",
+            "label": "Sobre la clave primaria."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Si la tabla es pequeña.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-84",
+        "section": "test-oficial",
+        "prompt": "En la obtención del modelo lógico de datos a partir del modelo conceptual, la transformación de relaciones 1:1 supondrá la creación de una nueva tabla si (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las cardinalidades mínimas son cero (ambas)."
+          },
+          {
+            "id": "b",
+            "label": "La relación tiene atributos propios."
+          },
+          {
+            "id": "c",
+            "label": "Se prevé que posteriormente puedan variarse las cardinalidades."
+          },
+          {
+            "id": "d",
+            "label": "Las dos entidades participan de forma completa en la relación."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Las dos entidades participan de forma completa en la relación.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-85",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de las siguientes sentencias se cataloga dentro del lenguaje SQL como sentencia de DCL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "REVOKE."
+          },
+          {
+            "id": "b",
+            "label": "CREATE."
+          },
+          {
+            "id": "c",
+            "label": "DELETE."
+          },
+          {
+            "id": "d",
+            "label": "SELECT."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «REVOKE.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-86",
+        "section": "test-oficial",
+        "prompt": "Para importar un fichero en una tabla de una base de datos relacional, el administrador de la BD decide eliminar la clave primaria existente. De entre las siguientes reglas de Codd que definen el modelo relacional, ¿cuál es la que posibilita esta acción?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Regla 2: regla de acceso garantizado."
+          },
+          {
+            "id": "b",
+            "label": "Regla 8: independencia física de los datos."
+          },
+          {
+            "id": "c",
+            "label": "Regla 10: independencia de integridad."
+          },
+          {
+            "id": "d",
+            "label": "Regla 11: independencia de la distribución."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las reglas de Codd describen requisitos del modelo relacional. La integridad de entidad y la integridad referencial forman parte de ese marco; la denominada integridad de paridad no es una de las reglas de Codd. La respuesta correcta es «Regla 10: independencia de integridad.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-87",
+        "section": "test-oficial",
+        "prompt": "Existen multitud de tipos abstractos de datos (TAD) que permiten almacenar información. Indique cuál de los siguientes tiene por definición almacenar una colección no ordenada de elementos distintos, todos los elementos son del mismo tipo y entre los elementos existe una relación de orden:",
+        "options": [
+          {
+            "id": "a",
+            "label": "TAD Lista."
+          },
+          {
+            "id": "b",
+            "label": "TAD Árbol."
+          },
+          {
+            "id": "c",
+            "label": "TAD Bolsa."
+          },
+          {
+            "id": "d",
+            "label": "TAD Conjunto. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «TAD Conjunto. SIMULACRO 4 TAI.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-88",
+        "section": "test-oficial",
+        "prompt": "Dado un árbol binario, cuyo recorrido en preorden es “Redhat, Debian, Fedora, Mandriva, Archilinux”, ¿cuál de las siguientes opciones podría ser un recorrido en inorden?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Fedora, Archilinux, Debian, Mandriva, Redhat."
+          },
+          {
+            "id": "b",
+            "label": "Fedora, Debian, Archilinux, Mandriva, Redhat."
+          },
+          {
+            "id": "c",
+            "label": "Debian, Fedora, Redhat, Archilinux, Mandriva."
+          },
+          {
+            "id": "d",
+            "label": "Debian, Mandriva, Fedora, Archilinux, Redhat."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Debian, Fedora, Redhat, Archilinux, Mandriva.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-89",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, cualquier ciudadano podrá recabar ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional, la tutela:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Del derecho a la propiedad privada."
+          },
+          {
+            "id": "b",
+            "label": "Del derecho a la huelga."
+          },
+          {
+            "id": "c",
+            "label": "Del derecho de fundación para fines de interés general."
+          },
+          {
+            "id": "d",
+            "label": "Del derecho a la negociación colectiva laboral."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Del derecho a la huelga.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-90",
+        "section": "test-oficial",
+        "prompt": "En SQL, para especificar una condición que debe cumplir un grupo de agregación, usamos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "GROUP BY."
+          },
+          {
+            "id": "b",
+            "label": "COUNT."
+          },
+          {
+            "id": "c",
+            "label": "SELECT."
+          },
+          {
+            "id": "d",
+            "label": "HAVING."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: GROUP BY forma grupos y HAVING filtra esos grupos tras aplicar agregaciones. WHERE actúa antes de agrupar y se aplica a las filas individuales. La respuesta correcta es «HAVING.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-91",
+        "section": "test-oficial",
+        "prompt": "Señale la opción INCORRECTA en relación con las restricciones de integridad (constraints) en SQL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Pueden definirse en la creación de la tabla."
+          },
+          {
+            "id": "b",
+            "label": "Pueden definirse después de que la tabla haya sido creada."
+          },
+          {
+            "id": "c",
+            "label": "Se definen mediante la sentencia CREATE RESTRICTION."
+          },
+          {
+            "id": "d",
+            "label": "FOREIGN KEY y NOT NULL son dos tipos de restricciones."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: DDL define o modifica la estructura de la base de datos: esquemas, tablas, columnas, vistas y restricciones. No se usa para consultar o manipular filas concretas. La respuesta correcta es «Se definen mediante la sentencia CREATE RESTRICTION.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-92",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes es un operador fundamental del álgebra relacional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Intersección."
+          },
+          {
+            "id": "b",
+            "label": "Producto cartesiano."
+          },
+          {
+            "id": "c",
+            "label": "Agrupación."
+          },
+          {
+            "id": "d",
+            "label": "Cociente."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Producto cartesiano.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-93",
+        "section": "test-oficial",
+        "prompt": "Indique de entre los siguientes números el menor:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1100001011 en binario."
+          },
+          {
+            "id": "b",
+            "label": "1411 en representación octal."
+          },
+          {
+            "id": "c",
+            "label": "317 en representación hexadecimal."
+          },
+          {
+            "id": "d",
+            "label": "762 en representación decimal."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «762 en representación decimal.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-94",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes afirmaciones es CORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En una tabla definida en SQL sólo se puede establecer una clave ajena (foránea) que referencie a la clave principal de otra tabla."
+          },
+          {
+            "id": "b",
+            "label": "En una tabla definida en SQL sólo se puede establecer una clave ajena (foránea) que referencie a la clave principal o a un atributo que tenga la restricción de unicidad (UNIQUE) de otra tabla."
+          },
+          {
+            "id": "c",
+            "label": "En una tabla definida en SQL sólo se puede establecer una clave ajena (foránea) que referencie a un atributo que tenga la restricción de unicidad (UNIQUE) de otra tabla."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «En una tabla definida en SQL sólo se puede establecer una clave ajena (foránea) que referencie a la clave principal o a un atributo que tenga la restricción de unicidad (UNIQUE) de otra tabla.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-95",
+        "section": "test-oficial",
+        "prompt": "Indique el resultado que obtendrá si ejecuta la siguiente sentencia SQL: SELECT A.NIF, A.NOMBRE, SUM(T.PRECIO) AS IMPORTE FROM ALUMNO A, ASIGNATURAS_ALUMNO T WHERE A.ID_ALUMNO = T.ID_ALUMNO GROUP BY A.NIF;",
+        "options": [
+          {
+            "id": "a",
+            "label": "El importe pagado por cada alumno en el total de asignaturas."
+          },
+          {
+            "id": "b",
+            "label": "El importe pagado por cada alumno en cada asignatura."
+          },
+          {
+            "id": "c",
+            "label": "El importe máximo pagado por cada alumno en alguna asignatura."
+          },
+          {
+            "id": "d",
+            "label": "La sentencia contiene un error. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «La sentencia contiene un error. SIMULACRO 4 TAI.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-96",
+        "section": "test-oficial",
+        "prompt": "Dada la siguiente consulta SQL, se puede determinar que lo que se pretende obtener es: SELECT destino, MIN(precio) FROM vuelos WHERE tipo_avion IN (SELECT tipo FROM aviones A WHERE num_asientos > (SELECT AVG(num_asientos) FROM aviones B WHERE A.tipo <> B.tipo) ) GROUP BY destino;",
+        "options": [
+          {
+            "id": "a",
+            "label": "El precio medio a cada uno de los destinos de los vuelos realizados por aviones con un número de asientos superior al mínimo número de asientos del resto de aviones."
+          },
+          {
+            "id": "b",
+            "label": "El precio más bajo a cada uno de los destinos de los vuelos realizados por aviones con un número de asientos diferente a la media del número de asientos de todos los aviones."
+          },
+          {
+            "id": "c",
+            "label": "El precio más bajo a cada uno de los destinos de los vuelos realizados por aviones con un número de asientos superior a la media del número de asientos del resto de aviones."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta ya que la sentencia SQL es errónea."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: DML se ocupa de consultar o manipular los datos almacenados. SELECT consulta, INSERT añade filas, UPDATE las modifica y DELETE las elimina. La respuesta correcta es «El precio más bajo a cada uno de los destinos de los vuelos realizados por aviones con un número de asientos superior a la media del número de asientos del resto de aviones.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-97",
+        "section": "test-oficial",
+        "prompt": "La arquitectura de tres niveles ANSI/X3/SPARC proporciona, entre otras, la independencia lógica de los datos, que permite:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cambiar el esquema interno sin necesidad de cambiar el esquema conceptual o los esquemas externos."
+          },
+          {
+            "id": "b",
+            "label": "Cambiar el esquema conceptual sin necesidad de cambiar el esquema interno."
+          },
+          {
+            "id": "c",
+            "label": "Cambiar el esquema conceptual sin necesidad de cambiar los esquemas externos ni los programas de aplicación."
+          },
+          {
+            "id": "d",
+            "label": "Cambiar el esquema externo sin necesidad de cambiar el esquema conceptual."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «Cambiar el esquema conceptual sin necesidad de cambiar los esquemas externos ni los programas de aplicación.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-98",
+        "section": "test-oficial",
+        "prompt": "Dada la siguiente sentencia de actualización SQL se puede determinar que lo que se pretende conseguir es: UPDATE trabajador T1 SET tarifa_hora = tarifa_hora * 1.05 WHERE id_supervisor = 1520 AND 30 < (SELECT SUM(num_dias) FROM asignación WHERE id_trabajador = T1.id_trabajador AND id_edificio IN (SELECT id_edificio FROM edificio WHERE id_zona = 5) );",
+        "options": [
+          {
+            "id": "a",
+            "label": "Incrementar en un 1,5 por ciento la tarifa por hora de todos los trabajadores cuyo supervisor sea el 1520 y que no han trabajado más de 30 días en edificios de la zona 5."
+          },
+          {
+            "id": "b",
+            "label": "Incrementar en un 5 por ciento la tarifa por hora de todos los trabajadores cuyo supervisor sea el 1520 y que han trabajado más de 30 días en edificios de la zona 5."
+          },
+          {
+            "id": "c",
+            "label": "Incrementar en un 5 por ciento la tarifa por hora de todos los trabajadores cuyo supervisor sea el 1520 y que han trabajado menos de 30 días en edificios de la zona 5."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las anteriores es correcta ya que la sentencia SQL es errónea."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Incrementar en un 5 por ciento la tarifa por hora de todos los trabajadores cuyo supervisor sea el 1520 y que han trabajado más de 30 días en edificios de la zona 5.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-99",
+        "section": "test-oficial",
+        "prompt": "Empleando el algoritmo Bubble Sort, en caso de querer ordenar un array de 10 elementos, ¿cuántas pasadas sería necesario realizar?",
+        "options": [
+          {
+            "id": "a",
+            "label": "10."
+          },
+          {
+            "id": "b",
+            "label": "5."
+          },
+          {
+            "id": "c",
+            "label": "11."
+          },
+          {
+            "id": "d",
+            "label": "9. SIMULACRO 4 TAI"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «9. SIMULACRO 4 TAI.». Referencia del temario: apartado correspondiente del tema."
+      },
+      {
+        "id": "simulacro-4-100",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes afirmaciones sobre el proceso de creación del modelo relacional es cierta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El proceso de normalización de bases de datos consiste en aplicar una serie de reglas a las relaciones obtenidas tras el paso del Diccionario de Flujo de Datos (DFD) al Modelo Relacional."
+          },
+          {
+            "id": "b",
+            "label": "Una clave compuesta es aquella columna que siendo clave primaria de una tabla, se incluye como columna dependiente en otra tabla."
+          },
+          {
+            "id": "c",
+            "label": "Una clave ajena es aquella que podría haber sido seleccionada como clave primaria de la tabla por identificar de forma única a la fila a la que pertenece, pero no lo ha sido."
+          },
+          {
+            "id": "d",
+            "label": "Una clave alternativa es aquella que podría haber sido seleccionada como clave primaria de la tabla por identificar de forma única a la fila a la que pertenece, pero no lo ha sido. Preguntas de reserva"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: DDL define o modifica la estructura de la base de datos: esquemas, tablas, columnas, vistas y restricciones. No se usa para consultar o manipular filas concretas. La respuesta correcta es «Una clave alternativa es aquella que podría haber sido seleccionada como clave primaria de la tabla por identificar de forma única a la fila a la que pertenece, pero no lo ha sido. Preguntas de reserva.». Referencia del temario: apartado correspondiente del tema."
+      }
+    ]
+  },
+  {
+    "code": "SIMULACRO",
     "slug": "simulacro-1",
     "title": "Simulacro 1",
     "description": "Simulacro global de la academia con correccion inmediata y plantilla integrada.",
@@ -5115,7 +7623,7 @@
           },
           {
             "id": "d",
-            "label": "Siempre la línea posterior a las anteriores; en la misma línea el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos. SIMULACRO 1"
+            "label": "Siempre la línea posterior a las anteriores; en la misma línea el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "a",
@@ -5290,7 +7798,7 @@
           },
           {
             "id": "d",
-            "label": "Las asociaciones solo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial o administrativa motivada. SIMULACRO 1"
+            "label": "Las asociaciones solo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial o administrativa motivada. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "c",
@@ -5515,7 +8023,7 @@
           },
           {
             "id": "d",
-            "label": "La existencia de una relación entre dos tipos de entidades implica la existencia de las otras relaciones. SIMULACRO 1"
+            "label": "La existencia de una relación entre dos tipos de entidades implica la existencia de las otras relaciones. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "b",
@@ -5640,11 +8148,11 @@
           },
           {
             "id": "d",
-            "label": "Cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 y la Sección 1ª del Capítulo Segundo ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional. Este último recurso será aplicable a la objeción de conciencia reconocida en el artículo 30. SIMULACRO 1"
+            "label": "Cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 y la Sección 1ª del Capítulo Segundo ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional. Este último recurso será aplicable a la objeción de conciencia reconocida en el artículo 30. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 y la Sección 1ª del Capítulo Segundo ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional. Este último recurso será aplicable a la objeción de conciencia reconocida en el artículo 30. SIMULACRO 1.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Las plataformas móviles se organizan por capas y versiones propias. Conviene distinguir el núcleo y el runtime de Android de las capas Core OS, Core Services, Media y Cocoa Touch de iOS, así como la arquitectura de Firefox OS. La respuesta correcta es «Cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 y la Sección 1ª del Capítulo Segundo ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional. Este último recurso será aplicable a la objeción de conciencia reconocida en el artículo 30. SIMULACRO 1 TAI.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-26",
@@ -5815,7 +8323,7 @@
           },
           {
             "id": "d",
-            "label": "Integridad de identidad de la entidad. SIMULACRO 1"
+            "label": "Integridad de identidad de la entidad. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "a",
@@ -6015,11 +8523,11 @@
           },
           {
             "id": "d",
-            "label": "Existe información repetida. SIMULACRO 1"
+            "label": "Existe información repetida. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Existe información repetida. SIMULACRO 1.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Los sistemas NoSQL suelen priorizar distribución y escalado horizontal. Según el modelo concreto, pueden trabajar con consistencia eventual en lugar de exigir todas las garantías ACID de una transacción relacional. La respuesta correcta es «Existe información repetida. SIMULACRO 1 TAI.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-41",
@@ -6190,7 +8698,7 @@
           },
           {
             "id": "d",
-            "label": "Sancionar y promulgar las leyes. SIMULACRO 1"
+            "label": "Sancionar y promulgar las leyes. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "a",
@@ -6390,7 +8898,7 @@
           },
           {
             "id": "d",
-            "label": "En ningún caso los poderes públicos cooperarán con las confesiones religiosas. SIMULACRO 1"
+            "label": "En ningún caso los poderes públicos cooperarán con las confesiones religiosas. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "a",
@@ -6565,7 +9073,7 @@
           },
           {
             "id": "d",
-            "label": "Ninguna de las respuestas anteriores define una entidad débil. SIMULACRO 1"
+            "label": "Ninguna de las respuestas anteriores define una entidad débil. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "c",
@@ -6678,28 +9186,28 @@
         "options": [
           {
             "id": "a",
-            "label": ""
+            "label": "En una única relación."
           },
           {
             "id": "b",
-            "label": ""
+            "label": "En dos relaciones."
           },
           {
             "id": "c",
-            "label": ""
+            "label": "En tres relaciones."
           },
           {
             "id": "d",
-            "label": ""
+            "label": "El diagrama no puede ser transformado al modelo lógico relacional."
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La respuesta correcta es la que cumple de forma exacta la definición o regla que plantea el enunciado; las demás modifican algún requisito esencial. La respuesta correcta es «En dos relaciones.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-68",
         "section": "test-oficial",
-        "prompt": "En una única relación. En dos relaciones. En tres relaciones. El diagrama no puede ser transformado al modelo lógico relacional. Dada la relación Alumnos(DNI, Nombre, Localidad, Provincia), sabiendo que la relación no tiene grupos repetitivos, que DNI es clave primaria y teniendo en cuenta las siguientes dependencias funcionales, ¿en qué forma normal se encuentra dicha relación?",
+        "prompt": "Dada la relación Alumnos(DNI, Nombre, Localidad, Provincia), sabiendo que la relación no tiene grupos repetitivos, que DNI es clave primaria y teniendo en cuenta las siguientes dependencias funcionales, ¿en qué forma normal se encuentra dicha relación?",
         "options": [
           {
             "id": "a",
@@ -6707,19 +9215,19 @@
           },
           {
             "id": "b",
-            "label": "3FN."
-          },
-          {
-            "id": "c",
             "label": "2FN."
           },
           {
+            "id": "c",
+            "label": "3FN."
+          },
+          {
             "id": "d",
-            "label": "FNBC. SIMULACRO 1"
+            "label": "FNBC. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: La tercera forma normal exige estar en 2FN y evitar dependencias transitivas de atributos no clave respecto de una clave candidata. La respuesta correcta es «3FN.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: La segunda forma normal parte de la 1FN y elimina dependencias parciales de atributos no clave respecto de una parte de una clave compuesta. La respuesta correcta es «2FN.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-69",
@@ -7115,7 +9623,7 @@
           },
           {
             "id": "d",
-            "label": "Es una versión ligeramente menos fuerte que la 2FN (Segunda Forma Normal). SIMULACRO 1"
+            "label": "Es una versión ligeramente menos fuerte que la 2FN (Segunda Forma Normal). SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "c",
@@ -7165,11 +9673,11 @@
           },
           {
             "id": "d",
-            "label": "Se crea una tabla para Organización que tenga de clave primaria el identificador y una tabla para Persona y otra para Empresa que tengan el identificador de Organización como clave ajena. SIMULACRO 1"
+            "label": "Se crea una tabla para Organización que tenga de clave primaria el identificador y una tabla para Persona y otra para Empresa que tengan el identificador de Organización como clave ajena. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «Se crea una tabla para Organización que tenga de clave primaria el identificador y una tabla para Persona y otra para Empresa que tengan el identificador de Organización como clave ajena. SIMULACRO 1.». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: Una clave primaria identifica de forma única cada fila y no admite valores nulos. Una clave ajena, en cambio, establece una referencia hacia otra tabla. La respuesta correcta es «Se crea una tabla para Organización que tenga de clave primaria el identificador y una tabla para Persona y otra para Empresa que tengan el identificador de Organización como clave ajena. SIMULACRO 1 TAI.». Referencia del temario: apartado correspondiente del tema."
       },
       {
         "id": "simulacro-1-87",
@@ -7315,7 +9823,7 @@
           },
           {
             "id": "d",
-            "label": "Restricciones de usuario y claves primarias no nulas. SIMULACRO 1"
+            "label": "Restricciones de usuario y claves primarias no nulas. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "b",
@@ -7349,7 +9857,7 @@
       {
         "id": "simulacro-1-94",
         "section": "test-oficial",
-        "prompt": "Dada la relación R1={ad, ae, af, bd, cd} y la relación R2={ae, cd}, ¿cuál será el resultado de la operación R1R2?",
+        "prompt": "Dada la relación R1={ad, ae, af, bd, cd} y la relación R2={ae, cd}, ¿cuál será el resultado de la operación R1- R2?",
         "options": [
           {
             "id": "a",
@@ -7490,7 +9998,7 @@
           },
           {
             "id": "d",
-            "label": "Ninguna de las respuestas anteriores es correcta. SIMULACRO 1"
+            "label": "Ninguna de las respuestas anteriores es correcta. SIMULACRO 1 TAI"
           }
         ],
         "correctOption": "b",
@@ -7507,11 +10015,11 @@
           },
           {
             "id": "b",
-            "label": "R(a, b, c)."
+            "label": "R(a, b,"
           },
           {
             "id": "c",
-            "label": "R(a, b, c)."
+            "label": ". c) R(a, b, c)."
           },
           {
             "id": "d",
@@ -7519,7 +10027,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «R(a, b, c).». Referencia del temario: apartado correspondiente del tema."
+        "explanation": "Por qué: El modelo Entidad-Relación describe entidades, atributos y relaciones del dominio antes de decidir las tablas físicas; la cardinalidad y la participación expresan sus reglas de negocio. La respuesta correcta es «. c) R(a, b, c).». Referencia del temario: apartado correspondiente del tema."
       }
     ]
   }

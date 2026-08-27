@@ -72,6 +72,14 @@
     "assetPath": "/test-oficial/B2T1/b2t1-test-oficial-informatica-basica.pdf"
   },
   {
+    "code": "B2T2",
+    "slug": "b2t2-test-oficial-perifericos",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 2/Tema 2/B2T2Test_Perifericos 1.pdf",
+    "title": "Test oficial Perifericos",
+    "assetPath": "/test-oficial/B2T2/b2t2-test-oficial-perifericos.pdf"
+  },
+  {
     "code": "B2T3",
     "slug": "b2t3-ejercicios",
     "kind": "exercise",

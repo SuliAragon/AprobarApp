@@ -12529,6 +12529,1269 @@
     ]
   },
   {
+    "code": "B2T2",
+    "slug": "b2t2-test-oficial-perifericos",
+    "title": "Test oficial Perifericos",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 2/Tema 2/B2T2Test_Perifericos 1.pdf",
+    "assetPath": "/test-oficial/B2T2/b2t2-test-oficial-perifericos.pdf",
+    "questions": [
+      {
+        "id": "b2t2-test-oficial-perifericos-1",
+        "section": "test-oficial",
+        "prompt": "Las unidades SSD:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Son unidades de almacenamiento que realizan la misma función que el disco duro del ordenador."
+          },
+          {
+            "id": "b",
+            "label": "Son unidades de almacenamiento que realizan la misma función que la memoria RAM del ordenador."
+          },
+          {
+            "id": "c",
+            "label": "Contienen el hardware para las comunicaciones Ethernet."
+          },
+          {
+            "id": "d",
+            "label": "Contienen el hardware para la dotación de conexiones USB del ordenador."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Una unidad SSD es almacenamiento secundario no volátil y cumple la misma función general que un HDD: conservar datos y programas. La diferencia es que el SSD usa memoria flash y no platos ni cabezales mecánicos. La respuesta correcta es «Son unidades de almacenamiento que realizan la misma función que el disco duro del ordenador.». Referencia del temario: B2T2 · Elementos de almacenamiento."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-2",
+        "section": "test-oficial",
+        "prompt": "En relación a la estructura física de un disco, ¿qué es un sector?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Conjunto de varias pistas."
+          },
+          {
+            "id": "b",
+            "label": "Cada una de las divisiones de una pista."
+          },
+          {
+            "id": "c",
+            "label": "Cada uno de los círculos concéntricos del disco."
+          },
+          {
+            "id": "d",
+            "label": "Cada una de las caras del disco."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Un sector es una división de una pista y es una unidad elemental de almacenamiento. Una pista es el círculo concéntrico; las pistas del mismo radio en varios platos forman un cilindro. La respuesta correcta es «Cada una de las divisiones de una pista.». Referencia del temario: B2T2 · Elementos de almacenamiento."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-3",
+        "section": "test-oficial",
+        "prompt": "Respecto a la estructura lógica de un disco duro y sus características, ¿qué se entiende por latencia media?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Revoluciones por minuto de los platos."
+          },
+          {
+            "id": "b",
+            "label": "Tiempo medio que tarda la aguja en situarse en la pista y el sector deseado."
+          },
+          {
+            "id": "c",
+            "label": "Velocidad a la que puede transferir la información a la computadora una vez la aguja está situada en la pista y sector correctos."
+          },
+          {
+            "id": "d",
+            "label": "Tiempo medio que tarda la aguja en situarse en el sector deseado."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La latencia media es la espera debida al giro del plato hasta que el sector buscado queda bajo el cabezal. El desplazamiento del cabezal hasta la pista es el tiempo de búsqueda, no la latencia. La respuesta correcta es «Tiempo medio que tarda la aguja en situarse en el sector deseado.». Referencia del temario: B2T2 · Elementos de almacenamiento."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-4",
+        "section": "test-oficial",
+        "prompt": "El tipo de escáner que se utiliza para hacer copias digitales de libros o documentos que, por ser antiguos o muy valiosos, no se les quiere deteriorar durante el proceso, se le conoce con el nombre de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Plano."
+          },
+          {
+            "id": "b",
+            "label": "Tambor."
+          },
+          {
+            "id": "c",
+            "label": "Rodillo."
+          },
+          {
+            "id": "d",
+            "label": "Cenital."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El escáner cenital digitaliza desde arriba sin apoyar ni forzar la apertura del libro. Por eso se emplea con fondos antiguos o valiosos que podrían deteriorarse en un escáner plano convencional. La respuesta correcta es «Cenital.». Referencia del temario: B2T2 · Digitalización y periféricos de entrada."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-5",
+        "section": "test-oficial",
+        "prompt": "La velocidad del USB 3.0 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "15 veces superior a la del USB 2.0."
+          },
+          {
+            "id": "b",
+            "label": "Similar a la del USB 2.0."
+          },
+          {
+            "id": "c",
+            "label": "10 veces superior a la del USB 2.0"
+          },
+          {
+            "id": "d",
+            "label": "480 Mbps."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: USB 3.0 alcanza 4,8 Gbit/s frente a los 480 Mbit/s de USB 2.0. La relación es diez a uno, de ahí que USB 3.0 sea diez veces más rápido. La respuesta correcta es «10 veces superior a la del USB 2.0.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-6",
+        "section": "test-oficial",
+        "prompt": "¿Con qué dispositivo se relaciona la tecnología de reconocimiento de pulso acústico?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Memoria RAM."
+          },
+          {
+            "id": "b",
+            "label": "Pantalla táctil."
+          },
+          {
+            "id": "c",
+            "label": "Tarjeta de sonido."
+          },
+          {
+            "id": "d",
+            "label": "Disco duro."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El reconocimiento de pulso acústico detecta las ondas producidas al tocar una superficie. Por ello se relaciona con las pantallas táctiles, no con la RAM ni con el almacenamiento. La respuesta correcta es «Pantalla táctil.». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-7",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes estándares se basa en una comunicación en serie?",
+        "options": [
+          {
+            "id": "a",
+            "label": "PATA."
+          },
+          {
+            "id": "b",
+            "label": "SCSI 1."
+          },
+          {
+            "id": "c",
+            "label": "SATA."
+          },
+          {
+            "id": "d",
+            "label": "SCSI 3.1. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: SATA significa Serial ATA y transmite los datos en serie. PATA es la evolución paralela de ATA, por lo que no identifica la interfaz serie preguntada. La respuesta correcta es «SATA.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-8",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes opciones describe la impresión con tecnología de sublimación de tinta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Utilizan el calor para la transferencia de la tinta al soporte de impresión."
+          },
+          {
+            "id": "b",
+            "label": "Un conjunto de agujas con temperatura alta, recorren el papel sensible a la temperatura, volviéndose en esos puntos de color negro."
+          },
+          {
+            "id": "c",
+            "label": "Se proyectan pequeñas cantidades de tinta hacia el soporte."
+          },
+          {
+            "id": "d",
+            "label": "Se golpea el soporte y con la fuerza del impacto se transfiere la tinta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La sublimación emplea calor para transferir el colorante de una cinta al soporte. No funciona por impacto, por agujas térmicas sobre papel sensible ni por microgotas de tinta. La respuesta correcta es «Utilizan el calor para la transferencia de la tinta al soporte de impresión.». Referencia del temario: B2T2 · Elementos de impresión e impresión 3D."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-9",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre los discos SSD es INCORRECTA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El origen de las siglas SSD es Solid State Drive."
+          },
+          {
+            "id": "b",
+            "label": "El acceso a la información almacenada en un disco SSD es más rápido que en un disco duro HDD."
+          },
+          {
+            "id": "c",
+            "label": "La copia y duplicación de archivos en un disco SSD es más lenta que en un disco HDD."
+          },
+          {
+            "id": "d",
+            "label": "El coste de un disco SSD, a igualdad de tamaño, es superior al de un disco HDD."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La afirmación incorrecta es que un SSD copia más lentamente que un HDD. Al no tener partes mecánicas, el SSD ofrece accesos y transferencias normalmente superiores; a igual capacidad suele costar más. La respuesta correcta es «La copia y duplicación de archivos en un disco SSD es más lenta que en un disco HDD.». Referencia del temario: B2T2 · Elementos de almacenamiento."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-10",
+        "section": "test-oficial",
+        "prompt": "En cuanto a impresoras de impacto, hay varios tipos principales, señale cuál de las siguientes NO es un tipo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "De margarita."
+          },
+          {
+            "id": "b",
+            "label": "Matricial."
+          },
+          {
+            "id": "c",
+            "label": "De inyección."
+          },
+          {
+            "id": "d",
+            "label": "De bola."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las impresoras de margarita, matriciales y de bola son tecnologías de impacto porque golpean una cinta. La inyección expulsa gotas sin impacto mecánico y por eso no pertenece a ese grupo. La respuesta correcta es «De inyección.». Referencia del temario: B2T2 · Elementos de impresión e impresión 3D."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-11",
+        "section": "test-oficial",
+        "prompt": "Es una tecnología de impresión 3D:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Inyección de aglutinante."
+          },
+          {
+            "id": "b",
+            "label": "Impresión de chorro continuo."
+          },
+          {
+            "id": "c",
+            "label": "Inyección de tinta térmica."
+          },
+          {
+            "id": "d",
+            "label": "Inyección por gota a la demanda."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las impresoras de margarita, matriciales y de bola son tecnologías de impacto porque golpean una cinta. La inyección expulsa gotas sin impacto mecánico y por eso no pertenece a ese grupo. La respuesta correcta es «Inyección de aglutinante.». Referencia del temario: B2T2 · Elementos de impresión e impresión 3D."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-12",
+        "section": "test-oficial",
+        "prompt": "Hablando de las zonas de un disco duro, señale la respuesta FALSA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cilindro es un conjunto de varias pistas."
+          },
+          {
+            "id": "b",
+            "label": "Clúster es un conjunto continuo de sectores."
+          },
+          {
+            "id": "c",
+            "label": "Sector es cada uno de los lados de un plato."
+          },
+          {
+            "id": "d",
+            "label": "Pista es una circunferencia dentro de una cara."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La afirmación falsa confunde sector y cara. Un sector es una parte de una pista; una cara es una superficie completa de un plato. Un clúster agrupa sectores contiguos a nivel lógico. La respuesta correcta es «Sector es cada uno de los lados de un plato.». Referencia del temario: B2T2 · Elementos de almacenamiento."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-13",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes siglas NO corresponde a un tipo de monitor, según la tecnología empleada para formas las imágenes:",
+        "options": [
+          {
+            "id": "a",
+            "label": "CRT."
+          },
+          {
+            "id": "b",
+            "label": "LCD."
+          },
+          {
+            "id": "c",
+            "label": "ARP."
+          },
+          {
+            "id": "d",
+            "label": "TFT."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: CRT, LCD y TFT son tecnologías o familias asociadas a la visualización. ARP es un protocolo de red para resolver direcciones IP en direcciones físicas, no una tecnología de monitor. La respuesta correcta es «ARP.». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-14",
+        "section": "test-oficial",
+        "prompt": "¿Cuántos pines tiene un conector USB Tipo C?",
+        "options": [
+          {
+            "id": "a",
+            "label": "12."
+          },
+          {
+            "id": "b",
+            "label": "18."
+          },
+          {
+            "id": "c",
+            "label": "22."
+          },
+          {
+            "id": "d",
+            "label": "24. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El conector USB Tipo C tiene 24 pines y es reversible: puede enchufarse en cualquiera de las dos orientaciones. El tipo de conector no determina por sí solo la versión USB ni su velocidad. La respuesta correcta es «24. PERIFÉRICOS.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-15",
+        "section": "test-oficial",
+        "prompt": "De las siguientes afirmaciones, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Thunderbolt 2 alcanza una velocidad de transmisión de 20 Gbps y utiliza el conector DisplayPort."
+          },
+          {
+            "id": "b",
+            "label": "Thunderbolt 1 alcanza una velocidad de transmisión de 10 Gbps y utiliza el conector DisplayPort."
+          },
+          {
+            "id": "c",
+            "label": "Thunderbolt 1 y Thunderbolt 2 operan en modo bidireccional."
+          },
+          {
+            "id": "d",
+            "label": "Thunderbolt 3 utiliza un conector USB tipo C."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Thunderbolt 1 y 2 usan conector Mini DisplayPort y ofrecen 10 y 20 Gbit/s respectivamente mediante canales de 10 Gbit/s. La opción incorrecta simplifica de forma engañosa esa arquitectura como un único enlace bidireccional. La respuesta correcta es «Thunderbolt 1 y Thunderbolt 2 operan en modo bidireccional.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-16",
+        "section": "test-oficial",
+        "prompt": "En relación al puerto DVI, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "DVI-I admite señales digital y analógica."
+          },
+          {
+            "id": "b",
+            "label": "DVI-B admite señal digital."
+          },
+          {
+            "id": "c",
+            "label": "DVI-A admite señal analógica."
+          },
+          {
+            "id": "d",
+            "label": "DVI-D admite señal digital."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: DVI-A transporta señal analógica, DVI-D señal digital y DVI-I ambas. No existe un estándar DVI-B como variante habitual del conector, por lo que atribuirle señal digital es incorrecto. La respuesta correcta es «DVI-B admite señal digital.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-17",
+        "section": "test-oficial",
+        "prompt": "La velocidad de SAS-3 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "6 Gbps."
+          },
+          {
+            "id": "b",
+            "label": "12 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "16 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "8 Gbps."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: SAS-3 alcanza 12 Gbit/s por enlace. SAS-2 llega a 6 Gbit/s y SAS-4 eleva la tasa, de modo que 12 Gbit/s identifica específicamente la tercera generación. La respuesta correcta es «12 Gbps.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-18",
+        "section": "test-oficial",
+        "prompt": "Tiene que grabar en una memoria externa un fichero de vídeo de una hora con una calidad de 1,2 Mbits/seg. Le piden hacerlo en el dispositivo más barato con capacidad para almacenarlo. ¿Cuál de los siguientes elegiría?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Memoria USB. 64 MBytes. 1 euro"
+          },
+          {
+            "id": "b",
+            "label": "Memoria USB. 128 MBytes. 3 euros"
+          },
+          {
+            "id": "c",
+            "label": "CD. 650 MBytes. 5 euros"
+          },
+          {
+            "id": "d",
+            "label": "DVD. 4,7 GBytes. 10 euros"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Un vídeo de 1,2 Mbit/s durante 3.600 segundos ocupa 4.320 Mbit, equivalentes a 540 MByte. El CD de 650 MByte es el soporte más barato de las opciones con capacidad suficiente. La respuesta correcta es «CD. 650 MBytes. 5 euros.». Referencia del temario: B2T2 · Periféricos: conectividad, impresión, almacenamiento, visualización y digitalización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-19",
+        "section": "test-oficial",
+        "prompt": "Una resolución 1080p, representa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "1080 líneas de resolución horizontal progressive scan y entrelazada."
+          },
+          {
+            "id": "b",
+            "label": "1080 líneas de resolución vertical progressive scan y no entrelazada."
+          },
+          {
+            "id": "c",
+            "label": "1080 líneas de resolución vertical progressive scan y entrelazada."
+          },
+          {
+            "id": "d",
+            "label": "1080 líneas de resolución horizontal progressive scan y no entrelazada."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En 1080p, 1080 indica las líneas verticales y la letra p significa progressive scan: todas las líneas se dibujan de forma progresiva, no entrelazada. No describe la resolución horizontal. La respuesta correcta es «1080 líneas de resolución vertical progressive scan y no entrelazada.». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-20",
+        "section": "test-oficial",
+        "prompt": "En relación con las imágenes electrónicas definidas en la NTI Digitalización de documentos, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Será fiel al documento origen."
+          },
+          {
+            "id": "b",
+            "label": "No contendrá caracteres o gráficos que no figurasen en el documento origen, salvo la incorporación de un membrete conforme a la imagen institucional del organismo en cuestión."
+          },
+          {
+            "id": "c",
+            "label": "Respetará la geometría del documento origen en tamaños y proporciones."
+          },
+          {
+            "id": "d",
+            "label": "El nivel de resolución mínimo será de 200ppp. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La imagen electrónica debe ser fiel al documento origen, respetar su geometría y tener al menos 200 ppp. No pueden añadirse caracteres ni gráficos ajenos al original, por lo que el membrete añadido hace incorrecta esa opción. La respuesta correcta es «No contendrá caracteres o gráficos que no figurasen en el documento origen, salvo la incorporación de un membrete conforme a la imagen institucional del organismo en cuestión.». Referencia del temario: B2T2 · Digitalización y periféricos de entrada."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-21",
+        "section": "test-oficial",
+        "prompt": "De entre los componentes digitales de un documento electrónico fruto de un proceso de digitalización según la NTI Digitalización de documentos, señale la INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Imagen electrónica."
+          },
+          {
+            "id": "b",
+            "label": "Metadatos mínimos."
+          },
+          {
+            "id": "c",
+            "label": "Firma electrónica."
+          },
+          {
+            "id": "d",
+            "label": "Opcionalmente, los metadatos relacionados con el proceso de digitalización."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La imagen electrónica debe ser fiel al documento origen, respetar su geometría y tener al menos 200 ppp. No pueden añadirse caracteres ni gráficos ajenos al original, por lo que el membrete añadido hace incorrecta esa opción. La respuesta correcta es «Firma electrónica.». Referencia del temario: B2T2 · Digitalización y periféricos de entrada."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-22",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes tipos de USB utiliza conectores completamente simétricos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "USB-A."
+          },
+          {
+            "id": "b",
+            "label": "USB-B."
+          },
+          {
+            "id": "c",
+            "label": "USB-C."
+          },
+          {
+            "id": "d",
+            "label": "USB-S."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: USB-C tiene diseño simétrico y reversible. USB-A y USB-B tienen orientación física determinada y USB-S no es una categoría estándar de conector USB. La respuesta correcta es «USB-C.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-23",
+        "section": "test-oficial",
+        "prompt": "La velocidad de USB 4.0 o USB 4 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "10 Gbps."
+          },
+          {
+            "id": "b",
+            "label": "20 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "30 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "40 Gbps."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: USB4 puede alcanzar 40 Gbit/s en su especificación inicial. Es una evolución basada en la arquitectura de Thunderbolt 3 y supera las tasas de USB 3.x. La respuesta correcta es «40 Gbps.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-24",
+        "section": "test-oficial",
+        "prompt": "USB 3.2 Gen 2x1 se corresponde con la versión:",
+        "options": [
+          {
+            "id": "a",
+            "label": "USB 2.0."
+          },
+          {
+            "id": "b",
+            "label": "USB 3.0."
+          },
+          {
+            "id": "c",
+            "label": "USB 3.1 Gen 1."
+          },
+          {
+            "id": "d",
+            "label": "USB 3.1 Gen 2."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: USB 3.2 Gen 2x1 mantiene un único carril a 10 Gbit/s, por lo que equivale a USB 3.1 Gen 2. La nomenclatura cambia, pero no la tasa máxima de ese modo. La respuesta correcta es «USB 3.1 Gen 2.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-25",
+        "section": "test-oficial",
+        "prompt": "En relación con DisplayPort señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Interfaz analógica que transmite video y audio."
+          },
+          {
+            "id": "b",
+            "label": "DisplayPort 2.0 ofrece una velocidad de 77,37 Gbps de manera efectiva."
+          },
+          {
+            "id": "c",
+            "label": "DisplayPort Alt Mode 2.0 soporta resoluciones de 16K a 60 Hz."
+          },
+          {
+            "id": "d",
+            "label": "El puerto MiniDP ha sido desarrollado por Apple."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: DisplayPort es una interfaz digital de audio y vídeo, no analógica. DisplayPort 2.0 mejora su ancho de banda y el modo alternativo por USB-C permite resoluciones muy altas. La respuesta correcta es «Interfaz analógica que transmite video y audio.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-26",
+        "section": "test-oficial",
+        "prompt": "Indique el número máximo de carriles que soporta PCIe:",
+        "options": [
+          {
+            "id": "a",
+            "label": "2."
+          },
+          {
+            "id": "b",
+            "label": "4."
+          },
+          {
+            "id": "c",
+            "label": "8."
+          },
+          {
+            "id": "d",
+            "label": "16."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: PCI Express puede agrupar hasta 16 carriles en un enlace x16, habitual en tarjetas gráficas. Los enlaces x1, x4 y x8 existen, pero no representan el máximo. La respuesta correcta es «16.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-27",
+        "section": "test-oficial",
+        "prompt": "¿En qué consiste la tecnología de impresión 3D FDM?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el uso de un láser para imprimir objetos."
+          },
+          {
+            "id": "b",
+            "label": "En depositar polímero fundido sobre una base plana, capa a capa."
+          },
+          {
+            "id": "c",
+            "label": "En la aplicación de un haz de luz ultravioleta a una resina líquida sensible a la luz."
+          },
+          {
+            "id": "d",
+            "label": "En inyectar capas de fotopolímero líquido. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La inyección de aglutinante es una tecnología aditiva de impresión 3D: deposita un agente aglutinante sobre capas de material. El chorro continuo y la inyección térmica describen impresión convencional. La respuesta correcta es «En depositar polímero fundido sobre una base plana, capa a capa.». Referencia del temario: B2T2 · Elementos de impresión e impresión 3D."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-28",
+        "section": "test-oficial",
+        "prompt": "La interfaz de conexión SATA 3.0 utiliza un cable de datos que conecta que conecta el puerto SATA y el disco duro. Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un cable de 7 pines exclusivo."
+          },
+          {
+            "id": "b",
+            "label": "Es un cable de 7 pines compartido."
+          },
+          {
+            "id": "c",
+            "label": "Es un cable de 5 pines exclusivo."
+          },
+          {
+            "id": "d",
+            "label": "Es un cable de 5 pines compartido."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: SATA significa Serial ATA y transmite los datos en serie. PATA es la evolución paralela de ATA, por lo que no identifica la interfaz serie preguntada. La respuesta correcta es «Es un cable de 7 pines exclusivo.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-29",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes interfaces permite trabajar a una velocidad de 16 Gbps?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SATA 3.0."
+          },
+          {
+            "id": "b",
+            "label": "SATAe."
+          },
+          {
+            "id": "c",
+            "label": "SAS-4."
+          },
+          {
+            "id": "d",
+            "label": "Ultra 2 SCSI 3."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: SATA significa Serial ATA y transmite los datos en serie. PATA es la evolución paralela de ATA, por lo que no identifica la interfaz serie preguntada. La respuesta correcta es «SATAe.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-30",
+        "section": "test-oficial",
+        "prompt": "¿Qué respuesta es INCORRECTA en relación con NVMe?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es una interfaz para acceder a medios de almacenamiento no volátiles conectados a PCIe."
+          },
+          {
+            "id": "b",
+            "label": "NVMe significa Non Volatile Memory Express."
+          },
+          {
+            "id": "c",
+            "label": "Se utiliza de forma intensiva para acceder a discos duros."
+          },
+          {
+            "id": "d",
+            "label": "Es una alternativa a SATA."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: NVMe significa Non-Volatile Memory Express y está diseñado para medios no volátiles conectados por PCIe, especialmente SSD. No se utiliza de forma intensiva para discos duros mecánicos, que suelen emplear SATA o SAS. La respuesta correcta es «Se utiliza de forma intensiva para acceder a discos duros.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-31",
+        "section": "test-oficial",
+        "prompt": "¿Qué medio de almacenamiento tiene mayor velocidad de lectura?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SSD SATA II."
+          },
+          {
+            "id": "b",
+            "label": "SSD NVMe."
+          },
+          {
+            "id": "c",
+            "label": "SSD SATA 2,5."
+          },
+          {
+            "id": "d",
+            "label": "SSD SATA M.2."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Un SSD NVMe usa PCIe y el protocolo NVMe, pensado para paralelismo y baja latencia. Por eso suele superar en lectura a un SSD conectado mediante SATA, incluso si ambos usan memoria flash. La respuesta correcta es «SSD NVMe.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-32",
+        "section": "test-oficial",
+        "prompt": "¿Qué tecnología de monitor NO existe?",
+        "options": [
+          {
+            "id": "a",
+            "label": "CRT."
+          },
+          {
+            "id": "b",
+            "label": "TLED."
+          },
+          {
+            "id": "c",
+            "label": "LCD."
+          },
+          {
+            "id": "d",
+            "label": "IPS."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: CRT, LCD e IPS son denominaciones de tecnologías o paneles de monitor. TLED no es una tecnología de pantalla reconocida; probablemente se confunde con LED, la retroiluminación de muchos LCD. La respuesta correcta es «TLED.». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-33",
+        "section": "test-oficial",
+        "prompt": "Para conectar un disco duro SATA a la placa base utilizaremos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un conector IDE."
+          },
+          {
+            "id": "b",
+            "label": "Un conector SATA y un cable de alimentación SATA."
+          },
+          {
+            "id": "c",
+            "label": "Un conector SATA que proporcione además alimentación eléctrica."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: SATA significa Serial ATA y transmite los datos en serie. PATA es la evolución paralela de ATA, por lo que no identifica la interfaz serie preguntada. La respuesta correcta es «Un conector SATA y un cable de alimentación SATA.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-3",
+        "section": "test-oficial",
+        "prompt": "0?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1,5 Gbps."
+          },
+          {
+            "id": "b",
+            "label": "3 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "6 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "12 Gbps. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: SAS-3 alcanza 12 Gbit/s por enlace. SAS-2 llega a 6 Gbit/s y SAS-4 eleva la tasa, de modo que 12 Gbit/s identifica específicamente la tercera generación. La respuesta correcta es «12 Gbps. PERIFÉRICOS.». Referencia del temario: B2T2 · Periféricos: conectividad, impresión, almacenamiento, visualización y digitalización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-35",
+        "section": "test-oficial",
+        "prompt": "¿A partir de qué versión de USB la velocidad de transferencia de datos supera 1 Gbps?",
+        "options": [
+          {
+            "id": "a",
+            "label": "USB 1.1."
+          },
+          {
+            "id": "b",
+            "label": "USB 2.0."
+          },
+          {
+            "id": "c",
+            "label": "USB 3.0."
+          },
+          {
+            "id": "d",
+            "label": "USB 3.1."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: USB 2.0 se limita a 480 Mbit/s, por debajo de 1 Gbit/s. USB 3.0 alcanza 4,8 Gbit/s, por lo que es la primera versión de la lista que supera ese umbral. La respuesta correcta es «USB 3.0.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-36",
+        "section": "test-oficial",
+        "prompt": "Señale la tecnología empleada para la impresión 3D:",
+        "options": [
+          {
+            "id": "a",
+            "label": "CCD (Charged Coupled Device)."
+          },
+          {
+            "id": "b",
+            "label": "SLS (Sinterización Selectiva por Láser)."
+          },
+          {
+            "id": "c",
+            "label": "Chroma subsampling."
+          },
+          {
+            "id": "d",
+            "label": "WIA (Windows Image Acquisition)."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: SLS significa sinterización selectiva por láser y es una técnica de fabricación aditiva. CCD es un sensor de imagen y WIA una interfaz de adquisición para Windows, no procesos de impresión 3D. La respuesta correcta es «SLS (Sinterización Selectiva por Láser).». Referencia del temario: B2T2 · Elementos de impresión e impresión 3D."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-37",
+        "section": "test-oficial",
+        "prompt": "NO es un espacio de color:",
+        "options": [
+          {
+            "id": "a",
+            "label": "RGB."
+          },
+          {
+            "id": "b",
+            "label": "CMYK."
+          },
+          {
+            "id": "c",
+            "label": "HSM."
+          },
+          {
+            "id": "d",
+            "label": "HSB."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: RGB y CMYK son espacios o modelos de color y HSB describe tono, saturación y brillo. HSM no es la denominación estándar del espacio de color que pretende incluir la pregunta. La respuesta correcta es «HSM.». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-38",
+        "section": "test-oficial",
+        "prompt": "La medida del número de bits utilizados para definir cada píxel es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Resolución."
+          },
+          {
+            "id": "b",
+            "label": "Área de imagen."
+          },
+          {
+            "id": "c",
+            "label": "Profundidad de bit o de color."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna es verdadera."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La profundidad de color expresa cuántos bits se usan para codificar cada píxel y cuántos colores o niveles puede representar. La resolución mide el número de píxeles, no los bits de cada uno. La respuesta correcta es «Profundidad de bit o de color.». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-39",
+        "section": "test-oficial",
+        "prompt": "Un monitor cuya resolución es de 640 x 480 tiene:",
+        "options": [
+          {
+            "id": "a",
+            "label": "480 líneas de exploración (resolución vertical)."
+          },
+          {
+            "id": "b",
+            "label": "640 líneas de exploración (resolución vertical)."
+          },
+          {
+            "id": "c",
+            "label": "480 pixeles (resolución horizontal)."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es cierta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La notación 640 x 480 expresa 640 píxeles en horizontal y 480 en vertical. Por eso un monitor con esa resolución tiene 480 líneas de exploración verticales. La respuesta correcta es «480 líneas de exploración (resolución vertical).». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-40",
+        "section": "test-oficial",
+        "prompt": "En relación con un escáner, la resolución interpolada es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una resolución calculada que genera nuevos puntos a partir de otros reales más próximos."
+          },
+          {
+            "id": "b",
+            "label": "La cantidad de puntos individuales de una imagen captada mediante el sensor."
+          },
+          {
+            "id": "c",
+            "label": "La empleada por los programas OCR para identificar el texto."
+          },
+          {
+            "id": "d",
+            "label": "La que determina la profundidad del color."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La resolución interpolada se calcula por software creando puntos nuevos a partir de los píxeles reales próximos. No aumenta la resolución óptica del sensor, que es la capacidad física de captura del escáner. La respuesta correcta es «Una resolución calculada que genera nuevos puntos a partir de otros reales más próximos.». Referencia del temario: B2T2 · Elementos de visualización."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-41",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes es una tecnología de almacenamiento en disco mediante bus serie?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SATA."
+          },
+          {
+            "id": "b",
+            "label": "ATA."
+          },
+          {
+            "id": "c",
+            "label": "SCSI."
+          },
+          {
+            "id": "d",
+            "label": "DLT. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: SATA significa Serial ATA y transmite los datos en serie. PATA es la evolución paralela de ATA, por lo que no identifica la interfaz serie preguntada. La respuesta correcta es «SATA.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-42",
+        "section": "test-oficial",
+        "prompt": "Respecto a la norma USB, indique la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "USB Type-C es lo mismo que USB 3.1"
+          },
+          {
+            "id": "b",
+            "label": "La diferencia entre USB 3.1 Gen 1 y USB 3.1 Gen 2 se reduce solamente a la velocidad."
+          },
+          {
+            "id": "c",
+            "label": "USB 3.2 permite velocidades de hasta 20 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "Los dispositivos USB 2.0 pueden lograr una velocidad de transferencia máxima hasta de 480 Mbps."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: USB Type-C describe la forma física del conector, mientras que USB 3.1 es una especificación de transferencia. Un puerto Type-C puede implementar distintas versiones USB; por eso no son equivalentes. La respuesta correcta es «USB Type-C es lo mismo que USB 3.1.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-43",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes componentes de almacenamiento ofrece el acceso más rápido a los datos en reposo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Disco duro."
+          },
+          {
+            "id": "b",
+            "label": "Memoria RAM."
+          },
+          {
+            "id": "c",
+            "label": "Disco SSD."
+          },
+          {
+            "id": "d",
+            "label": "Pendrive USB."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Entre los soportes de almacenamiento persistente propuestos, el SSD proporciona el acceso más rápido por usar memoria flash sin movimientos mecánicos. La RAM es más rápida, pero es volátil y no almacena datos en reposo. La respuesta correcta es «Disco SSD.». Referencia del temario: B2T2 · Elementos de almacenamiento."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-44",
+        "section": "test-oficial",
+        "prompt": "La impresión más económica, una vez teniendo el dispositivo es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La de gel."
+          },
+          {
+            "id": "b",
+            "label": "La láser."
+          },
+          {
+            "id": "c",
+            "label": "La de inyección."
+          },
+          {
+            "id": "d",
+            "label": "Las tres por igual."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Una vez adquirido el equipo, la impresión láser suele tener menor coste por página que la inyección, especialmente en tiradas medias o altas. El cartucho de tóner rinde muchas más páginas. La respuesta correcta es «La láser.». Referencia del temario: B2T2 · Elementos de impresión e impresión 3D."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-45",
+        "section": "test-oficial",
+        "prompt": "Indique la principal diferencia entre discos mecánicos, SSD’s y NVMe por tamaño, velocidad y duración:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los más rápidos son los SSD’s y los más reducidos en tamaño (no en capacidad) los NVMe."
+          },
+          {
+            "id": "b",
+            "label": "Los discos mecánicos más grandes son más baratos que los SSD’s más grandes."
+          },
+          {
+            "id": "c",
+            "label": "Los discos con mayor capacidad son los discos mecánicos y los más rápidos son los NVMe."
+          },
+          {
+            "id": "d",
+            "label": "Los discos SSD’s y los NVMe son ópticos y por tanto con mayor durabilidad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los discos mecánicos siguen ofreciendo grandes capacidades a menor coste, mientras que NVMe conectado por PCIe suele ser el más rápido. SSD SATA queda normalmente entre ambos en rendimiento. La respuesta correcta es «Los discos con mayor capacidad son los discos mecánicos y los más rápidos son los NVMe.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-46",
+        "section": "test-oficial",
+        "prompt": "Cuando utilizamos el término QWERTY, nos estamos refiriendo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A un tipo de impresora."
+          },
+          {
+            "id": "b",
+            "label": "A un tipo de teclado."
+          },
+          {
+            "id": "c",
+            "label": "A un tipo de ratón."
+          },
+          {
+            "id": "d",
+            "label": "A un tipo de pantalla."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: QWERTY es la distribución de teclado denominada por las seis primeras letras de la fila superior alfabética. No designa un tipo de impresora, ratón ni pantalla. La respuesta correcta es «A un tipo de teclado.». Referencia del temario: B2T2 · Digitalización y periféricos de entrada."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-47",
+        "section": "test-oficial",
+        "prompt": "¿Qué significa HDD?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Hard Definition Disk."
+          },
+          {
+            "id": "b",
+            "label": "Hard Disk Drive."
+          },
+          {
+            "id": "c",
+            "label": "Heavy Disk Device."
+          },
+          {
+            "id": "d",
+            "label": "Height Definition Dictionary."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: HDD significa Hard Disk Drive, unidad de disco duro. Designa el dispositivo magnético de almacenamiento con platos giratorios y cabezales de lectura y escritura. La respuesta correcta es «Hard Disk Drive.». Referencia del temario: B2T2 · Elementos de almacenamiento."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-48",
+        "section": "test-oficial",
+        "prompt": "Para conectar una tarjeta gráfica a la placa base, de los siguientes puertos o bus de expansión, ¿cuál se usa?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SATA."
+          },
+          {
+            "id": "b",
+            "label": "PCI-Express."
+          },
+          {
+            "id": "c",
+            "label": "IDE."
+          },
+          {
+            "id": "d",
+            "label": "COM. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las tarjetas gráficas dedicadas se conectan habitualmente mediante una ranura PCI Express x16. SATA e IDE son interfaces de almacenamiento y COM es un puerto serie heredado. La respuesta correcta es «PCI-Express.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-49",
+        "section": "test-oficial",
+        "prompt": "Se consideran periféricos de entrada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Micrófono e impresora."
+          },
+          {
+            "id": "b",
+            "label": "Altavoces, auriculares e impresora."
+          },
+          {
+            "id": "c",
+            "label": "Teclado, ratón y escáner."
+          },
+          {
+            "id": "d",
+            "label": "Impresora, cámara, teclado y ratón."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Teclado, ratón y escáner introducen datos en el ordenador, por lo que son periféricos de entrada. Impresora, altavoces y auriculares son periféricos de salida. La respuesta correcta es «Teclado, ratón y escáner.». Referencia del temario: B2T2 · Digitalización y periféricos de entrada."
+      },
+      {
+        "id": "b2t2-test-oficial-perifericos-50",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "PCIe 5.0 trabaja a 64 Gbps."
+          },
+          {
+            "id": "b",
+            "label": "HDMI 2.1 trabaja a 40 Gbps."
+          },
+          {
+            "id": "c",
+            "label": "Thunderbolt 5.0 ofrece una velocidad por defecto a 80 Gbps."
+          },
+          {
+            "id": "d",
+            "label": "USB 4 2.0 ofrece una velocidad por defecto de 120 Gbps. PERIFÉRICOS"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Thunderbolt 5 ofrece por defecto 80 Gbit/s, con un modo de mayor ancho de banda en una dirección para vídeo. PCIe 5.0, HDMI 2.1 y USB4 2.0 tienen cifras distintas y no deben intercambiarse. La respuesta correcta es «Thunderbolt 5.0 ofrece una velocidad por defecto a 80 Gbps.». Referencia del temario: B2T2 · Conectividad y administración de periféricos."
+      }
+    ]
+  },
+  {
     "code": "B2T4",
     "slug": "b2t4-test-oficial-ssoo",
     "title": "Test oficial SSOO",

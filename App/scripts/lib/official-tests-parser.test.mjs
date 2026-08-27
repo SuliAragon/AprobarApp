@@ -78,6 +78,31 @@ SOLUCIONES
   assert.equal(parsed.questions[1].options[0].label, "Primera línea de la respuesta que continúa en la segunda línea.");
 });
 
+test("parseOfficialTestText reconoce opciones alineadas en la misma línea del PDF", () => {
+  const source = `
+1. ¿Qué confesión tendrá carácter estatal?
+   a) Ninguna.                                        b) La Iglesia Católica.
+   c) La confesión mayoritaria.                       d) Todas son estatales.
+
+SOLUCIONES
+1. A
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T1",
+    slug: "opciones-en-linea",
+    title: "Opciones en línea",
+  });
+
+  assert.equal(parsed.questions.length, 1);
+  assert.deepEqual(parsed.questions[0].options.map((option) => option.label), [
+    "Ninguna.",
+    "La Iglesia Católica.",
+    "La confesión mayoritaria.",
+    "Todas son estatales.",
+  ]);
+});
+
 test("parseOfficialTestText no confunde referencias legales con marcas de opción", () => {
   const source = `
 19. La tutela podrá recabarse según el art. 161.1.a), en los términos previstos:
@@ -196,6 +221,55 @@ SOLUCIONES
   assert.match(explanations[2], /condensador.*refresco/i);
   assert.match(explanations[3], /datos e instrucciones.*separad/i);
   assert.match(explanations[0], /Referencia del temario: B2T1 · Unicode/i);
+  assert.doesNotMatch(explanations.join(" "), /aplica el concepto preciso|se ajusta al criterio preguntado|apartado correspondiente/i);
+});
+
+test("parseOfficialTestText explica los periféricos de B2T2 con la regla técnica concreta", () => {
+  const source = `
+1. ¿Cuántos pines tiene un conector USB Tipo C?
+a) 12.
+b) 18.
+c) 22.
+d) 24.
+
+2. Una resolución 1080p representa:
+a) 1080 líneas de resolución horizontal y entrelazada.
+b) 1080 líneas de resolución vertical, progressive scan y no entrelazada.
+c) 1080 líneas de resolución vertical y entrelazada.
+d) 1080 líneas de resolución horizontal y no entrelazada.
+
+3. ¿En qué consiste la tecnología de impresión 3D FDM?
+a) En usar un láser sobre polvo.
+b) En depositar polímero fundido sobre una base plana, capa a capa.
+c) En curar resina líquida con luz ultravioleta.
+d) En inyectar tinta térmica sobre papel.
+
+4. Según la NTI de Digitalización de documentos, el nivel de resolución mínimo de una imagen electrónica es:
+a) 72 ppp.
+b) 150 ppp.
+c) 200 ppp.
+d) 600 ppp.
+
+SOLUCIONES
+1. D
+2. B
+3. B
+4. C
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B2T2",
+    slug: "b2t2-test-oficial",
+    title: "Test oficial Periféricos",
+  });
+  const explanations = parsed.questions.map((question) => question.explanation);
+
+  assert.equal(new Set(explanations).size, 4);
+  assert.match(explanations[0], /24 pines.*reversible/i);
+  assert.match(explanations[1], /vertical.*progressive scan.*no entrelaz/i);
+  assert.match(explanations[2], /polímero fundido.*capa a capa/i);
+  assert.match(explanations[3], /mínima.*200 ppp/i);
+  assert.match(explanations[0], /Referencia del temario: B2T2 .*Conectividad/i);
   assert.doesNotMatch(explanations.join(" "), /aplica el concepto preciso|se ajusta al criterio preguntado|apartado correspondiente/i);
 });
 
