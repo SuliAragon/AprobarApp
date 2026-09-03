@@ -64,6 +64,22 @@
     "assetPath": "/test-oficial/B1T4/b1t4-test-oficial-2-transparencia.pdf"
   },
   {
+    "code": "B1T5",
+    "slug": "b1t5-test-oficial-1-administracion",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 5/B1T5Test_1_Administracion 1.pdf",
+    "title": "Test oficial 1 Administracion",
+    "assetPath": "/test-oficial/B1T5/b1t5-test-oficial-1-administracion.pdf"
+  },
+  {
+    "code": "B1T5",
+    "slug": "b1t5-test-oficial-2-administracion",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 5/B1T5Test_2_Administracion 1.pdf",
+    "title": "Test oficial 2 Administracion",
+    "assetPath": "/test-oficial/B1T5/b1t5-test-oficial-2-administracion.pdf"
+  },
+  {
     "code": "B2T1",
     "slug": "b2t1-test-oficial-informatica-basica",
     "kind": "official-test",

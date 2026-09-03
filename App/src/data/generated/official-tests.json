@@ -11016,6 +11016,2907 @@
     ]
   },
   {
+    "code": "B1T5",
+    "slug": "b1t5-test-oficial-1-administracion",
+    "title": "Test oficial 1 Administracion",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 5/B1T5Test_1_Administracion 1.pdf",
+    "assetPath": "/test-oficial/B1T5/b1t5-test-oficial-1-administracion.pdf",
+    "questions": [
+      {
+        "id": "b1t5-test-oficial-1-administracion-1",
+        "section": "test-oficial",
+        "prompt": "El TREBEP se aplica, conforme a su artículo 2.1:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al personal funcionario y en lo que proceda al personal laboral al servicio de las Administraciones Públicas, que señala este Estatuto."
+          },
+          {
+            "id": "b",
+            "label": "Únicamente al personal funcionario al servicio de las Administraciones Públicas que señala el Estatuto."
+          },
+          {
+            "id": "c",
+            "label": "Al personal funcionario y en todo caso al personal laboral al servicio de las Administraciones Públicas, que señala el Estatuto."
+          },
+          {
+            "id": "d",
+            "label": "Al personal funcionario y en lo que proceda al personal eventual al servicio de las Administraciones Públicas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 2.1 aplica el TREBEP al personal funcionario y, cuando proceda, al personal laboral de las Administraciones enumeradas. La clave es que no se limita al funcionariado ni se extiende automaticamente a cualquier entidad privada. La respuesta correcta es «Al personal funcionario y en lo que proceda al personal laboral al servicio de las Administraciones Públicas, que señala este Estatuto.». Referencia del temario: B1T5 · Ambito de aplicacion y personal con legislacion especifica."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-2",
+        "section": "test-oficial",
+        "prompt": "Conforme a lo dispuesto en el TREBEP, son empleados públicos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los que ejerzan funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas."
+          },
+          {
+            "id": "b",
+            "label": "Los funcionarios de carrera pero no los funcionarios interinos."
+          },
+          {
+            "id": "c",
+            "label": "Solo los funcionarios de carrera, el personal laboral por tiempo indefinido y el personal eventual."
+          },
+          {
+            "id": "d",
+            "label": "Quienes desempeñen funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 8 define como empleados publicos a quienes desempenan funciones retribuidas en las Administraciones Publicas al servicio de los intereses generales. La retribucion y esa finalidad publica son los dos elementos que identifica la respuesta. La respuesta correcta es «Quienes desempeñen funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-3",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA. Las disposiciones del TREBEP solo se aplicarán directamente cuando así lo disponga su legislación específica a los siguientes colectivos de personal:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Personal funcionario de las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "Personal militar de las Fuerzas Armadas."
+          },
+          {
+            "id": "c",
+            "label": "Personal retribuido por arancel."
+          },
+          {
+            "id": "d",
+            "label": "Personal de las Universidades Públicas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las universidades publicas estan incluidas expresamente en el ambito general del articulo 2, por lo que no forman parte de los colectivos del articulo 4 con aplicacion directa solo cuando su normativa especifica lo disponga. La respuesta correcta es «Personal de las Universidades Públicas.». Referencia del temario: B1T5 · Ambito de aplicacion y personal con legislacion especifica."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-4",
+        "section": "test-oficial",
+        "prompt": "Según establece el artículo 3 del TREBEP, qué legislación será aplicable al personal funcionario de las Entidades Locales:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El TREBEP y el IV Convenio Colectivo, en su caso."
+          },
+          {
+            "id": "b",
+            "label": "La legislación propia establecida por la CCAA."
+          },
+          {
+            "id": "c",
+            "label": "La legislación prevista a nivel estatal y las normas particulares establecidas por las Asambleas legislativas de las CCAA."
+          },
+          {
+            "id": "d",
+            "label": "La legislación laboral en vigor."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 3 somete al personal funcionario local a la legislacion estatal aplicable y a la normativa de las comunidades autonomas, respetando la autonomia local. No existe un regimen aislado de las reglas basicas estatales. La respuesta correcta es «La legislación prevista a nivel estatal y las normas particulares establecidas por las Asambleas legislativas de las CCAA.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-5",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con lo establecido en el Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, señale qué personal se rige con legislación específica propia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El personal al servicio de los Organismos Públicos vinculados o dependientes de cualquier Administración Pública."
+          },
+          {
+            "id": "b",
+            "label": "El personal funcionario al servicio de la Administración de Justicia."
+          },
+          {
+            "id": "c",
+            "label": "El personal al servicio de las Agencias y demás entidades de derecho público con personalidad jurídica propia, vinculadas o dependientes de cualquiera de las Administraciones Públicas."
+          },
+          {
+            "id": "d",
+            "label": "El personal civil de las Fuerzas Armadas. 1 TREBEP"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El personal funcionario al servicio de la Administracion de Justicia tiene legislacion especifica propia conforme al articulo 4. El TREBEP solo se aplica directamente cuando esa regulacion especifica lo prevea. La respuesta correcta es «El personal funcionario al servicio de la Administración de Justicia.». Referencia del temario: B1T5 · Ambito de aplicacion y personal con legislacion especifica."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-6",
+        "section": "test-oficial",
+        "prompt": "El artículo 4 del TREBEP establece las disposiciones de dicho Estatuto solo se aplicarán directamente cuando así lo disponga su legislación específica al personal de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Universidades Públicas."
+          },
+          {
+            "id": "b",
+            "label": "El Consejo Superior de Investigaciones Científicas."
+          },
+          {
+            "id": "c",
+            "label": "El Centro Nacional de Inteligencia."
+          },
+          {
+            "id": "d",
+            "label": "El Consejo de Seguridad Nuclear."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El personal del Centro Nacional de Inteligencia figura entre los colectivos con legislacion especifica del articulo 4. Por ello no se le aplica el TREBEP como regla comun sin atender primero a su normativa propia. La respuesta correcta es «El Centro Nacional de Inteligencia.». Referencia del temario: B1T5 · Ambito de aplicacion y personal con legislacion especifica."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-7",
+        "section": "test-oficial",
+        "prompt": "Según el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, los empleados públicos se clasifican en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Funcionarios de carrera, funcionarios interinos y personal laboral."
+          },
+          {
+            "id": "b",
+            "label": "Funcionarios de carrera, funcionarios laborales y personal eventual."
+          },
+          {
+            "id": "c",
+            "label": "Funcionarios fijos, funcionarios interinos, personal laboral y personal eventual."
+          },
+          {
+            "id": "d",
+            "label": "Funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 8.2 clasifica a los empleados publicos en funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual. El personal directivo se regula aparte y no integra esa enumeracion cerrada. La respuesta correcta es «Funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-8",
+        "section": "test-oficial",
+        "prompt": "El desempeño de funciones que implican el ejercicio de potestades públicas o salvaguardia de los intereses generales del Estado puede asumirse por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los empleados públicos."
+          },
+          {
+            "id": "b",
+            "label": "Los funcionarios de carrera."
+          },
+          {
+            "id": "c",
+            "label": "Personal laboral fijo y funcionario de carrera."
+          },
+          {
+            "id": "d",
+            "label": "Personal laboral y funcionario de carrera."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El ejercicio de potestades publicas o la salvaguardia de intereses generales del Estado se reserva a funcionarios de carrera. Esa reserva protege la imparcialidad y la continuidad de las funciones publicas nucleares. La respuesta correcta es «Los funcionarios de carrera.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-9",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, el funcionario de carrera se define como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todo el que, por disposición inmediata de la Ley, o por elección o por nombramiento de Autoridad competente, participe en el ejercicio de funciones públicas."
+          },
+          {
+            "id": "b",
+            "label": "Aquel que, en virtud de contrato de trabajo formalizado por escrito, en cualquiera de las modalidades de contratación de personal previstas en la legislación laboral, presta servicios retribuidos por las Administraciones Públicas."
+          },
+          {
+            "id": "c",
+            "label": "Son funcionarios de carrera quienes, en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente."
+          },
+          {
+            "id": "d",
+            "label": "Todo aquel que, desde su posición en una Administración Pública, sirva los intereses generales de los ciudadanos desempeñando una función retribuida."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 9 exige nombramiento legal y una relacion estatutaria regulada por Derecho Administrativo para servicios profesionales retribuidos de caracter permanente. Esa permanencia separa al funcionario de carrera del interino. La respuesta correcta es «Son funcionarios de carrera quienes, en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-10",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, una de las circunstancias que debe darse para el nombramiento de un funcionario interino es el exceso o acumulación de tareas por plazo máximo de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "3 meses, dentro de un periodo de 6 meses."
+          },
+          {
+            "id": "b",
+            "label": "12 meses, dentro de un periodo de 18 meses."
+          },
+          {
+            "id": "c",
+            "label": "9 meses, dentro de un periodo de 18 meses."
+          },
+          {
+            "id": "d",
+            "label": "12 meses, dentro de un periodo de 24 meses. 1 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Para la acumulacion de tareas, el articulo 10 limita el nombramiento interino a nueve meses dentro de un periodo de dieciocho meses. Es una causa temporal distinta de la vacante o de la ejecucion de programas. La respuesta correcta es «9 meses, dentro de un periodo de 18 meses.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-11",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, los funcionarios interinos pueden ser nombrados para alguna de las circunstancias siguientes:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La ejecución de programas de carácter temporal, por plazo máximo de seis meses, con posibilidad de ampliación."
+          },
+          {
+            "id": "b",
+            "label": "La ejecución de programas de carácter temporal, que no podrán tener una duración superior a tres años, con posibilidad de ampliación hasta doce meses más."
+          },
+          {
+            "id": "c",
+            "label": "El exceso o acumulación de tareas, por plazo máximo de doce meses, dentro de un periodo de dieciocho meses."
+          },
+          {
+            "id": "d",
+            "label": "El lanzamiento de una nueva actividad, por plazo máximo de seis meses."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El nombramiento interino para programas temporales tiene una duracion maxima de tres anos y puede ampliarse hasta doce meses mas. El limite impide utilizar la interinidad para necesidades permanentes sin cobertura ordinaria. La respuesta correcta es «La ejecución de programas de carácter temporal, que no podrán tener una duración superior a tres años, con posibilidad de ampliación hasta doce meses más.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-12",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto Legislativo 5/2015, por el que se aprueba el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, es correcto indicar que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es personal eventual el que, en virtud de nombramiento y con carácter fijo, por tiempo indefinido o temporal dependiendo del caso, solo realiza funciones expresamente calificadas como de confianza o asesoramiento especial."
+          },
+          {
+            "id": "b",
+            "label": "El nombramiento y cese del personal eventual no serán libres."
+          },
+          {
+            "id": "c",
+            "label": "La condición de personal eventual no podrá constituir mérito para el acceso a la Función Pública o para la promoción interna."
+          },
+          {
+            "id": "d",
+            "label": "Al personal eventual le será aplicable, en lo que sea adecuado a la naturaleza de su condición, el mismo convenio del personal laboral."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La condicion o el desempeno como personal eventual no puede constituir merito para acceder a la funcion publica ni para promocionar internamente. El puesto de confianza no se convierte asi en una ventaja selectiva. La respuesta correcta es «La condición de personal eventual no podrá constituir mérito para el acceso a la Función Pública o para la promoción interna.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-13",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, cuando existiendo alguna plaza vacante no haya sido posible su cobertura por funcionarios de carrera y se haya cubierto por un interino:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dicha plaza deberá incluirse en la oferta de empleo correspondiente al ejercicio siguiente en que se produce su nombramiento."
+          },
+          {
+            "id": "b",
+            "label": "Dicha plaza podrá ser amortizada."
+          },
+          {
+            "id": "c",
+            "label": "Dicha plaza solo podrá incluirse en la oferta de empleo correspondiente al ejercicio en que se produce su nombramiento."
+          },
+          {
+            "id": "d",
+            "label": "Dicha plaza no podrá incluirse en la oferta de empleo hasta que hayan transcurrido tres años."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Una plaza vacante cubierta por interino puede ser amortizada si desaparece la necesidad estructural. La cobertura interina no consolida la plaza ni obliga a mantenerla hasta que se cubra por funcionario de carrera. La respuesta correcta es «Dicha plaza podrá ser amortizada.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-14",
+        "section": "test-oficial",
+        "prompt": "Según dispone el TREBEP el personal laboral, en función de la duración del contrato, podrá ser:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Fijo o temporal."
+          },
+          {
+            "id": "b",
+            "label": "Fijo, por tiempo indefinido o temporal."
+          },
+          {
+            "id": "c",
+            "label": "Fijo o por tiempo indefinido."
+          },
+          {
+            "id": "d",
+            "label": "Por tiempo indefinido o temporal."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 11 clasifica al personal laboral, segun la duracion de su contrato, como fijo, por tiempo indefinido o temporal. Estas categorias pertenecen al regimen laboral y no a las clases de funcionario. La respuesta correcta es «Fijo, por tiempo indefinido o temporal.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-15",
+        "section": "test-oficial",
+        "prompt": "El artículo 12 del TREBEP regula el denominado personal eventual, estableciendo que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tienen por finalidad realizar actividades de naturaleza no permanente y aquellas por las que se responsabilizan de la gestión y control de resultados en relación con los objetivos que les hayan sido fijados."
+          },
+          {
+            "id": "b",
+            "label": "Su condición no podrá constituir mérito para el acceso a la Función Pública, pero sí para la promoción interna."
+          },
+          {
+            "id": "c",
+            "label": "Su designación atenderá a principios de mérito y capacidad y a criterios de idoneidad."
+          },
+          {
+            "id": "d",
+            "label": "Su número y las condiciones retributivas serán públicas. 1 TREBEP"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 12 exige que el numero y las condiciones retributivas del personal eventual sean publicos. Esa transparencia es coherente con el caracter de confianza o asesoramiento especial de estos puestos. La respuesta correcta es «Su número y las condiciones retributivas serán públicas. 1 TREBEP.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-16",
+        "section": "test-oficial",
+        "prompt": "Según el TREBEP, indique la respuesta correcta en relación con el personal eventual:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es nombrado por razones expresamente justificadas de necesidad y urgencia."
+          },
+          {
+            "id": "b",
+            "label": "Su selección habrá de realizarse mediante procedimientos ágiles que respetarán, en todo caso, los principios de igualdad, mérito, capacidad y publicidad."
+          },
+          {
+            "id": "c",
+            "label": "La determinación de las condiciones de empleo no tendrá la consideración de materia objeto de negociación colectiva."
+          },
+          {
+            "id": "d",
+            "label": "Cesa, en todo caso, cuando se produzca el de la autoridad a la que preste la función de confianza o asesoramiento."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El personal eventual cesa en todo caso cuando cesa la autoridad a la que presta la funcion de confianza o asesoramiento. Su vinculacion no crea una permanencia independiente de esa autoridad. La respuesta correcta es «Cesa, en todo caso, cuando se produzca el de la autoridad a la que preste la función de confianza o asesoramiento.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-17",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, el personal eventual:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No es empleado público."
+          },
+          {
+            "id": "b",
+            "label": "Es empleado público clasificado como personal funcionario."
+          },
+          {
+            "id": "c",
+            "label": "Es empleado público pero no está clasificado como personal funcionario."
+          },
+          {
+            "id": "d",
+            "label": "Es empleado público clasificado como personal directivo profesional."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El personal eventual es empleado publico, pero no personal funcionario: desempena funciones de confianza o asesoramiento especial con caracter no permanente. Esa naturaleza explica que no adquiera la condicion estatutaria de funcionario de carrera. La respuesta correcta es «Es empleado público pero no está clasificado como personal funcionario.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-18",
+        "section": "test-oficial",
+        "prompt": "El desempeño de un puesto de trabajo como personal eventual no puede constituir un mérito para:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El acceso a la función pública, la promoción interna o la provisión de puestos de trabajo."
+          },
+          {
+            "id": "b",
+            "label": "El acceso a la función pública o la promoción interna."
+          },
+          {
+            "id": "c",
+            "label": "El acceso a la función pública o la provisión de puestos de trabajo."
+          },
+          {
+            "id": "d",
+            "label": "La promoción interna o la provisión de puestos de trabajo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La condicion o el desempeno como personal eventual no puede constituir merito para acceder a la funcion publica ni para promocionar internamente. El puesto de confianza no se convierte asi en una ventaja selectiva. La respuesta correcta es «El acceso a la función pública o la promoción interna.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-19",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el TREBEP, en relación con el personal directivo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La designación del personal directivo atenderá a los principios de igualdad, mérito y capacidad, y se llevará a cabo mediante procedimientos que garanticen la publicidad y concurrencia."
+          },
+          {
+            "id": "b",
+            "label": "La designación del personal directivo atenderá a los principios de mérito y capacidad, y se llevará a cabo mediante procedimientos que garanticen la publicidad y concurrencia."
+          },
+          {
+            "id": "c",
+            "label": "La designación del personal directivo atenderá a los principios de igualdad, mérito y capacidad, y se llevará a cabo mediante procedimientos que garanticen la concurrencia."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La designacion del personal directivo ha de respetar merito y capacidad y utilizar procedimientos con publicidad y concurrencia. Aunque tenga funciones directivas, no se le puede seleccionar mediante un sistema opaco. La respuesta correcta es «Ninguna de las respuestas anteriores es correcta.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-20",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, señale la afirmación correcta respecto al personal directivo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Su régimen jurídico deberá establecerse por Ley."
+          },
+          {
+            "id": "b",
+            "label": "Tendrá que ser necesariamente funcionario público o personal laboral al servicio de una Administración Pública."
+          },
+          {
+            "id": "c",
+            "label": "Su designación se llevará a cabo mediante procedimientos que garanticen la publicidad y concurrencia."
+          },
+          {
+            "id": "d",
+            "label": "Le será aplicable el régimen general de los funcionarios de carrera. 1 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La designacion del personal directivo ha de respetar merito y capacidad y utilizar procedimientos con publicidad y concurrencia. Aunque tenga funciones directivas, no se le puede seleccionar mediante un sistema opaco. La respuesta correcta es «Su designación se llevará a cabo mediante procedimientos que garanticen la publicidad y concurrencia.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-21",
+        "section": "test-oficial",
+        "prompt": "Conforme al Texto Refundido del Estatuto Básico del Empleado Público, el personal directivo profesional:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Exclusivamente ha de ser funcionario de carrera."
+          },
+          {
+            "id": "b",
+            "label": "Exclusivamente ha de ser funcionario de carrera o interino."
+          },
+          {
+            "id": "c",
+            "label": "Ha de ser funcionario de carrera, funcionario interino o personal laboral."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es cierta."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El personal directivo profesional desarrolla funciones directivas en las Administraciones y queda sometido a evaluacion conforme a eficacia y eficiencia, responsabilidad por su gestion y control de resultados. Si ninguna alternativa recoge ese regimen, la correcta es que ninguna es cierta. La respuesta correcta es «Ninguna de las respuestas anteriores es cierta.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-22",
+        "section": "test-oficial",
+        "prompt": "En el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, y dentro de la clasificación de los empleados públicos, ¿cuál de los siguientes NO se clasifica como empleados públicos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Personal directivo profesional."
+          },
+          {
+            "id": "b",
+            "label": "Personal laboral, ya sea fijo, por tiempo indefinido o temporal."
+          },
+          {
+            "id": "c",
+            "label": "Funcionarios interinos."
+          },
+          {
+            "id": "d",
+            "label": "Funcionario de carrera."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 8 enumera cuatro clases de empleados publicos: carrera, interinos, laborales y eventuales. El personal directivo profesional se regula en el articulo 13, pero no aparece como clase en esa enumeracion. La respuesta correcta es «Personal directivo profesional.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-23",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 47 bis del TREBEP, señale la respuesta correcta sobre el teletrabajo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Administración proporcionará y mantendrá a las personas que trabajen en esta modalidad, los medios tecnológicos necesarios para su actividad."
+          },
+          {
+            "id": "b",
+            "label": "El personal laboral no se regirá, en materia de teletrabajo, por lo previsto en el presente Estatuto y por sus normas de desarrollo."
+          },
+          {
+            "id": "c",
+            "label": "Puede tener carácter obligatorio y reversible."
+          },
+          {
+            "id": "d",
+            "label": "En los supuestos y con los efectos que se determine puede tener carácter obligatorio por causas medioambientales o de eficiencia energética."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 47 bis obliga a la Administracion a proporcionar y mantener los medios tecnologicos necesarios para teletrabajar. Esta modalidad debe ser voluntaria y reversible y mantiene los derechos y deberes ordinarios del puesto. La respuesta correcta es «La Administración proporcionará y mantendrá a las personas que trabajen en esta modalidad, los medios tecnológicos necesarios para su actividad.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-24",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 15 del TREBEP, ¿cuál de los siguientes derechos individuales se ejerce de forma colectiva por los funcionarios de la Administración de Aduanas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El derecho a la libre asociación profesional."
+          },
+          {
+            "id": "b",
+            "label": "El derecho al ejercicio de huelga."
+          },
+          {
+            "id": "c",
+            "label": "El derecho a la formación continua."
+          },
+          {
+            "id": "d",
+            "label": "El derecho a participar en la consecución de los objetivos de su unidad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 15 considera la libertad sindical, la negociacion colectiva, la huelga, los conflictos colectivos y la reunion como derechos individuales ejercidos colectivamente. Se diferencian de los derechos que cada empleado disfruta de manera estrictamente individual. La respuesta correcta es «El derecho al ejercicio de huelga.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-25",
+        "section": "test-oficial",
+        "prompt": "El derecho al ejercicio de la huelga de los empleados públicos se ejercerá:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Con la garantía del mantenimiento de los servicios esenciales de la comunidad."
+          },
+          {
+            "id": "b",
+            "label": "De manera obligatoria cuando se trate de huelga general."
+          },
+          {
+            "id": "c",
+            "label": "De acuerdo con la legislación aplicable en cada caso."
+          },
+          {
+            "id": "d",
+            "label": "De forma que nadie pueda ser obligado a trabajar."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El derecho de huelga se ejerce con garantia del mantenimiento de los servicios esenciales de la comunidad. El TREBEP reconoce la huelga, pero la concilia con la continuidad de los servicios esenciales. La respuesta correcta es «Con la garantía del mantenimiento de los servicios esenciales de la comunidad.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-26",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, los empleados públicos tienen los siguientes derechos individuales que se ejercen de forma colectiva:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la libre asociación profesional."
+          },
+          {
+            "id": "b",
+            "label": "A participar en la consecución de los objetivos atribuidos a la unidad donde preste sus servicios y a ser informado por sus superiores de las tareas a desarrollar."
+          },
+          {
+            "id": "c",
+            "label": "A la libertad sindical."
+          },
+          {
+            "id": "d",
+            "label": "A la formación continua y a la actualización permanente de sus conocimientos y capacidades profesionales, preferentemente en horario laboral. 1 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 15 considera la libertad sindical, la negociacion colectiva, la huelga, los conflictos colectivos y la reunion como derechos individuales ejercidos colectivamente. Se diferencian de los derechos que cada empleado disfruta de manera estrictamente individual. La respuesta correcta es «A la libertad sindical.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-27",
+        "section": "test-oficial",
+        "prompt": "Según el TREBEP, las vacaciones anuales del personal funcionario tendrán una duración, por cada año completo de servicios, de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "23 días hábiles."
+          },
+          {
+            "id": "b",
+            "label": "22 días hábiles."
+          },
+          {
+            "id": "c",
+            "label": "22 días naturales."
+          },
+          {
+            "id": "d",
+            "label": "Un mes, que se podrá dividir en dos fracciones quincenales, o en su defecto, 22 días naturales."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 50 fija, como regla basica, veintidos dias habiles de vacaciones por cada ano completo de servicio. Los dias habiles excluyen los descansos semanales y los festivos conforme a la regulacion aplicable. La respuesta correcta es «22 días hábiles.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-28",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 48 del TREBEP los funcionarios públicos tendrán entre otros, los siguientes permisos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por fallecimiento de un familiar dentro del primer grado de consanguinidad o afinidad, tres días hábiles cuando el suceso se produzca en la misma localidad, y cinco días hábiles cuando sea en distinta localidad. En el caso de fallecimiento de familiar dentro del segundo grado de consanguinidad o afinidad, el permiso será de dos días hábiles cuando se produzca en la misma localidad y de cuatro días hábiles cuando sea en distinta localidad."
+          },
+          {
+            "id": "b",
+            "label": "Por traslado de domicilio sin cambio de residencia, dos días."
+          },
+          {
+            "id": "c",
+            "label": "Por lactancia de un hijo menor de nueve meses tendrá derecho a una hora de ausencia del trabajo que podrá dividir en varias fracciones. Este derecho podrá sustituirse por una reducción de la jornada normal en dos horas al inicio y al final de la jornada o, en una hora al inicio o al final de la jornada, con la misma finalidad. Este derecho no podrá ser ejercido indistintamente por uno u otro de los progenitores, en el caso de que ambos trabajen."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son falsas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 48 gradua el permiso por fallecimiento, accidente o enfermedad grave segun el grado de parentesco y si el hecho ocurre en la misma o distinta localidad. La opcion correcta reproduce esa combinacion de dias y circunstancias. La respuesta correcta es «Por fallecimiento de un familiar dentro del primer grado de consanguinidad o afinidad, tres días hábiles cuando el suceso se produzca en la misma localidad, y cinco días hábiles cuando sea en distinta localidad. En el caso de fallecimiento de familiar dentro del segundo grado de consanguinidad o afinidad, el permiso será de dos días hábiles cuando se produzca en la misma localidad y de cuatro días hábiles cuando sea en distinta localidad.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-29",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes es un permiso del que puede disfrutar un funcionario de carrera según el artículo 48 del TREBEP?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por traslado de domicilio sin cambio de residencia, 2 días."
+          },
+          {
+            "id": "b",
+            "label": "Para concurrir a exámenes finales y demás pruebas definitivas de aptitud, durante un tiempo máximo de 4 horas el día de su celebración."
+          },
+          {
+            "id": "c",
+            "label": "Por enfermedad grave de un familiar dentro del primer grado de afinidad, 5 días hábiles."
+          },
+          {
+            "id": "d",
+            "label": "6 días al año para el cumplimiento de un deber inexcusable de carácter público o personal y por deberes relacionados con la conciliación de la vida familiar y laboral. 1 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 48 gradua el permiso por fallecimiento, accidente o enfermedad grave segun el grado de parentesco y si el hecho ocurre en la misma o distinta localidad. La opcion correcta reproduce esa combinacion de dias y circunstancias. La respuesta correcta es «Por enfermedad grave de un familiar dentro del primer grado de afinidad, 5 días hábiles.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-30",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 49 del TREBEP, entre los permisos por motivos de conciliación de la vida personal, familiar y laboral y por razón de violencia de género NO se encuentran los de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Permiso por nacimiento para la madre biológica, cuya duración será de dieciséis semanas, de las cuales las 6 semanas inmediatas posteriores al parto serán en todo caso de descanso obligatorio e ininterrumpido. Este permiso se ampliará en 2 semanas más en el supuesto de discapacidad del hijo o hija y, por cada hijo o hija a partir del segundo en los supuestos de parto múltiple, una para cada uno de los progenitores."
+          },
+          {
+            "id": "b",
+            "label": "Permiso de paternidad por el nacimiento, acogimiento o adopción de un hijo cuya duración es de quince días, a disfrutar por el padre o el otro progenitor a partir de la fecha del nacimiento, de la decisión administrativa o judicial de acogimiento o de la resolución judicial por la que se constituya la adopción."
+          },
+          {
+            "id": "c",
+            "label": "Permiso por cuidado de hijo menor afectado por cáncer u otra enfermedad grave, consistente en una reducción de la jornada de trabajo de al menos la mitad de la duración de aquélla, percibiendo las retribuciones íntegras con cargo a los presupuestos del órgano o entidad donde venga prestando sus servicios, para el cuidado, durante la hospitalización y tratamiento continuado, del hijo menor de edad afectado por cáncer (tumores malignos, melanomas o carcinomas) o por cualquier otra enfermedad grave que implique un ingreso hospitalario de larga duración y requiera la necesidad de su cuidado directo, continuo y permanente acreditado."
+          },
+          {
+            "id": "d",
+            "label": "Cuidado de un familiar de primer grado, derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral, con carácter retribuido, por razones de enfermedad muy grave y por el plazo máximo de un mes."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 49 regula permisos de conciliacion, nacimiento, adopcion, acogimiento y violencia de genero. La paternidad de quince dias es una formulacion derogada que no corresponde al regimen actual de este articulo. La respuesta correcta es «Permiso de paternidad por el nacimiento, acogimiento o adopción de un hijo cuya duración es de quince días, a disfrutar por el padre o el otro progenitor a partir de la fecha del nacimiento, de la decisión administrativa o judicial de acogimiento o de la resolución judicial por la que se constituya la adopción.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-31",
+        "section": "test-oficial",
+        "prompt": "En relación con el permiso parental para el cuidado de hijo, hija o menor acogido por tiempo superior a un año, hasta el momento en que el menor cumpla 8 años, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Constituye un derecho individual de las personas progenitoras, adoptantes o acogedoras, hombres o mujeres, sin que pueda transferirse su ejercicio."
+          },
+          {
+            "id": "b",
+            "label": "Tendrá una duración no superior a 6 semanas."
+          },
+          {
+            "id": "c",
+            "label": "Se disfrutará de forma continua o discontinua."
+          },
+          {
+            "id": "d",
+            "label": "Podrá disfrutarse a tiempo completo o en régimen de jornada a a tiempo parcial."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El permiso parental para cuidado de menor hasta los ocho anos tiene una duracion no superior a ocho semanas, continuas o discontinuas. Por eso la opcion que lo limita a seis semanas es la incorrecta. La respuesta correcta es «Tendrá una duración no superior a 6 semanas.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-32",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes se trata de un principio ético del TREBEP?",
+        "options": [
+          {
+            "id": "a",
+            "label": "No aceptarán ningún trato de favor o situación que implique privilegio o ventaja injustificada por parte de personas físicas o entidades privadas."
+          },
+          {
+            "id": "b",
+            "label": "No aceptarán trato de favor o situación que implique privilegio o ventaja justificada por parte de personas físicas o entidades privadas."
+          },
+          {
+            "id": "c",
+            "label": "Tratarán con atención y respeto a los ciudadanos, sus superiores, y restantes empleados públicos."
+          },
+          {
+            "id": "d",
+            "label": "Garantizarán la constancia y permanencia de los documentos para su transmisión y entrega a los posteriores responsables. 1 TREBEP"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 53 recoge principios eticos, como no aceptar tratos de favor o ventajas injustificadas. El trato atento y respetuoso se integra entre los principios de conducta del articulo 54, y no debe confundirse con los eticos. La respuesta correcta es «No aceptarán ningún trato de favor o situación que implique privilegio o ventaja injustificada por parte de personas físicas o entidades privadas.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-33",
+        "section": "test-oficial",
+        "prompt": "Entre los principios éticos enumerados por el artículo 53 del TREBEP NO se encuentra el de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Respeto a la Constitución y el resto de normas que integran el ordenamiento jurídico."
+          },
+          {
+            "id": "b",
+            "label": "Persecución de la satisfacción de los intereses generales de los ciudadanos."
+          },
+          {
+            "id": "c",
+            "label": "Ajuste de la actuación a los principios de lealtad y buena fe con la Administración en la que presten sus servicios, y con sus superiores, compañeros, subordinados y con los ciudadanos."
+          },
+          {
+            "id": "d",
+            "label": "Trato con atención y respeto a los ciudadanos, a sus superiores y a los restantes empleados públicos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 53 recoge principios eticos, como no aceptar tratos de favor o ventajas injustificadas. El trato atento y respetuoso se integra entre los principios de conducta del articulo 54, y no debe confundirse con los eticos. La respuesta correcta es «Trato con atención y respeto a los ciudadanos, a sus superiores y a los restantes empleados públicos.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-34",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es uno de los principios a garantizar en un proceso selectivo según el artículo 55 del TREBEP?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Eficacia, celeridad y economía procesal."
+          },
+          {
+            "id": "b",
+            "label": "Independencia y discrecionalidad técnica en la actuación de los órganos de selección."
+          },
+          {
+            "id": "c",
+            "label": "Adecuación entre el contenido de los procesos selectivos y las funciones o tareas a desarrollar."
+          },
+          {
+            "id": "d",
+            "label": "Agilidad, sin perjuicio de la objetividad en los procesos de selección."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 55 exige igualdad, merito, capacidad, publicidad, transparencia e imparcialidad en el acceso. La eficacia y la celeridad se valoran como adecuacion y agilidad del proceso, pero la economia procesal no es el literal del TREBEP. La respuesta correcta es «Eficacia, celeridad y economía procesal.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-35",
+        "section": "test-oficial",
+        "prompt": "En el artículo 55 del TREBEP, se establece que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todos los ciudadanos tienen derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, mérito y capacidad."
+          },
+          {
+            "id": "b",
+            "label": "Todos los españoles tienen derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, legalidad y capacidad."
+          },
+          {
+            "id": "c",
+            "label": "Todos los españoles tienen derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, mérito y capacidad."
+          },
+          {
+            "id": "d",
+            "label": "Todos los ciudadanos tienen derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, legalidad y capacidad."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 55 exige igualdad, merito, capacidad, publicidad, transparencia e imparcialidad en el acceso. La eficacia y la celeridad se valoran como adecuacion y agilidad del proceso, pero la economia procesal no es el literal del TREBEP. La respuesta correcta es «Todos los ciudadanos tienen derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, mérito y capacidad.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-36",
+        "section": "test-oficial",
+        "prompt": "Un requisito general para acceder al empleo público es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tener cumplidos los 18 años y no exceder de la edad máxima de jubilación forzosa."
+          },
+          {
+            "id": "b",
+            "label": "No haber sido condenado anteriormente a pena de inhabilitación absoluta o especial."
+          },
+          {
+            "id": "c",
+            "label": "Tener cumplidos los 18 años y ser español de nacimiento."
+          },
+          {
+            "id": "d",
+            "label": "Tener una determinada nacionalidad que permite el ingreso. 1 TREBEP"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La nacionalidad es un requisito general de acceso en los terminos previstos por el articulo 56 y las reglas de acceso de nacionales de otros Estados. No equivale a exigir siempre y sin excepcion nacionalidad espanola. La respuesta correcta es «Tener una determinada nacionalidad que permite el ingreso. 1 TREBEP.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-37",
+        "section": "test-oficial",
+        "prompt": "En relación con los sistemas selectivos, tal y como establece el artículo 114 del Real Decreto-ley, señale la afirmación correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los órganos de selección no podrán proponer el acceso a la condición de funcionario de un número superior de aprobados al de plazas convocadas, excepto cuando así lo prevea la propia convocatoria."
+          },
+          {
+            "id": "b",
+            "label": "Los órganos de selección podrán proponer el acceso a la condición de funcionario de un número superior de aprobados al de plazas convocadas, excepto cuando así lo prevea la propia convocatoria."
+          },
+          {
+            "id": "c",
+            "label": "Los órganos de selección deberán proponer el acceso a la condición de funcionario de un número superior de aprobados al de plazas convocadas, excepto cuando así lo prevea la propia convocatoria."
+          },
+          {
+            "id": "d",
+            "label": "Excepcionalmente, los órganos de selección no podrán proponer el acceso a la condición de funcionario de un número superior de aprobados al de plazas convocadas, excepto cuando así lo prevea la propia convocatoria."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los organos de seleccion no pueden proponer mas aprobados que plazas convocadas, salvo que la convocatoria lo prevea expresamente. La regla evita que se generen expectativas de nombramiento sin plaza disponible. La respuesta correcta es «Los órganos de selección no podrán proponer el acceso a la condición de funcionario de un número superior de aprobados al de plazas convocadas, excepto cuando así lo prevea la propia convocatoria.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-38",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, ¿quiénes de los citados a continuación NO podrán pertenecer a un órgano de selección?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los funcionarios que no se encuentren en servicio activo."
+          },
+          {
+            "id": "b",
+            "label": "Los funcionarios de Administraciones públicas diferentes a las que procede a efectuar la convocatoria."
+          },
+          {
+            "id": "c",
+            "label": "Los funcionarios interinos."
+          },
+          {
+            "id": "d",
+            "label": "Todos los citados anteriormente podrán pertenecer a un órgano de selección."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los organos de seleccion deben ser colegiados y ajustarse a imparcialidad, profesionalidad y especializacion. No pueden integrarlos el personal de eleccion o designacion politica, los temporales ni el personal eventual. La respuesta correcta es «Los funcionarios interinos.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-39",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, ¿cuáles son principios a los que deberá ajustarse la composición y el funcionamiento de los órganos de selección?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Transparencia e imparcialidad de sus integrantes."
+          },
+          {
+            "id": "b",
+            "label": "Agilidad y profesionalidad de sus integrantes."
+          },
+          {
+            "id": "c",
+            "label": "Imparcialidad, profesionalidad y especialización de sus integrantes."
+          },
+          {
+            "id": "d",
+            "label": "Transparencia, agilidad y profesionalidad de sus integrantes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La composicion y funcionamiento de los organos de seleccion debe respetar imparcialidad, profesionalidad y especializacion de sus integrantes. Esas garantias evitan tanto la intervencion politica como la falta de competencia tecnica. La respuesta correcta es «Imparcialidad, profesionalidad y especialización de sus integrantes.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-40",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, los sistemas aplicables a la selección de personal serán los de (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Oposición."
+          },
+          {
+            "id": "b",
+            "label": "Concurso."
+          },
+          {
+            "id": "c",
+            "label": "Estabilización."
+          },
+          {
+            "id": "d",
+            "label": "Concurso-oposición."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 78 exige merito, capacidad, igualdad y publicidad en la provision. El concurso es el sistema normal; la libre designacion con convocatoria publica se basa en valorar discrecionalmente la idoneidad respecto de los requisitos del puesto. La respuesta correcta es «Estabilización.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-41",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 62 del TREBEP, la condición de un funcionario de carrera se adquiere por el cumplimiento sucesivo de los siguientes requisitos (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Superación del proceso selectivo."
+          },
+          {
+            "id": "b",
+            "label": "Acto de acatamiento de la Constitución, del Estatuto de Autonomía y, en su caso, del resto del ordenamiento jurídico."
+          },
+          {
+            "id": "c",
+            "label": "Toma de posesión dentro del plazo que se establezca."
+          },
+          {
+            "id": "d",
+            "label": "Nombramiento por el órgano o autoridad competente, que será publicado en el Diario Oficial correspondiente. 1 TREBEP"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 62 exige superar el proceso selectivo, nombramiento, acatamiento de la Constitucion y el ordenamiento y toma de posesion dentro de plazo. Si falta la toma de posesion, no se adquiere la condicion funcionarial. La respuesta correcta es «Acto de acatamiento de la Constitución, del Estatuto de Autonomía y, en su caso, del resto del ordenamiento jurídico.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-42",
+        "section": "test-oficial",
+        "prompt": "Tras el nombramiento como funcionario, la ausencia de toma de posesión implica:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La pérdida de la condición de funcionario."
+          },
+          {
+            "id": "b",
+            "label": "La no adquisición de la condición de funcionario."
+          },
+          {
+            "id": "c",
+            "label": "Diferir la condición de funcionario, si existen razones fundadas."
+          },
+          {
+            "id": "d",
+            "label": "El pase a excedencia por interés particular."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 62 exige superar el proceso selectivo, nombramiento, acatamiento de la Constitucion y el ordenamiento y toma de posesion dentro de plazo. Si falta la toma de posesion, no se adquiere la condicion funcionarial. La respuesta correcta es «La no adquisición de la condición de funcionario.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-43",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación correcta en relación con la renuncia a la condición de funcionario público, regulada en el artículo 64 del TREBEP:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La renuncia a la condición de funcionario ha de ser expresa y deberá ser necesariamente aceptada por la Administración."
+          },
+          {
+            "id": "b",
+            "label": "La renuncia a la condición de funcionario ha de manifestarse en todo caso por escrito."
+          },
+          {
+            "id": "c",
+            "label": "La renuncia a la condición de funcionario inhabilita para volver a acceder de nuevo a la Administración Pública."
+          },
+          {
+            "id": "d",
+            "label": "La Administración debe aceptar expresamente la renuncia a la condición de funcionario en todos los casos, salvo que lo desaconsejen las necesidades del servicio."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La renuncia debe manifestarse por escrito y ser aceptada expresamente. No puede aceptarse si el funcionario esta sujeto a expediente disciplinario o procesamiento judicial, y volver a ingresar exige superar un nuevo proceso selectivo. La respuesta correcta es «La renuncia a la condición de funcionario ha de manifestarse en todo caso por escrito.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-44",
+        "section": "test-oficial",
+        "prompt": "NO constituye una causa de pérdida de la condición de funcionario de carrera, conforme a los dispuesto en el TREBEP:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La jubilación total del funcionario."
+          },
+          {
+            "id": "b",
+            "label": "La suspensión firme de funciones."
+          },
+          {
+            "id": "c",
+            "label": "La pena principal o accesoria de inhabilitación absoluta o especial para cargo público que tuviere carácter firme."
+          },
+          {
+            "id": "d",
+            "label": "La renuncia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 63 enumera como causas de perdida la renuncia, la perdida de nacionalidad, la jubilacion total, la sancion firme de separacion del servicio y la pena principal o accesoria de inhabilitacion. La suspension firme no equivale a separacion del servicio. La respuesta correcta es «La suspensión firme de funciones.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-45",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, cuando se pierde la condición de funcionario por renuncia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No se podrá reingresar de nuevo en la Administración Pública."
+          },
+          {
+            "id": "b",
+            "label": "Se podrá reingresar de nuevo en la Administración Pública, sin más requisitos."
+          },
+          {
+            "id": "c",
+            "label": "Se podrá reingresar de nuevo en la Administración Pública, previa superación de los correspondientes procesos selectivos."
+          },
+          {
+            "id": "d",
+            "label": "Se podrá reingresar de nuevo en la Administración Pública, previa rehabilitación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La renuncia extingue la condicion funcionarial, pero no impide presentarse de nuevo a la funcion publica. El reingreso solo sera posible superando los procesos selectivos que correspondan, sin recuperar automaticamente la plaza anterior. La respuesta correcta es «Se podrá reingresar de nuevo en la Administración Pública, previa superación de los correspondientes procesos selectivos.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-46",
+        "section": "test-oficial",
+        "prompt": "La jubilación forzosa se declarará de oficio al cumplir el funcionario:",
+        "options": [
+          {
+            "id": "a",
+            "label": "60 años."
+          },
+          {
+            "id": "b",
+            "label": "65 años."
+          },
+          {
+            "id": "c",
+            "label": "67 años."
+          },
+          {
+            "id": "d",
+            "label": "70 años."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La jubilacion forzosa se declara de oficio al cumplir sesenta y cinco anos, sin perjuicio de que pueda solicitarse la prolongacion en servicio activo segun la normativa aplicable. Es una causa de perdida de la condicion funcionarial. La respuesta correcta es «65 años.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-47",
+        "section": "test-oficial",
+        "prompt": "Según lo dispuesto en el TREBEP, NO podrá ser aceptada la renuncia cuando (señale la INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "El funcionario esté sujeto a expediente disciplinario."
+          },
+          {
+            "id": "b",
+            "label": "El funcionario haya cometido una infracción tipificada como muy grave."
+          },
+          {
+            "id": "c",
+            "label": "Haya sido dictado en su contra auto de procesamiento."
+          },
+          {
+            "id": "d",
+            "label": "Haya sido dictado en su contra auto de apertura de juicio oral por la comisión de algún delito. 1 TREBEP"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La renuncia no puede aceptarse cuando el funcionario esta sujeto a expediente disciplinario o ha sido dictado auto de procesamiento o apertura de juicio oral por delito. La mera comision de una falta muy grave no basta por si sola sin ese expediente en curso. La respuesta correcta es «El funcionario haya cometido una infracción tipificada como muy grave.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-48",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, los funcionarios de carrera pierden su condición de tal, entre otros, en el siguiente supuesto:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por sanción de demérito."
+          },
+          {
+            "id": "b",
+            "label": "Por excedencia forzosa."
+          },
+          {
+            "id": "c",
+            "label": "Por incapacidad temporal."
+          },
+          {
+            "id": "d",
+            "label": "Por renuncia a la condición de funcionario."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La renuncia debe manifestarse por escrito y ser aceptada expresamente. No puede aceptarse si el funcionario esta sujeto a expediente disciplinario o procesamiento judicial, y volver a ingresar exige superar un nuevo proceso selectivo. La respuesta correcta es «Por renuncia a la condición de funcionario.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-49",
+        "section": "test-oficial",
+        "prompt": "De conformidad con lo dispuesto en el artículo 69 del TREBEP, la planificación de los recursos humanos en las Administraciones Públicas tendrá como objetivo contribuir a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La eficacia en la utilización de los recursos humanos disponibles."
+          },
+          {
+            "id": "b",
+            "label": "La optimización en la optimización de los recursos humanos disponibles."
+          },
+          {
+            "id": "c",
+            "label": "La eficiencia en la prestación de los servicios."
+          },
+          {
+            "id": "d",
+            "label": "La eficacia en la prestación de los servicios."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 69 orienta la planificacion de recursos humanos a la eficacia en la prestacion de los servicios y a la eficiencia en la utilizacion de los recursos economicos. No es un mecanismo ajeno a las necesidades de personal. La respuesta correcta es «La eficacia en la prestación de los servicios.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-50",
+        "section": "test-oficial",
+        "prompt": "En relación con la Oferta de Empleo Público o instrumento similar, el TREBEP establece que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se aprobará anualmente por las Cortes Generales o por las Asambleas Legislativas de las Comunidades Autónomas, debiendo ser publicada en los Diarios Oficiales correspondientes."
+          },
+          {
+            "id": "b",
+            "label": "Una vez aprobada, la ejecución de la misma deberá desarrollarse dentro del plazo prorrogable de tres años."
+          },
+          {
+            "id": "c",
+            "label": "No podrá contener medidas derivadas de la planificación de recursos humanos."
+          },
+          {
+            "id": "d",
+            "label": "Comportará la obligación de convocar los correspondientes procesos selectivos para las plazas comprometidas y hasta un diez por ciento adicional."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La OEP incorpora necesidades de recursos humanos con asignacion presupuestaria y obliga a convocar los procesos selectivos de las plazas comprometidas. El plazo y las reservas de promocion interna se fijan en la normativa aplicable vigente. La respuesta correcta es «Comportará la obligación de convocar los correspondientes procesos selectivos para las plazas comprometidas y hasta un diez por ciento adicional.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-51",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el Real Decreto-ley 6/2023, de 19 de diciembre, por el que se aprueban medidas urgentes para la ejecución del Plan de Recuperación, Transformación y Resiliencia en materia de servicio público de justicia, función pública, régimen local y mecenazgo, en relación a la Oferta de Empleo Público, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las convocatorias deberán publicarse en el mismo año natural de la publicación en el BOE de la OEP, en la que se incluyan las citadas plazas."
+          },
+          {
+            "id": "b",
+            "label": "Las convocatorias deberán ejecutarse en el plazo máximo de 2 años desde su publicación y las respectivas fases de oposición en 1 año, salvo causa justificada."
+          },
+          {
+            "id": "c",
+            "label": "Las plazas no cubiertas en la ejecución de una convocatoria podrán convocarse nuevamente."
+          },
+          {
+            "id": "d",
+            "label": "Las plazas no cubiertas en la ejecución de una convocatoria podrán convocarse nuevamente, siempre que no hayan transcurrido más de 2 años desde la publicación de la oferta. 1 TREBEP"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La OEP incorpora necesidades de recursos humanos con asignacion presupuestaria y obliga a convocar los procesos selectivos de las plazas comprometidas. El plazo y las reservas de promocion interna se fijan en la normativa aplicable vigente. La respuesta correcta es «Las plazas no cubiertas en la ejecución de una convocatoria podrán convocarse nuevamente, siempre que no hayan transcurrido más de 2 años desde la publicación de la oferta. 1 TREBEP.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-52",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el Real Decreto-ley 6/2023, de 19 de diciembre, por el que se aprueban medidas urgentes para la ejecución del Plan de Recuperación, Transformación y Resiliencia en materia de servicio público de justicia, función pública, régimen local y mecenazgo, en la Oferta de Empleo Público, ¿qué porcentaje de se incluirá para promoción interna?",
+        "options": [
+          {
+            "id": "a",
+            "label": "No inferior al 30% de las plazas de acceso libre."
+          },
+          {
+            "id": "b",
+            "label": "Al menos el 35% de las plazas de acceso libre."
+          },
+          {
+            "id": "c",
+            "label": "Como máximo el 40% de las plazas de acceso libre."
+          },
+          {
+            "id": "d",
+            "label": "Entre el 20% y el 40% de las plazas de acceso libre."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La OEP incorpora necesidades de recursos humanos con asignacion presupuestaria y obliga a convocar los procesos selectivos de las plazas comprometidas. El plazo y las reservas de promocion interna se fijan en la normativa aplicable vigente. La respuesta correcta es «No inferior al 30% de las plazas de acceso libre.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-53",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, ¿cuál es el objetivo de efectivos totales de personas con discapacidad en la Administración del Estado?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1%."
+          },
+          {
+            "id": "b",
+            "label": "2%."
+          },
+          {
+            "id": "c",
+            "label": "3%."
+          },
+          {
+            "id": "d",
+            "label": "4%."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La normativa de funcion publica establece objetivos y reservas especificas para el acceso de personas con discapacidad. En la Administracion del Estado, el objetivo de efectivos totales y la reserva para discapacidad intelectual se expresan ambos con el minimo del dos por ciento que recoge el temario. La respuesta correcta es «2%.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-54",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 75 del TREBEP, los cuerpos y escalas de funcionarios se crean, modifican y suprimen:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por ley de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas."
+          },
+          {
+            "id": "b",
+            "label": "Por Real Decreto de Consejo de Ministros."
+          },
+          {
+            "id": "c",
+            "label": "Solo por ley de las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "Por Orden del Ministerio de Hacienda y Función Pública."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los cuerpos y escalas se ordenan por la titulacion exigida para el acceso. Para el grupo A se exige titulo universitario de Grado; los intervalos de niveles de cada subgrupo proceden de la regulacion de funcion publica aplicable. La respuesta correcta es «Por ley de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-1-administracion-55",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 76 del TREBEP, los cuerpos y escalas se clasifican:",
+        "options": [
+          {
+            "id": "a",
+            "label": "De acuerdo con la titulación exigida para el acceso a los mismos."
+          },
+          {
+            "id": "b",
+            "label": "De acuerdo con el nivel de responsabilidad de las funciones a desempeñar."
+          },
+          {
+            "id": "c",
+            "label": "De acuerdo con las características de las pruebas de acceso."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta. 1"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los cuerpos y escalas se ordenan por la titulacion exigida para el acceso. Para el grupo A se exige titulo universitario de Grado; los intervalos de niveles de cada subgrupo proceden de la regulacion de funcion publica aplicable. La respuesta correcta es «De acuerdo con la titulación exigida para el acceso a los mismos.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      }
+    ]
+  },
+  {
+    "code": "B1T5",
+    "slug": "b1t5-test-oficial-2-administracion",
+    "title": "Test oficial 2 Administracion",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 5/B1T5Test_2_Administracion 1.pdf",
+    "assetPath": "/test-oficial/B1T5/b1t5-test-oficial-2-administracion.pdf",
+    "questions": [
+      {
+        "id": "b1t5-test-oficial-2-administracion-1",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 76 del TREBEP, el título universitario de Grado se exigirá para el acceso a los cuerpos o escalas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Únicamente para el Subgrupo A1."
+          },
+          {
+            "id": "b",
+            "label": "Únicamente para el Subgrupo A2."
+          },
+          {
+            "id": "c",
+            "label": "Del grupo A, tanto para el Subgrupo A1 como el Subgrupo A2."
+          },
+          {
+            "id": "d",
+            "label": "Del Subgrupo B."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los cuerpos y escalas se ordenan por la titulacion exigida para el acceso. Para el grupo A se exige titulo universitario de Grado; los intervalos de niveles de cada subgrupo proceden de la regulacion de funcion publica aplicable. La respuesta correcta es «Del grupo A, tanto para el Subgrupo A1 como el Subgrupo A2.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-2",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, ¿cuál es el intervalo de niveles que corresponde al subgrupo C1?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Del 15 al 22."
+          },
+          {
+            "id": "b",
+            "label": "Del 20 al 26."
+          },
+          {
+            "id": "c",
+            "label": "Del 16 al 22."
+          },
+          {
+            "id": "d",
+            "label": "Del 14 al 20."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los cuerpos y escalas se ordenan por la titulacion exigida para el acceso. Para el grupo A se exige titulo universitario de Grado; los intervalos de niveles de cada subgrupo proceden de la regulacion de funcion publica aplicable. La respuesta correcta es «Del 16 al 22.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-3",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, ¿cuál es el intervalo de niveles que corresponde al subgrupo A2?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Del 15 al 22."
+          },
+          {
+            "id": "b",
+            "label": "Del 20 al 26."
+          },
+          {
+            "id": "c",
+            "label": "Del 18 al 24."
+          },
+          {
+            "id": "d",
+            "label": "Del 16 al 24."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Los cuerpos y escalas se ordenan por la titulacion exigida para el acceso. Para el grupo A se exige titulo universitario de Grado; los intervalos de niveles de cada subgrupo proceden de la regulacion de funcion publica aplicable. La respuesta correcta es «Del 20 al 26.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-4",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 16 del TREBEP, ¿en qué consiste la carrera vertical?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es el conjunto ordenado de oportunidades de ascenso y expectativas de progreso profesional conforme a los principios de igualdad, mérito y capacidad."
+          },
+          {
+            "id": "b",
+            "label": "Consiste en la progresión de grado, categoría, escalón u otros conceptos análogos, sin necesidad de cambiar de puesto de trabajo y de conformidad con lo establecido en la letra b) del artículo 17 y en el apartado 3 del artículo 20 de este Estatuto."
+          },
+          {
+            "id": "c",
+            "label": "Consiste en el ascenso en la estructura de puestos de trabajo por los procedimientos de provisión establecidos en el Capítulo III del Título V del Estatuto."
+          },
+          {
+            "id": "d",
+            "label": "Consiste en el ascenso desde un cuerpo o escala de un Subgrupo, o Grupo de clasificación profesional en el supuesto de que éste no tenga Subgrupo, a otro superior."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «Consiste en el ascenso en la estructura de puestos de trabajo por los procedimientos de provisión establecidos en el Capítulo III del Título V del Estatuto.». Referencia del temario: B1T5 · Carrera profesional, promocion y evaluacion."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-5",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 18 del TREBEP, ¿qué antigüedad deben poseer los funcionarios en el subgrupo o grupo de clasificación profesional inferior para poder participar en los procesos selectivos de promoción interna?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al menos 1 año de servicio activo."
+          },
+          {
+            "id": "b",
+            "label": "Al menos 2 años de servicio activo."
+          },
+          {
+            "id": "c",
+            "label": "Al menos 3 años de servicio activo."
+          },
+          {
+            "id": "d",
+            "label": "Al menos 5 años de servicio activo. 2 TREBEP"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «Al menos 2 años de servicio activo.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-6",
+        "section": "test-oficial",
+        "prompt": "Según el TREBEP, ¿en qué consiste la promoción interna?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Consiste en el ascenso desde un cuerpo o escala de un Subgrupo, o Grupo de clasificación profesional en el supuesto de que éste no tenga Subgrupo, a otro superior."
+          },
+          {
+            "id": "b",
+            "label": "Consiste en el ascenso en la estructura de puestos de trabajo por los procedimientos de provisión establecidos en el Capítulo III del Título V de este Estatuto."
+          },
+          {
+            "id": "c",
+            "label": "Consiste en la progresión de grado, categoría, escalón u otros conceptos análogos, sin necesidad de cambiar de puesto de trabajo y de conformidad con lo establecido en la letra b) del artículo 17 y en el apartado 3 del artículo 20 de este Estatuto."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son incorrectas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «Consiste en el ascenso desde un cuerpo o escala de un Subgrupo, o Grupo de clasificación profesional en el supuesto de que éste no tenga Subgrupo, a otro superior.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-7",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 16 del TREBEP, la progresión de grado, categoría, escalón u otros conceptos análogos, sin necesidad de cambiar de puesto de trabajo, es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La carrera vertical."
+          },
+          {
+            "id": "b",
+            "label": "La carrera horizontal."
+          },
+          {
+            "id": "c",
+            "label": "La promoción interna horizontal."
+          },
+          {
+            "id": "d",
+            "label": "La promoción interna vertical."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «La carrera horizontal.». Referencia del temario: B1T5 · Carrera profesional, promocion y evaluacion."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-8",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA en relación con la carrera horizontal según establece el Real Decreto-ley 6/2023:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tendrá carácter voluntario."
+          },
+          {
+            "id": "b",
+            "label": "En cada grupo o subgrupo de personal funcionario existirán 5 tramos."
+          },
+          {
+            "id": "c",
+            "label": "Los ascensos de tramo se producirán de forma consecutiva y exigirán, para poder ascender al tramo superior, un periodo mínimo de 5 años de servicios efectivos en el caso del primer tramo y de 6 años en los siguientes."
+          },
+          {
+            "id": "d",
+            "label": "Los ascensos de tramo se producirán previa solicitud de la persona interesada."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «En cada grupo o subgrupo de personal funcionario existirán 5 tramos.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-9",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, el procedimiento mediante el cual anualmente se valora la conducta profesional y se mide el rendimiento o el logro de resultados de las empleadas y empleados públicos, con la finalidad de mejorar la productividad de las diferentes unidades y la calidad de los servicios públicos, se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Evaluación del rendimiento."
+          },
+          {
+            "id": "b",
+            "label": "Evaluación del desempeño."
+          },
+          {
+            "id": "c",
+            "label": "Evaluación de idoneidad."
+          },
+          {
+            "id": "d",
+            "label": "Evaluación de adaptación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «Evaluación del desempeño.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-10",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el Real Decreto-ley 6/2023, la progresión alcanzada en el sistema de carrera profesional recogido en este artículo se retribuirá mediante el:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Complemento de productividad."
+          },
+          {
+            "id": "b",
+            "label": "Complemento de desarrollo."
+          },
+          {
+            "id": "c",
+            "label": "Complemento de destino."
+          },
+          {
+            "id": "d",
+            "label": "Complemento de carrera. 2 TREBEP"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «Complemento de carrera. 2 TREBEP.». Referencia del temario: B1T5 · Carrera profesional, promocion y evaluacion."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-11",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, el ascenso desde un cuerpo o escala de un Subgrupo, o Grupo de clasificación profesional en el supuesto de que éste no tenga Subgrupo, a otro superior, constituye la:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Promoción profesional vertical."
+          },
+          {
+            "id": "b",
+            "label": "Carrera profesional vertical."
+          },
+          {
+            "id": "c",
+            "label": "Promoción interna vertical."
+          },
+          {
+            "id": "d",
+            "label": "Carrera profesional interna."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior. La respuesta correcta es «Promoción interna vertical.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-12",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 74 del TREBEP, las Administraciones Públicas estructurarán su organización a través de relaciones de puestos de trabajo u otros instrumentos organizativos similares que comprenderán, al menos (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "La denominación de los puestos."
+          },
+          {
+            "id": "b",
+            "label": "Los grupos de clasificación profesional."
+          },
+          {
+            "id": "c",
+            "label": "Los sistemas de provisión."
+          },
+          {
+            "id": "d",
+            "label": "Las retribuciones básicas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las RPT deben reflejar, entre otros elementos, denominacion, grupos de clasificacion, cuerpos o escalas, sistemas de provision y retribuciones complementarias. Las retribuciones basicas se fijan legalmente y no son un contenido propio de cada puesto. La respuesta correcta es «Las retribuciones básicas.». Referencia del temario: B1T5 · Retribuciones."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-13",
+        "section": "test-oficial",
+        "prompt": "Uno de los supuestos que se indica a continuación NO supone el pase de los funcionarios de carrera a la situación de servicios especiales de acuerdo con el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre. Señale cuál:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando adquieran la condición de funcionarios al servicio de organizaciones internacionales."
+          },
+          {
+            "id": "b",
+            "label": "Cuando sean adscritos a los servicios del Tribunal Constitucional."
+          },
+          {
+            "id": "c",
+            "label": "Cuando sean activados como reservistas voluntarios para prestar servicios en las Fuerzas Armadas."
+          },
+          {
+            "id": "d",
+            "label": "Cuando sean transferidos a las Comunidades Autónomas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Los servicios especiales se reservan a los supuestos tasados del articulo 87 y conservan efectos de carrera y trienios. Obtener destino en otra Administracion por movilidad da lugar, en cambio, a la situacion de servicio en otras Administraciones Publicas. La respuesta correcta es «Cuando sean transferidos a las Comunidades Autónomas.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-14",
+        "section": "test-oficial",
+        "prompt": "En el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, el permiso de lactancia se prevé para el caso de hijos menores de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nueve meses."
+          },
+          {
+            "id": "b",
+            "label": "Dieciocho meses."
+          },
+          {
+            "id": "c",
+            "label": "Seis meses."
+          },
+          {
+            "id": "d",
+            "label": "Doce meses."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El permiso de lactancia se reconoce por cuidado de hijo menor de doce meses. La regulacion permite distintas modalidades de disfrute, pero no altera esa edad maxima basica indicada por el TREBEP. La respuesta correcta es «Doce meses.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-15",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, los servicios extraordinarios prestados por los funcionarios fuera de la jornada normal de trabajo se retribuyen a través de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las retribuciones complementarias."
+          },
+          {
+            "id": "b",
+            "label": "Las gratificaciones."
+          },
+          {
+            "id": "c",
+            "label": "Las horas extra."
+          },
+          {
+            "id": "d",
+            "label": "Las retribuciones extraordinarias. 2 TREBEP"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las retribuciones basicas son sueldo y trienios; las complementarias remuneran las caracteristicas del puesto, la carrera o el rendimiento. La especial dificultad tecnica, responsabilidad, dedicacion o incompatibilidad se compensa con el complemento especifico. La respuesta correcta es «Las retribuciones complementarias.». Referencia del temario: B1T5 · Retribuciones."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-16",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes retribuciones de los funcionarios se clasifica como NO complementaria?",
+        "options": [
+          {
+            "id": "a",
+            "label": "De destino."
+          },
+          {
+            "id": "b",
+            "label": "Específica."
+          },
+          {
+            "id": "c",
+            "label": "De productividad."
+          },
+          {
+            "id": "d",
+            "label": "De trienio."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las retribuciones basicas son sueldo y trienios; las complementarias remuneran las caracteristicas del puesto, la carrera o el rendimiento. La especial dificultad tecnica, responsabilidad, dedicacion o incompatibilidad se compensa con el complemento especifico. La respuesta correcta es «De trienio.». Referencia del temario: B1T5 · Retribuciones."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-17",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, las retribuciones básicas de los funcionarios están integradas por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El sueldo y los trienios."
+          },
+          {
+            "id": "b",
+            "label": "El sueldo, los trienios y el complemento de destino."
+          },
+          {
+            "id": "c",
+            "label": "El sueldo y los complementos que retribuyen el rendimiento o los resultados alcanzados por el funcionario."
+          },
+          {
+            "id": "d",
+            "label": "El sueldo, exclusivamente."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las RPT deben reflejar, entre otros elementos, denominacion, grupos de clasificacion, cuerpos o escalas, sistemas de provision y retribuciones complementarias. Las retribuciones basicas se fijan legalmente y no son un contenido propio de cada puesto. La respuesta correcta es «El sueldo y los trienios.». Referencia del temario: B1T5 · Retribuciones."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-18",
+        "section": "test-oficial",
+        "prompt": "La especial dificultad técnica, responsabilidad, dedicación, incompatibilidad exigible para el desempeño de determinados puestos de trabajo o las condiciones en que se desarrolla el trabajo, se retribuyen mediante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El sueldo."
+          },
+          {
+            "id": "b",
+            "label": "El complemento de destino."
+          },
+          {
+            "id": "c",
+            "label": "El complemento específico."
+          },
+          {
+            "id": "d",
+            "label": "Las gratificaciones."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las retribuciones basicas son sueldo y trienios; las complementarias remuneran las caracteristicas del puesto, la carrera o el rendimiento. La especial dificultad tecnica, responsabilidad, dedicacion o incompatibilidad se compensa con el complemento especifico. La respuesta correcta es «El complemento específico.». Referencia del temario: B1T5 · Retribuciones."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-19",
+        "section": "test-oficial",
+        "prompt": "Según establece el artículo 78 del TREBEP, las Administraciones Públicas proveerán los puestos de trabajo mediante procedimientos basados en los principios de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mérito, capacidad, publicidad, profesionalidad."
+          },
+          {
+            "id": "b",
+            "label": "Mérito, igualdad , capacidad, profesionalidad."
+          },
+          {
+            "id": "c",
+            "label": "Mérito, paridad, capacidad e igualdad."
+          },
+          {
+            "id": "d",
+            "label": "Mérito, capacidad, igualdad y publicidad."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La provision de puestos se basa en merito, capacidad, igualdad y publicidad. Esos principios rigen tanto el concurso como la libre designacion, aunque esta ultima permita apreciar discrecionalmente la idoneidad para puestos de especial responsabilidad. La respuesta correcta es «Mérito, capacidad, igualdad y publicidad.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-20",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 78 del TREBEP, las leyes de Función Pública que se dicten en desarrollo del presente Estatuto podrán establecer otros procedimientos de provisión en los supuestos de (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Comisiones de servicio."
+          },
+          {
+            "id": "b",
+            "label": "Reingreso al servicio activo."
+          },
+          {
+            "id": "c",
+            "label": "Movilidad por motivos de rehabilitación del funcionario."
+          },
+          {
+            "id": "d",
+            "label": "Permutas entre puestos de trabajo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 78 exige merito, capacidad, igualdad y publicidad en la provision. El concurso es el sistema normal; la libre designacion con convocatoria publica se basa en valorar discrecionalmente la idoneidad respecto de los requisitos del puesto. La respuesta correcta es «Comisiones de servicio.». Referencia del temario: B1T5 · Provision y movilidad."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-21",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 78 del TREBEP, ¿cuáles son los procedimientos de provisión de puestos de trabajo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Oposición, concurso y concurso-oposición."
+          },
+          {
+            "id": "b",
+            "label": "Oposición, concurso y libre designación."
+          },
+          {
+            "id": "c",
+            "label": "Libre designación y concurso."
+          },
+          {
+            "id": "d",
+            "label": "Libre designación y oposición. 2 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 78 exige merito, capacidad, igualdad y publicidad en la provision. El concurso es el sistema normal; la libre designacion con convocatoria publica se basa en valorar discrecionalmente la idoneidad respecto de los requisitos del puesto. La respuesta correcta es «Libre designación y concurso.». Referencia del temario: B1T5 · Provision y movilidad."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-22",
+        "section": "test-oficial",
+        "prompt": "La libre designación con convocatoria pública, según el TREBEP:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Consiste en la apreciación discrecional por el órgano competente de la idoneidad de los candidatos en relación con los requisitos exigidos para el desempeño del puesto."
+          },
+          {
+            "id": "b",
+            "label": "El órgano competente para el nombramiento podrá recabar la intervención de especialistas que permitan apreciar la idoneidad de los candidatos."
+          },
+          {
+            "id": "c",
+            "label": "Los titulares de los puestos de trabajo provistos por el procedimiento de libre designación con convocatoria pública podrán ser cesados discrecionalmente."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 78 exige merito, capacidad, igualdad y publicidad en la provision. El concurso es el sistema normal; la libre designacion con convocatoria publica se basa en valorar discrecionalmente la idoneidad respecto de los requisitos del puesto. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T5 · Provision y movilidad."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-23",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 82 del TREBEP, los traslados de movilidad por razón de violencia de género y por razón de violencia terrorista:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Estos traslados tendrán la consideración de movilidad voluntaria."
+          },
+          {
+            "id": "b",
+            "label": "Estos traslados tendrán la consideración de traslado forzoso."
+          },
+          {
+            "id": "c",
+            "label": "Estos traslados tendrán la consideración de traslado forzoso o voluntaria, de forma potestativa."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 78 exige merito, capacidad, igualdad y publicidad en la provision. El concurso es el sistema normal; la libre designacion con convocatoria publica se basa en valorar discrecionalmente la idoneidad respecto de los requisitos del puesto. La respuesta correcta es «Estos traslados tendrán la consideración de traslado forzoso.». Referencia del temario: B1T5 · Provision y movilidad."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-24",
+        "section": "test-oficial",
+        "prompt": "La situación administrativa de suspensión provisional, cuando es consecuencia de la tramitación de un expediente disciplinario, con carácter general tiene una duración máxima de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un año."
+          },
+          {
+            "id": "b",
+            "label": "6 meses."
+          },
+          {
+            "id": "c",
+            "label": "3 meses."
+          },
+          {
+            "id": "d",
+            "label": "No tiene duración máxima, sino que ésta coincide con la duración del expediente."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La suspension provisional en un expediente disciplinario no puede exceder, con caracter general, de seis meses. Debe distinguirse de la suspension firme, que es una sancion y puede alcanzar una duracion superior dentro de sus limites legales. La respuesta correcta es «6 meses.». Referencia del temario: B1T5 · Provision y movilidad."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-25",
+        "section": "test-oficial",
+        "prompt": "La mujer funcionaria en excedencia por violencia de género, tendrá derecho a que se compute esta excedencia a efectos de antigüedad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Durante todo el periodo de su duración."
+          },
+          {
+            "id": "b",
+            "label": "Durante los tres primeros meses."
+          },
+          {
+            "id": "c",
+            "label": "Durante los seis primeros meses, prorrogable hasta dieciocho meses."
+          },
+          {
+            "id": "d",
+            "label": "Durante los dieciocho primeros meses en todo caso."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La excedencia por violencia de genero computa inicialmente seis meses para antiguedad, carrera y Seguridad Social, con posibles prorrogas hasta dieciocho meses; durante los dos primeros meses se perciben retribuciones integras. La respuesta correcta es «Durante los seis primeros meses, prorrogable hasta dieciocho meses.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-26",
+        "section": "test-oficial",
+        "prompt": "Los funcionarios de carrera que obtengan destino en otras Administraciones públicas a través de los procedimientos de movilidad quedarán respecto a su Administración de origen en la situación administrativa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En servicios especiales."
+          },
+          {
+            "id": "b",
+            "label": "En servicio activo."
+          },
+          {
+            "id": "c",
+            "label": "En excedencia."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es correcta. 2 TREBEP"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 78 exige merito, capacidad, igualdad y publicidad en la provision. El concurso es el sistema normal; la libre designacion con convocatoria publica se basa en valorar discrecionalmente la idoneidad respecto de los requisitos del puesto. La respuesta correcta es «Ninguna de las respuestas anteriores es correcta. 2 TREBEP.». Referencia del temario: B1T5 · Provision y movilidad."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-27",
+        "section": "test-oficial",
+        "prompt": "De conformidad con lo establecido en el artículo 88 del TREBEP, los funcionarios de carrera se encontrarán en la situación administrativa de \"Servicio en otras Administraciones Públicas\":",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando obtengan destino en una Administración pública distinta en virtud de procesos de transferencia."
+          },
+          {
+            "id": "b",
+            "label": "Cuando obtengan destino en una Administración pública distinta en virtud de procesos de provisión de puestos de trabajo."
+          },
+          {
+            "id": "c",
+            "label": "Se rigen por la legislación de la Administración que estén destinados."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Los servicios especiales se reservan a los supuestos tasados del articulo 87 y conservan efectos de carrera y trienios. Obtener destino en otra Administracion por movilidad da lugar, en cambio, a la situacion de servicio en otras Administraciones Publicas. La respuesta correcta es «Todas las respuestas anteriores son correctas.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-28",
+        "section": "test-oficial",
+        "prompt": "La suspensión firme por sanción disciplinaria no podrá exceder de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "2 años."
+          },
+          {
+            "id": "b",
+            "label": "3 años."
+          },
+          {
+            "id": "c",
+            "label": "6 años."
+          },
+          {
+            "id": "d",
+            "label": "5 años."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «6 años.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-29",
+        "section": "test-oficial",
+        "prompt": "El TREBEP establece la situación administrativa de excedencia voluntaria por agrupación familiar en los siguientes términos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Podrá ser declarada cuando los funcionarios de carrera hayan prestado un mínimo de cinco años en cualquiera de las Administraciones Públicas."
+          },
+          {
+            "id": "b",
+            "label": "Podrá concederse cuando el cónyuge reside en otra localidad por haber obtenido un puesto de trabajo como laboral temporal o fijo, en cualquiera de las Administraciones Públicas."
+          },
+          {
+            "id": "c",
+            "label": "El funcionario deberá mantenerse un mínimo de dos años en esta situación, no existiendo plazo máximo para la misma que podrá mantenerse de forma indefinida."
+          },
+          {
+            "id": "d",
+            "label": "El tiempo en esta situación administrativa no devengará retribuciones, ni será computable a efectos de trienios y derechos pasivos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las retribuciones basicas son sueldo y trienios; las complementarias remuneran las caracteristicas del puesto, la carrera o el rendimiento. La especial dificultad tecnica, responsabilidad, dedicacion o incompatibilidad se compensa con el complemento especifico. La respuesta correcta es «El tiempo en esta situación administrativa no devengará retribuciones, ni será computable a efectos de trienios y derechos pasivos.». Referencia del temario: B1T5 · Retribuciones."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-30",
+        "section": "test-oficial",
+        "prompt": "Los funcionarios de carrera podrán obtener la excedencia voluntaria por interés particular cuando hayan prestado servicios efectivos en cualquiera de las Administraciones Públicas durante un periodo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mínimo de cinco años inmediatamente anteriores."
+          },
+          {
+            "id": "b",
+            "label": "Mínimo de cuatro años."
+          },
+          {
+            "id": "c",
+            "label": "Mínimo de cinco años."
+          },
+          {
+            "id": "d",
+            "label": "Mínimo de cuatro años inmediatamente anteriores."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las modalidades de excedencia tienen efectos distintos: interes particular exige servicios previos y no devenga retribuciones; agrupacion familiar tampoco devenga ni computa; cuidado de hijos o familiares protege la formacion y puede alcanzar hasta tres anos. La respuesta correcta es «Mínimo de cinco años inmediatamente anteriores.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-31",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 89 del TREBEP, la excedencia por cuidado de hijos o familiares:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tendrán derecho a disfrutarla los funcionarios respecto de familiares de 1 grado de consanguineidad o afinidad."
+          },
+          {
+            "id": "b",
+            "label": "Los funcionarios tendrán derecho a disfrutarla por un periodo máximo de 3 años durante los cuales se reservará el puesto de trabajo desempeñado."
+          },
+          {
+            "id": "c",
+            "label": "Los funcionarios tendrán derecho a participar en los cursos de formación que convoque la Administración mientras se mantengan en esta situación."
+          },
+          {
+            "id": "d",
+            "label": "Tendrá derecho a disfrutar de ella todos aquellos funcionarios que tengan un periodo de servicios mínimos de 5 años. 2 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las modalidades de excedencia tienen efectos distintos: interes particular exige servicios previos y no devenga retribuciones; agrupacion familiar tampoco devenga ni computa; cuidado de hijos o familiares protege la formacion y puede alcanzar hasta tres anos. La respuesta correcta es «Los funcionarios tendrán derecho a participar en los cursos de formación que convoque la Administración mientras se mantengan en esta situación.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-32",
+        "section": "test-oficial",
+        "prompt": "En el caso de la funcionaria víctima de violencia de género, una vez concedida la excedencia por esta razón, ¿durante qué periodo tiene derecho a percibir las retribuciones íntegras de su puesto de trabajo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el primer mes de duración de esta excedencia."
+          },
+          {
+            "id": "b",
+            "label": "En los dos primeros meses de duración de esta excedencia."
+          },
+          {
+            "id": "c",
+            "label": "En los seis primeros meses de duración de esta excedencia."
+          },
+          {
+            "id": "d",
+            "label": "En el primer año de duración de esta excedencia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En la excedencia por violencia de genero, la funcionaria tiene derecho a percibir retribuciones integras durante los dos primeros meses. Es una medida de proteccion distinta del periodo de seis meses computable para antiguedad y carrera. La respuesta correcta es «En los dos primeros meses de duración de esta excedencia.». Referencia del temario: B1T5 · Retribuciones."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-33",
+        "section": "test-oficial",
+        "prompt": "Según lo dispuesto en el art. 89 del TREBEP, los funcionarios de carrera respecto a la excedencia por cuidado de familiares (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tendrá derecho a un periodo de excedencia de duración no será superior a tres años para atender al cuidado de cada hijo."
+          },
+          {
+            "id": "b",
+            "label": "También tendrán un derecho a un periodo de excedencia no superior a tres años para atender al cuidado de un familiar que se encuentre a su cargo, hasta el primer grado de consanguinidad o afinidad."
+          },
+          {
+            "id": "c",
+            "label": "El periodo de excedencia será único por cada sujeto causante."
+          },
+          {
+            "id": "d",
+            "label": "El tiempo de permanencia en esta situación será computable a efectos de trienios."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las modalidades de excedencia tienen efectos distintos: interes particular exige servicios previos y no devenga retribuciones; agrupacion familiar tampoco devenga ni computa; cuidado de hijos o familiares protege la formacion y puede alcanzar hasta tres anos. La respuesta correcta es «También tendrán un derecho a un periodo de excedencia no superior a tres años para atender al cuidado de un familiar que se encuentre a su cargo, hasta el primer grado de consanguinidad o afinidad.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-34",
+        "section": "test-oficial",
+        "prompt": "Los funcionarios de carrera serán declarados en situación de servicios especiales:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando sean designados como personal eventual, en todo caso."
+          },
+          {
+            "id": "b",
+            "label": "Cuando se encuentren en situación de excedencia voluntaria, por prestación de servicios en otras Administraciones."
+          },
+          {
+            "id": "c",
+            "label": "Cuando adquieran la condición de funcionarios al servicio de organizaciones internacionales."
+          },
+          {
+            "id": "d",
+            "label": "Cuando se encuentren en situación de excedencia voluntaria por prestación de servicios en otras Administraciones, siempre que no opten por permanecer en la situación de servicio activo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los servicios especiales se reservan a los supuestos tasados del articulo 87 y conservan efectos de carrera y trienios. Obtener destino en otra Administracion por movilidad da lugar, en cambio, a la situacion de servicio en otras Administraciones Publicas. La respuesta correcta es «Cuando adquieran la condición de funcionarios al servicio de organizaciones internacionales.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-35",
+        "section": "test-oficial",
+        "prompt": "De entre los siguientes supuestos, ¿en cuál los funcionarios de carrera NO serán declarados en situación de servicios especiales?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando sean designados asesores de los grupos parlamentarios de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas."
+          },
+          {
+            "id": "b",
+            "label": "Cuando sean autorizados para realizar una misión por periodo determinado superior a tres meses en organismos internacionales, gobiernos o entidades públicas extranjeras o en programas de cooperación internacional."
+          },
+          {
+            "id": "c",
+            "label": "Cuando accedan a la condición de Diputado o Senador de las Cortes Generales o miembros de las asambleas legislativas de las comunidades autónomas si perciben retribuciones periódicas por la realización de la función."
+          },
+          {
+            "id": "d",
+            "label": "Cuando sean adscritos a los servicios del Tribunal de Cuentas por el procedimiento de libre designación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Los servicios especiales se reservan a los supuestos tasados del articulo 87 y conservan efectos de carrera y trienios. Obtener destino en otra Administracion por movilidad da lugar, en cambio, a la situacion de servicio en otras Administraciones Publicas. La respuesta correcta es «Cuando sean autorizados para realizar una misión por periodo determinado superior a tres meses en organismos internacionales, gobiernos o entidades públicas extranjeras o en programas de cooperación internacional.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-36",
+        "section": "test-oficial",
+        "prompt": "Los funcionarios de carrera que sean designados miembros del Gobierno o de los órganos de gobierno de las Comunidades Autónoma serán declarados en situación de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Servicios especiales."
+          },
+          {
+            "id": "b",
+            "label": "Servicio activo."
+          },
+          {
+            "id": "c",
+            "label": "Servicio en otras Administraciones públicas."
+          },
+          {
+            "id": "d",
+            "label": "Excedencia. 2 TREBEP"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los servicios especiales se reservan a los supuestos tasados del articulo 87 y conservan efectos de carrera y trienios. Obtener destino en otra Administracion por movilidad da lugar, en cambio, a la situacion de servicio en otras Administraciones Publicas. La respuesta correcta es «Servicios especiales.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-37",
+        "section": "test-oficial",
+        "prompt": "La funcionaria que acceda a la situación de excedencia por razón de violencia de género tendrá derecho a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La reserva del puesto de trabajo que desempeñara durante el período en que se encuentre en dicha situación."
+          },
+          {
+            "id": "b",
+            "label": "Percibir las retribuciones íntegras y, en su caso, las prestaciones familiares por hijo a cargo durante los diecinueve primeros meses de duración de la excedencia."
+          },
+          {
+            "id": "c",
+            "label": "A que se le computen los seis primeros meses de duración a efectos de antigüedad, carrera y derechos del régimen de Seguridad Social que sea de aplicación."
+          },
+          {
+            "id": "d",
+            "label": "La reserva del puesto de trabajo que desempeñara durante los tres primeros meses de duración."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La excedencia por violencia de genero computa inicialmente seis meses para antiguedad, carrera y Seguridad Social, con posibles prorrogas hasta dieciocho meses; durante los dos primeros meses se perciben retribuciones integras. La respuesta correcta es «A que se le computen los seis primeros meses de duración a efectos de antigüedad, carrera y derechos del régimen de Seguridad Social que sea de aplicación.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-38",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el TREBEP, la sanción de separación del servicio se puede imponer:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por la comisión de faltas leves, graves o muy graves."
+          },
+          {
+            "id": "b",
+            "label": "Por la comisión de faltas graves o muy graves."
+          },
+          {
+            "id": "c",
+            "label": "Por la comisión de faltas muy graves."
+          },
+          {
+            "id": "d",
+            "label": "El TREBEP ha suprimido este tipo de sanción disciplinaria."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «Por la comisión de faltas muy graves.». Referencia del temario: B1T5 · Regimen disciplinario."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-39",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes sanciones está recogida en el TREBEP?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Demérito."
+          },
+          {
+            "id": "b",
+            "label": "Traslado forzoso sin cambio de localidad."
+          },
+          {
+            "id": "c",
+            "label": "Separación del servicio."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «Todas las respuestas son correctas.». Referencia del temario: B1T5 · Regimen disciplinario."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-40",
+        "section": "test-oficial",
+        "prompt": "El TREBEP en su artículo 95 considera como falta muy grave:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La desobediencia abierta a las órdenes o instrucciones de un superior salvo que constituyan infracción manifiesta del ordenamiento jurídico."
+          },
+          {
+            "id": "b",
+            "label": "La falta de obediencia debida a los superiores."
+          },
+          {
+            "id": "c",
+            "label": "El incumplimiento injustificado de la jornada de trabajo por un mínimo de 10 horas al mes."
+          },
+          {
+            "id": "d",
+            "label": "El abuso de autoridad."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «La desobediencia abierta a las órdenes o instrucciones de un superior salvo que constituyan infracción manifiesta del ordenamiento jurídico.». Referencia del temario: B1T5 · Regimen disciplinario."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-41",
+        "section": "test-oficial",
+        "prompt": "Según el TREBEP, el plazo de prescripción de las sanciones impuestas por la comisión de faltas graves es de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "3 años."
+          },
+          {
+            "id": "b",
+            "label": "2 años."
+          },
+          {
+            "id": "c",
+            "label": "1 año."
+          },
+          {
+            "id": "d",
+            "label": "Seis meses."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «2 años.». Referencia del temario: B1T5 · Regimen disciplinario."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-42",
+        "section": "test-oficial",
+        "prompt": "La ausencia injustificada de un día es una falta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leve."
+          },
+          {
+            "id": "b",
+            "label": "Grave."
+          },
+          {
+            "id": "c",
+            "label": "Muy grave."
+          },
+          {
+            "id": "d",
+            "label": "No es falta disciplinaria, pero sí comporta la pérdida proporcional de retribuciones. 2 TREBEP"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «Leve.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-43",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes es según el TREBEP una falta muy grave?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La adopción de acuerdos manifiestamente ilegales que causen perjuicio grave a la Administración o a los ciudadanos."
+          },
+          {
+            "id": "b",
+            "label": "El abuso de autoridad en el ejercicio del cargo."
+          },
+          {
+            "id": "c",
+            "label": "Las conductas constitutivas de delito doloso relacionadas con el servicio o que causen daño a la Administración o a los administrados."
+          },
+          {
+            "id": "d",
+            "label": "No guardar el debido sigilo respecto a los asuntos que se conozcan por razón del cargo, cuando causen perjuicio a la Administración o se utilice en provecho propio."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «La adopción de acuerdos manifiestamente ilegales que causen perjuicio grave a la Administración o a los ciudadanos.». Referencia del temario: B1T5 · Regimen disciplinario."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-44",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 97 del TREBEP, ¿en qué plazo prescribirán las sanciones impuestas y desde qué momento se comienzan a contar estos plazos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las sanciones impuestas por faltas muy graves prescribirán a los dos años, comenzando a contarse los plazos desde que se hubieran cometido las faltas."
+          },
+          {
+            "id": "b",
+            "label": "Las sanciones impuestas por faltas graves prescribirán al año, comenzando a contarse los plazos desde la ejecutividad de la resolución sancionadora."
+          },
+          {
+            "id": "c",
+            "label": "Las sanciones impuestas por faltas leves prescribirán al año, comenzando a contarse los plazos desde la firmeza de la resolución sancionadora."
+          },
+          {
+            "id": "d",
+            "label": "Las sanciones impuestas por faltas graves prescribirán a los dos años, comenzando a contar los plazos desde la resolución del procedimiento sancionador que pone fin a la vía administrativa."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «Las sanciones impuestas por faltas leves prescribirán al año, comenzando a contarse los plazos desde la firmeza de la resolución sancionadora.». Referencia del temario: B1T5 · Regimen disciplinario."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-45",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta en relación con el régimen disciplinario regulado en el Título VII del TREBEP:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es de aplicación al personal funcionario, pero no al personal laboral."
+          },
+          {
+            "id": "b",
+            "label": "La potestad disciplinaria se ejercerá de acuerdo con el principio de irretroactividad de las disposiciones sancionadoras favorables."
+          },
+          {
+            "id": "c",
+            "label": "Es una falta disciplinaria grave el incumplimiento de las normas sobre incompatibilidades cuando ello dé lugar a una situación de incompatibilidad."
+          },
+          {
+            "id": "d",
+            "label": "Es una falta disciplinaria muy grave el incumplimiento de la obligación de atender los servicios esenciales en caso de huelga."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El derecho de huelga se ejerce con garantia del mantenimiento de los servicios esenciales de la comunidad. El TREBEP reconoce la huelga, pero la concilia con la continuidad de los servicios esenciales. La respuesta correcta es «Es una falta disciplinaria muy grave el incumplimiento de la obligación de atender los servicios esenciales en caso de huelga.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-46",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, el plazo de prescripción de las faltas disciplinarias continuadas comenzará a contarse desde:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La firmeza de la resolución sancionadora que ponga fin al procedimiento."
+          },
+          {
+            "id": "b",
+            "label": "Que se cometió la falta disciplinaria."
+          },
+          {
+            "id": "c",
+            "label": "El cese de su comisión."
+          },
+          {
+            "id": "d",
+            "label": "El momento en que la Administración tuvo conocimiento de su realización."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves. La respuesta correcta es «El cese de su comisión.». Referencia del temario: B1T5 · Regimen disciplinario."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-47",
+        "section": "test-oficial",
+        "prompt": "¿Qué norma regula las incompatibilidades del personal al servicio de las Administraciones Públicas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Ley 30/1984."
+          },
+          {
+            "id": "b",
+            "label": "La Ley 39/2015."
+          },
+          {
+            "id": "c",
+            "label": "La Ley 53/1984."
+          },
+          {
+            "id": "d",
+            "label": "El TREBEP. 2 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 53/1984 regula las incompatibilidades para preservar imparcialidad y dedicacion al servicio publico. Una segunda actividad publica o privada requiere, cuando proceda, reconocimiento previo de compatibilidad e inscripcion en los Registros de Personal. La respuesta correcta es «La Ley 53/1984.». Referencia del temario: B1T5 · Incompatibilidades."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-48",
+        "section": "test-oficial",
+        "prompt": "El TREBEP, se aplica directamente al personal de las Fuerzas y Cuerpos de Seguridad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En todos los aspectos de la ley regula."
+          },
+          {
+            "id": "b",
+            "label": "Cuando así lo disponga su legislación específica."
+          },
+          {
+            "id": "c",
+            "label": "No se les aplica ningún supuesto."
+          },
+          {
+            "id": "d",
+            "label": "Se les aplica en todo menos en el régimen disciplinario."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las disposiciones del TREBEP se aplican directamente al personal de las Fuerzas y Cuerpos de Seguridad solo cuando asi lo disponga su legislacion especifica. El articulo 4 no los integra sin matices en el regimen comun. La respuesta correcta es «Cuando así lo disponga su legislación específica.». Referencia del temario: B1T5 · Ambito de aplicacion y personal con legislacion especifica."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-49",
+        "section": "test-oficial",
+        "prompt": "El personal de la Sociedad Estatal de Correos y Telégrafos se rige:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El personal funcionario se regirá por sus normas específicas y, correlativamente, por lo dispuesto en el TREBEP."
+          },
+          {
+            "id": "b",
+            "label": "El personal funcionario de la Sociedad Estatal Correos y Telégrafos por lo dispuesto en el TREBEP."
+          },
+          {
+            "id": "c",
+            "label": "Su personal laboral se regirá por la legislación laboral y demás normas convencionalmente aplicables y, supletoriamente, por lo dispuesto en el TREBEP."
+          },
+          {
+            "id": "d",
+            "label": "Su personal laboral se regirá por la legislación laboral y demás normas convencionalmente aplicables."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El personal laboral de la Sociedad Estatal de Correos y Telegrafos se rige por la legislacion laboral y las normas convencionalmente aplicables. No adquiere por ese hecho el regimen estatutario general de los funcionarios. La respuesta correcta es «Su personal laboral se regirá por la legislación laboral y demás normas convencionalmente aplicables.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-50",
+        "section": "test-oficial",
+        "prompt": "La toma de posesión de un funcionario público debe tener lugar en el plazo de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "15 días naturales a partir de la publicación del nombramiento."
+          },
+          {
+            "id": "b",
+            "label": "15 días naturales a partir de la publicación la publicación del nombramiento, ampliable otros 15 días en el caso de cambio de localidad."
+          },
+          {
+            "id": "c",
+            "label": "10 días naturales a partir de la publicación del nombramiento, ampliable otros 15 días en el caso de cambio de localidad."
+          },
+          {
+            "id": "d",
+            "label": "Tres meses, tras la publicación del nombramiento."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 62 exige superar el proceso selectivo, nombramiento, acatamiento de la Constitucion y el ordenamiento y toma de posesion dentro de plazo. Si falta la toma de posesion, no se adquiere la condicion funcionarial. La respuesta correcta es «15 días naturales a partir de la publicación del nombramiento.». Referencia del temario: B1T5 · Acceso, seleccion y condicion funcionarial."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-51",
+        "section": "test-oficial",
+        "prompt": "Conforme al TREBEP, los funcionarios de carrera se hallarán en alguna de las siguientes situaciones:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Servicio activo, servicios especiales, excedencia voluntaria por servicios en el sector público, excedencia y suspensión de funciones."
+          },
+          {
+            "id": "b",
+            "label": "Servicio activo, servicio en otras Administraciones Públicas, excedencia y suspensión de funciones."
+          },
+          {
+            "id": "c",
+            "label": "Servicio activo, servicios especiales, servicio en otras Administraciones Públicas, excedencia, expectativa de destino y suspensión de funciones."
+          },
+          {
+            "id": "d",
+            "label": "Servicio activo, servicios especiales, servicio en otras Administraciones Públicas, excedencia y suspensión de funciones."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Los servicios especiales se reservan a los supuestos tasados del articulo 87 y conservan efectos de carrera y trienios. Obtener destino en otra Administracion por movilidad da lugar, en cambio, a la situacion de servicio en otras Administraciones Publicas. La respuesta correcta es «Servicio activo, servicios especiales, servicio en otras Administraciones Públicas, excedencia y suspensión de funciones.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-52",
+        "section": "test-oficial",
+        "prompt": "En relación a la excedencia por cuidado de familiares, señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Su duración no podrá ser superior a tres años."
+          },
+          {
+            "id": "b",
+            "label": "Su duración no podrá ser superior a dos años."
+          },
+          {
+            "id": "c",
+            "label": "Su duración no podrá ser superior a tres años, a contar desde la fecha de nacimiento o, en su caso, de la resolución judicial o administrativa."
+          },
+          {
+            "id": "d",
+            "label": "Su duración no podrá ser superior a dos años, a contar desde la fecha de nacimiento o, en su caso, de la resolución judicial o administrativa. 2 TREBEP"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las modalidades de excedencia tienen efectos distintos: interes particular exige servicios previos y no devenga retribuciones; agrupacion familiar tampoco devenga ni computa; cuidado de hijos o familiares protege la formacion y puede alcanzar hasta tres anos. La respuesta correcta es «Su duración no podrá ser superior a tres años, a contar desde la fecha de nacimiento o, en su caso, de la resolución judicial o administrativa.». Referencia del temario: B1T5 · Situaciones administrativas."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-53",
+        "section": "test-oficial",
+        "prompt": "Según la normativa en materia de incompatibilidades del personal al servicio de las Administraciones Públicas, el ejercicio de actividades privadas requerirá con carácter previo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El reconocimiento de la compatibilidad."
+          },
+          {
+            "id": "b",
+            "label": "La autorización de la compatibilidad."
+          },
+          {
+            "id": "c",
+            "label": "La concesión de la compatibilidad."
+          },
+          {
+            "id": "d",
+            "label": "El visto bueno de la compatibilidad."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La Ley 53/1984 regula las incompatibilidades para preservar imparcialidad y dedicacion al servicio publico. Una segunda actividad publica o privada requiere, cuando proceda, reconocimiento previo de compatibilidad e inscripcion en los Registros de Personal. La respuesta correcta es «El reconocimiento de la compatibilidad.». Referencia del temario: B1T5 · Incompatibilidades."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-54",
+        "section": "test-oficial",
+        "prompt": "Según la normativa en materia de incompatibilidades del personal al servicio de las Administraciones Públicas, quedan exceptuadas del régimen de incompatibilidades las siguientes actividades (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las derivadas de la administración del patrimonio personal o familiar"
+          },
+          {
+            "id": "b",
+            "label": "La preparación para el acceso a la función pública."
+          },
+          {
+            "id": "c",
+            "label": "La participación en Tribunales calificadores de pruebas selectivas para ingreso en las Administraciones Públicas."
+          },
+          {
+            "id": "d",
+            "label": "La dirección de seminarios o el dictado de cursos o conferencias en Centros oficiales destinados a la formación de funcionarios o profesorado, cuando no tenga carácter permanente o habitual ni supongan más de 70 horas al año."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 53/1984 regula las incompatibilidades para preservar imparcialidad y dedicacion al servicio publico. Una segunda actividad publica o privada requiere, cuando proceda, reconocimiento previo de compatibilidad e inscripcion en los Registros de Personal. La respuesta correcta es «La dirección de seminarios o el dictado de cursos o conferencias en Centros oficiales destinados a la formación de funcionarios o profesorado, cuando no tenga carácter permanente o habitual ni supongan más de 70 horas al año.». Referencia del temario: B1T5 · Incompatibilidades."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-55",
+        "section": "test-oficial",
+        "prompt": "Conforme a la normativa en materia de incompatibilidades del personal al servicio de las Administraciones Públicas, todas las resoluciones de compatibilidad para desempeñar un segundo puesto o actividad en el sector público o el ejercicio de actividades privadas se inscribirán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el Registro Central de Personal."
+          },
+          {
+            "id": "b",
+            "label": "En la Oficina de Conflicto de Intereses."
+          },
+          {
+            "id": "c",
+            "label": "En la Unidad de Personal del Ministerio u Organismo correspondiente."
+          },
+          {
+            "id": "d",
+            "label": "En los Registros de Personal correspondientes."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La Ley 53/1984 regula las incompatibilidades para preservar imparcialidad y dedicacion al servicio publico. Una segunda actividad publica o privada requiere, cuando proceda, reconocimiento previo de compatibilidad e inscripcion en los Registros de Personal. La respuesta correcta es «En los Registros de Personal correspondientes.». Referencia del temario: B1T5 · Incompatibilidades."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-56",
+        "section": "test-oficial",
+        "prompt": "Según el Real Decreto-ley 6/2023, de 19 de diciembre, por el que se aprueban medidas urgentes para la ejecución del Plan de Recuperación, Transformación y Resiliencia en materia de servicio público de justicia, función pública, régimen local y mecenazgo, ¿qué porcentaje de las plazas de acceso libre incluirá la oferta de empleo público para promoción interna?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Inferior al 10%."
+          },
+          {
+            "id": "b",
+            "label": "No inferior al 30%."
+          },
+          {
+            "id": "c",
+            "label": "Inferior al 15%."
+          },
+          {
+            "id": "d",
+            "label": "No inferior al 10%."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La OEP incorpora necesidades de recursos humanos con asignacion presupuestaria y obliga a convocar los procesos selectivos de las plazas comprometidas. El plazo y las reservas de promocion interna se fijan en la normativa aplicable vigente. La respuesta correcta es «No inferior al 30%.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-57",
+        "section": "test-oficial",
+        "prompt": "Según el TREBEP, ¿qué derechos individuales se ejercen de forma colectiva?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Libertad sindical, negociación colectiva, ejercicio de huelga, planteamiento de conflictos colectivos y reunión."
+          },
+          {
+            "id": "b",
+            "label": "Libertad sindical, libre asociación profesional y ejercicio de huelga."
+          },
+          {
+            "id": "c",
+            "label": "Libertad sindical, libertad de expresión dentro de los límites del ordenamiento jurídico, negociación colectiva y ejercicio de huelga."
+          },
+          {
+            "id": "d",
+            "label": "Negociación colectiva, ejercicio de huelga y libre asociación profesional. 2 TREBEP"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 15 considera la libertad sindical, la negociacion colectiva, la huelga, los conflictos colectivos y la reunion como derechos individuales ejercidos colectivamente. Se diferencian de los derechos que cada empleado disfruta de manera estrictamente individual. La respuesta correcta es «Libertad sindical, negociación colectiva, ejercicio de huelga, planteamiento de conflictos colectivos y reunión.». Referencia del temario: B1T5 · Derechos, jornada, permisos y codigo de conducta."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-58",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el TREBEP, son causas de pérdida de la condición de funcionario de carrera:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La pérdida de la nacionalidad española en todo caso."
+          },
+          {
+            "id": "b",
+            "label": "La pérdida de la nacionalidad."
+          },
+          {
+            "id": "c",
+            "label": "El incumplimiento de las normas sobre incompatibilidades."
+          },
+          {
+            "id": "d",
+            "label": "El abandono del servicio."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Ley 53/1984 regula las incompatibilidades para preservar imparcialidad y dedicacion al servicio publico. Una segunda actividad publica o privada requiere, cuando proceda, reconocimiento previo de compatibilidad e inscripcion en los Registros de Personal. La respuesta correcta es «La pérdida de la nacionalidad.». Referencia del temario: B1T5 · Clases de empleados publicos."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-59",
+        "section": "test-oficial",
+        "prompt": "¿Qué porcentaje de plazas debe reservarse en las ofertas de empleo público para personas que acrediten discapacidad intelectual?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al menos el 2%."
+          },
+          {
+            "id": "b",
+            "label": "Al menos el 3%."
+          },
+          {
+            "id": "c",
+            "label": "Al menos el 5%."
+          },
+          {
+            "id": "d",
+            "label": "Al menos el 7%."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La normativa de funcion publica establece objetivos y reservas especificas para el acceso de personas con discapacidad. En la Administracion del Estado, el objetivo de efectivos totales y la reserva para discapacidad intelectual se expresan ambos con el minimo del dos por ciento que recoge el temario. La respuesta correcta es «Al menos el 2%.». Referencia del temario: B1T5 · Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)."
+      },
+      {
+        "id": "b1t5-test-oficial-2-administracion-60",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta sobre la oferta de empleo público de acuerdo con lo establecido en el Real Decreto-ley 6/2023, de 19 de diciembre:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La oferta de empleo público incluirá un porcentaje no inferior al cuarenta por ciento de las plazas de acceso libre para promoción interna."
+          },
+          {
+            "id": "b",
+            "label": "En la oferta de empleo público se reservará un porcentaje del siete por ciento de las plazas para las personas con discapacidad."
+          },
+          {
+            "id": "c",
+            "label": "Las plazas no cubiertas en la ejecución de una convocatoria podrán convocarse nuevamente siempre que no hayan transcurrido más de dos años de la publicación de la oferta."
+          },
+          {
+            "id": "d",
+            "label": "Las convocatorias deberán ejecutarse en el plazo máximo de dos años desde su publicación. 2"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La OEP incorpora necesidades de recursos humanos con asignacion presupuestaria y obliga a convocar los procesos selectivos de las plazas comprometidas. El plazo y las reservas de promocion interna se fijan en la normativa aplicable vigente. La respuesta correcta es «Las convocatorias deberán ejecutarse en el plazo máximo de dos años desde su publicación. 2.». Referencia del temario: B1T5 · Planificacion, OEP y clasificacion profesional."
+      }
+    ]
+  },
+  {
     "code": "B2T1",
     "slug": "b2t1-test-oficial-informatica-basica",
     "title": "Test oficial Informatica basica",

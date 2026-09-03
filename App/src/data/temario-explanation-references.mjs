@@ -15,6 +15,18 @@ const references = {
     fallback: "Gobierno Abierto, Ley de Transparencia, buen gobierno y Agenda 2030",
     rules: [[/publicidad activa|Portal de Transparencia|organigrama|contrato|sociedades mercantiles|informaci.n econ.mica|informaci.n de relevancia jur.dica/i, "Ley 19/2013 · Publicidad activa"], [/acceso|solicitud|l.mite|tercero|reelaboraci.n|informaci.n p.blica|datos personales/i, "Ley 19/2013 · Derecho de acceso a la información pública"], [/Consejo de Transparencia|alto cargo|buen gobierno|reclamaci.n|abstenci.n/i, "Buen gobierno y Consejo de Transparencia y Buen Gobierno"], [/Agenda 2030|ODS|Objetivo de Desarrollo Sostenible|Naciones Unidas|desarrollo sostenible/i, "Agenda 2030 y Objetivos de Desarrollo Sostenible"], [/Gobierno Abierto|OGP|participaci|colaboraci|rendici.n de cuentas/i, "Gobierno Abierto y principios informadores"]],
   },
+  B1T5: {
+    fallback: "Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)",
+    rules: [
+      [/Constituci.n|art.culo 103|art.culo 23|art.culo 105|art.culo 106|principio/i, "Marco constitucional y principios de la Administracion publica"],
+      [/mbito|ambito|empleado p.blico|funcionario de carrera|interino|laboral|eventual|directivo/i, "Ambito de aplicacion y clases de empleados publicos"],
+      [/derecho|negociaci.n|sindica|huelga|jornada|permiso|vacaciones|teletrabajo|c.digo de conducta|deber/i, "Derechos, negociacion colectiva, jornada y codigo de conducta"],
+      [/acceso|selecci.n|oposici.n|concurso-oposici.n|nombramiento|p.rdida de la condici.n|oferta de empleo|RPT|clasificaci.n/i, "Acceso, adquisicion de la condicion y estructuracion del empleo publico"],
+      [/carrera|promoci.n interna|evaluaci.n del desempe.o|retribuci.n|sueldo|trienio|complement/i, "Carrera profesional, evaluacion y retribuciones"],
+      [/provisi.n|libre designaci.n|servicio activo|servicios especiales|excedencia|suspensi.n|incompatibil/i, "Provision de puestos, situaciones administrativas e incompatibilidades"],
+      [/disciplin|infracci.n|sanci.n/i, "Regimen disciplinario"],
+    ],
+  },
   B2T1: {
     fallback: "Informática básica, representación de la información y arquitectura de ordenadores",
     rules: [[/SRAM|DRAM|ROM|PROM|EPROM|EEPROM|FLASH|memoria interna|cach.|localidad|asociativa|LRU|FIFO|LFU|condensador/i, "Componentes internos · Memoria interna y caché"], [/ASCII|Unicode|UTF-?8|UTF-?16|UTF-?32|codificaci.n/i, "Unicode y codificación de textos"], [/bit|byte|palabra|nibble|KiB|MiB|GiB|capacidad|FLOPS|hercio/i, "Informática básica y unidades de información"], [/binario|octal|decimal|hexadecimal|base numérica|conversión/i, "Sistemas de numeración"], [/puerta|\bAND\b|\bNAND\b|\bOR\b|\bNOR\b|\bXOR\b|\bXNOR\b|lógica/i, "Funciones lógicas básicas"], [/sistema de informaci.n|operacional|táctico|tactico|estratégico|estrategico|dato e informaci.n/i, "Elementos y niveles de los sistemas de información"], [/contador de programa|\bPC\b|registro de instrucci.n|\bIR\b|\bMAR\b|\bMBR\b|\bMDR\b|ciclo de instrucci.n|direccionamiento|ALU|unidad de control|pipelining|segmentaci.n/i, "Organización del procesador · Registros y ciclo de instrucción"], [/Von Neumann|Harvard|Flynn|SISD|SIMD|MISD|MIMD|RISC|CISC/i, "Arquitecturas de ordenadores"], [/placa base|bus de datos|bus de direcciones|chipset|Northbridge|Southbridge|socket|PGA|LGA|microprocesador|GPU/i, "Componentes internos · Placa base y microprocesadores"], [/BIOS|UEFI|POST|arranque|boot/i, "Componentes internos · Proceso de arranque"]],

@@ -72,6 +72,20 @@
     ]
   },
   {
+    "code": "B1T5",
+    "slug": "b1t5-administracion",
+    "sourceFilename": "Bloque 1/Tema 5/B1T5_Administracion 2.pdf",
+    "title": "B1T5 Administracion",
+    "pdfPath": "/temario/b1t5-administracion.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 1/Tema 5/Así_funciona_la_maquinaria_del_Estado.m4a",
+        "title": "Así funciona la maquinaria del Estado",
+        "assetPath": "/podcast/B1T5/asi-funciona-la-maquinaria-del-estado.m4a"
+      }
+    ]
+  },
+  {
     "code": "B2T1",
     "slug": "b2t1-informatica-basica",
     "sourceFilename": "Bloque 2/Tema 1/B2T1_Informatica_basica 1.pdf",

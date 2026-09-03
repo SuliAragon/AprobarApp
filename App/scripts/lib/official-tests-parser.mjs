@@ -275,6 +275,7 @@ const topicFallbacks = {
   B1T2: "La cuestión se resuelve aplicando la regulación constitucional de las Cortes Generales, el Tribunal Constitucional o el Defensor del Pueblo. Hay que contrastar competencias, mayorías y procedimientos sin trasladarlos de una institución a otra.",
   B1T3: "La cuestión se resuelve con los artículos constitucionales sobre el Gobierno y sus relaciones con las Cortes, junto con la Ley del Gobierno. Conviene diferenciar composición, investidura, funciones y control parlamentario.",
   B1T4: "La respuesta correcta aplica el apartado concreto del temario sobre Gobierno Abierto, Ley 19/2013, derecho de acceso, buen gobierno o Agenda 2030. Hay que distinguir la publicidad activa del acceso a solicitud y comprobar los plazos, órganos y límites previstos.",
+  B1T5: "La respuesta correcta se comprueba en el apartado concreto del TREBEP sobre empleo publico. Hay que distinguir el ambito, la clase de empleado, el derecho o deber, el procedimiento de carrera y provision o la situacion administrativa que corresponda.",
   B2T1: "La cuestión se resuelve aplicando la definición concreta del temario sobre representación de la información, arquitectura del procesador, componentes internos o memoria. Las alternativas incorrectas confunden unidades, registros, arquitecturas o funciones diferentes.",
   B2T2: "La cuestión se resuelve comprobando la tecnología, interfaz, unidad o función concreta de los periféricos. Hay que separar conectividad, impresión, almacenamiento, visualización y digitalización, sin intercambiar especificaciones próximas.",
   B2T3: "La respuesta correcta aplica la definición técnica exacta de la estructura, algoritmo o formato preguntado. Las alternativas restantes cambian el criterio esencial, el ámbito de aplicación o la propiedad que se está evaluando.",
@@ -323,6 +324,22 @@ const temarioReferences = {
       [/Consejo de Transparencia|alto cargo|buen gobierno|reclamaci.n|abstenci.n/i, "Buen gobierno y Consejo de Transparencia"],
       [/Agenda 2030|ODS|Objetivo de Desarrollo Sostenible|Naciones Unidas|desarrollo sostenible/i, "Agenda 2030 y Objetivos de Desarrollo Sostenible"],
       [/Gobierno Abierto|OGP|participaci|colaboraci|rendici.n de cuentas/i, "Gobierno Abierto y principios informadores"],
+    ],
+  },
+  B1T5: {
+    fallback: "Texto Refundido del Estatuto Basico del Empleado Publico (TREBEP)",
+    rules: [
+      [/art.culo 2|TREBEP se aplica|Universidades P.blicas|Administraci.n de Justicia|Centro Nacional de Inteligencia|Fuerzas y Cuerpos de Seguridad/i, "Ambito de aplicacion y personal con legislacion especifica"],
+      [/empleados p.blicos|funcionario de carrera|funcionario interino|personal laboral|personal eventual|personal directivo|potestades p.blicas/i, "Clases de empleados publicos"],
+      [/teletrabajo|huelga|vacaciones|permisos|permiso parental|principio .tico|principios .ticos|derechos individuales|libertad sindical/i, "Derechos, jornada, permisos y codigo de conducta"],
+      [/proceso selectivo|acceso al empleo|.rgano de selecci.n|toma de posesi.n|renuncia|jubilaci.n|p.rdida de la condici.n/i, "Acceso, seleccion y condicion funcionarial"],
+      [/Oferta de Empleo P.blico|planificaci.n|cuerpos y escalas|t.tulo universitario|subgrupo/i, "Planificacion, OEP y clasificacion profesional"],
+      [/carrera vertical|carrera horizontal|promoci.n interna|evaluaci.n del desempe.o|complemento de carrera/i, "Carrera profesional, promocion y evaluacion"],
+      [/retribuci.n|trienio|complemento espec.fico|servicios extraordinarios/i, "Retribuciones"],
+      [/provisi.n|concurso|libre designaci.n|movilidad/i, "Provision y movilidad"],
+      [/servicios especiales|servicio en otras Administraciones|servicio activo|suspensi.n|excedencia/i, "Situaciones administrativas"],
+      [/disciplinaria|falta muy grave|falta grave|falta leve|sanci.n|prescripci.n/i, "Regimen disciplinario"],
+      [/incompatibilidades|compatibilidad|segundo puesto|actividades privadas|Registros de Personal/i, "Incompatibilidades"],
     ],
   },
   B2T1: {
@@ -1135,9 +1152,82 @@ function buildB1T4Explanation(prompt, correctLabel, options = []) {
   return `La pregunta se resuelve distinguiendo el supuesto concreto que plantea la Ley 19/2013 o el apartado de Gobierno Abierto y Agenda 2030 del temario. La opción válida reproduce ese requisito específico, mientras que las demás alteran el órgano, plazo, ámbito o condición aplicable.`;
 }
 
+const b1t5ExplanationRules = [
+  [/TREBEP se aplica.*art.culo 2\.1/i, "El articulo 2.1 aplica el TREBEP al personal funcionario y, cuando proceda, al personal laboral de las Administraciones enumeradas. La clave es que no se limita al funcionariado ni se extiende automaticamente a cualquier entidad privada."],
+  [/son empleados p.blicos/i, "El articulo 8 define como empleados publicos a quienes desempenan funciones retribuidas en las Administraciones Publicas al servicio de los intereses generales. La retribucion y esa finalidad publica son los dos elementos que identifica la respuesta."],
+  [/Universidades P.blicas/i, "Las universidades publicas estan incluidas expresamente en el ambito general del articulo 2, por lo que no forman parte de los colectivos del articulo 4 con aplicacion directa solo cuando su normativa especifica lo disponga."],
+  [/Entidades Locales/i, "El articulo 3 somete al personal funcionario local a la legislacion estatal aplicable y a la normativa de las comunidades autonomas, respetando la autonomia local. No existe un regimen aislado de las reglas basicas estatales."],
+  [/Administraci.n de Justicia/i, "El personal funcionario al servicio de la Administracion de Justicia tiene legislacion especifica propia conforme al articulo 4. El TREBEP solo se aplica directamente cuando esa regulacion especifica lo prevea."],
+  [/Centro Nacional de Inteligencia/i, "El personal del Centro Nacional de Inteligencia figura entre los colectivos con legislacion especifica del articulo 4. Por ello no se le aplica el TREBEP como regla comun sin atender primero a su normativa propia."],
+  [/empleados p.blicos se clasifican/i, "El articulo 8.2 clasifica a los empleados publicos en funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual. El personal directivo se regula aparte y no integra esa enumeracion cerrada."],
+  [/potestades p.blicas|salvaguardia de los intereses generales/i, "El ejercicio de potestades publicas o la salvaguardia de intereses generales del Estado se reserva a funcionarios de carrera. Esa reserva protege la imparcialidad y la continuidad de las funciones publicas nucleares."],
+  [/funcionario de carrera se define/i, "El articulo 9 exige nombramiento legal y una relacion estatutaria regulada por Derecho Administrativo para servicios profesionales retribuidos de caracter permanente. Esa permanencia separa al funcionario de carrera del interino."],
+  [/exceso o acumulaci.n de tareas/i, "Para la acumulacion de tareas, el articulo 10 limita el nombramiento interino a nueve meses dentro de un periodo de dieciocho meses. Es una causa temporal distinta de la vacante o de la ejecucion de programas."],
+  [/programas de car.cter temporal/i, "El nombramiento interino para programas temporales tiene una duracion maxima de tres anos y puede ampliarse hasta doce meses mas. El limite impide utilizar la interinidad para necesidades permanentes sin cobertura ordinaria."],
+  [/plaza vacante.*interino/i, "Una plaza vacante cubierta por interino puede ser amortizada si desaparece la necesidad estructural. La cobertura interina no consolida la plaza ni obliga a mantenerla hasta que se cubra por funcionario de carrera."],
+  [/personal laboral.*duraci.n del contrato/i, "El articulo 11 clasifica al personal laboral, segun la duracion de su contrato, como fijo, por tiempo indefinido o temporal. Estas categorias pertenecen al regimen laboral y no a las clases de funcionario."],
+  [/personal eventual.*n.mero|condiciones retributivas/i, "El articulo 12 exige que el numero y las condiciones retributivas del personal eventual sean publicos. Esa transparencia es coherente con el caracter de confianza o asesoramiento especial de estos puestos."],
+  [/personal eventual.*cesa|preste la funci.n de confianza/i, "El personal eventual cesa en todo caso cuando cesa la autoridad a la que presta la funcion de confianza o asesoramiento. Su vinculacion no crea una permanencia independiente de esa autoridad."],
+  [/el personal eventual:/i, "El personal eventual es empleado publico, pero no personal funcionario: desempena funciones de confianza o asesoramiento especial con caracter no permanente. Esa naturaleza explica que no adquiera la condicion estatutaria de funcionario de carrera."],
+  [/personal eventual.*m.rito|puesto de trabajo como personal eventual/i, "La condicion o el desempeno como personal eventual no puede constituir merito para acceder a la funcion publica ni para promocionar internamente. El puesto de confianza no se convierte asi en una ventaja selectiva."],
+  [/personal directivo.*publicidad y concurrencia|relaci.n con el personal directivo/i, "La designacion del personal directivo ha de respetar merito y capacidad y utilizar procedimientos con publicidad y concurrencia. Aunque tenga funciones directivas, no se le puede seleccionar mediante un sistema opaco."],
+  [/personal directivo profesional:/i, "El personal directivo profesional desarrolla funciones directivas en las Administraciones y queda sometido a evaluacion conforme a eficacia y eficiencia, responsabilidad por su gestion y control de resultados. Si ninguna alternativa recoge ese regimen, la correcta es que ninguna es cierta."],
+  [/NO se clasifica como empleados p.blicos.*directivo/i, "El articulo 8 enumera cuatro clases de empleados publicos: carrera, interinos, laborales y eventuales. El personal directivo profesional se regula en el articulo 13, pero no aparece como clase en esa enumeracion."],
+  [/teletrabajo/i, "El articulo 47 bis obliga a la Administracion a proporcionar y mantener los medios tecnologicos necesarios para teletrabajar. Esta modalidad debe ser voluntaria y reversible y mantiene los derechos y deberes ordinarios del puesto."],
+  [/derechos individuales.*forma colectiva|ejercicio de huelga|libertad sindical/i, "El articulo 15 considera la libertad sindical, la negociacion colectiva, la huelga, los conflictos colectivos y la reunion como derechos individuales ejercidos colectivamente. Se diferencian de los derechos que cada empleado disfruta de manera estrictamente individual."],
+  [/servicios esenciales.*huelga/i, "El derecho de huelga se ejerce con garantia del mantenimiento de los servicios esenciales de la comunidad. El TREBEP reconoce la huelga, pero la concilia con la continuidad de los servicios esenciales."],
+  [/vacaciones anuales/i, "El articulo 50 fija, como regla basica, veintidos dias habiles de vacaciones por cada ano completo de servicio. Los dias habiles excluyen los descansos semanales y los festivos conforme a la regulacion aplicable."],
+  [/fallecimiento de un familiar|enfermedad grave de un familiar/i, "El articulo 48 gradua el permiso por fallecimiento, accidente o enfermedad grave segun el grado de parentesco y si el hecho ocurre en la misma o distinta localidad. La opcion correcta reproduce esa combinacion de dias y circunstancias."],
+  [/permiso parental/i, "El permiso parental para cuidado de menor hasta los ocho anos tiene una duracion no superior a ocho semanas, continuas o discontinuas. Por eso la opcion que lo limita a seis semanas es la incorrecta."],
+  [/art.culo 49.*NO se encuentran/i, "El articulo 49 regula permisos de conciliacion, nacimiento, adopcion, acogimiento y violencia de genero. La paternidad de quince dias es una formulacion derogada que no corresponde al regimen actual de este articulo."],
+  [/principio .tico|trato de favor|trato con atenci.n/i, "El articulo 53 recoge principios eticos, como no aceptar tratos de favor o ventajas injustificadas. El trato atento y respetuoso se integra entre los principios de conducta del articulo 54, y no debe confundirse con los eticos."],
+  [/proceso selectivo.*art.culo 55|acceso al empleo p.blico/i, "El articulo 55 exige igualdad, merito, capacidad, publicidad, transparencia e imparcialidad en el acceso. La eficacia y la celeridad se valoran como adecuacion y agilidad del proceso, pero la economia procesal no es el literal del TREBEP."],
+  [/determinada nacionalidad/i, "La nacionalidad es un requisito general de acceso en los terminos previstos por el articulo 56 y las reglas de acceso de nacionales de otros Estados. No equivale a exigir siempre y sin excepcion nacionalidad espanola."],
+  [/n.mero superior de aprobados/i, "Los organos de seleccion no pueden proponer mas aprobados que plazas convocadas, salvo que la convocatoria lo prevea expresamente. La regla evita que se generen expectativas de nombramiento sin plaza disponible."],
+  [/pertenecer a un .rgano de selecci.n/i, "Los organos de seleccion deben ser colegiados y ajustarse a imparcialidad, profesionalidad y especializacion. No pueden integrarlos el personal de eleccion o designacion politica, los temporales ni el personal eventual."],
+  [/composici.n y el funcionamiento de los .rganos de selecci.n/i, "La composicion y funcionamiento de los organos de seleccion debe respetar imparcialidad, profesionalidad y especializacion de sus integrantes. Esas garantias evitan tanto la intervencion politica como la falta de competencia tecnica."],
+  [/condici.n de un funcionario.*adquiere|toma de posesi.n/i, "El articulo 62 exige superar el proceso selectivo, nombramiento, acatamiento de la Constitucion y el ordenamiento y toma de posesion dentro de plazo. Si falta la toma de posesion, no se adquiere la condicion funcionarial."],
+  [/renuncia a la condici.n/i, "La renuncia debe manifestarse por escrito y ser aceptada expresamente. No puede aceptarse si el funcionario esta sujeto a expediente disciplinario o procesamiento judicial, y volver a ingresar exige superar un nuevo proceso selectivo."],
+  [/NO constituye una causa de p.rdida|pierden su condici.n.*renuncia/i, "El articulo 63 enumera como causas de perdida la renuncia, la perdida de nacionalidad, la jubilacion total, la sancion firme de separacion del servicio y la pena principal o accesoria de inhabilitacion. La suspension firme no equivale a separacion del servicio."],
+  [/cuando se pierde la condici.n.*renuncia/i, "La renuncia extingue la condicion funcionarial, pero no impide presentarse de nuevo a la funcion publica. El reingreso solo sera posible superando los procesos selectivos que correspondan, sin recuperar automaticamente la plaza anterior."],
+  [/NO podr. ser aceptada la renuncia/i, "La renuncia no puede aceptarse cuando el funcionario esta sujeto a expediente disciplinario o ha sido dictado auto de procesamiento o apertura de juicio oral por delito. La mera comision de una falta muy grave no basta por si sola sin ese expediente en curso."],
+  [/jubilaci.n forzosa/i, "La jubilacion forzosa se declara de oficio al cumplir sesenta y cinco anos, sin perjuicio de que pueda solicitarse la prolongacion en servicio activo segun la normativa aplicable. Es una causa de perdida de la condicion funcionarial."],
+  [/planificaci.n de los recursos humanos/i, "El articulo 69 orienta la planificacion de recursos humanos a la eficacia en la prestacion de los servicios y a la eficiencia en la utilizacion de los recursos economicos. No es un mecanismo ajeno a las necesidades de personal."],
+  [/Oferta de Empleo P.blico|oferta de empleo p.blico/i, "La OEP incorpora necesidades de recursos humanos con asignacion presupuestaria y obliga a convocar los procesos selectivos de las plazas comprometidas. El plazo y las reservas de promocion interna se fijan en la normativa aplicable vigente."],
+  [/objetivo de efectivos totales.*personas con discapacidad|porcentaje de plazas.*discapacidad intelectual/i, "La normativa de funcion publica establece objetivos y reservas especificas para el acceso de personas con discapacidad. En la Administracion del Estado, el objetivo de efectivos totales y la reserva para discapacidad intelectual se expresan ambos con el minimo del dos por ciento que recoge el temario."],
+  [/cuerpos y escalas.*crean|cuerpos y escalas.*clasifican|t.tulo universitario|subgrupo C1|subgrupo A2/i, "Los cuerpos y escalas se ordenan por la titulacion exigida para el acceso. Para el grupo A se exige titulo universitario de Grado; los intervalos de niveles de cada subgrupo proceden de la regulacion de funcion publica aplicable."],
+  [/carrera vertical|carrera horizontal|promoci.n interna|complemento de carrera|evaluaci.n del desempe.o/i, "La carrera vertical supone ascender en la estructura de puestos por procedimientos de provision; la horizontal progresa en grado, categoria o escalon sin cambiar de puesto. La promocion interna vertical asciende a un subgrupo superior y exige, con caracter general, dos anos de servicio activo en el inferior."],
+  [/relaciones de puestos de trabajo|retribuciones b.sicas/i, "Las RPT deben reflejar, entre otros elementos, denominacion, grupos de clasificacion, cuerpos o escalas, sistemas de provision y retribuciones complementarias. Las retribuciones basicas se fijan legalmente y no son un contenido propio de cada puesto."],
+  [/lactancia/i, "El permiso de lactancia se reconoce por cuidado de hijo menor de doce meses. La regulacion permite distintas modalidades de disfrute, pero no altera esa edad maxima basica indicada por el TREBEP."],
+  [/servicios extraordinarios|trienio|retribuciones b.sicas|complemento espec.fico/i, "Las retribuciones basicas son sueldo y trienios; las complementarias remuneran las caracteristicas del puesto, la carrera o el rendimiento. La especial dificultad tecnica, responsabilidad, dedicacion o incompatibilidad se compensa con el complemento especifico."],
+  [/procedimientos de provisi.n|libre designaci.n|concurso|movilidad/i, "El articulo 78 exige merito, capacidad, igualdad y publicidad en la provision. El concurso es el sistema normal; la libre designacion con convocatoria publica se basa en valorar discrecionalmente la idoneidad respecto de los requisitos del puesto."],
+  [/art.culo 78.*principios/i, "La provision de puestos se basa en merito, capacidad, igualdad y publicidad. Esos principios rigen tanto el concurso como la libre designacion, aunque esta ultima permita apreciar discrecionalmente la idoneidad para puestos de especial responsabilidad."],
+  [/suspensi.n provisional/i, "La suspension provisional en un expediente disciplinario no puede exceder, con caracter general, de seis meses. Debe distinguirse de la suspension firme, que es una sancion y puede alcanzar una duracion superior dentro de sus limites legales."],
+  [/excedencia.*violencia de g.nero/i, "La excedencia por violencia de genero computa inicialmente seis meses para antiguedad, carrera y Seguridad Social, con posibles prorrogas hasta dieciocho meses; durante los dos primeros meses se perciben retribuciones integras."],
+  [/v.ctima de violencia de g.nero.*retribuciones .ntegras/i, "En la excedencia por violencia de genero, la funcionaria tiene derecho a percibir retribuciones integras durante los dos primeros meses. Es una medida de proteccion distinta del periodo de seis meses computable para antiguedad y carrera."],
+  [/excedencia.*agrupaci.n familiar|excedencia.*inter.s particular|excedencia.*cuidado/i, "Las modalidades de excedencia tienen efectos distintos: interes particular exige servicios previos y no devenga retribuciones; agrupacion familiar tampoco devenga ni computa; cuidado de hijos o familiares protege la formacion y puede alcanzar hasta tres anos."],
+  [/servicios especiales|Servicio en otras Administraciones/i, "Los servicios especiales se reservan a los supuestos tasados del articulo 87 y conservan efectos de carrera y trienios. Obtener destino en otra Administracion por movilidad da lugar, en cambio, a la situacion de servicio en otras Administraciones Publicas."],
+  [/falta muy grave|falta leve|falta disciplinaria|sanci.n|prescripci.n|desobediencia|ausencia injustificada/i, "El TREBEP tipifica faltas muy graves, remite las graves y leves a las leyes de funcion publica y establece reglas propias de sancion y prescripcion. La separacion del servicio solo puede imponerse por faltas muy graves."],
+  [/Ley 53\/1984|incompatibilidades|compatibilidad|segundo puesto|actividades privadas|Registros de Personal/i, "La Ley 53/1984 regula las incompatibilidades para preservar imparcialidad y dedicacion al servicio publico. Una segunda actividad publica o privada requiere, cuando proceda, reconocimiento previo de compatibilidad e inscripcion en los Registros de Personal."],
+  [/Fuerzas y Cuerpos de Seguridad/i, "Las disposiciones del TREBEP se aplican directamente al personal de las Fuerzas y Cuerpos de Seguridad solo cuando asi lo disponga su legislacion especifica. El articulo 4 no los integra sin matices en el regimen comun."],
+  [/Sociedad Estatal de Correos/i, "El personal laboral de la Sociedad Estatal de Correos y Telegrafos se rige por la legislacion laboral y las normas convencionalmente aplicables. No adquiere por ese hecho el regimen estatutario general de los funcionarios."],
+];
+
+function buildB1T5Explanation(prompt, correctLabel, options = []) {
+  const source = `${prompt} ${correctLabel}`;
+  const optionLabels = options.map((option) => option.label).join(" ");
+  const rule = b1t5ExplanationRules.find(([match]) => match.test(source))
+    ?? b1t5ExplanationRules.find(([match]) => match.test(`${source} ${optionLabels}`));
+
+  return rule?.[1]
+    ?? `El enunciado identifica un supuesto concreto del TREBEP. La opcion valida reproduce la regla aplicable a ${prompt.replace(/\?$/u, "").toLowerCase()}, mientras que las demas alteran el ambito, el requisito, el plazo o el efecto juridico previsto.`;
+}
+
 function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = []) {
   const specificReason = code === "B1T4"
     ? buildB1T4Explanation(prompt, correctLabel, options)
+    : code === "B1T5"
+      ? buildB1T5Explanation(prompt, correctLabel, options)
     : code === "B2T1"
       ? buildB2T1Explanation(prompt, correctLabel, options)
       : code === "B2T2"

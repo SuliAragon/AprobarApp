@@ -235,6 +235,59 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B1T5: {
+    title: "Texto Refundido del Estatuto Basico del Empleado Publico: derechos, carrera, provision y situaciones",
+    shortTitle: "Empleo publico y TREBEP",
+    description:
+      "Tema del bloque constitucional sobre el TREBEP, empleados publicos, derechos y deberes, acceso, carrera, retribuciones, provision de puestos, situaciones administrativas e incompatibilidades.",
+    summary: [
+      "Principios constitucionales de la Administracion publica y marco normativo de la funcion publica.",
+      "Ambito del TREBEP, clases de empleados publicos y rasgos de carrera, interinidad, laboralidad, eventualidad y direccion publica.",
+      "Derechos individuales y colectivos, negociacion, jornada, permisos, teletrabajo, deberes y codigo de conducta.",
+      "Acceso, adquisicion y perdida de la condicion funcionarial, planificacion, OEP, RPT y clasificacion profesional.",
+      "Carrera, promocion, evaluacion, retribuciones, provision, situaciones administrativas, disciplina e incompatibilidades.",
+    ],
+    sections: [
+      "Marco constitucional y normativo",
+      "Ambito y empleados publicos",
+      "Derechos, negociacion y deberes",
+      "Acceso, carrera y retribuciones",
+      "Provision, situaciones e incompatibilidades",
+    ],
+    accent: "coral",
+    testPresets: [
+      {
+        slug: "marco-constitucional-y-normativo",
+        title: "Test 1 · Marco constitucional y normativo",
+        description: "Repasa los principios de la Administracion, el encaje constitucional y el ambito del TREBEP.",
+        focusSections: ["marco-constitucional-y-normativo"],
+      },
+      {
+        slug: "ambito-y-empleados-publicos",
+        title: "Test 2 · Ambito y empleados publicos",
+        description: "Entrena las clases de empleados publicos y las diferencias entre carrera, interinidad, laboral, eventual y directivo.",
+        focusSections: ["ambito-y-empleados-publicos"],
+      },
+      {
+        slug: "derechos-negociacion-y-deberes",
+        title: "Test 3 · Derechos, negociacion y deberes",
+        description: "Trabaja derechos individuales y colectivos, negociacion, jornada, teletrabajo y codigo de conducta.",
+        focusSections: ["derechos-negociacion-y-deberes"],
+      },
+      {
+        slug: "acceso-carrera-y-retribuciones",
+        title: "Test 4 · Acceso, carrera y retribuciones",
+        description: "Refuerza acceso, OEP, RPT, carrera, promocion, evaluacion y componentes retributivos.",
+        focusSections: ["acceso-carrera-y-retribuciones"],
+      },
+      {
+        slug: "provision-situaciones-e-incompatibilidades",
+        title: "Test 5 · Provision, situaciones e incompatibilidades",
+        description: "Repasa concurso, libre designacion, servicio activo, excedencias, servicios especiales e incompatibilidades.",
+        focusSections: ["provision-situaciones-e-incompatibilidades"],
+      },
+    ],
+  },
   B2T1: {
     title: "Informática básica, representación de la información y arquitectura de ordenadores",
     shortTitle: "Informática básica",

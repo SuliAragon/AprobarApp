@@ -273,6 +273,47 @@ SOLUCIONES
   assert.doesNotMatch(explanations.join(" "), /aplica el concepto preciso|se ajusta al criterio preguntado|apartado correspondiente/i);
 });
 
+test("parseOfficialTestText explica los tests oficiales B1T5 con reglas concretas del TREBEP", () => {
+  const source = `
+1. El TREBEP se aplica conforme a su articulo 2.1:
+a) Solo al personal laboral de empresas privadas.
+b) Al personal funcionario y, en lo que proceda, al personal laboral de las Administraciones Publicas.
+c) Exclusivamente a los funcionarios de carrera de la AGE.
+d) Unicamente a los cargos electos.
+
+2. El personal eventual:
+a) Consolida una plaza fija al cesar.
+b) Puede ser merito para promocion interna.
+c) Cesa, en todo caso, cuando cesa la autoridad a la que presta la funcion de confianza.
+d) Se selecciona por oposicion obligatoria.
+
+3. La carrera horizontal consiste en:
+a) Cambiar de Administracion cada ano.
+b) Acceder a un subgrupo superior.
+c) Cambiar siempre de puesto de trabajo.
+d) Progresar en grado, categoria o escalon sin necesidad de cambiar de puesto.
+
+SOLUCIONES
+1. B
+2. C
+3. D
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B1T5",
+    slug: "b1t5-test-oficial",
+    title: "Test oficial Empleo publico",
+  });
+
+  const explanations = parsed.questions.map((question) => question.explanation);
+  assert.equal(new Set(explanations).size, 3);
+  assert.match(explanations[0], /articulo 2\.1.*personal funcionario/i);
+  assert.match(explanations[1], /personal eventual.*cesa/i);
+  assert.match(explanations[2], /carrera vertical.*horizontal/i);
+  assert.match(explanations[0], /Referencia del temario: B1T5/i);
+  assert.doesNotMatch(explanations.join(" "), /apartado correspondiente|plataformas m.viles/i);
+});
+
 test("parseOfficialTestText explica cada supuesto de transparencia con su regla concreta", () => {
   const source = `
 3. El Presidente del Consejo de Transparencia y Buen Gobierno, de acuerdo con la Ley 19/2013, es nombrado por un período de:
