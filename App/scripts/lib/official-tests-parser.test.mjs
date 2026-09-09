@@ -516,3 +516,43 @@ SOLUCIONES
   assert.equal(parsed.questions[0].options[3].label, "Ext2.");
   assert.match(parsed.questions[0].explanation, /Referencia del temario: B2T4/i);
 });
+
+test("las explicaciones B3T3 describen el concepto tecnico de cada pregunta", () => {
+  const source = [
+    "1. En la compilacion, el analisis sintactico se encarga de:",
+    "a) Convertir el codigo fuente en codigo objeto.",
+    "b) Verificar que los tokens cumplen la gramatica del lenguaje.",
+    "c) Ejecutar el programa instruccion a instruccion.",
+    "d) Resolver las referencias externas.",
+    "",
+    "2. La estructura do while se caracteriza porque:",
+    "a) Evalua la condicion antes de ejecutar el bloque.",
+    "b) Solo puede usarse con contadores.",
+    "c) Ejecuta el bloque al menos una vez.",
+    "d) No admite condiciones booleanas.",
+    "",
+    "3. El operador XOR a nivel de bits se representa habitualmente mediante:",
+    "a) &",
+    "b) |",
+    "c) ^",
+    "d) !",
+    "",
+    "SOLUCIONES",
+    "1. B",
+    "2. C",
+    "3. C",
+  ].join("\n");
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B3T3",
+    slug: "b3t3-test-oficial",
+    title: "Test oficial Lenguajes de programacion",
+  });
+  const explanations = parsed.questions.map((question) => question.explanation);
+
+  assert.equal(new Set(explanations).size, 3);
+  assert.match(explanations[0], /analisis sintactico.*gramatica/i);
+  assert.match(explanations[1], /do while.*al menos una vez/i);
+  assert.match(explanations[2], /XOR a nivel de bits/i);
+  assert.ok(explanations.every((explanation) => !/apartado correspondiente del tema/i.test(explanation)));
+});

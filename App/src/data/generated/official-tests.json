@@ -21845,6 +21845,1519 @@
     ]
   },
   {
+    "code": "B3T3",
+    "slug": "b3t3-test-oficial-lenguajes-programacion",
+    "title": "Test oficial Lenguajes programacion",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 3/Tema 3/B3T3Test_Lenguajes_programacion 1.pdf",
+    "assetPath": "/test-oficial/B3T3/b3t3-test-oficial-lenguajes-programacion.pdf",
+    "questions": [
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-1",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un lenguaje de programación orientado a objetos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Java."
+          },
+          {
+            "id": "b",
+            "label": "C."
+          },
+          {
+            "id": "c",
+            "label": "Smalltalk."
+          },
+          {
+            "id": "d",
+            "label": "Ada."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «¿Cuál de los siguientes NO es un lenguaje de programación orientado a objetos?». La respuesta correcta es «C.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-2",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de los siguientes lenguajes de programación NO es orientado a objetos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "J#."
+          },
+          {
+            "id": "b",
+            "label": "VB.NET."
+          },
+          {
+            "id": "c",
+            "label": "Eiffel."
+          },
+          {
+            "id": "d",
+            "label": "Prolog."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «Señale cuál de los siguientes lenguajes de programación NO es orientado a objetos:». La respuesta correcta es «Prolog.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-3",
+        "section": "test-oficial",
+        "prompt": "De los lenguajes de programación siguientes, ¿cuál NO se considera de tipo funcional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Vala."
+          },
+          {
+            "id": "b",
+            "label": "Hope."
+          },
+          {
+            "id": "c",
+            "label": "Lisp."
+          },
+          {
+            "id": "d",
+            "label": "Scheme."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «De los lenguajes de programación siguientes, ¿cuál NO se considera de tipo funcional?». La respuesta correcta es «Vala.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-4",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes lenguajes de programación NO incluye entre sus características la genericidad o definición de funciones genéricas utilizando el denominado polimorfismo paramétrico?",
+        "options": [
+          {
+            "id": "a",
+            "label": "ML."
+          },
+          {
+            "id": "b",
+            "label": "Haskell."
+          },
+          {
+            "id": "c",
+            "label": "Pascal."
+          },
+          {
+            "id": "d",
+            "label": "Miranda."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La genericidad permite definir funciones o tipos que trabajan con datos de distintos tipos sin reescribir su logica. ML, Haskell y Miranda incorporan polimorfismo parametrico; Pascal no es el lenguaje que se asocia a esa caracteristica. La pista decisiva de esta pregunta es: «¿Cuál de los siguientes lenguajes de programación NO incluye entre sus características la genericidad o definición de funciones genéricas utilizando el denominado polimorfismo paramétrico?». La respuesta correcta es «Pascal.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-5",
+        "section": "test-oficial",
+        "prompt": "¿Qué entradas de información tiene la ejecución de un programa intérprete?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un programa ejecutable y los datos de entrada."
+          },
+          {
+            "id": "b",
+            "label": "Un programa traducido al lenguaje objeto y los datos de entrada."
+          },
+          {
+            "id": "c",
+            "label": "Un programa escrito en un lenguaje fuente y los datos de entrada."
+          },
+          {
+            "id": "d",
+            "label": "Un programa compilado y los datos de entrada."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Un interprete ejecuta el codigo fuente a medida que lo traduce, normalmente instruccion por instruccion, sin conservar un programa objeto equivalente. Esa traduccion repetida en ejecucion explica la sobrecarga interpretativa frente al codigo ya compilado. La pista decisiva de esta pregunta es: «¿Qué entradas de información tiene la ejecución de un programa intérprete?». La respuesta correcta es «Un programa escrito en un lenguaje fuente y los datos de entrada.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-6",
+        "section": "test-oficial",
+        "prompt": "Indique la opción correcta para que la variable x=5 y la variable y=6:",
+        "options": [
+          {
+            "id": "a",
+            "label": "x=5; y=x++;"
+          },
+          {
+            "id": "b",
+            "label": "x=6; y=x--;"
+          },
+          {
+            "id": "c",
+            "label": "x=5; y=++x;"
+          },
+          {
+            "id": "d",
+            "label": "x=6; y=--x;"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En y = x-- se asigna primero a y el valor actual de x y solo despues se decrementa x. Si x empieza en 6, y recibe 6 y x queda en 5; esa es la unica secuencia que cumple ambos valores finales. La pista decisiva de esta pregunta es: «Indique la opción correcta para que la variable x=5 y la variable y=6:». La respuesta correcta es «x=6; y=x--;.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-7",
+        "section": "test-oficial",
+        "prompt": "Indique el valor de la variable resultado tras ejecutar el siguiente código: int a=10, b=8, c=6, resultado; resultado = (a>c) ? (b<c) ? c : b : --a;",
+        "options": [
+          {
+            "id": "a",
+            "label": "6."
+          },
+          {
+            "id": "b",
+            "label": "8."
+          },
+          {
+            "id": "c",
+            "label": "9."
+          },
+          {
+            "id": "d",
+            "label": "10. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El operador condicional ternario evalua primero a > c; como 10 es mayor que 6, se evalua b < c. Como 8 no es menor que 6, se escoge b y resultado toma el valor 8. La pista decisiva de esta pregunta es: «Indique el valor de la variable resultado tras ejecutar el siguiente código: int a=10, b=8, c=6, resultado; resultado = (a>c) ? (b<c) ? c : b : --a;». La respuesta correcta es «8.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-8",
+        "section": "test-oficial",
+        "prompt": "Indique el número de veces que se ejecuta el cuerpo del siguiente bucle: int salto = 3; for (int i=0; i>0; i*=salto) System.out.println(i);",
+        "options": [
+          {
+            "id": "a",
+            "label": "16."
+          },
+          {
+            "id": "b",
+            "label": "17."
+          },
+          {
+            "id": "c",
+            "label": "0."
+          },
+          {
+            "id": "d",
+            "label": "18."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «Indique el número de veces que se ejecuta el cuerpo del siguiente bucle: int salto = 3; for (int i=0; i>0; i*=salto) System.out.println(i);». La respuesta correcta es «0.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-9",
+        "section": "test-oficial",
+        "prompt": "Indique el número de veces que se ejecuta el cuerpo del siguiente bucle: int salto = 3; for (int i=0; i<9; (++i)*salto) System.out.println(i);",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "9."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «Indique el número de veces que se ejecuta el cuerpo del siguiente bucle: int salto = 3; for (int i=0; i<9; (++i)*salto) System.out.println(i);». La respuesta correcta es «9.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-10",
+        "section": "test-oficial",
+        "prompt": "¿Cuántas veces se ejecuta el cuerpo del siguiente bucle? for (int i=2; i<10; i*=3) return i;",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "2."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "4."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «¿Cuántas veces se ejecuta el cuerpo del siguiente bucle? for (int i=2; i<10; i*=3) return i;». La respuesta correcta es «1.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-11",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los parámetros actuales son los que figuran en la definición de una función."
+          },
+          {
+            "id": "b",
+            "label": "b) Los parámetros formales son los valores concretos que se suministran a una función cuando es invocada."
+          },
+          {
+            "id": "c",
+            "label": "El ámbito de los parámetros definidos en la cabecera de una función es el cuerpo de la propia función."
+          },
+          {
+            "id": "d",
+            "label": "El parámetro formal que recibe una referencia del parámetro real se conoce como paso de parámetros por valor."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las funciones y procedimientos son subprogramas que dividen el problema; los parametros formales pertenecen a su cabecera y pueden recibirse por valor o referencia. Un vector agrupa elementos homogeneos por indice, mientras que un registro puede reunir campos de tipos distintos. La pista decisiva de esta pregunta es: «Señale la respuesta correcta:». La respuesta correcta es «El ámbito de los parámetros definidos en la cabecera de una función es el cuerpo de la propia función.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-12",
+        "section": "test-oficial",
+        "prompt": "Si tenemos (NOT(c>d) and (a<c)) and NOT ((a>b) and (a<b)) y a=4, b=5 y d=5, ¿qué valor debe tomar c para que la expresión se evalúe como verdadera?",
+        "options": [
+          {
+            "id": "a",
+            "label": "c=3."
+          },
+          {
+            "id": "b",
+            "label": "c=4."
+          },
+          {
+            "id": "c",
+            "label": "c=5."
+          },
+          {
+            "id": "d",
+            "label": "c=6. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Cada operador tiene una funcion concreta: % calcula el resto, == compara igualdad, ++ puede incrementar antes o despues de devolver el valor y ^ realiza XOR a nivel de bits. La precedencia solo ordena esas operaciones si no se usan parentesis. La pista decisiva de esta pregunta es: «Si tenemos (NOT(c>d) and (a<c)) and NOT ((a>b) and (a<b)) y a=4, b=5 y d=5, ¿qué valor debe tomar c para que la expresión se evalúe como verdadera?». La respuesta correcta es «c=5.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-13",
+        "section": "test-oficial",
+        "prompt": "La ejecución del siguiente código produce qué salida: for (int indice=1, sel=2, elec=3; índice<20; indice=(indice+sel)*elec) { System.out.println(indice); sel++; }",
+        "options": [
+          {
+            "id": "a",
+            "label": "2 8 22 52"
+          },
+          {
+            "id": "b",
+            "label": "0 4 14 32"
+          },
+          {
+            "id": "c",
+            "label": "1 12"
+          },
+          {
+            "id": "d",
+            "label": "0 4 14 52"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «La ejecución del siguiente código produce qué salida: for (int indice=1, sel=2, elec=3; índice<20; indice=(indice+sel)*elec) { System.out.println(indice); sel++; }». La respuesta correcta es «1 12.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-14",
+        "section": "test-oficial",
+        "prompt": "Indique el resultado de la ejecución del código en C: int x=5; int y=3; y=++x; printf(“El valor de X es %i y el Y es %i\\n”,x,y);",
+        "options": [
+          {
+            "id": "a",
+            "label": "El valor de X es 5 y el de Y es 4."
+          },
+          {
+            "id": "b",
+            "label": "El valor de X es 6 y el de Y es 6."
+          },
+          {
+            "id": "c",
+            "label": "El valor de X es 5 y el de Y es 8."
+          },
+          {
+            "id": "d",
+            "label": "El valor de X es 5 y el de Y es 6."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El preincremento ++x aumenta x antes de usar su valor en la asignacion. Con x inicial igual a 5, y = ++x deja tanto x como y con valor 6, que es lo que imprime printf. La pista decisiva de esta pregunta es: «Indique el resultado de la ejecución del código en C: int x=5; int y=3; y=++x; printf(“El valor de X es %i y el Y es %i\\n”,x,y);». La respuesta correcta es «El valor de X es 6 y el de Y es 6.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-15",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes afirmaciones es FALSA en relación con la instrucción switch:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Switch nos permite repetir la ejecución de una serie de instrucciones mientras que se cumpla la expresión condicional o aparezca una sentencia break."
+          },
+          {
+            "id": "b",
+            "label": "Switch es equivalente a programar usando sentencias if anidadas."
+          },
+          {
+            "id": "c",
+            "label": "La sentencia break asocial al último case (o default) no es necesaria."
+          },
+          {
+            "id": "d",
+            "label": "La expresión asociada a la instrucción switch debe generar valores tipo char, byte, short o int."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «Indique cuál de las siguientes afirmaciones es FALSA en relación con la instrucción switch:». La respuesta correcta es «Switch nos permite repetir la ejecución de una serie de instrucciones mientras que se cumpla la expresión condicional o aparezca una sentencia break.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-16",
+        "section": "test-oficial",
+        "prompt": "Supongamos que existe una matriz saldoMensual declarada de la siguiente forma: float[] saldoMensual = new float[12]; Elija de entre las siguientes, la instrucción repetitiva que nos permite recorrer todos sus elementos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "for (int i=0; i<12; i++) System.out.println(saldoMensual[i];"
+          },
+          {
+            "id": "b",
+            "label": "for (int i=1; i<12; i++) System.out.println(saldoMensual[i];"
+          },
+          {
+            "id": "c",
+            "label": "for (int i=1; i<=12; i++) System.out.println(saldoMensual[i];"
+          },
+          {
+            "id": "d",
+            "label": "for (int i=0; i=12; i++) System.out.println(saldoMensual[i];"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «Supongamos que existe una matriz saldoMensual declarada de la siguiente forma: float[] saldoMensual = new float[12]; Elija de entre las siguientes, la instrucción repetitiva que nos permite recorrer todos sus elementos:». La respuesta correcta es «for (int i=0; i<12; i++) System.out.println(saldoMensual[i];.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-17",
+        "section": "test-oficial",
+        "prompt": "Indique qué se imprime por pantalla con el siguiente código: for (int i=10; j=1; i>0; i=i-j) {System.out.println(i);j++;}",
+        "options": [
+          {
+            "id": "a",
+            "label": "10873"
+          },
+          {
+            "id": "b",
+            "label": "10963"
+          },
+          {
+            "id": "c",
+            "label": "10851"
+          },
+          {
+            "id": "d",
+            "label": "1051 LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «Indique qué se imprime por pantalla con el siguiente código: for (int i=10; j=1; i>0; i=i-j) {System.out.println(i);j++;}». La respuesta correcta es «10851.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-18",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de las siguientes respuestas es INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Casting es el proceso de transformar un valor de un tipo a un valor de otro tipo."
+          },
+          {
+            "id": "b",
+            "label": "Los lenguajes débilmente tipados tendrán solo conversiones implícitas."
+          },
+          {
+            "id": "c",
+            "label": "El valor mínimo de una variable de tipo short es -32768."
+          },
+          {
+            "id": "d",
+            "label": "Lua es un lenguaje de programación compilado."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Los tipos de datos determinan como se reserva y manipula memoria. El casting convierte de un tipo a otro y puede ser explicito si existe posible perdida de precision; el tipado estatico fija el tipo de la variable y el dinamico atiende al valor que contiene. La pista decisiva de esta pregunta es: «Señale cuál de las siguientes respuestas es INCORRECTA:». La respuesta correcta es «Lua es un lenguaje de programación compilado.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-19",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un lenguaje de programación de tipo funcional?",
+        "options": [
+          {
+            "id": "a",
+            "label": "P#."
+          },
+          {
+            "id": "b",
+            "label": "Clojure."
+          },
+          {
+            "id": "c",
+            "label": "R."
+          },
+          {
+            "id": "d",
+            "label": "Scheme."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «¿Cuál de los siguientes NO es un lenguaje de programación de tipo funcional?». La respuesta correcta es «P#.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-20",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO es una característica de la programación orientada a objetos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sobrecarga."
+          },
+          {
+            "id": "b",
+            "label": "Encapsulamiento."
+          },
+          {
+            "id": "c",
+            "label": "Abstracción."
+          },
+          {
+            "id": "d",
+            "label": "Polimorfismo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «¿Cuál de las siguientes NO es una característica de la programación orientada a objetos?». La respuesta correcta es «Sobrecarga.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-21",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de los siguientes lenguajes de programación NO es un lenguaje declarativo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lisp."
+          },
+          {
+            "id": "b",
+            "label": "Smalltalk."
+          },
+          {
+            "id": "c",
+            "label": "Prolog."
+          },
+          {
+            "id": "d",
+            "label": "SQL."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «Indique cuál de los siguientes lenguajes de programación NO es un lenguaje declarativo:». La respuesta correcta es «Smalltalk.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-22",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes es un lenguaje de programación interpretado?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Phyton."
+          },
+          {
+            "id": "b",
+            "label": "Fortran."
+          },
+          {
+            "id": "c",
+            "label": "Haskell."
+          },
+          {
+            "id": "d",
+            "label": "Objective C."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Un lenguaje interpretado se ejecuta mediante un interprete a partir de su codigo fuente; Python es el ejemplo esperado frente a Fortran, Haskell u Objective-C en las opciones de este test. La pista decisiva de esta pregunta es: «¿Cuál de los siguientes es un lenguaje de programación interpretado?». La respuesta correcta es «Phyton.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-23",
+        "section": "test-oficial",
+        "prompt": "En la traducción de un lenguaje de programación con respecto al análisis sintáctico, ¿cuál de las siguientes afirmaciones es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Detecta variables no declaradas."
+          },
+          {
+            "id": "b",
+            "label": "Detecta tipos incompatibles."
+          },
+          {
+            "id": "c",
+            "label": "Detecta el uso de caracteres ilegales."
+          },
+          {
+            "id": "d",
+            "label": "Detecta tokens faltantes y expresiones mal organizadas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El analisis sintactico comprueba que los tokens se agrupen en expresiones y sentencias validas conforme a la gramatica. Los tipos incompatibles o parametros erroneos pertenecen al analisis semantico. La pista decisiva de esta pregunta es: «En la traducción de un lenguaje de programación con respecto al análisis sintáctico, ¿cuál de las siguientes afirmaciones es correcta?». La respuesta correcta es «Detecta tokens faltantes y expresiones mal organizadas.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-24",
+        "section": "test-oficial",
+        "prompt": "Para la programación de un calendario de exámenes o de un sorteo de tribunales, en el que simplemente sabemos cientos de restricciones y normas que se han de cumplir entre fechas, profesores, vacaciones, etc., el mejor método teórico de programación sería:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Programación estructurada."
+          },
+          {
+            "id": "b",
+            "label": "Programación declarativa."
+          },
+          {
+            "id": "c",
+            "label": "Programación modular."
+          },
+          {
+            "id": "d",
+            "label": "Programación orientada a objetos. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «Para la programación de un calendario de exámenes o de un sorteo de tribunales, en el que simplemente sabemos cientos de restricciones y normas que se han de cumplir entre fechas, profesores, vacaciones, etc., el mejor método teórico de programación sería:». La respuesta correcta es «Programación declarativa.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-25",
+        "section": "test-oficial",
+        "prompt": "Son paradigmas de programación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Programación imperativa y programación funcional."
+          },
+          {
+            "id": "b",
+            "label": "Programación imperativa y programación orientada a objetos"
+          },
+          {
+            "id": "c",
+            "label": "Programación funcional y programación lógica."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «Son paradigmas de programación:». La respuesta correcta es «Todas las respuestas son correctas.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-26",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO es una característica fundamental contemplada por la programación orientada a objetos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Abstracción."
+          },
+          {
+            "id": "b",
+            "label": "Herencia."
+          },
+          {
+            "id": "c",
+            "label": "Cuantificación."
+          },
+          {
+            "id": "d",
+            "label": "Polimorfismo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «¿Cuál de las siguientes NO es una característica fundamental contemplada por la programación orientada a objetos?». La respuesta correcta es «Cuantificación.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-27",
+        "section": "test-oficial",
+        "prompt": "La capacidad de los lenguajes de programación para implementar recursividad consiste en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un programa puede usar recursivamente distintos tipos de variables, es decir, siempre que sea necesario."
+          },
+          {
+            "id": "b",
+            "label": "Si una entidad es lo bastante importante en el mundo real modelado como para requerir una representación explícita en una BBDD debe ser susceptible de identificación definida y sin ambigüedad."
+          },
+          {
+            "id": "c",
+            "label": "Un programa puede llamarse a sí mismo."
+          },
+          {
+            "id": "d",
+            "label": "El programa contendrá relaciones referenciales entre los valores considerados como primarios y las variables que se definirán como vectores de valores indexados."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las funciones y procedimientos son subprogramas que dividen el problema; los parametros formales pertenecen a su cabecera y pueden recibirse por valor o referencia. Un vector agrupa elementos homogeneos por indice, mientras que un registro puede reunir campos de tipos distintos. La pista decisiva de esta pregunta es: «La capacidad de los lenguajes de programación para implementar recursividad consiste en:». La respuesta correcta es «Un programa puede llamarse a sí mismo.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-28",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un procedimiento es un subprograma."
+          },
+          {
+            "id": "b",
+            "label": "Un procedimiento puede tener sus propias variables que se declaran dentro del propio procedimiento."
+          },
+          {
+            "id": "c",
+            "label": "Las variables declaradas en un procedimiento pueden usarse en el programa principal."
+          },
+          {
+            "id": "d",
+            "label": "La zona de memoria para las variables del procedimiento es asignada cada vez que éste es llamado."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las funciones y procedimientos son subprogramas que dividen el problema; los parametros formales pertenecen a su cabecera y pueden recibirse por valor o referencia. Un vector agrupa elementos homogeneos por indice, mientras que un registro puede reunir campos de tipos distintos. La pista decisiva de esta pregunta es: «Señale la respuesta INCORRECTA:». La respuesta correcta es «Las variables declaradas en un procedimiento pueden usarse en el programa principal.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-29",
+        "section": "test-oficial",
+        "prompt": "En un ciclo repetitivo del tipo \"for (e_inicio; b; e_fin) s\", e_inicio es una expresión que se ejecuta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una sola vez al comienzo del bucle."
+          },
+          {
+            "id": "b",
+            "label": "Al inicio de cada iteración del bucle."
+          },
+          {
+            "id": "c",
+            "label": "Al comienzo del bucle si b es cierta."
+          },
+          {
+            "id": "d",
+            "label": "Al comienzo del bucle si s es cierta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «En un ciclo repetitivo del tipo \"for (e_inicio; b; e_fin) s\", e_inicio es una expresión que se ejecuta:». La respuesta correcta es «Una sola vez al comienzo del bucle.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-30",
+        "section": "test-oficial",
+        "prompt": "¿Qué tipo de bucle se ejecuta al menos una vez?",
+        "options": [
+          {
+            "id": "a",
+            "label": "While."
+          },
+          {
+            "id": "b",
+            "label": "Do while."
+          },
+          {
+            "id": "c",
+            "label": "For."
+          },
+          {
+            "id": "d",
+            "label": "Todo bucle. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «¿Qué tipo de bucle se ejecuta al menos una vez?». La respuesta correcta es «Do while.». Referencia del temario: B3T3 · Instrucciones condicionales, bucles y recursividad."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-31",
+        "section": "test-oficial",
+        "prompt": "El lenguaje ensamblador es un lenguaje de programación que es de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Alto nivel y tiene correlación directa con el lenguaje Java."
+          },
+          {
+            "id": "b",
+            "label": "Alto nivel y tiene correlación directa con el código máquina."
+          },
+          {
+            "id": "c",
+            "label": "Bajo nivel y tiene correlación directa con el código máquina."
+          },
+          {
+            "id": "d",
+            "label": "Bajo nivel y tiene correlación directa con el lenguaje Java."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El lenguaje maquina se ejecuta directamente en binario; el ensamblador lo representa con mnemotecnicos y sigue ligado a la arquitectura. Los lenguajes de alto nivel aportan mayor abstraccion y portabilidad respecto del hardware. La pista decisiva de esta pregunta es: «El lenguaje ensamblador es un lenguaje de programación que es de:». La respuesta correcta es «Bajo nivel y tiene correlación directa con el código máquina.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-32",
+        "section": "test-oficial",
+        "prompt": "En los lenguajes de programación:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La modificación de un programa fuente es más sencilla en el compilado que en el intérprete."
+          },
+          {
+            "id": "b",
+            "label": "El programa objeto que produce un programa interpretado es menor que el que produce uno compilado."
+          },
+          {
+            "id": "c",
+            "label": "Las ejecuciones sucesivas de un programa compilado no necesitan traducciones del programa fuente."
+          },
+          {
+            "id": "d",
+            "label": "Un programa interpretado es más rápido que uno compilado."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Un lenguaje interpretado se ejecuta mediante un interprete a partir de su codigo fuente; Python es el ejemplo esperado frente a Fortran, Haskell u Objective-C en las opciones de este test. La pista decisiva de esta pregunta es: «En los lenguajes de programación:». La respuesta correcta es «Las ejecuciones sucesivas de un programa compilado no necesitan traducciones del programa fuente.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-33",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente algoritmo, indique cuáles serían los valores finales de la variable X para los valores de entrada (N) siguientes: 1, 2, 3 y 4: inicio; X=0; leer (N); desde 1 hasta N hacer; N=N+X; fin;",
+        "options": [
+          {
+            "id": "a",
+            "label": "1, 2, 4, 8."
+          },
+          {
+            "id": "b",
+            "label": "4, 3, 2, 1."
+          },
+          {
+            "id": "c",
+            "label": "1, 2, 3, 4."
+          },
+          {
+            "id": "d",
+            "label": "0, 0, 0, 0."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El algoritmo inicializa X a 0 y dentro del bucle solo modifica N mediante N = N + X; como X nunca recibe otra asignacion, mantiene el valor 0 para cualquiera de las entradas indicadas. La pista decisiva de esta pregunta es: «Dado el siguiente algoritmo, indique cuáles serían los valores finales de la variable X para los valores de entrada (N) siguientes: 1, 2, 3 y 4: inicio; X=0; leer (N); desde 1 hasta N hacer; N=N+X; fin;». La respuesta correcta es «0, 0, 0, 0.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-34",
+        "section": "test-oficial",
+        "prompt": "En Java, indique qué tamaño ocupa un variable del tipo primitivo \"long\":",
+        "options": [
+          {
+            "id": "a",
+            "label": "4 bytes."
+          },
+          {
+            "id": "b",
+            "label": "8 bytes."
+          },
+          {
+            "id": "c",
+            "label": "10 bytes."
+          },
+          {
+            "id": "d",
+            "label": "16 bytes."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Los tipos de datos determinan como se reserva y manipula memoria. El casting convierte de un tipo a otro y puede ser explicito si existe posible perdida de precision; el tipado estatico fija el tipo de la variable y el dinamico atiende al valor que contiene. La pista decisiva de esta pregunta es: «En Java, indique qué tamaño ocupa un variable del tipo primitivo \"long\":». La respuesta correcta es «8 bytes.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-35",
+        "section": "test-oficial",
+        "prompt": "En la programación orientada a objetos, ¿qué se entiende por polimorfismo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La propiedad que permite interactuar con objetos de clases distintas aunque no se encuentren en la misma jerarquía de clases."
+          },
+          {
+            "id": "b",
+            "label": "La capacidad de nombrar métodos diferentes usando el mismo identificador."
+          },
+          {
+            "id": "c",
+            "label": "La capacidad de nombrar métodos y atributos diferentes usando el mismo identificador."
+          },
+          {
+            "id": "d",
+            "label": "La propiedad por la que es posible enviar mensajes sintácticamente iguales a objetos de tipos distintos. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «En la programación orientada a objetos, ¿qué se entiende por polimorfismo?». La respuesta correcta es «La propiedad por la que es posible enviar mensajes sintácticamente iguales a objetos de tipos distintos. LENGUAJES DE PROGRAMACION.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-36",
+        "section": "test-oficial",
+        "prompt": "¿Qué salida genera la ejecución del siguiente código? int i=0, r; while(i<3) { switch(i) { case 0: case 1: case 2: case 3: } i++; r = i; break; r = i+1; break; r = i+2; r = i+3; } System.out.println(r);",
+        "options": [
+          {
+            "id": "a",
+            "label": "6"
+          },
+          {
+            "id": "b",
+            "label": "5"
+          },
+          {
+            "id": "c",
+            "label": "4"
+          },
+          {
+            "id": "d",
+            "label": "3"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «¿Qué salida genera la ejecución del siguiente código? int i=0, r; while(i<3) { switch(i) { case 0: case 1: case 2: case 3: } i++; r = i; break; r = i+1; break; r = i+2; r = i+3; } System.out.println(r);». La respuesta correcta es «5.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-37",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En la estructura de control \"switch\", el código incluido en cada \"case\" debe necesariamente terminar con \"break\"."
+          },
+          {
+            "id": "b",
+            "label": "El bloque \"default\" se ejecuta si el valor de la variable selectora no coincide con el valor de algún bloque."
+          },
+          {
+            "id": "c",
+            "label": "Siempre es más conveniente usar la estructura de control \"switch\" que la estructura de control \"if\"."
+          },
+          {
+            "id": "d",
+            "label": "La estructura de control \"switch\" puede utilizarse para sustituir una estructura de control \"for\"."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «Señale la respuesta correcta:». La respuesta correcta es «El bloque \"default\" se ejecuta si el valor de la variable selectora no coincide con el valor de algún bloque.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-38",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes afirmaciones sobre estructuras de control anidadas es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el anidamiento de instrucciones de control repetitivas es recomendable que un bucle interno modifique la expresión de control del bucle externo."
+          },
+          {
+            "id": "b",
+            "label": "Las sentencias if anidadas implementan decisiones que implican una o dos alternativas."
+          },
+          {
+            "id": "c",
+            "label": "Un bucle interno que se controle mediante el decremento de una variable debe repetirse sólo una vez en cada iteración del bucle externo."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas anteriores es cierta. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «Indique cuál de las siguientes afirmaciones sobre estructuras de control anidadas es correcta:». La respuesta correcta es «Ninguna de las respuestas anteriores es cierta. LENGUAJES DE PROGRAMACION.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-39",
+        "section": "test-oficial",
+        "prompt": "¿Qué salida genera la ejecución del siguiente código? int i, j, r; for(i=0; i<2; i++) { for(j=0; j<3; j++) { r = i+j; if(r % 2 == 0) System.out.print(r); } }",
+        "options": [
+          {
+            "id": "a",
+            "label": "No imprime nada."
+          },
+          {
+            "id": "b",
+            "label": "0246"
+          },
+          {
+            "id": "c",
+            "label": "022"
+          },
+          {
+            "id": "d",
+            "label": "024"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Cada operador tiene una funcion concreta: % calcula el resto, == compara igualdad, ++ puede incrementar antes o despues de devolver el valor y ^ realiza XOR a nivel de bits. La precedencia solo ordena esas operaciones si no se usan parentesis. La pista decisiva de esta pregunta es: «¿Qué salida genera la ejecución del siguiente código? int i, j, r; for(i=0; i<2; i++) { for(j=0; j<3; j++) { r = i+j; if(r % 2 == 0) System.out.print(r); } }». La respuesta correcta es «022.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-40",
+        "section": "test-oficial",
+        "prompt": "¿Qué salida genera la ejecución del siguiente código? int a = 10, b; while(a > 0) { b = a - 1; System.out.print(b); a = a - 1; }",
+        "options": [
+          {
+            "id": "a",
+            "label": "109876543210"
+          },
+          {
+            "id": "b",
+            "label": "10987654321"
+          },
+          {
+            "id": "c",
+            "label": "987654321"
+          },
+          {
+            "id": "d",
+            "label": "9876543210"
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez. La pista decisiva de esta pregunta es: «¿Qué salida genera la ejecución del siguiente código? int a = 10, b; while(a > 0) { b = a - 1; System.out.print(b); a = a - 1; }». La respuesta correcta es «9876543210.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-41",
+        "section": "test-oficial",
+        "prompt": "Cuál de las siguientes afirmaciones es FALSA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un intérprete es un programa que ejecuta directamente las instrucciones escritas en un lenguaje de programación dado."
+          },
+          {
+            "id": "b",
+            "label": "Un compilador es un programa que transforma el código fuente de un programa a su equivalente en otro lenguaje de programación de más bajo nivel."
+          },
+          {
+            "id": "c",
+            "label": "Un transpilador es un programa que hace de intérprete y de compilador al mismo tiempo."
+          },
+          {
+            "id": "d",
+            "label": "Un compilador cruzado o cross compiler es un compilador capaz de crear código ejecutable para otra plataforma distinta a aquélla en la que se ejecuta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Un interprete ejecuta el codigo fuente a medida que lo traduce, normalmente instruccion por instruccion, sin conservar un programa objeto equivalente. Esa traduccion repetida en ejecucion explica la sobrecarga interpretativa frente al codigo ya compilado. La pista decisiva de esta pregunta es: «Cuál de las siguientes afirmaciones es FALSA:». La respuesta correcta es «Un transpilador es un programa que hace de intérprete y de compilador al mismo tiempo.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-42",
+        "section": "test-oficial",
+        "prompt": "Indique, de las siguientes afirmaciones, cuál es verdadera:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un array o vector es un tipo de dato estructurado que permite almacenar un conjunto de datos homogéneo donde cada elemento se almacena de forma consecutiva en memoria."
+          },
+          {
+            "id": "b",
+            "label": "Bytecode es el código binario obtenido tras el proceso de compilación (Java)."
+          },
+          {
+            "id": "c",
+            "label": "C++ es un lenguaje de segunda generación."
+          },
+          {
+            "id": "d",
+            "label": "En C++ la declaración del array: «int vector2[] = {1,2,3,4,10,9,80,70,19};», es incorrecta. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los tipos de datos determinan como se reserva y manipula memoria. El casting convierte de un tipo a otro y puede ser explicito si existe posible perdida de precision; el tipado estatico fija el tipo de la variable y el dinamico atiende al valor que contiene. La pista decisiva de esta pregunta es: «Indique, de las siguientes afirmaciones, cuál es verdadera:». La respuesta correcta es «Un array o vector es un tipo de dato estructurado que permite almacenar un conjunto de datos homogéneo donde cada elemento se almacena de forma consecutiva en memoria.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-43",
+        "section": "test-oficial",
+        "prompt": "La mayoría de los lenguajes de programación admiten varios paradigmas. ¿Cuál de los siguientes lenguajes de programación sólo admite un paradigma?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Haskell++."
+          },
+          {
+            "id": "b",
+            "label": "C++."
+          },
+          {
+            "id": "c",
+            "label": "PHP."
+          },
+          {
+            "id": "d",
+            "label": "Smalltak."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «La mayoría de los lenguajes de programación admiten varios paradigmas. ¿Cuál de los siguientes lenguajes de programación sólo admite un paradigma?». La respuesta correcta es «Smalltak.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-44",
+        "section": "test-oficial",
+        "prompt": "¿Qué es Kotlin?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una aplicación del entorno Linux KDE para edición de textos."
+          },
+          {
+            "id": "b",
+            "label": "Un lenguaje de órdenes y shell de Unix."
+          },
+          {
+            "id": "c",
+            "label": "Un lenguaje de programación compatible con el ecosistema Java."
+          },
+          {
+            "id": "d",
+            "label": "Un sistema gestor de base de datos no relacional."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Kotlin es un lenguaje de programacion de tipado estatico interoperable con Java y compatible con su ecosistema, especialmente en la plataforma JVM. No es una aplicacion KDE, una shell ni un gestor de bases de datos. La pista decisiva de esta pregunta es: «¿Qué es Kotlin?». La respuesta correcta es «Un lenguaje de programación compatible con el ecosistema Java.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-45",
+        "section": "test-oficial",
+        "prompt": "¿Qué lenguaje de programación fue concebido para el análisis estadístico, con un amplio abanico de herramientas estadísticas y gráficas y tiene gran potencia como herramienta de cálculo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Swift."
+          },
+          {
+            "id": "b",
+            "label": "Objetive-C."
+          },
+          {
+            "id": "c",
+            "label": "R."
+          },
+          {
+            "id": "d",
+            "label": "Python."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: R fue concebido para el analisis estadistico y la representacion grafica de datos. Por ello es la opcion que encaja con la descripcion, no Swift, Objective-C ni Python. La pista decisiva de esta pregunta es: «¿Qué lenguaje de programación fue concebido para el análisis estadístico, con un amplio abanico de herramientas estadísticas y gráficas y tiene gran potencia como herramienta de cálculo?». La respuesta correcta es «R.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-46",
+        "section": "test-oficial",
+        "prompt": "Si quisiera utilizar un lenguaje multiparadigma en .NET, ¿cuál de los siguientes utilizaría?",
+        "options": [
+          {
+            "id": "a",
+            "label": "C#."
+          },
+          {
+            "id": "b",
+            "label": "G#."
+          },
+          {
+            "id": "c",
+            "label": "Cloos."
+          },
+          {
+            "id": "d",
+            "label": "PF#."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «Si quisiera utilizar un lenguaje multiparadigma en .NET, ¿cuál de los siguientes utilizaría?». La respuesta correcta es «C#.». Referencia del temario: B3T3 · Clasificacion de lenguajes y paradigmas."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-47",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un lenguaje de programación orientado a objetos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "C++."
+          },
+          {
+            "id": "b",
+            "label": "Objetive-C."
+          },
+          {
+            "id": "c",
+            "label": "Oz."
+          },
+          {
+            "id": "d",
+            "label": "Pascal."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «¿Cuál de los siguientes NO es un lenguaje de programación orientado a objetos?». La respuesta correcta es «Pascal.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-48",
+        "section": "test-oficial",
+        "prompt": "En Java, cuál de los siguientes NO es un tipo de datos primitivo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "short."
+          },
+          {
+            "id": "b",
+            "label": "simple."
+          },
+          {
+            "id": "c",
+            "label": "long."
+          },
+          {
+            "id": "d",
+            "label": "double."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Los tipos de datos determinan como se reserva y manipula memoria. El casting convierte de un tipo a otro y puede ser explicito si existe posible perdida de precision; el tipado estatico fija el tipo de la variable y el dinamico atiende al valor que contiene. La pista decisiva de esta pregunta es: «En Java, cuál de los siguientes NO es un tipo de datos primitivo:». La respuesta correcta es «simple.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-49",
+        "section": "test-oficial",
+        "prompt": "En Java, el operador == es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un operador aritmético."
+          },
+          {
+            "id": "b",
+            "label": "Un operador relacional."
+          },
+          {
+            "id": "c",
+            "label": "Un operador de asignación."
+          },
+          {
+            "id": "d",
+            "label": "Un operador a nivel de bit. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Cada operador tiene una funcion concreta: % calcula el resto, == compara igualdad, ++ puede incrementar antes o despues de devolver el valor y ^ realiza XOR a nivel de bits. La precedencia solo ordena esas operaciones si no se usan parentesis. La pista decisiva de esta pregunta es: «En Java, el operador == es:». La respuesta correcta es «Un operador relacional.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-50",
+        "section": "test-oficial",
+        "prompt": "En Java, siendo x=6 e y=3 (ambas variables de tipo int), la operación x^y da como resultado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "216."
+          },
+          {
+            "id": "b",
+            "label": "63."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "5."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: En Java, ^ es XOR a nivel de bits, no una potencia. En binario, 6 es 110 y 3 es 011; su XOR es 101, que equivale a 5 en decimal. La pista decisiva de esta pregunta es: «En Java, siendo x=6 e y=3 (ambas variables de tipo int), la operación x^y da como resultado:». La respuesta correcta es «5.». Referencia del temario: B3T3 · Representacion y conversion de tipos de datos."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-51",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un operador a nivel de bits?",
+        "options": [
+          {
+            "id": "a",
+            "label": "|="
+          },
+          {
+            "id": "b",
+            "label": "&="
+          },
+          {
+            "id": "c",
+            "label": "%="
+          },
+          {
+            "id": "d",
+            "label": "^="
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Cada operador tiene una funcion concreta: % calcula el resto, == compara igualdad, ++ puede incrementar antes o despues de devolver el valor y ^ realiza XOR a nivel de bits. La precedencia solo ordena esas operaciones si no se usan parentesis. La pista decisiva de esta pregunta es: «¿Cuál de los siguientes NO es un operador a nivel de bits?». La respuesta correcta es «%=.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-52",
+        "section": "test-oficial",
+        "prompt": "En relación con las funciones, indique la repuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un parámetro formal y un parámetro actual hacen referencia al mismo concepto."
+          },
+          {
+            "id": "b",
+            "label": "Un variable local es aquella que se define fuera de cualquier función."
+          },
+          {
+            "id": "c",
+            "label": "La ejecución de una función acaba siempre tras ejecutarse la sentencia return."
+          },
+          {
+            "id": "d",
+            "label": "El paso de parámetros puede ser por referencia o por asignación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las funciones y procedimientos son subprogramas que dividen el problema; los parametros formales pertenecen a su cabecera y pueden recibirse por valor o referencia. Un vector agrupa elementos homogeneos por indice, mientras que un registro puede reunir campos de tipos distintos. La pista decisiva de esta pregunta es: «En relación con las funciones, indique la repuesta correcta:». La respuesta correcta es «La ejecución de una función acaba siempre tras ejecutarse la sentencia return.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-53",
+        "section": "test-oficial",
+        "prompt": "Hay lenguajes de programación que soportan únicamente un paradigma. Lo normal es que los lenguajes soporten dos o más paradigmas de programación. Si nos referimos a PHP, podemos afirmar que soporta los siguientes paradigmas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lógico y declarativo."
+          },
+          {
+            "id": "b",
+            "label": "Lógico, declarativo y genérico."
+          },
+          {
+            "id": "c",
+            "label": "Imperativo, orientado a objetos (prototipos) y concurrente."
+          },
+          {
+            "id": "d",
+            "label": "Imperativo, orientado a objetos, funcional y reflexivo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «Hay lenguajes de programación que soportan únicamente un paradigma. Lo normal es que los lenguajes soporten dos o más paradigmas de programación. Si nos referimos a PHP, podemos afirmar que soporta los siguientes paradigmas:». La respuesta correcta es «Imperativo, orientado a objetos, funcional y reflexivo.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-54",
+        "section": "test-oficial",
+        "prompt": "Hay lenguajes de programación que soportan únicamente un paradigma. Lo normal es que los lenguajes soporten dos o más paradigmas de programación. Si nos referimos a JavaScript, podemos afirmar que soporta los siguientes paradigmas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Lógico y declarativo."
+          },
+          {
+            "id": "b",
+            "label": "Lógico, declarativo y genérico."
+          },
+          {
+            "id": "c",
+            "label": "Imperativo, orientado a objetos (prototipos) y funcional."
+          },
+          {
+            "id": "d",
+            "label": "Imperativo, orientado a objetos, funcional y concurrente."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test. La pista decisiva de esta pregunta es: «Hay lenguajes de programación que soportan únicamente un paradigma. Lo normal es que los lenguajes soporten dos o más paradigmas de programación. Si nos referimos a JavaScript, podemos afirmar que soporta los siguientes paradigmas:». La respuesta correcta es «Imperativo, orientado a objetos (prototipos) y funcional.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-55",
+        "section": "test-oficial",
+        "prompt": "El paradigma de programación que permite adaptarse dinámicamente a diferentes situaciones y requisitos es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El paradigma concurrente."
+          },
+          {
+            "id": "b",
+            "label": "El paradigma reflexivo."
+          },
+          {
+            "id": "c",
+            "label": "El paradigma reactivo."
+          },
+          {
+            "id": "d",
+            "label": "El paradigma funcional. LENGUAJES DE PROGRAMACION"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «El paradigma de programación que permite adaptarse dinámicamente a diferentes situaciones y requisitos es:». La respuesta correcta es «El paradigma reflexivo.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-56",
+        "section": "test-oficial",
+        "prompt": "Suponga el siguiente programa escrito en un lenguaje de programación estándar: integer x=1; int cont=0; while (x<50 AND cont<50) do (x=x-1; print x; x=x+1;cont=cont+1;)",
+        "options": [
+          {
+            "id": "a",
+            "label": "Este programa imprime cincuenta veces el número 0."
+          },
+          {
+            "id": "b",
+            "label": "Este programa imprime cincuenta veces el número -1."
+          },
+          {
+            "id": "c",
+            "label": "Este programa imprime los números impares del 1 al 50."
+          },
+          {
+            "id": "d",
+            "label": "Este programa imprime los números pares del 1 al 50."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Cada operador tiene una funcion concreta: % calcula el resto, == compara igualdad, ++ puede incrementar antes o despues de devolver el valor y ^ realiza XOR a nivel de bits. La precedencia solo ordena esas operaciones si no se usan parentesis. La pista decisiva de esta pregunta es: «Suponga el siguiente programa escrito en un lenguaje de programación estándar: integer x=1; int cont=0; while (x<50 AND cont<50) do (x=x-1; print x; x=x+1;cont=cont+1;)». La respuesta correcta es «Este programa imprime cincuenta veces el número 0.». Referencia del temario: B3T3 · Lenguajes de programacion y traductores."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-57",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA en relación con las funciones y los procedimientos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El paso de parámetros por valor envía una copia del valor que tenga el parámetro real, por lo que no se podrá alterar el contenido de la variable."
+          },
+          {
+            "id": "b",
+            "label": "Una llamada a una función puede aparecer como operando de una expresión."
+          },
+          {
+            "id": "c",
+            "label": "Los parámetros por valor no se pueden emplear como parámetros de entrada/salida."
+          },
+          {
+            "id": "d",
+            "label": "Todo procedimiento debe ejecutar una sentencia de return."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Las funciones y procedimientos son subprogramas que dividen el problema; los parametros formales pertenecen a su cabecera y pueden recibirse por valor o referencia. Un vector agrupa elementos homogeneos por indice, mientras que un registro puede reunir campos de tipos distintos. La pista decisiva de esta pregunta es: «Señale la respuesta INCORRECTA en relación con las funciones y los procedimientos:». La respuesta correcta es «Todo procedimiento debe ejecutar una sentencia de return.». Referencia del temario: B3T3 · Operadores y precedencia."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-58",
+        "section": "test-oficial",
+        "prompt": "Dadas las variables a=1, b=2, c=3, d=1, ¿cuál es la operación lógica que da un resultado false?",
+        "options": [
+          {
+            "id": "a",
+            "label": "((a>b) and (a<c)) or ((a==c) and (a>=b))."
+          },
+          {
+            "id": "b",
+            "label": "((a>=b) and (a<d)) or ((a>=d) and (c>d))."
+          },
+          {
+            "id": "c",
+            "label": "Not (a==c) or Not (c>b)."
+          },
+          {
+            "id": "d",
+            "label": "(a>=d) or (c>=b)."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «Dadas las variables a=1, b=2, c=3, d=1, ¿cuál es la operación lógica que da un resultado false?». La respuesta correcta es «((a>b) and (a<c)) or ((a==c) and (a>=b)).». Referencia del temario: B3T3 · Clasificacion de lenguajes y paradigmas."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-59",
+        "section": "test-oficial",
+        "prompt": "Dadas las variables a=1, b=2, c=3, d=4, ¿cuál es la operación lógica que da un resultado true?",
+        "options": [
+          {
+            "id": "a",
+            "label": "((a>b) and (a<c)) or ((a==c) and (a>=b))."
+          },
+          {
+            "id": "b",
+            "label": "((a>=b) and (a<d)) or ((a>=d) and (c>d))."
+          },
+          {
+            "id": "c",
+            "label": "Not (a==c) or Not (c>b)."
+          },
+          {
+            "id": "d",
+            "label": "(a>=d) or Not (c>=b)."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «Dadas las variables a=1, b=2, c=3, d=4, ¿cuál es la operación lógica que da un resultado true?». La respuesta correcta es «Not (a==c) or Not (c>b).». Referencia del temario: B3T3 · Clasificacion de lenguajes y paradigmas."
+      },
+      {
+        "id": "b3t3-test-oficial-lenguajes-programacion-60",
+        "section": "test-oficial",
+        "prompt": "Dadas las variables a=1, b=2, c=3, d=0, ¿cuál es la operación lógica que da un resultado false?",
+        "options": [
+          {
+            "id": "a",
+            "label": "((a>b) and (a<d)) or ((a==d) and (b<=a))."
+          },
+          {
+            "id": "b",
+            "label": "((a>=b) and (a<d)) or ((a>=d) and (c>d))."
+          },
+          {
+            "id": "c",
+            "label": "Not (a<d) or Not (b<c)."
+          },
+          {
+            "id": "d",
+            "label": "(a>=d) or Not (c>=d)."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca. La pista decisiva de esta pregunta es: «Dadas las variables a=1, b=2, c=3, d=0, ¿cuál es la operación lógica que da un resultado false?». La respuesta correcta es «((a>b) and (a<d)) or ((a==d) and (b<=a)).». Referencia del temario: B3T3 · Clasificacion de lenguajes y paradigmas."
+      }
+    ]
+  },
+  {
     "code": "B3T4",
     "slug": "b3t4-test-oficial-lenguajes-bd-sql",
     "title": "Test oficial Lenguajes BD SQL",

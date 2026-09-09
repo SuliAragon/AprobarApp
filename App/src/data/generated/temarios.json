@@ -184,6 +184,20 @@
     ]
   },
   {
+    "code": "B3T3",
+    "slug": "b3t3-lenguajes-programacion",
+    "sourceFilename": "Bloque 3/Tema 3/B3T3_Lenguajes_programacion.pdf",
+    "title": "B3T3 Lenguajes programacion",
+    "pdfPath": "/temario/b3t3-lenguajes-programacion.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 3/Tema 3/Cómo_el_silicio_entiende_nuestro_código.m4a",
+        "title": "Cómo el silicio entiende nuestro código",
+        "assetPath": "/podcast/B3T3/como-el-silicio-entiende-nuestro-codigo.m4a"
+      }
+    ]
+  },
+  {
     "code": "B3T4",
     "slug": "b3t4-lenguajes-bd-sql",
     "sourceFilename": "Bloque 3/Tema 4/B3T4_Lenguajes_BD_SQL 1.pdf",

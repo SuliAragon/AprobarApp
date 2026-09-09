@@ -51,6 +51,17 @@ const references = {
     fallback: "Diseño de bases de datos y normalización",
     rules: [[/diseño lógico|diseño logico|transformación|transformacion|modelo conceptual/i, "Diseño lógico"], [/diseño físico|diseño fisico|índice|indice|organización de ficheros|optimización/i, "Diseño físico"], [/clave|integridad|tupla|relación|relacion|dominio|álgebra|algebra/i, "El modelo lógico relacional"], [/forma normal|1FN|2FN|3FN|FNBC|dependencia funcional|normalización/i, "Normalización"]],
   },
+  B3T3: {
+    fallback: "Lenguajes de programacion, tipos de datos, control de flujo y estructura de programas",
+    rules: [
+      [/algoritmo|programa|instrucci.n|subprograma|compilador|int.rprete|intérprete|enlazado|transpilador|c.digo fuente|código fuente|c.digo objeto|código objeto/i, "Lenguajes de programacion y traductores"],
+      [/m.quina|máquina|ensamblador|alto nivel|bajo nivel|paradigma|imperativo|orientad[oa] a objetos|funcional|l.gic[oa]|lógic[oa]|declarativ[oa]|herencia|polimorfismo|encapsulamiento/i, "Clasificacion de lenguajes y paradigmas"],
+      [/tipo de dato|boolean|byte|char|short|int|long|float|double|casting|tipado est.tico|tipado din.mico|tipado estático|tipado dinámico/i, "Representacion y conversion de tipos de datos"],
+      [/operador|m.dulo|módulo|preincremento|postincremento|relacional|ternario|precedencia|AND|OR|NOT|XOR|bits/i, "Operadores y precedencia"],
+      [/if|else|switch|case|default|while|do while|for|bucle|iteraci.n|iteración|recursiv/i, "Instrucciones condicionales, bucles y recursividad"],
+      [/funci.n|función|procedimiento|par.metro|parámetro|por valor|por referencia|vector|array|registro|variable local|estructura de un programa/i, "Funciones, parametros, vectores, registros y estructura de programa"],
+    ],
+  },
   B3T4: {
     fallback: "Lenguajes de interrogación de bases de datos",
     rules: [[/DDL|CREATE|ALTER|DROP|TRUNCATE|vista|dominio|esquema/i, "Estándar ANSI SQL · Lenguaje de definición de datos (DDL)"], [/SELECT|INSERT|UPDATE|DELETE|JOIN|GROUP BY|HAVING|consulta/i, "Estándar ANSI SQL · Lenguaje de manipulación de datos (DML)"], [/GRANT|REVOKE|COMMIT|ROLLBACK|SAVEPOINT|privilegio/i, "Estándar ANSI SQL · Lenguaje de control de datos (DCL)"], [/procedimiento almacenado|PL\/SQL|parámetro|parametro/i, "Procedimientos almacenados"], [/trigger|disparador|evento/i, "Eventos y disparadores"], [/ODBC|JDBC|driver/i, "Estándares de conectividad: ODBC y JDBC"]],

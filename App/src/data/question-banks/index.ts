@@ -11,6 +11,7 @@ import { b2t3DataStructuresQuestionBank } from "./b2t3-data-structures";
 import { b2t5SgbdQuestionBank } from "./b2t5-sgbd";
 import { b3t1ModeloErQuestionBank } from "./b3t1-modelo-er";
 import { b3t2DisenoBdQuestionBank } from "./b3t2-diseno-bd";
+import { b3t3LenguajesProgramacionQuestionBank } from "./b3t3-lenguajes-programacion";
 import { b3t4SqlQuestionBank } from "./b3t4-sql";
 import { withTemarioReference } from "../temario-explanation-references.mjs";
 
@@ -27,6 +28,7 @@ const rawQuestionBanksByCode: Record<string, QuizQuestion[]> = {
   B2T5: b2t5SgbdQuestionBank,
   B3T1: b3t1ModeloErQuestionBank,
   B3T2: b3t2DisenoBdQuestionBank,
+  B3T3: b3t3LenguajesProgramacionQuestionBank,
   B3T4: b3t4SqlQuestionBank,
 };
 

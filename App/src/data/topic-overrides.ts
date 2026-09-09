@@ -673,6 +673,59 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B3T3: {
+    title: "Lenguajes de programacion, tipos de datos, control de flujo y estructura de programas",
+    shortTitle: "Lenguajes de programacion",
+    description:
+      "Tema del bloque de programacion sobre traductores y paradigmas, tipos y operadores, condicionales, bucles, funciones, parametros, vectores, registros y la estructura de un programa.",
+    summary: [
+      "Conceptos de algoritmo, programa, subprograma y traductores: compilador, interprete, compilador cruzado y transpilador.",
+      "Clasificacion de lenguajes por nivel, proposito y paradigma, con especial atencion a los modelos imperativo, orientado a objetos, funcional, logico y declarativo.",
+      "Representacion de tipos de datos, conversiones o casting, y diferencia entre tipado estatico y dinamico.",
+      "Operadores, precedencia, decisiones if y switch, bucles while, for y do while, y recursividad.",
+      "Funciones y procedimientos, parametros por valor y referencia, vectores, registros y las fases basicas de un programa.",
+    ],
+    sections: [
+      "Fundamentos, algoritmos y traductores",
+      "Clasificacion de lenguajes y paradigmas",
+      "Tipos de datos y operadores",
+      "Condicionales, bucles y recursividad",
+      "Funciones, parametros, vectores y registros",
+    ],
+    accent: "azure",
+    testPresets: [
+      {
+        slug: "fundamentos-y-traductores",
+        title: "Test 1 · Fundamentos y traductores",
+        description: "Repasa algoritmos, programas, subprogramas, compilacion, interpretacion, enlazado y traduccion entre plataformas.",
+        focusSections: ["fundamentos-y-traductores"],
+      },
+      {
+        slug: "clasificacion-y-paradigmas",
+        title: "Test 2 · Clasificacion y paradigmas",
+        description: "Entrena niveles de abstraccion, propositos de los lenguajes y paradigmas imperativo, orientado a objetos, funcional, logico y declarativo.",
+        focusSections: ["clasificacion-y-paradigmas"],
+      },
+      {
+        slug: "tipos-y-operadores",
+        title: "Test 3 · Tipos y operadores",
+        description: "Trabaja tipos primitivos, casting, tipado, operadores aritmeticos, relacionales, logicos, binarios y precedencia.",
+        focusSections: ["tipos-y-operadores"],
+      },
+      {
+        slug: "condicionales-bucles-y-recursividad",
+        title: "Test 4 · Condicionales, bucles y recursividad",
+        description: "Refuerza if, else, switch, while, for, do while, condiciones de entrada y llamadas recursivas.",
+        focusSections: ["condicionales-bucles-y-recursividad"],
+      },
+      {
+        slug: "funciones-vectores-y-registros",
+        title: "Test 5 · Funciones, vectores y registros",
+        description: "Practica funciones, procedimientos, parametros, ambito local, arrays, registros y la organizacion de un programa.",
+        focusSections: ["funciones-vectores-y-registros"],
+      },
+    ],
+  },
   B3T4: {
     title: "Lenguajes de bases de datos SQL, procedimientos almacenados y disparadores",
     shortTitle: "SQL",

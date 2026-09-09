@@ -184,6 +184,14 @@
     "assetPath": "/test-oficial/B3T2/b3t2-test-oficial-diseno-bd.pdf"
   },
   {
+    "code": "B3T3",
+    "slug": "b3t3-test-oficial-lenguajes-programacion",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 3/Tema 3/B3T3Test_Lenguajes_programacion 1.pdf",
+    "title": "Test oficial Lenguajes programacion",
+    "assetPath": "/test-oficial/B3T3/b3t3-test-oficial-lenguajes-programacion.pdf"
+  },
+  {
     "code": "B3T4",
     "slug": "b3t4-ejercicios",
     "kind": "exercise",

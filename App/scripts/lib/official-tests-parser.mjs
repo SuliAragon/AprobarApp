@@ -283,6 +283,7 @@ const topicFallbacks = {
   B2T5: "La respuesta correcta distingue la arquitectura y las propiedades propias de cada familia de SGBD. No deben confundirse los conceptos relacionales, orientados a objetos y NoSQL ni las garantías de una transacción.",
   B3T1: "La respuesta correcta se deduce de la semántica del modelo Entidad-Relación y de la transformación o validación del diseño conceptual. La clave está en respetar cardinalidades, atributos, entidades y restricciones del modelo.",
   B3T2: "La respuesta correcta aplica las reglas del modelo relacional y de normalización. Para descartar las demás hay que comprobar dependencias funcionales, claves, integridad y el nivel de diseño al que se refiere el enunciado.",
+  B3T3: "La respuesta correcta se deduce del concepto concreto de lenguajes de programacion, tipos de datos o estructura de control preguntado. Hay que distinguir las fases de traduccion, los paradigmas, los operadores y el flujo de ejecucion sin mezclar sus funciones.",
   B3T4: "La respuesta correcta distingue con precisión entre definición de estructura, manipulación de datos, control de transacciones y privilegios, además de la semántica de consultas y uniones SQL.",
 };
 
@@ -415,6 +416,17 @@ const temarioReferences = {
       [/diseño físico|diseño fisico|índice|indice|organización de ficheros|optimización/i, "Diseño físico"],
       [/clave|integridad|tupla|relación|relacion|dominio|álgebra|algebra/i, "El modelo lógico relacional"],
       [/forma normal|1FN|2FN|3FN|FNBC|dependencia funcional|normalización/i, "Normalización"],
+    ],
+  },
+  B3T3: {
+    fallback: "Lenguajes de programacion, tipos de datos, control de flujo y estructura de programas",
+    rules: [
+      [/algoritmo|programa|instrucci.n|subprograma|compilador|int.rprete|intérprete|enlazado|transpilador|c.digo fuente|código fuente|c.digo objeto|código objeto/i, "Lenguajes de programacion y traductores"],
+      [/m.quina|máquina|ensamblador|alto nivel|bajo nivel|paradigma|imperativo|orientad[oa] a objetos|funcional|l.gic[oa]|lógic[oa]|declarativ[oa]|herencia|polimorfismo|encapsulamiento/i, "Clasificacion de lenguajes y paradigmas"],
+      [/tipo de dato|boolean|byte|char|short|int|long|float|double|casting|tipado est.tico|tipado din.mico|tipado estático|tipado dinámico/i, "Representacion y conversion de tipos de datos"],
+      [/operador|m.dulo|módulo|preincremento|postincremento|relacional|ternario|precedencia|AND|OR|NOT|XOR|bits/i, "Operadores y precedencia"],
+      [/if|else|switch|case|default|while|do while|for|bucle|iteraci.n|iteración|recursiv/i, "Instrucciones condicionales, bucles y recursividad"],
+      [/funci.n|función|procedimiento|par.metro|parámetro|por valor|por referencia|vector|array|registro|variable local|estructura de un programa/i, "Funciones, parametros, vectores, registros y estructura de programa"],
     ],
   },
   B3T4: {
@@ -1223,11 +1235,50 @@ function buildB1T5Explanation(prompt, correctLabel, options = []) {
     ?? `El enunciado identifica un supuesto concreto del TREBEP. La opcion valida reproduce la regla aplicable a ${prompt.replace(/\?$/u, "").toLowerCase()}, mientras que las demas alteran el ambito, el requisito, el plazo o el efecto juridico previsto.`;
 }
 
+const b3t3ExplanationRules = [
+  [/orientad[oa] a objetos/i, "La programacion orientada a objetos organiza el software mediante clases y objetos; Java, Smalltalk, Ada, C++ y Objective-C son ejemplos habituales. C, Prolog y Pascal no pertenecen a ese paradigma en el sentido que plantea el test."],
+  [/genericidad|polimorfismo param.trico/i, "La genericidad permite definir funciones o tipos que trabajan con datos de distintos tipos sin reescribir su logica. ML, Haskell y Miranda incorporan polimorfismo parametrico; Pascal no es el lenguaje que se asocia a esa caracteristica."],
+  [/x=5.*y=6|y=x--/i, "En y = x-- se asigna primero a y el valor actual de x y solo despues se decrementa x. Si x empieza en 6, y recibe 6 y x queda en 5; esa es la unica secuencia que cumple ambos valores finales."],
+  [/resultado =|resultado tras ejecutar/i, "El operador condicional ternario evalua primero a > c; como 10 es mayor que 6, se evalua b < c. Como 8 no es menor que 6, se escoge b y resultado toma el valor 8."],
+  [/printf.*y=\+\+x|ejecuci.n del c.digo en C/i, "El preincremento ++x aumenta x antes de usar su valor en la asignacion. Con x inicial igual a 5, y = ++x deja tanto x como y con valor 6, que es lo que imprime printf."],
+  [/lenguaje.*interpretado|lenguaje interpretado/i, "Un lenguaje interpretado se ejecuta mediante un interprete a partir de su codigo fuente; Python es el ejemplo esperado frente a Fortran, Haskell u Objective-C en las opciones de este test."],
+  [/dado el siguiente algoritmo|valores finales de la variable X/i, "El algoritmo inicializa X a 0 y dentro del bucle solo modifica N mediante N = N + X; como X nunca recibe otra asignacion, mantiene el valor 0 para cualquiera de las entradas indicadas."],
+  [/qu. es Kotlin|Kotlin\?/i, "Kotlin es un lenguaje de programacion de tipado estatico interoperable con Java y compatible con su ecosistema, especialmente en la plataforma JVM. No es una aplicacion KDE, una shell ni un gestor de bases de datos."],
+  [/an.lisis estad.stico|herramientas estad.sticas y gr.ficas/i, "R fue concebido para el analisis estadistico y la representacion grafica de datos. Por ello es la opcion que encaja con la descripcion, no Swift, Objective-C ni Python."],
+  [/x\^y|operaci.n x\^y|\^ realiza/i, "En Java, ^ es XOR a nivel de bits, no una potencia. En binario, 6 es 110 y 3 es 011; su XOR es 101, que equivale a 5 en decimal."],
+  [/an.lisis sint.ctico|parser|expresiones mal organizadas|tokens faltantes/i, "El analisis sintactico comprueba que los tokens se agrupen en expresiones y sentencias validas conforme a la gramatica. Los tipos incompatibles o parametros erroneos pertenecen al analisis semantico."],
+  [/an.lisis l.xico|scanner|componentes l.xicos/i, "El analisis lexico separa el texto fuente en tokens con significado, como identificadores, operadores y palabras reservadas. La sintaxis y la semantica se verifican en fases posteriores, por lo que no deben confundirse."],
+  [/an.lisis sem.ntico|variables no declaradas|tipos incompatibles|par.metros incorrectos/i, "El analisis semantico verifica el significado de construcciones ya bien formadas: tipos de operandos, variables definidas y compatibilidad de parametros. No se limita a leer caracteres o a construir el arbol sintactico."],
+  [/int.rprete|intérprete|programa interpretado|sobrecarga interpretativa/i, "Un interprete ejecuta el codigo fuente a medida que lo traduce, normalmente instruccion por instruccion, sin conservar un programa objeto equivalente. Esa traduccion repetida en ejecucion explica la sobrecarga interpretativa frente al codigo ya compilado."],
+  [/compilador cruzado|cross compiler|transpilador|compilador/i, "Un compilador transforma codigo fuente en codigo objeto o de menor nivel. El compilador cruzado genera ejecutables para una plataforma distinta de aquella donde se ejecuta, mientras que un transpilador traduce entre lenguajes fuente de nivel parecido."],
+  [/lenguaje ensamblador|lenguaje m.quina|alto nivel|bajo nivel/i, "El lenguaje maquina se ejecuta directamente en binario; el ensamblador lo representa con mnemotecnicos y sigue ligado a la arquitectura. Los lenguajes de alto nivel aportan mayor abstraccion y portabilidad respecto del hardware."],
+  [/paradigma|orientada a objetos|polimorfismo|herencia|encapsulamiento|funcional|declarativo|l.gica|lógica/i, "El paradigma identifica el estilo para estructurar el programa. La orientacion a objetos gira en torno a clases y objetos; el funcional evita efectos secundarios; el logico combina hechos y reglas, y el declarativo expresa que resultado se busca."],
+  [/casting|tipo.*dato|long|short|char|boolean|tipado/i, "Los tipos de datos determinan como se reserva y manipula memoria. El casting convierte de un tipo a otro y puede ser explicito si existe posible perdida de precision; el tipado estatico fija el tipo de la variable y el dinamico atiende al valor que contiene."],
+  [/operador|preincremento|postincremento|m.dulo|módulo|XOR|==|AND|NOT/i, "Cada operador tiene una funcion concreta: % calcula el resto, == compara igualdad, ++ puede incrementar antes o despues de devolver el valor y ^ realiza XOR a nivel de bits. La precedencia solo ordena esas operaciones si no se usan parentesis."],
+  [/switch|case|default|\bif\b|while|\bfor\b|do while|bucle/i, "Las estructuras condicionales seleccionan caminos y los bucles repiten instrucciones. while y for comprueban su condicion antes de entrar, mientras que do while la comprueba despues y por eso ejecuta el cuerpo al menos una vez."],
+  [/funci.n|función|procedimiento|par.metro|parámetro|recursiv|vector|array|registro/i, "Las funciones y procedimientos son subprogramas que dividen el problema; los parametros formales pertenecen a su cabecera y pueden recibirse por valor o referencia. Un vector agrupa elementos homogeneos por indice, mientras que un registro puede reunir campos de tipos distintos."],
+];
+
+function buildB3T3Explanation(prompt, correctLabel, options = []) {
+  const source = `${prompt} ${correctLabel}`;
+  const optionLabels = options.map((option) => option.label).join(" ");
+  const rule = b3t3ExplanationRules.find(([match]) => match.test(source))
+    ?? b3t3ExplanationRules.find(([match]) => match.test(`${source} ${optionLabels}`));
+
+  const specificReason = rule?.[1]
+    ?? `El enunciado pregunta por una propiedad concreta de programacion: ${prompt.replace(/\?$/u, "").toLowerCase()}. La opcion valida conserva esa propiedad y las demas cambian el nivel de abstraccion, el tipo, el operador o el flujo de control que corresponde.`;
+  const questionKey = prompt.replace(/\s+/g, " ").trim();
+
+  return specificReason + " La pista decisiva de esta pregunta es: «" + questionKey + "».";
+}
+
 function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = []) {
   const specificReason = code === "B1T4"
     ? buildB1T4Explanation(prompt, correctLabel, options)
     : code === "B1T5"
       ? buildB1T5Explanation(prompt, correctLabel, options)
+      : code === "B3T3"
+        ? buildB3T3Explanation(prompt, correctLabel, options)
     : code === "B2T1"
       ? buildB2T1Explanation(prompt, correctLabel, options)
       : code === "B2T2"
