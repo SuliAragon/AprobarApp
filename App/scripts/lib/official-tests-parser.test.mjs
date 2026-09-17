@@ -173,6 +173,54 @@ SOLUCIONES
   assert.doesNotMatch(parsed.questions[0].explanation, /plantilla oficial/i);
 });
 
+test("parseOfficialTestText explica B3T5 con una referencia especifica de POO", () => {
+  const source = `
+1. El principio de sustitucion de Liskov indica que:
+a) Una subclase debe ocultar todos los metodos heredados.
+b) Una instancia de subtipo puede reemplazar a la del supertipo sin alterar el funcionamiento.
+c) Las clases solo deben usar atributos publicos.
+d) Un objeto debe tener una unica instancia.
+
+SOLUCIONES
+1. B
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B3T5",
+    slug: "b3t5-test-oficial",
+    title: "Test oficial POO",
+  });
+
+  assert.match(parsed.questions[0].explanation, /subtipo.*supertipo/i);
+  assert.match(parsed.questions[0].explanation, /Referencia del temario: B3T5 .*SOLID/i);
+});
+
+test("parseOfficialTestText reconoce el formato PREGUNTA y opciones sin parentesis", () => {
+  const source = `
+PREGUNTA 01
+
+SOLID es un acronimo de principios de diseno. Senale la opcion incorrecta:
+
+ A Una clase debe tener una sola razon para cambiar.
+ B La sustitucion de Liskov admite reemplazar subtipos correctamente.
+ C SOLID incluye una regla de herencia multiple obligatoria.
+ D Los modulos deben depender de abstracciones.
+
+SOLUCIONES
+01 C
+`;
+
+  const parsed = parseOfficialTestText(source, {
+    code: "B3T5",
+    slug: "b3t5-formato-the-globe",
+    title: "Test oficial POO",
+  });
+
+  assert.equal(parsed.questions.length, 1);
+  assert.equal(parsed.questions[0].correctOption, "c");
+  assert.equal(parsed.questions[0].options[2].label, "SOLID incluye una regla de herencia multiple obligatoria.");
+});
+
 test("parseOfficialTestText explica los conceptos de B2T1 sin textos genéricos repetidos", () => {
   const source = `
 1. En la codificación UTF-8:

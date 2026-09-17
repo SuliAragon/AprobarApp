@@ -108,3 +108,20 @@ test("buildTemarioCatalog ignora esquemas pdf cuando existe un temario principal
   assert.deepEqual(catalog[0].relatedPdfFiles, ["Bloque 2/Tema 5/B2T5Test_SGBD 1.pdf"]);
   assert.equal(catalog[0].podcasts.length, 1);
 });
+
+test("buildTemarioCatalog reconoce codigos separados y prioriza el temario frente al repaso y test", () => {
+  const catalog = buildTemarioCatalog([
+    "Bloque 3/Tema 5/OPO-TAI-B3-T05-TEMA-v1_0-2026_06-LIMPIA.pdf",
+    "Bloque 3/Tema 5/OPO-TAI-B3-T05-REPASO-v1.0-2026.06.pdf",
+    "Bloque 3/Tema 5/Test___B3___T05___POO___TEST_1___The_Globe_Oposiciones.pdf",
+    "Bloque 3/Tema 5/La_arquitectura_del_software_orientado_a_objetos.m4a",
+  ]);
+
+  assert.equal(catalog.length, 1);
+  assert.equal(catalog[0].code, "B3T5");
+  assert.equal(catalog[0].sourceFilename, "Bloque 3/Tema 5/OPO-TAI-B3-T05-TEMA-v1_0-2026_06-LIMPIA.pdf");
+  assert.deepEqual(catalog[0].relatedPdfFiles, [
+    "Bloque 3/Tema 5/OPO-TAI-B3-T05-REPASO-v1.0-2026.06.pdf",
+    "Bloque 3/Tema 5/Test___B3___T05___POO___TEST_1___The_Globe_Oposiciones.pdf",
+  ]);
+});

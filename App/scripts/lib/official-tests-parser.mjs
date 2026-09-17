@@ -35,7 +35,7 @@ function isNoiseLine(value) {
 function extractSolutions(value) {
   const answers = new Map();
 
-  for (const match of value.matchAll(/(\d+)\.\s*([A-D])/g)) {
+  for (const match of value.matchAll(/(\d+)(?:\.)?\s+([A-D])\b/g)) {
     const questionNumber = Number.parseInt(match[1], 10);
     const optionIndex = optionIds.indexOf(match[2].toLowerCase());
 
@@ -60,7 +60,7 @@ function splitQuestionBlocks(value) {
   let currentBlock = [];
 
   for (const line of lines) {
-    if (/^\d+\.\s*/.test(line)) {
+    if (/^\d+\.\s*/.test(line) || /^PREGUNTA\s+\d+\s*$/i.test(line)) {
       if (currentBlock.length > 0) {
         blocks.push(currentBlock.join("\n"));
       }
@@ -84,11 +84,14 @@ function splitQuestionBlocks(value) {
 function extractOptions(block) {
   // Some academy PDFs place a) and b) on the same visual row. The line
   // normalizer removes column spacing, so any whitespace may separate options.
-  const rawMarkers = [...block.matchAll(/(?:^|\n|\s)([a-d])\)\s*/gm)];
+  const rawMarkers = [
+    ...block.matchAll(/(?:^|\n|\s)([a-d])\)\s*/gmi),
+    ...block.matchAll(/(?:^|\n)([A-D])\s+/gm),
+  ].sort((left, right) => (left.index ?? 0) - (right.index ?? 0));
   const markers = [];
 
   for (const marker of rawMarkers) {
-    if (marker[1] !== optionIds[markers.length]) {
+    if (marker[1].toLowerCase() !== optionIds[markers.length]) {
       continue;
     }
 
@@ -103,7 +106,7 @@ function extractOptions(block) {
     return null;
   }
 
-  const questionNumberMatch = block.match(/^(\d+)\.\s*/);
+  const questionNumberMatch = block.match(/^(?:PREGUNTA\s+)?(\d+)(?:\.\s*)?/i);
 
   if (!questionNumberMatch) {
     return null;
@@ -285,6 +288,7 @@ const topicFallbacks = {
   B3T2: "La respuesta correcta aplica las reglas del modelo relacional y de normalización. Para descartar las demás hay que comprobar dependencias funcionales, claves, integridad y el nivel de diseño al que se refiere el enunciado.",
   B3T3: "La respuesta correcta se deduce del concepto concreto de lenguajes de programacion, tipos de datos o estructura de control preguntado. Hay que distinguir las fases de traduccion, los paradigmas, los operadores y el flujo de ejecucion sin mezclar sus funciones.",
   B3T4: "La respuesta correcta distingue con precisión entre definición de estructura, manipulación de datos, control de transacciones y privilegios, además de la semántica de consultas y uniones SQL.",
+  B3T5: "La respuesta correcta aplica el principio, elemento orientado a objetos, patron de diseno o diagrama UML concreto. Hay que distinguir responsabilidades, relaciones entre clases y la finalidad de cada patron o vista de modelado.",
 };
 
 const temarioReferences = {
@@ -438,6 +442,17 @@ const temarioReferences = {
       [/procedimiento almacenado|PL\/SQL|parámetro|parametro/i, "Procedimientos almacenados"],
       [/trigger|disparador|evento/i, "Eventos y disparadores"],
       [/ODBC|JDBC|driver/i, "Estándares de conectividad: ODBC y JDBC"],
+    ],
+  },
+  B3T5: {
+    fallback: "Diseno y programacion orientada a objetos, patrones de diseno y UML",
+    rules: [
+      [/especificaci.n|codificaci.n|implementaci.n|prueba|mantenimiento|claridad|eficiencia/i, "Proceso de desarrollo orientado a objetos"],
+      [/SOLID|responsabilidad unica|open.?closed|abierto.*cerrado|Liskov|segregaci.n.*interfaz|inversi.n.*dependencia|DRY|YAGNI|KISS|Demeter|IoC/i, "Principios generales de programacion y SOLID"],
+      [/clase|objeto|instancia|atributo|m.todo|metodo|mensaje|constructor|destructor|getter|setter|visibilidad|protocolo/i, "Elementos y componentes software"],
+      [/herencia|subclase|superclase|composici.n|polimorfismo|sobrecarga|sobrescritura|signatura|abstracta/i, "Herencia, composicion, polimorfismo y sobrecarga"],
+      [/Singleton|Factory|Builder|Prototype|Adapter|Bridge|Composite|Decorator|Facade|Flyweight|Proxy|Observer|Strategy|Visitor|Memento|Iterator|patr.n|patron/i, "Patrones de diseno"],
+      [/UML|diagrama|asociaci.n|agregaci.n|despliegue|caso de uso|actor|secuencia|estado|componente|paquete/i, "Lenguaje de Modelado Unificado (UML)"],
     ],
   },
 };
@@ -1272,6 +1287,29 @@ function buildB3T3Explanation(prompt, correctLabel, options = []) {
   return specificReason + " La pista decisiva de esta pregunta es: «" + questionKey + "».";
 }
 
+const b3t5ExplanationRules = [
+  [/Liskov|subtipo.*supertipo|superclase.*subclase/i, "La sustitucion de Liskov exige que una instancia de una subclase pueda ocupar el lugar de su superclase sin alterar el comportamiento correcto del programa. Por eso una herencia valida debe respetar el contrato esperado por los clientes del tipo base."],
+  [/responsabilidad unica|una.*raz.n.*cambiar|single responsibility/i, "El principio de responsabilidad unica indica que cada clase debe tener una sola razon para cambiar. Separar responsabilidades reduce el impacto de las modificaciones y evita mezclar logica de negocio, persistencia o presentacion en una misma clase."],
+  [/abierto.*cerrado|open.?closed|extensi.n.*modificaci.n/i, "Abierto/cerrado busca extender el comportamiento sin modificar una interfaz estable. El polimorfismo permite introducir nuevas implementaciones y evita que cada ampliacion obligue a retocar los clientes existentes."],
+  [/segregaci.n.*interfaz|interface segregation|m.todos.*no usa/i, "La segregacion de interfaces recomienda ofrecer contratos pequenos y especificos. Asi ningun cliente depende de operaciones que no necesita, lo que reduce acoplamiento innecesario y limita las consecuencias de futuros cambios."],
+  [/inversi.n.*dependencia|depender.*abstracciones|implementaciones concretas/i, "La inversion de dependencias hace que los modulos dependan de abstracciones y no de implementaciones concretas. De este modo se pueden sustituir colaboradores, probar aisladamente y reducir el acoplamiento entre capas."],
+  [/clase|objeto|instancia|atributo|m.todo|metodo|mensaje|constructor|getter|setter|visibilidad/i, "Una clase es la plantilla que agrupa atributos y metodos; un objeto es una instancia concreta con estado, comportamiento e identidad. Los metodos definen la interfaz y permiten acceder o modificar el estado de forma controlada."],
+  [/herencia|composici.n|polimorfismo|sobrecarga|sobrescritura|signatura|abstracta/i, "La herencia expresa una relacion es-un y permite especializar una superclase; la composicion expresa tiene-un. El polimorfismo selecciona el comportamiento apropiado del objeto real y la sobrecarga se distingue por nombre y argumentos, no por el retorno."],
+  [/Singleton|Factory|Builder|Prototype|Adapter|Bridge|Composite|Decorator|Facade|Flyweight|Proxy|Observer|Strategy|Visitor|Memento|Iterator|patr.n|patron/i, "Los patrones de diseno son soluciones reutilizables a problemas recurrentes. La respuesta correcta identifica el patron por su objetivo concreto, como controlar la creacion, componer estructuras o distribuir responsabilidades entre objetos."],
+  [/UML|diagrama|asociaci.n|agregaci.n|despliegue|caso de uso|actor|secuencia|estado|componente|paquete/i, "UML representa el sistema desde vistas estructurales y de comportamiento. Cada diagrama tiene una finalidad concreta: clases para estructura estatica, secuencia para mensajes en el tiempo, despliegue para nodos fisicos y casos de uso para interacciones externas."],
+];
+
+function buildB3T5Explanation(prompt, correctLabel, options = []) {
+  const source = `${prompt} ${correctLabel}`;
+  const optionLabels = options.map((option) => option.label).join(" ");
+  const rule = b3t5ExplanationRules.find(([match]) => match.test(source))
+    ?? b3t5ExplanationRules.find(([match]) => match.test(`${source} ${optionLabels}`));
+  const specificReason = rule?.[1]
+    ?? `El enunciado se resuelve aplicando el concepto concreto de programacion orientada a objetos que pregunta: ${prompt.replace(/\?$/u, "").toLowerCase()}. Las alternativas incorrectas confunden principios, relaciones entre clases, patrones o tipos de diagramas.`;
+
+  return specificReason + " La pista decisiva de esta pregunta es: «" + prompt.replace(/\s+/g, " ").trim() + "».";
+}
+
 function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = []) {
   const specificReason = code === "B1T4"
     ? buildB1T4Explanation(prompt, correctLabel, options)
@@ -1279,6 +1317,8 @@ function buildExplanation(code, prompt, _correctOptionId, correctLabel, options 
       ? buildB1T5Explanation(prompt, correctLabel, options)
       : code === "B3T3"
         ? buildB3T3Explanation(prompt, correctLabel, options)
+        : code === "B3T5"
+          ? buildB3T5Explanation(prompt, correctLabel, options)
     : code === "B2T1"
       ? buildB2T1Explanation(prompt, correctLabel, options)
       : code === "B2T2"

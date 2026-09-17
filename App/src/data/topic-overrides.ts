@@ -781,4 +781,57 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B3T5: {
+    title: "Diseno y programacion orientada a objetos, patrones de diseno y UML",
+    shortTitle: "Programacion orientada a objetos",
+    description:
+      "Tema de programacion sobre el desarrollo orientado a objetos, principios SOLID, clases, objetos, herencia, patrones de diseno y Lenguaje de Modelado Unificado.",
+    summary: [
+      "Ciclo de desarrollo orientado a objetos: especificacion, diseno, implementacion, pruebas y mantenimiento de soluciones claras, eficientes y modulares.",
+      "Principios generales: SOLID, DRY, inversion de control, YAGNI, KISS y Ley de Demeter para construir software mantenible y poco acoplado.",
+      "Elementos de POO: clases, objetos, atributos, metodos, mensajes, visibilidad, herencia, composicion, polimorfismo y sobrecarga.",
+      "Patrones GoF creacionales, estructurales y de comportamiento como soluciones reutilizables a problemas de diseno recurrentes.",
+      "UML: diagramas de estructura y comportamiento, con especial atencion a clases, componentes, despliegue, casos de uso, secuencia y estados.",
+    ],
+    sections: [
+      "Proceso de desarrollo y principios de diseno",
+      "Clases, objetos, metodos y mensajes",
+      "Herencia, composicion, polimorfismo y sobrecarga",
+      "Patrones de diseno",
+      "Lenguaje de Modelado Unificado (UML)",
+    ],
+    accent: "azure",
+    testPresets: [
+      {
+        slug: "ciclo-y-principios",
+        title: "Test 1 - Ciclo y principios",
+        description: "Repasa las fases del desarrollo, SOLID, DRY, IoC, YAGNI, KISS y la Ley de Demeter.",
+        focusSections: ["ciclo-y-principios"],
+      },
+      {
+        slug: "clases-objetos-y-relaciones",
+        title: "Test 2 - Clases y objetos",
+        description: "Trabaja clases, objetos, estado, identidad, metodos, mensajes, interfaz y encapsulamiento.",
+        focusSections: ["clases-objetos-y-relaciones"],
+      },
+      {
+        slug: "herencia-polimorfismo-y-sobrecarga",
+        title: "Test 3 - Herencia y polimorfismo",
+        description: "Entrena herencia, composicion, clases abstractas, enlace dinamico, polimorfismo y sobrecarga.",
+        focusSections: ["herencia-polimorfismo-y-sobrecarga"],
+      },
+      {
+        slug: "patrones-de-diseno",
+        title: "Test 4 - Patrones de diseno",
+        description: "Distingue los patrones GoF creacionales, estructurales y de comportamiento por su finalidad.",
+        focusSections: ["patrones-de-diseno"],
+      },
+      {
+        slug: "uml-y-diagramas",
+        title: "Test 5 - UML y diagramas",
+        description: "Repasa las vistas UML y los diagramas de clases, componentes, despliegue, casos de uso, secuencia y estados.",
+        focusSections: ["uml-y-diagramas"],
+      },
+    ],
+  },
 };

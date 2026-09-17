@@ -230,5 +230,21 @@
     "sourceFilename": "Bloque 3/Tema 4/B3T4Ejercicios_Batallas 1.sql",
     "title": "Ejercicios Batallas",
     "assetPath": "/test-oficial/B3T4/b3t4-ejercicios-batallas.sql"
+  },
+  {
+    "code": "B3T5",
+    "slug": "b3t5-opo-tai-b3-t05-repaso-v1-0-2026-06",
+    "kind": "resource",
+    "sourceFilename": "Bloque 3/Tema 5/OPO-TAI-B3-T05-REPASO-v1.0-2026.06.pdf",
+    "title": "OPO-TAI-B3-T05-REPASO-v1.0-2026.06",
+    "assetPath": "/test-oficial/B3T5/b3t5-opo-tai-b3-t05-repaso-v1-0-2026-06.pdf"
+  },
+  {
+    "code": "B3T5",
+    "slug": "b3t5-test-oficial-b3-t05-poo-test-1-the-globe-oposiciones",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 3/Tema 5/Test___B3___T05___POO___TEST_1___The_Globe_Oposiciones.pdf",
+    "title": "Test oficial B3 T05 POO TEST 1 The Globe Oposiciones",
+    "assetPath": "/test-oficial/B3T5/b3t5-test-oficial-b3-t05-poo-test-1-the-globe-oposiciones.pdf"
   }
 ]

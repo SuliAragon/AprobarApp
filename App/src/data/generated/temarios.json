@@ -210,5 +210,19 @@
         "assetPath": "/podcast/B3T4/sql-y-el-orden-invisible-de-datos.m4a"
       }
     ]
+  },
+  {
+    "code": "B3T5",
+    "slug": "opo-tai-b3-t05-tema-v1-0-2026-06-limpia",
+    "sourceFilename": "Bloque 3/Tema 5/OPO-TAI-B3-T05-TEMA-v1_0-2026_06-LIMPIA.pdf",
+    "title": "OPO-TAI-B3-T05-TEMA-v1 0-2026 06-LIMPIA",
+    "pdfPath": "/temario/opo-tai-b3-t05-tema-v1-0-2026-06-limpia.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 3/Tema 5/La_arquitectura_del_software_orientado_a_objetos.m4a",
+        "title": "La arquitectura del software orientado a objetos",
+        "assetPath": "/podcast/B3T5/la-arquitectura-del-software-orientado-a-objetos.m4a"
+      }
+    ]
   }
 ]

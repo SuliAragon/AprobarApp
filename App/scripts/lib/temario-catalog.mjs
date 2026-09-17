@@ -13,6 +13,11 @@ function slugify(value) {
 }
 
 function deriveCode(filename) {
+  const topicCode = filename.match(/\bB(\d+)[_-]?T0*(\d+)\b/i);
+  if (topicCode) {
+    return `B${topicCode[1]}T${topicCode[2]}`;
+  }
+
   const match = filename.match(/^([A-Za-z0-9]+)/);
   return match ? match[1].toUpperCase() : "";
 }
@@ -48,8 +53,8 @@ function pickPreferredPdf(files) {
   }
 
   const prioritizedPdf = [...pdfFiles].sort((left, right) => {
-    const leftIsTestOrExercise = /\b(test|ejercicios?)\b/i.test(basename(left));
-    const rightIsTestOrExercise = /\b(test|ejercicios?)\b/i.test(basename(right));
+    const leftIsTestOrExercise = /(?:^|[_\s-])(test|ejercicios?|repaso)(?=$|[_\s-])/i.test(basename(left));
+    const rightIsTestOrExercise = /(?:^|[_\s-])(test|ejercicios?|repaso)(?=$|[_\s-])/i.test(basename(right));
     const leftIsSubrayado = /\bsubrayado\b/i.test(basename(left));
     const rightIsSubrayado = /\bsubrayado\b/i.test(basename(right));
 

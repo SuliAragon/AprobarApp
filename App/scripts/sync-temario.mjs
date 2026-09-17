@@ -464,7 +464,8 @@ for (const entry of officialEntries) {
     continue;
   }
 
-  const extraction = spawnSync("pdftotext", [entry.absolutePath, "-"], {
+  // Preserve each option's visual line so multi-column academy tests parse reliably.
+  const extraction = spawnSync("pdftotext", ["-layout", entry.absolutePath, "-"], {
     encoding: "utf8",
   });
 

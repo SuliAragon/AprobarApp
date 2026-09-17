@@ -66,6 +66,17 @@ const references = {
     fallback: "Lenguajes de interrogación de bases de datos",
     rules: [[/DDL|CREATE|ALTER|DROP|TRUNCATE|vista|dominio|esquema/i, "Estándar ANSI SQL · Lenguaje de definición de datos (DDL)"], [/SELECT|INSERT|UPDATE|DELETE|JOIN|GROUP BY|HAVING|consulta/i, "Estándar ANSI SQL · Lenguaje de manipulación de datos (DML)"], [/GRANT|REVOKE|COMMIT|ROLLBACK|SAVEPOINT|privilegio/i, "Estándar ANSI SQL · Lenguaje de control de datos (DCL)"], [/procedimiento almacenado|PL\/SQL|parámetro|parametro/i, "Procedimientos almacenados"], [/trigger|disparador|evento/i, "Eventos y disparadores"], [/ODBC|JDBC|driver/i, "Estándares de conectividad: ODBC y JDBC"]],
   },
+  B3T5: {
+    fallback: "Diseno y programacion orientada a objetos, patrones de diseno y UML",
+    rules: [
+      [/especificaci.n|codificaci.n|implementaci.n|prueba|mantenimiento|claridad|eficiencia/i, "Proceso de desarrollo orientado a objetos"],
+      [/SOLID|responsabilidad unica|open.?closed|abierto.*cerrado|Liskov|segregaci.n.*interfaz|inversi.n.*dependencia|DRY|YAGNI|KISS|Demeter|IoC/i, "Principios generales de programacion y SOLID"],
+      [/clase|objeto|instancia|atributo|m.todo|metodo|mensaje|constructor|destructor|getter|setter|visibilidad|protocolo/i, "Elementos y componentes software"],
+      [/herencia|subclase|superclase|composici.n|polimorfismo|sobrecarga|sobrescritura|signatura|abstracta/i, "Herencia, composicion, polimorfismo y sobrecarga"],
+      [/Singleton|Factory|Builder|Prototype|Adapter|Bridge|Composite|Decorator|Facade|Flyweight|Proxy|Observer|Strategy|Visitor|Memento|Iterator|patr.n|patron/i, "Patrones de diseno"],
+      [/UML|diagrama|asociaci.n|agregaci.n|despliegue|caso de uso|actor|secuencia|estado|componente|paquete/i, "Lenguaje de Modelado Unificado (UML)"],
+    ],
+  },
 };
 
 export function resolveTemarioReference(code, prompt, correctLabel = "") {

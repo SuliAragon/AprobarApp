@@ -13,6 +13,7 @@ import { b3t1ModeloErQuestionBank } from "./b3t1-modelo-er";
 import { b3t2DisenoBdQuestionBank } from "./b3t2-diseno-bd";
 import { b3t3LenguajesProgramacionQuestionBank } from "./b3t3-lenguajes-programacion";
 import { b3t4SqlQuestionBank } from "./b3t4-sql";
+import { b3t5ProgramacionOrientadaObjetosQuestionBank } from "./b3t5-programacion-orientada-objetos";
 import { withTemarioReference } from "../temario-explanation-references.mjs";
 
 const rawQuestionBanksByCode: Record<string, QuizQuestion[]> = {
@@ -30,6 +31,7 @@ const rawQuestionBanksByCode: Record<string, QuizQuestion[]> = {
   B3T2: b3t2DisenoBdQuestionBank,
   B3T3: b3t3LenguajesProgramacionQuestionBank,
   B3T4: b3t4SqlQuestionBank,
+  B3T5: b3t5ProgramacionOrientadaObjetosQuestionBank,
 };
 
 export const questionBanksByCode: Record<string, QuizQuestion[]> = Object.fromEntries(
