@@ -1,3 +1,6 @@
+import { b1t6FuentesReferences } from "../../src/data/b1t6-fuentes-references.mjs";
+import { buildB1T6Explanation } from "./b1t6-official-explanations.mjs";
+
 const optionIds = ["a", "b", "c", "d"];
 const officialAnswerOverrides = {
   "b1t1-test-oficial-ce-2:5": "d",
@@ -12,6 +15,7 @@ const noisePatterns = [
   /^CONSTITUCI[ÓO]N ESPAÑOLA$/i,
   /^ESTRUCTURAS DE DATOS$/i,
   /^EL GOBIERNO$/i,
+  /^FUENTES DEL DERECHO$/i,
   /^PREPARACI[ÓO]N OPOSICIONES$/i,
   /^T[ÉE]CNICOS AUXILIARES DE INFORM[ÁA]TICA$/i,
   /^\d{4}-\d{4}$/i,
@@ -23,6 +27,7 @@ function normalizeWhitespace(value) {
     .normalize("NFC")
     .replace(/\bB\d+T\d+\s*test\b/gi, "")
     .replace(/\bSISTEMAS OPERATIVOS\b/g, "")
+    .replace(/\bFUENTES DEL DERECHO\s+TAI\b/g, "")
     .replace(/\s*PABLO ARELLANO\s+www\.theglobeformacion\.com\s+Página \d+\s*/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -292,6 +297,7 @@ const topicFallbacks = {
 };
 
 const temarioReferences = {
+  B1T6: b1t6FuentesReferences,
   B1T1: {
     fallback: "Constitución Española: estructura, Título Preliminar, Título I, garantías y Corona",
     rules: [
@@ -1311,7 +1317,9 @@ function buildB3T5Explanation(prompt, correctLabel, options = []) {
 }
 
 function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = []) {
-  const specificReason = code === "B1T4"
+  const specificReason = code === "B1T6"
+    ? buildB1T6Explanation(prompt)
+    : code === "B1T4"
     ? buildB1T4Explanation(prompt, correctLabel, options)
     : code === "B1T5"
       ? buildB1T5Explanation(prompt, correctLabel, options)

@@ -1,4 +1,7 @@
+import { b1t6FuentesReferences } from "./b1t6-fuentes-references.mjs";
+
 const references = {
+  B1T6: b1t6FuentesReferences,
   B1T1: {
     fallback: "Constitución Española: estructura, Título Preliminar, Título I, garantías y Corona",
     rules: [[/nacionalidad|extranjeros|españoles/i, "Título I · Capítulo I: Españoles y extranjeros"], [/amparo|garantía|suspensi|Defensor del Pueblo/i, "Garantía y suspensión"], [/Rey|Corona|Regencia|refrendo|sucesión/i, "La Corona y funciones constitucionales del Rey"], [/derecho|libertad|igualdad|huelga|asociaci|domicilio|detención|habeas/i, "Título I · Derechos y deberes fundamentales"]],

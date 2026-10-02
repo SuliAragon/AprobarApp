@@ -80,6 +80,30 @@
     "assetPath": "/test-oficial/B1T5/b1t5-test-oficial-2-administracion.pdf"
   },
   {
+    "code": "B1T6",
+    "slug": "b1t6-test-oficial-fuentes-del-derecho",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 6/B1T6Test_Fuentes_del_derecho.pdf",
+    "title": "Test oficial Fuentes del derecho",
+    "assetPath": "/test-oficial/B1T6/b1t6-test-oficial-fuentes-del-derecho.pdf"
+  },
+  {
+    "code": "B1T6",
+    "slug": "b1t6-b5ca239d-8396-4e1d-8884-c9747d6d37c1",
+    "kind": "resource",
+    "sourceFilename": "Bloque 1/Tema 6/b5ca239d-8396-4e1d-8884-c9747d6d37c1.pdf",
+    "title": "b5ca239d-8396-4e1d-8884-c9747d6d37c1",
+    "assetPath": "/test-oficial/B1T6/b1t6-b5ca239d-8396-4e1d-8884-c9747d6d37c1.pdf"
+  },
+  {
+    "code": "B1T6",
+    "slug": "b1t6-opo-tai-b1-t06-repaso-v1-0-2026-06",
+    "kind": "resource",
+    "sourceFilename": "Bloque 1/Tema 6/OPO-TAI-B1-T06-REPASO-v1.0-2026.06.pdf",
+    "title": "OPO-TAI-B1-T06-REPASO-v1.0-2026.06",
+    "assetPath": "/test-oficial/B1T6/b1t6-opo-tai-b1-t06-repaso-v1-0-2026-06.pdf"
+  },
+  {
     "code": "B2T1",
     "slug": "b2t1-test-oficial-informatica-basica",
     "kind": "official-test",

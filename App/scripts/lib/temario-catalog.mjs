@@ -53,13 +53,21 @@ function pickPreferredPdf(files) {
   }
 
   const prioritizedPdf = [...pdfFiles].sort((left, right) => {
-    const leftIsTestOrExercise = /(?:^|[_\s-])(test|ejercicios?|repaso)(?=$|[_\s-])/i.test(basename(left));
-    const rightIsTestOrExercise = /(?:^|[_\s-])(test|ejercicios?|repaso)(?=$|[_\s-])/i.test(basename(right));
+    const auxiliaryPattern = /(?:^|B\d+T\d+|[_\s-])(test|ejercicios?|repaso)(?=$|[_\s-])/i;
+    const leftIsTestOrExercise = auxiliaryPattern.test(basename(left));
+    const rightIsTestOrExercise = auxiliaryPattern.test(basename(right));
+    const topicPattern = /\bB\d+[_-]?T\d+(?=[_\s.-]|$)/i;
+    const leftHasTopicCode = topicPattern.test(basename(left));
+    const rightHasTopicCode = topicPattern.test(basename(right));
     const leftIsSubrayado = /\bsubrayado\b/i.test(basename(left));
     const rightIsSubrayado = /\bsubrayado\b/i.test(basename(right));
 
     if (leftIsTestOrExercise !== rightIsTestOrExercise) {
       return leftIsTestOrExercise ? 1 : -1;
+    }
+
+    if (leftHasTopicCode !== rightHasTopicCode) {
+      return leftHasTopicCode ? -1 : 1;
     }
 
     if (leftIsSubrayado !== rightIsSubrayado) {

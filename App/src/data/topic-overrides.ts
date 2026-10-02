@@ -288,6 +288,62 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B1T6: {
+    title: "Fuentes del Derecho Administrativo, jerarquía normativa, leyes y reglamentos",
+    shortTitle: "Fuentes del Derecho",
+    description:
+      "Fuentes y jerarquía del Derecho Administrativo, tratados internacionales, clases de leyes, decretos-leyes, decretos legislativos, reglamentos y Derecho de la Unión Europea.",
+    summary: [
+      "Concepto y clasificación de las fuentes: ley, costumbre y principios generales del Derecho.",
+      "Jerarquía, competencia, sucesión, especialidad, supletoriedad y prevalencia.",
+      "Tratados internacionales y leyes ordinarias, orgánicas, marco, de transferencia y de armonización.",
+      "Delegación legislativa, textos articulados y refundidos; urgencia, límites y control del decreto-ley.",
+      "Reglamentos: concepto, clases, potestad reglamentaria, reserva legal, nulidad e inderogabilidad singular.",
+      "Jurisprudencia, doctrina y actos de la Unión Europea: reglamentos, directivas, decisiones, recomendaciones y dictámenes.",
+    ],
+    sections: [
+      "Fuentes del Derecho Administrativo",
+      "La jerarquía de las fuentes",
+      "Los tratados internacionales",
+      "La Ley: concepto y clases",
+      "Disposiciones del ejecutivo con fuerza de ley",
+      "El Reglamento: concepto, clases y límites",
+      "Otras fuentes y Derecho de la Unión Europea",
+    ],
+    accent: "amber",
+    testPresets: [
+      {
+        slug: "fuentes-y-jerarquia",
+        title: "Test 1 · Fuentes y jerarquía",
+        description: "Distingue fuentes formales, rango normativo, competencia, supletoriedad y criterios de aplicación.",
+        focusSections: ["fuentes-y-jerarquia"],
+      },
+      {
+        slug: "leyes-y-tratados",
+        title: "Test 2 · Leyes y tratados",
+        description: "Repasa reservas de ley, mayorías, iniciativa legislativa, leyes del artículo 150 y tratados internacionales.",
+        focusSections: ["leyes-y-tratados"],
+      },
+      {
+        slug: "decretos-leyes-y-legislativos",
+        title: "Test 3 · Decretos-leyes y legislativos",
+        description: "Compara delegación previa y urgencia, textos articulados y refundidos, límites y controles.",
+        focusSections: ["decretos-leyes-y-legislativos"],
+      },
+      {
+        slug: "reglamentos-y-limites",
+        title: "Test 4 · Reglamentos y límites",
+        description: "Entrena tipos de reglamentos, formas de aprobación, jerarquía, reserva de ley y nulidad.",
+        focusSections: ["reglamentos-y-limites"],
+      },
+      {
+        slug: "otras-fuentes-y-derecho-ue",
+        title: "Test 5 · Otras fuentes y Derecho de la UE",
+        description: "Trabaja costumbre, principios, jurisprudencia, doctrina y efectos de los actos de la Unión Europea.",
+        focusSections: ["otras-fuentes-y-derecho-ue"],
+      },
+    ],
+  },
   B2T1: {
     title: "Informática básica, representación de la información y arquitectura de ordenadores",
     shortTitle: "Informática básica",

@@ -13917,6 +13917,1019 @@
     ]
   },
   {
+    "code": "B1T6",
+    "slug": "b1t6-test-oficial-fuentes-del-derecho",
+    "title": "Test oficial Fuentes del derecho",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 6/B1T6Test_Fuentes_del_derecho.pdf",
+    "assetPath": "/test-oficial/B1T6/b1t6-test-oficial-fuentes-del-derecho.pdf",
+    "questions": [
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-1",
+        "section": "test-oficial",
+        "prompt": "Según lo establecido en el art. 150 de la CE, las leyes de delegación son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leyes orgánicas."
+          },
+          {
+            "id": "b",
+            "label": "Leyes ordinarias."
+          },
+          {
+            "id": "c",
+            "label": "Leyes de transferencia."
+          },
+          {
+            "id": "d",
+            "label": "Leyes marco."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 150.2 CE permite transferir o delegar facultades estatales a las comunidades autonomas mediante ley organica. No es la delegacion legislativa del articulo 82, que habilita al Gobierno para dictar decretos legislativos. La respuesta correcta es «Leyes orgánicas.». Referencia del temario: B1T6 · La Ley: leyes del articulo 150 CE."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-2",
+        "section": "test-oficial",
+        "prompt": "Según lo establecido en el art. 150 de la CE, las leyes marco son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leyes orgánicas."
+          },
+          {
+            "id": "b",
+            "label": "Leyes de transferencia."
+          },
+          {
+            "id": "c",
+            "label": "Leyes estatales."
+          },
+          {
+            "id": "d",
+            "label": "Leyes marco."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Las leyes marco del articulo 150.1 CE son leyes estatales: fijan principios, bases y directrices dentro de los cuales las comunidades autonomas pueden aprobar sus propias normas legislativas en materias de competencia estatal. La respuesta correcta es «Leyes estatales.». Referencia del temario: B1T6 · La Ley: leyes del articulo 150 CE."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-3",
+        "section": "test-oficial",
+        "prompt": "Según el Código Civil, las fuentes del ordenamiento jurídico español son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La costumbre, los principios generales de derecho y la doctrina científica."
+          },
+          {
+            "id": "b",
+            "label": "La ley, la costumbre y los principios generales de derecho."
+          },
+          {
+            "id": "c",
+            "label": "La ley, los principios generales de derecho y la jurisprudencia."
+          },
+          {
+            "id": "d",
+            "label": "La ley, la costumbre y la jurisprudencia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 1.1 del Codigo Civil enumera tres fuentes: ley, costumbre y principios generales del Derecho. La jurisprudencia complementa el ordenamiento, pero no sustituye a los principios generales en esa enumeracion. La respuesta correcta es «La ley, la costumbre y los principios generales de derecho.». Referencia del temario: B1T6 · Otras fuentes: costumbre, principios generales y jurisprudencia."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-4",
+        "section": "test-oficial",
+        "prompt": "¿Cuándo los Tratado Internacionales forman parte del ordenamiento jurídico español?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando el Rey manifiesta el consentimiento del Estado."
+          },
+          {
+            "id": "b",
+            "label": "Cuando sean publicados en el Diario Oficial de la Unión Europea."
+          },
+          {
+            "id": "c",
+            "label": "Cuando sean publicados en el BOE."
+          },
+          {
+            "id": "d",
+            "label": "En el momento de su aprobación."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Segun el articulo 96.1 CE, los tratados validamente celebrados se incorporan al ordenamiento interno al publicarse oficialmente en Espana. El articulo 1.5 CC exige su publicacion integra en el BOE; no basta el consentimiento del Rey ni su publicacion en el diario de la UE. La respuesta correcta es «Cuando sean publicados en el BOE.». Referencia del temario: B1T6 · Los tratados internacionales."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-5",
+        "section": "test-oficial",
+        "prompt": "El principio de reserva de ley significa que ciertas materias solo pueden ser reguladas por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Real Decreto Legislativo."
+          },
+          {
+            "id": "b",
+            "label": "Ley ordinaria o ley orgánica."
+          },
+          {
+            "id": "c",
+            "label": "Ley orgánica y no por ley ordinaria."
+          },
+          {
+            "id": "d",
+            "label": "Real Decreto-Ley."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La reserva de ley excluye que un reglamento regule por si solo las materias que la Constitucion reserva a una norma legal. La respuesta distingue la reserva ordinaria de la organica: no todas las materias reservadas exigen ley organica. La respuesta correcta es «Ley ordinaria o ley orgánica.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-6",
+        "section": "test-oficial",
+        "prompt": "Según el art. 153 de la CE, el control de la actividad de los órganos de las Comunidades Autónomas en lo relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley, se ejercerá por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Tribunal de Cuentas."
+          },
+          {
+            "id": "b",
+            "label": "La jurisdicción contencioso-administrativa."
+          },
+          {
+            "id": "c",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "El Tribunal Constitucional."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 153.a CE atribuye al Tribunal Constitucional el control de constitucionalidad de las disposiciones autonomicas con fuerza de ley. La jurisdiccion contencioso-administrativa controla la Administracion autonomica y sus normas reglamentarias, no realiza ese control constitucional de las leyes. La respuesta correcta es «El Tribunal Constitucional.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-7",
+        "section": "test-oficial",
+        "prompt": "Las leyes dictadas por el Estado que establezcan los principios necesarios para conciliar las disposiciones normativas de las CCAA, aún en el caso de materias atribuidas a la competencia de éstas y cuando lo exija el interés general, son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leyes de delegación."
+          },
+          {
+            "id": "b",
+            "label": "Leyes de armonización."
+          },
+          {
+            "id": "c",
+            "label": "Leyes de transferencia."
+          },
+          {
+            "id": "d",
+            "label": "Leyes marco."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Son leyes de armonizacion del articulo 150.3 CE. Las Cortes deben apreciar la necesidad derivada del interes general por mayoria absoluta de cada Camara; pueden afectar incluso a materias de competencia autonomica. La respuesta correcta es «Leyes de armonización.». Referencia del temario: B1T6 · La Ley: leyes del articulo 150 CE."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-8",
+        "section": "test-oficial",
+        "prompt": "¿Quién NO ejerce la potestad reglamentaria?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Los órganos de Gobierno de las CCAA."
+          },
+          {
+            "id": "c",
+            "label": "Los órganos de gobierno locales."
+          },
+          {
+            "id": "d",
+            "label": "Las Cortes Generales."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 128.1 de la Ley 39/2015 atribuye la potestad reglamentaria administrativa al Gobierno estatal, a los gobiernos autonomicos y a los organos de gobierno locales. Las Cortes ejercen la potestad legislativa; sus reglamentos parlamentarios pertenecen a un ambito distinto. La respuesta correcta es «Las Cortes Generales.». Referencia del temario: B1T6 · El Reglamento: concepto, clases y limites."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-9",
+        "section": "test-oficial",
+        "prompt": "De entre las siguientes, ¿cuál es jerárquicamente la de menor rango?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Orden Ministerial."
+          },
+          {
+            "id": "b",
+            "label": "Real Decreto de Consejo de Ministros."
+          },
+          {
+            "id": "c",
+            "label": "Real Decreto legislativo."
+          },
+          {
+            "id": "d",
+            "label": "Real Decreto de Presidente del Gobierno."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Una orden ministerial tiene rango inferior a los reglamentos aprobados por real decreto del Presidente o del Consejo de Ministros, segun el articulo 24 de la Ley 50/1997. El real decreto legislativo, pese a su nombre, tiene rango de ley y no es un reglamento. La respuesta correcta es «Orden Ministerial.». Referencia del temario: B1T6 · El Reglamento: concepto, clases y limites."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-10",
+        "section": "test-oficial",
+        "prompt": "¿En cuál de los siguientes casos un reglamento NO es ilegal?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando vulnere otra disposición administrativa de rango superior."
+          },
+          {
+            "id": "b",
+            "label": "Cuando regulen materias reservadas a la Ley."
+          },
+          {
+            "id": "c",
+            "label": "Cuando establezca la retroactividad de disposiciones sancionadoras no favorables."
+          },
+          {
+            "id": "d",
+            "label": "Cuando desarrolle una Ley."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Desarrollar una ley es la funcion normal del reglamento ejecutivo, siempre que respete su contenido y los limites legales. Contradecir una norma superior, invadir una reserva de ley o imponer retroactividad sancionadora desfavorable determina nulidad conforme al articulo 47.2 de la Ley 39/2015. La respuesta correcta es «Cuando desarrolle una Ley.». Referencia del temario: B1T6 · El Reglamento: concepto, clases y limites."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-11",
+        "section": "test-oficial",
+        "prompt": "En relación con las leyes de bases señale la afirmación correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las disposiciones del Gobierno que resulten del uso de una ley de bases serán Decretos Legislativos."
+          },
+          {
+            "id": "b",
+            "label": "Su control se encomienda exclusivamente a la competencia de los Tribunales."
+          },
+          {
+            "id": "c",
+            "label": "Podrán, si así se establece en la propia ley de bases y siempre que no se vulnere el principio de irretroactividad de las normas sancionadoras o restrictivas de derechos individuales, facultar al Gobierno para dictar normas con carácter retroactivo."
+          },
+          {
+            "id": "d",
+            "label": "Deberán tener carácter de ley orgánica si tienen por objeto delegar la potestad de formar textos articulados en materia de régimen electoral general."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 85 CE denomina decretos legislativos a las normas del Gobierno que contienen legislacion delegada. Una ley de bases habilita para elaborar un texto articulado; el articulo 83 impide que autorice modificar la propia ley de bases o dictar normas retroactivas. La respuesta correcta es «Las disposiciones del Gobierno que resulten del uso de una ley de bases serán Decretos Legislativos.». Referencia del temario: B1T6 · Disposiciones del ejecutivo con fuerza de ley: Decreto Legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-12",
+        "section": "test-oficial",
+        "prompt": "En aplicación de la CE, existe delegación legislativa de las Cortes Generales en el Gobierno en el supuesto de los:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reglamentos con fuerza de ley."
+          },
+          {
+            "id": "b",
+            "label": "Decretos-Leyes y Decretos Legislativos."
+          },
+          {
+            "id": "c",
+            "label": "Decretos Legislativos."
+          },
+          {
+            "id": "d",
+            "label": "Proyectos de Ley."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los decretos legislativos proceden de una delegacion previa de las Cortes al Gobierno, regulada en los articulos 82 a 85 CE. Los decretos-leyes responden a extraordinaria y urgente necesidad y requieren control posterior del Congreso, no delegacion previa. La respuesta correcta es «Decretos Legislativos.». Referencia del temario: B1T6 · Disposiciones del ejecutivo con fuerza de ley: Decreto Legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-13",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO tiene atribuida como competencia de la iniciativa legislativa?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "El Congreso."
+          },
+          {
+            "id": "c",
+            "label": "El pueblo, solo para materias tributarias."
+          },
+          {
+            "id": "d",
+            "label": "Las Asambleas de las CCAA."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 87 CE reconoce iniciativa legislativa al Gobierno, Congreso, Senado y, con sus reglas especificas, a las asambleas autonomicas y a la ciudadania. La iniciativa popular no puede referirse a materias tributarias, por lo que la alternativa que la limita a ellas invierte la prohibicion. La respuesta correcta es «El pueblo, solo para materias tributarias.». Referencia del temario: B1T6 · La jerarquia de las fuentes."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-14",
+        "section": "test-oficial",
+        "prompt": "¿Cuándo son aplicables los principios generales del derecho?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando así lo habilite un precepto legal y siempre que no sean contrarios a la moral ni al orden público y resulten probados."
+          },
+          {
+            "id": "b",
+            "label": "Siempre que no exista doctrina científica."
+          },
+          {
+            "id": "c",
+            "label": "Siempre que las normas de desarrollo reglamentario así lo prevean."
+          },
+          {
+            "id": "d",
+            "label": "En defecto de ley o costumbre, sin perjuicio de su carácter informador del ordenamiento jurídico."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 1.4 CC establece que los principios generales se aplican subsidiariamente cuando faltan ley y costumbre. Ademas informan el conjunto del ordenamiento; no necesitan una habilitacion reglamentaria para cumplir esa funcion. La respuesta correcta es «En defecto de ley o costumbre, sin perjuicio de su carácter informador del ordenamiento jurídico.». Referencia del temario: B1T6 · Otras fuentes: costumbre, principios generales y jurisprudencia."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-15",
+        "section": "test-oficial",
+        "prompt": "Adoptan la forma de Real Decreto solo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las disposiciones reglamentarias aprobadas por el Consejo de Ministros."
+          },
+          {
+            "id": "b",
+            "label": "Las disposiciones reglamentarias aprobadas por el Presidente del Gobierno o el Consejo de Ministros."
+          },
+          {
+            "id": "c",
+            "label": "Las disposiciones reglamentarias aprobadas por el Consejo de Ministros o por el Ministro de la Presidencia por corresponder la competencia a distintos Ministros."
+          },
+          {
+            "id": "d",
+            "label": "Las disposiciones reglamentarias aprobadas por el Consejo de Ministros o las Comisiones Delegadas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 24 de la Ley 50/1997 distingue los reales decretos del Presidente del Gobierno y los acordados en Consejo de Ministros. Las disposiciones de los ministros adoptan forma de orden ministerial, incluso cuando afectan a varios departamentos. La respuesta correcta es «Las disposiciones reglamentarias aprobadas por el Presidente del Gobierno o el Consejo de Ministros.». Referencia del temario: B1T6 · El Reglamento: concepto, clases y limites."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-16",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la CE, las leyes orgánicas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Únicamente pueden ser propuestas para su tramitación por el Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Son las relativas, entre otras, al desarrollo de los derechos y deberes de los ciudadanos."
+          },
+          {
+            "id": "c",
+            "label": "Pueden ser aprobadas por las Cortes Generales y por las Asambleas Legislativas de las CCAA."
+          },
+          {
+            "id": "d",
+            "label": "Su contenido queda excluido de la delegación que por parte de las Cortes Generales puedan hacer hacia el Gobierno para que dicte Decretos Legislativos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 82.1 CE excluye de la delegacion legislativa las materias reservadas a ley organica por el articulo 81. No es correcto extender esa reserva a todos los derechos y deberes del Titulo I ni atribuir a las asambleas autonomicas la aprobacion de leyes organicas estatales. La respuesta correcta es «Su contenido queda excluido de la delegación que por parte de las Cortes Generales puedan hacer hacia el Gobierno para que dicte Decretos Legislativos.». Referencia del temario: B1T6 · Disposiciones del ejecutivo con fuerza de ley: Decreto Legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-17",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de las siguientes afirmaciones NO es correcta conforme a lo establecido en el artículo 1 del Código Civil:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las normas jurídicas contenidas en los Tratados Internacionales no serán de aplicación directa en España en tanto no hayan sido convalidadas por las Cortes Generales."
+          },
+          {
+            "id": "b",
+            "label": "La jurisprudencia complementará el ordenamiento jurídico con la doctrina que, de modo reiterado, establezca el Tribunal Supremo al interpretar y aplicar la ley, la costumbre y los principios generales del derecho."
+          },
+          {
+            "id": "c",
+            "label": "La costumbre solo regirá en defecto de ley aplicable, siempre que resulte probada y no sea contraria a la moral y al orden público."
+          },
+          {
+            "id": "d",
+            "label": "Los principios generales del derecho tienen carácter informador del ordenamiento jurídico."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La afirmacion incorrecta exige convalidacion parlamentaria para aplicar directamente los tratados. El articulo 1.5 CC exige su incorporacion mediante publicacion integra en el BOE; la autorizacion parlamentaria para determinadas categorias de tratados es otra cuestion distinta. La respuesta correcta es «Las normas jurídicas contenidas en los Tratados Internacionales no serán de aplicación directa en España en tanto no hayan sido convalidadas por las Cortes Generales.». Referencia del temario: B1T6 · Los tratados internacionales."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-18",
+        "section": "test-oficial",
+        "prompt": "Por aplicación del principio de jerarquía normativa:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las leyes orgánicas prevalecen sobre las leyes autonómicas."
+          },
+          {
+            "id": "b",
+            "label": "Las disposiciones del ejecutivo con rango de ley se subordinan a las leyes emanadas del poder legislativo."
+          },
+          {
+            "id": "c",
+            "label": "Las disposiciones administrativas se subordinan a las disposiciones emanadas del poder legislativo."
+          },
+          {
+            "id": "d",
+            "label": "Las leyes estatales tienen mayor rango que las leyes de las CCAA."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los reglamentos administrativos estan subordinados a las leyes. Los decretos-leyes y decretos legislativos tienen rango legal, mientras que las relaciones entre leyes estatales y autonomicas se delimitan por la competencia, no por una superioridad jerarquica estatal general. La respuesta correcta es «Las disposiciones administrativas se subordinan a las disposiciones emanadas del poder legislativo.». Referencia del temario: B1T6 · La jerarquia de las fuentes."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-19",
+        "section": "test-oficial",
+        "prompt": "Según el Código Civil, la costumbre:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Deberá ser probada y solo regirá en defecto de ley aplicable."
+          },
+          {
+            "id": "b",
+            "label": "Puede ser, en determinados supuestos, contraria al orden público."
+          },
+          {
+            "id": "c",
+            "label": "Los usos jurídicos interpretativos de una declaración de voluntad tienen la consideración de costumbre."
+          },
+          {
+            "id": "d",
+            "label": "Se puede aplicar en cualquier momento."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 1.3 CC exige acreditar la costumbre y permite aplicarla solo si falta ley aplicable y no contradice la moral ni el orden publico. Los usos meramente interpretativos de una declaracion de voluntad no se consideran costumbre a estos efectos. La respuesta correcta es «Deberá ser probada y solo regirá en defecto de ley aplicable.». Referencia del temario: B1T6 · Otras fuentes: costumbre, principios generales y jurisprudencia."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-20",
+        "section": "test-oficial",
+        "prompt": "¿Cuál puede considerarse una fuente indirecta del derecho administrativo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La ley."
+          },
+          {
+            "id": "b",
+            "label": "La jurisprudencia."
+          },
+          {
+            "id": "c",
+            "label": "La costumbre."
+          },
+          {
+            "id": "d",
+            "label": "Los principios generales del Derecho."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La jurisprudencia es una fuente indirecta en la clasificacion del tema. El articulo 1.6 CC le atribuye una funcion complementaria mediante la doctrina reiterada del Tribunal Supremo al interpretar la ley, la costumbre y los principios generales. La respuesta correcta es «La jurisprudencia.». Referencia del temario: B1T6 · Otras fuentes: costumbre, principios generales y jurisprudencia."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-21",
+        "section": "test-oficial",
+        "prompt": "Una Ley entra en vigor:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A los veinte días de su publicación en el BOE, salvo que la propia Ley disponga otra cosa, según establece el Código Civil."
+          },
+          {
+            "id": "b",
+            "label": "Inmediatamente tras la sanción y promulgación por el Rey."
+          },
+          {
+            "id": "c",
+            "label": "Inmediatamente tras la sanción del Rey, que dispone de quince días desde la aprobación del texto por las Cortes Generales."
+          },
+          {
+            "id": "d",
+            "label": "Tras la sanción y promulgación del Rey, a los quince días de su publicación en el BOE, salvo que la propia Ley establezca otra fecha diferente, según establece el Código Civil."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 2.1 CC fija como regla general veinte dias desde la publicacion completa de la ley en el BOE, salvo que esta establezca una fecha diferente. El plazo no se cuenta desde la sancion real y no debe confundirse con los quince dias del articulo 91 CE. La respuesta correcta es «A los veinte días de su publicación en el BOE, salvo que la propia Ley disponga otra cosa, según establece el Código Civil.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-22",
+        "section": "test-oficial",
+        "prompt": "Se regulará mediante Ley Orgánica:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Estatuto e Incompatibilidades de los miembros del Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "Las formas de ejercicio y los requisitos de la iniciativa popular para la presentación de proposiciones de ley."
+          },
+          {
+            "id": "c",
+            "label": "El Estatuto Orgánico del Ministerio Fiscal."
+          },
+          {
+            "id": "d",
+            "label": "El procedimiento a través del cual deben producirse los actos administrativos, garantizando cuando proceda la audiencia del interesado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 87.3 CE remite expresamente a una ley organica la regulacion de las formas y requisitos de la iniciativa legislativa popular. Esta exige al menos 500.000 firmas acreditadas y excluye ciertas materias, entre ellas las tributarias y las propias de ley organica. La respuesta correcta es «Las formas de ejercicio y los requisitos de la iniciativa popular para la presentación de proposiciones de ley.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-23",
+        "section": "test-oficial",
+        "prompt": "El ejercicio de la potestad reglamentaria corresponde:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al Rey."
+          },
+          {
+            "id": "b",
+            "label": "Al Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "Al Defensor del Pueblo."
+          },
+          {
+            "id": "d",
+            "label": "A los Tribunales."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 97 CE encomienda al Gobierno la funcion ejecutiva y la potestad reglamentaria, ejercidas de acuerdo con la Constitucion y las leyes. La sancion de las leyes por el Rey no lo convierte en titular de esa potestad gubernamental. La respuesta correcta es «Al Gobierno.». Referencia del temario: B1T6 · El Reglamento: concepto, clases y limites."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-24",
+        "section": "test-oficial",
+        "prompt": "En caso de extraordinaria y urgente necesidad el Gobierno podrá dictar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Decretos-leyes."
+          },
+          {
+            "id": "b",
+            "label": "Leyes."
+          },
+          {
+            "id": "c",
+            "label": "Decretos Legislativos."
+          },
+          {
+            "id": "d",
+            "label": "Sentencias."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 86 CE habilita al Gobierno para aprobar disposiciones legislativas provisionales denominadas decretos-leyes ante extraordinaria y urgente necesidad. El Congreso debe pronunciarse sobre su convalidacion o derogacion dentro de los treinta dias siguientes a su promulgacion. La respuesta correcta es «Decretos-leyes.». Referencia del temario: B1T6 · Disposiciones del ejecutivo con fuerza de ley: Decreto-Ley."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-25",
+        "section": "test-oficial",
+        "prompt": "La norma comunitaria que obliga al Estado miembro destinatario en cuanto al resultado que deba conseguir dejando, sin embargo, a las autoridades nacionales la elección de la forma y de los medios es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El reglamento."
+          },
+          {
+            "id": "b",
+            "label": "La directiva."
+          },
+          {
+            "id": "c",
+            "label": "La decisión."
+          },
+          {
+            "id": "d",
+            "label": "La recomendación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 288 TFUE caracteriza la directiva por vincular al Estado destinatario al resultado y dejarle elegir los instrumentos para alcanzarlo. El reglamento, en cambio, obliga en todos sus elementos y es directamente aplicable en los Estados miembros. La respuesta correcta es «La directiva.». Referencia del temario: B1T6 · Otras fuentes: Derecho de la Union Europea."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-26",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Constitución Española, el derecho de sindicación del funcionariado se regulará:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por Ley ordinaria."
+          },
+          {
+            "id": "b",
+            "label": "Por Ley Orgánica."
+          },
+          {
+            "id": "c",
+            "label": "El funcionariado no tiene reconocido el derecho de sindicación."
+          },
+          {
+            "id": "d",
+            "label": "Por la normativa de la Función Pública de cada Comunidad Autónoma."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La libertad sindical pertenece a los derechos fundamentales del articulo 28.1 CE, cuyo desarrollo esta reservado a ley organica por el articulo 81.1. La Constitucion permite regular peculiaridades de su ejercicio por los funcionarios, no suprime su derecho. La respuesta correcta es «Por Ley Orgánica.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-27",
+        "section": "test-oficial",
+        "prompt": "Según la Constitución Española, la delegación legislativa de las Cortes Generales en el Gobierno, cuando tenga por objeto la formación de textos articulados, deberá otorgarse mediante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ley orgánica."
+          },
+          {
+            "id": "b",
+            "label": "Ley de bases."
+          },
+          {
+            "id": "c",
+            "label": "Ley ordinaria."
+          },
+          {
+            "id": "d",
+            "label": "Ley orgánica o Ley de bases, según la materia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 82.2 CE exige una ley de bases para delegar la elaboracion de textos articulados. La ley ordinaria es el instrumento previsto para autorizar textos refundidos; ambos supuestos culminan en un decreto legislativo. La respuesta correcta es «Ley de bases.». Referencia del temario: B1T6 · Disposiciones del ejecutivo con fuerza de ley: Decreto Legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-28",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, la celebración de un Tratado internacional que contenga estipulaciones contrarias a la misma, exigirá:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La ratificación del Gobierno de la Nación, previa tramitación como Decreto-Ley."
+          },
+          {
+            "id": "b",
+            "label": "La ratificación de las Cortes Generales, aprobada por mayoría cualificada."
+          },
+          {
+            "id": "c",
+            "label": "La previa reforma constitucional."
+          },
+          {
+            "id": "d",
+            "label": "La ratificación de las Cortes Generales, aprobada por mayoría absoluta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El articulo 95.1 CE exige reformar previamente la Constitucion si el tratado contiene estipulaciones contrarias a ella. Una mayoria parlamentaria reforzada no permite evitar la reforma; Gobierno o cualquiera de las Camaras pueden consultar previamente al Tribunal Constitucional. La respuesta correcta es «La previa reforma constitucional.». Referencia del temario: B1T6 · Los tratados internacionales."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-29",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Derecho comunitario vigente, las recomendaciones y los dictámenes de la Comisión Europea:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No serán vinculantes."
+          },
+          {
+            "id": "b",
+            "label": "Serán vinculantes."
+          },
+          {
+            "id": "c",
+            "label": "Obligarán a todos los Estados afectados."
+          },
+          {
+            "id": "d",
+            "label": "Serán preceptivos en todo su contenido."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 288 TFUE excluye el caracter vinculante tanto de las recomendaciones como de los dictamenes. Pueden orientar o expresar una valoracion institucional, pero no imponen las obligaciones propias de reglamentos, directivas o decisiones. La respuesta correcta es «No serán vinculantes.». Referencia del temario: B1T6 · Otras fuentes: Derecho de la Union Europea."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-30",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Constitución Española, el desarrollo de los derechos fundamentales y de las libertades públicas, se llevará a efecto mediante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ley."
+          },
+          {
+            "id": "b",
+            "label": "Ley orgánica."
+          },
+          {
+            "id": "c",
+            "label": "Decreto Legislativo."
+          },
+          {
+            "id": "d",
+            "label": "Decreto-Ley."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 81.1 CE reserva a ley organica el desarrollo de los derechos fundamentales y de las libertades publicas. Su aprobacion, modificacion o derogacion exige mayoria absoluta del Congreso en una votacion final sobre el conjunto del proyecto. La respuesta correcta es «Ley orgánica.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-31",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, los españoles de origen podrán ser privados de su nacionalidad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por Ley ordinaria."
+          },
+          {
+            "id": "b",
+            "label": "Por Real Decreto."
+          },
+          {
+            "id": "c",
+            "label": "Por Sentencia judicial firme."
+          },
+          {
+            "id": "d",
+            "label": "Ningún español podrá ser privado de su nacionalidad."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 11.2 CE protege especificamente a los espanoles de origen frente a la privacion de nacionalidad. La plantilla marca la opcion d, pero su literal es demasiado amplio: la garantia de origen no debe generalizarse sin matices a toda persona con nacionalidad espanola. La respuesta correcta es «Ningún español podrá ser privado de su nacionalidad.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-32",
+        "section": "test-oficial",
+        "prompt": "Los Reglamentos administrativos NO podrán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Regular materias objeto de reserva de ley."
+          },
+          {
+            "id": "b",
+            "label": "Tipificar infracciones administrativas."
+          },
+          {
+            "id": "c",
+            "label": "Establecer cánones."
+          },
+          {
+            "id": "d",
+            "label": "Hacer ninguna de las previsiones anteriores."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 128.2 de la Ley 39/2015 impide al reglamento invadir la reserva de ley o crear por si mismo infracciones, sanciones, tributos, exacciones o cargas como los canones. Puede desarrollar previsiones legales dentro de los limites autorizados, no sustituir la necesaria cobertura legal. La respuesta correcta es «Hacer ninguna de las previsiones anteriores.». Referencia del temario: B1T6 · El Reglamento: concepto, clases y limites."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-33",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Constitución Española, el ejercicio de los derechos y libertades reconocidos en el Capítulo II del Título I solo podrá regularse por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Decreto."
+          },
+          {
+            "id": "b",
+            "label": "Ley."
+          },
+          {
+            "id": "c",
+            "label": "Orden."
+          },
+          {
+            "id": "d",
+            "label": "Decreto-ley."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 53.1 CE reserva a la ley la regulacion del ejercicio de los derechos y libertades del Capitulo II del Titulo I, respetando su contenido esencial. Esta reserva legal no debe confundirse con la reserva organica del articulo 81 para el desarrollo de los derechos fundamentales. La respuesta correcta es «Ley.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-34",
+        "section": "test-oficial",
+        "prompt": "De entre las fuentes del Derecho comunitario NO son vinculantes:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los reglamentos."
+          },
+          {
+            "id": "b",
+            "label": "Las directivas."
+          },
+          {
+            "id": "c",
+            "label": "Los dictámenes."
+          },
+          {
+            "id": "d",
+            "label": "Las decisiones."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Entre las alternativas, el dictamen es el acto no vinculante del articulo 288 TFUE. Reglamentos, directivas y decisiones son obligatorios, aunque sus destinatarios y el modo de cumplir sus efectos juridicos sean distintos. La respuesta correcta es «Los dictámenes.». Referencia del temario: B1T6 · Otras fuentes: Derecho de la Union Europea."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-35",
+        "section": "test-oficial",
+        "prompt": "Los Estatutos de Autonomía serán aprobados por:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leyes de bases."
+          },
+          {
+            "id": "b",
+            "label": "Leyes ordinarias."
+          },
+          {
+            "id": "c",
+            "label": "Reales Decretos."
+          },
+          {
+            "id": "d",
+            "label": "Leyes orgánicas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El articulo 81.1 CE incluye expresamente entre las leyes organicas las que aprueban los estatutos de autonomia. Estos son la norma institucional basica de cada comunidad autonoma, segun el articulo 147.1 CE, y no se aprueban mediante un reglamento. La respuesta correcta es «Leyes orgánicas.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-36",
+        "section": "test-oficial",
+        "prompt": "La sanción de las leyes aprobadas por las Cortes Generales corresponde a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Rey en el plazo de 15 días desde su aprobación."
+          },
+          {
+            "id": "b",
+            "label": "El Presidente del Congreso de los Diputados en el plazo de 15 días desde su aprobación."
+          },
+          {
+            "id": "c",
+            "label": "El Presidente del Congreso de los Diputados en el plazo de 30 días desde su aprobación."
+          },
+          {
+            "id": "d",
+            "label": "El Rey en el plazo de 20 días desde su aprobación."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 91 CE dispone que el Rey sancione en quince dias las leyes aprobadas por las Cortes, las promulgue y ordene su inmediata publicacion. La sancion, la publicacion y la entrada en vigor son fases diferentes del procedimiento. La respuesta correcta es «El Rey en el plazo de 15 días desde su aprobación.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-37",
+        "section": "test-oficial",
+        "prompt": "¿A quién corresponde garantizar el cumplimiento de los tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución Española?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Al Jefe del Estado."
+          },
+          {
+            "id": "b",
+            "label": "A las Cortes Generales o al Gobierno, según los casos."
+          },
+          {
+            "id": "c",
+            "label": "A las Cortes Generales, sin excepción."
+          },
+          {
+            "id": "d",
+            "label": "Al Gobierno en cuanto titular del poder ejecutivo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 93 CE atribuye la garantia del cumplimiento de estos tratados a las Cortes Generales o al Gobierno, segun los casos. Su celebracion requiere autorizacion mediante ley organica cuando atribuyen a una organizacion internacional el ejercicio de competencias derivadas de la Constitucion. La respuesta correcta es «A las Cortes Generales o al Gobierno, según los casos.». Referencia del temario: B1T6 · Los tratados internacionales."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-38",
+        "section": "test-oficial",
+        "prompt": "Tal y como así establece nuestro texto constitucional, ¿qué autorización previa requiere la prestación del consentimiento del Estado para obligarse por medio de Tratados o convenios que supongan modificación o derogación de alguna Ley o exijan medias legislativas para su ejecución?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Del Congreso de los Diputados."
+          },
+          {
+            "id": "b",
+            "label": "De las Cortes Generales."
+          },
+          {
+            "id": "c",
+            "label": "Del Presidente del Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Del Jefe del Estado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El articulo 94.1.e CE exige autorizacion previa de las Cortes Generales para tratados que modifiquen o deroguen leyes o requieran medidas legislativas para ejecutarse. No basta por si sola la autorizacion del Congreso, del Presidente o del Jefe del Estado. La respuesta correcta es «De las Cortes Generales.». Referencia del temario: B1T6 · Los tratados internacionales."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-39",
+        "section": "test-oficial",
+        "prompt": "En el supuesto de que una Comunidad Autónoma remitiera a la Mesa del Congreso una proposición de reforma de la Constitución, ¿cuántos miembros de dicha Asamblea Legislativa estarían encargados de su defensa ante el Pleno de la Cámara Baja?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todos."
+          },
+          {
+            "id": "b",
+            "label": "Cualquiera de ellos."
+          },
+          {
+            "id": "c",
+            "label": "Tres."
+          },
+          {
+            "id": "d",
+            "label": "Uno, tres o cinco."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los articulos 166 y 87.2 CE permiten a las asambleas autonomicas presentar una propuesta y delegar un maximo de tres miembros para defenderla. La plantilla ofrece tres como respuesta; debe recordarse que la Constitucion establece un maximo de tres, no un numero obligatorio exacto. La respuesta correcta es «Tres.». Referencia del temario: B1T6 · La Ley: clases y procedimiento legislativo."
+      },
+      {
+        "id": "b1t6-test-oficial-fuentes-del-derecho-40",
+        "section": "test-oficial",
+        "prompt": "La delegación legislativa deberá otorgarse al Gobierno:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Para materia determinada."
+          },
+          {
+            "id": "b",
+            "label": "Con fijación del plazo mínimo para su ejercicio."
+          },
+          {
+            "id": "c",
+            "label": "Todas las otras respuestas son ciertas."
+          },
+          {
+            "id": "d",
+            "label": "De forma expresa o presunta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El articulo 82.3 CE exige una delegacion expresa, para una materia determinada y con plazo fijado. No puede presumirse ni concederse indefinidamente, y se agota con su uso por el Gobierno mediante la publicacion de la norma correspondiente. La respuesta correcta es «Para materia determinada.». Referencia del temario: B1T6 · Disposiciones del ejecutivo con fuerza de ley: Decreto Legislativo."
+      }
+    ]
+  },
+  {
     "code": "B2T1",
     "slug": "b2t1-test-oficial-informatica-basica",
     "title": "Test oficial Informatica basica",

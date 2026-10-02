@@ -3,6 +3,22 @@ import assert from "node:assert/strict";
 
 import { buildTemarioCatalog } from "./temario-catalog.mjs";
 
+test("B1T6 selecciona el temario identificado frente a test, repaso y PDF anonimo", () => {
+  const prefix = "Bloque 1/Tema 6/";
+  const catalog = buildTemarioCatalog([
+    `${prefix}B1T6Test_Fuentes_del_derecho.pdf`,
+    `${prefix}OPO-TAI-B1-T06-REPASO-v1.0-2026.06.pdf`,
+    `${prefix}OPO-TAI-B1-T06-v1.0-2026.06.pdf`,
+    `${prefix}b5ca239d-8396-4e1d-8884-c9747d6d37c1.pdf`,
+    `${prefix}Como_se_ordenan_las_leyes_en_Espana.m4a`,
+  ]);
+  assert.equal(catalog.length, 1);
+  assert.equal(catalog[0].code, "B1T6");
+  assert.equal(catalog[0].sourceFilename, `${prefix}OPO-TAI-B1-T06-v1.0-2026.06.pdf`);
+  assert.equal(catalog[0].relatedPdfFiles.length, 3);
+  assert.equal(catalog[0].podcasts.length, 1);
+});
+
 test("buildTemarioCatalog agrupa pdf y podcast dentro de la carpeta del tema", () => {
   const catalog = buildTemarioCatalog([
     "Bloque 1/Tema 1/B1T1_CE_subrayado 1.pdf",
