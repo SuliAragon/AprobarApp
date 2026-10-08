@@ -238,5 +238,19 @@
         "assetPath": "/podcast/B3T5/la-arquitectura-del-software-orientado-a-objetos.m4a"
       }
     ]
+  },
+  {
+    "code": "B3T7",
+    "slug": "b3t7-arquitectura-logica-y-ws",
+    "sourceFilename": "Bloque 3/Tema 7/B3T7_Arquitectura_logica_y_WS.pdf",
+    "title": "B3T7 Arquitectura logica y WS",
+    "pdfPath": "/temario/b3t7-arquitectura-logica-y-ws.pdf",
+    "podcasts": [
+      {
+        "sourceFilename": "Bloque 3/Tema 7/Del_monolito_a_los_microservicios.m4a",
+        "title": "Del monolito a los microservicios",
+        "assetPath": "/podcast/B3T7/del-monolito-a-los-microservicios.m4a"
+      }
+    ]
   }
 ]

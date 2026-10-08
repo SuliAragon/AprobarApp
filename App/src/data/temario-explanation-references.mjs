@@ -1,6 +1,8 @@
 import { b1t6FuentesReferences } from "./b1t6-fuentes-references.mjs";
+import { b3t7ArchitectureReferences } from "./b3t7-architecture-references.mjs";
 
 const references = {
+  B3T7: b3t7ArchitectureReferences,
   B1T6: b1t6FuentesReferences,
   B1T1: {
     fallback: "Constitución Española: estructura, Título Preliminar, Título I, garantías y Corona",

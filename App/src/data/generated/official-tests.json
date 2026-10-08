@@ -27395,5 +27395,1593 @@
         "explanation": "Por qué: Una clase es la plantilla que agrupa atributos y metodos; un objeto es una instancia concreta con estado, comportamiento e identidad. Los metodos definen la interfaz y permiten acceder o modificar el estado de forma controlada. La pista decisiva de esta pregunta es: «¿Cuál de los siguientes tipos de diagramas UML es un diagrama de estructura?». La respuesta correcta es «Diagrama de clases. PABLO ARELLANO OPO-TAI-B3-T05-TEST1 · v1.0 · The Globe Oposiciones Pág. 22 · 23 B3·T05 PROGRAMACIÓN ORIENTADA A OBJETOS · TEST 1 · TAI · THE GLOBE SOLUCIONES OPOSICIONES.». Referencia del temario: B3T5 · Elementos y componentes software."
       }
     ]
+  },
+  {
+    "code": "B3T7",
+    "slug": "b3t7-test-oficial-arquitectura-logica-y-ws",
+    "title": "Test oficial Arquitectura logica y WS",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 3/Tema 7/B3T7Test_Arquitectura_logica_y_WS.pdf",
+    "assetPath": "/test-oficial/B3T7/b3t7-test-oficial-arquitectura-logica-y-ws.pdf",
+    "questions": [
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-1",
+        "section": "test-oficial",
+        "prompt": "Indique la afirmación verdadera en el contexto del modelo de distribución de la arquitectura cliente/servidor conocido como \"thin client\":",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los datos residen en el servidor pero la presentación y la lógica de negocio se realizan en el cliente."
+          },
+          {
+            "id": "b",
+            "label": "La lógica de negocio de la aplicación se encuentra repartida entre el cliente y el servidor."
+          },
+          {
+            "id": "c",
+            "label": "El servidor se encarga de todas las funciones excepto de la presentación."
+          },
+          {
+            "id": "d",
+            "label": "El dialogo entre el cliente y el servidor se inicia a petición del servidor."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: En la configuracion thin client del tema, el cliente presenta la informacion y el servidor asume la logica de negocio y los datos. Si el cliente tambien ejecuta la logica de negocio se trata de cliente pesado o de logica distribuida, segun su reparto. La respuesta correcta es «El servidor se encarga de todas las funciones excepto de la presentación.». Referencia del temario: B3T7 · 1. Arquitecturas de sistemas cliente/servidor y multicapa."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-2",
+        "section": "test-oficial",
+        "prompt": "¿Qué operación de WSDL describe un servicio en el que éste envía un mensaje y posteriormente recibe una respuesta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "One-way."
+          },
+          {
+            "id": "b",
+            "label": "Request-response."
+          },
+          {
+            "id": "c",
+            "label": "Solicit-response."
+          },
+          {
+            "id": "d",
+            "label": "Notification."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: En WSDL 1.1, solicit-response significa que el servicio envia primero un mensaje y despues recibe una respuesta. Request-response invierte ese orden, mientras que notification envia un mensaje sin esperar respuesta y one-way solo recibe uno. La respuesta correcta es «Solicit-response.». Referencia del temario: B3T7 · 5.4. WSDL: descripcion."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-3",
+        "section": "test-oficial",
+        "prompt": "Según la estructura de WSDL versión 2.0, ¿qué etiqueta se utiliza para describir cómo se accede al servicio web?",
+        "options": [
+          {
+            "id": "a",
+            "label": "description."
+          },
+          {
+            "id": "b",
+            "label": "interface."
+          },
+          {
+            "id": "c",
+            "label": "binding."
+          },
+          {
+            "id": "d",
+            "label": "service."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: En WSDL 2.0, binding concreta el modo de acceso a una interfaz mediante protocolos y formatos. Interface describe las operaciones abstractas y service agrupa los endpoints; description es el elemento raiz, no la definicion del protocolo de acceso. La respuesta correcta es «binding.». Referencia del temario: B3T7 · 5.4. WSDL: descripcion."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-4",
+        "section": "test-oficial",
+        "prompt": "Indique qué característica NO se corresponde con un microservicio:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Débilmente acoplado."
+          },
+          {
+            "id": "b",
+            "label": "Funcionamiento autónomo."
+          },
+          {
+            "id": "c",
+            "label": "Desplegado de forma independiente."
+          },
+          {
+            "id": "d",
+            "label": "No reutilizable."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Un microservicio busca autonomia, bajo acoplamiento y despliegue independiente. La opcion no reutilizable contradice las caracteristicas recogidas en el tema: su funcionalidad puede ser consumida por distintos clientes mediante contratos definidos. La respuesta correcta es «No reutilizable.». Referencia del temario: B3T7 · 3. Arquitectura de microservicios."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-5",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un componente de los servicios web?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proveedor de servicio."
+          },
+          {
+            "id": "b",
+            "label": "Publicador de servicio."
+          },
+          {
+            "id": "c",
+            "label": "Solicitante de servicio."
+          },
+          {
+            "id": "d",
+            "label": "Registro de servicio."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El modelo basico de servicios web distingue proveedor, solicitante o consumidor y registro. Publicar es una operacion que realiza el proveedor, no un cuarto participante denominado publicador independiente en ese modelo. La respuesta correcta es «Publicador de servicio.». Referencia del temario: B3T7 · Arquitectura de servicios web y protocolos asociados."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-6",
+        "section": "test-oficial",
+        "prompt": "Los servicios web son aplicaciones que puede ser (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Descritos."
+          },
+          {
+            "id": "b",
+            "label": "Publicados."
+          },
+          {
+            "id": "c",
+            "label": "Descubiertos."
+          },
+          {
+            "id": "d",
+            "label": "Definidos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La pregunta usa la enumeracion didactica de servicios que pueden describirse, publicarse y descubrirse; por eso su plantilla excluye definidos. No debe interpretarse literalmente como una prohibicion de definir servicios: es una pregunta sobre esa lista concreta. La respuesta correcta es «Definidos.». Referencia del temario: B3T7 · Arquitectura de servicios web y protocolos asociados."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-7",
+        "section": "test-oficial",
+        "prompt": "¿Qué estándar relacionado con los servicios web NO es gestionado por el W3C?",
+        "options": [
+          {
+            "id": "a",
+            "label": "UDDI."
+          },
+          {
+            "id": "b",
+            "label": "HTTP."
+          },
+          {
+            "id": "c",
+            "label": "WSDL."
+          },
+          {
+            "id": "d",
+            "label": "SOAP."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La respuesta esperada es UDDI, desarrollado en OASIS, frente a SOAP y WSDL, que son especificaciones W3C. El enunciado es ambiguo porque HTTP se normaliza en la IETF, no en el W3C; por tanto tambien esa alternativa cumple literalmente la condicion negativa. La respuesta correcta es «UDDI.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-8",
+        "section": "test-oficial",
+        "prompt": "Para la implantación de una arquitectura cliente/servidor de tipo cliente fino:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se necesitan un mínimo de 2 equipos si se utiliza el modelo de 2 capas."
+          },
+          {
+            "id": "b",
+            "label": "Se necesitan un mínimo de 3 equipos si se utiliza el modelo de 3 capas."
+          },
+          {
+            "id": "c",
+            "label": "Puede ser implantada en un único equipo."
+          },
+          {
+            "id": "d",
+            "label": "El cliente es el responsable del acceso a los datos físicos y de procesar la lógica de negocio."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La separacion logica entre cliente, servidor y capas no exige una maquina distinta para cada funcion: pueden ejecutarse procesos cliente y servidor en un mismo equipo. El cliente fino no asume por ello la gestion fisica de los datos ni toda la logica de negocio. La respuesta correcta es «Puede ser implantada en un único equipo.». Referencia del temario: B3T7 · 1. Arquitecturas de sistemas cliente/servidor y multicapa."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-9",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes es un estándar que se utiliza como el elemento de seguridad en los servicios web?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SAML."
+          },
+          {
+            "id": "b",
+            "label": "WSDL."
+          },
+          {
+            "id": "c",
+            "label": "SOAP."
+          },
+          {
+            "id": "d",
+            "label": "UDDI."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: SAML intercambia aserciones XML sobre autenticacion, atributos y autorizacion. WSDL describe servicios, SOAP estructura mensajes y UDDI permite su registro; ninguno de esos tres reemplaza la finalidad de seguridad de las aserciones SAML. La respuesta correcta es «SAML.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-10",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes opciones NO es una ventaja propia de una arquitectura en 3 capas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reduce el tráfico en la red frente a una arquitectura de dos capas."
+          },
+          {
+            "id": "b",
+            "label": "Es una arquitectura mucho más escalable."
+          },
+          {
+            "id": "c",
+            "label": "La separación de roles en capas hace más fácil modificar y reemplazar capas."
+          },
+          {
+            "id": "d",
+            "label": "Si aumenta el tamaño o complejidad de una capa, no afecta a las demás."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Separar tres capas mejora la organizacion y facilita cambios y escalado, pero no garantiza por si mismo menos trafico de red que dos capas. Esa reduccion depende del reparto del procesamiento, el numero de peticiones y el despliegue, no solo del numero de capas. La respuesta correcta es «Reduce el tráfico en la red frente a una arquitectura de dos capas.». Referencia del temario: B3T7 · 1. Arquitecturas de sistemas cliente/servidor y multicapa."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-11",
+        "section": "test-oficial",
+        "prompt": "¿A qué hace referencia el modelo de 3 capas en el desarrollo de aplicaciones?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A que la declaración de clases se realizará con al menos tres niveles de acceso diferenciados: clases públicas, clases privadas y clases protegidas."
+          },
+          {
+            "id": "b",
+            "label": "A que se establecerán tres jerarquías de herencia de clases, en la que partiendo de una clase raíz, existirán hasta otras dos capas más de herencia."
+          },
+          {
+            "id": "c",
+            "label": "A que las aplicaciones se separarán en tres capas, estableciendo una capa de lógica de presentación, una capa de lógica de negocio y una capa de datos o de persistencia."
+          },
+          {
+            "id": "d",
+            "label": "A que el procesamiento de documentos XML puede realizarse mediante un parser DOM (modelo de árbol), SAX (modelo de eventos tipo push) o STAX (basado en eventos tipo pull)."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El modelo de tres capas divide responsabilidades en presentacion, logica de negocio y datos o persistencia. No clasifica la visibilidad de clases ni los niveles de herencia, y tampoco se refiere a las formas de analizar documentos XML. La respuesta correcta es «A que las aplicaciones se separarán en tres capas, estableciendo una capa de lógica de presentación, una capa de lógica de negocio y una capa de datos o de persistencia.». Referencia del temario: B3T7 · 1. Arquitecturas de sistemas cliente/servidor y multicapa."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-12",
+        "section": "test-oficial",
+        "prompt": "Axis2 es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una base de datos NoSQL."
+          },
+          {
+            "id": "b",
+            "label": "Un motor de búsqueda."
+          },
+          {
+            "id": "c",
+            "label": "Un motor nuclear de servicios web."
+          },
+          {
+            "id": "d",
+            "label": "Una librería para la automatización de tareas de compilación y despliegue de aplicaciones."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Apache Axis2 es un motor o framework para servicios web, con implementaciones para Java y C. La expresion motor nuclear del PDF debe entenderse como nucleo de procesamiento de servicios, no como una base de datos, un buscador o una herramienta de compilacion. La respuesta correcta es «Un motor nuclear de servicios web.». Referencia del temario: B3T7 · 7. Frameworks."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-13",
+        "section": "test-oficial",
+        "prompt": "Un mensaje SOAP consta de un elemento:",
+        "options": [
+          {
+            "id": "a",
+            "label": "<Envelope> obligatorio, que contiene un elemento <Header> obligatorio y un elemento <Body> obligatorio."
+          },
+          {
+            "id": "b",
+            "label": "<Envelope> obligatorio, que contiene un elemento <Header> opcional y un elemento <Body> obligatorio."
+          },
+          {
+            "id": "c",
+            "label": "<Envelope> obligatorio, que contiene un elemento <Header> obligatorio y un elemento <Body> opcional."
+          },
+          {
+            "id": "d",
+            "label": "<Envelope> opcional, que contiene un elemento <Header> opcional y un elemento <Body> obligatorio."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Un mensaje SOAP tiene un Envelope obligatorio que contiene un Body obligatorio y puede incluir un Header opcional. El encabezado lleva informacion adicional de procesamiento; no es necesario en todo mensaje ni puede reemplazar al cuerpo. La respuesta correcta es «<Envelope> obligatorio, que contiene un elemento <Header> opcional y un elemento <Body> obligatorio.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-14",
+        "section": "test-oficial",
+        "prompt": "En una arquitectura cliente/servidor, las capas del modelo de 3 capas se denominan:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Presentación, transformación y almacenamiento."
+          },
+          {
+            "id": "b",
+            "label": "Vista, control y almacenamiento."
+          },
+          {
+            "id": "c",
+            "label": "Front-end, transformación y back-end."
+          },
+          {
+            "id": "d",
+            "label": "Presentación, lógica de negocio y datos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La denominacion usada por el tema es presentacion, logica de negocio y datos. La presentacion atiende la interfaz, el negocio aplica reglas y coordina operaciones, y la capa de datos conserva y gestiona la informacion. La respuesta correcta es «Presentación, lógica de negocio y datos.». Referencia del temario: B3T7 · 1. Arquitecturas de sistemas cliente/servidor y multicapa."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-15",
+        "section": "test-oficial",
+        "prompt": "Entre los objetivos principales de las arquitecturas de servicios web se encuentra:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proporcionar interoperabilidad entre aplicaciones desarrolladas en diferentes entornos tecnológicos."
+          },
+          {
+            "id": "b",
+            "label": "Garantizar la persistencia de datos en entornos de alta disponibilidad."
+          },
+          {
+            "id": "c",
+            "label": "Simplificar el balanceo de carga en infraestructuras web basadas en granjas de servidores."
+          },
+          {
+            "id": "d",
+            "label": "Aprovechar las ventajas de los servidores dispuestos en clúster."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los servicios web permiten interoperar mediante interfaces y formatos estandarizados entre aplicaciones de distintas tecnologias. La alta disponibilidad, la persistencia o el balanceo pueden ser decisiones del despliegue, pero no constituyen por si solas su objetivo principal. La respuesta correcta es «Proporcionar interoperabilidad entre aplicaciones desarrolladas en diferentes entornos tecnológicos.». Referencia del temario: B3T7 · Arquitectura de servicios web y protocolos asociados."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-16",
+        "section": "test-oficial",
+        "prompt": "Si usamos servicios web siguiendo una arquitectura tipo REST y recibimos una respuesta con un código de estado 503, ¿qué significa?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Que la petición ha sido completada correctamente."
+          },
+          {
+            "id": "b",
+            "label": "Que el servicio no está disponible."
+          },
+          {
+            "id": "c",
+            "label": "Que la petición contiene una sintaxis incorrecta o no puede procesarse."
+          },
+          {
+            "id": "d",
+            "label": "Que el servidor ha fallado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: HTTP 503 Service Unavailable indica que el servidor no puede atender temporalmente la solicitud, por ejemplo por sobrecarga o mantenimiento. No equivale a 400 Bad Request ni a 500 Internal Server Error, y puede acompanarse de Retry-After. La respuesta correcta es «Que el servicio no está disponible.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-17",
+        "section": "test-oficial",
+        "prompt": "Sobre la arquitectura REST señale la opción INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Permite crear servicios web ligeros."
+          },
+          {
+            "id": "b",
+            "label": "El cliente puede acceder a los recursos a través de su identificador (URI)."
+          },
+          {
+            "id": "c",
+            "label": "Es un estilo arquitectónico."
+          },
+          {
+            "id": "d",
+            "label": "La representación de un recurso se diseña solo mediante JSON."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: REST no impone JSON como unico formato de representacion. Un recurso puede representarse mediante JSON, XML, HTML u otros tipos de medios, mientras se respeten las restricciones arquitectonicas y el intercambio sea autodescriptivo. La respuesta correcta es «La representación de un recurso se diseña solo mediante JSON.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-18",
+        "section": "test-oficial",
+        "prompt": "En relación con los servicios web y SOAP, las siglas MTOM se corresponde con:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Mail Transmission Optimization Mechanism."
+          },
+          {
+            "id": "b",
+            "label": "Message Transmission Optimization Mechanism."
+          },
+          {
+            "id": "c",
+            "label": "Message Transport Optimization Module."
+          },
+          {
+            "id": "d",
+            "label": "Mail Transport Optimization Module."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: MTOM corresponde a Message Transmission Optimization Mechanism. Optimiza el envio de contenido binario en mensajes SOAP evitando transportar siempre ese contenido como texto Base64 incrustado; suele combinarse con XOP y empaquetado MIME. La respuesta correcta es «Message Transmission Optimization Mechanism.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-19",
+        "section": "test-oficial",
+        "prompt": "¿Qué afirmación es correcta en relación con el protocolo SOAP?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un protocolo de comunicación basado en HTML."
+          },
+          {
+            "id": "b",
+            "label": "Especifica el formato del mensaje de la comunicación entre ordenadores."
+          },
+          {
+            "id": "c",
+            "label": "Se utiliza para intercambio de información ente ordenadores con el mismo sistema operativo."
+          },
+          {
+            "id": "d",
+            "label": "Define los protocolos de transporte utilizados en el envío del mensaje."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: SOAP especifica un marco de mensajeria XML: estructura del sobre, reglas de procesamiento y extensibilidad. No depende de HTML ni de que emisor y receptor usen el mismo sistema operativo, y admite vinculaciones a distintos transportes. La respuesta correcta es «Especifica el formato del mensaje de la comunicación entre ordenadores.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-20",
+        "section": "test-oficial",
+        "prompt": "En el marco de la arquitectura SOAP de servicios web, indique la afirmación FALSA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A partir del WSDL las aplicaciones clientes podrán implementar las interfaces para conectarse al servidor que oferta los servicios web."
+          },
+          {
+            "id": "b",
+            "label": "UDDI es un protocolo que permite a las aplicaciones comprobar qué servicios web están disponibles para su utilización."
+          },
+          {
+            "id": "c",
+            "label": "A diferencia de RMI tradicionalmente vinculado a Java, SOAP permite la comunicación entre diferentes tecnologías."
+          },
+          {
+            "id": "d",
+            "label": "SOAP usa comunicaciones http y no soporta comunicaciones por https."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La afirmacion falsa es que SOAP no soporta HTTPS. Puede intercambiarse mediante HTTP protegido con TLS, y su independencia de la plataforma facilita la interoperabilidad; la proteccion del transporte es distinta de la seguridad a nivel de mensaje. La respuesta correcta es «SOAP usa comunicaciones http y no soporta comunicaciones por https.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-21",
+        "section": "test-oficial",
+        "prompt": "¿Qué define el estándar WSDL del W3C?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un esquema XML para sindicación de contenidos a través de lectores RSS."
+          },
+          {
+            "id": "b",
+            "label": "Una gramática XML para describir la interfaz de un servicio web."
+          },
+          {
+            "id": "c",
+            "label": "Pautas de Accesibilidad al Contenido en la Web."
+          },
+          {
+            "id": "d",
+            "label": "WSDL no es un estándar del W3C."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: WSDL es un lenguaje XML que describe un servicio web y su interfaz. Su documento permite conocer las operaciones y las condiciones tecnicas de acceso; no es un formato RSS ni una guia de accesibilidad del contenido web. La respuesta correcta es «Una gramática XML para describir la interfaz de un servicio web.». Referencia del temario: B3T7 · 5.4. WSDL: descripcion."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-22",
+        "section": "test-oficial",
+        "prompt": "¿Qué es SAML?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un estándar abierto que define un esquema XML para el intercambio de datos de autenticación y autorización."
+          },
+          {
+            "id": "b",
+            "label": "Variante de UML especializada en el modelado de máquinas de estado."
+          },
+          {
+            "id": "c",
+            "label": "Lenguaje para la especificación de conjuntos de pruebas de software."
+          },
+          {
+            "id": "d",
+            "label": "Motor de enrutamiento y mediación basado en reglas que provee una implementación basada en objetos Java."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Security Assertion Markup Language es un estandar de OASIS para representar e intercambiar aserciones de seguridad en XML. Esas aserciones pueden contener datos de autenticacion, atributos o decisiones de autorizacion, no diagramas UML ni casos de prueba. La respuesta correcta es «Un estándar abierto que define un esquema XML para el intercambio de datos de autenticación y autorización.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-23",
+        "section": "test-oficial",
+        "prompt": "Marque la respuesta verdadera:",
+        "options": [
+          {
+            "id": "a",
+            "label": "SOAP es una tecnología de intercambio basada en XML que permite la interacción entre varios dispositivos."
+          },
+          {
+            "id": "b",
+            "label": "Un servicio web es un sistema software diseñado para soportar la interacción máquina-a-máquina y hombre-a-máquina, a través de una red de forma interoperable."
+          },
+          {
+            "id": "c",
+            "label": "La arquitectura de servicios web propuesta por el W3C especifica la implementación de los servicios web e impone restricciones sobre cómo deben relacionarse, combinarse o coordinarse entre sí."
+          },
+          {
+            "id": "d",
+            "label": "MTOM (Message Transmission Optimization Mechanism) es un método definido en el W3C para el envío eficiente de datos binarios entre servicios web."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La plantilla selecciona MTOM porque optimiza la transmision de datos binarios en servicios web. El enunciado es ambiguo: la opcion a tambien describe correctamente SOAP como mensajeria basada en XML. Se mantiene d como respuesta esperada, sin presentar a como tecnicamente falsa. La respuesta correcta es «MTOM (Message Transmission Optimization Mechanism) es un método definido en el W3C para el envío eficiente de datos binarios entre servicios web.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-24",
+        "section": "test-oficial",
+        "prompt": "En una aplicación siguiendo una arquitectura de 3 capas, ¿dónde se encuentran ubicadas las reglas de negocio?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el servidor de aplicaciones."
+          },
+          {
+            "id": "b",
+            "label": "En el servidor de datos."
+          },
+          {
+            "id": "c",
+            "label": "En el cliente."
+          },
+          {
+            "id": "d",
+            "label": "En el servidor HTTP/TLS."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: En el despliegue de tres niveles descrito, las reglas de negocio se ejecutan en el servidor de aplicaciones. El nivel de datos se ocupa del almacenamiento y el cliente de la interfaz; esta distribucion evita concentrar las reglas en cada cliente. La respuesta correcta es «En el servidor de aplicaciones.». Referencia del temario: B3T7 · 1. Arquitecturas de sistemas cliente/servidor y multicapa."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-25",
+        "section": "test-oficial",
+        "prompt": "Los servicios web son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dependientes de la plataforma en que se encuentran desplegados y dependientes del lenguaje en que han sido desarrollados."
+          },
+          {
+            "id": "b",
+            "label": "Dependientes de la plataforma en que se encuentran desplegados e independientes del lenguaje en que han sido desarrollados."
+          },
+          {
+            "id": "c",
+            "label": "Independientes de la plataforma en que se encuentran desplegados y dependientes del lenguaje en que han sido desarrollados."
+          },
+          {
+            "id": "d",
+            "label": "Independientes de la plataforma en que se encuentran desplegados e independientes del lenguaje en que han sido desarrollados."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La interoperabilidad de los servicios web permite que proveedor y consumidor utilicen plataformas y lenguajes diferentes. Lo necesario es que respeten la interfaz y los formatos de comunicacion acordados, no que compartan internamente la misma tecnologia. La respuesta correcta es «Independientes de la plataforma en que se encuentran desplegados e independientes del lenguaje en que han sido desarrollados.». Referencia del temario: B3T7 · Arquitectura de servicios web y protocolos asociados."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-26",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un principio de diseño de la arquitectura orientada a servicios?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Autonomía."
+          },
+          {
+            "id": "b",
+            "label": "Reusabilidad."
+          },
+          {
+            "id": "c",
+            "label": "Alto acoplamiento."
+          },
+          {
+            "id": "d",
+            "label": "Contrato de servicio."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: SOA busca bajo acoplamiento: los consumidores dependen del contrato publicado y no de los detalles internos del servicio. El alto acoplamiento dificultaria sustituir implementaciones y reutilizar capacidades, por lo que no es un principio de diseno de esa lista. La respuesta correcta es «Alto acoplamiento.». Referencia del temario: B3T7 · 2. Arquitectura orientada a servicios (SOA)."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-27",
+        "section": "test-oficial",
+        "prompt": "En la arquitectura SOA, ¿cuáles son las forma de colaboración entre servicios?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Orquestación y composición."
+          },
+          {
+            "id": "b",
+            "label": "Colaboración y coreografía."
+          },
+          {
+            "id": "c",
+            "label": "Coreografía y composición."
+          },
+          {
+            "id": "d",
+            "label": "Orquestación y coreografía."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La orquestacion coordina el flujo desde un proceso central, mientras que la coreografia establece la colaboracion entre participantes sin un unico coordinador. Ambas son formas de colaboracion; composicion es una capacidad mas general de combinar servicios. La respuesta correcta es «Orquestación y coreografía.». Referencia del temario: B3T7 · 2. Arquitectura orientada a servicios (SOA)."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-28",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los microservicios son desplegados de forma independiente."
+          },
+          {
+            "id": "b",
+            "label": "Los microservicios no permiten un escalado a demanda."
+          },
+          {
+            "id": "c",
+            "label": "Los microservicios no están pensados para la implementación de aplicaciones complejas."
+          },
+          {
+            "id": "d",
+            "label": "Los microservicios de una aplicación están desarrollados con el mismo lenguaje de programación y las mismas tecnologías."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El despliegue independiente permite actualizar un microservicio sin volver a desplegar necesariamente toda la aplicacion. Deben respetarse los contratos de comunicacion; esto no obliga a usar un unico lenguaje ni impide escalar servicios segun su demanda. La respuesta correcta es «Los microservicios son desplegados de forma independiente.». Referencia del temario: B3T7 · 3. Arquitectura de microservicios."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-29",
+        "section": "test-oficial",
+        "prompt": "¿Qué significa SOAP?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Standard Object Access Permanent."
+          },
+          {
+            "id": "b",
+            "label": "Stack Open Access Protocol."
+          },
+          {
+            "id": "c",
+            "label": "Security Open Access Protocol."
+          },
+          {
+            "id": "d",
+            "label": "Simple Object Access Protocol."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La expansion historica de SOAP es Simple Object Access Protocol. SOAP 1.2 utiliza el nombre SOAP sin desarrollar el acronimo; ninguna de las otras expansiones propuestas en el test corresponde a esa denominacion historica. La respuesta correcta es «Simple Object Access Protocol.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-30",
+        "section": "test-oficial",
+        "prompt": "En el protocolo HTTP, el código de error que indica “Not Found” es el:",
+        "options": [
+          {
+            "id": "a",
+            "label": "101."
+          },
+          {
+            "id": "b",
+            "label": "202."
+          },
+          {
+            "id": "c",
+            "label": "303."
+          },
+          {
+            "id": "d",
+            "label": "404."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: HTTP 404 Not Found significa que el servidor no encuentra una representacion actual del recurso solicitado o no quiere revelar su existencia. Pertenece a la familia 4xx; no es un codigo de aceptacion, cambio de protocolo o redireccion. La respuesta correcta es «404.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-31",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta sobre la arquitectura de microservicios:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los microservicios interactúan entre sí mediante protocolos cerrados."
+          },
+          {
+            "id": "b",
+            "label": "Deben ser escritos en lenguajes de programación específicos."
+          },
+          {
+            "id": "c",
+            "label": "Tienen nombre únicos, como direcciones URL, que se usan para resolver su ubicación."
+          },
+          {
+            "id": "d",
+            "label": "Service Fabric es la plataforma de microservicios de Apache."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Los servicios pueden identificarse mediante nombres o direcciones resueltos a su ubicacion, facilitando el descubrimiento. No requieren protocolos cerrados ni un lenguaje unico. Service Fabric pertenece a Microsoft, no a Apache, como indica el distractor. La respuesta correcta es «Tienen nombre únicos, como direcciones URL, que se usan para resolver su ubicación.». Referencia del temario: B3T7 · 3. Arquitectura de microservicios."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-32",
+        "section": "test-oficial",
+        "prompt": "Los servicios web que utilizan estándares tales como URIs, HTTP y JSON son aquellos basados en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "SOAP."
+          },
+          {
+            "id": "b",
+            "label": "REST."
+          },
+          {
+            "id": "c",
+            "label": "APIs."
+          },
+          {
+            "id": "d",
+            "label": "HTML."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En el contexto del tema, RESTful identifica servicios basados en recursos direccionables por URI, metodos HTTP y representaciones como JSON. API es una denominacion mas amplia; usar HTTP y JSON por si solo no garantiza cumplir todas las restricciones REST. La respuesta correcta es «REST.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-33",
+        "section": "test-oficial",
+        "prompt": "En relación con la arquitectura de microservicios, señale la característica INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cada microservicio se puede desplegar independientemente."
+          },
+          {
+            "id": "b",
+            "label": "Cada microservicio está controlado por un Service worker."
+          },
+          {
+            "id": "c",
+            "label": "Cada microservicio puede estar programado en un lenguaje diferente."
+          },
+          {
+            "id": "d",
+            "label": "Cada microservicio puede utilizar su propia base de datos."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Service worker es una tecnologia del navegador y no un controlador obligatorio de cada microservicio. El despliegue independiente y la libertad para elegir lenguaje y almacenamiento si son caracteristicas de la arquitectura de microservicios del tema. La respuesta correcta es «Cada microservicio está controlado por un Service worker.». Referencia del temario: B3T7 · 3. Arquitectura de microservicios."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-34",
+        "section": "test-oficial",
+        "prompt": "Señale cuál es un estándar OASIS encargado de delimitar las diferentes políticas aplicables a los servicios web:",
+        "options": [
+          {
+            "id": "a",
+            "label": "WS-Addressing."
+          },
+          {
+            "id": "b",
+            "label": "WS-Federation."
+          },
+          {
+            "id": "c",
+            "label": "WS-SecureConversation."
+          },
+          {
+            "id": "d",
+            "label": "WS-Policy."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: WS-Policy describe politicas y requisitos de los servicios, por eso es la respuesta esperada. Hay una imprecision de organismo en la pregunta: WS-Policy 1.5 es una recomendacion W3C. WS-Addressing trata el direccionamiento y WS-SecureConversation contextos de seguridad. La respuesta correcta es «WS-Policy.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-35",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "OAuth 2.0 es un protocolo de autorización basado en tokens y también es un protocolo de autenticación."
+          },
+          {
+            "id": "b",
+            "label": "SAML 2.0 es un estándar de OASIS que define un esquema XML para el intercambio de datos de autenticación."
+          },
+          {
+            "id": "c",
+            "label": "SAML 2.0 utiliza HTTP para los mecanismos de transporte de datos."
+          },
+          {
+            "id": "d",
+            "label": "SAML significa Security Assertion Markup Language."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: OAuth 2.0 es un marco de autorizacion para acceder a recursos mediante tokens, no un protocolo que autentique por si mismo al usuario ante el cliente. SAML representa aserciones de seguridad; no deben confundirse identidad, autorizacion y formato del token. La respuesta correcta es «OAuth 2.0 es un protocolo de autorización basado en tokens y también es un protocolo de autenticación.». Referencia del temario: B3T7 · 6.2-6.3. OAuth 2.0 y JWT."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-36",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta correcta respecto de WSDL:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El elemento raíz de un documento WSDL es <definition>."
+          },
+          {
+            "id": "b",
+            "label": "WSDL 2.0 define dos secciones: sección abstracta y sección concreta."
+          },
+          {
+            "id": "c",
+            "label": "El elemento <service> describe la funcionalidad abstracta del servicio web."
+          },
+          {
+            "id": "d",
+            "label": "El elemento <interface> define el conjunto de funciones que han sido expuestas en el servicio web."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La plantilla elige la separacion abstracta y concreta de WSDL 2.0. El enunciado es ambiguo porque interface tambien describe el conjunto de operaciones, como indica d. Ademas, la raiz es description en 2.0 y definitions en 1.1, no definition en singular. La respuesta correcta es «WSDL 2.0 define dos secciones: sección abstracta y sección concreta.». Referencia del temario: B3T7 · 5.4. WSDL: descripcion."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-37",
+        "section": "test-oficial",
+        "prompt": "Respecto a REST, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Usa las operaciones definidas en el protocolo HTTP."
+          },
+          {
+            "id": "b",
+            "label": "Los recursos son direccionables a través de su URL."
+          },
+          {
+            "id": "c",
+            "label": "Es un protocolo cliente/servidor sin estado."
+          },
+          {
+            "id": "d",
+            "label": "Hace uso de hipermedios."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La plantilla PDF marca b; se corrige a c porque REST es un estilo arquitectonico, no un protocolo. Una URL puede identificar un recurso como caso particular de URI, y el uso de hipermedios si corresponde a la interfaz uniforme REST. La respuesta correcta es «Es un protocolo cliente/servidor sin estado.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-38",
+        "section": "test-oficial",
+        "prompt": "¿Cuál NO es una de las restricciones que se han de cumplir para implementar REST?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Utiliza un sistema de niveles."
+          },
+          {
+            "id": "b",
+            "label": "Las respuestas a una petición deben poder ser etiquetadas como cacheable o no cacheable."
+          },
+          {
+            "id": "c",
+            "label": "Código bajo demanda."
+          },
+          {
+            "id": "d",
+            "label": "Toda información que viaja en un elemento de comunicación atómico entre cliente y servidor es autocontenida, y no se almacena ningún tipo de estado del cliente por parte del servidor."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El sistema de capas si pertenece a REST, por lo que la plantilla a es incorrecta. Se selecciona c interpretando la pregunta como restriccion no obligatoria: el codigo bajo demanda es opcional. El enunciado es ambiguo, pues todas las alternativas nombran restricciones REST, una de ellas opcional. La respuesta correcta es «Código bajo demanda.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-39",
+        "section": "test-oficial",
+        "prompt": "En relación con las operaciones en los servicios web RESTful, indique la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "GET es una operación segura e idempotente."
+          },
+          {
+            "id": "b",
+            "label": "POST permite crear un recurso."
+          },
+          {
+            "id": "c",
+            "label": "PUT no es una operación idempotente."
+          },
+          {
+            "id": "d",
+            "label": "DELETE permite eliminar un recurso."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: PUT es idempotente: repetir la misma solicitud tiene el mismo efecto previsto que ejecutarla una vez. Por eso es falsa la opcion que niega esa propiedad. GET es seguro e idempotente, mientras que POST no garantiza idempotencia por su semantica general. La respuesta correcta es «PUT no es una operación idempotente.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-40",
+        "section": "test-oficial",
+        "prompt": "Señale la respuesta INCORRECTA sobre JWT:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un estándar abierto."
+          },
+          {
+            "id": "b",
+            "label": "JWT es el acrónimo de JSON Web Token."
+          },
+          {
+            "id": "c",
+            "label": "Es un mecanismo de autenticación con estado."
+          },
+          {
+            "id": "d",
+            "label": "Define una forma compacta y autónoma de transmitir información segura entre las partes."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: JWT es un formato de token para transportar claims, no por si mismo un protocolo de autenticacion. Puede usarse en validacion sin una sesion de servidor, por lo que la opcion con estado contradice el esquema del tema. Firmar un JWT no cifra automaticamente sus datos. La respuesta correcta es «Es un mecanismo de autenticación con estado.». Referencia del temario: B3T7 · 6.2-6.3. OAuth 2.0 y JWT."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-41",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes respuestas relativas a los protocolos de intercambio de datos SOAP y REST es la correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Únicamente SOAP permite la comunicación de datos entre aplicaciones web."
+          },
+          {
+            "id": "b",
+            "label": "REST plantea una comunicación cliente/servidor sin estado, siendo SOAP el formato preferido para el intercambio de mensajes."
+          },
+          {
+            "id": "c",
+            "label": "Las APIS basadas en SOAP se consideran más ligeras que sus equivalentes REST."
+          },
+          {
+            "id": "d",
+            "label": "REST es un estilo arquitectónico."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: REST define restricciones arquitectonicas para sistemas distribuidos, no un protocolo de mensajeria concreto. SOAP es un marco de mensajes XML; utilizar SOAP como formato preferido no es una exigencia de REST y ambas tecnologias permiten comunicacion entre aplicaciones. La respuesta correcta es «REST es un estilo arquitectónico.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-42",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es la finalidad de OpenAPI?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Para la indexación de ficheros en un agregador de logs."
+          },
+          {
+            "id": "b",
+            "label": "Para el desarrollo y documentación de APIs REST."
+          },
+          {
+            "id": "c",
+            "label": "Para la implementación de servicios web RESTful."
+          },
+          {
+            "id": "d",
+            "label": "Para el desarrollo de interfaces de usuario multidispositivo."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: OpenAPI especifica interfaces de APIs HTTP de manera independiente del lenguaje de implementacion. Permite documentar operaciones y esquemas y apoyar generacion de clientes o pruebas, pero no es por si mismo el servidor que ejecuta la API. La respuesta correcta es «Para el desarrollo y documentación de APIs REST.». Referencia del temario: B3T7 · 6.4. Especificacion de APIs: OpenAPI."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-43",
+        "section": "test-oficial",
+        "prompt": "Entre los siguiente, ¿cuál NO es un principio de diseño en una arquitectura orientada a servicios?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Bajo acoplamiento."
+          },
+          {
+            "id": "b",
+            "label": "Abstracción."
+          },
+          {
+            "id": "c",
+            "label": "Interoperabilidad."
+          },
+          {
+            "id": "d",
+            "label": "Portabilidad."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La lista de principios SOA del tema incluye bajo acoplamiento, abstraccion e interoperabilidad. Portabilidad no aparece como principio independiente en esa enumeracion, aunque pueda ser una cualidad deseable de una implementacion concreta. La respuesta correcta es «Portabilidad.». Referencia del temario: B3T7 · 2. Arquitectura orientada a servicios (SOA)."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-44",
+        "section": "test-oficial",
+        "prompt": "¿Qué estándar designa un registro para publicar y encontrar información sobre servicios web en una arquitectura orientada a servicios?",
+        "options": [
+          {
+            "id": "a",
+            "label": "WSDL."
+          },
+          {
+            "id": "b",
+            "label": "UDDI."
+          },
+          {
+            "id": "c",
+            "label": "SOAP."
+          },
+          {
+            "id": "d",
+            "label": "REST."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: UDDI es un registro para publicar y localizar descripciones de servicios. WSDL describe su interfaz y acceso, mientras que SOAP define mensajes y REST un estilo arquitectonico; cada tecnologia cumple una funcion distinta. La respuesta correcta es «UDDI.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-45",
+        "section": "test-oficial",
+        "prompt": "De entre las siguientes, indique cuál NO es una característica que identifique a la Arquitectura Orientada a Servicios (SOA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los servicios son autónomos. Cada servicio SOA se mantiene y desarrolla de forma independiente."
+          },
+          {
+            "id": "b",
+            "label": "Los servicios se pueden descomponer. Cada servicio SOA es independiente de los otros y puede ser remplazado o actualizado sin romper con las aplicaciones que conecta."
+          },
+          {
+            "id": "c",
+            "label": "Los servicios son distribuibles. Se pueden ubicar en cualquier parte sobre la red, siempre que este soporte los protocolos de comunicación requeridos."
+          },
+          {
+            "id": "d",
+            "label": "Los servicios comparten contratos, esquemas y clases internas cuando se comunican."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: SOA comparte contratos y esquemas de mensajes, no exige compartir las clases internas de las implementaciones. Depender de esas clases romperia la abstraccion y aumentaria el acoplamiento entre consumidor y proveedor. La respuesta correcta es «Los servicios comparten contratos, esquemas y clases internas cuando se comunican.». Referencia del temario: B3T7 · 2. Arquitectura orientada a servicios (SOA)."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-46",
+        "section": "test-oficial",
+        "prompt": "Si se quiere desarrollar en Java servicios web RESTful, hará uso de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "RESTEasy."
+          },
+          {
+            "id": "b",
+            "label": "WCF."
+          },
+          {
+            "id": "c",
+            "label": "CodeIgniter."
+          },
+          {
+            "id": "d",
+            "label": "OpenAPI."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: RESTEasy implementa la API de servicios REST en Java, conocida como JAX-RS y actualmente Jakarta REST. WCF pertenece al entorno .NET, CodeIgniter al ecosistema PHP y OpenAPI describe interfaces, sin ser un framework de ejecucion Java. La respuesta correcta es «RESTEasy.». Referencia del temario: B3T7 · 7. Frameworks."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-47",
+        "section": "test-oficial",
+        "prompt": "Para solicitar la creación de un nuevo registro mediante un servicio REST se usa el verbo HTTP:",
+        "options": [
+          {
+            "id": "a",
+            "label": "NEW."
+          },
+          {
+            "id": "b",
+            "label": "DELETE."
+          },
+          {
+            "id": "c",
+            "label": "GET."
+          },
+          {
+            "id": "d",
+            "label": "POST."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: En el uso CRUD habitual, POST sobre una coleccion solicita crear un nuevo recurso y el servidor puede asignar su identificador. NEW no es el verbo HTTP de esa operacion; GET recupera y DELETE solicita eliminar el recurso. La respuesta correcta es «POST.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-48",
+        "section": "test-oficial",
+        "prompt": "¿Cuáles son las características de una API REST?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Peer to Peer; Con estado; Cacheable; Interfaz Uniforme; Sistema de Capas."
+          },
+          {
+            "id": "b",
+            "label": "Peer to Peer; Sin estado; Cacheable; Interfaz Uniforme; Sistema de Capas."
+          },
+          {
+            "id": "c",
+            "label": "Cliente/servidor; Sin estado; Cacheable; Interfaz Uniforme; Sistema de Capas."
+          },
+          {
+            "id": "d",
+            "label": "Cliente/servidor; Con estado; Cacheable; Interfaz Uniforme; Sistema de Capas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La combinacion correcta incluye cliente-servidor, ausencia de estado de sesion en el servidor, cache, interfaz uniforme y sistema de capas. Peer-to-peer y mantener la sesion del cliente en el servidor no corresponden a esa lista; codigo bajo demanda es opcional. La respuesta correcta es «Cliente/servidor; Sin estado; Cacheable; Interfaz Uniforme; Sistema de Capas.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-49",
+        "section": "test-oficial",
+        "prompt": "Señale cuál de las siguientes afirmaciones sobre la arquitectura REST es correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Algunas de las operaciones habituales son GET, POST, UPDATE y DELETE."
+          },
+          {
+            "id": "b",
+            "label": "No se permite que los clientes puedan cachear las respuestas."
+          },
+          {
+            "id": "c",
+            "label": "Cada recurso es accesible (direccionable) de manera única a través de su URI."
+          },
+          {
+            "id": "d",
+            "label": "El estado de la sesión se guarda y se mantiene en el servidor."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: REST identifica recursos mediante URI para que puedan ser direccionados. Las respuestas pueden ser cacheables, UPDATE no es el metodo HTTP normalizado para actualizar y la ausencia de estado exige solicitudes autosuficientes respecto de la sesion del cliente. La respuesta correcta es «Cada recurso es accesible (direccionable) de manera única a través de su URI.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-50",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se llama la capa SOA que contiene las funcionalidades de los componentes de la lógica de negocio que se publican para uso de los clientes y que se referencian a partir de la interfaz siendo transparentes a su implementación?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Capa de Servicios."
+          },
+          {
+            "id": "b",
+            "label": "Capa de Procesos de negocio."
+          },
+          {
+            "id": "c",
+            "label": "Capa de Componentes de negocio."
+          },
+          {
+            "id": "d",
+            "label": "Capa de Sistemas operacionales."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La capa de servicios publica funcionalidades mediante interfaces o contratos accesibles a consumidores. Los detalles de la implementacion permanecen ocultos; la capa de procesos coordina flujos y los sistemas operacionales aportan capacidades existentes. La respuesta correcta es «Capa de Servicios.». Referencia del temario: B3T7 · 2. Arquitectura orientada a servicios (SOA)."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-51",
+        "section": "test-oficial",
+        "prompt": "NO es una herramienta para especificar APIs HTTP:",
+        "options": [
+          {
+            "id": "a",
+            "label": "WADL."
+          },
+          {
+            "id": "b",
+            "label": "WSDL."
+          },
+          {
+            "id": "c",
+            "label": "API Blueprint."
+          },
+          {
+            "id": "d",
+            "label": "Swagger UI."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La respuesta esperada es WSDL porque el tema lo situa en la descripcion de servicios SOAP, frente a las herramientas de APIs HTTP citadas. Es una simplificacion: WSDL 2.0 tambien admite binding HTTP y Swagger UI visualiza una especificacion OpenAPI, no es un lenguaje de especificacion distinto. La respuesta correcta es «WSDL.». Referencia del temario: B3T7 · 5.4. WSDL: descripcion."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-52",
+        "section": "test-oficial",
+        "prompt": "Sobre OAuth 2.0 señale todos los elementos que intervienen en el proceso de acceso a un recurso:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cliente, servidor de autorización, propietario del recurso y recurso."
+          },
+          {
+            "id": "b",
+            "label": "Representante del cliente, servidor de autorización y recurso."
+          },
+          {
+            "id": "c",
+            "label": "Servidor de autorización, propietario del recurso, recurso."
+          },
+          {
+            "id": "d",
+            "label": "Cliente, propietario del recurso y servidor de autorización y propietario del recurso."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La opcion a es la mas cercana, pero su termino recurso simplifica un rol. OAuth 2.0 distingue propietario del recurso, cliente, servidor de autorizacion y servidor de recursos. El recurso protegido no debe confundirse con el servidor que lo ofrece y valida el acceso. La respuesta correcta es «Cliente, servidor de autorización, propietario del recurso y recurso.». Referencia del temario: B3T7 · 6.2-6.3. OAuth 2.0 y JWT."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-53",
+        "section": "test-oficial",
+        "prompt": "Es una característica de los microservicios:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se despliegan de forma conjunta."
+          },
+          {
+            "id": "b",
+            "label": "No permiten la implementación de aplicaciones de gran tamaño."
+          },
+          {
+            "id": "c",
+            "label": "Son autónomos."
+          },
+          {
+            "id": "d",
+            "label": "Están fuertemente acoplados."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La autonomia permite desarrollar y operar una capacidad de negocio con limites propios. Los microservicios buscan bajo acoplamiento y despliegue independiente, y pueden componer aplicaciones grandes; no requieren actualizarse todos conjuntamente. La respuesta correcta es «Son autónomos.». Referencia del temario: B3T7 · 3. Arquitectura de microservicios."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-54",
+        "section": "test-oficial",
+        "prompt": "Señale la opción correcta sobre la arquitectura de servicios web REST:",
+        "options": [
+          {
+            "id": "a",
+            "label": "En la arquitectura REST, el servicio no almacena información sobre el estado del cliente entre peticiones."
+          },
+          {
+            "id": "b",
+            "label": "El uso de identificadores está basado en SOA."
+          },
+          {
+            "id": "c",
+            "label": "En la arquitectura REST, la interfaz para acceder a los recursos expuestos puede ser HTTP, SMTP o FTP."
+          },
+          {
+            "id": "d",
+            "label": "Es una arquitectura no orientada a recursos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La restriccion stateless exige que cada peticion incluya la informacion necesaria sin depender de una sesion de cliente retenida entre solicitudes. Esto no impide almacenar recursos de negocio, bases de datos o contenido cacheable en el servidor. La respuesta correcta es «En la arquitectura REST, el servicio no almacena información sobre el estado del cliente entre peticiones.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-55",
+        "section": "test-oficial",
+        "prompt": "En servicios web SOAP, para firmar mensajes se utiliza:",
+        "options": [
+          {
+            "id": "a",
+            "label": "JWT."
+          },
+          {
+            "id": "b",
+            "label": "WS-Security."
+          },
+          {
+            "id": "c",
+            "label": "XML-Digital."
+          },
+          {
+            "id": "d",
+            "label": "SAML."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: WS-Security incorpora proteccion a nivel de mensaje SOAP, incluyendo mecanismos basados en XML Signature y XML Encryption. HTTPS protege el canal de transporte; SAML intercambia aserciones y JWT es un formato de token, no el estandar de firma SOAP preguntado. La respuesta correcta es «WS-Security.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-56",
+        "section": "test-oficial",
+        "prompt": "En la arquitectura orientada a servicios, sus componentes principales son:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Servicio, Proveedor de servicios, Consumidor de servicios y Comparador de servicios."
+          },
+          {
+            "id": "b",
+            "label": "Servicio, Proveedor de servicios, Consumidor de servicios y Depurador de servicios."
+          },
+          {
+            "id": "c",
+            "label": "Servicio, Proveedor de servicios, Consumidor de servicios y Registro de servicios."
+          },
+          {
+            "id": "d",
+            "label": "Servicio, Proveedor de servicios, Consumidor de servicios y Orquestador de servicios."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El modelo SOA del tema distingue servicio, proveedor, consumidor y registro. El registro ayuda a descubrir servicios; comparador, depurador y orquestador no sustituyen a ese componente, aunque una solucion pueda incluir herramientas con otras funciones. La respuesta correcta es «Servicio, Proveedor de servicios, Consumidor de servicios y Registro de servicios.». Referencia del temario: B3T7 · Arquitectura de servicios web y protocolos asociados."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-57",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes respuestas describe la relación entre REST y la arquitectura SOA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "REST es un protocolo obligatorio en SOA."
+          },
+          {
+            "id": "b",
+            "label": "REST es un estilo de arquitectónico que puede ser utilizado dentro de una arquitectura SOA para crear servicios ligeros y escalables."
+          },
+          {
+            "id": "c",
+            "label": "REST solo se utiliza para implementar servicios monolíticos y no es compatible con SOA."
+          },
+          {
+            "id": "d",
+            "label": "REST y SOA son incompatibles debido a sus diferencias en protocolos y arquitectura."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: SOA organiza capacidades accesibles como servicios y REST puede ser un modo de exponerlas mediante recursos e interfaces uniformes. SOA no obliga a usar SOAP ni convierte REST en un protocolo, y no existe una incompatibilidad general entre ambos enfoques. La respuesta correcta es «REST es un estilo de arquitectónico que puede ser utilizado dentro de una arquitectura SOA para crear servicios ligeros y escalables.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-58",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es una de las principales funciones de SAML en entornos de servicios web?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Proporcionar un formato de cifrado para proteger los datos en reposo."
+          },
+          {
+            "id": "b",
+            "label": "Permitir el acceso a múltiples sitios web permitiendo el inicio de sesión único."
+          },
+          {
+            "id": "c",
+            "label": "Gestionar el almacenamiento de contraseñas de los usuarios en los proveedores de servicios."
+          },
+          {
+            "id": "d",
+            "label": "Definir políticas de privacidad y confidencialidad para sitios web."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: SAML permite federar la identidad e intercambiar aserciones de autenticacion entre un proveedor de identidad y proveedores de servicios, facilitando el inicio de sesion unico. No es un sistema para almacenar todas las contrasenas ni un formato de cifrado de datos en reposo. La respuesta correcta es «Permitir el acceso a múltiples sitios web permitiendo el inicio de sesión único.». Referencia del temario: B3T7 · 5. Servicios web SOAP: arquitectura y tecnologias."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-59",
+        "section": "test-oficial",
+        "prompt": "En una aplicación siguiendo una arquitectura de 3 capas, ¿dónde se encuentran ubicadas interfaces de usuario y la exposición de los servicios web para que otras aplicaciones puedan consumirlas?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En el servidor de aplicaciones."
+          },
+          {
+            "id": "b",
+            "label": "En el servidor de datos."
+          },
+          {
+            "id": "c",
+            "label": "En el cliente."
+          },
+          {
+            "id": "d",
+            "label": "En el servidor web."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La respuesta corresponde al despliegue web descrito en el material: el servidor web publica interfaces y puntos de acceso para otros consumidores. No es una regla universal de toda arquitectura de tres capas, ya que interfaz y exposicion pueden distribuirse segun el diseno. La respuesta correcta es «En el servidor web.». Referencia del temario: B3T7 · 5.4. WSDL: descripcion."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-60",
+        "section": "test-oficial",
+        "prompt": "En un sistema, siguiendo una arquitectura multicapa y multinivel, el primer nivel está formado por una aplicación móvil nativa, ¿qué capa o capas alberga este primer nivel?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Capa de presentación."
+          },
+          {
+            "id": "b",
+            "label": "Capa de presentación y capa de lógica de negocio."
+          },
+          {
+            "id": "c",
+            "label": "Capa de lógica de negocio."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna capa."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: En la aplicacion movil nativa del modelo presentado, el primer nivel aloja la presentacion para interactuar con el usuario. La logica de negocio se situa en otros niveles; una app real podria asumir parte de esa logica, pero no es la distribucion que pregunta el tema. La respuesta correcta es «Capa de presentación.». Referencia del temario: B3T7 · 1. Arquitecturas de sistemas cliente/servidor y multicapa."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-61",
+        "section": "test-oficial",
+        "prompt": "En una aplicación basada en microservicios, ¿cuál de las siguientes herramientas es una plataforma de mensajería para poder comunicarse los microservicios entre sí?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Apache Synapse."
+          },
+          {
+            "id": "b",
+            "label": "RabbitMQ."
+          },
+          {
+            "id": "c",
+            "label": "Openshift."
+          },
+          {
+            "id": "d",
+            "label": "Kong."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: RabbitMQ es un broker de mensajeria que permite desacoplar emisores y consumidores mediante colas y enrutamiento. Kong es una puerta de enlace API, OpenShift una plataforma de aplicaciones y Apache Synapse se orienta a mediacion e integracion. La respuesta correcta es «RabbitMQ.». Referencia del temario: B3T7 · 3. Arquitectura de microservicios."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-62",
+        "section": "test-oficial",
+        "prompt": "¿Qué lenguaje derivado de XML se usa para describir servicios web, proporcionando información al cliente sobre cómo utilizar dichos servicios?",
+        "options": [
+          {
+            "id": "a",
+            "label": "SOAP."
+          },
+          {
+            "id": "b",
+            "label": "WSDL."
+          },
+          {
+            "id": "c",
+            "label": "UDDI."
+          },
+          {
+            "id": "d",
+            "label": "JAXP."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: WSDL expresa en XML la descripcion de un servicio: operaciones, mensajes y aspectos de acceso. SOAP define el intercambio de mensajes y UDDI el registro de servicios; JAXP es una API de procesamiento XML de Java, no un lenguaje de descripcion de servicios. La respuesta correcta es «WSDL.». Referencia del temario: B3T7 · 5.4. WSDL: descripcion."
+      },
+      {
+        "id": "b3t7-test-oficial-arquitectura-logica-y-ws-63",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO se considera un principio guía de las arquitecturas SOA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Seguridad."
+          },
+          {
+            "id": "b",
+            "label": "Reutilización."
+          },
+          {
+            "id": "c",
+            "label": "Interoperabilidad."
+          },
+          {
+            "id": "d",
+            "label": "Abstracción."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: En la lista concreta de ocho principios SOA del tema aparecen reutilizacion, interoperabilidad y abstraccion, pero no seguridad como principio separado. Esto no significa que SOA prescinda de seguridad: debe tratarla como requisito transversal de la arquitectura. La respuesta correcta es «Seguridad.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+      }
+    ]
   }
 ]

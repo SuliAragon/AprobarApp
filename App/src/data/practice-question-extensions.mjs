@@ -1,4 +1,5 @@
 import { b1t6PracticeEntries } from "./b1t6-practice-entries.mjs";
+import { b3t7PracticeEntries } from "./b3t7-practice-entries.mjs";
 
 const optionIds = ["a", "b", "c", "d"];
 
@@ -16,6 +17,7 @@ function question(id, section, prompt, options, correctIndex, explanation) {
 // Preguntas de practica redactadas desde el temario. Complementan, sin alterar,
 // los ejercicios oficiales que ya figuran en cada tema.
 export const practiceQuestionExtensionsByCode = {
+  B3T7: [],
   B1T6: [],
   B1T3: [
     question("b1t3-practice-01", "marco-constitucional-y-composicion", "Segun el articulo 97 de la Constitucion, el Gobierno ejerce:", ["La funcion jurisdiccional y la potestad legislativa", "La funcion ejecutiva y la potestad reglamentaria", "Solo la direccion de la Administracion civil", "La representacion ordinaria de las Cortes"], 1, "El articulo 97 atribuye al Gobierno la direccion de la politica interior y exterior, la Administracion civil y militar y la defensa del Estado; tambien le atribuye la funcion ejecutiva y la potestad reglamentaria."),
@@ -199,6 +201,7 @@ function appendPracticeQuestions(topicCode, entries) {
 }
 
 appendPracticeQuestions("B1T6", b1t6PracticeEntries);
+appendPracticeQuestions("B3T7", b3t7PracticeEntries);
 
 appendPracticeQuestions("B1T3", [
   [11, "marco-constitucional-y-composicion", "El Gobierno se compone de:", ["Presidente, Vicepresidentes cuando existan, Ministros y los demas miembros que establezca la ley", "Presidente, Secretarios de Estado y Subsecretarios", "Presidente del Congreso y Ministros", "Rey, Presidente y Ministros"], 0, "El articulo 98.1 CE enumera Presidente, Vicepresidentes en su caso, Ministros y los miembros que establezca la ley. Los Secretarios de Estado no son miembros del Gobierno."],

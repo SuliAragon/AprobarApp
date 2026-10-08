@@ -1,9 +1,13 @@
 import { b1t6FuentesReferences } from "../../src/data/b1t6-fuentes-references.mjs";
 import { buildB1T6Explanation } from "./b1t6-official-explanations.mjs";
+import { b3t7ArchitectureReferences } from "../../src/data/b3t7-architecture-references.mjs";
+import { buildB3T7OfficialExplanation } from "./b3t7-official-explanations.mjs";
 
 const optionIds = ["a", "b", "c", "d"];
 const officialAnswerOverrides = {
   "b1t1-test-oficial-ce-2:5": "d",
+  "b3t7-test-oficial-arquitectura-logica-y-ws:37": "c",
+  "b3t7-test-oficial-arquitectura-logica-y-ws:38": "c",
 };
 
 const noisePatterns = [
@@ -16,6 +20,7 @@ const noisePatterns = [
   /^ESTRUCTURAS DE DATOS$/i,
   /^EL GOBIERNO$/i,
   /^FUENTES DEL DERECHO$/i,
+  /^ARQUITECTURAS Y SERVICIOS WEB$/i,
   /^PREPARACI[ÓO]N OPOSICIONES$/i,
   /^T[ÉE]CNICOS AUXILIARES DE INFORM[ÁA]TICA$/i,
   /^\d{4}-\d{4}$/i,
@@ -28,6 +33,7 @@ function normalizeWhitespace(value) {
     .replace(/\bB\d+T\d+\s*test\b/gi, "")
     .replace(/\bSISTEMAS OPERATIVOS\b/g, "")
     .replace(/\bFUENTES DEL DERECHO\s+TAI\b/g, "")
+    .replace(/\bARQUITECTURAS Y SERVICIOS WEB\s+TAI\b/g, "")
     .replace(/\s*PABLO ARELLANO\s+www\.theglobeformacion\.com\s+Página \d+\s*/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -297,6 +303,7 @@ const topicFallbacks = {
 };
 
 const temarioReferences = {
+  B3T7: b3t7ArchitectureReferences,
   B1T6: b1t6FuentesReferences,
   B1T1: {
     fallback: "Constitución Española: estructura, Título Preliminar, Título I, garantías y Corona",
@@ -1316,8 +1323,10 @@ function buildB3T5Explanation(prompt, correctLabel, options = []) {
   return specificReason + " La pista decisiva de esta pregunta es: «" + prompt.replace(/\s+/g, " ").trim() + "».";
 }
 
-function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = []) {
-  const specificReason = code === "B1T6"
+function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = [], context = {}) {
+  const specificReason = code === "B3T7"
+    ? buildB3T7OfficialExplanation(context.slug, context.questionNumber)
+    : code === "B1T6"
     ? buildB1T6Explanation(prompt)
     : code === "B1T4"
     ? buildB1T4Explanation(prompt, correctLabel, options)
@@ -1377,7 +1386,10 @@ export function parseOfficialTestText(source, meta) {
       prompt: parsedBlock.prompt,
       options: parsedBlock.options,
       correctOption,
-      explanation: buildExplanation(meta.code, parsedBlock.prompt, correctOption, correctLabel, parsedBlock.options),
+      explanation: buildExplanation(meta.code, parsedBlock.prompt, correctOption, correctLabel, parsedBlock.options, {
+        slug: meta.slug,
+        questionNumber: parsedBlock.questionNumber,
+      }),
     });
   }
 

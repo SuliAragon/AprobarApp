@@ -270,5 +270,21 @@
     "sourceFilename": "Bloque 3/Tema 5/Test___B3___T05___POO___TEST_1___The_Globe_Oposiciones.pdf",
     "title": "Test oficial B3 T05 POO TEST 1 The Globe Oposiciones",
     "assetPath": "/test-oficial/B3T5/b3t5-test-oficial-b3-t05-poo-test-1-the-globe-oposiciones.pdf"
+  },
+  {
+    "code": "B3T7",
+    "slug": "b3t7-test-oficial-arquitectura-logica-y-ws",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 3/Tema 7/B3T7Test_Arquitectura_logica_y_WS.pdf",
+    "title": "Test oficial Arquitectura logica y WS",
+    "assetPath": "/test-oficial/B3T7/b3t7-test-oficial-arquitectura-logica-y-ws.pdf"
+  },
+  {
+    "code": "B3T7",
+    "slug": "b3t7-opo-tai-b3-t07-repaso-v1-0-2026-06",
+    "kind": "resource",
+    "sourceFilename": "Bloque 3/Tema 7/OPO-TAI-B3-T07-REPASO-v1.0-2026.06.pdf",
+    "title": "OPO-TAI-B3-T07-REPASO-v1.0-2026.06",
+    "assetPath": "/test-oficial/B3T7/b3t7-opo-tai-b3-t07-repaso-v1-0-2026-06.pdf"
   }
 ]

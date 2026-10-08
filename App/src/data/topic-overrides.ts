@@ -890,4 +890,61 @@ export const topicOverrides: Record<string, TopicOverride> = {
       },
     ],
   },
+  B3T7: {
+    title: "Arquitecturas cliente/servidor y multicapa, servicios web y protocolos asociados",
+    shortTitle: "Arquitecturas y servicios web",
+    description:
+      "Capas y niveles, SOA, microservicios, mensajería, SOAP, WSDL, REST, HTTP, seguridad de APIs y arquitectura hexagonal.",
+    summary: [
+      "Presentación, lógica de negocio y datos: capas lógicas frente a niveles físicos, cliente ligero y pesado, escalabilidad y transparencia.",
+      "SOA: contratos, bajo acoplamiento, abstracción, componentes, orquestación y coreografía.",
+      "Microservicios: autonomía, despliegue independiente, comunicación síncrona y asíncrona, colas, eventos, API Gateway y BFF.",
+      "Servicios SOAP: estructura de mensajes, WSDL, UDDI, WSIL, MTOM, SAML y seguridad a nivel de mensaje.",
+      "REST: recursos y representaciones, restricciones, HATEOAS, métodos HTTP, idempotencia, estados, OAuth 2.0, JWT y OpenAPI.",
+      "Frameworks y pruebas de servicios; arquitectura hexagonal, dominio, aplicación, infraestructura, puertos y adaptadores.",
+    ],
+    sections: [
+      "Arquitecturas de sistemas cliente/servidor y multicapa",
+      "Arquitectura orientada a servicios (SOA)",
+      "Arquitectura de microservicios",
+      "Arquitectura de servicios web",
+      "Servicios web SOAP y WSDL",
+      "REST, HTTP, OAuth 2.0, JWT y OpenAPI",
+      "Frameworks y herramientas de pruebas",
+      "Arquitectura hexagonal",
+    ],
+    accent: "azure",
+    testPresets: [
+      {
+        slug: "arquitecturas-capas-y-niveles",
+        title: "Test 1 · Capas y niveles",
+        description: "Distingue responsabilidades, reparto físico, cliente ligero y pesado, escalabilidad y transparencia.",
+        focusSections: ["arquitecturas-capas-y-niveles"],
+      },
+      {
+        slug: "soa-y-microservicios",
+        title: "Test 2 · SOA y microservicios",
+        description: "Repasa contratos, orquestación, coreografía, independencia, mensajería, API Gateway y BFF.",
+        focusSections: ["soa-y-microservicios"],
+      },
+      {
+        slug: "soap-wsdl-y-descubrimiento",
+        title: "Test 3 · SOAP, WSDL y descubrimiento",
+        description: "Trabaja sobres, errores, descripción de servicios, registros, datos binarios y seguridad SOAP.",
+        focusSections: ["soap-wsdl-y-descubrimiento"],
+      },
+      {
+        slug: "rest-http-y-seguridad",
+        title: "Test 4 · REST, HTTP y seguridad",
+        description: "Entrena restricciones REST, recursos, hipermedia, métodos HTTP, OAuth 2.0 y JWT.",
+        focusSections: ["rest-http-y-seguridad"],
+      },
+      {
+        slug: "frameworks-y-arquitectura-hexagonal",
+        title: "Test 5 · Frameworks y arquitectura hexagonal",
+        description: "Diferencia especificaciones, frameworks y herramientas, y aplica puertos, adaptadores e inversión de dependencias.",
+        focusSections: ["frameworks-y-arquitectura-hexagonal"],
+      },
+    ],
+  },
 };
