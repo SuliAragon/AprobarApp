@@ -1228,7 +1228,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: el artículo 78 de la Constitución prevé una Diputación Permanente en cada Cámara, encargada de velar por sus poderes cuando no están reunidas o han expirado su mandato."
+        "explanation": "La plantilla oficial indica c: A la Diputación Permanente de cada Cámara. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-2-50",
@@ -1353,7 +1353,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: ACID resume las propiedades de una transacción fiable: atomicidad, consistencia, aislamiento y durabilidad. Authentication y availability no forman parte de este acrónimo."
+        "explanation": "La plantilla oficial indica b: Atomicity, Consistency, Isolation, Durability. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-2-55",
@@ -1728,7 +1728,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: SUM ignora los valores NULL. La suma de los valores no nulos es 15 + 3 + 7, que da 25."
+        "explanation": "La plantilla oficial indica a: 25. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-2-70",
@@ -1753,7 +1753,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: GROUP BY A forma un grupo por cada valor distinto. HAVING COUNT(A) > 0 excluye el grupo de NULL porque COUNT(A) no cuenta nulos; quedan los tres valores no nulos."
+        "explanation": "La plantilla oficial indica c: 3. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-2-71",
@@ -1778,7 +1778,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: tras agrupar por A, HAVING A IS NOT NULL descarta el grupo cuyo valor de A es NULL. Permanecen los tres grupos correspondientes a los valores no nulos."
+        "explanation": "La plantilla oficial indica c: 3. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-2-72",
@@ -1803,7 +1803,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: las expresiones que incluyen un NULL producen NULL y AVG ignora esos resultados. Se promedian 25, 10 y 10, por lo que el resultado es 15."
+        "explanation": "La plantilla oficial indica a: 15. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-2-73",
@@ -1828,7 +1828,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: una interrelación se identifica por su nombre, por su grado (número de tipos de entidad participantes) y por el tipo de correspondencia o cardinalidad."
+        "explanation": "La plantilla oficial indica d: El nombre, el grado y el tipo de correspondencia. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-2-74",
@@ -4061,7 +4061,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: top muestra de forma dinámica los procesos en ejecución y datos de carga, CPU y memoria. No es una herramienta para listar ficheros, el escritorio o puertos de red."
+        "explanation": "La plantilla oficial indica c: Los procesos. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-3-63",
@@ -4111,7 +4111,7 @@
           }
         ],
         "correctOption": "c",
-        "explanation": "Por qué: una vista materializada persiste el resultado de una consulta y puede actualizarse mediante mecanismos de refresco. Una vista ordinaria almacena la definición de la consulta, no sus resultados."
+        "explanation": "La plantilla oficial indica c: Es un objeto de la base de datos donde se almacena el resultado de una consulta. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-3-65",
@@ -4561,7 +4561,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: entre las reglas de Codd está la de actualización de vistas, que exige que las vistas teóricamente actualizables puedan actualizarse por el sistema. Las dependencias física y lógica contradicen la independencia de datos."
+        "explanation": "La plantilla oficial indica d: Actualización de vistas. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-3-83",
@@ -4686,7 +4686,7 @@
           }
         ],
         "correctOption": "b",
-        "explanation": "Por qué: FAT32 tiene un límite de tamaño por fichero inferior a 4 GB, mientras que NTFS admite archivos mucho mayores. Por ello un fichero de 6 GB puede almacenarse en NTFS."
+        "explanation": "La plantilla oficial indica b: NTFS. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-3-88",
@@ -5043,8 +5043,8 @@
             "label": "El Ministerio Fiscal."
           }
         ],
-        "correctOption": "d",
-        "explanation": "Por qué: el artículo 162.1.b de la Constitución reconoce legitimación para el recurso de amparo, entre otros, al Ministerio Fiscal. El Gobierno, su Presidente y las Comunidades Autónomas no figuran como legitimados en ese precepto."
+        "correctOption": "a",
+        "explanation": "La plantilla oficial indica a: El Gobierno. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-4-2",
@@ -5093,8 +5093,8 @@
             "label": "La publicidad de las leyes."
           }
         ],
-        "correctOption": "d",
-        "explanation": "Por qué: el artículo 9.3 garantiza la publicidad de las normas, no la publicidad de las leyes formulada de manera restrictiva. El principio de legalidad, la jerarquía normativa y la seguridad jurídica aparecen expresamente en el mismo precepto."
+        "correctOption": "a",
+        "explanation": "La plantilla oficial indica a: El principio de legalidad. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-4-4",
@@ -5118,8 +5118,8 @@
             "label": "3/5 de sus miembros."
           }
         ],
-        "correctOption": "d",
-        "explanation": "Por qué: el artículo 159.1 de la Constitución exige una mayoría de tres quintos de los miembros del Congreso para proponer cuatro magistrados del Tribunal Constitucional. No basta calcular la mayoría sobre los asistentes."
+        "correctOption": "c",
+        "explanation": "La plantilla oficial indica c: 2/3 de sus miembros. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-4-5",
@@ -5143,8 +5143,8 @@
             "label": "Los ciudadanos y los poderes públicos, a excepción de la persona que ostente la presidencia del Gobierno del Estado y de las Comunidades Autónomas que no están sujetas a responsabilidad jurídica."
           }
         ],
-        "correctOption": "a",
-        "explanation": "Por qué: el artículo 9.1 establece literalmente que los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico. Las inmunidades parlamentarias no eliminan esa sujeción general ni existen las excepciones de las otras opciones."
+        "correctOption": "d",
+        "explanation": "La plantilla oficial indica d: Los ciudadanos y los poderes públicos, a excepción de la persona que ostente la presidencia del Gobierno del Estado y de las Comunidades Autónomas que no están sujetas a responsabilidad jurídica. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-4-6",
@@ -9377,7 +9377,7 @@
           }
         ],
         "correctOption": "a",
-        "explanation": "Por qué: el modelo Entidad-Relación representa la realidad y las reglas de negocio antes de transformar el diseño a tablas o estructuras físicas; por eso pertenece al nivel conceptual."
+        "explanation": "La plantilla oficial indica a: Modelo conceptual. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-1-75",
@@ -9427,7 +9427,7 @@
           }
         ],
         "correctOption": "d",
-        "explanation": "Por qué: el grado de una relación se determina por el número de tipos de entidad que participan en ella. Las demás opciones confunden las notaciones de atributos y entidades débiles."
+        "explanation": "La plantilla oficial indica d: El grado de una relación es el número de tipos de entidad que pueden intervenir en una ocurrencia de ese tipo de relación. El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia."
       },
       {
         "id": "simulacro-1-77",

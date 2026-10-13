@@ -2,7 +2,7 @@ import { spawnSync } from "node:child_process";
 import { cpSync, existsSync, mkdirSync, readdirSync, writeFileSync } from "node:fs";
 import { basename, dirname, extname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseOfficialTestText } from "./lib/official-tests-parser.mjs";
+import { extractOfficialAnswerKey, parseOfficialTestText } from "./lib/official-tests-parser.mjs";
 import { buildTemarioCatalog, isSupportedTemarioFile } from "./lib/temario-catalog.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -109,115 +109,81 @@ const simulationQuestionRepairs = {
     74: {
       prompt: "El modelo Entidad-Relación es un:",
       options: ["Modelo conceptual.", "Modelo lógico.", "Modelo físico.", "Modelo multidimensional."],
-      correctOption: "a",
-      explanation: "Por qué: el modelo Entidad-Relación representa la realidad y las reglas de negocio antes de transformar el diseño a tablas o estructuras físicas; por eso pertenece al nivel conceptual.",
     },
     76: {
       prompt: "En relación al modelo Entidad-Relación, indique cuál de las siguientes afirmaciones es correcta:",
       options: ["Un tipo de entidad fuerte no puede tener una dependencia de existencia con respecto a otro tipo de entidad.", "Un atributo multivaluado se representa con un óvalo con línea discontinua.", "El discriminante o clave parcial de una entidad débil se indica con un óvalo con línea doble.", "El grado de una relación es el número de tipos de entidad que pueden intervenir en una ocurrencia de ese tipo de relación."],
-      correctOption: "d",
-      explanation: "Por qué: el grado de una relación se determina por el número de tipos de entidad que participan en ella. Las demás opciones confunden las notaciones de atributos y entidades débiles.",
     },
   },
   "simulacro-2": {
     49: {
       prompt: "¿A quién corresponde velar por los poderes de las Cámaras cuando éstas no estén reunidas?",
       options: ["A la Diputación Permanente de las Cortes Generales.", "A la Comisión de Vigilancia de las Cortes Generales.", "A la Diputación Permanente de cada Cámara.", "Al Consejo de Estado."],
-      correctOption: "c",
-      explanation: "Por qué: el artículo 78 de la Constitución prevé una Diputación Permanente en cada Cámara, encargada de velar por sus poderes cuando no están reunidas o han expirado su mandato.",
     },
     54: {
       prompt: "Indique a qué corresponden las siglas ACID refiriéndose a una transacción de base de datos:",
       options: ["Authentication, Consistency, Isolation, Durability.", "Atomicity, Consistency, Isolation, Durability.", "Availability, Consistency, Isolation, Durability.", "Availability, Correctness, Isolation, Durability."],
-      correctOption: "b",
-      explanation: "Por qué: ACID resume las propiedades de una transacción fiable: atomicidad, consistencia, aislamiento y durabilidad. Authentication y availability no forman parte de este acrónimo.",
     },
     69: {
       prompt: "Dada la tabla DATOS(A), con valores 15, 3, NULL y 7, ¿cuál será el resultado de ejecutar SELECT SUM(A) FROM DATOS?",
       options: ["25.", "18.", "0.", "NULL."],
-      correctOption: "a",
-      explanation: "Por qué: SUM ignora los valores NULL. La suma de los valores no nulos es 15 + 3 + 7, que da 25.",
     },
     70: {
       prompt: "Dada la tabla DATOS(A, B) de la pregunta anterior, ¿cuántas filas devolverá SELECT COUNT(A) FROM DATOS GROUP BY A HAVING COUNT(A) > 0?",
       options: ["1.", "2.", "3.", "4."],
-      correctOption: "c",
-      explanation: "Por qué: GROUP BY A forma un grupo por cada valor distinto. HAVING COUNT(A) > 0 excluye el grupo de NULL porque COUNT(A) no cuenta nulos; quedan los tres valores no nulos.",
     },
     71: {
       prompt: "Dada la tabla DATOS(A, B), ¿cuántas filas devolverá SELECT A FROM DATOS GROUP BY A HAVING A IS NOT NULL?",
       options: ["1.", "2.", "3.", "4."],
-      correctOption: "c",
-      explanation: "Por qué: tras agrupar por A, HAVING A IS NOT NULL descarta el grupo cuyo valor de A es NULL. Permanecen los tres grupos correspondientes a los valores no nulos.",
     },
     72: {
       prompt: "Con la tabla DATOS(A, B) anterior, ¿cuál es el resultado de ejecutar SELECT AVG(A+B) FROM DATOS?",
       options: ["15.", "13,25.", "18.", "Ninguna de las respuestas anteriores es correcta."],
-      correctOption: "a",
-      explanation: "Por qué: las expresiones que incluyen un NULL producen NULL y AVG ignora esos resultados. Se promedian 25, 10 y 10, por lo que el resultado es 15.",
     },
     73: {
       prompt: "En un modelo Entidad/Relación, un tipo de interrelación se caracteriza por:",
       options: ["El nombre y el tipo de correspondencia.", "El nombre y el grado.", "El nombre, el nivel y el tipo de correspondencia.", "El nombre, el grado y el tipo de correspondencia."],
-      correctOption: "d",
-      explanation: "Por qué: una interrelación se identifica por su nombre, por su grado (número de tipos de entidad participantes) y por el tipo de correspondencia o cardinalidad.",
     },
   },
   "simulacro-3": {
     62: {
       prompt: "¿Qué muestra el comando top en UNIX?",
       options: ["Los ficheros abiertos.", "El escritorio.", "Los procesos.", "Los puertos TCP/IP."],
-      correctOption: "c",
-      explanation: "Por qué: top muestra de forma dinámica los procesos en ejecución y datos de carga, CPU y memoria. No es una herramienta para listar ficheros, el escritorio o puertos de red.",
     },
     64: {
       prompt: "En el ámbito de las bases de datos Oracle, una vista materializada:",
       options: ["Es un objeto de la base de datos donde se almacena la información de todas las vistas de la BD.", "Es un objeto de la base de datos donde se almacena la definición de la tabla que materializa.", "Es un objeto de la base de datos donde se almacena el resultado de una consulta.", "Es una vista ordinaria que automáticamente se actualizará siempre que se actualicen las tablas involucradas en esa vista."],
-      correctOption: "c",
-      explanation: "Por qué: una vista materializada persiste el resultado de una consulta y puede actualizarse mediante mecanismos de refresco. Una vista ordinaria almacena la definición de la consulta, no sus resultados.",
     },
     82: {
       prompt: "¿Cuál de las siguientes es una regla de Codd?",
       options: ["Dependencia física de los datos.", "Dependencia lógica de los datos.", "Regla de la inversión.", "Actualización de vistas."],
-      correctOption: "d",
-      explanation: "Por qué: entre las reglas de Codd está la de actualización de vistas, que exige que las vistas teóricamente actualizables puedan actualizarse por el sistema. Las dependencias física y lógica contradicen la independencia de datos.",
     },
     87: {
       prompt: "Podremos almacenar un fichero de 6 GB en un dispositivo si el sistema de ficheros con el que está formateado es:",
       options: ["FAT32.", "NTFS.", "HPFS.", "ISO 9660:1988 Level 2."],
-      correctOption: "b",
-      explanation: "Por qué: FAT32 tiene un límite de tamaño por fichero inferior a 4 GB, mientras que NTFS admite archivos mucho mayores. Por ello un fichero de 6 GB puede almacenarse en NTFS.",
     },
   },
   "simulacro-4": {
     1: {
       prompt: "Están legitimados para interponer el recurso de amparo, según la Constitución Española:",
       options: ["El Gobierno.", "Las Comunidades Autónomas.", "El Presidente del Gobierno.", "El Ministerio Fiscal."],
-      correctOption: "d",
-      explanation: "Por qué: el artículo 162.1.b de la Constitución reconoce legitimación para el recurso de amparo, entre otros, al Ministerio Fiscal. El Gobierno, su Presidente y las Comunidades Autónomas no figuran como legitimados en ese precepto.",
     },
     3: {
       prompt: "De conformidad con el artículo 9 de la Constitución Española, la Constitución garantiza (señale la respuesta INCORRECTA):",
       options: ["El principio de legalidad.", "La jerarquía normativa.", "La seguridad jurídica.", "La publicidad de las leyes."],
-      correctOption: "d",
-      explanation: "Por qué: el artículo 9.3 garantiza la publicidad de las normas, no la publicidad de las leyes formulada de manera restrictiva. El principio de legalidad, la jerarquía normativa y la seguridad jurídica aparecen expresamente en el mismo precepto.",
     },
     4: {
       prompt: "Según la Constitución Española, los 4 miembros del Tribunal Constitucional propuestos por el Congreso son elegidos por mayoría de:",
       options: ["2/3 de los presentes.", "3/5 de los presentes.", "2/3 de sus miembros.", "3/5 de sus miembros."],
-      correctOption: "d",
-      explanation: "Por qué: el artículo 159.1 de la Constitución exige una mayoría de tres quintos de los miembros del Congreso para proponer cuatro magistrados del Tribunal Constitucional. No basta calcular la mayoría sobre los asistentes.",
     },
     5: {
       prompt: "Según el artículo 9 de la Constitución Española, están sujetos a la Constitución y al resto del ordenamiento jurídico:",
       options: ["Los ciudadanos y los poderes públicos.", "Los ciudadanos a excepción de los poderes públicos.", "Los ciudadanos y los poderes públicos, a excepción de las personas miembros del Congreso y Senado que gozan de inmunidad parlamentaria.", "Los ciudadanos y los poderes públicos, a excepción de la persona que ostente la presidencia del Gobierno del Estado y de las Comunidades Autónomas que no están sujetas a responsabilidad jurídica."],
-      correctOption: "a",
-      explanation: "Por qué: el artículo 9.1 establece literalmente que los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico. Las inmunidades parlamentarias no eliminan esa sujeción general ni existen las excepciones de las otras opciones.",
     },
   },
 };
 
-function repairSimulationQuestions(parsed, slug) {
+function repairSimulationQuestions(parsed, slug, officialAnswers) {
   const questionsByNumber = new Map();
 
   for (const question of parsed.questions) {
@@ -230,11 +196,20 @@ function repairSimulationQuestions(parsed, slug) {
 
   for (const [number, repair] of Object.entries(simulationQuestionRepairs[slug] ?? {})) {
     const questionNumber = Number.parseInt(number, 10);
+    const correctOption = officialAnswers.get(questionNumber);
+
+    if (!correctOption) {
+      continue;
+    }
+
+    const label = repair.options["abcd".indexOf(correctOption)];
     questionsByNumber.set(questionNumber, {
       id: `${slug}-${questionNumber}`,
       section: "test-oficial",
       ...repair,
       options: repair.options.map((label, index) => ({ id: "abcd"[index], label })),
+      correctOption,
+      explanation: `La plantilla oficial indica ${correctOption}: ${label} El texto se ha recuperado del PDF para permitir su lectura, sin modificar la respuesta asignada por la academia.`,
     });
   }
 
@@ -440,7 +415,7 @@ for (const simulation of simulationsManifest) {
     description: "Simulacro global de la academia con correccion inmediata y plantilla integrada.",
   });
 
-  const questions = repairSimulationQuestions(parsed, simulation.slug);
+  const questions = repairSimulationQuestions(parsed, simulation.slug, extractOfficialAnswerKey(extraction.stdout));
 
   if (questions.length === 100) {
     interactiveSimulations.push({ ...parsed, questions });

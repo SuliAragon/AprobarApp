@@ -1645,8 +1645,8 @@
             "label": "En ningún caso."
           }
         ],
-        "correctOption": "d",
-        "explanation": "Por qué: La Constitución regula la nacionalidad en el artículo 11 y protege de forma reforzada a los españoles de origen: no pueden ser privados de su nacionalidad. La respuesta correcta es «En ningún caso.». Referencia del temario: B1T1 · Título I · Capítulo I: Españoles y extranjeros."
+        "correctOption": "b",
+        "explanation": "Por qué: La Constitución regula la nacionalidad en el artículo 11 y protege de forma reforzada a los españoles de origen: no pueden ser privados de su nacionalidad. La respuesta correcta es «Cuando libremente renuncie a la misma.». Referencia del temario: B1T1 · Título I · Capítulo I: Españoles y extranjeros."
       },
       {
         "id": "b1t1-test-oficial-ce-2-6",
@@ -28329,8 +28329,8 @@
             "label": "Hace uso de hipermedios."
           }
         ],
-        "correctOption": "c",
-        "explanation": "Por qué: La plantilla PDF marca b; se corrige a c porque REST es un estilo arquitectonico, no un protocolo. Una URL puede identificar un recurso como caso particular de URI, y el uso de hipermedios si corresponde a la interfaz uniforme REST. La respuesta correcta es «Es un protocolo cliente/servidor sin estado.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+        "correctOption": "b",
+        "explanation": "Por qué: La plantilla oficial indica b: Los recursos son direccionables a traves de su URL. Al tratarse de un test de la academia, esta es la respuesta que se utiliza para corregir el ejercicio, sin sustituirla por otra opcion. La respuesta correcta es «Los recursos son direccionables a través de su URL.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
       },
       {
         "id": "b3t7-test-oficial-arquitectura-logica-y-ws-38",
@@ -28354,8 +28354,8 @@
             "label": "Toda información que viaja en un elemento de comunicación atómico entre cliente y servidor es autocontenida, y no se almacena ningún tipo de estado del cliente por parte del servidor."
           }
         ],
-        "correctOption": "c",
-        "explanation": "Por qué: El sistema de capas si pertenece a REST, por lo que la plantilla a es incorrecta. Se selecciona c interpretando la pregunta como restriccion no obligatoria: el codigo bajo demanda es opcional. El enunciado es ambiguo, pues todas las alternativas nombran restricciones REST, una de ellas opcional. La respuesta correcta es «Código bajo demanda.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
+        "correctOption": "a",
+        "explanation": "Por qué: La plantilla oficial indica a: Utiliza un sistema de niveles. Esta es la respuesta de referencia para la correccion de este ejercicio; se conserva el enunciado del PDF y no se cambia la letra marcada por la academia. La respuesta correcta es «Utiliza un sistema de niveles.». Referencia del temario: B3T7 · 6. Arquitectura REST y codigos de estado HTTP."
       },
       {
         "id": "b3t7-test-oficial-arquitectura-logica-y-ws-39",

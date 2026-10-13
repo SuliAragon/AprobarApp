@@ -4,11 +4,6 @@ import { b3t7ArchitectureReferences } from "../../src/data/b3t7-architecture-ref
 import { buildB3T7OfficialExplanation } from "./b3t7-official-explanations.mjs";
 
 const optionIds = ["a", "b", "c", "d"];
-const officialAnswerOverrides = {
-  "b1t1-test-oficial-ce-2:5": "d",
-  "b3t7-test-oficial-arquitectura-logica-y-ws:37": "c",
-  "b3t7-test-oficial-arquitectura-logica-y-ws:38": "c",
-};
 
 const noisePatterns = [
   /^PABLO ARELLANO$/i,
@@ -1359,6 +1354,11 @@ function splitQuestionsAndSolutions(source) {
   return [source.slice(0, headingStart), source.slice(headingEnd)];
 }
 
+export function extractOfficialAnswerKey(source) {
+  const [, solutionsSource] = splitQuestionsAndSolutions(source);
+  return extractSolutions(solutionsSource);
+}
+
 export function parseOfficialTestText(source, meta) {
   const [questionsSource = "", solutionsSource = ""] = splitQuestionsAndSolutions(source);
   const solutions = extractSolutions(solutionsSource);
@@ -1371,8 +1371,7 @@ export function parseOfficialTestText(source, meta) {
       continue;
     }
 
-    const overrideKey = `${meta.slug}:${parsedBlock.questionNumber}`;
-    const correctOption = officialAnswerOverrides[overrideKey] ?? solutions.get(parsedBlock.questionNumber);
+    const correctOption = solutions.get(parsedBlock.questionNumber);
 
     if (!correctOption) {
       continue;

@@ -126,7 +126,7 @@ SOLUCIONES
   assert.equal(parsed.questions[0].options.length, 4);
 });
 
-test("parseOfficialTestText aplica correcciones manuales conocidas sobre la plantilla oficial", () => {
+test("parseOfficialTestText respeta la plantilla incluso donde antes habia una sustitucion manual", () => {
   const source = `
 5. Un español de origen puede perder esta nacionalidad:
 a) Por sanción administrativa.
@@ -145,8 +145,8 @@ SOLUCIONES
   });
 
   assert.equal(parsed.questions.length, 1);
-  assert.equal(parsed.questions[0].correctOption, "d");
-  assert.match(parsed.questions[0].explanation, /La respuesta correcta es «En ningún caso\./i);
+  assert.equal(parsed.questions[0].correctOption, "b");
+  assert.match(parsed.questions[0].explanation, /La respuesta correcta es «Cuando libremente renuncie/i);
 });
 
 test("parseOfficialTestText genera una explicación didáctica y no repite la plantilla oficial", () => {

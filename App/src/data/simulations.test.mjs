@@ -11,12 +11,19 @@ test("el Simulacro 4 cubre los doce temas disponibles", () => {
   assert.match(simulationMatch[1], /coveredTopicCodes: \[[\s\S]*?"B1T1"[\s\S]*?"B3T4"/);
 });
 
-test("el Simulacro 4 conserva las correcciones de su plantilla oficial", () => {
+test("reparar preguntas de simulacros nunca sustituye las letras de la plantilla", async () => {
   const source = readFileSync(new URL("../../scripts/sync-temario.mjs", import.meta.url), "utf8");
-
-  assert.match(source, /"simulacro-4": \{/);
-  assert.match(source, /1: \{[\s\S]*?correctOption: "d"/);
-  assert.match(source, /3: \{[\s\S]*?correctOption: "d"/);
-  assert.match(source, /4: \{[\s\S]*?correctOption: "d"/);
-  assert.match(source, /5: \{[\s\S]*?correctOption: "a"/);
+  const start = source.indexOf("const simulationQuestionRepairs =");
+  const end = source.indexOf("\nmkdirSync(", start);
+  assert.ok(start >= 0 && end > start);
+  const moduleSource = source.slice(start, end) + "\nexport { repairSimulationQuestions };";
+  const { repairSimulationQuestions } = await import(`data:text/javascript;base64,${Buffer.from(moduleSource).toString("base64")}`);
+  const answers = new Map([[74, "b"], [76, "c"]]);
+  const parsed = { questions: [{ id: "simulacro-1-74", correctOption: "b" }] };
+  const questions = repairSimulationQuestions(parsed, "simulacro-1", answers);
+  assert.equal(questions.find((q) => q.id === "simulacro-1-74").correctOption, "b");
+  assert.equal(questions.find((q) => q.id === "simulacro-1-76").correctOption, "c");
+  assert.match(questions[0].explanation, /plantilla oficial.*b/i);
+  const withoutKey = repairSimulationQuestions({ questions: [] }, "simulacro-1", new Map());
+  assert.equal(withoutKey.length, 0);
 });
