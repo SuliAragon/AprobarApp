@@ -188,9 +188,26 @@ const { topic } = Astro.props as { topic: Topic };
       {
         topic.hasTests ? (
           <>
-            <div class="test-grid">
-              {topic.tests.map((test) => <TestCard topic={topic} test={test} />)}
-            </div>
+            {topic.practiceGroups.length > 0 ? (
+              <>
+                <nav class="resource-tabs" aria-label="Apartados del tema">
+                  {topic.practiceGroups.map((group) => (
+                    <a class="button button--secondary" href={`#apartado-${group.slug}`}>{group.title} · {group.tests.length} tests</a>
+                  ))}
+                </nav>
+                {topic.practiceGroups.map((group) => (
+                  <section class="section-block" id={`apartado-${group.slug}`}>
+                    <div class="section-heading">
+                      <div><p class="eyebrow">Documento y práctica independiente</p><h2>{group.title}</h2><p>{group.description}</p></div>
+                      <a class="button button--secondary" href={withBase(group.documentPath)} target="_blank" rel="noreferrer">Abrir PDF de {group.title}</a>
+                    </div>
+                    <div class="test-grid">{group.tests.map((test) => <TestCard topic={topic} test={test} />)}</div>
+                  </section>
+                ))}
+              </>
+            ) : (
+              <div class="test-grid">{topic.tests.map((test) => <TestCard topic={topic} test={test} />)}</div>
+            )}
             <TestProgressScript />
           </>
         ) : (
@@ -230,6 +247,13 @@ const { topic } = Astro.props as { topic: Topic };
       }
     </div>
   </section>
+
+  <style>
+    section[id^="apartado-"] { scroll-margin-top: 7rem; }
+    @media (max-width: 760px) {
+      section[id^="apartado-"] { scroll-margin-top: 14rem; }
+    }
+  </style>
 
   <script is:inline>
     const resourceTabsRoot = document.querySelector("[data-resource-tabs-root]");

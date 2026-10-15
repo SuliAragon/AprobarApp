@@ -14,6 +14,8 @@ export interface QuizQuestion {
   options: QuestionOption[];
   correctOption: OptionId;
   explanation: string;
+  code?: string;
+  codeLanguage?: string;
 }
 
 export interface TestPreset {
@@ -21,6 +23,7 @@ export interface TestPreset {
   title: string;
   description: string;
   focusSections: string[];
+  poolSections?: string[];
   size?: number;
 }
 
@@ -92,12 +95,15 @@ function shuffleWithSeed<T>(values: T[], seedLabel: string) {
 export function buildTopicTests(topicCode: string, bank: QuizQuestion[], presets: TestPreset[], size = 50) {
   return presets.map((preset) => {
     const targetSize = preset.size ?? size;
+    const pool = preset.poolSections
+      ? bank.filter((question) => preset.poolSections!.includes(question.section))
+      : bank;
     const focusQuestions = shuffleWithSeed(
-      bank.filter((question) => preset.focusSections.includes(question.section)),
+      pool.filter((question) => preset.focusSections.includes(question.section)),
       `${topicCode}-${preset.slug}-focus`,
     );
     const otherQuestions = shuffleWithSeed(
-      bank.filter((question) => !preset.focusSections.includes(question.section)),
+      pool.filter((question) => !preset.focusSections.includes(question.section)),
       `${topicCode}-${preset.slug}-other`,
     );
 

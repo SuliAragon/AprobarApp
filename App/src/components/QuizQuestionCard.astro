@@ -17,6 +17,7 @@ const { index, displayNumber, question } = Astro.props;
   </div>
 
   <h3>{question.prompt}</h3>
+  {question.code && <div class="quiz-code"><span>{question.codeLanguage ?? "Código"}</span><pre><code>{question.code}</code></pre></div>}
 
   <div class="quiz-options">
     {
@@ -34,3 +35,10 @@ const { index, displayNumber, question } = Astro.props;
     <p class="quiz-feedback__body">{question.explanation}</p>
   </div>
 </article>
+
+<style>
+  .quiz-code { margin: 1rem 0; padding: 1rem; min-width: 0; border: 1px solid var(--line, #9aa9ba); border-radius: 0.5rem; }
+  .quiz-code > span { font-size: 0.8rem; font-weight: 700; }
+  .quiz-code pre { margin-bottom: 0; overflow-x: auto; white-space: pre; tab-size: 2; }
+  .quiz-code code { font-family: "SFMono-Regular", Consolas, monospace; font-size: 0.95rem; }
+</style>

@@ -2,6 +2,20 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { buildExtendedPracticePresets } from "./practice-test-presets.mjs";
+import * as presetApi from "./practice-test-presets.mjs";
+import { b3t6PracticeGroups } from "./b3t6-config.mjs";
+
+test("B3T6 conserva diez tests por cada uno de los cinco documentos", () => {
+  assert.equal(typeof presetApi.buildGroupedPracticePresets, "function");
+  const presets = presetApi.buildGroupedPracticePresets(b3t6PracticeGroups);
+  assert.equal(presets.length, 50);
+  assert.equal(new Set(presets.map((p) => p.slug)).size, 50);
+  for (const group of b3t6PracticeGroups) {
+    const groupPresets = presets.filter((p) => p.slug.startsWith(`${group.slug}-`));
+    assert.equal(groupPresets.length, 10);
+    assert.ok(groupPresets.every((p) => p.poolSections.length === 5 && p.poolSections.every((s) => s.startsWith(`${group.slug}-`))));
+  }
+});
 
 const basePresets = [
   { slug: "fundamentos", title: "Test 1 · Fundamentos", description: "Base", focusSections: ["fundamentos"] },

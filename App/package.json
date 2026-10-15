@@ -8,6 +8,7 @@
     "dev": "astro dev",
     "prebuild": "node scripts/sync-temario.mjs",
     "test": "node --test scripts/lib/**/*.test.mjs src/data/**/*.test.mjs",
+    "verify:b3t6-code": "node scripts/verify-b3t6-code.mjs",
     "build": "astro build",
     "build:github": "PUBLIC_SITE_URL=${PUBLIC_SITE_URL:-https://example.github.io} PUBLIC_BASE_PATH=${PUBLIC_BASE_PATH:-/AprobarApp/} astro build",
     "preview": "astro preview"

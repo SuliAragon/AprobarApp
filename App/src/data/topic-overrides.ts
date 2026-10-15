@@ -1,4 +1,13 @@
 import type { TestPreset } from "./question-bank";
+import { b3t6PracticeGroups } from "./b3t6-config.mjs";
+
+export interface TopicPracticeGroup {
+  slug: string;
+  title: string;
+  description: string;
+  sourceFilename: string;
+  testPresets: TestPreset[];
+}
 
 export interface TopicVisualScheme {
   title: string;
@@ -15,10 +24,27 @@ export interface TopicOverride {
   sections: string[];
   accent: "emerald" | "amber" | "coral" | "azure";
   testPresets: TestPreset[];
+  practiceGroups?: TopicPracticeGroup[];
   visualScheme?: TopicVisualScheme;
 }
 
 export const topicOverrides: Record<string, TopicOverride> = {
+  B3T6: {
+    title: "Jakarta EE y .NET: plataformas y lenguajes C, C#, C++ y Java",
+    shortTitle: "Plataformas y lenguajes",
+    description: "Cinco documentos de estudio con diez tests exclusivos por apartado: arquitecturas empresariales, persistencia, seguridad y programación práctica.",
+    summary: [
+      "Jakarta EE y .NET: contenedores, componentes, servicios, persistencia, seguridad e interfaces.",
+      "C: tipos, operadores, control, arrays, punteros, funciones, estructuras, E/S y preprocesador.",
+      "C#: tipos, clases, propiedades, genéricos, herencia, interfaces y excepciones.",
+      "C++: referencias, sobrecarga, memoria dinámica, constructores, herencia y plantillas.",
+      "Java: tipos, arrays, clases, paquetes, herencia, interfaces, excepciones y entrada/salida.",
+    ],
+    sections: ["Jakarta EE y .NET", "Lenguaje C", "Lenguaje C#", "Lenguaje C++", "Lenguaje Java"],
+    accent: "azure",
+    testPresets: [],
+    practiceGroups: b3t6PracticeGroups,
+  },
   B1T1: {
     title: "La Constitución Española de 1978, derechos y deberes, garantías y Corona",
     shortTitle: "Constitución Española",

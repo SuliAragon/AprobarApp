@@ -2,6 +2,15 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import { buildTemarioCatalog } from "./temario-catalog.mjs";
+import * as catalogApi from "./temario-catalog.mjs";
+
+test("los documentos C, C# y C++ del B3T6 tienen nombres y destinos distintos", () => {
+  assert.equal(typeof catalogApi.getTemarioResourceMetadata, "function");
+  const files = ["B3T6_Resumen_C.pdf", "B3T6_Resumen_C_.pdf", "B3T6_Resumen_C__.pdf"];
+  const metadata = files.map((name) => catalogApi.getTemarioResourceMetadata("B3T6", name));
+  assert.deepEqual(metadata.map((item) => item.title), ["Resumen C", "Resumen C#", "Resumen C++"]);
+  assert.equal(new Set(metadata.map((item) => item.slug)).size, 3);
+});
 
 test("B1T6 selecciona el temario identificado frente a test, repaso y PDF anonimo", () => {
   const prefix = "Bloque 1/Tema 6/";

@@ -1,4 +1,14 @@
 import { basename, dirname, extname } from "node:path";
+import { b3t6Documents } from "../../src/data/b3t6-config.mjs";
+
+export function getTemarioResourceMetadata(code, sourceFilename) {
+  if (code !== "B3T6") return undefined;
+  const doc = b3t6Documents.find((entry) => entry.filename === basename(sourceFilename));
+  return doc ? {
+    title: doc.slug === "plataformas" ? doc.title : `Resumen ${doc.title}`,
+    slug: `b3t6-documento-${doc.slug}`,
+  } : undefined;
+}
 
 const audioExtensions = new Set([".m4a", ".mp3", ".aac", ".wav", ".ogg", ".oga", ".m4b"]);
 const relatedResourceExtensions = new Set([".sql", ".xlsx"]);

@@ -272,6 +272,94 @@
     "assetPath": "/test-oficial/B3T5/b3t5-test-oficial-b3-t05-poo-test-1-the-globe-oposiciones.pdf"
   },
   {
+    "code": "B3T6",
+    "slug": "b3t6-documento-cpp",
+    "kind": "resource",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6_Resumen_C__.pdf",
+    "title": "Resumen C++",
+    "assetPath": "/test-oficial/B3T6/b3t6-documento-cpp.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-documento-csharp",
+    "kind": "resource",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6_Resumen_C_.pdf",
+    "title": "Resumen C#",
+    "assetPath": "/test-oficial/B3T6/b3t6-documento-csharp.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-documento-c",
+    "kind": "resource",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6_Resumen_C.pdf",
+    "title": "Resumen C",
+    "assetPath": "/test-oficial/B3T6/b3t6-documento-c.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-documento-java",
+    "kind": "resource",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6_Resumen_Java.pdf",
+    "title": "Resumen Java",
+    "assetPath": "/test-oficial/B3T6/b3t6-documento-java.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-ejercicios1-soluciones",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Ejercicios1_Soluciones.pdf",
+    "title": "Ejercicios1 Soluciones",
+    "assetPath": "/test-oficial/B3T6/b3t6-ejercicios1-soluciones.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-ejercicios1",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Ejercicios1.pdf",
+    "title": "Ejercicios1",
+    "assetPath": "/test-oficial/B3T6/b3t6-ejercicios1.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-ejercicios2-soluciones",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Ejercicios2_Soluciones.pdf",
+    "title": "Ejercicios2 Soluciones",
+    "assetPath": "/test-oficial/B3T6/b3t6-ejercicios2-soluciones.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-ejercicios2",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Ejercicios2.pdf",
+    "title": "Ejercicios2",
+    "assetPath": "/test-oficial/B3T6/b3t6-ejercicios2.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-ejercicios3-soluciones",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Ejercicios3_Soluciones.pdf",
+    "title": "Ejercicios3 Soluciones",
+    "assetPath": "/test-oficial/B3T6/b3t6-ejercicios3-soluciones.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-ejercicios3",
+    "kind": "exercise",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Ejercicios3.pdf",
+    "title": "Ejercicios3",
+    "assetPath": "/test-oficial/B3T6/b3t6-ejercicios3.pdf"
+  },
+  {
+    "code": "B3T6",
+    "slug": "b3t6-test-oficial-java-net",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Test_Java_.NET.pdf",
+    "title": "Test oficial Java .NET",
+    "assetPath": "/test-oficial/B3T6/b3t6-test-oficial-java-net.pdf"
+  },
+  {
     "code": "B3T7",
     "slug": "b3t7-test-oficial-arquitectura-logica-y-ws",
     "kind": "official-test",

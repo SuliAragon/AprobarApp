@@ -3,7 +3,7 @@ import { cpSync, existsSync, mkdirSync, readdirSync, writeFileSync } from "node:
 import { basename, dirname, extname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { extractOfficialAnswerKey, parseOfficialTestText } from "./lib/official-tests-parser.mjs";
-import { buildTemarioCatalog, isSupportedTemarioFile } from "./lib/temario-catalog.mjs";
+import { buildTemarioCatalog, getTemarioResourceMetadata, isSupportedTemarioFile } from "./lib/temario-catalog.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDir = resolve(projectRoot, "..", "Temario");
@@ -290,8 +290,9 @@ function buildOfficialEntry(filePath, rootDirectory, { code, originalName } = {}
   const resolvedCode = code ?? topicFolder.toUpperCase();
   const extension = extname(filePath).toLowerCase();
   const kind = deriveOfficialKind(relativePath);
-  const title = prettifyOfficialFilename(relativePath.split("/").at(-1) ?? relativePath, resolvedCode);
-  const slug = slugify(`${resolvedCode}-${title}`);
+  const metadata = getTemarioResourceMetadata(resolvedCode, relativePath);
+  const title = metadata?.title ?? prettifyOfficialFilename(relativePath.split("/").at(-1) ?? relativePath, resolvedCode);
+  const slug = metadata?.slug ?? slugify(`${resolvedCode}-${title}`);
   const destinationDir = join(officialPublicDir, resolvedCode);
   const destinationName = `${slug}${extension}`;
 

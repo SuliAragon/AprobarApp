@@ -3,7 +3,7 @@ import generatedOfficialMaterials from "./generated/official-materials.json";
 import { getOfficialInteractiveTestBySlug, type OfficialInteractiveTest } from "./official-tests";
 import { buildTopicTests, type TopicTest } from "./question-bank";
 import { questionBanksByCode } from "./question-banks";
-import { buildExtendedPracticePresets } from "./practice-test-presets.mjs";
+import { buildExtendedPracticePresets, buildGroupedPracticePresets } from "./practice-test-presets.mjs";
 import { buildTopicNavigator, parseTopicCode } from "./topic-catalog.js";
 import { topicOverrides } from "./topic-overrides";
 import { buildVersionedAssetPath } from "../utils/versioned-asset-path";
@@ -55,6 +55,13 @@ export interface Topic {
   sections: string[];
   accent: "emerald" | "amber" | "coral" | "azure";
   tests: TopicTest[];
+  practiceGroups: {
+    slug: string;
+    title: string;
+    description: string;
+    documentPath: string;
+    tests: TopicTest[];
+  }[];
   officialMaterials: OfficialMaterial[];
   questionCount: number;
   testCount: number;
@@ -95,7 +102,10 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[])
   .map((topic) => {
   const override = topicOverrides[topic.code];
   const questionBank = questionBanksByCode[topic.code] ?? [];
-  const tests = override ? buildTopicTests(topic.code, questionBank, buildExtendedPracticePresets(override.testPresets)) : [];
+  const presets = override?.practiceGroups
+    ? buildGroupedPracticePresets(override.practiceGroups)
+    : buildExtendedPracticePresets(override?.testPresets ?? []);
+  const tests = buildTopicTests(topic.code, questionBank, presets);
   const officialMaterials = (officialMaterialsByCode[topic.code] ?? []).sort((left, right) => {
     const order = { "official-test": 0, exercise: 1, resource: 2 };
     return order[left.kind] - order[right.kind] || left.title.localeCompare(right.title, "es");
@@ -135,6 +145,16 @@ export const topics: Topic[] = (generatedTopics as GeneratedTopic[])
     sections: override?.sections ?? ["Temario en revisión"],
     accent: override?.accent ?? "amber",
     tests,
+    practiceGroups: (override?.practiceGroups ?? []).map((group) => {
+      const document = officialMaterials.find((item) => item.sourceFilename === group.sourceFilename);
+      const documentPath = group.sourceFilename === topic.sourceFilename ? topic.pdfPath : document?.assetPath;
+      if (!documentPath) throw new Error(`Falta el documento de ${topic.code}: ${group.sourceFilename}`);
+      return {
+        slug: group.slug, title: group.title, description: group.description,
+        documentPath: buildVersionedAssetPath(documentPath, group.sourceFilename),
+        tests: tests.filter((test) => test.slug.startsWith(`${group.slug}-`)),
+      };
+    }),
     officialMaterials,
     questionCount: questionBank.length,
     testCount: tests.length,

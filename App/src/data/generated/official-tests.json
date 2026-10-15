@@ -27397,6 +27397,1769 @@
     ]
   },
   {
+    "code": "B3T6",
+    "slug": "b3t6-test-oficial-java-net",
+    "title": "Test oficial Java .NET",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 3/Tema 6/B3T6Test_Java_.NET.pdf",
+    "assetPath": "/test-oficial/B3T6/b3t6-test-oficial-java-net.pdf",
+    "questions": [
+      {
+        "id": "b3t6-test-oficial-java-net-1",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código Java, indique el valor de la variable elegido al final de la ejecución: int notas[] = {7,8,5,6,7,5}; posicion = notas.length – 2; elegido = notas [posicion];",
+        "options": [
+          {
+            "id": "a",
+            "label": "5."
+          },
+          {
+            "id": "b",
+            "label": "6."
+          },
+          {
+            "id": "c",
+            "label": "7."
+          },
+          {
+            "id": "d",
+            "label": "8."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El array tiene seis elementos y length menos dos selecciona el indice cuatro, empezando a contar en cero. En esa posicion se encuentra el valor siete. La respuesta correcta es «7.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-2",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código Java, indique el valor de la variable sencillo al final de la ejecución: int num= 1; int sencillo= 0; while (++num <= 5) sencillo+=num;",
+        "options": [
+          {
+            "id": "a",
+            "label": "14."
+          },
+          {
+            "id": "b",
+            "label": "16."
+          },
+          {
+            "id": "c",
+            "label": "18."
+          },
+          {
+            "id": "d",
+            "label": "20."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El preincremento ocurre antes de comparar. El cuerpo suma los valores dos, tres, cuatro y cinco; la siguiente comparacion ya no permite entrar en el bucle. La respuesta correcta es «14.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-3",
+        "section": "test-oficial",
+        "prompt": "Marque la respuesta correcta respecto a la declaración de esta variable: private static int i = 3;",
+        "options": [
+          {
+            "id": "a",
+            "label": "El valor de i es compartido por todas las instancias de la clase en la que fue declarada."
+          },
+          {
+            "id": "b",
+            "label": "El valor de i no puede ser cambiado tras la inicialización."
+          },
+          {
+            "id": "c",
+            "label": "El valor de i no es compartido por todas las instancias de la clase en la que fue declarada."
+          },
+          {
+            "id": "d",
+            "label": "La declaración es incorrecta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Static asocia el campo a la clase y lo comparte entre instancias. Private limita el acceso, pero no impide cambiar el valor como lo haria una restriccion de asignacion. La respuesta correcta es «El valor de i es compartido por todas las instancias de la clase en la que fue declarada.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-4",
+        "section": "test-oficial",
+        "prompt": "Dado la ejecución válida del siguiente código Java, indique el valor que se imprimirá por pantalla: public class X { static void Programa (int x) { x= 4; } public static void main (String arg) { int x= 1; Programa (x); System.out.print (x); } }",
+        "options": [
+          {
+            "id": "a",
+            "label": "1."
+          },
+          {
+            "id": "b",
+            "label": "4."
+          },
+          {
+            "id": "c",
+            "label": "No muestra ningún resultado ya que existe un conflicto."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas es correcta."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «Ninguna de las respuestas es correcta.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-5",
+        "section": "test-oficial",
+        "prompt": "Dado la siguiente sentencia en Java, indique la respuesta correcta: MiClase.metodo1();",
+        "options": [
+          {
+            "id": "a",
+            "label": "Error de compilación."
+          },
+          {
+            "id": "b",
+            "label": "metodo1 es un método calificado como final."
+          },
+          {
+            "id": "c",
+            "label": "metodo1 es un método público."
+          },
+          {
+            "id": "d",
+            "label": "metodo1 es un método de instancia."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «metodo1 es un método público.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-6",
+        "section": "test-oficial",
+        "prompt": "En relación con la herencia en Java, indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una clase definida como abstract tiene que tener métodos abstract."
+          },
+          {
+            "id": "b",
+            "label": "Si un método se define como abstract la clase debe ser obligatoriamente abstract."
+          },
+          {
+            "id": "c",
+            "label": "Una clase abstract puede ser instanciable."
+          },
+          {
+            "id": "d",
+            "label": "Un método puede ser abstract y final a la vez."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Un metodo abstracto necesita una clase abstracta en el caso de la declaracion de clase planteada. Una clase abstracta no se instancia directamente ni un metodo puede ser a la vez abstract y final. La respuesta correcta es «Si un método se define como abstract la clase debe ser obligatoriamente abstract.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-7",
+        "section": "test-oficial",
+        "prompt": "Para la gestión de logs en aplicaciones desarrolladas en la plataforma .NET podemos usar:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Log4."
+          },
+          {
+            "id": "b",
+            "label": "Log4Net."
+          },
+          {
+            "id": "c",
+            "label": "Log4NC#."
+          },
+          {
+            "id": "d",
+            "label": "Log4N."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Log4Net es la biblioteca de registro de eventos del ecosistema .NET que aparece en las alternativas. No deben confundirse sus nombres con variantes inventadas del mismo termino. La respuesta correcta es «Log4Net.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-8",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente texto, “La entidad Unidad representa una superclase frente a Departamento, pues Departamento es una especialización, manteniendo entre otras la variable titular que es una Persona, e incorporando una variable que incluye un listado de aquellas Comisiones a las que pertenece el Departamento”. ¿Cuál sería su representación en Java?",
+        "options": [
+          {
+            "id": "a",
+            "label": "class Unidad {private Persona titular;} class Departamento extends Unidad {private Comisiones listadoComisiones; }"
+          },
+          {
+            "id": "b",
+            "label": "class Unidad {protected Persona titular;} class Departamento extend Unidad {private Comisiones listadoComisiones;}"
+          },
+          {
+            "id": "c",
+            "label": "class Unidad {protected Persona titular;} class Departamento inherit Unidad {private Comisiones listadoComisiones;}"
+          },
+          {
+            "id": "d",
+            "label": "class Unidad {private Persona titular;} class Departamento implements Unidad { public Comisiones listadoComisiones;}"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La alternativa marcada utiliza extends para especializar Unidad mediante Departamento. Implements corresponde a interfaces; extend e inherit no son la palabra reservada de esa relacion en Java. La respuesta correcta es «class Unidad {private Persona titular;} class Departamento extends Unidad {private Comisiones listadoComisiones; }.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-9",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código en C, indique cuál será la salida: #include <stdio.h> main() { int x, *a, **b; x = 5; a = &x; b= &a; *a = 3; ** b = 5; printf(“%d”, **b); }",
+        "options": [
+          {
+            "id": "a",
+            "label": "0."
+          },
+          {
+            "id": "b",
+            "label": "3."
+          },
+          {
+            "id": "c",
+            "label": "5."
+          },
+          {
+            "id": "d",
+            "label": "La dirección de memoria de a."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: a apunta a x y b apunta a a. La ultima escritura a traves de **b deja x con valor cinco, por lo que leer **b obtiene ese mismo entero. La respuesta correcta es «5.». Referencia del temario: B3T6 · Resumen C: arrays, punteros y funciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-10",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código en Java, indique la salida correcta: class Persona { public String nombre = \"Juan\"; } class Alumno extends Persona { public int nombre = 10003041; } class Test { public static void main (String[] args){ Alumno a = new Alumno(); Persona p = a; System.out.println(p.nombre); System.out.println(a.nombre); } }",
+        "options": [
+          {
+            "id": "a",
+            "label": "Juan 10003041"
+          },
+          {
+            "id": "b",
+            "label": "10003041 Juan"
+          },
+          {
+            "id": "c",
+            "label": "Juan Juan"
+          },
+          {
+            "id": "d",
+            "label": "10003041 10003041"
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Los campos no se seleccionan mediante el despacho dinamico de metodos. p.nombre usa el campo de Persona y a.nombre el campo declarado en Alumno. La respuesta correcta es «Juan 10003041.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-11",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código en Java, indique la salida correcta: class Persona { public String nombre = \"Juan\"; public void imprimir() { System.out.println(\"Persona: \" + nombre);} } class Alumno extends Persona { public String nombre = \"JuanGarcía\"; public void imprimir() { System.out.println(\"Alumno: \" + nombre);} } class Test2 { public static void main (String[] args) { Alumno a = new Alumno(); Persona p = a; a.imprimir(); p.imprimir(); } }",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se imprime dos veces “Alumno: JuanGarcia”."
+          },
+          {
+            "id": "b",
+            "label": "Se imprime dos veces “Persona: Juan”."
+          },
+          {
+            "id": "c",
+            "label": "Se imprime primero “Alumno: JuanGarcia” y después “Persona: Juan”."
+          },
+          {
+            "id": "d",
+            "label": "Se imprime primero “Persona: Juan” y después “Alumno: JuanGarcia”."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Imprimir es un metodo de instancia sobrescrito. Las dos referencias apuntan al mismo objeto Alumno, por lo que ambas llamadas ejecutan la implementacion de esa clase. La respuesta correcta es «Se imprime dos veces “Alumno: JuanGarcia”.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-12",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código en Java y suponiendo que es válido indique la sentencia correcta: class Persona { … } class Alumno extends Persona {…} class Profesor extends Persona {…}",
+        "options": [
+          {
+            "id": "a",
+            "label": "Alumno a = new Persona();"
+          },
+          {
+            "id": "b",
+            "label": "Profesor pr = new Persona();"
+          },
+          {
+            "id": "c",
+            "label": "Persona p = new Profesor();"
+          },
+          {
+            "id": "d",
+            "label": "Las tres sentencias anteriores son correctas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Una referencia de la superclase puede contener una instancia de una subclase. La conversion ascendente no crea una instancia distinta y no permite invertir libremente la asignacion. La respuesta correcta es «Persona p = new Profesor();.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-13",
+        "section": "test-oficial",
+        "prompt": "En relación con la visibilidad de métodos en Java, indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un método default es visible fuera del paquete."
+          },
+          {
+            "id": "b",
+            "label": "Un método protected no es visible desde cualquier subclase."
+          },
+          {
+            "id": "c",
+            "label": "Un método private es visible desde una subclase dentro del mismo paquete."
+          },
+          {
+            "id": "d",
+            "label": "Un método default es visible desde el propio paquete."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El acceso por defecto de los miembros planteados es de paquete. Los consumidores del mismo paquete pueden acceder sin que eso los convierta en miembros publicos. La respuesta correcta es «Un método default es visible desde el propio paquete.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-14",
+        "section": "test-oficial",
+        "prompt": "En relación con la visibilidad de atributos en Java, indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un atributo default no es visible desde el propio paquete."
+          },
+          {
+            "id": "b",
+            "label": "Un atributo public no es visible desde fuera del paquete."
+          },
+          {
+            "id": "c",
+            "label": "Un atributo protected es visible fuera del paquete."
+          },
+          {
+            "id": "d",
+            "label": "Un atributo private no es visible fuera de la clase."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Private restringe el acceso al ambito de la declaracion que establece el lenguaje. No se convierte en public por pertenecer la subclase al mismo paquete. La respuesta correcta es «Un atributo private no es visible fuera de la clase.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-15",
+        "section": "test-oficial",
+        "prompt": "Tenemos 3 clases, la clase Transporte, la clase Vehiculo que hereda de Transporte y la clase Coche que hereda de Vehiculo. En cada una de las clases se define el método arrancar. Si nos encontramos en el cuerpo de un método de la clase Coche, ¿cuál de las siguientes afirmaciones en Java no es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "arrancar() ejecuta el método arrancar de la clase Coche."
+          },
+          {
+            "id": "b",
+            "label": "this.arrancar() ejecuta el método arrancar de la clase Coche."
+          },
+          {
+            "id": "c",
+            "label": "super.arrancar() ejecuta el método arrancar de la clase Vehículo."
+          },
+          {
+            "id": "d",
+            "label": "super.super.nombre ejecuta el método arranchar de la clase Transporte."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La sintaxis super.super no permite encadenar de esa forma el acceso a un antecesor. Super se utiliza respecto de la superclase inmediata en los contextos permitidos. La respuesta correcta es «super.super.nombre ejecuta el método arranchar de la clase Transporte.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-16",
+        "section": "test-oficial",
+        "prompt": "En relación con el modificador final en Java indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "public void miMetodo(final int p1, int p2){} permite cambiar valor de p1"
+          },
+          {
+            "id": "b",
+            "label": "public static final double PI = 3.14; no permite cambiar el valor de PI"
+          },
+          {
+            "id": "c",
+            "label": "public final void miMetodo() {} permite sobreescribir miMetodo"
+          },
+          {
+            "id": "d",
+            "label": "public final class MiClase {} permite extender MiClase"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El campo PI combina static y final. Final impide reasignar el valor despues de su inicializacion; tambien tiene efectos especificos al aplicarse a metodos o clases. La respuesta correcta es «public static final double PI = 3.14; no permite cambiar el valor de PI.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-17",
+        "section": "test-oficial",
+        "prompt": "El concepto en Java que permite asignar una referencia de un tipo superior a un tipo inferior se conoce como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Casting."
+          },
+          {
+            "id": "b",
+            "label": "Upcasting."
+          },
+          {
+            "id": "c",
+            "label": "Downcasting."
+          },
+          {
+            "id": "d",
+            "label": "Ese concepto no está implementado en Java."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Downcasting expresa una conversion hacia un tipo mas especifico. Debe ser compatible con el objeto real, pues cambiar el tipo de una referencia no transforma la instancia. La respuesta correcta es «Downcasting.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-18",
+        "section": "test-oficial",
+        "prompt": "En Java, ¿cuándo se puede utilizar el modificador abstract?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se puede utilizar en los constructores."
+          },
+          {
+            "id": "b",
+            "label": "Se puede utilizar en métodos estáticos."
+          },
+          {
+            "id": "c",
+            "label": "Se puede utilizar en métodos privados."
+          },
+          {
+            "id": "d",
+            "label": "Se puede utilizar clases."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Abstract puede aplicarse a una clase. Un constructor no es abstracto y un metodo abstracto no puede combinarse con static o private en el supuesto de clase planteado. La respuesta correcta es «Se puede utilizar clases.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-19",
+        "section": "test-oficial",
+        "prompt": "A continuación, se presenta un código en Java, ¿cuál será la salida por pantalla? public class Empleado { static void imprimir() {System.out.println(“Empleado”);} } public class Interino extends Empleado { static void imprimir() {System.out.println(“Interino”);} } public class Recursos { public static void main(String[] args) { Empleado.imprimir(); Interino.imprimir(); Empleado e = new Interino(); e.imprimir(); } }",
+        "options": [
+          {
+            "id": "a",
+            "label": "Empleado Interino Interino."
+          },
+          {
+            "id": "b",
+            "label": "Empleado Interino Empleado."
+          },
+          {
+            "id": "c",
+            "label": "Interino Empleado Interino."
+          },
+          {
+            "id": "d",
+            "label": "Empleado Empleado Empleado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Los metodos estaticos se ocultan, no se sobrescriben con despacho dinamico ordinario. La llamada mediante una referencia declarada Empleado se resuelve como miembro de Empleado. La respuesta correcta es «Empleado Interino Empleado.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-20",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es la salida del siguiente programa escrito en Java? class C { void p (C c) { System.out.println(\"CC \"); } void p (D d) { System.out.println(\"CD \"); } } class D extends C { void p (C c) { System.out.println(\"DD\"); }; } public class InvocacionMetodos { public static void main(String[] args){ C obj = new D(); obj.p(obj); ((D)obj).p(obj); obj.p((D) obj); } }",
+        "options": [
+          {
+            "id": "a",
+            "label": "DD DD CD."
+          },
+          {
+            "id": "b",
+            "label": "CC DD CC."
+          },
+          {
+            "id": "c",
+            "label": "DD CC CD."
+          },
+          {
+            "id": "d",
+            "label": "CD CD CD."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La sobrecarga selecciona primero la firma con los tipos estaticos de los argumentos. Despues, cuando corresponde, el despacho dinamico selecciona la sobrescritura para esa firma. La respuesta correcta es «DD DD CD.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-21",
+        "section": "test-oficial",
+        "prompt": "A continuación, se presenta un código en Java, ¿cuál será la salida por pantalla? public class Empleado { void imprimir() {System.out.println(“Empleado”);} } public class Interino extends Empleado { void imprimir() {System.out.println(“Interino”);} } public class Recursos { public static void main(String[] args) { Empleado emp = new Empleado(); emp.imprimir(); Interino inter = new Interino(); inter.imprimir(); Empleado e = new Interino(); e.imprimir(); } }",
+        "options": [
+          {
+            "id": "a",
+            "label": "Empleado Interino Interino."
+          },
+          {
+            "id": "b",
+            "label": "Empleado Interino Empleado."
+          },
+          {
+            "id": "c",
+            "label": "Interino Empleado Interino."
+          },
+          {
+            "id": "d",
+            "label": "Empleado Empleado Empleado."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las llamadas a metodos de instancia sobrescritos siguen el tipo real del objeto. La ultima referencia es de tipo Empleado, pero su objeto sigue siendo un Interino. La respuesta correcta es «Empleado Interino Interino.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-22",
+        "section": "test-oficial",
+        "prompt": "En el entrono de desarrollo .NET, el término CLR se refiere a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Classic Language Runtime."
+          },
+          {
+            "id": "b",
+            "label": "Classic Language Restore."
+          },
+          {
+            "id": "c",
+            "label": "Common Language Runtime."
+          },
+          {
+            "id": "d",
+            "label": "Common Language Restore."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: CLR corresponde a Common Language Runtime y designa el entorno de ejecucion administrado de .NET Framework. No es una operacion de restauracion ni un lenguaje fuente. La respuesta correcta es «Common Language Runtime.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-23",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO es una tecnología de .NET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "WPF."
+          },
+          {
+            "id": "b",
+            "label": "WCF."
+          },
+          {
+            "id": "c",
+            "label": "WF."
+          },
+          {
+            "id": "d",
+            "label": "WFC."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El material distingue WPF para presentacion, WCF para comunicacion y WF para flujos de trabajo. La sigla WFC no es la tecnologia que identifica esa lista. La respuesta correcta es «WFC.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-24",
+        "section": "test-oficial",
+        "prompt": "¿Cuál es el concepto que permite que todos los lenguajes soportados por .NET tengan tipos de datos comunes?",
+        "options": [
+          {
+            "id": "a",
+            "label": "CLR."
+          },
+          {
+            "id": "b",
+            "label": "CLI."
+          },
+          {
+            "id": "c",
+            "label": "CTS."
+          },
+          {
+            "id": "d",
+            "label": "BCL."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: CTS, Common Type System, define tipos comunes utilizados por los lenguajes del entorno. Esto facilita interoperabilidad entre componentes escritos con sintaxis diferentes. La respuesta correcta es «CTS.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-25",
+        "section": "test-oficial",
+        "prompt": "¿Qué es Entity Framework?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un conjunto de APIs de acceso a datos para el Microsoft .NET Framework."
+          },
+          {
+            "id": "b",
+            "label": "Un conjunto de APIs para el tratamiento de ficheros XML."
+          },
+          {
+            "id": "c",
+            "label": "La versión actual es la 5."
+          },
+          {
+            "id": "d",
+            "label": "Esa tecnología no está implementada en .NET."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Entity Framework ofrece una capa de acceso a datos basada en entidades y mapeo objeto-relacional. No se reduce al tratamiento de XML ni a la interfaz de usuario. La respuesta correcta es «Es un conjunto de APIs de acceso a datos para el Microsoft .NET Framework.». Referencia del temario: B3T6 · .NET: persistencia y acceso a datos."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-26",
+        "section": "test-oficial",
+        "prompt": "¿Cómo se conoce al código intermedio utilizado por .NET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "MSIL."
+          },
+          {
+            "id": "b",
+            "label": "CLI."
+          },
+          {
+            "id": "c",
+            "label": "CIL."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las anteriores."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La denominacion CIL significa Common Intermediate Language. Es el codigo intermedio utilizado en el modelo administrado, antes de su transformacion a instrucciones nativas. La respuesta correcta es «CIL.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-27",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un modelo de programación de ASP.NET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "ASP.NET Web Forms."
+          },
+          {
+            "id": "b",
+            "label": "ASP.NET Presentation."
+          },
+          {
+            "id": "c",
+            "label": "ASP.NET MVC."
+          },
+          {
+            "id": "d",
+            "label": "ASP.NET Web Pages."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Web Forms, MVC y Web Pages son modelos que el documento distingue en ASP.NET. Presentation no es el nombre de otro modelo de esa enumeracion. La respuesta correcta es «ASP.NET Presentation.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-28",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un objeto de ADO.NET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "DataSet."
+          },
+          {
+            "id": "b",
+            "label": "DataCollection."
+          },
+          {
+            "id": "c",
+            "label": "DataAdapter."
+          },
+          {
+            "id": "d",
+            "label": "DataReader."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: DataSet, DataAdapter y DataReader son objetos del modelo de acceso a datos descrito. DataCollection no es el nombre de uno de esos componentes de ADO.NET. La respuesta correcta es «DataCollection.». Referencia del temario: B3T6 · .NET: persistencia y acceso a datos."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-29",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un proveedor de datos .NET Framework?",
+        "options": [
+          {
+            "id": "a",
+            "label": "OLE DB."
+          },
+          {
+            "id": "b",
+            "label": "Oracle."
+          },
+          {
+            "id": "c",
+            "label": "EntityClient."
+          },
+          {
+            "id": "d",
+            "label": "MySQL."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «MySQL.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-30",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes implementaciones de .NET está destinada a iOS?",
+        "options": [
+          {
+            "id": "a",
+            "label": ".NET Core."
+          },
+          {
+            "id": "b",
+            "label": "Xamarin."
+          },
+          {
+            "id": "c",
+            "label": "UWP."
+          },
+          {
+            "id": "d",
+            "label": "Mono."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La pregunta pertenece al contexto de implementaciones del material y asigna Xamarin a ese desarrollo movil. Se conserva esa respuesta historica de la plantilla, sin sustituirla por tecnologias posteriores. La respuesta correcta es «Xamarin.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-31",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes NO forma parte de la Base Class Library de .NET Framework?",
+        "options": [
+          {
+            "id": "a",
+            "label": "System.Data."
+          },
+          {
+            "id": "b",
+            "label": "System.Web."
+          },
+          {
+            "id": "c",
+            "label": "System.Remote."
+          },
+          {
+            "id": "d",
+            "label": "System.Runtime."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La alternativa usa System.Remote, que no corresponde al nombre de espacio de nombres de la biblioteca presentado. Los nombres exactos de las APIs importan en esta pregunta. La respuesta correcta es «System.Remote.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-32",
+        "section": "test-oficial",
+        "prompt": "Sobre el Common Language Runtime .NET Framework, indique la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "JIT es un compilador que genera el código máquina real que se ejecuta en la plataforma del cliente."
+          },
+          {
+            "id": "b",
+            "label": "En el código administrado el CLR se encarga de la gestión de memoria y punteros, entre otros."
+          },
+          {
+            "id": "c",
+            "label": "CLR es el entorno donde se ejecutan algunas aplicaciones de .NET."
+          },
+          {
+            "id": "d",
+            "label": "La Base Class Library es una colección de tipos reutilizables que se integran con CLR."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «CLR es el entorno donde se ejecutan algunas aplicaciones de .NET.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-33",
+        "section": "test-oficial",
+        "prompt": "¿Qué respuesta es correcta respecto a WCF de la plataforma .NET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Está incluido en la capa de servicios para permitir la comunicación con un servicio."
+          },
+          {
+            "id": "b",
+            "label": "Su función es permitir la creación de aplicaciones de cliente de escritorio para Windows."
+          },
+          {
+            "id": "c",
+            "label": "Responsable de los flujos de trabajo empresariales."
+          },
+          {
+            "id": "d",
+            "label": "Permite a los componentes empresariales acceder a un servicio externo encapsulando el acceso a un servicio."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: WCF se orienta a comunicacion y servicios. WPF corresponde a presentacion de escritorio y WF a flujos de trabajo; las tres siglas no son intercambiables. La respuesta correcta es «Está incluido en la capa de servicios para permitir la comunicación con un servicio.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-34",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones sobre ADO.NET es FALSA?",
+        "options": [
+          {
+            "id": "a",
+            "label": "ADO puede utilizar ODBC y OLE DB para el acceso a la base de datos."
+          },
+          {
+            "id": "b",
+            "label": "Una clara ventaja de una aplicación desarrollada con ADO.NET consiste en su independencia de la tecnología del SGBD, garantizando generalmente su continuidad ante un cambio de SGBD, sin necesidad de adaptaciones de código."
+          },
+          {
+            "id": "c",
+            "label": "ADO.NET está formado por varios objetos organizados de forma jerárquica, cada uno de ellos con sus métodos y propiedades específicos."
+          },
+          {
+            "id": "d",
+            "label": "Una clara desventaja es su limitación al uso de bases de datos relacionales; para otros modelos de datos el estándar actual más extendido es Remote Data Object."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: ADO.NET aporta un modelo de acceso a datos y proveedores, no la limitacion general descrita por la alternativa marcada. El enunciado solicita identificar una afirmacion falsa. La respuesta correcta es «Una clara desventaja es su limitación al uso de bases de datos relacionales; para otros modelos de datos el estándar actual más extendido es Remote Data Object.». Referencia del temario: B3T6 · .NET: persistencia y acceso a datos."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-35",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un término asociado a .NET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ensamblado."
+          },
+          {
+            "id": "b",
+            "label": "Código genérico."
+          },
+          {
+            "id": "c",
+            "label": "JIT."
+          },
+          {
+            "id": "d",
+            "label": "CLS."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «Código genérico.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-36",
+        "section": "test-oficial",
+        "prompt": "La API SAX permite leer la información contenida en un documento XML. ¿Cuál de las siguientes respuestas es FALSA en relación con esta API?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reducido uso de memoria."
+          },
+          {
+            "id": "b",
+            "label": "Rapidez de procesamiento del documento XML."
+          },
+          {
+            "id": "c",
+            "label": "Procesa el documento XML hacia delante."
+          },
+          {
+            "id": "d",
+            "label": "Transforma el documento XML en una estructura de árbol."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: SAX procesa XML mediante eventos y no construye necesariamente un arbol completo del documento. La representacion arborea caracteriza al enfoque DOM, no a esa descripcion SAX. La respuesta correcta es «Transforma el documento XML en una estructura de árbol.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-37",
+        "section": "test-oficial",
+        "prompt": "¿Qué palabra reservada se utiliza en Java para declarar una excepción?",
+        "options": [
+          {
+            "id": "a",
+            "label": "throw."
+          },
+          {
+            "id": "b",
+            "label": "throws."
+          },
+          {
+            "id": "c",
+            "label": "try."
+          },
+          {
+            "id": "d",
+            "label": "catch."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Throws se utiliza en una firma para declarar excepciones que puede propagar el metodo. Throw se usa dentro del flujo para lanzar una excepcion concreta. La respuesta correcta es «throws.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-38",
+        "section": "test-oficial",
+        "prompt": "Respecto al tratamiento de excepciones en Java indique la respuesta FALSA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por cada bloque try puede haber varios bloques catch cada uno de los cuales tratará un tipo de excepción diferente."
+          },
+          {
+            "id": "b",
+            "label": "Cuando se lanza una excepción dentro de un bloque try se comprobará en orden cada bloque catch si el tipo de excepción lanzada coincide o es una subclase del tipo de excepción manejada por el bloque catch y en caso de ser así se ejecutará ese bloque catch."
+          },
+          {
+            "id": "c",
+            "label": "El bloque finally es opcional y se ejecutará solo si ha habido excepciones."
+          },
+          {
+            "id": "d",
+            "label": "La clase Exception ocupa la cima de la jerarquía de clases de excepciones."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Finally no se limita a los casos en que haya una excepcion. En el flujo ordinario se ejecuta al abandonar el try, por lo que la condicion restrictiva de la opcion marcada no es correcta. La respuesta correcta es «El bloque finally es opcional y se ejecutará solo si ha habido excepciones.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-39",
+        "section": "test-oficial",
+        "prompt": "Sobre las excepciones de Java indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El paquete java.lang.Error hace referencia a las clases que representan condiciones que debería producirse y que una aplicación no debe tratar de capturar."
+          },
+          {
+            "id": "b",
+            "label": "El paquete java.lang.Runtime representa las excepciones que pueden ocurrir en cualquier momento como, por ejemplo, una división por cero."
+          },
+          {
+            "id": "c",
+            "label": "El método getMessage() de la clase Exception devuelve un mensaje explicando la excepción."
+          },
+          {
+            "id": "d",
+            "label": "Una excepción es un evento que interrumpe el flujo normal de ejecución de programa."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La definicion seleccionada presenta la excepcion como un evento que altera el flujo normal. La correccion de esta pregunta utiliza la alternativa exacta asignada por el PDF. La respuesta correcta es «Una excepción es un evento que interrumpe el flujo normal de ejecución de programa.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-40",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código en C++, ¿cuál es valor de p al finalizar la ejecución del mismo? boolean fin = false; int i = 0; int [] elementos = {3, 3, 5, 5, 3, 3, 5, 5, 4, 6}; int [] p = {0, 0}; while (!fin && i<elementos.length) { if(elementos[i]%2 == 0) p[0]++; else p[1]++; fin = (p[1] ==7); i++; }",
+        "options": [
+          {
+            "id": "a",
+            "label": "{2, 8}."
+          },
+          {
+            "id": "b",
+            "label": "{0, 7}."
+          },
+          {
+            "id": "c",
+            "label": "{0, 0}."
+          },
+          {
+            "id": "d",
+            "label": "{2, 7}."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Siguiendo el recorrido numerico del enunciado, el bucle termina al alcanzar siete impares. Todavia no ha llegado a los dos numeros pares finales del array. La respuesta correcta es «{0, 7}.». Referencia del temario: B3T6 · Resumen C++: funciones, clases y herencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-41",
+        "section": "test-oficial",
+        "prompt": "Indique la diferencia entre JRE y JDK:",
+        "options": [
+          {
+            "id": "a",
+            "label": "JRE (Java Runtime Environment) es el componente necesario para ejecutar programas Java. Si además de ejecutar, se desarrolla código es necesario descargar JDK que contiene el compilador."
+          },
+          {
+            "id": "b",
+            "label": "JDK (Java Distribution Kit) es gratuita mientras que JRE es una versión de pago más completa."
+          },
+          {
+            "id": "c",
+            "label": "JDK solo contiene la JVM por lo que no es válido para compilar. Para ello hay que descargar JRE."
+          },
+          {
+            "id": "d",
+            "label": "JRE es una versión equivalente a JDK dirigida a programación de dispositivos móviles. Es una versión reducida de Java SE con extensiones enfocadas a las necesidades particulares de esos dispositivos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El entorno de ejecucion permite ejecutar programas y el kit de desarrollo aporta herramientas como el compilador. La pregunta distingue ejecutar de desarrollar y compilar. La respuesta correcta es «JRE (Java Runtime Environment) es el componente necesario para ejecutar programas Java. Si además de ejecutar, se desarrolla código es necesario descargar JDK que contiene el compilador.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-42",
+        "section": "test-oficial",
+        "prompt": "¿Qué es JASPIC?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es un servicio de Java relacionado con mecanismos autenticación."
+          },
+          {
+            "id": "b",
+            "label": "Es un servicio de Java relacionado con políticas de autorización."
+          },
+          {
+            "id": "c",
+            "label": "Es un servicio de .NET para procesamiento de datos en formato JSON."
+          },
+          {
+            "id": "d",
+            "label": "Es un servicio de .NET relacionado con el nombrado de componentes y recursos."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: JASPIC se relaciona con mecanismos de autenticacion de la plataforma empresarial Java. No debe confundirse ese cometido con nombrado de recursos o procesamiento JSON de .NET. La respuesta correcta es «Es un servicio de Java relacionado con mecanismos autenticación.». Referencia del temario: B3T6 · Jakarta EE: componentes y servicios."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-43",
+        "section": "test-oficial",
+        "prompt": "¿Cuándo NO es conveniente usar EJB?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Existe un número de clientes numeroso."
+          },
+          {
+            "id": "b",
+            "label": "Para aplicaciones que deben ser escalables."
+          },
+          {
+            "id": "c",
+            "label": "Se requiere el uso de transacciones."
+          },
+          {
+            "id": "d",
+            "label": "Para aplicaciones que usan datos de bases de datos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «Para aplicaciones que usan datos de bases de datos.». Referencia del temario: B3T6 · Jakarta EE: componentes y servicios."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-44",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código en JSP indique la respuesta correcta: <%@page session=\"true\" %> <% Integer accesos = (Integer)session.getAttribute(\"accesos\"); if (accesos==null) accesos=new Integer(0); accesos = new Integer(accesos.intValue()+1); session.setAttribute(\"accesos\", accesos); if (request.getParameter(\"invalidaSesion\")!=null) session.invalidate(); %>",
+        "options": [
+          {
+            "id": "a",
+            "label": "La línea 1 está incompleta para poder trabajar con sesiones."
+          },
+          {
+            "id": "b",
+            "label": "El objeto session debería haber sido declarado explícitamente."
+          },
+          {
+            "id": "c",
+            "label": "El objeto request es un objeto implícito perteneciente a la clase HttpServletResponse."
+          },
+          {
+            "id": "d",
+            "label": "El objeto session pertenece a la clase HttpSession."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El objeto implicito session permite trabajar con una sesion HTTP. Invalidate invalida esa sesion y no convierte request en una respuesta HTTP. La respuesta correcta es «El objeto session pertenece a la clase HttpSession.». Referencia del temario: B3T6 · Jakarta EE: componentes y servicios."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-45",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes tecnologías de .NET nos permite trabajar con workflows?",
+        "options": [
+          {
+            "id": "a",
+            "label": "WPF."
+          },
+          {
+            "id": "b",
+            "label": "WCF."
+          },
+          {
+            "id": "c",
+            "label": "WF."
+          },
+          {
+            "id": "d",
+            "label": "WFC."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: WF corresponde a Windows Workflow Foundation para modelar flujos de trabajo. WPF y WCF pertenecen a presentacion y comunicacion, respectivamente. La respuesta correcta es «WF.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-46",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las consultas de LINQ NO existe?",
+        "options": [
+          {
+            "id": "a",
+            "label": "LINQ to Objects."
+          },
+          {
+            "id": "b",
+            "label": "LINQ to ASP.NET."
+          },
+          {
+            "id": "c",
+            "label": "LINQ to Entity."
+          },
+          {
+            "id": "d",
+            "label": "LINQ to XML."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El material distingue LINQ to Objects, LINQ aplicado a entidades y LINQ to XML. LINQ to ASP.NET no es una modalidad nombrada en esa clasificacion. La respuesta correcta es «LINQ to ASP.NET.». Referencia del temario: B3T6 · .NET: persistencia y acceso a datos."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-47",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes define una plataforma de trabajo para la creación de interfaces de usuario web interactivas del lado cliente con .NET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Blazor."
+          },
+          {
+            "id": "b",
+            "label": "Fluent."
+          },
+          {
+            "id": "c",
+            "label": "NSwag."
+          },
+          {
+            "id": "d",
+            "label": "Applet."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Blazor permite desarrollar interfaces web con tecnologias .NET. No debe confundirse con una herramienta de documentacion de APIs ni con los applets del ecosistema Java. La respuesta correcta es «Blazor.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-48",
+        "section": "test-oficial",
+        "prompt": "¿Qué es Jena?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un framework de inyección de dependencias para .NET."
+          },
+          {
+            "id": "b",
+            "label": "Un framework compuesto por JSF para Java EE."
+          },
+          {
+            "id": "c",
+            "label": "Un framework para construir aplicaciones de web semántica para Java EE."
+          },
+          {
+            "id": "d",
+            "label": "Un framework para desarrollar aplicaciones de alto rendimiento para .NET."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Apache Jena se orienta a aplicaciones de web semantica y tecnologias como RDF. No es un contenedor de inyeccion de dependencias de .NET. La respuesta correcta es «Un framework para construir aplicaciones de web semántica para Java EE.». Referencia del temario: B3T6 · Jakarta EE: componentes y servicios."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-49",
+        "section": "test-oficial",
+        "prompt": "Indique la respuesta INCORRECTA del calificador const de C++:",
+        "options": [
+          {
+            "id": "a",
+            "label": "const tipo nombre = valor declara una variable constante."
+          },
+          {
+            "id": "b",
+            "label": "const tipo *nombre = valor declara un puntero constante apuntando a una variable modificable."
+          },
+          {
+            "id": "c",
+            "label": "tipo * const nombre = valor declara un puntero constante apuntando a una variable modificable."
+          },
+          {
+            "id": "d",
+            "label": "const tipo * const nombre = valor declara un puntero constante apuntando a una variable constante."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En const tipo *nombre, el const califica al objeto apuntado. Tipo *const nombre expresa otra cosa: un puntero cuya direccion no puede reasignarse. La respuesta correcta es «const tipo *nombre = valor declara un puntero constante apuntando a una variable modificable.». Referencia del temario: B3T6 · Resumen C++: funciones, clases y herencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-50",
+        "section": "test-oficial",
+        "prompt": "En relación con la herencia en C++ señale la afirmación INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los miembros privados de una clase base nunca son accesibles en forma directa desde una clase derivada."
+          },
+          {
+            "id": "b",
+            "label": "Al derivar una clase a partir de una clase base protegida, los miembros públicos y protegidos de la clase base se convierten en miembros privados de la clase derivada."
+          },
+          {
+            "id": "c",
+            "label": "Cuando se deriva una clase a partir de una clase base privada, los miembros públicos y protegidos de la clase base se convierten en miembros privados de la clase derivada."
+          },
+          {
+            "id": "d",
+            "label": "Al derivar una clase a partir de una clase base pública, los miembros públicos de la base se convierten en miembros públicos de la clase derivada, y los miembros protegidos de la clase base se convierten en miembros protegidos de la clase derivada."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La herencia protegida no convierte los miembros publicos y protegidos en privados. Hay que diferenciar el modo de herencia del acceso que tenian los miembros en la base. La respuesta correcta es «Al derivar una clase a partir de una clase base protegida, los miembros públicos y protegidos de la clase base se convierten en miembros privados de la clase derivada.». Referencia del temario: B3T6 · Resumen C++: funciones, clases y herencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-51",
+        "section": "test-oficial",
+        "prompt": "Respecto al uso de inicializadores en C++ señale la afirmación correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los inicializadores se introducen, tras el carácter dos puntos (:), separados por comas, justo después de abrir las llaves del cuerpo del constructor."
+          },
+          {
+            "id": "b",
+            "label": "Constan del nombre de la variable miembro seguido, entre corchetes, del argumento que le da valor."
+          },
+          {
+            "id": "c",
+            "label": "Los inicializadores son más eficientes que las sentencias de asignación."
+          },
+          {
+            "id": "d",
+            "label": "Un ejemplo sería Punto(const int x, const int y): _x[x], _y[y] {}"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La lista de inicializacion construye directamente bases y miembros antes del cuerpo. No es una secuencia de asignaciones situada despues de abrir las llaves del constructor. La respuesta correcta es «Los inicializadores son más eficientes que las sentencias de asignación.». Referencia del temario: B3T6 · Resumen C++: funciones, clases y herencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-52",
+        "section": "test-oficial",
+        "prompt": "Dado el siguiente código en C++ indique la salida correcta: #include <iostream.h> float x=3.4; int main( ) { int x = 7; ::x = 10.5; cout << \"X: \" << v << \"\\n\"; return 0; }",
+        "options": [
+          {
+            "id": "a",
+            "label": "X: 3.4"
+          },
+          {
+            "id": "b",
+            "label": "X: 7"
+          },
+          {
+            "id": "c",
+            "label": "X: 10.5"
+          },
+          {
+            "id": "d",
+            "label": "Da un error."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El programa utiliza el identificador v en la salida sin declararlo en el fragmento. La existencia de x local y global no define automaticamente una variable con otro nombre. La respuesta correcta es «Da un error.». Referencia del temario: B3T6 · Resumen C++: funciones, clases y herencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-53",
+        "section": "test-oficial",
+        "prompt": "Respecto a C++ indique la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se pueden definir valores por defecto para los parámetros de una función que sean necesarios sin restricción alguna."
+          },
+          {
+            "id": "b",
+            "label": "El tipo de dato booleano no está soportado, aunque true y false son palabras reservadas del lenguaje."
+          },
+          {
+            "id": "c",
+            "label": "La palabra reservada inline avisa al compilador que una función particular deberá ser generada en línea, en vez de requerir de una llamada de función."
+          },
+          {
+            "id": "d",
+            "label": "La palabra reservada friend es utilizada exclusivamente para definir clases amigo."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «La palabra reservada inline avisa al compilador que una función particular deberá ser generada en línea, en vez de requerir de una llamada de función.». Referencia del temario: B3T6 · Resumen C++: funciones, clases y herencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-54",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes frameworks NO implementa el patrón MVC?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Struts 2."
+          },
+          {
+            "id": "b",
+            "label": "VRaptor."
+          },
+          {
+            "id": "c",
+            "label": "Lucene."
+          },
+          {
+            "id": "d",
+            "label": "Spring Boot."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Lucene se orienta a indexacion y busqueda de texto. No debe confundirse esa finalidad con la organizacion modelo-vista-controlador de los frameworks de aplicaciones. La respuesta correcta es «Lucene.». Referencia del temario: B3T6 · Jakarta EE y .NET: componentes, persistencia y seguridad."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-55",
+        "section": "test-oficial",
+        "prompt": "La ejecución del siguiente código válido en Java mostrará por pantalla: int x; double y=272.895; x=(int)(y - 0.9); System.out.println (x);",
+        "options": [
+          {
+            "id": "a",
+            "label": "271."
+          },
+          {
+            "id": "b",
+            "label": "272."
+          },
+          {
+            "id": "c",
+            "label": "272.881"
+          },
+          {
+            "id": "d",
+            "label": "Da error en tiempo de ejecución."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La correccion de esta pregunta utiliza exclusivamente la letra indicada en la plantilla oficial del PDF. Se conserva la opcion asignada por la academia y no se sustituye por una interpretacion alternativa. La respuesta correcta es «271.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-56",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación FALSA respecto al patrón de diseño MVC:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Separa la lógica de negocio de la interfaz de usuario."
+          },
+          {
+            "id": "b",
+            "label": "Incrementa la reutilización y la flexibilidad."
+          },
+          {
+            "id": "c",
+            "label": "Es utilizado en múltiples frameworks."
+          },
+          {
+            "id": "d",
+            "label": "El controlador gestiona todos los accesos a la información con la cual opera el sistema."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: MVC separa responsabilidades. El controlador coordina la interaccion, pero no debe asumir que le corresponden por definicion todos los accesos y responsabilidades del sistema. La respuesta correcta es «El controlador gestiona todos los accesos a la información con la cual opera el sistema.». Referencia del temario: B3T6 · Jakarta EE y .NET: componentes, persistencia y seguridad."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-57",
+        "section": "test-oficial",
+        "prompt": "Los proveedores de datos .NET Framework incluyen un objeto DbConnection para conectarse al origen de datos. Señale cuál de las siguientes clases NO pertenece a un proveedor de datos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "SqlConnection."
+          },
+          {
+            "id": "b",
+            "label": "OleOdbcConnection."
+          },
+          {
+            "id": "c",
+            "label": "OracleConnection."
+          },
+          {
+            "id": "d",
+            "label": "OdbcConnection."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: OleOdbcConnection combina dos denominaciones que no corresponden a la clase de proveedor planteada. Los proveedores exponen tipos de conexion con sus nombres concretos. La respuesta correcta es «OleOdbcConnection.». Referencia del temario: B3T6 · .NET: persistencia y acceso a datos."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-58",
+        "section": "test-oficial",
+        "prompt": "En relación con los servlets señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Para crear un nuevo servlet se debe invocar el método init()."
+          },
+          {
+            "id": "b",
+            "label": "Para destruir un servlet se debe invocar el método doDelete()."
+          },
+          {
+            "id": "c",
+            "label": "La clase ServletConfig sirve para pasarle información al servlet durante su inicialización."
+          },
+          {
+            "id": "d",
+            "label": "La clase ServletSession proporciona a las aplicaciones las herramientas para la gestión de la sesión."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: ServletConfig transmite configuracion al servlet durante su inicializacion. DoDelete atiende un metodo HTTP y no sustituye la operacion de destruccion del ciclo de vida. La respuesta correcta es «La clase ServletConfig sirve para pasarle información al servlet durante su inicialización.». Referencia del temario: B3T6 · Jakarta EE: componentes y servicios."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-59",
+        "section": "test-oficial",
+        "prompt": "Sobre la plataforma Jakarta EE (antiguo Java EE) señale la respuesta correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "JNDI: API ofrece servicios de autenticación y autorización."
+          },
+          {
+            "id": "b",
+            "label": "JDBC: API que permite acceder a bases de datos relaciones y no relacionales."
+          },
+          {
+            "id": "c",
+            "label": "JAXR: API que proporciona funcionalidad para servicios web RESTful."
+          },
+          {
+            "id": "d",
+            "label": "JMS: API que permite a las aplicaciones crear, enviar, recibir y leer mensajes."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: JMS proporciona operaciones para crear, enviar y recibir mensajes. El servicio de nombres y el acceso a datos son responsabilidades distintas de otras APIs empresariales. La respuesta correcta es «JMS: API que permite a las aplicaciones crear, enviar, recibir y leer mensajes.». Referencia del temario: B3T6 · Jakarta EE: componentes y servicios."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-60",
+        "section": "test-oficial",
+        "prompt": "En el lenguaje C++, si hablamos de un bucle con estructura do…while:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sólo se ejecuta si la condición del bucle es verdadera."
+          },
+          {
+            "id": "b",
+            "label": "Evalúa la condición del bucle y después se ejecuta al menos una vez."
+          },
+          {
+            "id": "c",
+            "label": "Se ejecuta una vez antes de evaluar la condición del bucle."
+          },
+          {
+            "id": "d",
+            "label": "Se ejecuta una sola vez siempre y cuando sea verdadera la condición del bucle."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: En do/while se ejecuta el cuerpo antes de evaluar la condicion. Si la condicion inicial resulta falsa en la primera comprobacion, esa primera ejecucion ya ha ocurrido. La respuesta correcta es «Se ejecuta una vez antes de evaluar la condición del bucle.». Referencia del temario: B3T6 · Resumen C++: funciones, clases y herencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-61",
+        "section": "test-oficial",
+        "prompt": "En Java, siendo x=6 e y=3 (ambas variables de tipo int), la operación x^y da como resultado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "216."
+          },
+          {
+            "id": "b",
+            "label": "63."
+          },
+          {
+            "id": "c",
+            "label": "3."
+          },
+          {
+            "id": "d",
+            "label": "5."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El operador ^ entre enteros representa XOR bit a bit. Se comparan los bits de seis y tres, sin tratar el signo como una operacion de potencia. La respuesta correcta es «5.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-62",
+        "section": "test-oficial",
+        "prompt": "En el entorno de programación .NET, indique que es un NuGet:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Una biblioteca de clases base."
+          },
+          {
+            "id": "b",
+            "label": "Un administrador de paquetes."
+          },
+          {
+            "id": "c",
+            "label": "Una implementación de .Net."
+          },
+          {
+            "id": "d",
+            "label": "Un entorno de ejecución."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: NuGet administra paquetes y dependencias del ecosistema .NET. No es un runtime ni una implementacion alternativa de toda la plataforma. La respuesta correcta es «Un administrador de paquetes.». Referencia del temario: B3T6 · .NET: arquitectura, bibliotecas e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-63",
+        "section": "test-oficial",
+        "prompt": "Indique cuál de las siguientes opciones corresponde a una API de Java para el procesamiento de documentos en formato XML:",
+        "options": [
+          {
+            "id": "a",
+            "label": "JNA."
+          },
+          {
+            "id": "b",
+            "label": "StAX."
+          },
+          {
+            "id": "c",
+            "label": "JNI."
+          },
+          {
+            "id": "d",
+            "label": "JPaX."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: StAX es una API de procesamiento XML basada en un enfoque de lectura de eventos controlado por el consumidor. No es una biblioteca de interoperabilidad nativa. La respuesta correcta es «StAX.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-64",
+        "section": "test-oficial",
+        "prompt": "Para cumplir el cometido que le ha sido asignado va a tener que definir arrays. ¿Cuál es la forma correcta de definir un array de enteros en C#?",
+        "options": [
+          {
+            "id": "a",
+            "label": "int[] arrayEnteros = new {1, 2, 3};"
+          },
+          {
+            "id": "b",
+            "label": "int arrayEnteros[] = new() {1, 2, 3};"
+          },
+          {
+            "id": "c",
+            "label": "int[] arrayEnteros = new[] {1, 2, 3};"
+          },
+          {
+            "id": "d",
+            "label": "int arrayEnteros[] = new {1, 2, 3};"
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: En C# los corchetes forman parte del tipo del array en la declaracion. La forma new[] permite inferir el tipo de los elementos a partir del inicializador mostrado. La respuesta correcta es «int[] arrayEnteros = new[] {1, 2, 3};.». Referencia del temario: B3T6 · Resumen C#: tipos, clases e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-65",
+        "section": "test-oficial",
+        "prompt": "¿Cómo debe definir el equipo de desarrollo en Java una clase llamada Ejercicio si quiere impedir que se pueda heredar de la misma?",
+        "options": [
+          {
+            "id": "a",
+            "label": "closed class Ejercicio"
+          },
+          {
+            "id": "b",
+            "label": "final class Ejercicio"
+          },
+          {
+            "id": "c",
+            "label": "private class Ejercicio"
+          },
+          {
+            "id": "d",
+            "label": "immutable class Ejercicio"
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Final aplicado a una clase Java impide extenderla. No debe confundirse con abstract, que expresa un proposito de base incompleta y una restriccion de instanciacion. La respuesta correcta es «final class Ejercicio.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-66",
+        "section": "test-oficial",
+        "prompt": "En Java se detecta que un bucle concatena una cantidad muy elevada de cadenas de texto, penalizando el rendimiento. ¿Qué clase de java.lang habría que utilizar para mejorar la eficiencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "StringConcat."
+          },
+          {
+            "id": "b",
+            "label": "StringConstruct."
+          },
+          {
+            "id": "c",
+            "label": "StringBuilder."
+          },
+          {
+            "id": "d",
+            "label": "StringCreator."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: StringBuilder permite construir texto mutable de forma incremental. Es la clase de java.lang indicada para evitar determinadas concatenaciones repetidas sobre String inmutable. La respuesta correcta es «StringBuilder.». Referencia del temario: B3T6 · Resumen Java: clases, herencia y excepciones."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-67",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes NO es un framework de persistencia para Java?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Jersey."
+          },
+          {
+            "id": "b",
+            "label": "OpenJPA."
+          },
+          {
+            "id": "c",
+            "label": "Ebean."
+          },
+          {
+            "id": "d",
+            "label": "EclipseLink."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Jersey se relaciona con servicios REST, mientras las otras alternativas del listado se vinculan con persistencia. La pregunta solicita la opcion que no pertenece a esa familia. La respuesta correcta es «Jersey.». Referencia del temario: B3T6 · Jakarta EE: persistencia."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-68",
+        "section": "test-oficial",
+        "prompt": "¿Qué es UNITY?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Un framework de persistencia para Java EE/Jakarta EE y .NET."
+          },
+          {
+            "id": "b",
+            "label": "Una plataforma de desarrollo 3D en tiempo real para compilar aplicaciones 2D y 3D, como juegos y simulaciones."
+          },
+          {
+            "id": "c",
+            "label": "Una librería de criptografía simétrica y asimétrica."
+          },
+          {
+            "id": "d",
+            "label": "Un motor de búsqueda personalizable de Apache."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Unity es una plataforma para crear experiencias 2D y 3D, incluidos juegos y simulaciones. No es una biblioteca criptografica ni un motor de busqueda de Apache. La respuesta correcta es «Una plataforma de desarrollo 3D en tiempo real para compilar aplicaciones 2D y 3D, como juegos y simulaciones.». Referencia del temario: B3T6 · Jakarta EE y .NET: componentes, persistencia y seguridad."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-69",
+        "section": "test-oficial",
+        "prompt": "En .NET, el framework multiplataforma de código abierto para crear aplicaciones móviles y de escritorio nativas con C# y XAML que se pueden ejecutar en Android, iOS, macOS y Windows desde una sola base de código compartida se corresponde con:",
+        "options": [
+          {
+            "id": "a",
+            "label": ".NET MAUI."
+          },
+          {
+            "id": "b",
+            "label": ".NET MUI."
+          },
+          {
+            "id": "c",
+            "label": ".NET MONO X."
+          },
+          {
+            "id": "d",
+            "label": ".NET MONO IU."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La alternativa .NET MAUI identifica el framework de interfaces nativas multiplataforma descrito. Las otras variantes del nombre no son el identificador seleccionado por el material. La respuesta correcta es «.NET MAUI.». Referencia del temario: B3T6 · Resumen C#: tipos, clases e interfaces."
+      },
+      {
+        "id": "b3t6-test-oficial-java-net-70",
+        "section": "test-oficial",
+        "prompt": "¿Qué API es un estándar de mensajería que permite a los componentes de aplicaciones basados en Java EE crear, enviar, recibir y leer mensajes?",
+        "options": [
+          {
+            "id": "a",
+            "label": "JMail."
+          },
+          {
+            "id": "b",
+            "label": "JSMS."
+          },
+          {
+            "id": "c",
+            "label": "JMX."
+          },
+          {
+            "id": "d",
+            "label": "JMS."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: JMS es la API estandar de mensajeria del entorno empresarial Java. Su cometido es intercambiar mensajes, no gestionar registros de monitorizacion como JMX. La respuesta correcta es «JMS.». Referencia del temario: B3T6 · Jakarta EE: componentes y servicios."
+      }
+    ]
+  },
+  {
     "code": "B3T7",
     "slug": "b3t7-test-oficial-arquitectura-logica-y-ws",
     "title": "Test oficial Arquitectura logica y WS",

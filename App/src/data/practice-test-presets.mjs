@@ -6,6 +6,18 @@ function uniqueSections(presets) {
   return [...new Set(presets.flatMap((preset) => preset.focusSections))];
 }
 
+export function buildGroupedPracticePresets(groups) {
+  return groups.flatMap((group) => {
+    const poolSections = uniqueSections(group.testPresets);
+    return buildExtendedPracticePresets(group.testPresets).map((preset) => ({
+      ...preset,
+      slug: `${group.slug}-${preset.slug}`,
+      title: `${group.title} · ${preset.title}`,
+      poolSections,
+    }));
+  });
+}
+
 /**
  * Keeps the five focused tests and adds five broader combinations. The new
  * presets use different seeds later in the test builder, so they also draw a

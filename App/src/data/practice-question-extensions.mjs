@@ -1,5 +1,6 @@
 import { b1t6PracticeEntries } from "./b1t6-practice-entries.mjs";
 import { b3t7PracticeEntries } from "./b3t7-practice-entries.mjs";
+import { b3t6QuestionBank } from "./b3t6-practice.mjs";
 
 const optionIds = ["a", "b", "c", "d"];
 
@@ -17,6 +18,7 @@ function question(id, section, prompt, options, correctIndex, explanation) {
 // Preguntas de practica redactadas desde el temario. Complementan, sin alterar,
 // los ejercicios oficiales que ya figuran en cada tema.
 export const practiceQuestionExtensionsByCode = {
+  B3T6: b3t6QuestionBank,
   B3T7: [],
   B1T6: [],
   B1T3: [
