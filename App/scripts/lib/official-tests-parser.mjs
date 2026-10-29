@@ -4,6 +4,7 @@ import { b3t7ArchitectureReferences } from "../../src/data/b3t7-architecture-ref
 import { buildB3T7OfficialExplanation } from "./b3t7-official-explanations.mjs";
 import { b3t6References } from "../../src/data/b3t6-references.mjs";
 import { buildB3T6OfficialExplanation } from "./b3t6-official-explanations.mjs";
+import { buildB1T7OfficialExplanation } from "./b1t7-official-explanations.mjs";
 
 const optionIds = ["a", "b", "c", "d"];
 
@@ -19,6 +20,7 @@ const noisePatterns = [
   /^FUENTES DEL DERECHO$/i,
   /^ARQUITECTURAS Y SERVICIOS WEB$/i,
   /^JAKARTA EE Y \.NET$/i,
+  /^POL[ÍI]TICAS DE IGUALDAD(?: DE G[ÉE]NERO)?$/i,
   /^PREPARACI[ÓO]N OPOSICIONES$/i,
   /^T[ÉE]CNICOS AUXILIARES DE INFORM[ÁA]TICA$/i,
   /^\d{4}-\d{4}$/i,
@@ -33,6 +35,7 @@ function normalizeWhitespace(value) {
     .replace(/\bFUENTES DEL DERECHO\s+TAI\b/g, "")
     .replace(/\bARQUITECTURAS Y SERVICIOS WEB\s+TAI\b/g, "")
     .replace(/\bJAKARTA EE Y \.NET\s+TAI\b/g, "")
+    .replace(/\bPOL[ÍI]TICAS DE IGUALDAD(?: DE G[ÉE]NERO)?\s+TAI\b/g, "")
     .replace(/\s*PABLO ARELLANO\s+www\.theglobeformacion\.com\s+Página \d+\s*/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -1324,6 +1327,10 @@ function buildB3T5Explanation(prompt, correctLabel, options = []) {
 }
 
 function buildExplanation(code, prompt, _correctOptionId, correctLabel, options = [], context = {}) {
+  if (code === "B1T7") {
+    const explanation = buildB1T7OfficialExplanation(context.slug, context.questionNumber, correctLabel);
+    if (explanation) return explanation;
+  }
   const specificReason = code === "B3T6"
     ? buildB3T6OfficialExplanation(context.slug, context.questionNumber)
     : code === "B3T7"

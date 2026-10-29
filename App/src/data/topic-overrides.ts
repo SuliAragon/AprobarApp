@@ -29,6 +29,35 @@ export interface TopicOverride {
 }
 
 export const topicOverrides: Record<string, TopicOverride> = {
+  B1T7: {
+    title: "Políticas de igualdad y contra la violencia de género. Discapacidad y dependencia",
+    shortTitle: "Igualdad, discapacidad y dependencia",
+    description: "Repaso de la documentación aportada: igualdad efectiva, protección frente a la violencia, no discriminación, derechos LGTBI, discapacidad y Sistema para la Autonomía y Atención a la Dependencia.",
+    summary: [
+      "LO 3/2007: igualdad directa e indirecta, acoso, acciones positivas, planes de igualdad, empleo público y sociedad de la información.",
+      "LO 1/2004 y LO 10/2022: prevención, derechos de las víctimas, tutela institucional, violencia de género y libertad sexual.",
+      "Ley 15/2022 y Ley 4/2023: no discriminación, decisiones automatizadas, derechos LGTBI y rectificación registral.",
+      "IV Plan de igualdad de la AGE, Pacto de Estado y Convenio de Estambul.",
+      "RDL 1/2013: discapacidad, normalización, inclusión social, accesibilidad universal, ajustes razonables y empleo.",
+      "Ley 39/2006: autonomía personal, SAAD, servicios, prestaciones, grados del esquema del PDF, valoración y PIA.",
+      "Estudio vinculado a la versión del material facilitado. El test oficial conserva su plantilla original, incluidas redacciones y denominaciones históricas.",
+    ],
+    sections: [
+      "Igualdad efectiva y empleo público: LO 3/2007",
+      "Violencia de género y libertad sexual: LO 1/2004 y LO 10/2022",
+      "No discriminación, derechos LGTBI e IV Plan de la AGE",
+      "Discapacidad, inclusión y accesibilidad: RDL 1/2013",
+      "Autonomía personal, dependencia y SAAD: Ley 39/2006",
+    ],
+    accent: "coral",
+    testPresets: [
+      { slug: "igualdad-y-empleo-publico", title: "Test 1 · Igualdad efectiva y empleo público", description: "Distingue discriminación directa e indirecta, acoso, planes, transversalidad y medidas de igualdad en la AGE.", focusSections: ["igualdad-y-empleo-publico"] },
+      { slug: "violencia-y-libertad-sexual", title: "Test 2 · Violencia de género y libertad sexual", description: "Repasa prevención, asistencia, protección laboral, órganos, consentimiento, Pacto de Estado y Convenio de Estambul.", focusSections: ["violencia-y-libertad-sexual"] },
+      { slug: "no-discriminacion-lgtbi-y-plan-age", title: "Test 3 · No discriminación, LGTBI y plan de la AGE", description: "Trabaja tipos de discriminación, algoritmos, identidad y orientación sexual, rectificación registral y ejes del IV Plan.", focusSections: ["no-discriminacion-lgtbi-y-plan-age"] },
+      { slug: "discapacidad-y-accesibilidad", title: "Test 4 · Discapacidad y accesibilidad", description: "Entrena definiciones, derechos, inclusión, ajustes razonables, accesibilidad y cuota de reserva empresarial.", focusSections: ["discapacidad-y-accesibilidad"] },
+      { slug: "dependencia-y-saad", title: "Test 5 · Dependencia y SAAD", description: "Diferencia discapacidad y dependencia y repasa el sistema, servicios, prestaciones, valoración y PIA del material.", focusSections: ["dependencia-y-saad"] },
+    ],
+  },
   B3T6: {
     title: "Jakarta EE y .NET: plataformas y lenguajes C, C#, C++ y Java",
     shortTitle: "Plataformas y lenguajes",

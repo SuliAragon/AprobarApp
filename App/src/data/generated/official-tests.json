@@ -14930,6 +14930,2419 @@
     ]
   },
   {
+    "code": "B1T7",
+    "slug": "b1t7-test-oficial-politicas-de-igualdad-de-genero",
+    "title": "Test oficial Politicas de igualdad de genero",
+    "description": "Versión interactiva del test oficial del profesor con soluciones incorporadas.",
+    "focusSections": [
+      "test-oficial"
+    ],
+    "sourceFilename": "Bloque 1/Tema 7/B1T7Test_Politicas_de_igualdad_de_genero.pdf",
+    "assetPath": "/test-oficial/B1T7/b1t7-test-oficial-politicas-de-igualdad-de-genero.pdf",
+    "questions": [
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-1",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación correcta. El Plan de Igualdad en la AGE previsto en la Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad efectiva de mujeres y hombres:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se elaborará anualmente."
+          },
+          {
+            "id": "b",
+            "label": "Será aprobado por el Ministerio de Administraciones Públicas."
+          },
+          {
+            "id": "c",
+            "label": "Se evaluará semestralmente por la Agencia de Evaluación de las Políticas Públicas y Calidad de los Servicios."
+          },
+          {
+            "id": "d",
+            "label": "Se negociará con la representación legal de los empleados públicos."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El artículo 64 prevé negociar el plan de igualdad de la AGE con la representación legal del personal. No se trata de un plan anual aprobado por un ministerio. Respuesta de la plantilla oficial: «Se negociará con la representación legal de los empleados públicos.». Referencia del temario: B1T7 · 2. LO 3/2007, igualdad en el empleo público · p. 24-28."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-2",
+        "section": "test-oficial",
+        "prompt": "De acuerdo la Ley Orgánica 3/2007, de 22 de marzo, señale qué empresas tienen la obligación de elaborar y aplicar un Plan de Igualdad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Todas sin excepción."
+          },
+          {
+            "id": "b",
+            "label": "Sólo las que tengan a partir de 50 trabajadores."
+          },
+          {
+            "id": "c",
+            "label": "Sólo las que tengan a partir de 150 trabajadores."
+          },
+          {
+            "id": "d",
+            "label": "Sólo las que tengan más de 250 trabajadores."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Sólo las que tengan a partir de 50 trabajadores.». Referencia del temario: B1T7 · 2. LO 3/2007, planes de igualdad · p. 20-23."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-3",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 21.3 de la Ley Orgánica 1/2004, de 28 de diciembre, las empresas que formalicen contratos de interinidad para sustituir a trabajadoras víctimas de violencia de género:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tendrán derecho a una bonificación del 100% de las cuotas empresariales a la Seguridad Social por contingencias comunes."
+          },
+          {
+            "id": "b",
+            "label": "Tendrán derecho a una bonificación del 50% de las cuotas empresariales a la Seguridad Social por contingencias comunes."
+          },
+          {
+            "id": "c",
+            "label": "Tendrán derecho a una bonificación del 75% de las cuotas empresariales a la Seguridad Social por contingencias comunes."
+          },
+          {
+            "id": "d",
+            "label": "Tendrán derecho a una bonificación del 80% de las cuotas empresariales a la Seguridad Social por contingencias comunes."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El supuesto de sustitución de trabajadoras víctimas de violencia del artículo 21.3 reproducido en el material recoge la bonificación del cien por ciento de las cuotas empresariales por contingencias comunes. Respuesta de la plantilla oficial: «Tendrán derecho a una bonificación del 100% de las cuotas empresariales a la Seguridad Social por contingencias comunes.». Referencia del temario: B1T7 · 3. LO 1/2004, derechos de las víctimas · p. 44-52."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-4",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, la capacidad económica del beneficiario de las prestaciones:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se tendrá en cuenta para la determinación de la cuantía de las prestaciones económicas y para su participación en la financiación del coste de las prestaciones."
+          },
+          {
+            "id": "b",
+            "label": "Se tendrá en cuenta exclusivamente para la determinación de la cuantía de las prestaciones."
+          },
+          {
+            "id": "c",
+            "label": "No se tendrá en cuenta para su participación en la financiación del coste de las prestaciones."
+          },
+          {
+            "id": "d",
+            "label": "No se tendrá en cuenta para la determinación de la cuantía de las prestaciones económicas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El esquema del tema relaciona la capacidad económica tanto con la cuantía de las prestaciones económicas como con la participación en el coste. No la limita a una de esas dos funciones. Respuesta de la plantilla oficial: «Se tendrá en cuenta para la determinación de la cuantía de las prestaciones económicas y para su participación en la financiación del coste de las prestaciones.». Referencia del temario: B1T7 · 10. Ley 39/2006, prestaciones y participación económica · p. 149-150 y 157-158."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-5",
+        "section": "test-oficial",
+        "prompt": "El principio de igualdad de trato entre mujeres y hombres, recogido en la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva entre mujeres y hombres, supone:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La ausencia de toda discriminación directa o indirecta, por razón de sexo, y especialmente, las derivadas de la maternidad, la asunción de obligaciones familiares y el estado civil."
+          },
+          {
+            "id": "b",
+            "label": "La ausencia de toda discriminación directa por razón de sexo."
+          },
+          {
+            "id": "c",
+            "label": "Tratar como iguales a hombres y mujeres."
+          },
+          {
+            "id": "d",
+            "label": "Tratar con igualdad sin partir de las diferencias de partida entre mujeres y hombres."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El artículo 3 comprende la ausencia de discriminación directa e indirecta, incluidas las vinculadas con maternidad, obligaciones familiares y estado civil. Una definición que solo incluya discriminación directa queda incompleta. Respuesta de la plantilla oficial: «La ausencia de toda discriminación directa o indirecta, por razón de sexo, y especialmente, las derivadas de la maternidad, la asunción de obligaciones familiares y el estado civil.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-6",
+        "section": "test-oficial",
+        "prompt": "¿Qué tres derechos específicos incorpora la Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género, para las funcionarias victimas de violencia de género?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La reducción o reordenación de su tiempo de trabajo, la movilidad geográfica del centro de trabajo y la excedencia por este motivo."
+          },
+          {
+            "id": "b",
+            "label": "La movilidad geográfica del centro de trabajo, la excedencia por este motivo y la reserva de plazas en los procesos de promoción interna de grupo administrativo."
+          },
+          {
+            "id": "c",
+            "label": "La reserva de plazas en los procesos de promoción interna de grupo administrativo, la reducción o reordenación de su tiempo de trabajo y la excedencia por este motivo."
+          },
+          {
+            "id": "d",
+            "label": "La excedencia por este motivo, la movilidad geográfica del centro de trabajo y la reserva de plazas en los procesos de promoción interna."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El régimen descrito reconoce adaptación del tiempo de trabajo, movilidad y excedencia para hacer efectiva la protección de la funcionaria víctima de violencia de género. Respuesta de la plantilla oficial: «La reducción o reordenación de su tiempo de trabajo, la movilidad geográfica del centro de trabajo y la excedencia por este motivo.». Referencia del temario: B1T7 · 3. LO 1/2004, derechos de las víctimas · p. 44-52."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-7",
+        "section": "test-oficial",
+        "prompt": "La Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, introdujo, entre otras, la siguiente medida de apoyo a la funcionaria víctima de la violencia de género:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El derecho a la reducción de la jornada sin disminución de la retribución."
+          },
+          {
+            "id": "b",
+            "label": "La consideración de las faltas de asistencia como faltas leves."
+          },
+          {
+            "id": "c",
+            "label": "La reserva de plaza en los procesos de promoción interna."
+          },
+          {
+            "id": "d",
+            "label": "La excedencia por razón de violencia de género."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La excedencia por violencia de género es una medida específica de protección en el empleo público. No debe confundirse con una excedencia ordinaria por interés particular. Respuesta de la plantilla oficial: «La excedencia por razón de violencia de género.». Referencia del temario: B1T7 · 3. LO 1/2004, derechos de las víctimas · p. 44-52."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-8",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Disposición Adicional Segunda de la Ley 3/2007, de 22 de marzo, para la Igualdad efectiva de mujeres y hombres, las candidaturas que se presenten para las elecciones de diputados al Congreso deberán tener una composición equilibrada de mujeres y hombres, de forma que en el conjunto de la lista los candidatos de cada uno de los sexos supongan como mínimo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El veinte por ciento."
+          },
+          {
+            "id": "b",
+            "label": "El treinta por ciento."
+          },
+          {
+            "id": "c",
+            "label": "El cuarenta por ciento."
+          },
+          {
+            "id": "d",
+            "label": "El cincuenta por ciento."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «El cuarenta por ciento.». Referencia del temario: B1T7 · 2. LO 3/2007, disposiciones adicionales y resumen · p. 32-37."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-9",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el artículo 60 de la Ley 3/2007, señale durante cuánto tiempo se otorgará preferencia en la adjudicación de plazas para participar en los cursos de formación a los empleados públicos que se hayan incorporado al servicio activo procedentes del permiso de maternidad o paternidad, o hayan reingresado desde la situación de excedencia por razones de guarda legal y atención a personas mayores dependientes o personas con discapacidad:",
+        "options": [
+          {
+            "id": "a",
+            "label": "6 meses."
+          },
+          {
+            "id": "b",
+            "label": "9 meses."
+          },
+          {
+            "id": "c",
+            "label": "1 año."
+          },
+          {
+            "id": "d",
+            "label": "2 años."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El artículo 60 establece preferencia durante un año en la adjudicación de plazas de formación en los supuestos de reincorporación que enumera el enunciado. Respuesta de la plantilla oficial: «1 año.». Referencia del temario: B1T7 · 2. LO 3/2007, igualdad en el empleo público · p. 24-28."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-10",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, ¿qué órgano es el encargado de promover la igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Consejo Nacional de Discapacidad."
+          },
+          {
+            "id": "b",
+            "label": "La Dirección General de Servicios Sociales e Igualdad."
+          },
+          {
+            "id": "c",
+            "label": "La Agencia Estatal de Atención a la Discapacidad."
+          },
+          {
+            "id": "d",
+            "label": "La Oficina de Atención a la Discapacidad."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El material atribuye a la Oficina de Atención a la Discapacidad la promoción de igualdad de oportunidades, no discriminación y accesibilidad universal. No es el órgano de reconocimiento de todas las prestaciones. Respuesta de la plantilla oficial: «La Oficina de Atención a la Discapacidad.». Referencia del temario: B1T7 · 9. RDL 1/2013, órganos de participación y atención · p. 138-139."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-11",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, la situación de dependencia se clasifica en los siguientes grados:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Grado I. Dependencia temporal; Grado II. Dependencia permanente; Grado III. Dependencia total."
+          },
+          {
+            "id": "b",
+            "label": "Grado I. Dependencia moderada; Grado II. Dependencia permanente; Grado III. Gran dependencia."
+          },
+          {
+            "id": "c",
+            "label": "Grado I. Dependencia moderada; Grado II. Dependencia severa; Grado III. Gran dependencia."
+          },
+          {
+            "id": "d",
+            "label": "Grado I. Dependencia temporal; Grado II. Dependencia severa; Grado III. Dependencia total."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El artículo 26 reproducido en el PDF distingue dependencia moderada, severa y gran dependencia como grados I, II y III, respectivamente. La pregunta sigue esa clasificación del material. Respuesta de la plantilla oficial: «Grado I. Dependencia moderada; Grado II. Dependencia severa; Grado III. Gran dependencia.». Referencia del temario: B1T7 · 10. Ley 39/2006, grados y valoración según el PDF · p. 154-156."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-12",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, ¿a quién corresponde formular las políticas públicas en relación con la violencia de género a desarrollar por el Gobierno?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la Secretaría de Estado de Servicios Sociales e Igualdad."
+          },
+          {
+            "id": "b",
+            "label": "Al Consejo Asesor para la Violencia de Género."
+          },
+          {
+            "id": "c",
+            "label": "A la Delegación Especial del Gobierno contra la Violencia sobre la Mujer."
+          },
+          {
+            "id": "d",
+            "label": "A la Agencia Estatal contra la Violencia de Género."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La formulación de políticas públicas se atribuye al órgano de la Delegación que aparece en el material. La denominación literal de la opción se conserva sin actualizarla. Respuesta de la plantilla oficial: «A la Delegación Especial del Gobierno contra la Violencia sobre la Mujer.». Referencia del temario: B1T7 · 3. LO 1/2004, tutela institucional · p. 52-54."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-13",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el artículo 2 del Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, la situación en la que se encuentra una persona con discapacidad cuando es tratada de manera menos favorable que otra en situación análoga por motivo de o por razón de su discapacidad se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Discriminación indirecta."
+          },
+          {
+            "id": "b",
+            "label": "Discriminación directa."
+          },
+          {
+            "id": "c",
+            "label": "Acoso."
+          },
+          {
+            "id": "d",
+            "label": "Discriminación por asociación."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El trato menos favorable ligado a la discapacidad en una situación análoga corresponde a discriminación directa. La indirecta puede provenir de un criterio aparentemente neutral. Respuesta de la plantilla oficial: «Discriminación directa.». Referencia del temario: B1T7 · 9. RDL 1/2013, definiciones y titulares · p. 119-124."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-14",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el artículo 2 del Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, ¿cuándo existe la discriminación por asociación?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Existe cuando una persona o grupo en que se integra es objeto de un trato discriminatorio debido a su relación con otra por motivo o por razón de discapacidad."
+          },
+          {
+            "id": "b",
+            "label": "Existe cuando una disposición legal o reglamentaria, una cláusula convencional o contractual, un pacto individual, una decisión unilateral o un criterio o práctica, o bien un entorno, producto o servicio, aparentemente neutros, puedan ocasionar una desventaja particular a una persona respecto de otras por motivo de o por razón de discapacidad, siempre que objetivamente no respondan a una finalidad legítima y que los medios para la consecución de esta finalidad no sean adecuados y necesarios."
+          },
+          {
+            "id": "c",
+            "label": "Existe cuando una persona o grupo en que se integra es objeto de discriminación indirecta."
+          },
+          {
+            "id": "d",
+            "label": "Existe solo cuando una disposición legal o reglamentaria, aparentemente neutra, puedan ocasionar una desventaja particular a una persona respecto de otras por motivo de o por razón de discapacidad."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La discriminación por asociación deriva de la relación con otra persona por motivo de discapacidad. No exige que la persona perjudicada tenga ella misma reconocida discapacidad. Respuesta de la plantilla oficial: «Existe cuando una persona o grupo en que se integra es objeto de un trato discriminatorio debido a su relación con otra por motivo o por razón de discapacidad.». Referencia del temario: B1T7 · 9. RDL 1/2013, definiciones y titulares · p. 119-124."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-15",
+        "section": "test-oficial",
+        "prompt": "Aunque excepcionalmente podrán quedar exentas de esta obligación, del Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, establece que, con carácter general, las empresas públicas y privadas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Que empleen a un número de 40 o más trabajadores, vendrán obligadas a que de entre ellos, al menos, el 2% sean trabajadores con discapacidad."
+          },
+          {
+            "id": "b",
+            "label": "Que empleen a un número de 50 o más trabajadores, vendrán obligadas a que de entre ellos, al menos, el 2% sean trabajadores con discapacidad."
+          },
+          {
+            "id": "c",
+            "label": "Están obligadas a que el 2% de su plantilla sean trabajadores con discapacidad, con independencia del número de trabajadores de la empresa."
+          },
+          {
+            "id": "d",
+            "label": "Están obligadas a que el 3% de su plantilla sean trabajadores con discapacidad, con independencia del número de trabajadores de la empresa."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La regla general del artículo 42 utiliza una plantilla de cincuenta o más trabajadores y una reserva mínima del dos por ciento. Las excepciones se someten a las condiciones legales, no a una exención automática. Respuesta de la plantilla oficial: «Que empleen a un número de 50 o más trabajadores, vendrán obligadas a que de entre ellos, al menos, el 2% sean trabajadores con discapacidad.». Referencia del temario: B1T7 · 9. RDL 1/2013, cuota de reserva de empleo · p. 133-134."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-16",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, ¿cuál de los siguientes servicios es compatible con una prestación económica?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Servicio de teleasistencia."
+          },
+          {
+            "id": "b",
+            "label": "Servicio de ayuda a domicilio."
+          },
+          {
+            "id": "c",
+            "label": "Servicio de Centro de día y de noche."
+          },
+          {
+            "id": "d",
+            "label": "Servicio de atención residencial."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La teleasistencia aparece en el régimen de compatibilidades del material como servicio que puede coexistir con prestaciones económicas. La opción se refiere a ese servicio concreto. Respuesta de la plantilla oficial: «Servicio de teleasistencia.». Referencia del temario: B1T7 · 10. Ley 39/2006, catálogo y servicios · p. 150-154."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-17",
+        "section": "test-oficial",
+        "prompt": "En la Ley Orgánica 1/2004 de 28 de diciembre, en su artículo 63, se indica que en las actuaciones y procedimientos relacionados con la violencia de género se protegerá:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La libre circulación de las víctimas."
+          },
+          {
+            "id": "b",
+            "label": "La intimidad de las víctimas."
+          },
+          {
+            "id": "c",
+            "label": "El derecho de asociación de las víctimas."
+          },
+          {
+            "id": "d",
+            "label": "El secreto de las comunicaciones bajo inspección judicial realizadas a la víctima."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La protección de la intimidad de las víctimas debe mantenerse en las actuaciones y procedimientos. Esa garantía no permite la difusión indiscriminada de sus datos. Respuesta de la plantilla oficial: «La intimidad de las víctimas.». Referencia del temario: B1T7 · 3. LO 1/2004, tutela judicial y resumen · p. 54-57."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-18",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con lo previsto en el artículo 20 de la Ley Orgánica 3/2007, los poderes públicos deben considerar la variable sexo, en la realización:",
+        "options": [
+          {
+            "id": "a",
+            "label": "De compras públicas de bienes y servicios informáticos."
+          },
+          {
+            "id": "b",
+            "label": "De estadísticas, encuestas y recogidas de datos que lleven a cabo."
+          },
+          {
+            "id": "c",
+            "label": "Del diseño de formularios de las autoliquidaciones tributarias."
+          },
+          {
+            "id": "d",
+            "label": "De proyectos de actuación o reforma de bienes inmuebles del patrimonio del estado."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El artículo 20 exige incorporar sistemáticamente la variable sexo en estadísticas, encuestas y recogidas de datos. Su finalidad es hacer visibles las desigualdades. Respuesta de la plantilla oficial: «De estadísticas, encuestas y recogidas de datos que lleven a cabo.». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-19",
+        "section": "test-oficial",
+        "prompt": "Según se establece en la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, todo trato desfavorable a las mujeres relacionado con el embarazo o maternidad, constituye discriminación por razón de sexo del tipo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Indirecta."
+          },
+          {
+            "id": "b",
+            "label": "Directa."
+          },
+          {
+            "id": "c",
+            "label": "Directa, si concurre violencia física, e indirecta en el resto de casos."
+          },
+          {
+            "id": "d",
+            "label": "Directa o indirecta, según decisión judicial, considerando las circunstancias que concurran."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El artículo 8 califica como discriminación directa el trato desfavorable relacionado con embarazo o maternidad. No lo clasifica como discriminación indirecta. Respuesta de la plantilla oficial: «Directa.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-20",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, ¿a quién corresponderá el asesoramiento, evaluación, colaboración institucional, elaboración de informes y estudios, y propuestas de actuación en materia de violencia de género?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A la Delegación Especial del Gobierno contra la Violencia sobre la Mujer."
+          },
+          {
+            "id": "b",
+            "label": "A las Fuerzas y Cuerpos de Seguridad del Estado."
+          },
+          {
+            "id": "c",
+            "label": "Al Observatorio Estatal de Violencia sobre la Mujer."
+          },
+          {
+            "id": "d",
+            "label": "Al Ministerio de Justicia, que creará un órgano específico para ello."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Asesorar, evaluar y elaborar informes y estudios son funciones del Observatorio Estatal de Violencia sobre la Mujer. Deben distinguirse de la formulación de políticas de la Delegación. Respuesta de la plantilla oficial: «Al Observatorio Estatal de Violencia sobre la Mujer.». Referencia del temario: B1T7 · 3. LO 1/2004, tutela institucional · p. 52-54."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-21",
+        "section": "test-oficial",
+        "prompt": "La acreditación de las situaciones de violencia de género ejercida sobre las trabajadoras, según indica la Ley Orgánica 1/2004 de Medidas de Protección Integral contra la violencia de género, se produce mediante:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La orden de protección a favor de la víctima."
+          },
+          {
+            "id": "b",
+            "label": "La correspondiente denuncia presentada en Comisaría o Juzgado."
+          },
+          {
+            "id": "c",
+            "label": "La orden de alejamiento a favor de la víctima o, excepcionalmente, informe del Ministerio Fiscal que indique la existencia de indicios de violencia de género."
+          },
+          {
+            "id": "d",
+            "label": "La orden de alejamiento a favor de la víctima o, excepcionalmente, informe del Ministerio Fiscal que indique la existencia de indicios de violencia de género, hasta que se dicte la orden de protección."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La orden de protección es una forma de acreditación contemplada en el régimen estudiado. Esta explicación no la presenta como la única vía de acreditación posible. Respuesta de la plantilla oficial: «La orden de protección a favor de la víctima.». Referencia del temario: B1T7 · 3. LO 1/2004, derechos de las víctimas · p. 44-52."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-22",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 39/2006 de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, define el Grado II – Dependencia severa como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria 2 o 3 veces al día, pero no quiere el apoyo permanente de un cuidador o tiene necesidades de apoyo extenso para su autonomía personal."
+          },
+          {
+            "id": "b",
+            "label": "Cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria varias veces al día y, por su pérdida total de autonomía física, mental, intelectual o sensorial, necesita el apoyo indispensable y continuo de otra persona o tiene necesidades de apoyo generalizado para su autonomía personal."
+          },
+          {
+            "id": "c",
+            "label": "Cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal."
+          },
+          {
+            "id": "d",
+            "label": "Cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria muchas veces al día y necesita el apoyo constante de un cuidador."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria 2 o 3 veces al día, pero no quiere el apoyo permanente de un cuidador o tiene necesidades de apoyo extenso para su autonomía personal.». Referencia del temario: B1T7 · 10. Ley 39/2006, grados y valoración según el PDF · p. 154-156."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-23",
+        "section": "test-oficial",
+        "prompt": "En la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, se indica en el artículo 38 que la Agencia EFE, velará por el respeto del principio de igualdad y perseguirá en su actuación uno de los siguientes objetivos:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reflejar presencia paritaria de mujeres en su plantilla de empleados."
+          },
+          {
+            "id": "b",
+            "label": "No incluir publicidad sexista."
+          },
+          {
+            "id": "c",
+            "label": "Priorizar el uso de un lenguaje que transmita el principio de igualdad."
+          },
+          {
+            "id": "d",
+            "label": "Adoptar códigos de conducta tendentes a transmitir el contenido del principio de igualdad."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La adopción de códigos de conducta figura entre los objetivos previstos para la Agencia EFE. La pregunta exige identificar ese instrumento concreto de promoción de la igualdad. Respuesta de la plantilla oficial: «Adoptar códigos de conducta tendentes a transmitir el contenido del principio de igualdad.». Referencia del temario: B1T7 · 2. LO 3/2007, medios de comunicación · p. 18-20."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-24",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Ley Orgánica 3/2007, el Gobierno, en las materias que sean de la competencia del Estado, utilizará entre otros instrumentos básicos para la consecución del principio de igualdad y para eliminar la discriminación por razón de sexo un:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Objetivo específico de igualdad."
+          },
+          {
+            "id": "b",
+            "label": "Plan Estratégico de igualdad de Oportunidades."
+          },
+          {
+            "id": "c",
+            "label": "Programa de igualdad."
+          },
+          {
+            "id": "d",
+            "label": "Informe periódico del Ministerio de Justicia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El Plan Estratégico de Igualdad de Oportunidades del artículo 17 es un instrumento para alcanzar la igualdad y eliminar discriminaciones en las materias de competencia estatal. Respuesta de la plantilla oficial: «Plan Estratégico de igualdad de Oportunidades.». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-25",
+        "section": "test-oficial",
+        "prompt": "En el contexto de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, se entiende por composición equilibrada la presencia de mujeres y hombres d e forme que, en el conjunto a que se refiera, las personas de cada sexo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No superen el 70 por ciento ni sean menos del 30 por ciento."
+          },
+          {
+            "id": "b",
+            "label": "No superen el 60 por ciento ni sean menos del 30 por ciento."
+          },
+          {
+            "id": "c",
+            "label": "No superen el 60 por ciento ni sean menos del 40 por ciento."
+          },
+          {
+            "id": "d",
+            "label": "No superen el 70 por ciento ni sean menos del 40 por ciento."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La definición reproducida en el material fija una presencia de cada sexo entre el cuarenta y el sesenta por ciento. No equivale a exigir siempre una distribución exacta del cincuenta por ciento. Respuesta de la plantilla oficial: «No superen el 60 por ciento ni sean menos del 40 por ciento.». Referencia del temario: B1T7 · 2. LO 3/2007, disposiciones adicionales y resumen · p. 32-37."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-26",
+        "section": "test-oficial",
+        "prompt": "La situación en que una persona es, haya sido o pueda ser tratada de manera menos favorable que en otra situación comparable por razón de sexo se denomina:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Discriminación directa."
+          },
+          {
+            "id": "b",
+            "label": "Discriminación indirecta."
+          },
+          {
+            "id": "c",
+            "label": "Acción negativa."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas es correcta."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La comparación de un trato menos favorable por razón de sexo identifica discriminación directa. La formulación aparentemente neutral de una regla pertenece a la definición de discriminación indirecta. Respuesta de la plantilla oficial: «Discriminación directa.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-27",
+        "section": "test-oficial",
+        "prompt": "¿En qué nivel educativo la Ley Orgánica 1/2004, prevé que se contribuirá a desarrollar en el alumnado su capacidad para adquirir habilidades en la resolución pacífica de conflictos y para comprender y respetar la igualdad entre los sexos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "En la educación infantil."
+          },
+          {
+            "id": "b",
+            "label": "En la educación primaria."
+          },
+          {
+            "id": "c",
+            "label": "En la formación profesional."
+          },
+          {
+            "id": "d",
+            "label": "En el bachillerato."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El artículo 4 vincula a la educación primaria la capacidad para resolver pacíficamente conflictos y comprender y respetar la igualdad entre sexos que se cita en la pregunta. Respuesta de la plantilla oficial: «En la educación primaria.». Referencia del temario: B1T7 · 3. LO 1/2004, sensibilización y prevención · p. 40-44."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-28",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes afirmaciones es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Constitución Española de 1979 tutela la igualdad mediante su posible invocación ante los tribunales ordinarios a través de un procedimiento preferente y gratuito."
+          },
+          {
+            "id": "b",
+            "label": "El Tratado de la Unión Europea de 1992 introdujo la igualdad entre mujeres y hombres como uno de los objetivos que debe integrarse en todas las políticas y acciones de la Unión y de sus miembros."
+          },
+          {
+            "id": "c",
+            "label": "El Instituto de la Mujer y para la Igualdad de Oportunidades es un organismo autónomo con rango de Dirección General."
+          },
+          {
+            "id": "d",
+            "label": "El mainstreaming de género pretende instalarse de forma permanente en la práctica de la intervención pública."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El mainstreaming o transversalidad incorpora la igualdad de forma estable al conjunto de la intervención pública. No se limita a una medida aislada ni a una campaña temporal. Respuesta de la plantilla oficial: «El mainstreaming de género pretende instalarse de forma permanente en la práctica de la intervención pública.». Referencia del temario: B1T7 · 1 y 2. Introducción y transversalidad de la igualdad · p. 3-6 y 10-12."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-29",
+        "section": "test-oficial",
+        "prompt": "El Fiscal contra la Violencia sobre la Mujer:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Es nombrado por el Fiscal General del Estado."
+          },
+          {
+            "id": "b",
+            "label": "Intervendrá en procesos penales de especial trascendencia referentes a delitos de violencia de género y en los procesos civiles relacionados."
+          },
+          {
+            "id": "c",
+            "label": "Presentará semestralmente un informe al Fiscal General del Estado sobre los procedimientos seguidos y las actuaciones practicadas por el Ministerio Fiscal en materia de violencia de género."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Todas las respuestas son correctas.». Referencia del temario: B1T7 · 3. LO 1/2004, tutela judicial y resumen · p. 54-57."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-30",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Exposición de Motivos de la Ley Orgánica para la Igualdad Efectiva de Mujeres y Hombres, ¿cuál es la seña de identidad del moderno derecho antidiscriminatorio?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las acciones positivas."
+          },
+          {
+            "id": "b",
+            "label": "La lucha contra el acoso sexual y el acoso por razón de sexo."
+          },
+          {
+            "id": "c",
+            "label": "La dimensión transversal de la igualdad."
+          },
+          {
+            "id": "d",
+            "label": "La corrección de la desigualdad en las relaciones laborales."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La exposición de motivos destaca la dimensión transversal de la igualdad como rasgo del moderno derecho antidiscriminatorio. Ese enfoque supera una actuación limitada a un único sector. Respuesta de la plantilla oficial: «La dimensión transversal de la igualdad.». Referencia del temario: B1T7 · 1 y 2. Introducción y transversalidad de la igualdad · p. 3-6 y 10-12."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-31",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes preceptos de la Ley Orgánica para la Igualdad Efectiva de Mujeres y Hombres, tiene carácter orgánico?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los artículos del Título Preliminar."
+          },
+          {
+            "id": "b",
+            "label": "Todos sus artículos."
+          },
+          {
+            "id": "c",
+            "label": "La definición de la presencia o composición equilibrada contenida en la Disposición Adicional primera."
+          },
+          {
+            "id": "d",
+            "label": "Todas las Disposiciones Adicionales de la Ley."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «La definición de la presencia o composición equilibrada contenida en la Disposición Adicional primera.». Referencia del temario: B1T7 · 2. LO 3/2007, disposiciones adicionales y resumen · p. 32-37."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-32",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de los siguientes principios NO se recoge explícitamente en el Real Decreto Legislativo 1/2013, de 29 de noviembre?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Normalización."
+          },
+          {
+            "id": "b",
+            "label": "Accesibilidad universal."
+          },
+          {
+            "id": "c",
+            "label": "Diálogo civil."
+          },
+          {
+            "id": "d",
+            "label": "Todos son principios recogidos en la Ley."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Normalización, accesibilidad universal y diálogo civil están entre los principios del régimen de discapacidad estudiado. La plantilla recoge la alternativa conjunta prevista en la pregunta. Respuesta de la plantilla oficial: «Todos son principios recogidos en la Ley.». Referencia del temario: B1T7 · 9. RDL 1/2013, definiciones y titulares · p. 119-124."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-33",
+        "section": "test-oficial",
+        "prompt": "El concepto de inclusión social se contempla en el Real Decreto Legislativo 1/2013, de 29 de noviembre, de la siguiente forma:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Principio en virtud del cual la sociedad promueve valores compartidos orientados al bien común y a la cohesión social, permitiendo que todas las personas con discapacidad tengan las oportunidades y recursos necesarios para participar plenamente en la vida política, económica, social, educativa, laboral y cultural, y para disfrutar de unas condiciones de vida en igualdad con los demás."
+          },
+          {
+            "id": "b",
+            "label": "Condición que deben cumplir los entornos, procesos, bienes, productos y servicios, así como los objetos, instrumentos, herramientas y dispositivos, para ser comprensibles, utilizables y practicables por todas las personas en condiciones de seguridad y comodidad y de la forma más autónoma y natural posible."
+          },
+          {
+            "id": "c",
+            "label": "Situación en la que la persona con discapacidad ejerce el poder de decisión sobre su propia existencia y participa activamente en la vida de su comunidad, conforme al derecho al libre desarrollo de la personalidad."
+          },
+          {
+            "id": "d",
+            "label": "Situación en la que se encuentra una persona o el grupo en que se integra cuando, habiendo sido objeto de un trato discriminatorio debido a su relación con otra por motivo o por razón de discapacidad, ha dejado de serlo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La inclusión social se vincula a oportunidades y recursos para participar plenamente en la sociedad. La accesibilidad y la vida independiente son conceptos relacionados, pero distintos. Respuesta de la plantilla oficial: «Principio en virtud del cual la sociedad promueve valores compartidos orientados al bien común y a la cohesión social, permitiendo que todas las personas con discapacidad tengan las oportunidades y recursos necesarios para participar plenamente en la vida política, económica, social, educativa, laboral y cultural, y para disfrutar de unas condiciones de vida en igualdad con los demás.». Referencia del temario: B1T7 · 9. RDL 1/2013, definiciones y titulares · p. 119-124."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-34",
+        "section": "test-oficial",
+        "prompt": "La Ley Orgánica de Protección Integral contra la Violencia de Género:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Prevé medidas de sensibilización, prevención, detección e intervención en los siguientes ámbitos: cultura, medios de comunicación y educación."
+          },
+          {
+            "id": "b",
+            "label": "Considera ilícita la publicidad que utilice la imagen de la mujer con carácter vejatorio o discriminatorio."
+          },
+          {
+            "id": "c",
+            "label": "Prevé la creación de una Sala de Violencia sobre la Mujer en los Tribunales Superiores de Justicia."
+          },
+          {
+            "id": "d",
+            "label": "Todas son correctas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La publicidad que utiliza la imagen de la mujer de manera vejatoria o discriminatoria se considera ilícita. El bloque de prevención incluye medidas específicas en publicidad y comunicación. Respuesta de la plantilla oficial: «Considera ilícita la publicidad que utilice la imagen de la mujer con carácter vejatorio o discriminatorio.». Referencia del temario: B1T7 · 3. LO 1/2004, sensibilización y prevención · p. 40-44."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-35",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley Orgánica 1/2004, desde el punto de vista territorial como mínimo habrá un Juzgado de Violencia sobre la Mujer por cada:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Partido judicial."
+          },
+          {
+            "id": "b",
+            "label": "Municipio."
+          },
+          {
+            "id": "c",
+            "label": "Provincia."
+          },
+          {
+            "id": "d",
+            "label": "Comunidad Autónoma."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Partido judicial.». Referencia del temario: B1T7 · 3. LO 1/2004, tutela judicial y resumen · p. 54-57."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-36",
+        "section": "test-oficial",
+        "prompt": "Las personas en situación de dependencia tienen derecho a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Disfrutar de sus libertades fundamentales."
+          },
+          {
+            "id": "b",
+            "label": "Recibir información continuada, hasta el momento en que concluya su situación de dependencia, en relación con la misma."
+          },
+          {
+            "id": "c",
+            "label": "Decidir sobre la tutela de su persona y bienes, sea cual sea su grado de dependencia."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El artículo 4 reconoce derechos humanos y libertades fundamentales de las personas en situación de dependencia. La respuesta se refiere a ese reconocimiento expreso. Respuesta de la plantilla oficial: «Disfrutar de sus libertades fundamentales.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-37",
+        "section": "test-oficial",
+        "prompt": "Las medidas previstas en la Ley Orgánica para la Igualdad Efectiva de Mujeres y Hombres:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se aplicarán exclusivamente en el ámbito o sector público."
+          },
+          {
+            "id": "b",
+            "label": "Se aplicarán en el sector público y en el privado."
+          },
+          {
+            "id": "c",
+            "label": "Sólo se aplicarán en el sector privado previa negociación con los representantes de todos los afectados."
+          },
+          {
+            "id": "d",
+            "label": "Precisan de desarrollo reglamentario para su obligatoriedad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El ámbito de la LO 3/2007 alcanza tanto al sector público como al privado. No limita todas sus medidas a las administraciones públicas. Respuesta de la plantilla oficial: «Se aplicarán en el sector público y en el privado.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-38",
+        "section": "test-oficial",
+        "prompt": "El Título I de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, regula:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Medidas de sensibilización, prevención y detección."
+          },
+          {
+            "id": "b",
+            "label": "Derechos de las mujeres víctimas de violencia de género."
+          },
+          {
+            "id": "c",
+            "label": "Tutela Institucional."
+          },
+          {
+            "id": "d",
+            "label": "Tutela Penal."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El título I contiene sensibilización, prevención y detección. Los derechos de las víctimas y la tutela institucional ocupan otros títulos de la ley. Respuesta de la plantilla oficial: «Medidas de sensibilización, prevención y detección.». Referencia del temario: B1T7 · 3. LO 1/2004, sensibilización y prevención · p. 40-44."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-39",
+        "section": "test-oficial",
+        "prompt": "Al efecto de hacer efectivas las disposiciones de esta ley, los poderes públicos, en la elaboración de sus estudios y estadísticas, deberán cumplir una serie de obligaciones:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Incluir sistemáticamente la variable de sexo en las estadísticas, encuestas y recogida de datos que lleven a cabo."
+          },
+          {
+            "id": "b",
+            "label": "Realizar muestras lo suficientemente restrictivas para evitar que las diversas variables de sexo puedan ser explotadas o analizadas."
+          },
+          {
+            "id": "c",
+            "label": "Explotar datos a través de los cuales sea posible conocer situaciones, aspiraciones y necesidades de mujeres y hombres en ámbitos diferentes de intervención."
+          },
+          {
+            "id": "d",
+            "label": "Son correctas a) y c)."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El artículo 20 combina incorporar la variable sexo con explotar datos que permitan conocer situaciones y necesidades. No exige muestras restrictivas que impidan analizar las diferencias. Respuesta de la plantilla oficial: «Son correctas a) y c).». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-40",
+        "section": "test-oficial",
+        "prompt": "El ámbito de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, abarca:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aspectos preventivos, educativos, sociales, asistenciales y de atención posterior a las víctimas."
+          },
+          {
+            "id": "b",
+            "label": "Normativa civil que incide en el ámbito familiar o de convivencia."
+          },
+          {
+            "id": "c",
+            "label": "La respuesta punitiva que deben recibir todas las manifestaciones de violencia."
+          },
+          {
+            "id": "d",
+            "label": "Todas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El enfoque integral del material reúne prevención, educación, asistencia y tutela civil y penal. La plantilla selecciona la opción que agrupa los ámbitos enumerados. Respuesta de la plantilla oficial: «Todas son correctas.». Referencia del temario: B1T7 · 3. LO 1/2004, objeto y estructura · p. 38-40."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-41",
+        "section": "test-oficial",
+        "prompt": "A los efectos de la Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad Efectiva de Mujeres y Hombres, ¿qué se entienda por composición equilibrada?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La paridad en la composición de los cargos de responsabilidad."
+          },
+          {
+            "id": "b",
+            "label": "Que las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento."
+          },
+          {
+            "id": "c",
+            "label": "Que no exista una diferencia superior al 10 % entre los integrantes de cada sexo."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: En la definición reproducida, cada sexo debe representar entre el cuarenta y el sesenta por ciento. Ese intervalo se diferencia de una paridad exacta. Respuesta de la plantilla oficial: «Que las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento.». Referencia del temario: B1T7 · 2. LO 3/2007, disposiciones adicionales y resumen · p. 32-37."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-42",
+        "section": "test-oficial",
+        "prompt": "En los proyectos del ámbito de las tecnologías de la información y la comunicación se garantizará que su lenguaje:",
+        "options": [
+          {
+            "id": "a",
+            "label": "No sea sexista, si fueron sufragados parcialmente con dinero público."
+          },
+          {
+            "id": "b",
+            "label": "No sea sexista, si fueron sufragados total o parcialmente con dinero público."
+          },
+          {
+            "id": "c",
+            "label": "No se pueden imponer censuras en ningún caso."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna es correcta."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El artículo 28 exige lenguaje y contenidos no sexistas en proyectos TIC sufragados total o parcialmente con dinero público. La financiación pública parcial también está incluida. Respuesta de la plantilla oficial: «No sea sexista, si fueron sufragados total o parcialmente con dinero público.». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-43",
+        "section": "test-oficial",
+        "prompt": "La Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres establece la necesidad de combatir contra la discriminación estructural y/o difusa, en relación con:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La igualdad en el ámbito de la creación y producción artística e intelectual."
+          },
+          {
+            "id": "b",
+            "label": "La igualdad en el acceso al empleo y las condiciones de trabajo."
+          },
+          {
+            "id": "c",
+            "label": "La igualdad en las políticas de salud."
+          },
+          {
+            "id": "d",
+            "label": "Todas son correctas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El artículo 26 menciona la discriminación estructural o difusa en el ámbito de la creación y producción artística e intelectual. El enunciado pide localizar esa formulación específica. Respuesta de la plantilla oficial: «La igualdad en el ámbito de la creación y producción artística e intelectual.». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-44",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las empresas que se enumeran a continuación estará obligada a elaborar y aplicar un Plan de Igualdad, de acuerdo con las previsiones contenidas en el artículo 45 de la Ley Orgánica para la igualdad efectiva de mujeres y hombres?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las empresas que hubieren recibido el distintivo empresarial en materia de igualdad."
+          },
+          {
+            "id": "b",
+            "label": "Las empresas que determine el Ministerio de Sanidad, Servicios Sociales e Igualdad."
+          },
+          {
+            "id": "c",
+            "label": "Las empresas que estén obligadas a presentar cuentas de pérdidas y ganancias abreviadas."
+          },
+          {
+            "id": "d",
+            "label": "Las empresas a partir de 50 trabajadores."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El artículo 45 contempla la obligación por tamaño de plantilla desde cincuenta personas. El distintivo de igualdad no sustituye ni determina por sí mismo esa obligación. Respuesta de la plantilla oficial: «Las empresas a partir de 50 trabajadores.». Referencia del temario: B1T7 · 2. LO 3/2007, planes de igualdad · p. 20-23."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-45",
+        "section": "test-oficial",
+        "prompt": "El artículo 64 de la Ley Orgánica para la igualdad efectiva de mujeres y hombres prevé que se aprobará un Plan para la Igualdad entre Mujeres y Hombres en la Administración General del Estado:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Por el Gobierno y tendrá una duración anual."
+          },
+          {
+            "id": "b",
+            "label": "Por las Cortes Generales al inicio de cada legislatura."
+          },
+          {
+            "id": "c",
+            "label": "Por la Conferencia Sectorial de la Mujer con la ratificación del Gobierno, mediante Real Decreto."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna de las respuestas es correcta."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El Gobierno aprueba el plan de la AGE al inicio de cada legislatura. Ninguna de las tres alternativas previas reúne correctamente órgano y previsión temporal. Respuesta de la plantilla oficial: «Ninguna de las respuestas es correcta.». Referencia del temario: B1T7 · 2. LO 3/2007, igualdad en el empleo público · p. 24-28."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-46",
+        "section": "test-oficial",
+        "prompt": "Es una medida de promoción profesional de las empleadas públicas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reservar al menos un 40% de las plazas en los cursos de formación del personal directivo adscrito a la Administración del Estado a las mujeres."
+          },
+          {
+            "id": "b",
+            "label": "Realizar cursos y seminarios destinados a la formación de los empleados públicos en el valor de la igualdad de género."
+          },
+          {
+            "id": "c",
+            "label": "Modificar el Reglamento de situaciones administrativas para introducir la modalidad de reserva de plaza por violencia de género."
+          },
+          {
+            "id": "d",
+            "label": "Todas son correctas."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El artículo 60 prevé reservar al menos el cuarenta por ciento de plazas a empleadas públicas en los cursos directivos indicados. Es una medida específica de promoción profesional. Respuesta de la plantilla oficial: «Reservar al menos un 40% de las plazas en los cursos de formación del personal directivo adscrito a la Administración del Estado a las mujeres.». Referencia del temario: B1T7 · 2. LO 3/2007, igualdad en el empleo público · p. 24-28."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-47",
+        "section": "test-oficial",
+        "prompt": "En el protocolo de actuación frente al acoso sexual y acoso por razón de sexo en el ámbito de las Administraciones Públicas que deberá negociarse con la representación legal de las trabajadoras y trabajadores, deberá incluirse:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El tratamiento reservado de las denuncias relativas al acoso sexual o el acoso por razón de sexo, salvo en el supuesto de que se tramite en vía penal como actividad constitutiva de delito."
+          },
+          {
+            "id": "b",
+            "label": "La elaboración de curso de formación y reinserción para los denunciados por estas conductas."
+          },
+          {
+            "id": "c",
+            "label": "La identificación de las personas responsables de atender a quienes formulen una queja o denuncia."
+          },
+          {
+            "id": "d",
+            "label": "Todas son correctas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El protocolo del artículo 62 debe identificar a las personas responsables de atender quejas o denuncias. La confidencialidad no se limita por la excepción absoluta que propone otra alternativa. Respuesta de la plantilla oficial: «La identificación de las personas responsables de atender a quienes formulen una queja o denuncia.». Referencia del temario: B1T7 · 2. LO 3/2007, igualdad en el empleo público · p. 24-28."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-48",
+        "section": "test-oficial",
+        "prompt": "El informe sobre impacto por razón de género:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se emite bien por el Instituto de la Mujer, bien por la Delegación del Gobierno para la Violencia de Género, dependiendo de la materia."
+          },
+          {
+            "id": "b",
+            "label": "Se emite en aquellos supuestos en que la elaboración disponga de un impacto relevante por razón de género, a criterio de la Secretaría de Estado competente en materia de igualdad."
+          },
+          {
+            "id": "c",
+            "label": "Se emite necesariamente en los proyectos de disposiciones de carácter general y los planes de relevancia económica, social, artística y cultural que se sometan a la aprobación del Consejo de Ministros."
+          },
+          {
+            "id": "d",
+            "label": "Es un informe que compete realizar, en todo caso, al Instituto de la Mujer."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Se emite necesariamente en los proyectos de disposiciones de carácter general y los planes de relevancia económica, social, artística y cultural que se sometan a la aprobación del Consejo de Ministros.». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-49",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes opciones, a tenor de las previsiones contenidas en la Ley Orgánica para la Igualdad Efectiva de Mujeres y Hombres es correcta?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las Administraciones Públicas tendrán en cuenta la perspectiva de género en el diseño de la ciudad y en la definición y ejecución del planteamiento urbanístico."
+          },
+          {
+            "id": "b",
+            "label": "Se desarrollará una Estrategia Sectorial de Igualdad entre Mujeres y Hombres para la cooperación española para el desarrollo."
+          },
+          {
+            "id": "c",
+            "label": "Todo trato desfavorable a las mujeres relacionado con el embarazo o maternidad se considera discriminación directa."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La perspectiva de género en urbanismo, la estrategia de cooperación y la consideración del embarazo y maternidad aparecen en los artículos 31, 32 y 8 del material, respectivamente. Respuesta de la plantilla oficial: «Todas las respuestas son correctas.». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-50",
+        "section": "test-oficial",
+        "prompt": "El concepto de “dependencia” engloba:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La capacidad de tomar decisiones personales acerca de cómo vivir de acuerdo con las normas y preferencias propias."
+          },
+          {
+            "id": "b",
+            "label": "El estado de carácter permanente en que se encuentran las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, y ligadas a la falta o pérdida de autonomía física de manera exclusiva, precisan atención de otras personas."
+          },
+          {
+            "id": "c",
+            "label": "El estado de carácter transitorio en que se encuentran personas que, por razones de enfermedad, precisan atención o ayuda externa hasta el momento de su curación."
+          },
+          {
+            "id": "d",
+            "label": "El estado de carácter permanente en que se encuentran las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, y ligadas a la falta o pérdida de autonomía física, mental, intelectual o sensorial, precisan atención de otras personas o ayudas importantes para realizar actividades básicas de la vida diaria o, en el caso de las personas con discapacidad intelectual o enfermedad mental, de otros apoyos para su autonomía personal."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La definición del PDF exige una situación permanente y contempla autonomía física, mental, intelectual o sensorial. No la reduce a una limitación física transitoria. Respuesta de la plantilla oficial: «El estado de carácter permanente en que se encuentran las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, y ligadas a la falta o pérdida de autonomía física, mental, intelectual o sensorial, precisan atención de otras personas o ayudas importantes para realizar actividades básicas de la vida diaria o, en el caso de las personas con discapacidad intelectual o enfermedad mental, de otros apoyos para su autonomía personal.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-51",
+        "section": "test-oficial",
+        "prompt": "Constituye el objeto de la Ley 39/2006, de 14 de diciembre, de Autonomía Personal y Atención a las Personas en Situación de Dependencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Regular de forma unitaria para todo el territorio español las condiciones definitivas en que se garantizará el derecho subjetivo de la ciudadanía a la promoción de la Autonomía Personal y Atención a las personas en situación de dependencia."
+          },
+          {
+            "id": "b",
+            "label": "Regular las condiciones básicas que garanticen la igualdad en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la Autonomía Personal y Atención a las personas en situación de dependencia."
+          },
+          {
+            "id": "c",
+            "label": "Fijar los criterios e instrucciones precisas a fin de servir de orientación a las Comunidades Autónomas en su regulación del derecho subjetivo de la ciudadanía a la promoción de la Autonomía Personal y atención a las personas en situación de dependencia, sin que tales instrucciones sean necesariamente vinculantes."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas anteriores son ciertas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El objeto legal se formula como garantía de condiciones básicas de igualdad en un derecho subjetivo de ciudadanía. No consiste en simples instrucciones orientativas sin fuerza vinculante. Respuesta de la plantilla oficial: «Regular las condiciones básicas que garanticen la igualdad en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la Autonomía Personal y Atención a las personas en situación de dependencia.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-52",
+        "section": "test-oficial",
+        "prompt": "El denominado Sistema para la Autonomía y Atención de la Dependencia, como instrumento necesario para la consecución de los objetivos previstos por la Ley:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Será creado por la Administración General del Estado, de forma unilateral y de aplicación en todas las Comunidades Autónomas."
+          },
+          {
+            "id": "b",
+            "label": "Cada Comunidad Autónoma, en virtud de las competencias que asume a través de sus Estatutos, determinará el Sistema para la Autonomía y Atención de la Dependencia que mejor se adapte a su organización y características propias."
+          },
+          {
+            "id": "c",
+            "label": "Cada Comunidad Autónoma, en virtud de las competencias que asume a través de sus Estatutos, determinará el Sistema para la Autonomía y Atención de la Dependencia que mejor se adapte a su organización y características propias; sin perjuicio de la participación, en su caso, por los entes locales."
+          },
+          {
+            "id": "d",
+            "label": "Este sistema creado por la propia Ley 39/2006, previendo la colaboración y participación de todas las Administraciones Públicas y la garantía por la Administración General del Estado de un contenido mínimo común de derechos para todos los ciudadanos en cualquier parte del territorio del Estado español."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El SAAD se crea por ley con colaboración de las administraciones y garantía estatal de un contenido mínimo común. No es una decisión unilateral aislada de cada comunidad autónoma. Respuesta de la plantilla oficial: «Este sistema creado por la propia Ley 39/2006, previendo la colaboración y participación de todas las Administraciones Públicas y la garantía por la Administración General del Estado de un contenido mínimo común de derechos para todos los ciudadanos en cualquier parte del territorio del Estado español.». Referencia del temario: B1T7 · 10. Ley 39/2006, configuración del SAAD · p. 145-149."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-53",
+        "section": "test-oficial",
+        "prompt": "Son notas que definen el concepto de dependencia a efectos de la Ley 39/2006:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Carácter permanente o temporal de la dependencia."
+          },
+          {
+            "id": "b",
+            "label": "Pérdida de autonomía física, mental, intelectual o sensorial."
+          },
+          {
+            "id": "c",
+            "label": "Exclusión del concepto legal de dependencia, aquélla que trae su causa de discapacidad intelectual o enfermedad mental."
+          },
+          {
+            "id": "d",
+            "label": "Todas las anteriores son notas que definen el concepto legal de dependencia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La pérdida de autonomía puede ser física, mental, intelectual o sensorial. El concepto del material no excluye discapacidad intelectual o enfermedad mental. Respuesta de la plantilla oficial: «Pérdida de autonomía física, mental, intelectual o sensorial.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-54",
+        "section": "test-oficial",
+        "prompt": "Son principios de la Ley de Dependencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El carácter público de las prestaciones del Sistema para la Autonomía y Atención a la Dependencia."
+          },
+          {
+            "id": "b",
+            "label": "La atención a las personas en situación de dependencia de forma integral e integrada."
+          },
+          {
+            "id": "c",
+            "label": "La transversalidad de las políticas de atención a las personas en situación de dependencia."
+          },
+          {
+            "id": "d",
+            "label": "Todos son principios previstos en la Ley."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Carácter público de las prestaciones, atención integral e integrada y transversalidad aparecen entre los principios del artículo 3 reproducido en el tema. Respuesta de la plantilla oficial: «Todos son principios previstos en la Ley.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-55",
+        "section": "test-oficial",
+        "prompt": "NO es un principio previsto en la Ley 39/2006:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La personalización de la atención."
+          },
+          {
+            "id": "b",
+            "label": "La participación de la iniciativa privada en los servicios y prestaciones de promoción de la autonomía personal y atención a la situación de dependencia."
+          },
+          {
+            "id": "c",
+            "label": "Las personas en situación de dependencia severa serán atendidas de manera preferente."
+          },
+          {
+            "id": "d",
+            "label": "La inclusión de la perspectiva de género, teniendo en cuenta las distintas necesidades de mujeres y hombres."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La preferencia que recoge el artículo 3 del material se refiere a gran dependencia. La alternativa asignada por la plantilla utiliza dependencia severa en lugar de esa expresión. Respuesta de la plantilla oficial: «Las personas en situación de dependencia severa serán atendidas de manera preferente.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-56",
+        "section": "test-oficial",
+        "prompt": "Para ser titular de los derechos comprendidos en la Ley de Promoción de la Autonomía Personal y Atención a las Personas en situación de Dependencia, con carácter general, NO será requisito necesario:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Encontrarse en situación de dependencia en alguno de los grados establecidos."
+          },
+          {
+            "id": "b",
+            "label": "Haber residido en territorio español durante los cinco años inmediatamente anteriores a la presentación de la solicitud."
+          },
+          {
+            "id": "c",
+            "label": "Ser español."
+          },
+          {
+            "id": "d",
+            "label": "Todos son requisitos de obligado cumplimiento."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La regla general del PDF exige cinco años de residencia, pero solo dos deben ser inmediatamente anteriores a la solicitud. Exigir los cinco inmediatamente anteriores altera esa regla. Respuesta de la plantilla oficial: «Haber residido en territorio español durante los cinco años inmediatamente anteriores a la presentación de la solicitud.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-57",
+        "section": "test-oficial",
+        "prompt": "El Sistema para la Autonomía y Atención a la Dependencia integra los siguientes niveles de protección:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El nivel de protección mínimo establecido por la Administración General del Estado."
+          },
+          {
+            "id": "b",
+            "label": "El nivel de protección que se acuerde entre la Administración General del Estado y la Administración de cada una de las Comunidades Autónomas a través de Convenios."
+          },
+          {
+            "id": "c",
+            "label": "El nivel adicional de protección que pueda establecer cada Comunidad Autónoma."
+          },
+          {
+            "id": "d",
+            "label": "Todas las respuestas son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El esquema del material distingue el nivel mínimo estatal, el acordado con las comunidades autónomas y el adicional autonómico. La opción conjunta reúne los tres. Respuesta de la plantilla oficial: «Todas las respuestas son correctas.». Referencia del temario: B1T7 · 10. Ley 39/2006, configuración del SAAD · p. 145-149."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-58",
+        "section": "test-oficial",
+        "prompt": "Las prestaciones de atención a la dependencia podrán tener la siguiente naturaleza:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Prestación de servicios, exclusivamente."
+          },
+          {
+            "id": "b",
+            "label": "Prestaciones económicas, exclusivamente."
+          },
+          {
+            "id": "c",
+            "label": "Prestación de servicios y prestaciones económicas, si bien la prestación de servicios tendrá carácter prioritario."
+          },
+          {
+            "id": "d",
+            "label": "Prestación de servicios y prestaciones económicas, si bien las prestaciones económicas tendrán carácter prioritario."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El artículo 14 reproducido en el tema contempla servicios y prestaciones económicas, atribuyendo prioridad a la prestación de servicios. La explicación se refiere al régimen del PDF. Respuesta de la plantilla oficial: «Prestación de servicios y prestaciones económicas, si bien la prestación de servicios tendrá carácter prioritario.». Referencia del temario: B1T7 · 10. Ley 39/2006, prestaciones económicas y servicios · p. 149-152."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-59",
+        "section": "test-oficial",
+        "prompt": "La prioridad en el acceso a los servicios vendrá determinada por el grado y nivel de dependencia y, a igual grado y nivel:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se atenderá a la capacidad económica del solicitante."
+          },
+          {
+            "id": "b",
+            "label": "Tendrá preferencia la persona de mayor edad."
+          },
+          {
+            "id": "c",
+            "label": "Tendrá preferencia la persona de menor edad."
+          },
+          {
+            "id": "d",
+            "label": "Será determinante la fecha de la solicitud."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Se atenderá a la capacidad económica del solicitante.». Referencia del temario: B1T7 · 10. Ley 39/2006, prestaciones y participación económica · p. 149-150 y 157-158."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-60",
+        "section": "test-oficial",
+        "prompt": "Entre los servicios sociales de promoción de la autonomía personal y de atención a la dependencia enumerados en el catálogo de servicios de la Ley 39/2006, NO figura:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Servicio de Ayuda a Domicilio."
+          },
+          {
+            "id": "b",
+            "label": "Servicio de Teleasistencia."
+          },
+          {
+            "id": "c",
+            "label": "Servicio de Atención Residencial."
+          },
+          {
+            "id": "d",
+            "label": "Todos estos servicios se recogen en el Catálogo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Todos estos servicios se recogen en el Catálogo.». Referencia del temario: B1T7 · 10. Ley 39/2006, catálogo y servicios · p. 150-154."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-61",
+        "section": "test-oficial",
+        "prompt": "En relación al Servicio de Teleasistencia, señale la afirmación correcta:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Este servicio no existe en la actualidad."
+          },
+          {
+            "id": "b",
+            "label": "Se recoge en el catálogo de servicios y, además, es compatible con el servicio de ayuda a domicilio, pero no con el de atención residencial."
+          },
+          {
+            "id": "c",
+            "label": "Se recoge en el catálogo de servicios y, además, es compatible con el servicio de atención residencial, pero no con el de ayuda a domicilio."
+          },
+          {
+            "id": "d",
+            "label": "Se recoge en el catálogo de servicios siendo compatible con el servicio de atención residencial, así como con el de ayuda a domicilio."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El régimen del material permite compatibilizar teleasistencia y ayuda a domicilio, pero no la configura como complemento del alojamiento residencial en esa alternativa. Respuesta de la plantilla oficial: «Se recoge en el catálogo de servicios y, además, es compatible con el servicio de ayuda a domicilio, pero no con el de atención residencial.». Referencia del temario: B1T7 · 10. Ley 39/2006, catálogo y servicios · p. 150-154."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-62",
+        "section": "test-oficial",
+        "prompt": "En relación con el servicio de atención residencial es FALSO que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El servicio de atención residencial será prestado por las Administraciones Públicas tanto en centro propios como concertados."
+          },
+          {
+            "id": "b",
+            "label": "La prestación de este servicio puede tener carácter permanente o temporal."
+          },
+          {
+            "id": "c",
+            "label": "La prestación de este servicio tendrá carácter temporal durante vacaciones, fines de semana y enfermedades o periodos de descanso de los cuidadores no profesionales."
+          },
+          {
+            "id": "d",
+            "label": "Las tres respuestas anteriores son correctas."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «Las tres respuestas anteriores son correctas.». Referencia del temario: B1T7 · 10. Ley 39/2006, catálogo y servicios · p. 150-154."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-63",
+        "section": "test-oficial",
+        "prompt": "NO constituye una modalidad de prestación económica prevista en la Ley 39/2006:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La prestación económica vinculada al servicio."
+          },
+          {
+            "id": "b",
+            "label": "La prestación económica sustitutiva de servicios sociales."
+          },
+          {
+            "id": "c",
+            "label": "La prestación económica de asistencia personal."
+          },
+          {
+            "id": "d",
+            "label": "La prestación económica para cuidados en el entorno familiar y apoyo a cuidadores no profesionales."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Las modalidades económicas del material son la vinculada al servicio, la asistencia personal y los cuidados en el entorno familiar. La denominación de la opción b no forma parte de esa lista. Respuesta de la plantilla oficial: «La prestación económica sustitutiva de servicios sociales.». Referencia del temario: B1T7 · 10. Ley 39/2006, prestaciones económicas y servicios · p. 149-152."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-64",
+        "section": "test-oficial",
+        "prompt": "Cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal, su situación de dependencia se clasificará como:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dependencia leve."
+          },
+          {
+            "id": "b",
+            "label": "Dependencia moderada."
+          },
+          {
+            "id": "c",
+            "label": "Dependencia severa."
+          },
+          {
+            "id": "d",
+            "label": "Esta persona no se encuentra en situación de dependencia."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La ayuda al menos una vez al día o el apoyo intermitente o limitado identifican dependencia moderada en el artículo 26 reproducido. No se denomina dependencia leve. Respuesta de la plantilla oficial: «Dependencia moderada.». Referencia del temario: B1T7 · 10. Ley 39/2006, grados y valoración según el PDF · p. 154-156."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-65",
+        "section": "test-oficial",
+        "prompt": "La situación de dependencia se clasificará en los siguientes grados. Señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dependencia leve."
+          },
+          {
+            "id": "b",
+            "label": "Dependencia moderada."
+          },
+          {
+            "id": "c",
+            "label": "Dependencia severa."
+          },
+          {
+            "id": "d",
+            "label": "Gran dependencia."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El material denomina los grados moderada, severa y gran dependencia. Dependencia leve no figura como uno de los grados de ese esquema. Respuesta de la plantilla oficial: «Dependencia leve.». Referencia del temario: B1T7 · 10. Ley 39/2006, grados y valoración según el PDF · p. 154-156."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-66",
+        "section": "test-oficial",
+        "prompt": "¿A quién corresponde la aprobación del baremo en el que se establecen los criterios de valoración de los diferentes grados y niveles de dependencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A cada Comunidad Autónoma, mediante Decreto del Consejo de Gobierno."
+          },
+          {
+            "id": "b",
+            "label": "A cada Comunidad Autónoma, mediante Orden del titular del departamento con competencia en materia de asuntos sociales."
+          },
+          {
+            "id": "c",
+            "label": "Al Gobierno, mediante Real Decreto."
+          },
+          {
+            "id": "d",
+            "label": "Al Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El Gobierno aprueba el baremo por real decreto, previo acuerdo del Consejo Territorial en el régimen descrito. Acordar criterios y aprobar formalmente el baremo no son la misma función. Respuesta de la plantilla oficial: «Al Gobierno, mediante Real Decreto.». Referencia del temario: B1T7 · 10. Ley 39/2006, grados y valoración según el PDF · p. 154-156."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-67",
+        "section": "test-oficial",
+        "prompt": "Señale qué efecto territorial tendrá, en su caso, el reconocimiento de la situación de dependencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Su reconocimiento, que corresponde exclusivamente a la Administración General del Estado, extenderá sus efectos a todo el territorio nacional."
+          },
+          {
+            "id": "b",
+            "label": "Cuando lo efectúe la Administración Autonómica correspondiente a la residencia del solicitante, limitará sus efectos a la Comunidad Autónoma respectiva."
+          },
+          {
+            "id": "c",
+            "label": "Ambas respuestas son correctas."
+          },
+          {
+            "id": "d",
+            "label": "Ninguna respuesta es correcta."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El reconocimiento previsto en el material tiene validez en todo el territorio estatal. Las alternativas territoriales limitadas de la pregunta no expresan esa regla. Respuesta de la plantilla oficial: «Ninguna respuesta es correcta.». Referencia del temario: B1T7 · 10. Ley 39/2006, reconocimiento del derecho · p. 156-157."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-68",
+        "section": "test-oficial",
+        "prompt": "Señale de los siguientes, cuál NO es un órgano consultivo de participación institucional del Sistema para la Autonomía y Atención a la Dependencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Consejo Nacional de la Dependencia."
+          },
+          {
+            "id": "b",
+            "label": "El Consejo Estatal de Personas Mayores."
+          },
+          {
+            "id": "c",
+            "label": "El Consejo Nacional de la Discapacidad."
+          },
+          {
+            "id": "d",
+            "label": "El Comité Consultivo del Sistema para la Autonomía y Atención a la Dependencia."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El Consejo Nacional de la Dependencia no figura en la lista de órganos consultivos que presenta el tema. No debe confundirse con el Consejo Nacional de la Discapacidad. Respuesta de la plantilla oficial: «El Consejo Nacional de la Dependencia.». Referencia del temario: B1T7 · 10. Ley 39/2006, órganos consultivos · p. 160-161."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-69",
+        "section": "test-oficial",
+        "prompt": "A efectos de la Ley 39/2006, las infracciones se clasifican en:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Leves y graves."
+          },
+          {
+            "id": "b",
+            "label": "Leves, graves y muy graves."
+          },
+          {
+            "id": "c",
+            "label": "Leves, graves, muy graves y flagrantes."
+          },
+          {
+            "id": "d",
+            "label": "Graves y muy graves."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El régimen sancionador clasifica las infracciones como leves, graves y muy graves. No utiliza grados de dependencia como categorías de infracción. Respuesta de la plantilla oficial: «Leves, graves y muy graves.». Referencia del temario: B1T7 · 10. Ley 39/2006, infracciones y sanciones · p. 161-164."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-70",
+        "section": "test-oficial",
+        "prompt": "En el ámbito de la Administración General del Estado será órgano competente para la imposición de sanciones de cuantía superior a 300.000 euros o en los supuestos de cierre de la empresa o clausura del servicio o establecimiento:",
+        "options": [
+          {
+            "id": "a",
+            "label": "El titular de la Dirección General del Instituto de Mayores y Servicios Sociales."
+          },
+          {
+            "id": "b",
+            "label": "El titular de la Secretaría General de Trabajo y Asuntos Sociales."
+          },
+          {
+            "id": "c",
+            "label": "El titular del Ministerio de Trabajo y Asuntos Sociales."
+          },
+          {
+            "id": "d",
+            "label": "El titular del Ministerio de Trabajo y Asuntos Sociales, previo acuerdo del Consejo de Ministros."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: Se conserva la opción asignada por la plantilla original del PDF. No se modifica la letra ni se reconstruye una justificación para una redacción histórica, dudosa o incompleta. Respuesta de la plantilla oficial: «El titular del Ministerio de Trabajo y Asuntos Sociales, previo acuerdo del Consejo de Ministros.». Referencia del temario: B1T7 · 10. Ley 39/2006, infracciones y sanciones · p. 161-164."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-71",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, estarán obligadas a la elaboración y aplicación de un plan de igualdad las empresas:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Que cuenten con 10 o más trabajadores."
+          },
+          {
+            "id": "b",
+            "label": "Que cuenten con 25 o más trabajadores."
+          },
+          {
+            "id": "c",
+            "label": "Que cuenten con 40 o más trabajadores."
+          },
+          {
+            "id": "d",
+            "label": "Cuando así se establezca en el convenio colectivo que sea aplicable, en los términos previstos en el mismo."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El convenio colectivo puede exigir elaborar y aplicar un plan de igualdad. La obligación no depende exclusivamente del tamaño de la plantilla. Respuesta de la plantilla oficial: «Cuando así se establezca en el convenio colectivo que sea aplicable, en los términos previstos en el mismo.». Referencia del temario: B1T7 · 2. LO 3/2007, planes de igualdad · p. 20-23."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-72",
+        "section": "test-oficial",
+        "prompt": "De conformidad con la Ley Orgánica 1/2004, de medidas de protección integral contra la violencia de género, señale la respuesta INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La violencia de género a que se refiere la presente Ley comprende todo acto de violencia física y psicológica, incluidas las agresiones a la libertad sexual, las amenazas, las coacciones o la privación arbitraria de libertad."
+          },
+          {
+            "id": "b",
+            "label": "La finalidad de esta Ley es prevenir, sancionar y erradicar esta violencia y prestar asistencia a las mujeres, a sus hijos menores y a los menores sujetos a su tutela, o guarda y custodia, víctimas de esta violencia."
+          },
+          {
+            "id": "c",
+            "label": "La Delegación del Gobierno contra la Violencia de Género, adscrita al Ministerio de Igualdad o al departamento con competencias en la materia, es el órgano colegiado al que corresponderá el asesoramiento, evaluación, colaboración institucional, elaboración de informes y estudios, y propuestas de actuación en materia de violencia de género."
+          },
+          {
+            "id": "d",
+            "label": "Una forma de acreditación de la situación de violencia de género es por el informe del Ministerio Fiscal que indique la existencia de indicios de que la demandante es víctima de violencia de género."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La alternativa asigna a la Delegación las funciones colegiadas que corresponden al Observatorio. El enunciado pide localizar la afirmación incorrecta. Respuesta de la plantilla oficial: «La Delegación del Gobierno contra la Violencia de Género, adscrita al Ministerio de Igualdad o al departamento con competencias en la materia, es el órgano colegiado al que corresponderá el asesoramiento, evaluación, colaboración institucional, elaboración de informes y estudios, y propuestas de actuación en materia de violencia de género.». Referencia del temario: B1T7 · 3. LO 1/2004, tutela institucional · p. 52-54."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-73",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 51 de la Ley Orgánica 3/2007, las Administraciones públicas en el ámbito de sus respectivas competencias y en aplicación del principio de igualdad entre mujeres y hombres, deberán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Evaluar periódicamente la efectividad del principio de igualdad en sus respectivos ámbitos de actuación."
+          },
+          {
+            "id": "b",
+            "label": "Establecer medidas efectivas para eliminar las discriminaciones retributivas directas, pero no las indirectas, por razón de sexo."
+          },
+          {
+            "id": "c",
+            "label": "Facilitar la conciliación de la vida personal, familiar y laboral, por encima de la promoción profesional."
+          },
+          {
+            "id": "d",
+            "label": "Remover los obstáculos que impliquen la pervivencia de cualquier tipo de discriminación con el fin de ofrecer condiciones de igualdad efectiva entre mujeres y hombres en la obtención de ayudas de acción social."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El artículo 51 incluye evaluar periódicamente la efectividad del principio de igualdad. La evaluación es una obligación de actuación pública, no solo una posibilidad voluntaria. Respuesta de la plantilla oficial: «Evaluar periódicamente la efectividad del principio de igualdad en sus respectivos ámbitos de actuación.». Referencia del temario: B1T7 · 2. LO 3/2007, igualdad en el empleo público · p. 24-28."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-74",
+        "section": "test-oficial",
+        "prompt": "Conforme a la Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género, las campañas de información y sensibilización contra esta forma de violencia se realizarán de manera que se garantice el acceso a las mismas de:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las personas con discapacidad."
+          },
+          {
+            "id": "b",
+            "label": "Las personas extranjeras en situación de irregularidad."
+          },
+          {
+            "id": "c",
+            "label": "Las personas con rentas inferiores."
+          },
+          {
+            "id": "d",
+            "label": "Las personas que vivan en zonas rurales."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: Las campañas deben garantizar acceso a las personas con discapacidad. La accesibilidad forma parte de la eficacia de las medidas de información y sensibilización. Respuesta de la plantilla oficial: «Las personas con discapacidad.». Referencia del temario: B1T7 · 3. LO 1/2004, sensibilización y prevención · p. 40-44."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-75",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 39/2006, la situación de dependencia se clasifica en tres grados. Indique cómo se denomina el grado II:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Dependencia leve."
+          },
+          {
+            "id": "b",
+            "label": "Dependencia moderada."
+          },
+          {
+            "id": "c",
+            "label": "Dependencia severa."
+          },
+          {
+            "id": "d",
+            "label": "Dependencia mixta."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El grado II recibe la denominación de dependencia severa en el artículo 26 del material. Moderada corresponde al grado I y gran dependencia al III de ese esquema. Respuesta de la plantilla oficial: «Dependencia severa.». Referencia del temario: B1T7 · 10. Ley 39/2006, grados y valoración según el PDF · p. 154-156."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-76",
+        "section": "test-oficial",
+        "prompt": "El Real Decreto Legislativo 1/2013, establece que el órgano colegiado interministerial, de carácter consultivo, en el que se institucionaliza la colaboración del movimiento asociativo de las personas con discapacidad y sus familias y la AGE, para la definición y coordinación de las políticas públicas que garanticen los derechos de las personas con discapacidad es:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Oficina de Atención a la Discapacidad."
+          },
+          {
+            "id": "b",
+            "label": "El Consejo Nacional de la Discapacidad."
+          },
+          {
+            "id": "c",
+            "label": "El Observatorio Nacional de la Discapacidad."
+          },
+          {
+            "id": "d",
+            "label": "El Instituto Nacional de la Discapacidad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El Consejo Nacional de la Discapacidad es el órgano consultivo interministerial descrito. Integra la colaboración del movimiento asociativo con la Administración General del Estado. Respuesta de la plantilla oficial: «El Consejo Nacional de la Discapacidad.». Referencia del temario: B1T7 · 9. RDL 1/2013, órganos de participación y atención · p. 138-139."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-77",
+        "section": "test-oficial",
+        "prompt": "El Régimen de incompatibilidad de las prestaciones especificadas en la Ley 39/2006 de promoción de la autonomía personal y atención a las personas en situación de dependencia establece que:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las prestaciones económicas serán incompatibles con los servicios de prevención de las situaciones de dependencia."
+          },
+          {
+            "id": "b",
+            "label": "Los servicios serán incompatibles entre sí."
+          },
+          {
+            "id": "c",
+            "label": "Las prestaciones económicas serán incompatibles entre sí."
+          },
+          {
+            "id": "d",
+            "label": "El servicio de teleasistencia será compatible el servicio de ayuda a domicilio."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El régimen de compatibilidades recogido en el PDF incluye teleasistencia y ayuda a domicilio. Son dos servicios diferentes que la alternativa presenta como compatibles. Respuesta de la plantilla oficial: «El servicio de teleasistencia será compatible el servicio de ayuda a domicilio.». Referencia del temario: B1T7 · 10. Ley 39/2006, catálogo y servicios · p. 150-154."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-78",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el artículo 6 de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, se define discriminación directa por razón de sexo a:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cualquier comportamiento realizado con el propósito o el efecto de atentar contra su dignidad y de crear un entorno intimidatorio, degradante u ofensivo."
+          },
+          {
+            "id": "b",
+            "label": "Hacer efectivo el derecho constitucional de la igualdad."
+          },
+          {
+            "id": "c",
+            "label": "La situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo, de manera menos favorable que otra en situación comparable."
+          },
+          {
+            "id": "d",
+            "label": "Legislar contra el derecho al aborto."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El artículo 6.1 define discriminación directa mediante trato menos favorable por sexo en situación comparable. Un criterio aparentemente neutro pertenece a la discriminación indirecta. Respuesta de la plantilla oficial: «La situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo, de manera menos favorable que otra en situación comparable.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-79",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el Real Decreto Legislativo 1/2013 por el que se aprueba el Texto Refundido de la Ley General de las personas con discapacidad y de su inclusión social, NO son personas con discapacidad y, por tanto, NO titulares de los derechos de esta norma:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Aquellas a quienes se les haya reconocido un grado de discapacidad igual o superior al 33 por ciento."
+          },
+          {
+            "id": "b",
+            "label": "Pensionistas de la Seguridad Social que tenga reconocida una pensión de incapacidad permanente en el grado total, absoluta o gran invalidez."
+          },
+          {
+            "id": "c",
+            "label": "Aquellas que presentan deficiencias físicas, mentales o sensoriales transitorias."
+          },
+          {
+            "id": "d",
+            "label": "Pensionistas de clases pasivas que tengan reconocida una pensión de jubilación o de retiro por incapacidad permanente para el servicio o inutilidad."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El material exige deficiencias previsiblemente permanentes en su definición legal. La alternativa elegida por la plantilla utiliza deficiencias transitorias. Respuesta de la plantilla oficial: «Aquellas que presentan deficiencias físicas, mentales o sensoriales transitorias.». Referencia del temario: B1T7 · 9. RDL 1/2013, definiciones y titulares · p. 119-124."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-80",
+        "section": "test-oficial",
+        "prompt": "La Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación establece en el artículo 23 sobre los mecanismos de toma de decisión automatizados que las administraciones públicas, en el marco de sus competencias en el ámbito de los algoritmos involucrados en procesos de toma de decisiones, priorizarán:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La transparencia en el diseño y la implementación y la capacidad de interpretación de las decisiones adoptadas por los mismos."
+          },
+          {
+            "id": "b",
+            "label": "La detección de sesgos discriminatorios."
+          },
+          {
+            "id": "c",
+            "label": "La automatización de tareas repetitivas."
+          },
+          {
+            "id": "d",
+            "label": "Aquellas actividades consideradas como de lógica no decisoria."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El artículo 23 prioriza transparencia e interpretabilidad de decisiones automatizadas. El uso de algoritmos debe contemplar la prevención de sesgos y de resultados discriminatorios. Respuesta de la plantilla oficial: «La transparencia en el diseño y la implementación y la capacidad de interpretación de las decisiones adoptadas por los mismos.». Referencia del temario: B1T7 · 5. Ley 15/2022, decisiones automatizadas · p. 71-73."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-81",
+        "section": "test-oficial",
+        "prompt": "¿Cuáles son las consecuencias jurídicas de las conductas discriminatorias por razón de sexo de los actos administrativos, a tenor de lo establecido en la Ley Orgánica 3/2007, de 22 de marzo para la igualdad efectiva de mujeres y hombres?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Serán anulables, solo cuando supongan una discriminación directa."
+          },
+          {
+            "id": "b",
+            "label": "Se considerarán nulos."
+          },
+          {
+            "id": "c",
+            "label": "Se considerarán anulables."
+          },
+          {
+            "id": "d",
+            "label": "Se considerarán válidas."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El artículo 10 establece la nulidad de actos y cláusulas que constituyan o causen discriminación por sexo. También contempla reparación y consecuencias jurídicas en los términos legales. Respuesta de la plantilla oficial: «Se considerarán nulos.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-82",
+        "section": "test-oficial",
+        "prompt": "De conformidad con el artículo 3 de la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI, ¿qué es la identidad sexual?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Atracción física, sexual o afectiva hacia una persona."
+          },
+          {
+            "id": "b",
+            "label": "Persona cuya orientación sexual no se corresponde con el sexo asignado al nacer."
+          },
+          {
+            "id": "c",
+            "label": "Manifestación que cada persona hace de su orientación sexual."
+          },
+          {
+            "id": "d",
+            "label": "Vivencia interna e individual del sexo tal y como cada persona la siente y autodefine, pudiendo o no corresponder con el sexo asignado al nacer."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La identidad sexual se refiere a la vivencia interna e individual del sexo y a su autodefinición. Es un concepto distinto de orientación sexual y expresión de género. Respuesta de la plantilla oficial: «Vivencia interna e individual del sexo tal y como cada persona la siente y autodefine, pudiendo o no corresponder con el sexo asignado al nacer.». Referencia del temario: B1T7 · 7. Ley 4/2023, definiciones · p. 95-98."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-83",
+        "section": "test-oficial",
+        "prompt": "Señale la afirmación correcta para definir el Sistema para la Autonomía y Atención a la Dependencia (SAAD), regulado en la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Se configura como una red de utilización pública, que optimiza y coordina los recursos y servicios públicos disponibles, quedando al margen la optimización y coordinación de recursos y servicios privados."
+          },
+          {
+            "id": "b",
+            "label": "Se configura como una red de utilización pública que integra, de forma coordinada, centros y servicios públicos, cuya gestión pasará a depender de la Secretaría de Estado de Derechos Sociales."
+          },
+          {
+            "id": "c",
+            "label": "Se configura como una red de utilización pública que integra, de forma coordinada, centros y servicios, públicos y privados."
+          },
+          {
+            "id": "d",
+            "label": "Se configura como una red de utilización pública y privada, que optimiza y coordina el funcionamiento de centros privados, organizaciones no gubernamentales y otras organizaciones de voluntarios."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: El artículo 6 configura una red de utilización pública con centros y servicios públicos y privados coordinados. No exige que todos tengan idéntica titularidad. Respuesta de la plantilla oficial: «Se configura como una red de utilización pública que integra, de forma coordinada, centros y servicios, públicos y privados.». Referencia del temario: B1T7 · 10. Ley 39/2006, configuración del SAAD · p. 145-149."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-84",
+        "section": "test-oficial",
+        "prompt": "¿Qué órganos regulados en la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres en el ámbito de la Administración General del Estado para contribuir a hacer realidad el derecho de igualdad en todos los ámbitos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Consejo Interministerial de Igualdad de Oportunidades, la Comisión Transversal para las Políticas de Igualdad y las Unidades de Igualdad."
+          },
+          {
+            "id": "b",
+            "label": "La Comisión Interministerial de Igualdad entre mujeres y hombres, las Unidades de Igualdad y el Consejo de Participación de la Mujer."
+          },
+          {
+            "id": "c",
+            "label": "Las Unidades de Igualdad, la Comisión Electoral Paritaria y el Consejo Transversal Interministerial."
+          },
+          {
+            "id": "d",
+            "label": "Los que reglamentariamente decida en cada legislatura el Ministerio de Igualdad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La Comisión Interministerial, las Unidades de Igualdad y el Consejo de Participación de la Mujer aparecen en las disposiciones organizativas de la LO 3/2007. Respuesta de la plantilla oficial: «La Comisión Interministerial de Igualdad entre mujeres y hombres, las Unidades de Igualdad y el Consejo de Participación de la Mujer.». Referencia del temario: B1T7 · 2. LO 3/2007, disposiciones organizativas · p. 31-32."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-85",
+        "section": "test-oficial",
+        "prompt": "Según se establece en el artículo 14 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, serán criterios generales de actuación de los Poderes Públicos (señale la respuesta INCORRECTA):",
+        "options": [
+          {
+            "id": "a",
+            "label": "El establecimiento de medidas que aseguren la conciliación del trabajo y de la vida personal y familiar de las mujeres y los hombres."
+          },
+          {
+            "id": "b",
+            "label": "El fomento de la efectividad del principio de igualdad entre mujeres y hombres en las relaciones entre particulares."
+          },
+          {
+            "id": "c",
+            "label": "La implantación de un lenguaje no sexista en el ámbito administrativo y su fomento en la totalidad de las relaciones sociales, culturales y artísticas."
+          },
+          {
+            "id": "d",
+            "label": "La incorporación de las mujeres a puestos de responsabilidad directiva y profesional."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: La pregunta pide identificar una formulación que no figura como criterio general del artículo 14. La plantilla asigna la alternativa sobre incorporación a puestos directivos y profesionales. Respuesta de la plantilla oficial: «La incorporación de las mujeres a puestos de responsabilidad directiva y profesional.». Referencia del temario: B1T7 · 2. LO 3/2007, políticas públicas para la igualdad · p. 10-18."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-86",
+        "section": "test-oficial",
+        "prompt": "¿Cuál de las siguientes opciones NO es uno de los Ejes de Actuación recogidos en el Pacto de Estado contra la Violencia de Género?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El impulso de la formación de los distintos agentes para garantizar la mejor respuesta asistencial."
+          },
+          {
+            "id": "b",
+            "label": "La mejora de las oportunidades de empleo en las zonas rurales, disminuyendo la exclusión social, incrementando la igualdad entre mujeres y hombres y las oportunidades para jóvenes, consolidando la resiliencia comunitaria."
+          },
+          {
+            "id": "c",
+            "label": "La mejora de la respuesta institucional a través de la coordinación y el trabajo en red."
+          },
+          {
+            "id": "d",
+            "label": "La visualización y atención de otras formas de violencia contra las mujeres, prestando especial atención a la violencia sexual, a la trata de mujeres y niñas con fines de explotación sexual, a la mutilación genital femenina y a los matrimonios forzados."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: La alternativa sobre empleo rural y resiliencia comunitaria no corresponde a los ejes del Pacto enumerados en el tema. No debe mezclarse con políticas generales de desarrollo rural. Respuesta de la plantilla oficial: «La mejora de las oportunidades de empleo en las zonas rurales, disminuyendo la exclusión social, incrementando la igualdad entre mujeres y hombres y las oportunidades para jóvenes, consolidando la resiliencia comunitaria.». Referencia del temario: B1T7 · 8. Pacto de Estado contra la Violencia de Género · p. 116-118."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-87",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, ¿quién tiene derecho a las prestaciones de dependencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cualquier persona mayor de edad."
+          },
+          {
+            "id": "b",
+            "label": "Sólo personas en edad laboral."
+          },
+          {
+            "id": "c",
+            "label": "Personas en situación de dependencia reconocida en los términos establecidos por la ley."
+          },
+          {
+            "id": "d",
+            "label": "Exclusivamente personas con enfermedades crónicas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La titularidad de las prestaciones exige una situación de dependencia reconocida en los términos legales. No basta equipararla automáticamente a edad o discapacidad. Respuesta de la plantilla oficial: «Personas en situación de dependencia reconocida en los términos establecidos por la ley.». Referencia del temario: B1T7 · 10. Ley 39/2006, disposiciones generales · p. 141-145."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-88",
+        "section": "test-oficial",
+        "prompt": "En virtud del artículo 20 de la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI, seleccione la opción INCORRECTA:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Las administraciones educativas competentes y las universidades impulsarán la introducción, en los planes de estudio conducentes a la obtención de los títulos universitarios y de formación profesional oficiales que habilitan para el ejercicio de profesiones docentes, sanitarias y jurídicas, de contenidos dirigidos a la capacitación necesaria para abordar la diversidad sexual, de género y familiar."
+          },
+          {
+            "id": "b",
+            "label": "El Gobierno, en el ejercicio de sus potestades y sin necesidad de consulta previa a las comunidades autónomas, podrá incluir contenidos relativos al tratamiento de la diversidad sexual, de género y familiar de las personas LGTBI como uno de los aspectos que podrá ser tratado de manera específica en las pruebas que se realicen en los procedimientos selectivos de ingreso, acceso y adquisición de nuevas especialidades correspondientes a los cuerpos docentes establecidos en la normativa vigente."
+          },
+          {
+            "id": "c",
+            "label": "Las administraciones educativas competentes y las universidades promoverán la formación, docencia e investigación en diversidad sexual, de género y familiar, y promoverán grupos de investigación especializados en la realidad del colectivo LGTBI y sobre las necesidades específicas de las personas con VIH."
+          },
+          {
+            "id": "d",
+            "label": "El Gobierno incluirá entre los aspectos básicos del currículo de las distintas etapas educativas, el principio de igualdad de trato y no discriminación por las causas previstas en esta ley y el conocimiento y respeto de la diversidad sexual, de género y familiar de las personas LGTBI."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El artículo 20 prevé consulta a las comunidades autónomas en la actuación descrita. La alternativa marcada introduce expresamente la ausencia de consulta previa. Respuesta de la plantilla oficial: «El Gobierno, en el ejercicio de sus potestades y sin necesidad de consulta previa a las comunidades autónomas, podrá incluir contenidos relativos al tratamiento de la diversidad sexual, de género y familiar de las personas LGTBI como uno de los aspectos que podrá ser tratado de manera específica en las pruebas que se realicen en los procedimientos selectivos de ingreso, acceso y adquisición de nuevas especialidades correspondientes a los cuerpos docentes establecidos en la normativa vigente.». Referencia del temario: B1T7 · 7. Ley 4/2023, actuación de los poderes públicos · p. 98-106."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-89",
+        "section": "test-oficial",
+        "prompt": "Conforme a la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, ¿quién determina el nivel mínimo de protección garantizado para cada uno de los beneficiarios del Sistema para la Autonomía y Atención a la Dependencia, según el grado de su dependencia?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Los Ayuntamientos."
+          },
+          {
+            "id": "b",
+            "label": "Los Servicios Públicos de Salud."
+          },
+          {
+            "id": "c",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "d",
+            "label": "Las Comunidades Autónomas."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La determinación del nivel mínimo garantizado se atribuye al Gobierno en el régimen del material. No corresponde individualmente a ayuntamientos o servicios públicos de salud. Respuesta de la plantilla oficial: «El Gobierno.». Referencia del temario: B1T7 · 10. Ley 39/2006, configuración del SAAD · p. 145-149."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-90",
+        "section": "test-oficial",
+        "prompt": "Conforme al artículo 9 de la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI, se constituye el Consejo de Participación de personas LGTBI, órgano dependiente del:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes."
+          },
+          {
+            "id": "b",
+            "label": "Ministerio de Igualdad."
+          },
+          {
+            "id": "c",
+            "label": "Ministerio de Derechos Sociales, Consumo y Agenda 2030."
+          },
+          {
+            "id": "d",
+            "label": "Ministerio de Inclusión, Seguridad Social y Migraciones."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El Consejo de Participación de personas LGTBI se vincula al Ministerio de Igualdad en el artículo 9 estudiado. Su ámbito no es la gestión del SAAD. Respuesta de la plantilla oficial: «Ministerio de Igualdad.». Referencia del temario: B1T7 · 7. Ley 4/2023, actuación de los poderes públicos · p. 98-106."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-91",
+        "section": "test-oficial",
+        "prompt": "Según la Ley 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, en cuanto a la tutela judicial efectiva regulada en su artículo 12, ¿quién es la persona legitimada en los litigios sobre acoso sexual y acoso por razón de sexo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cualquier persona física o jurídica."
+          },
+          {
+            "id": "b",
+            "label": "Cualquier persona física con o sin interés legítimo."
+          },
+          {
+            "id": "c",
+            "label": "Cualquier persona jurídica con o sin interés legítimo."
+          },
+          {
+            "id": "d",
+            "label": "La persona acosada."
+          }
+        ],
+        "correctOption": "d",
+        "explanation": "Por qué: El artículo 12.3 atribuye a la persona acosada la legitimación en estos litigios. Es la regla específica para acoso sexual y por razón de sexo. Respuesta de la plantilla oficial: «La persona acosada.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-92",
+        "section": "test-oficial",
+        "prompt": "Conforme a la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, ¿quién aprueba, al inicio de cada legislatura, el Plan de Igualdad entre mujeres y hombres en la Administración General del Estado y en los organismos públicos vinculados o dependientes de ella?",
+        "options": [
+          {
+            "id": "a",
+            "label": "El Ministerio de Igualdad."
+          },
+          {
+            "id": "b",
+            "label": "El Gobierno."
+          },
+          {
+            "id": "c",
+            "label": "El Congreso de los Diputados."
+          },
+          {
+            "id": "d",
+            "label": "El Ministerio de Hacienda."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: El Gobierno aprueba el plan de igualdad de la AGE al inicio de cada legislatura. No es una aprobación atribuida al Congreso ni a un ministerio concreto. Respuesta de la plantilla oficial: «El Gobierno.». Referencia del temario: B1T7 · 2. LO 3/2007, igualdad en el empleo público · p. 24-28."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-93",
+        "section": "test-oficial",
+        "prompt": "La situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo, de manera menos favorable que otra en situación comparable se considera, según el artículo 6.1 de la Ley Orgánica 3/2007, de 22 de marzo:",
+        "options": [
+          {
+            "id": "a",
+            "label": "Discriminación directa por razón de sexo."
+          },
+          {
+            "id": "b",
+            "label": "Discriminación indirecta por razón de sexo."
+          },
+          {
+            "id": "c",
+            "label": "Acoso sexual."
+          },
+          {
+            "id": "d",
+            "label": "Acoso por razón de sexo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: La definición del artículo 6.1 se refiere a discriminación directa por razón de sexo. No exige un comportamiento de naturaleza sexual como el acoso sexual. Respuesta de la plantilla oficial: «Discriminación directa por razón de sexo.». Referencia del temario: B1T7 · 2. LO 3/2007, principio de igualdad y tutela · p. 7-10."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-94",
+        "section": "test-oficial",
+        "prompt": "¿Qué norma regula el procedimiento y requisitos para la rectificación registral relativa al sexo y, en su caso, nombre de las personas, así como sus efectos, y prevé medidas específicas derivadas de dicha rectificación en los ámbitos público y privado?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres."
+          },
+          {
+            "id": "b",
+            "label": "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación."
+          },
+          {
+            "id": "c",
+            "label": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI."
+          },
+          {
+            "id": "d",
+            "label": "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil."
+          }
+        ],
+        "correctOption": "c",
+        "explanation": "Por qué: La Ley 4/2023 regula la rectificación registral relativa al sexo y sus efectos. Es un régimen distinto de la norma general antidiscriminatoria de 2022. Respuesta de la plantilla oficial: «Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.». Referencia del temario: B1T7 · 7. Ley 4/2023, rectificación registral · p. 108-112."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-95",
+        "section": "test-oficial",
+        "prompt": "De acuerdo con el artículo 9 de la Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación ¿quién deberá velar particularmente por el respeto del derecho a la igualdad de trato y no discriminación en el acceso al empleo y en las condiciones de trabajo?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La Inspección de Trabajo y Seguridad Social."
+          },
+          {
+            "id": "b",
+            "label": "La Autoridad Independiente para la Igualdad de Trato y la No Discriminación."
+          },
+          {
+            "id": "c",
+            "label": "El Ministerio Fiscal."
+          },
+          {
+            "id": "d",
+            "label": "El Consejo General del Sistema Nacional de Empleo."
+          }
+        ],
+        "correctOption": "a",
+        "explanation": "Por qué: El artículo 9 encarga esta vigilancia específica a la Inspección de Trabajo y Seguridad Social. Debe distinguirse de las funciones de la Autoridad Independiente. Respuesta de la plantilla oficial: «La Inspección de Trabajo y Seguridad Social.». Referencia del temario: B1T7 · 5. Ley 15/2022, igualdad en el empleo · p. 65-67."
+      },
+      {
+        "id": "b1t7-test-oficial-politicas-de-igualdad-de-genero-96",
+        "section": "test-oficial",
+        "prompt": "Según el artículo 2 del Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, se define como Normalización:",
+        "options": [
+          {
+            "id": "a",
+            "label": "La situación en la que la persona con discapacidad ejerce el poder de decisión sobre su propia existencia y participa activamente en la vida de su comunidad, conforme al derecho al libre desarrollo de la personalidad."
+          },
+          {
+            "id": "b",
+            "label": "El principio en virtud del cual las personas con discapacidad deben poder llevar una vida en igualdad de condiciones, accediendo a los mismos lugares, ámbitos, bienes y servicios que están a disposición de cualquier otra persona."
+          },
+          {
+            "id": "c",
+            "label": "El principio en virtud del cual la sociedad promueve valores compartidos orientados al bien común y a la cohesión social, permitiendo que todas las personas con discapacidad tengan las oportunidades y recursos necesarios para participar plenamente en la vida política, económica, social, educativa, laboral y cultural y para disfrutar de unas condiciones de vida en igualdad con los demás."
+          },
+          {
+            "id": "d",
+            "label": "El principio en virtud del cual las actuaciones que desarrollan las Administraciones Públicas no se limitan únicamente a planes, programas y acciones específicos, pensados exclusivamente para estas personas, sino que comprenden las políticas y líneas de acción de carácter general en cualquiera de los ámbitos de actuación pública, en donde se tendrán en cuenta las necesidades y demandas de las personas con discapacidad."
+          }
+        ],
+        "correctOption": "b",
+        "explanation": "Por qué: Normalización significa acceder en igualdad a lugares, ámbitos, bienes y servicios comunes. Vida independiente e inclusión social son conceptos relacionados con definiciones propias. Respuesta de la plantilla oficial: «El principio en virtud del cual las personas con discapacidad deben poder llevar una vida en igualdad de condiciones, accediendo a los mismos lugares, ámbitos, bienes y servicios que están a disposición de cualquier otra persona.». Referencia del temario: B1T7 · 9. RDL 1/2013, definiciones y titulares · p. 119-124."
+      }
+    ]
+  },
+  {
     "code": "B2T1",
     "slug": "b2t1-test-oficial-informatica-basica",
     "title": "Test oficial Informatica basica",

@@ -104,6 +104,30 @@
     "assetPath": "/test-oficial/B1T6/b1t6-opo-tai-b1-t06-repaso-v1-0-2026-06.pdf"
   },
   {
+    "code": "B1T7",
+    "slug": "b1t7-politicas-igualdad-resumen-3-paginas",
+    "kind": "resource",
+    "sourceFilename": "Bloque 1/Tema 7/B1T7_Politicas_Igualdad_Resumen_3_paginas.pdf",
+    "title": "Politicas Igualdad Resumen 3 paginas",
+    "assetPath": "/test-oficial/B1T7/b1t7-politicas-igualdad-resumen-3-paginas.pdf"
+  },
+  {
+    "code": "B1T7",
+    "slug": "b1t7-test-oficial-politicas-de-igualdad-de-genero",
+    "kind": "official-test",
+    "sourceFilename": "Bloque 1/Tema 7/B1T7Test_Politicas_de_igualdad_de_genero.pdf",
+    "title": "Test oficial Politicas de igualdad de genero",
+    "assetPath": "/test-oficial/B1T7/b1t7-test-oficial-politicas-de-igualdad-de-genero.pdf"
+  },
+  {
+    "code": "B1T7",
+    "slug": "b1t7-opo-tai-b1-t07-repaso-v0-1-2026-06",
+    "kind": "resource",
+    "sourceFilename": "Bloque 1/Tema 7/OPO-TAI-B1-T07-REPASO-v0.1-2026.06.pdf",
+    "title": "OPO-TAI-B1-T07-REPASO-v0.1-2026.06",
+    "assetPath": "/test-oficial/B1T7/b1t7-opo-tai-b1-t07-repaso-v0-1-2026-06.pdf"
+  },
+  {
     "code": "B2T1",
     "slug": "b2t1-test-oficial-informatica-basica",
     "kind": "official-test",
