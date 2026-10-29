@@ -8,6 +8,8 @@ const links = [
   { href: withBase("tests/"), label: "Tests" },
   { href: withBase("test-a-medida/"), label: "A medida" },
   { href: withBase("simulacros/"), label: "Simulacros" },
+  { href: withBase("cuaderno/"), label: "Cuaderno" },
+  { href: withBase("progreso/"), label: "Progreso" },
   { href: withBase("calendario/"), label: "Calendario" },
 ];
 ---
@@ -62,6 +64,14 @@ const links = [
   };
 
   syncThemeButtons();
+
+  const measuredHeader = document.querySelector(".site-header");
+  const measureHeader = () => {
+    const stickyHeight = getComputedStyle(measuredHeader).position === "sticky" ? measuredHeader.getBoundingClientRect().height : 0;
+    document.documentElement.style.setProperty("--header-height", `${stickyHeight}px`);
+  };
+  measureHeader();
+  if ("ResizeObserver" in window) new ResizeObserver(measureHeader).observe(measuredHeader);
 
   document.addEventListener("click", (event) => {
     const button = event.target instanceof Element ? event.target.closest("[data-theme-option]") : null;

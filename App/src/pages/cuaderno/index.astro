@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import StudyQuiz from "../../components/StudyQuiz.astro";
+import { topics } from "../../data/topics";
+import { withBase } from "../../utils/paths";
+const config = { key: "aprobarapp:review", title: "Repaso de mi cuaderno", kind: "review", href: withBase("cuaderno/"), questions: [], topicCodes: [] };
+---
+<BaseLayout title="Cuaderno de fallos y dudas | AprobarApp" description="Repasa las preguntas falladas, en blanco y marcadas con duda.">
+  <section class="page-hero content-centered"><p class="eyebrow">Repaso con intención</p><h1>Tu cuaderno de fallos y dudas</h1><p>Un acierto con duda también merece un repaso. Las preguntas salen del repaso de fallos tras tres aciertos sin duda en intentos distintos; puedes mantenerlas marcadas si aún no las tienes claras.</p></section>
+  <section class="study-panel" data-notebook>
+    <div class="study-filter-row"><label>Qué repasar<select data-review-filter><option value="all">Todo el cuaderno</option><option value="due">Pendientes para hoy</option><option value="wrong">Falladas y en blanco</option><option value="doubt">Solo dudas</option></select></label><label>Tema<select data-review-topic><option value="">Todos los temas</option>{topics.filter((t) => t.hasTests).map((t) => <option value={t.code}>{t.code} · {t.shortTitle}</option>)}</select></label><label>Preguntas<select data-review-size><option value="10">10 preguntas</option><option value="20" selected>20 preguntas</option><option value="50">50 preguntas</option></select></label></div>
+    <p data-review-count role="status"></p><p class="study-hint">El calendario de repaso es una ayuda orientativa: un error se vuelve a proponer al día siguiente; los aciertos seguros espacian el siguiente repaso. Las dudas se mantienen pendientes. En los exámenes, el cuaderno se actualiza al entregar.</p>
+    <div class="study-actions"><button class="button button--primary" type="button" data-review-start>Preparar repaso de esta selección</button></div><p class="study-save-status" data-review-status role="status"></p>
+    <div data-review-list></div>
+  </section>
+  <StudyQuiz config={config} />
+  <script>
+    import { mountNotebook } from "../../lib/notebook-client.mjs";
+    mountNotebook(document.querySelector("[data-notebook]"));
+  </script>
+</BaseLayout>

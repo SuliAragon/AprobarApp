@@ -249,10 +249,7 @@ const { topic } = Astro.props as { topic: Topic };
   </section>
 
   <style>
-    section[id^="apartado-"] { scroll-margin-top: 7rem; }
-    @media (max-width: 760px) {
-      section[id^="apartado-"] { scroll-margin-top: 14rem; }
-    }
+    section[id^="apartado-"] { scroll-margin-top: calc(var(--header-height, 100px) + 1.25rem); }
   </style>
 
   <script is:inline>

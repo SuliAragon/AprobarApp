@@ -1,50 +1,66 @@
 # AprobarApp
 
-Aplicación de estudio en Astro para preparar la oposición TAI con temarios por PDF y tests específicos tipo autoescuela.
+Aplicación de estudio en Astro para preparar TAI con temarios por PDF y práctica personalizada.
 
-## Qué hace ahora mismo
+## Estudio y Examen
 
-- Detecta automáticamente los PDF que metas en `../Temario`.
-- Copia esos PDF a `public/temario` durante `dev` y `build`.
-- Crea una ficha por tema con resumen, visor PDF y tests asociados.
-- Guarda en el navegador el estado visual de cada test:
-  - `0` fallos: verde
-  - `1-3` fallos: amarillo
-  - `>3` fallos: rojo
+- Los tests de práctica, oficiales, simulacros y tests a medida usan el mismo motor.
+- Estudio corrige al responder; Examen permite cambiar respuestas y corregir al entregar.
+- El tiempo y la resta por fallo son configurables para practicar; no sustituyen las reglas de la convocatoria.
+- El cronómetro usa una fecha límite persistida y entrega al agotarse, también al volver a una pestaña cerrada.
+- Se guarda cada respuesta y cada duda. Los enlaces de Progreso recuperan el intento concreto.
+- Los tests oficiales conservan el texto, la numeración, las opciones y las letras de la plantilla. Nunca se mezclan sus opciones.
+- Los ejercicios de programación muestran el código también en A medida y en el Cuaderno.
 
-## Temas ya cargados
+## Progreso y Cuaderno
 
-- `B1T1` Constitución Española
-- `B2T3` Estructuras de datos
+La portada muestra intentos abiertos, respuestas de hoy, repasos pendientes y tareas del calendario.
+Progreso añade evolución, resultados por tema y apartado, historial y copia global.
+
+El Cuaderno reúne fallos, blancos y dudas. Un error se programa al día siguiente; los aciertos sin duda
+espacian el repaso a 3, 7, 14 y 30 días. Las dudas siguen pendientes hasta un repaso sin duda.
+Tras tres aciertos sin duda en intentos distintos la pregunta sale del repaso de fallos.
+Esta planificación es orientativa y no es una medida de dominio del temario.
+
+Los tests nuevos priorizan preguntas menos practicadas. A medida también permite solo no respondidas.
+Cada pregunta conserva un identificador estable; cambiar el orden no se cuenta como añadir preguntas.
+
+## Datos y copias
+
+Todo permanece en el navegador. No hay cuentas, servidor de progreso ni sincronización automática.
+La copia global de Progreso incluye calendario, resultados antiguos, intentos, respuestas, dudas y ajustes.
+Importar valida el archivo, combina intentos por identificador y respuestas por fecha, y no duplica eventos.
+Antes de importar se descarga un respaldo del estado actual. Las tareas actuales prevalecen en conflictos
+de calendario; un intento terminado prevalece sobre una copia antigua todavía abierta.
+Si no se puede completar la escritura, se intenta restaurar el estado anterior.
+
+Se conservan hasta 500 resultados y las diez últimas hojas de respuestas completas.
+Los intentos abiertos no se compactan. Las métricas y las preguntas pendientes del Cuaderno se conservan.
+Al faltar espacio o bloquearse el almacenamiento se muestra un aviso: Rescatar sesión exporta también
+lo que siga en memoria. No cierres la pestaña antes de obtener esa copia.
+La versión antigua solo guardaba el último resultado por test; no se inventa un historial previo.
 
 ## Comandos
 
 ```bash
 npm install
+npm test
 npm run dev
 npm run build
-```
-
-Para una build orientada a GitHub Pages:
-
-```bash
 npm run build:github
 ```
 
-## Estructura útil
+Las pruebas que extraen PDFs necesitan `pdftotext` (Poppler).
+`dev` y `build` sincronizan los materiales de `../Temario`. `build:github` utiliza los manifiestos existentes.
 
-- `scripts/sync-temario.mjs`: sincroniza PDFs desde `../Temario`.
-- `src/data/topic-overrides.ts`: títulos, resúmenes y presets de tests por tema.
-- `src/data/question-banks/`: bancos de preguntas base por código de tema.
-- `src/pages/temarios/`: páginas de tema y páginas de test.
+## Estructura
 
-## Cómo añadir más temario
+- `scripts/sync-temario.mjs`: materiales y manifiestos.
+- `src/data/topic-overrides.ts`: títulos y enfoques de práctica.
+- `src/data/question-banks/`: bancos originales; `scenario-questions.mjs` añade supuestos independientes.
+- `src/lib/study-state.mjs`: respuestas, entregas, cuaderno y validación.
+- `src/lib/quiz-client.mjs`: interacción compartida.
+- `src/lib/progress-backup.mjs`: exportación, validación y combinación de copias.
+- `src/pages/progreso/` y `src/pages/cuaderno/`: seguimiento personal.
 
-1. Copia el PDF a la carpeta `Temario` del nivel superior.
-2. Arranca `npm run dev` o ejecuta `npm run build`.
-3. La app detectará el nuevo PDF y creará su ficha automáticamente.
-4. Cuando quieras tests de ese tema, añade su banco de preguntas en `src/data/question-banks/` y enlázalo en `src/data/question-banks/index.ts`.
-
-## Despliegue
-
-Hay un workflow preparado en `.github/workflows/deploy-pages.yml` para publicar la carpeta `App` en GitHub Pages.
+GitHub Pages se despliega desde `main` con `.github/workflows/deploy-pages.yml`.

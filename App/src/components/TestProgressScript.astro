@@ -1,30 +1,26 @@
-<script is:inline>
-  const testCards = document.querySelectorAll("[data-test-card]");
-
-  for (const card of testCards) {
-    const statusNode = card.querySelector("[data-test-status]");
-    const storageKey = card.getAttribute("data-storage-key");
-
-    if (!statusNode || !storageKey) {
+<script>
+  import { readStudyState } from "../lib/study-state.mjs";
+  import { attemptLink } from "../lib/quiz-client.mjs";
+  let state;
+  try { state = readStudyState(localStorage); } catch {}
+  for (const card of document.querySelectorAll("[data-test-card]")) {
+    const status = card.querySelector("[data-test-status]");
+    const key = card.getAttribute("data-storage-key");
+    if (!status || !key) continue;
+    const attempt = state?.attempts.filter((a) => a.key === key).sort((a, b) => b.updatedAt - a.updatedAt)[0];
+    if (attempt?.status === "active") {
+      status.textContent = `En curso · ${Object.values(attempt.answers).filter((a) => a.option).length}/${attempt.questions.length}`;
+      const link = card.querySelector("a.button--primary");
+      if (link) { link.href = attemptLink(attempt); link.textContent = "Continuar intento"; }
       continue;
     }
-
-    const storedResult = localStorage.getItem(storageKey);
-
-    if (!storedResult) {
-      statusNode.textContent = "Pendiente";
-      continue;
-    }
-
-    try {
-      const result = JSON.parse(storedResult);
-      const mistakes = Number(result.mistakes ?? 0);
-      const scoreClass = mistakes === 0 ? "is-perfect" : mistakes <= 3 ? "is-warning" : "is-danger";
-      card.classList.add(scoreClass);
-      statusNode.classList.add(scoreClass);
-      statusNode.textContent = `${mistakes} fallos`;
-    } catch {
-      statusNode.textContent = "Pendiente";
-    }
+    let result;
+    try { result = attempt?.result ? { mistakes: attempt.result.wrong + attempt.result.blank } : JSON.parse(localStorage.getItem(key) ?? "null"); } catch {}
+    if (!result) { status.textContent = "Pendiente"; continue; }
+    const mistakes = Number(result.mistakes ?? 0);
+    const color = mistakes === 0 ? "is-perfect" : mistakes <= 3 ? "is-warning" : "is-danger";
+    card.classList.add(color);
+    status.classList.add(color);
+    status.textContent = `${mistakes} fallos o blancos`;
   }
 </script>

@@ -48,3 +48,13 @@ test("buildCustomTest mezcla temas sin repetir preguntas y equilibra las respues
   const counts = Object.values(answerCounts);
   assert.ok(Math.max(...counts) - Math.min(...counts) <= 1);
 });
+
+test("el generador prioriza preguntas no vistas y puede limitarse a ellas sin inventar ni repetir", () => {
+  const sources = [{ code: "B1T3", questions: [0, 1, 2, 3, 4, 5].map((n) => question("B1T3", n)) }];
+  const seen = { "B1T3-0": 8, "B1T3-1": 2, "B1T3-2": 1, "B1T3-3": 1 };
+  const fresh = buildCustomTest(sources, { size: 6, seed: "variedad", seen, unseenOnly: true });
+  assert.deepEqual(fresh.questions.map((q) => q.id).sort(), ["B1T3-4", "B1T3-5"]);
+  const mixed = buildCustomTest(sources, { size: 3, seed: "variedad", seen });
+  assert.ok(["B1T3-4", "B1T3-5"].every((id) => mixed.questions.some((q) => q.id === id)));
+  assert.equal(sources[0].questions[0].options[0].label, "A");
+});

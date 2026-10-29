@@ -109,11 +109,11 @@ function allocateQuestions(sources, size, seedLabel) {
  * Questions stay unique, subjects are shared as evenly as availability allows,
  * and the position of correct options is balanced across A/B/C/D.
  */
-export function buildCustomTest(sources, { size = 50, seed = `${Date.now()}-${Math.random()}` } = {}) {
-  const availableSources = sources.filter((source) => source.questions.length > 0);
+export function buildCustomTest(sources, { size = 50, seed = `${Date.now()}-${Math.random()}`, seen = {}, unseenOnly = false, preferUnseen = true } = {}) {
+  const availableSources = sources.map((source) => ({ ...source, questions: source.questions.filter((question) => !unseenOnly || !seen[question.id]) })).filter((source) => source.questions.length > 0);
 
   if (availableSources.length === 0) {
-    throw new Error("Selecciona al menos un tema con preguntas disponibles.");
+    throw new Error(unseenOnly ? "Ya has respondido todas las preguntas de esta selección. Desactiva «Solo no vistas» para repasar." : "Selecciona al menos un tema con preguntas disponibles.");
   }
 
   const availableQuestions = availableSources.reduce((total, source) => total + source.questions.length, 0);
@@ -121,6 +121,7 @@ export function buildCustomTest(sources, { size = 50, seed = `${Date.now()}-${Ma
   const allocations = allocateQuestions(availableSources, targetSize, seed);
   const selectedQuestions = availableSources.flatMap((source) =>
     shuffleWithSeed(source.questions, `${seed}-${source.code}`)
+      .sort((a, b) => preferUnseen ? (seen[a.id] ?? 0) - (seen[b.id] ?? 0) : 0)
       .slice(0, allocations[source.code])
       .map((question) => ({ ...question, topicCode: source.code })),
   );

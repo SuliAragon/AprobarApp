@@ -1,0 +1,48 @@
+---
+interface Props { config: Record<string, unknown>; }
+const { config } = Astro.props;
+const payload = JSON.stringify(config).replace(/</g, "\\u003c");
+---
+
+<section class="study-quiz" data-study-quiz>
+  <script type="application/json" data-study-config set:html={payload} />
+  <form class="study-settings" data-study-settings>
+    <div><p class="eyebrow">A tu ritmo</p><h2>Prepara el intento</h2><p>En estudio verás la explicación al responder. En examen podrás cambiar respuestas y corregir al entregar.</p></div>
+    <div class="study-settings__fields">
+      <label>Modo<select name="mode" data-mode><option value="study">Estudio · corrección inmediata</option><option value="exam">Examen · corrección al entregar</option></select></label>
+      <label data-exam-setting hidden>Tiempo (minutos)<input name="minutes" data-minutes type="number" min="1" max="360" value="60" required /></label>
+      <label data-exam-setting hidden>Resta por fallo<select name="penalty" data-penalty><option value="0">Sin penalización</option><option value="0.3333333333333333">1/3 de un acierto</option><option value="0.25">1/4 de un acierto</option><option value="0.5">1/2 de un acierto</option><option value="1">Un acierto</option></select></label>
+      <button class="button button--primary" type="submit" data-start>Comenzar intento</button>
+    </div>
+    <p class="study-hint" data-bank-note></p>
+    <p class="study-hint">El tiempo y la penalización son configurables para practicar; no sustituyen las reglas de tu convocatoria. Los tests oficiales mantienen su plantilla y su orden.</p>
+  </form>
+  <p class="study-save-status" role="status" aria-live="polite" data-save-status></p>
+  <div class="study-session" data-study-session hidden>
+    <div class="study-session__bar"><p data-session-label></p><div class="study-actions"><button class="text-link" type="button" data-next-pending>Ir a la siguiente pendiente</button><button class="text-link" type="button" data-new-attempt>Nuevo intento</button><button class="text-link" type="button" data-rescue>Rescatar sesión</button></div></div>
+    <div class="quiz-layout">
+      <aside class="quiz-summary">
+        <div class="quiz-summary__box"><p class="quiz-summary__label">Estado</p><strong data-score-label>En curso</strong></div>
+        <div class="quiz-summary__box"><p class="quiz-summary__label">Respondidas</p><strong><span data-answered-count>0</span> / <span data-total-count>0</span></strong></div>
+        <div class="quiz-summary__box"><p class="quiz-summary__label">Fallos</p><strong data-mistakes-count>0</strong></div>
+        <div class="quiz-summary__box" data-clock-box hidden><p class="quiz-summary__label">Tiempo restante</p><strong data-clock role="timer" aria-live="off"></strong></div>
+        <button class="button button--primary" type="button" data-finish>Entregar test</button>
+        <p class="study-hint" data-result-summary></p>
+      </aside>
+      <div class="study-paper">
+        <div class="study-navigator">
+          <label>Mostrar<select data-question-filter><option value="all">Todas las preguntas</option><option value="pending">Sin responder</option><option value="doubt">Marcadas con duda</option><option value="wrong">Falladas y en blanco (al entregar)</option></select></label>
+          <div class="question-number-grid" data-question-nav aria-label="Ir a una pregunta"></div>
+          <p data-filter-empty hidden>No hay preguntas con este filtro.</p>
+        </div>
+        <div class="quiz-questions" data-study-questions></div>
+      </div>
+    </div>
+  </div>
+  <noscript><p class="empty-state">Activa JavaScript para guardar respuestas y hacer el test. Los PDF originales siguen disponibles desde el tema.</p></noscript>
+</section>
+
+<script>
+  import { mountQuiz } from "../lib/quiz-client.mjs";
+  for (const root of document.querySelectorAll("[data-study-quiz]")) mountQuiz(root);
+</script>

@@ -19,6 +19,7 @@ import { b3t5ProgramacionOrientadaObjetosQuestionBank } from "./b3t5-programacio
 import { b3t7ArquitecturasServiciosWebQuestionBank } from "./b3t7-arquitecturas-servicios-web";
 import { b3t6PlataformasLenguajesQuestionBank } from "./b3t6-plataformas-lenguajes";
 import { withTemarioReference } from "../temario-explanation-references.mjs";
+import { scenarioQuestions } from "../scenario-questions.mjs";
 
 const rawQuestionBanksByCode: Record<string, QuizQuestion[]> = {
   B1T1: b1t1ConstitutionQuestionBank,
@@ -45,6 +46,6 @@ const rawQuestionBanksByCode: Record<string, QuizQuestion[]> = {
 export const questionBanksByCode: Record<string, QuizQuestion[]> = Object.fromEntries(
   Object.entries(rawQuestionBanksByCode).map(([code, questions]) => [
     code,
-    questions.map((question) => withTemarioReference(question, code)),
+    [...questions, ...scenarioQuestions.filter((question) => question.topicCode === code)].map((question) => withTemarioReference(question, code)),
   ]),
 );
