@@ -22,7 +22,7 @@ export function mountDashboard(root) {
     find("[data-stat-unique]").textContent = data.unique;
     find("[data-stat-active]").textContent = data.active.length;
     find("[data-stat-due]").textContent = data.due.length;
-    find("[data-today-message]").textContent = data.due.length ? `Tienes ${data.due.length} preguntas listas para repasar hoy.` : data.pending.length ? `${data.pending.length} preguntas siguen en tu cuaderno para próximos repasos.` : "Empieza por un test o continúa tu último intento.";
+    find("[data-today-message]").textContent = data.due.length ? `Tienes ${data.due.length} ${data.due.length === 1 ? "pregunta lista" : "preguntas listas"} para repasar hoy.` : data.pending.length ? `${data.pending.length} ${data.pending.length === 1 ? "pregunta sigue" : "preguntas siguen"} en tu cuaderno para próximos repasos.` : "Empieza por un test o continúa tu último intento.";
     const active = data.active[0];
     const continueLink = find("[data-continue-link]");
     continueLink.href = active ? attemptLink(active) : `${config.base}test-a-medida/`;
@@ -38,7 +38,7 @@ export function mountDashboard(root) {
       if (!right) return 1;
       return left.correct / Math.max(1, left.correct + left.wrong) - right.correct / Math.max(1, right.correct + right.wrong);
     })[0];
-    const suggestions = data.due.length ? `<li><a href="${e(config.base)}cuaderno/?filtro=due">Repasar ${data.due.length} preguntas pendientes hoy</a><small>Fallos, blancos o dudas según tu historial.</small></li>` : "";
+    const suggestions = data.due.length ? `<li><a href="${e(config.base)}cuaderno/?filtro=due">Repasar ${data.due.length} ${data.due.length === 1 ? "pregunta pendiente" : "preguntas pendientes"} hoy</a><small>Fallos, blancos o dudas según tu historial.</small></li>` : "";
     find("[data-today-list]").innerHTML = suggestions + dueTasks.map((task) => `<li>${e(task.title)}<small>${e(task.dayKey)} · ${e(task.topic ?? "")}${task.dayKey < today ? " · pendiente anterior" : ""}</small></li>`).join("") + (suggested ? `<li><a href="${e(config.base)}test-a-medida/?tema=${e(suggested.code)}">Practicar ${e(suggested.code)} · ${e(suggested.title)}</a><small>${data.topics[suggested.code] ? "Sugerido a partir de tus respuestas registradas." : "Todavía no tienes respuestas registradas de este tema."}</small></li>` : "");
     if (!full) return;
     find("[data-trend]").innerHTML = data.completed.slice(0, 10).map((a) => `<li><strong>${e(a.title)}</strong><small>${e(dateLabel(a.finishedAt))} · ${a.result.correct} aciertos / ${a.result.total} preguntas · ${percent(a.result.correct, a.result.total)}</small><meter min="0" max="100" value="${a.result.correct / a.result.total * 100}" aria-label="Porcentaje de aciertos">${percent(a.result.correct, a.result.total)}</meter></li>`).join("") || '<li>Todavía no hay intentos terminados en esta versión. Tu evolución aparecerá aquí.</li>';

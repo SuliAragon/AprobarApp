@@ -16,7 +16,7 @@ const topicsByCode = topics.reduce<Record<string, (typeof topics)[number]>>((acc
 >
   <section class="page-hero content-centered">
     <p class="eyebrow">Repaso global</p>
-    <h1>Simulacros para mezclar varios temas en una sola sesión</h1>
+    <h1>Un ensayo para el gran día.</h1>
     <p>
       Aquí van los simulacros acumulados que no pertenecen a un único tema. Son perfectos para repasar bloques ya vistos
       y entrenar cambios de contexto antes del examen.
@@ -74,7 +74,7 @@ const topicsByCode = topics.reduce<Record<string, (typeof topics)[number]>>((acc
                     {simulation.interactiveTest && (
                       <a class="button button--primary" href={withBase(`simulacros/${simulation.slug}/`)}>Hacer simulacro</a>
                     )}
-                    <a class="button button--primary" href={withBase(simulation.assetPath)} target="_blank" rel="noreferrer">
+                    <a class="button button--secondary" href={withBase(simulation.assetPath)} target="_blank" rel="noreferrer">
                       Abrir PDF
                     </a>
                   </div>

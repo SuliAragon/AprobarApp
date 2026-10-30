@@ -2,6 +2,16 @@
 
 Aplicación de estudio en Astro para preparar TAI con temarios por PDF y práctica personalizada.
 
+## Espacio de Estudio
+
+El diseño usa tonos papel, verde y una jerarquía editorial compartida por todas las pantallas.
+En escritorio hay una navegación lateral; en móvil y tableta, un menú compacto que admite Escape.
+La sección activa también se indica en las rutas de temas y tests. Claro y oscuro conservan el ajuste anterior.
+El calendario mantiene su cuadrícula mensual en móvil y muestra el detalle del día debajo.
+
+`DESIGN.md` recoge las decisiones visuales. Las pruebas comprueban también la navegación y el contraste
+de los textos principales y secundarios. El rediseño no modifica las claves de almacenamiento ni las plantillas.
+
 ## Estudio y Examen
 
 - Los tests de práctica, oficiales, simulacros y tests a medida usan el mismo motor.

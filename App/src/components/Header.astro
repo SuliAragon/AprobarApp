@@ -1,98 +1,91 @@
 ---
 import { withBase } from "../utils/paths";
-
-const currentPath = Astro.url.pathname;
-const links = [
-  { href: withBase(""), label: "Inicio" },
-  { href: withBase("temarios/"), label: "Temarios" },
-  { href: withBase("tests/"), label: "Tests" },
-  { href: withBase("test-a-medida/"), label: "A medida" },
-  { href: withBase("simulacros/"), label: "Simulacros" },
-  { href: withBase("cuaderno/"), label: "Cuaderno" },
-  { href: withBase("progreso/"), label: "Progreso" },
-  { href: withBase("calendario/"), label: "Calendario" },
-];
+import { getWorkspaceContext, workspaceLinks } from "../lib/workspace-navigation.mjs";
+import Icon from "./Icon.astro";
+const context = getWorkspaceContext(Astro.url.pathname, import.meta.env.BASE_URL);
 ---
-
-<header class="site-header">
-  <div class="site-header__inner">
-    <a class="brand" href={withBase("")}>
-      <span class="brand__eyebrow">TAI 2027</span>
-      <span class="brand__name">AprobarApp</span>
-    </a>
-
-    <div class="site-header__controls">
-      <nav class="nav-tabs" aria-label="Navegación principal">
-        {
-          links.map((link) => (
-            <a class:list={["nav-tabs__link", currentPath === new URL(link.href, Astro.url).pathname && "is-active"]} href={link.href}>
-              {link.label}
+<header class="workspace-sidebar" data-workspace-header>
+  <a class="workspace-brand" href={withBase("")} aria-label="AprobarApp · Inicio">
+    <span class="workspace-brand__mark" aria-hidden="true">a<span>.</span></span>
+    <span><strong>AprobarApp</strong><small>Tu camino a TAI 2027</small></span>
+  </a>
+  <button class="workspace-menu-button" type="button" aria-controls="workspace-navigation" aria-expanded="false" data-menu-toggle hidden><Icon name="menu" /><span data-menu-label>Menú</span></button>
+  <div class="workspace-navigation" id="workspace-navigation">
+    <nav aria-label="Navegación principal">
+      {["Estudio", "Organización"].map((group) => (
+        <div class="workspace-nav-group">
+          <p>{group}</p>
+          {workspaceLinks.filter((link) => link.group === group).map((link) => (
+            <a class:list={["workspace-nav-link", context.active === link.id && "is-active"]} href={withBase(link.path)} aria-current={context.active === link.id ? "page" : undefined}>
+              <Icon name={link.icon} /><span>{link.label}</span>{context.active === link.id && <span class="workspace-nav-link__dot" aria-hidden="true"></span>}
             </a>
-          ))
-        }
-      </nav>
-
+          ))}
+        </div>
+      ))}
+    </nav>
+    <div class="workspace-sidebar__bottom">
+      <a class="workspace-local-note" href={withBase("progreso/#copia-seguridad")}><Icon name="shield" size={18} /><span>Tu progreso, contigo<small>Guardado en este navegador</small></span></a>
       <div class="theme-toggle" aria-label="Cambiar tema">
-        <button class="theme-toggle__button" type="button" data-theme-option="light">
-          Claro
-        </button>
-        <button class="theme-toggle__button" type="button" data-theme-option="dark">
-          Oscuro
-        </button>
+        <button class="theme-toggle__button" type="button" data-theme-option="light"><Icon name="sun" size={16} />Claro</button>
+        <button class="theme-toggle__button" type="button" data-theme-option="dark"><Icon name="moon" size={16} />Oscuro</button>
       </div>
+      <p class="workspace-edition">Constancia antes que prisa.</p>
     </div>
   </div>
 </header>
-
-<script is:inline>
-  const storageKey = "aprobarapp:theme";
-  const themeMeta = document.querySelector('meta[name="theme-color"]');
-
-  const syncThemeButtons = () => {
-    const currentTheme = document.documentElement.dataset.theme || "light";
-    const themeButtons = document.querySelectorAll("[data-theme-option]");
-
-    for (const button of themeButtons) {
-      const isActive = button.getAttribute("data-theme-option") === currentTheme;
-      button.classList.toggle("is-active", isActive);
-      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+<script>
+  const header = document.querySelector<HTMLElement>("[data-workspace-header]");
+  const menu = document.querySelector<HTMLButtonElement>("[data-menu-toggle]");
+  const menuLabel = document.querySelector("[data-menu-label]");
+  const meta = document.querySelector('meta[name="theme-color"]');
+  const syncTheme = () => {
+    const theme = document.documentElement.dataset.theme || "light";
+    for (const button of document.querySelectorAll("[data-theme-option]")) {
+      const active = button.getAttribute("data-theme-option") === theme;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
     }
-
-    if (themeMeta) {
-      themeMeta.setAttribute("content", currentTheme === "dark" ? "#000000" : "#f4f5f7");
-    }
+    meta?.setAttribute("content", getComputedStyle(document.documentElement).getPropertyValue("--bg").trim());
   };
-
-  syncThemeButtons();
-
-  const measuredHeader = document.querySelector(".site-header");
-  const measureHeader = () => {
-    const stickyHeight = getComputedStyle(measuredHeader).position === "sticky" ? measuredHeader.getBoundingClientRect().height : 0;
-    document.documentElement.style.setProperty("--header-height", `${stickyHeight}px`);
-  };
-  measureHeader();
-  if ("ResizeObserver" in window) new ResizeObserver(measureHeader).observe(measuredHeader);
-
+  syncTheme();
   document.addEventListener("click", (event) => {
     const button = event.target instanceof Element ? event.target.closest("[data-theme-option]") : null;
-
-    if (!button) {
-      return;
-    }
-
-    const selectedTheme = button.getAttribute("data-theme-option");
-
-    if (selectedTheme !== "light" && selectedTheme !== "dark") {
-      return;
-    }
-
-    document.documentElement.dataset.theme = selectedTheme;
-    document.documentElement.style.colorScheme = selectedTheme;
-
-    try {
-      window.localStorage.setItem(storageKey, selectedTheme);
-    } catch {}
-
-    syncThemeButtons();
+    const theme = button?.getAttribute("data-theme-option");
+    if (theme !== "light" && theme !== "dark") return;
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+    try { localStorage.setItem("aprobarapp:theme", theme); } catch {}
+    syncTheme();
   });
+  if (header && menu) {
+    header.classList.add("is-enhanced");
+    menu.hidden = false;
+    const setOpen = (open: boolean) => {
+      header.classList.toggle("is-menu-open", open);
+      menu.setAttribute("aria-expanded", String(open));
+      if (menuLabel) menuLabel.textContent = open ? "Cerrar" : "Menú";
+    };
+    menu.addEventListener("click", () => setOpen(menu.getAttribute("aria-expanded") !== "true"));
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && menu.getAttribute("aria-expanded") === "true") { setOpen(false); menu.focus(); }
+    });
+    header.querySelector("nav")?.addEventListener("click", (event) => {
+      if (event.target instanceof Element && event.target.closest("a") && matchMedia("(max-width: 1024px)").matches) setOpen(false);
+    });
+  }
+  const topbar = document.querySelector(".workspace-topbar");
+  const measureHeader = () => {
+    const visibleHeader = matchMedia("(max-width: 1024px)").matches ? header : topbar;
+    const height = visibleHeader?.getBoundingClientRect().height ?? 0;
+    document.documentElement.style.setProperty("--header-height", String(height) + "px");
+  };
+  measureHeader();
+  if ("ResizeObserver" in window) {
+    const observer = new ResizeObserver(measureHeader);
+    if (header) observer.observe(header);
+    if (topbar) observer.observe(topbar);
+  }
+  window.addEventListener("resize", measureHeader);
+  const date = document.querySelector("[data-workspace-date]");
+  if (date) date.textContent = new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
 </script>

@@ -17,10 +17,9 @@ const topicSuggestions = [
   <section class="calendar-view" data-calendar-root>
     <div class="calendar-intro content-centered">
       <p class="eyebrow">Planificación visual</p>
-      <h1>Un calendario de estudio de verdad, con tareas dentro de cada día</h1>
+      <h1>Un plan para avanzar.</h1>
       <p>
-        La idea aquí no es una lista larga, sino ver el mes como un calendario real. Seleccionas un día, escribes lo
-        que toca estudiar y vas marcando lo cumplido sin perder la visión global de las próximas semanas.
+        Hazle sitio al estudio. Organiza tus temas, programa repasos y marca cada pequeño paso que has cumplido.
       </p>
     </div>
 
@@ -419,6 +418,8 @@ const topicSuggestions = [
                 }"
                 type="button"
                 data-calendar-day="${day.dayKey}"
+                aria-label="${escapeHtml(fullDateFormatter.format(day.date))} · ${day.entries.length} ${day.entries.length === 1 ? "tarea" : "tareas"}"
+                aria-pressed="${day.isSelected}"
               >
                 <div class="calendar-day__header">
                   <span class="calendar-day__number">${day.dayNumber}</span>
@@ -546,7 +547,7 @@ const topicSuggestions = [
           ).length;
           monthSubtitleNode.textContent =
             pendingThisMonth > 0
-              ? `${pendingThisMonth} tareas pendientes dentro de este mes.`
+              ? `${pendingThisMonth} ${pendingThisMonth === 1 ? "tarea pendiente" : "tareas pendientes"} dentro de este mes.`
               : "Mes despejado por ahora. Buen momento para planificar con calma.";
         }
 
